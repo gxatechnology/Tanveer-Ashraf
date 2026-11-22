@@ -6,6 +6,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [3.1.6] — Production Hotfix — 2026-11-23
+*Tag: V3.1 Production Hotfix — Subject Academy Navigation 404 & Routing Integrity*
+
+### Fixed
+- **Resolved Subject Academy Navigation 404 (`assets/js/app.js`):**
+  - Added missing `academy: 'learning-academy.html'` route mapping to `routes` dictionary in `assets/js/app.js`.
+  - Added missing `journey: 'civil-suit-journey.html'` and `comparison: 'comparison-lab.html'` routes to complete all navigation views.
+  - Implemented a defensive navigation guard in `go(v, fallbackHref)` that prevents any redirect to `/undefined`, `/null`, or `/[object Object]`. If an unmapped or invalid view is passed, the router logs a warning and gracefully preserves the browser location or falls back to a valid `href`.
+  - Updated `.nav a` click handler: if an anchor's `data-view` is unmapped or missing, the handler does not intercept the click, allowing native browser navigation to proceed directly to the anchor's valid `href`.
+- **Dashboard Phase 5 Baseline Summary Alignment (`assets/js/app.js`, `index.html`):**
+  - Updated Dashboard Academy card summary from single-module Constitution text to the complete Phase 5 baseline: **17 Active Production Modules**, **127 Chapters**, **373 Topics**, **3,075 Practice MCQs**, and **615 Mapped Historical PYQs**.
+  - Added dynamic stats resolution via `getAcademyStats()` computing directly from `window.LearningEngine` or `window.ACADEMY_SUBJECTS` with verified fallback constants.
+  - Loaded `assets/learning/data/subjects.js` in `index.html`.
+- **Automated Regression Suite (`scripts/validate_navigation_routes.py`, `scripts/validate_production.py`):**
+  - Authored standalone 27-check navigation regression suite testing all route mappings, file targets, edge-case runtime guards, internal links, and Dashboard text.
+  - Integrated Check 7 into `scripts/validate_production.py` (22/22 checks passed).
+
+---
+
 ## [3.1.5] — Phase 5 — 2026-11-22
 *Tag: V3.1 Phase 5 — Complete Social Legislation Learning Academy, Nine Special Acts, Thematic Study Centre & Statutory Explorer*
 

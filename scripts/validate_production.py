@@ -168,6 +168,20 @@ def run_tests():
             break
     check("Branding portraits and emblem are 100% intact and uncorrupted", img_ok, "Image verification failed")
 
+    # 7. Navigation Routes & Guard Integrity (Anti-404 Hotfix Check)
+    app_js_text = open('assets/js/app.js', encoding='utf-8').read()
+    routes_match = re.search(r'const\s+routes\s*=\s*\{([^}]+)\}', app_js_text)
+    route_keys = []
+    if routes_match:
+        for item in routes_match.group(1).split(','):
+            if ':' in item:
+                route_keys.append(item.split(':')[0].strip())
+    
+    required_routes = ['home', 'academy', 'journey', 'comparison', 'arena', 'notes', 'practice', 'history', 'saved', 'exam', 'result', 'syllabus', 'about', 'bns', 'search']
+    all_routes_present = all(r in route_keys for r in required_routes)
+    has_nav_guard = 'DEFENSIVE NAVIGATION GUARD' in app_js_text and 'targetRoute' in app_js_text
+    check("Router in app.js maps all 15 navigation views with defensive guard", all_routes_present and has_nav_guard, f"Missing routes or guard: present={route_keys}")
+
     print("=" * 70)
     print(f"VALIDATION SUMMARY: {passes} PASSED, {failures} FAILED")
     print("=" * 70)

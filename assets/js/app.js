@@ -1,9 +1,46 @@
 'use strict';const Q=window.PCSJ_QUESTIONS,available=Q.filter(q=>q.text),byId=Object.fromEntries(Q.map(q=>[q.id,q])),years=[2012,2013,2015,2016,2018,2023],letters=['A','B','C','D'],$=id=>document.getElementById(id),el=$('content');
-const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const P=p=>p==='GK'?'General Knowledge':'Law';const fmt=n=>Number(n).toLocaleString('en-IN',{maximumFractionDigits:2});const storageKey='tanveer-pcsj-portal-v1';let state={saved:[],read:[],history:[],active:null};try{let s=JSON.parse(localStorage.getItem(storageKey)||'null');if(s)state={...state,...s}}catch(e){};if(!Array.isArray(state.history))state.history=[];const save=()=>{try{localStorage.setItem(storageKey,JSON.stringify(state));}catch(e){$('topStatus').textContent='Storage unavailable · Export results before closing'}};let view=document.body.dataset.page||'home',filter={year:'all',paper:'all',topic:'all',query:'',page:1,answers:true},mode='practice',result=null,clock=null;const eligible=available.filter(q=>q.eligible);const issueCount=Q.length-eligible.length;const topicList=p=>[...new Set(available.filter(q=>p==='all'||q.paper===p).map(q=>q.topic))].sort();const selectOptions=(arr,val)=>arr.map(([v,l])=>`<option value="${esc(v)}" ${String(v)===String(val)?'selected':''}>${esc(l)}</option>`).join('');const stat=(label,num,desc='')=>`<div class="card stat"><div class="muted">${esc(label)}</div><strong>${esc(num)}</strong><div class="caption">${esc(desc)}</div></div>`;const btn=(text,fn,cls='')=>`<button class="btn ${cls}" onclick="${fn}">${text}</button>`;const routes={home:'index.html',arena:'brain-arena.html',notes:'library.html',practice:'tests.html',history:'results.html',saved:'revision.html',exam:'exam.html',result:'review.html',syllabus:'syllabus.html',about:'about.html',bns:'bns.html',search:'search.html'};
-function go(v){if(state.active&&view==='exam'&&v!=='exam'&&v!=='result'){if(!confirm('Your test is in progress. Leave the screen? Your timer will continue.'))return;}
- if(v!==view){let params=new URLSearchParams();if(v==='notes'){for(let k of ['year','paper','topic','query','page'])params.set(k,filter[k]);params.set('answers',filter.answers?'1':'0')}if(v==='practice'){for(let k of ['kind','year','paper','topic','size','negative','timed'])params.set(k,testConfig[k])}if(v==='result'&&result)params.set('id',result.id);location.href=routes[v]+(params.size?'?'+params:'');return;}
- document.querySelectorAll('.nav a').forEach(b=>{b.classList.toggle('active',b.dataset.view===v);if(b.dataset.view===v)b.setAttribute('aria-current','page')});render();window.scrollTo(0,0)}
-document.querySelectorAll('.nav a').forEach(b=>b.onclick=e=>{e.preventDefault();go(b.dataset.view)});
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const P=p=>p==='GK'?'General Knowledge':'Law';const fmt=n=>Number(n).toLocaleString('en-IN',{maximumFractionDigits:2});const storageKey='tanveer-pcsj-portal-v1';let state={saved:[],read:[],history:[],active:null};try{let s=JSON.parse(localStorage.getItem(storageKey)||'null');if(s)state={...state,...s}}catch(e){};if(!Array.isArray(state.history))state.history=[];const save=()=>{try{localStorage.setItem(storageKey,JSON.stringify(state));}catch(e){$('topStatus').textContent='Storage unavailable · Export results before closing'}};let view=document.body.dataset.page||'home',filter={year:'all',paper:'all',topic:'all',query:'',page:1,answers:true},mode='practice',result=null,clock=null;const eligible=available.filter(q=>q.eligible);const issueCount=Q.length-eligible.length;const topicList=p=>[...new Set(available.filter(q=>p==='all'||q.paper===p).map(q=>q.topic))].sort();const selectOptions=(arr,val)=>arr.map(([v,l])=>`<option value="${esc(v)}" ${String(v)===String(val)?'selected':''}>${esc(l)}</option>`).join('');const stat=(label,num,desc='')=>`<div class="card stat"><div class="muted">${esc(label)}</div><strong>${esc(num)}</strong><div class="caption">${esc(desc)}</div></div>`;const btn=(text,fn,cls='')=>`<button class="btn ${cls}" onclick="${fn}">${text}</button>`;const routes={home:'index.html',academy:'learning-academy.html',journey:'civil-suit-journey.html',comparison:'comparison-lab.html',arena:'brain-arena.html',notes:'library.html',practice:'tests.html',history:'results.html',saved:'revision.html',exam:'exam.html',result:'review.html',syllabus:'syllabus.html',about:'about.html',bns:'bns.html',search:'search.html'};
+function go(v, fallbackHref){
+  if(state.active&&view==='exam'&&v!=='exam'&&v!=='result'){
+    if(!confirm('Your test is in progress. Leave the screen? Your timer will continue.'))return;
+  }
+  const targetRoute = routes[v] || fallbackHref;
+  // DEFENSIVE NAVIGATION GUARD: Never navigate to undefined, null, or invalid route
+  if(!targetRoute || targetRoute === 'undefined' || targetRoute === 'null' || typeof targetRoute !== 'string'){
+    console.warn('Navigation guard: Route not found for view:', v);
+    if(fallbackHref && typeof fallbackHref === 'string' && fallbackHref !== '#' && !fallbackHref.startsWith('javascript:') && fallbackHref !== 'undefined'){
+      location.href = fallbackHref;
+    }
+    return;
+  }
+  if(v!==view){
+    let params=new URLSearchParams();
+    if(v==='notes'){for(let k of ['year','paper','topic','query','page'])params.set(k,filter[k]);params.set('answers',filter.answers?'1':'0');}
+    if(v==='practice'){for(let k of ['kind','year','paper','topic','size','negative','timed'])params.set(k,testConfig[k]);}
+    if(v==='result'&&result)params.set('id',result.id);
+    location.href=targetRoute+(params.size?'?'+params:'');
+    return;
+  }
+  document.querySelectorAll('.nav a').forEach(b=>{b.classList.toggle('active',b.dataset.view===v);if(b.dataset.view===v)b.setAttribute('aria-current','page')});
+  render();
+  window.scrollTo(0,0);
+}
+document.querySelectorAll('.nav a').forEach(b=>{
+  b.onclick = e => {
+    const v = b.dataset.view;
+    const href = b.getAttribute('href');
+    // If route is not handled or data-view missing, do not intercept; allow valid native link navigation
+    if(!v || !routes[v]){
+      if(href && href !== '#' && !href.startsWith('javascript:')){
+        return; // Allow native browser navigation
+      }
+      e.preventDefault();
+      return;
+    }
+    e.preventDefault();
+    go(v, href);
+  };
+});
 function render(){clearInterval(clock);clock=null;const map={home,notes,practice,history,saved,exam,result:resultView,syllabus,about,bns:()=>window.LegalSearch.renderBNS(el),search:()=>window.LegalSearch.renderSearch(el)};(map[view]||home)()}
 function home(){
   let done = new Set(state.read).size;
@@ -52,6 +89,31 @@ function home(){
     `;
   }
 
+  // Compute Academy stats dynamically from Registry or Phase 5 verified baseline
+  const getAcademyStats = () => {
+    if (window.LearningEngine && typeof window.LearningEngine.getStats === 'function') {
+      return window.LearningEngine.getStats();
+    }
+    if (Array.isArray(window.ACADEMY_SUBJECTS)) {
+      const active = window.ACADEMY_SUBJECTS.filter(s => s && s.status === 'active');
+      return {
+        activeSubjects: active.length,
+        chapters: active.reduce((acc, s) => acc + (s.chaptersCount || 0), 0),
+        topics: active.reduce((acc, s) => acc + (s.topicsCount || 0), 0),
+        mcqs: active.reduce((acc, s) => acc + (s.mcqsCount || 0), 0),
+        pyqs: active.reduce((acc, s) => acc + (s.pyqsCount || 0), 0)
+      };
+    }
+    return {
+      activeSubjects: 17,
+      chapters: 127,
+      topics: 373,
+      mcqs: 3075,
+      pyqs: 615
+    };
+  };
+  const academyStats = getAcademyStats();
+
   el.innerHTML = `
     <div class="hero home-hero">
       <div class="hero-main">
@@ -84,13 +146,14 @@ function home(){
     <div class="card" style="margin-bottom: 24px; border: 2px solid #137d72; background: linear-gradient(135deg, #edf7f4 0%, #ffffff 100%); padding: 20px 24px;">
       <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
         <div>
-          <span class="badge" style="background: #142c46; color: #dfbf80; margin-bottom: 6px; display: inline-block;">NEW · ACADEMY V3.1</span>
+          <span class="badge" style="background: #142c46; color: #dfbf80; margin-bottom: 6px; display: inline-block;">NEW · ACADEMY V3.1 (PHASE 5 BASELINE)</span>
           <h2 style="font-family: Georgia, serif; font-size: 20px; color: #142c46; margin: 0 0 6px;">Subject-wise Judicial Learning Academy</h2>
-          <p style="margin: 0; color: #4a5c6e; font-size: 13.5px; max-width: 660px;">Systematic syllabus preparation across 30 curriculum subjects. Production active module: <strong>The Constitution of India</strong> (15 Chapters, 45 Topics, 480 Practice MCQs, 158 Historical PYQs).</p>
+          <p style="margin: 0; color: #4a5c6e; font-size: 13.5px; max-width: 660px;">Comprehensive syllabus preparation across Paper I (General Knowledge / Social Legislation) and Paper II (Law). <strong>${academyStats.activeSubjects} Active Production Modules</strong> (${academyStats.chapters} Chapters, ${academyStats.topics} Topics, ${fmt(academyStats.mcqs)} Practice MCQs, ${academyStats.pyqs} Mapped Historical PYQs).</p>
         </div>
         <div style="display: flex; gap: 10px; flex-wrap: wrap;">
           <a href="learning-academy.html" class="btn primary" style="text-decoration: none;">🏛️ Explore Academy</a>
           <a href="subject-study.html?subject=law-constitution" class="btn" style="background: #137d72; color: #fff; text-decoration: none; border-color: #137d72;">📖 Study Constitution</a>
+          <a href="civil-suit-journey.html" class="btn" style="background: #142c46; color: #dfbf80; text-decoration: none; border-color: #dfbf80;">⚖️ Civil Suit Journey</a>
         </div>
       </div>
     </div>
