@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_irwa2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow_irwa2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg_irwa2)"/>
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow_irwa2)"/>
+  <text x="400" y="46" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">IRWA 1986: ENFORCEMENT, POWERS &amp; PENALTIES</text>
+  <text x="400" y="64" fill="#dfbf80" font-family="sans-serif" font-size="11" text-anchor="middle">Section 5 Search &amp; Seizure • Section 6 Graded Penalties • Section 8 Cognizable &amp; Bailable</text>
+
+  <!-- Left: Section 5 Search & Seizure -->
+  <g transform="translate(40, 95)" filter="url(#shadow_irwa2)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">SEARCH &amp; SEIZURE (SECTION 5)</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Authorized Officer (Section 5(1))</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Any GAZETTED OFFICER authorized by the State Govt</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">may exercise powers within local limits of his jurisdiction.</text>
+
+    <rect x="20" y="115" width="300" height="110" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="135" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">POWERS OF GAZETTED OFFICER (S. 5):</text>
+    <text x="30" y="155" fill="#4a5568" font-family="sans-serif" font-size="10">1. Enter &amp; search any place where offence suspected.</text>
+    <text x="30" y="172" fill="#4a5568" font-family="sans-serif" font-size="10">2. Seize any advertisement or book/pamphlet/film.</text>
+    <text x="30" y="189" fill="#4a5568" font-family="sans-serif" font-size="10">3. Examine any record, register or document.</text>
+    <text x="30" y="206" fill="#a63b49" font-family="sans-serif" font-size="10" font-weight="bold">-> PRIVATE DWELLING: Search requires WARRANT!</text>
+
+    <text x="20" y="245" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Seizure Intimation to Magistrate</text>
+    <text x="25" y="265" fill="#4a5568" font-family="sans-serif" font-size="11">Officer seizing any article MUST inform the nearest</text>
+    <text x="25" y="280" fill="#4a5568" font-family="sans-serif" font-size="11">Magistrate and take his orders as to custody.</text>
+
+    <text x="20" y="305" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• CrPC Search Provisions Apply (S. 5(2))</text>
+    <text x="25" y="325" fill="#4a5568" font-family="sans-serif" font-size="11">Provisions of CrPC relating to search &amp; seizure apply.</text>
+
+    <rect x="20" y="342" width="300" height="24" rx="4" fill="#fff9ec"/>
+    <text x="170" y="358" fill="#b98a38" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: Private Dwelling Search Needs Warrant</text>
+  </g>
+
+  <!-- Right: Section 6 Penalties & Section 8 -->
+  <g transform="translate(420, 95)" filter="url(#shadow_irwa2)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">SECTION 6 GRADED PENALTIES</text>
+    
+    <rect x="20" y="55" width="300" height="115" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="30" y="75" fill="#a63b49" font-family="sans-serif" font-size="11" font-weight="bold">STATUTORY PENALTIES (SECTION 6):</text>
+    <text x="30" y="95" fill="#4a5568" font-family="sans-serif" font-size="10">• FIRST CONVICTION:</text>
+    <text x="35" y="110" fill="#4a5568" font-family="sans-serif" font-size="10">Imprisonment up to TWO (2) YEARS,</text>
+    <text x="35" y="125" fill="#4a5568" font-family="sans-serif" font-size="10">and fine up to TWO THOUSAND (Rs 2,000) RUPEES.</text>
+    <text x="30" y="142" fill="#4a5568" font-family="sans-serif" font-size="10">• SECOND OR SUBSEQUENT CONVICTION:</text>
+    <text x="35" y="157" fill="#4a5568" font-family="sans-serif" font-size="10">Imprisonment MINIMUM 6 MONTHS up to 5 YEARS,</text>
+    <text x="35" y="169" fill="#4a5568" font-family="sans-serif" font-size="9.5">and fine Rs 10,000 to Rs 1,00,000.</text>
+
+    <text x="20" y="185" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 7: Offences by Companies</text>
+    <text x="25" y="205" fill="#4a5568" font-family="sans-serif" font-size="11">Company as well as every person in charge and responsible</text>
+    <text x="25" y="220" fill="#4a5568" font-family="sans-serif" font-size="11">to the company deemed guilty unless lack of knowledge proved.</text>
+
+    <rect x="20" y="235" width="300" height="65" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="255" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">SECTION 8: CLASSIFICATION OF OFFENCES:</text>
+    <text x="30" y="275" fill="#4a5568" font-family="sans-serif" font-size="10">• Offence under this Act is COGNIZABLE.</text>
+    <text x="30" y="290" fill="#4a5568" font-family="sans-serif" font-size="10">• Offence under this Act is BAILABLE.</text>
+
+    <rect x="20" y="325" width="300" height="38" rx="4" fill="#fff9ec"/>
+    <text x="170" y="343" fill="#b98a38" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: IRWA Offences are Cognizable but BAILABLE</text>
+  </g>
+</svg>

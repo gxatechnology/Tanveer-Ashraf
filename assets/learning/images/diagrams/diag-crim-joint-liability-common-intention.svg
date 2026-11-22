@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Joint Liability: Common Intention vs Common Object</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Section 3(5) BNS (S. 34 IPC) versus Section 190 BNS (S. 149 IPC)</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">CRIMINAL LAW BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(50, 20)">
+    <rect x="0" y="0" width="320" height="360" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="320" height="40" rx="8" fill="#142c46"/>
+    <text x="160" y="26" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80">COMMON INTENTION</text>
+    <text x="160" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">BNS Section 3(5) / IPC Section 34</text>
+    
+    <text x="20" y="90" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Core Distinctions:</text>
+    <text x="20" y="115" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Minimum persons: Two (2) or more</text>
+    <text x="20" y="140" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Prior meeting of minds (pre-arranged plan)</text>
+    <text x="20" y="165" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Active physical participation essential</text>
+    <text x="20" y="190" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Creates rule of evidence, not substantive offence</text>
+    <text x="20" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Same intention is NOT common intention</text>
+    
+    <rect x="15" y="240" width="290" height="90" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="25" y="260" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">Landmark Precedents:</text>
+    <text x="25" y="280" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">• Barendra Kumar Ghosh (Post Master Case, 1925)</text>
+    <text x="25" y="300" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">• Mahbub Shah v. Emperor (Indus River, 1945)</text>
+    <text x="25" y="320" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">• Pandurang v. State of Hyderabad (1955)</text>
+
+    <!-- Column 2 -->
+    <rect x="360" y="0" width="320" height="360" rx="8" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="360" y="0" width="320" height="40" rx="8" fill="#137d72"/>
+    <text x="520" y="26" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#ffffff">COMMON OBJECT</text>
+    <text x="520" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">BNS Section 190 / IPC Section 149</text>
+    
+    <text x="380" y="90" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Core Distinctions:</text>
+    <text x="380" y="115" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Minimum persons: Five (5) or more</text>
+    <text x="380" y="140" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Common object within 5 heads of S. 189</text>
+    <text x="380" y="165" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Membership of unlawful assembly suffices</text>
+    <text x="380" y="190" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Creates a specific, substantive penal offence</text>
+    <text x="380" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Knowledge of likely offences committed in object</text>
+    
+    <rect x="375" y="240" width="290" height="90" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="385" y="260" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#137d72">Landmark Precedents:</text>
+    <text x="385" y="280" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">• Mizaji v. State of UP (AIR 1959 SC 572)</text>
+    <text x="385" y="300" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">• Allauddin Mian v. State of Bihar (1989)</text>
+    <text x="385" y="320" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">• Charan Singh v. State of UP (2004)</text>
+  </g>
+
+  </g>
+</svg>

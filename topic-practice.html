@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142c46">
+  <meta name="description" content="Interactive MCQ Practice Engine — UP PCS-J Judicial Services Preparation">
+  <title>Practice Engine | Judicial Prep</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/learning/css/academy.css">
+</head>
+<body data-page="practice">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div><b>Judicial Prep</b><small>UP PCS-J · 2026–27</small></div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="learning-academy.html" data-view="academy" class="active"><span aria-hidden="true">🏛️</span>Subject Academy</a>
+        <a href="civil-suit-journey.html" data-view="journey"><span aria-hidden="true">⚖️</span>Civil Suit Journey</a>
+        <a href="comparison-lab.html" data-view="comparison"><span aria-hidden="true">⚖️</span>Comparison Lab</a>
+        <a href="brain-arena.html" data-view="arena"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results &amp; Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus &amp; Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div><small>Designed &amp; developed by</small><b>Tauqeer Ashraf</b></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div>
+          <div class="top-title">Examination Practice Engine</div>
+          <small>Tanveer Ashraf · Active Recall, Statutory Provisions &amp; Option Breakdown</small>
+        </div>
+        <div class="top-right">
+          <small id="topStatus">Interactive Practice Mode</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="practice-content">
+        <!-- Practice Engine Mount Container -->
+        <div id="practice-mount">
+          <p style="padding: 30px; text-align: center; color: #607387;">Initializing practice session...</p>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        Judicial Prep · Designed for Tanveer Ashraf by Tauqeer Ashraf · 
+        <a href="about.html">Independent preparation portal</a>
+      </footer>
+    </main>
+  </div>
+
+  <noscript>Please enable JavaScript to use the practice test engine.</noscript>
+
+  <!-- Data Modules -->
+  <script src="assets/data/questions.js"></script>
+  <script src="assets/learning/data/subjects.js"></script>
+
+  <!-- Constitution Data -->
+  <script src="assets/learning/data/constitution/constitution-chapters.js"></script>
+  <script src="assets/learning/data/constitution/constitution-topics.js"></script>
+  <script src="assets/learning/data/constitution/constitution-mcqs.js"></script>
+  <script src="assets/learning/data/constitution/constitution-pyq-mapping.js"></script>
+
+  <!-- Jurisprudence Data -->
+  <script src="assets/learning/data/jurisprudence/jurisprudence-chapters.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-topics.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-mcqs.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-pyq-mapping.js"></script>
+
+  <!-- Contract Law Data -->
+  <script src="assets/learning/data/contract/contract-chapters.js"></script>
+  <script src="assets/learning/data/contract/contract-topics.js"></script>
+  <script src="assets/learning/data/contract/contract-mcqs.js"></script>
+  <script src="assets/learning/data/contract/contract-pyq-mapping.js"></script>
+
+  <!-- Transfer of Property Act Data -->
+  <script src="assets/learning/data/tpa/tpa-chapters.js"></script>
+  <script src="assets/learning/data/tpa/tpa-topics.js"></script>
+  <script src="assets/learning/data/tpa/tpa-mcqs.js"></script>
+  <script src="assets/learning/data/tpa/tpa-pyq-mapping.js"></script>
+
+  <!-- Criminal Law Data -->
+  <script src="assets/learning/data/criminal/criminal-chapters.js"></script>
+  <script src="assets/learning/data/criminal/criminal-topics.js"></script>
+  <script src="assets/learning/data/criminal/criminal-mcqs.js"></script>
+  <script src="assets/learning/data/criminal/criminal-pyq-mapping.js"></script>
+
+  <!-- Criminal Procedure Data -->
+  <script src="assets/learning/data/crpc/crpc-chapters.js"></script>
+  <script src="assets/learning/data/crpc/crpc-topics.js"></script>
+  <script src="assets/learning/data/crpc/crpc-mcqs.js"></script>
+  <script src="assets/learning/data/crpc/crpc-pyq-mapping.js"></script>
+
+  <!-- Law of Evidence Data -->
+  <script src="assets/learning/data/evidence/evidence-chapters.js"></script>
+  <script src="assets/learning/data/evidence/evidence-topics.js"></script>
+  <script src="assets/learning/data/evidence/evidence-mcqs.js"></script>
+  <script src="assets/learning/data/evidence/evidence-pyq-mapping.js"></script>
+
+  <!-- Civil Procedure Code (CPC 1908) Data -->
+  <script src="assets/learning/data/cpc/cpc-chapters.js"></script>
+  <script src="assets/learning/data/cpc/cpc-topics.js"></script>
+  <script src="assets/learning/data/cpc/cpc-sections-orders-rules.js"></script>
+  <script src="assets/learning/data/cpc/cpc-mcqs.js"></script>
+  <script src="assets/learning/data/cpc/cpc-pyq-mapping.js"></script>
+  <!-- Social Legislation (Paper I — 9 Acts) Data -->
+  <script src="assets/learning/data/social/social-chapters.js"></script>
+  <script src="assets/learning/data/social/social-topics.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part1.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part2.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part3.js"></script>
+  <script src="assets/learning/data/social/social-mcqs.js"></script>
+  <script src="assets/learning/data/social/social-pyq-mapping.js"></script>
+
+
+  <!-- Statutory Comparison Dataset -->
+  <script src="assets/learning/data/comparison/criminal-statutory-comparisons.js"></script>
+  
+  <!-- Logic Engines -->
+  <script src="assets/learning/js/learning-storage.js"></script>
+  <script src="assets/learning/js/learning-engine.js"></script>
+  <script src="assets/learning/js/practice-engine.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const subjectId = urlParams.get('subject') || 'law-constitution';
+      const chapterId = urlParams.get('chapter');
+      const topicId = urlParams.get('topic');
+      const mode = urlParams.get('mode') || 'learn';
+      const limit = parseInt(urlParams.get('limit') || '0', 10);
+
+      const subject = LearningEngine.getSubjectById(subjectId) || { name: 'Indian Constitution' };
+      document.title = `${subject.name} Practice | Judicial Prep`;
+
+      const mount = document.getElementById('practice-mount');
+
+      PracticeEngine.init(mount, {
+        subjectId: subjectId,
+        chapterId: chapterId,
+        topicId: topicId,
+        mode: mode,
+        limit: limit
+      });
+    });
+  </script>
+</body>
+</html>

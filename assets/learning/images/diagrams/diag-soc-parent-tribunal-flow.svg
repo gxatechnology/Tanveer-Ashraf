@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_par1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow_par1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg_par1)"/>
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow_par1)"/>
+  <text x="400" y="46" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">MAINTENANCE &amp; WELFARE OF PARENTS ACT, 2007</text>
+  <text x="400" y="64" fill="#dfbf80" font-family="sans-serif" font-size="11" text-anchor="middle">Tribunal Adjudication Architecture • Summary Proceedings • SDO &amp; DM Jurisdiction</text>
+
+  <!-- Left: Application & Adjudication -->
+  <g transform="translate(40, 95)" filter="url(#shadow_par1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">MAINTENANCE TRIBUNAL (SDO)</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 4: Eligibility &amp; Entitlement</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">• Senior citizen (60+ years) or parent unable to maintain</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">themselves from own earning or property.</text>
+    <text x="25" y="115" fill="#4a5568" font-family="sans-serif" font-size="11">• Against children (major) or childless relative inheriting.</text>
+
+    <text x="20" y="140" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 5: Application Procedure</text>
+    <text x="25" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">• Filed by senior citizen/parent, authorized NGO, or suo motu.</text>
+    <text x="25" y="175" fill="#4a5568" font-family="sans-serif" font-size="11">• Interim maintenance permissible during inquiry.</text>
+
+    <rect x="20" y="195" width="300" height="75" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="215" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">CONSTITUTION &amp; PROCEDURE (S. 7 &amp; 8):</text>
+    <text x="30" y="235" fill="#4a5568" font-family="sans-serif" font-size="10">• Presided by Sub-Divisional Officer (SDO).</text>
+    <text x="30" y="250" fill="#4a5568" font-family="sans-serif" font-size="10">• Summary procedure under CrPC; Civil Court powers.</text>
+    <text x="30" y="265" fill="#4a5568" font-family="sans-serif" font-size="10">• Conciliation referral to Conciliation Officer (S. 6).</text>
+
+    <text x="20" y="295" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 9: Maintenance Order</text>
+    <text x="25" y="315" fill="#4a5568" font-family="sans-serif" font-size="11">Monthly allowance determined based on standard of living</text>
+    <text x="25" y="330" fill="#4a5568" font-family="sans-serif" font-size="11">(Statutory cap of Rs 10,000 originally in Section 9(2)).</text>
+    <rect x="20" y="342" width="300" height="24" rx="4" fill="#fff9ec"/>
+    <text x="170" y="358" fill="#b98a38" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Point: SDO is Tribunal, DM is Appellate</text>
+  </g>
+
+  <!-- Right: Appeals & Bar of Advocates -->
+  <g transform="translate(420, 95)" filter="url(#shadow_par1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">APPELLATE TRIBUNAL &amp; SPECIAL BARS</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 15: Appellate Tribunal (DM)</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Constituted in each district, presided over by</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">the DISTRICT MAGISTRATE (DM / Collector).</text>
+
+    <text x="20" y="125" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 16: Right to Appeal</text>
+    <text x="25" y="145" fill="#4a5568" font-family="sans-serif" font-size="11">• Period of limitation: 60 DAYS from date of order.</text>
+    <text x="25" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">• Statute gives right of appeal to senior citizen/parent.</text>
+    <text x="25" y="175" fill="#4a5568" font-family="sans-serif" font-size="11">• High Courts have read in children's appeal rights.</text>
+
+    <rect x="20" y="195" width="300" height="75" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="30" y="215" fill="#a63b49" font-family="sans-serif" font-size="11" font-weight="bold">SECTION 17: BAR ON LEGAL PRACTITIONERS:</text>
+    <text x="30" y="235" fill="#4a5568" font-family="sans-serif" font-size="10">• Advocates CANNOT represent any party as of right.</text>
+    <text x="30" y="250" fill="#4a5568" font-family="sans-serif" font-size="10">• Senior citizen may be assisted by Maintenance Officer.</text>
+    <text x="30" y="265" fill="#4a5568" font-family="sans-serif" font-size="10">• Paramjit Kumar Saroya v. UOI read down bar for complex cases.</text>
+
+    <text x="20" y="295" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 14: Enforcement of Order</text>
+    <text x="25" y="315" fill="#4a5568" font-family="sans-serif" font-size="11">Enforced in same manner as CrPC Section 125;</text>
+    <text x="25" y="330" fill="#4a5568" font-family="sans-serif" font-size="11">warrant for levying amount + 1 month imprisonment.</text>
+    <rect x="20" y="342" width="300" height="24" rx="4" fill="#edf7f4"/>
+    <text x="170" y="358" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: Limitation for Appeal is 60 Days (S. 16)</text>
+  </g>
+</svg>

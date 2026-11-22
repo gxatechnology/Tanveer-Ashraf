@@ -59,7 +59,8 @@ function home(){
         <h1>Discipline today.<br><em>Justice tomorrow.</em></h1>
         <p>A dedicated learning space for Tanveer Ashraf. Master the previous papers, practise with purpose and build confidence for the UP Judicial Services examination.</p>
         <div class="actions">
-          <a class="btn gold" href="brain-arena.html">⚡ Legal Brain Arena</a>
+          <a class="btn gold" href="learning-academy.html">🏛️ Subject Academy</a>
+          <a class="btn" style="background: rgba(223, 191, 128, 0.25); color: #dfbf80; border: 1px solid #dfbf80;" href="brain-arena.html">⚡ Legal Brain Arena</a>
           ${btn('Explore question library','openNotes()','')}
           <a class="btn ghost" href="bns.html">BNS · 358 sections</a>
           <a class="btn ghost" href="search.html">Smart search</a>
@@ -80,6 +81,20 @@ function home(){
 
     ${continueHtml}
 
+    <div class="card" style="margin-bottom: 24px; border: 2px solid #137d72; background: linear-gradient(135deg, #edf7f4 0%, #ffffff 100%); padding: 20px 24px;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+        <div>
+          <span class="badge" style="background: #142c46; color: #dfbf80; margin-bottom: 6px; display: inline-block;">NEW · ACADEMY V3.1</span>
+          <h2 style="font-family: Georgia, serif; font-size: 20px; color: #142c46; margin: 0 0 6px;">Subject-wise Judicial Learning Academy</h2>
+          <p style="margin: 0; color: #4a5c6e; font-size: 13.5px; max-width: 660px;">Systematic syllabus preparation across 30 curriculum subjects. Production active module: <strong>The Constitution of India</strong> (15 Chapters, 45 Topics, 480 Practice MCQs, 158 Historical PYQs).</p>
+        </div>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <a href="learning-academy.html" class="btn primary" style="text-decoration: none;">🏛️ Explore Academy</a>
+          <a href="subject-study.html?subject=law-constitution" class="btn" style="background: #137d72; color: #fff; text-decoration: none; border-color: #137d72;">📖 Study Constitution</a>
+        </div>
+      </div>
+    </div>
+
     <div class="grid stats">
       ${stat('Previous-year questions', fmt(available.length), 'English notes · 2012–2023')}
       ${stat('Test-ready questions', fmt(eligible.length), 'Scorable imported answer keys')}
@@ -92,6 +107,8 @@ function home(){
       <span class="caption">Direct 1-click access</span>
     </div>
     <div class="quick-actions-grid">
+      <a href="learning-academy.html" class="quick-action-btn" style="border-color: #137d72; background: #edf7f4;"><span>🏛️</span> Subject Academy</a>
+      <a href="subject-study.html?subject=law-constitution" class="quick-action-btn"><span>📖</span> Constitution Study</a>
       <a href="tests.html?kind=quick&size=10" class="quick-action-btn"><span>⚡</span> 10-Question Test</a>
       <a href="tests.html?kind=quick&size=25" class="quick-action-btn"><span>⚡</span> 25-Question Test</a>
       <a href="bns.html" class="quick-action-btn"><span>§</span> BNS 358 Sections</a>
@@ -427,20 +444,23 @@ function exportProgress(){
   try { arenaData = JSON.parse(localStorage.getItem('tanveer-arena-v1') || '{}'); } catch(e){}
   let bnsBookmarks = [];
   try { bnsBookmarks = JSON.parse(localStorage.getItem('tanveer-bns-bookmarks-v1') || '[]'); } catch(e){}
+  let learningData = {};
+  try { learningData = JSON.parse(localStorage.getItem('tanveer-learning-v1') || '{}'); } catch(e){}
 
   const backup = {
-    version: "3.0.0",
+    version: "3.1.0",
     exportDate: new Date().toISOString(),
     system: "Tanveer Ashraf — Judicial Prep 2026–27",
     portal: state,
     arena: arenaData,
-    bnsBookmarks: bnsBookmarks
+    bnsBookmarks: bnsBookmarks,
+    learning: learningData
   };
 
   const b = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(b);
-  a.download = `tanveer-judicial-prep-backup-v3.0.0-${new Date().toISOString().slice(0,10)}.json`;
+  a.download = `tanveer-judicial-prep-backup-v3.1.0-${new Date().toISOString().slice(0,10)}.json`;
   a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
@@ -460,14 +480,16 @@ async function importProgress(e){
     const testCount = portal.history.length;
     const savedCount = portal.saved.length;
     const xpCount = data.arena ? (data.arena.xp || 0) : 0;
+    const learningTopics = data.learning && data.learning.completedTopics ? Object.keys(data.learning.completedTopics).length : 0;
     const backupDate = data.exportDate ? new Date(data.exportDate).toLocaleString() : "Unknown date";
 
     const proceed = confirm(
-      `Backup File Verified:
+      `Backup File Verified (v${data.version || '3.0.0'}):
 • Export Date: ${backupDate}
 • Test Results: ${testCount}
 • Saved Questions: ${savedCount}
 • Arena XP: ${xpCount}
+• Academy Completed Topics: ${learningTopics}
 
 Do you want to restore this data? (Existing records will be safely updated).`
     );
@@ -487,15 +509,18 @@ Do you want to restore this data? (Existing records will be safely updated).`
     if (Array.isArray(data.bnsBookmarks)) {
       localStorage.setItem('tanveer-bns-bookmarks-v1', JSON.stringify(data.bnsBookmarks));
     }
+    if (data.learning && typeof data.learning === 'object') {
+      localStorage.setItem('tanveer-learning-v1', JSON.stringify(data.learning));
+    }
 
-    alert("Backup successfully restored! Study records and arena progress updated.");
+    alert("Backup successfully restored! Study records, academy progress, and arena stats updated.");
     history();
   } catch(err) {
     alert("Error restoring backup: " + (err.message || "File could not be parsed."));
   }
 }
 
-function syllabus(){el.innerHTML=`<div class="eyebrow">Exam framework</div><h1>Syllabus & study resources</h1><p class="muted">Preliminary examination · based on the supplied syllabus</p><div class="grid syllabus-grid section"><div class="card"><div class="eyebrow">Paper I</div><h2>General Knowledge</h2><div class="big-mark">150 <small>marks · 2 hours</small></div><p>History of India and Indian culture; Indian geography; polity; current national issues; social relevance; Indian economy; international affairs and institutions; science, technology, communications and space.</p><h3>Social legislation</h3><ul><li>Rights of Persons with Disabilities Act, 2016</li><li>Maintenance and Welfare of Parents and Senior Citizens Act, 2007</li><li>Dowry Prohibition Act, 1961</li><li>Protection of Women from Domestic Violence Act, 2005</li><li>Sexual Harassment of Women at Workplace Act, 2013</li><li>PCPNDT Act, 1994</li><li>Medical Termination of Pregnancy Act, 1971</li><li>Indecent Representation of Women (Prohibition) Act, 1986</li><li>Protection of Children from Sexual Offences Act, 2012</li></ul>${btn('Study GK',"openNotes('all','GK')",'primary')}</div><div class="card"><div class="eyebrow">Paper II</div><h2>Law</h2><div class="big-mark">300 <small>marks · 2 hours</small></div><ul><li>Jurisprudence</li><li>International organisations and current international affairs</li><li>Indian Constitution</li><li>Transfer of Property Act</li><li>Indian Evidence Act, 1872 / Bharatiya Sakshya Adhiniyam, 2023</li><li>Indian Penal Code, 1860 / Bharatiya Nyaya Sanhita, 2023</li><li>Civil Procedure Code</li><li>Criminal Procedure Code, 1973 / Bharatiya Nagarik Suraksha Sanhita, 2023</li><li>Law of Contract</li></ul><p class="muted">Previous-year questions retain the statutes in use when the papers were held. Study the new criminal laws separately; the PYQ bank is not a complete current-law course.</p>${btn('Study Law',"openNotes('all','LAW')",'primary')} <a class="btn" href="bns.html">Study BNS sections</a></div></div><div class="card section"><h2>English PYQ notes</h2><p class="muted">Download the supplied chronological study edition, with previous-year answers and options.</p><div class="actions"><a class="btn primary" href="resources/english-pyq-notes.pdf" download>Download PDF notes</a><a class="btn" href="resources/english-pyq-notes.pdf" target="_blank" rel="noopener">Read PDF</a></div>${dataNotice()}</div>`}
+function syllabus(){el.innerHTML=`<div class="eyebrow">Exam framework</div><h1>Syllabus & study resources</h1><p class="muted">Preliminary examination · based on the supplied syllabus</p><div class="card" style="margin-bottom: 24px; border: 2px solid #137d72; background: #edf7f4; padding: 20px 24px;"><div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;"><div><span class="badge" style="background: #142c46; color: #dfbf80; margin-bottom: 6px; display: inline-block;">STRUCTURED ACADEMY</span><h3 style="font-family: Georgia, serif; font-size: 19px; color: #142c46; margin: 0 0 6px;">Subject-wise Judicial Learning Academy</h3><p style="margin: 0; color: #334455; font-size: 13.5px;">All 30 UP PCS-J curriculum subjects structured systematically. Active module: <strong>The Constitution of India</strong> (15 Chapters, 45 Topics, 480 Practice MCQs, 158 Historical PYQs).</p></div><div style="display: flex; gap: 8px; flex-wrap: wrap;"><a href="learning-academy.html" class="btn primary" style="text-decoration: none;">🏛️ Open Academy Hub</a><a href="subject-study.html?subject=law-constitution" class="btn" style="background: #137d72; color: #fff; text-decoration: none; border-color: #137d72;">📖 Study Constitution</a></div></div></div><div class="grid syllabus-grid section"><div class="card"><div class="eyebrow">Paper I</div><h2>General Knowledge</h2><div class="big-mark">150 <small>marks · 2 hours</small></div><p>History of India and Indian culture; Indian geography; polity; current national issues; social relevance; Indian economy; international affairs and institutions; science, technology, communications and space.</p><h3>Social legislation</h3><ul><li>Rights of Persons with Disabilities Act, 2016</li><li>Maintenance and Welfare of Parents and Senior Citizens Act, 2007</li><li>Dowry Prohibition Act, 1961</li><li>Protection of Women from Domestic Violence Act, 2005</li><li>Sexual Harassment of Women at Workplace Act, 2013</li><li>PCPNDT Act, 1994</li><li>Medical Termination of Pregnancy Act, 1971</li><li>Indecent Representation of Women (Prohibition) Act, 1986</li><li>Protection of Children from Sexual Offences Act, 2012</li></ul>${btn('Study GK',"openNotes('all','GK')",'primary')}</div><div class="card"><div class="eyebrow">Paper II</div><h2>Law</h2><div class="big-mark">300 <small>marks · 2 hours</small></div><ul><li>Jurisprudence</li><li>International organisations and current international affairs</li><li>Indian Constitution</li><li>Transfer of Property Act</li><li>Indian Evidence Act, 1872 / Bharatiya Sakshya Adhiniyam, 2023</li><li>Indian Penal Code, 1860 / Bharatiya Nyaya Sanhita, 2023</li><li>Civil Procedure Code</li><li>Criminal Procedure Code, 1973 / Bharatiya Nagarik Suraksha Sanhita, 2023</li><li>Law of Contract</li></ul><p class="muted">Previous-year questions retain the statutes in use when the papers were held. Study the new criminal laws separately; the PYQ bank is not a complete current-law course.</p>${btn('Study Law',"openNotes('all','LAW')",'primary')} <a class="btn" href="bns.html">Study BNS sections</a></div></div><div class="card section"><h2>English PYQ notes</h2><p class="muted">Download the supplied chronological study edition, with previous-year answers and options.</p><div class="actions"><a class="btn primary" href="resources/english-pyq-notes.pdf" download>Download PDF notes</a><a class="btn" href="resources/english-pyq-notes.pdf" target="_blank" rel="noopener">Read PDF</a></div>${dataNotice()}</div>`}
 
 function about(){el.innerHTML=`<div class="eyebrow">A personal initiative</div><h1>Built for the journey ahead.</h1><p class="muted">An independent, dedicated workspace for judicial services preparation.</p><div class="people-grid section"><article class="card person"><div class="person-image person-tanveer"><img src="assets/images/tanveer.webp" alt="Portrait of Tanveer Ashraf"></div><div class="person-body"><div class="eyebrow">Created for</div><h2>Tanveer Ashraf</h2><p>Personal learning and examination workspace for UP PCS-J. A focused environment to read, practise, review and measure progress.</p></div></article><article class="card person"><div class="person-image person-tauqeer"><img src="assets/images/tauqeer.webp" alt="Portrait of Tauqeer Ashraf"></div><div class="person-body"><div class="eyebrow">Designed & developed by</div><h2>Tauqeer Ashraf</h2><p>A personal preparation initiative built for his elder brother, bringing previous-year questions and exam practice together in one organised portal.</p></div></article></div><div class="card section"><h2>Our purpose</h2><p>Study consistently. Practise deliberately. Learn from every attempt.</p><p class="muted">This is a personal educational project, not an official UPPSC or UPSC website. The scales and courthouse mark are an original decorative emblem. Study progress and test results stay in your browser. No server account or cloud synchronisation is configured.</p></div>${dataNotice()}`}
 const params=new URLSearchParams(location.search);

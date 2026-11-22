@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Arrest Safeguards, Handcuff Rules &amp; The 24-Hour Rule</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Notice of appearance, D.K. Basu guidelines, and Section 43(3) limits</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">PROCEDURAL SAFEGUARDS</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(40, 20)">
+    <rect x="0" y="0" width="720" height="40" rx="6" fill="#142c46"/>
+    <text x="360" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80">ARREST SAFEGUARDS &amp; RIGHTS OF ARRESTED PERSONS</text>
+
+    <!-- Box 1 -->
+    <rect x="0" y="55" width="345" height="140" rx="6" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <text x="20" y="80" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#137d72">1. Notice of Appearance (S. 35 BNSS / S. 41A)</text>
+    <text x="20" y="105" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• In offences punishable with up to 7 years</text>
+    <text x="20" y="122" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Notice of appearance mandatory; arrest only if reasons recorded</text>
+    <text x="20" y="140" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• For offences under 3 years: DSP prior approval required if</text>
+    <text x="30" y="155" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">accused is aged over 60 years or infirm (BNSS S. 35(7))</text>
+    <text x="20" y="175" font-family="system-ui, sans-serif" font-size="10" fill="#065f46">Arnesh Kumar v. State of Bihar (2014) guidelines codified.</text>
+
+    <!-- Box 2 -->
+    <rect x="375" y="55" width="345" height="140" rx="6" fill="#ffffff" stroke="#8c2432" stroke-width="2" filter="url(#shadow)"/>
+    <text x="395" y="80" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#8c2432">2. Handcuff Regulation (S. 43(3) BNSS)</text>
+    <text x="395" y="105" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Handcuffs allowed ONLY for habitual offenders or</text>
+    <text x="395" y="122" font-family="system-ui, sans-serif" font-size="10" fill="#334155">heinous crimes (Terrorism, Murder, Rape, Acid attack,</text>
+    <text x="395" y="140" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Organised crime, Counterfeiting, or Escaping custody)</text>
+    <text x="395" y="160" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b">Prem Shankar Shukla &amp; Citizens for Democracy precedent</text>
+    <text x="395" y="175" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Codified with statutory exceptions in Section 43(3) BNSS.</text>
+
+    <!-- Box 3 -->
+    <rect x="0" y="210" width="345" height="140" rx="6" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <text x="20" y="235" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">3. The 24-Hour Rule (S. 58 BNSS / S. 57 CrPC)</text>
+    <text x="20" y="260" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• No police officer shall detain arrestee > 24 hours</text>
+    <text x="20" y="278" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Exclusive of journey time to nearest Magistrate</text>
+    <text x="20" y="296" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Inviolable constitutional guarantee under Art 22(2)</text>
+    <text x="20" y="316" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Continued detention requires judicial order (S. 187)</text>
+    <text x="20" y="335" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Non-compliance renders detention illegal.</text>
+
+    <!-- Box 4 -->
+    <rect x="375" y="210" width="345" height="140" rx="6" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <text x="395" y="235" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">4. Mandatory Rights (D.K. Basu Guidelines)</text>
+    <text x="395" y="260" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Right to know grounds of arrest &amp; bailability (S. 47)</text>
+    <text x="395" y="278" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Right to inform friend/relative immediately (S. 48)</text>
+    <text x="395" y="296" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Mandatory medical exam by medical officer (S. 53)</text>
+    <text x="395" y="316" font-family="system-ui, sans-serif" font-size="10" fill="#334155">• Right to consult advocate during interrogation (S. 38)</text>
+    <text x="395" y="335" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Designated Police Officer in every district (S. 37 BNSS).</text>
+  </g>
+
+  </g>
+</svg>

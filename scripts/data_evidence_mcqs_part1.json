@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "mcq-evi-01-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "On which date did the Bharatiya Sakshya Adhiniyam, 2023 (BSA) come into force across India?",
+    "options": [
+      "1 July 2024",
+      "1 January 2024",
+      "15 August 2024",
+      "26 January 2024"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Bharatiya Sakshya Adhiniyam, 2023 came into force on 1 July 2024 via MHA Notification S.O. 849(E).",
+    "optionBreakdown": {
+      "A": "Correct; 1 July 2024 is the statutory commencement date.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 1(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall commencement date of BSA 2023.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "Under Section 1(2) BSA (Section 1 IEA), to which of the following does the Bharatiya Sakshya Adhiniyam, 2023 NOT apply?",
+    "options": [
+      "Affidavits presented to any Court or officer, nor to proceedings before an arbitrator",
+      "All judicial proceedings in or before the Supreme Court",
+      "Courts of Session and High Courts",
+      "Courts Martial convened under the Army Act"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 1(2) BSA / S. 1 IEA expressly states that it applies to all judicial proceedings, BUT NOT to affidavits presented to any Court or officer, nor to proceedings before an arbitrator.",
+    "optionBreakdown": {
+      "A": "Correct; does not apply to affidavits or arbitration proceedings.",
+      "B": "Applies to judicial proceedings in courts.",
+      "C": "Applies to regular courts.",
+      "D": "Applies to Courts Martial unless under Navy/Air Force special clauses."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 1(2) / IEA S. 1",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master statutory non-applicability of Evidence Act to affidavits and arbitration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "How is 'Court' defined under Section 2(1)(a) BSA (Section 3 IEA)?",
+    "options": [
+      "Includes all Judges and Magistrates, and all persons, except arbitrators, legally authorised to take evidence",
+      "Includes all administrative tribunals",
+      "Includes police officers interrogating suspects",
+      "Includes mediators appointed under private agreement"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(a) BSA / S. 3 IEA defines 'Court': includes all Judges and Magistrates, and all persons, except arbitrators, legally authorised to take evidence.",
+    "optionBreakdown": {
+      "A": "Correct; all Judges, Magistrates and persons authorized to take evidence, except arbitrators.",
+      "B": "Tribunals not bound unless statute directs.",
+      "C": "Police cannot take judicial evidence.",
+      "D": "Mediators cannot take evidence."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(a) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall statutory definition of 'Court'.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "How is 'Fact' defined under Section 2(1)(f) BSA (Section 3 IEA)?",
+    "options": [
+      "(1) Any thing, state of things, or relation of things, capable of being perceived by the senses (physical fact); and (2) Any mental condition of which any person is conscious (psychological fact)",
+      "Only physical tangible objects that can be weighed",
+      "Only written documents signed by an advocate",
+      "Only facts recorded on video"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(f) BSA / S. 3 IEA classifies facts into physical facts (perceived by senses) and psychological facts (mental condition, e.g. intention, good faith).",
+    "optionBreakdown": {
+      "A": "Correct; physical and psychological facts.",
+      "B": "Too narrow; mental conditions are also facts.",
+      "C": "Documents are only one form of evidence.",
+      "D": "Too narrow."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(f) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define physical and psychological facts.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "Which of the following is a 'Psychological Fact' under Section 2(1)(f) BSA?",
+    "options": [
+      "That a man has a certain intention, or acted in good faith, or holds a certain opinion",
+      "That there are certain objects arranged in a certain order in a certain place",
+      "That a man heard or saw something",
+      "That a man said certain words"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Mental condition of which a person is conscious (intention, malice, fraud, good faith) is a psychological fact; external objects/sounds are physical facts.",
+    "optionBreakdown": {
+      "A": "Correct; intention and good faith are psychological facts.",
+      "B": "Physical fact.",
+      "C": "Physical fact.",
+      "D": "Physical fact."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 2(1)(f) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish physical from psychological facts.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "How is 'Fact in Issue' defined under Section 2(1)(g) BSA (Section 3 IEA)?",
+    "options": [
+      "Any fact from which, either by itself or in connection with other facts, the existence, non-existence, nature or extent of any right, liability or disability asserted or denied in any suit or proceeding, necessarily follows",
+      "Any fact that the judge finds interesting",
+      "Any fact published in a daily newspaper",
+      "Any fact stated by a police constable in the FIR"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(g) BSA / S. 3 IEA defines 'facts in issue': the core disputed facts from which legal rights/liabilities asserted or denied necessarily follow.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of fact in issue.",
+      "B": "Subjective interest irrelevant.",
+      "C": "Newspaper is hearsay.",
+      "D": "FIR is information, not fact in issue per se."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 2(1)(g) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Fact in Issue'.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "A is accused of the murder of B. At his trial, which of the following is a Fact in Issue?",
+    "options": [
+      "That A caused B's death",
+      "That A intended to cause B's death",
+      "That A had received grave and sudden provocation from B",
+      "All of the above"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "explanation": "Illustration to Section 3 IEA / BSA S. 2(1)(g) explicitly lists: (1) A caused B's death; (2) A intended to cause B's death; (3) Grave provocation—all are facts in issue.",
+    "optionBreakdown": {
+      "A": "Fact in issue.",
+      "B": "Fact in issue.",
+      "C": "Fact in issue.",
+      "D": "Correct; all three are facts in issue at trial."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(g) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify facts in issue in murder trial illustration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "In Sudhir Engineering Company v. Nitco Roadways Ltd. (1995), what was held regarding marking a document as an 'Exhibit' in evidence?",
+    "options": [
+      "Marking an exhibit is merely for identification and does not prove the document; proof of contents and execution must be established independently under evidence law",
+      "Marking an exhibit dispenses with all proof of the document",
+      "Exhibit marking is conclusive proof of truth of contents",
+      "Exhibits can only be marked by the High Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Sudhir Engineering and Sait Nagjee settled that marking an exhibit is a procedural tool for identification; execution, contents, and admissibility must be proved under law.",
+    "optionBreakdown": {
+      "A": "Correct; exhibit marking is for identification and does not prove contents.",
+      "B": "Does not dispense with proof.",
+      "C": "Not conclusive proof.",
+      "D": "Trial court marks exhibits."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 2 & 56 / Sudhir Engineering (1995)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master difference between marking an exhibit and proving a document.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "Is an affidavit 'evidence' within the meaning of the Evidence Act?",
+    "options": [
+      "No; affidavits are expressly excluded from the Evidence Act under Section 1, but may be used as evidence only if the court specifically permits under CPC Order XIX or CrPC S. 295/296 (S. 331/332 BNSS)",
+      "Yes, affidavits are the primary form of evidence in all criminal trials",
+      "Yes, affidavit is identical to oral evidence on oath",
+      "Affidavits are completely illegal in all courts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Sudha Devi v. E.P. Narayana (1988) affirmed that affidavits are not 'evidence' under Evidence Act S. 3 unless specially authorized by procedural codes.",
+    "optionBreakdown": {
+      "A": "Correct; excluded under S. 1; admissible only under specific procedural code provisions.",
+      "B": "Excluded in criminal trials.",
+      "C": "Not oral evidence.",
+      "D": "Permitted where authorized."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 1(2) / IEA S. 1 / Sudha Devi",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand why affidavits are not evidence under Evidence Act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-01",
+    "question": "Under Section 3 BSA (Section 5 IEA), evidence may be given in any suit or proceeding of:",
+    "options": [
+      "The existence or non-existence of every fact in issue, and of such other facts as are declared to be relevant, and of no others",
+      "Any rumour prevailing in the market",
+      "Any private thought of the judge",
+      "Any fact that the police wish to introduce"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 3 BSA / S. 5 IEA lays down the fundamental exclusionary rule of evidence: evidence may be given ONLY of facts in issue and relevant facts, and of NO OTHERS.",
+    "optionBreakdown": {
+      "A": "Correct; only facts in issue and relevant facts, and of no others.",
+      "B": "Rumours excluded.",
+      "C": "Subjective thoughts excluded.",
+      "D": "Police bounded by statute."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 3 / IEA S. 5",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master cornerstone rule of admissibility under S. 5 IEA / S. 3 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "When is one fact said to be 'Relevant' to another under Section 2(1)(k) BSA (Section 3 IEA)?",
+    "options": [
+      "When the one is connected with the other in any of the ways referred to in the provisions of this Adhiniyam relating to the relevancy of facts",
+      "When it is logically interesting to the public",
+      "When both facts occurred in the same century",
+      "When both facts relate to the same family"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(k) BSA / S. 3 IEA defines legal relevancy: connected in any of the ways specified in the statute (Sections 4 to 50 BSA / Sections 6 to 55 IEA).",
+    "optionBreakdown": {
+      "A": "Correct; connected in the statutory ways relating to relevancy.",
+      "B": "Logical relevancy is not legal relevancy.",
+      "C": "Time alone is insufficient.",
+      "D": "Family relation alone insufficient."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(k) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Relevant Fact' under Evidence Act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "What is the difference between 'Logical Relevancy' and 'Legal Relevancy' in evidence law?",
+    "options": [
+      "All legally relevant facts are logically relevant, but not all logically relevant facts are legally relevant (Stephen's Digest)",
+      "All logically relevant facts are legally admissible",
+      "Legal relevancy is determined by the police; logical relevancy by the judge",
+      "There is no distinction between them"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Sir James Fitzjames Stephen established that legal relevancy is narrower than logical relevancy; only facts conforming to statutory relevancy sections are admissible.",
+    "optionBreakdown": {
+      "A": "Correct; legal relevancy is a narrower statutory subset of logical relevancy.",
+      "B": "Logical connection alone does not ensure admissibility.",
+      "C": "Statute determines legal relevancy.",
+      "D": "Fundamental distinction."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 3 & S. 2(1)(k) / IEA S. 3 & 5",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish Logical Relevancy from Legal Relevancy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "How is 'Document' defined under Section 2(1)(d) BSA (Section 3 IEA)?",
+    "options": [
+      "Any matter expressed or described upon any substance by means of letters, figures or marks, or by more than one of those means, intended to be used, or which may be used, for purpose of recording that matter; and includes electronic and digital records",
+      "Only paper printed by the Government Press",
+      "Only handwritten letters in black ink",
+      "Only registered contracts under the Registration Act"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(d) BSA / S. 3 IEA defines document widely: matter on any substance by letters, figures, marks, explicitly including electronic and digital records.",
+    "optionBreakdown": {
+      "A": "Correct; matter expressed on any substance, explicitly including electronic/digital records.",
+      "B": "Paper is only one substance.",
+      "C": "Ink color irrelevant.",
+      "D": "Registration not required for document definition."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(d) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Document' including electronic records.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "Which of the following is a 'Document' under the illustrations to Section 2(1)(d) BSA?",
+    "options": [
+      "A writing; words printed, lithographed or photographed; a map or plan; an inscription on metal plate or stone; a caricature",
+      "Only a typed legal petition",
+      "Only an registered sale deed",
+      "Only a passbook of a nationalised bank"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Illustrations to S. 3 IEA / BSA S. 2(1)(d) list: writings, printed/photographed words, maps, plans, inscriptions on metal plate or stone, and caricatures as documents.",
+    "optionBreakdown": {
+      "A": "Correct; writing, maps, stone inscriptions, and caricatures are documents.",
+      "B": "Too narrow.",
+      "C": "Too narrow.",
+      "D": "Too narrow."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(d) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall statutory illustrations of Document.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "What new electronic forms are specifically illustrated as 'Documents' in Section 2(1)(d) BSA 2023?",
+    "options": [
+      "Electronic record on email, server logs, documents on computers, laptop or smartphone, messages, websites, cloud storage, voice mail messages stored on digital devices",
+      "Only floppy disks",
+      "Only CD-ROMs manufactured before 2000",
+      "Electronic records are excluded from documents"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(d) BSA modernization explicitly enumerates emails, server logs, smartphone files, messages, websites, cloud data, and digital voicemails as documents.",
+    "optionBreakdown": {
+      "A": "Correct; modern digital forms explicitly codified as documents in BSA S. 2(1)(d).",
+      "B": "Archaic.",
+      "C": "Archaic.",
+      "D": "Explicitly included."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 2(1)(d)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master modern electronic documents codified in BSA S. 2(1)(d).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "How is 'Evidence' defined under Section 2(1)(e) BSA (Section 3 IEA)?",
+    "options": [
+      "(1) All statements which the Court permits or requires to be made before it by witnesses (oral evidence); and (2) All documents including electronic records produced for inspection of Court (documentary evidence)",
+      "Only oral testimony given on oath",
+      "Only physical forensic weapons",
+      "Only confessions recorded by police"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(e) BSA / S. 3 IEA bifurcates evidence into two branches: Oral Evidence and Documentary Evidence (including electronic records).",
+    "optionBreakdown": {
+      "A": "Correct; oral evidence (witness statements) and documentary evidence (including electronic records).",
+      "B": "Excludes documentary evidence.",
+      "C": "Weapons are real evidence, not the full definition.",
+      "D": "Police confessions are barred."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(e) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Evidence' under Evidence Act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "Is the demeanour of a witness observed by the Judge, or a local inspection note recorded under S. 310 CrPC, substantive 'Evidence' as defined in Section 3 IEA?",
+    "options": [
+      "No; it is material for appreciation of evidence, but does not strictly fall within the definition of oral or documentary evidence under Section 3",
+      "Yes, demeanour is documentary evidence",
+      "Yes, inspection note replaces all witness testimony",
+      "Demeanour is conclusive proof"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Demeanour and local inspection notes are aids to evaluate evidence, but not substantive 'evidence' as defined in Section 3 IEA / BSA S. 2.",
+    "optionBreakdown": {
+      "A": "Correct; aid to appreciation, not substantive statutory evidence.",
+      "B": "Demeanour is not a document.",
+      "C": "Inspection note cannot replace evidence.",
+      "D": "Not proof."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 2(1)(e) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand distinction between evidence and aids to appreciation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "Are tape recordings and digital voice recordings 'Documents' under the Evidence Act?",
+    "options": [
+      "Yes; as held in Ziyauddin Burhanuddin Bukhari (1976) and Tukaram S. Dighole (2010), tape recordings and digital audio files are documents",
+      "No, documents must be on physical paper only",
+      "Only if transcribed by a court stenographer",
+      "Tape recordings are inadmissible hearsay"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Ziyauddin Bukhari and R.M. Malkani established that magnetic tapes and digital sound recordings fall within the definition of 'document'.",
+    "optionBreakdown": {
+      "A": "Correct; tape recordings and audio files are documents.",
+      "B": "Substance is not limited to paper.",
+      "C": "Original tape itself is document.",
+      "D": "Admissible if authenticity proved."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 2(1)(d) / R.M. Malkani (1973)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master tape recordings as documents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "Can a fact be relevant but still inadmissible under the Evidence Act?",
+    "options": [
+      "Yes; for example, a confession made to a police officer under S. 23 BSA / S. 25 IEA is logically and legally relevant, but declared inadmissible by public policy statute",
+      "No, every relevant fact is automatically admissible",
+      "Admissibility is determined by the police",
+      "Relevancy and admissibility are identical concepts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Ram Bihari Yadav v. State of Bihar ((1998) 4 SCC 517) clarified that relevancy and admissibility are not synonymous; relevancy is genus, admissibility is species governed by strict statutory rules.",
+    "optionBreakdown": {
+      "A": "Correct; relevancy does not guarantee admissibility (e.g. police confessions).",
+      "B": "Statutory exclusionary rules override.",
+      "C": "Determined by court.",
+      "D": "Distinct legal concepts."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 3 & 23 / Ram Bihari Yadav (1998)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master distinction between Relevancy and Admissibility.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-02",
+    "question": "What is 'Real Evidence' or 'Material Evidence' in trial practice?",
+    "options": [
+      "Physical objects (weapons, clothes, stolen goods) produced for inspection of the Court, proved through the oral testimony of witnesses who found or seized them",
+      "Hearsay statements in newspapers",
+      "Legal textbooks cited by advocates",
+      "Judicial transfer orders"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Real evidence refers to tangible physical exhibits (murder weapon, blood-stained clothes) which become evidence when identified and proved by oral testimony.",
+    "optionBreakdown": {
+      "A": "Correct; physical objects proved through oral testimony.",
+      "B": "Newspaper is not real evidence.",
+      "C": "Textbooks are legal arguments.",
+      "D": "Administrative orders."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2 / Material Exhibits",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define Real Evidence / Material Exhibits.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-031",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "When is a fact said to be 'Proved' under Section 2(1)(h) BSA (Section 3 IEA)?",
+    "options": [
+      "When, after considering the matters before it, the Court either believes it to exist, or considers its existence so probable that a prudent man ought, under the circumstances of the particular case, to act upon the supposition that it exists",
+      "When 100 witnesses testify to it",
+      "When the accused signs a confession in police custody",
+      "When it is published in an official gazette"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(h) BSA / S. 3 IEA defines 'Proved': belief of court or such high probability that a prudent man would act upon supposition of its existence.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of 'Proved' (prudent man test).",
+      "B": "Quality, not quantity of witnesses (S. 134 IEA / S. 135 BSA).",
+      "C": "Police confession inadmissible.",
+      "D": "Gazette is presumption under S. 81."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(h) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Proved' under Evidence Act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-032",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "When is a fact said to be 'Disproved' under Section 2(1)(b) BSA (Section 3 IEA)?",
+    "options": [
+      "When, after considering the matters before it, the Court either believes that it does not exist, or considers its non-existence so probable that a prudent man ought to act upon supposition that it does not exist",
+      "When the prosecution withdraws the charge",
+      "When the defence counsel objects",
+      "When the witness turns hostile"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(b) BSA / S. 3 IEA defines 'Disproved': belief of non-existence or high probability of non-existence under prudent man standard.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of 'Disproved'.",
+      "B": "Withdrawal is not proof of disproof.",
+      "C": "Objection is not disproof.",
+      "D": "Hostile witness does not disprove per se."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(b) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Disproved' under Evidence Act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-033",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "When is a fact said to be 'Not Proved' under Section 2(1)(i) BSA (Section 3 IEA)?",
+    "options": [
+      "A fact is said not to be proved when it is neither proved nor disproved",
+      "When the accused is acquitted",
+      "When all witnesses are dead",
+      "When the police report is lost"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(i) BSA / S. 3 IEA concisely defines 'Not Proved': 'A fact is said not to be proved when it is neither proved nor disproved.'",
+    "optionBreakdown": {
+      "A": "Correct; neither proved nor disproved.",
+      "B": "Acquittal may result from 'not proved', but definition is neutral middle ground.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(i) / IEA S. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Not Proved' under Evidence Act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-034",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "What is the standard of proof in Criminal Proceedings vs Civil Proceedings under Indian evidence law?",
+    "options": [
+      "In criminal cases: proof beyond reasonable doubt; in civil cases: preponderance of probabilities",
+      "Proof beyond reasonable doubt in both",
+      "Preponderance of probabilities in both",
+      "Mathematical certainty in criminal cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "State of U.P. v. Krishna Gopal (1988) reaffirmed: criminal standard is proof beyond reasonable doubt; civil standard is balance or preponderance of probabilities.",
+    "optionBreakdown": {
+      "A": "Correct; beyond reasonable doubt (criminal) vs preponderance of probabilities (civil).",
+      "B": "Standards differ.",
+      "C": "Criminal requires higher standard.",
+      "D": "Mathematical certainty impossible in human affairs."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 2 / Krishna Gopal (1988)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master standard of proof: Beyond Reasonable Doubt vs Preponderance of Probabilities.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-035",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "How is 'May Presume' defined under Section 2(1)(l) BSA (Section 4 IEA)?",
+    "options": [
+      "Whenever it is provided by this Adhiniyam that the Court may presume a fact, it may either regard such fact as proved, unless and until it is disproved, or may call for proof of it",
+      "Court MUST mandatorily regard the fact as proved without calling for proof",
+      "Fact is conclusive proof and no evidence can be given to disprove it",
+      "Presumption cannot be rebutted"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(l) BSA / S. 4 IEA: 'May presume' is a discretionary, rebuttable presumption of fact (presumptio facti). Court can regard as proved or call for proof.",
+    "optionBreakdown": {
+      "A": "Correct; discretionary, rebuttable presumption of fact.",
+      "B": "This is 'shall presume'.",
+      "C": "This is 'conclusive proof'.",
+      "D": "Rebuttable."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(l) / IEA S. 4",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'May Presume'.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-036",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "How is 'Shall Presume' defined under Section 2(1)(m) BSA (Section 4 IEA)?",
+    "options": [
+      "Whenever it is directed by this Adhiniyam that the Court shall presume a fact, it SHALL regard such fact as proved, unless and until it is disproved",
+      "Court has discretion to call for proof without disproof",
+      "Fact is irrebuttable and final",
+      "Applies only to private documents"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(m) BSA / S. 4 IEA: 'Shall presume' is a mandatory, but rebuttable presumption of law (presumptio juris). Court MUST regard as proved until disproved.",
+    "optionBreakdown": {
+      "A": "Correct; mandatory presumption of law until disproved.",
+      "B": "Court cannot call for proof at threshold.",
+      "C": "It is rebuttable, unlike conclusive proof.",
+      "D": "Applies mainly to official/public records."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 2(1)(m) / IEA S. 4",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Shall Presume'.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-037",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "How is 'Conclusive Proof' defined under Section 2(1)(c) BSA (Section 4 IEA)?",
+    "options": [
+      "When one fact is declared by this Adhiniyam to be conclusive proof of another, the Court shall, on proof of the one fact, regard the other as proved, and SHALL NOT ALLOW evidence to be given for the purpose of disproving it",
+      "Fact can be disproved by two independent witnesses",
+      "Fact is presumed until disproved by handwriting expert",
+      "Court has discretion to order DNA testing in all cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(c) BSA / S. 4 IEA: 'Conclusive proof' is an irrebuttable presumption of law (presumptio juris et de jure). Rebutting evidence is strictly barred.",
+    "optionBreakdown": {
+      "A": "Correct; irrebuttable presumption; court shall not allow evidence to disprove it.",
+      "B": "Evidence to disprove is barred.",
+      "C": "Irrebuttable.",
+      "D": "Court cannot permit rebutting evidence unless statute opens door."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 2(1)(c) / IEA S. 4",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Conclusive Proof' and irrebuttable bar on disproof.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-038",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "Which of the following is an example of 'Conclusive Proof' under the Evidence Act?",
+    "options": [
+      "Birth during marriage as conclusive proof of legitimacy under Section 112 IEA / S. 116 BSA (unless non-access is proved)",
+      "Presumption of death after 7 years under Section 108 IEA",
+      "Presumption as to 30-year-old documents under Section 90 IEA",
+      "Presumption of innocence under Section 114 IEA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 112 IEA / S. 116 BSA (birth during marriage) and Section 41 IEA / S. 35 BSA (probate/matrimonial/admiralty judgments) are statutory instances of conclusive proof.",
+    "optionBreakdown": {
+      "A": "Correct; S. 112 IEA / S. 116 BSA is conclusive proof of legitimacy.",
+      "B": "Rebuttable presumption of law (shall presume).",
+      "C": "Discretionary presumption of fact (may presume).",
+      "D": "General presumption."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 116 / IEA S. 112",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify statutory example of Conclusive Proof.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-039",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "In Kali Ram v. State of Himachal Pradesh ((1973) 2 SCC 808), what did the Supreme Court hold regarding the Golden Thread of criminal jurisprudence?",
+    "options": [
+      "The burden of proving the guilt of the accused beyond reasonable doubt lies throughout on the prosecution, and if two views are possible on the evidence, the one in favour of the accused must be accepted",
+      "The accused must prove his innocence beyond reasonable doubt",
+      "Court can convict on moral conviction without evidence",
+      "Burden shifts to accused immediately upon framing charge"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Kali Ram reaffirmed the cardinal Woolmington principle: the golden thread running through criminal justice is that prosecution must prove guilt beyond reasonable doubt.",
+    "optionBreakdown": {
+      "A": "Correct; prosecution must prove guilt; benefit of two views goes to accused.",
+      "B": "Inverted.",
+      "C": "Moral conviction cannot substitute legal proof.",
+      "D": "Burden remains on prosecution."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 2 & 104 / Kali Ram (1973)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Kali Ram golden thread of criminal proof.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-01-040",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-01",
+    "topicId": "top-evi-01-03",
+    "question": "Does 'Proof Beyond Reasonable Doubt' mean proof beyond any shadow of all possible doubt?",
+    "options": [
+      "No; as held in State of U.P. v. Krishna Gopal (1988), it does not mean proof beyond all possible or imaginary doubt; it means such doubt as would affect a reasonable and prudent mind",
+      "Yes, even 0.001% imaginary doubt requires acquittal",
+      "Proof must be mathematically 100.0%",
+      "Reasonable doubt means whatever the accused alleges"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Lord Denning's doctrine affirmed in Krishna Gopal: proof beyond reasonable doubt does not mean proof beyond a shadow of doubt; fanciful or imaginary doubts do not negate proof.",
+    "optionBreakdown": {
+      "A": "Correct; reasonable doubt is practical doubt of a prudent mind, not fanciful doubt.",
+      "B": "Imaginary doubt rejected.",
+      "C": "Mathematical certainty not required.",
+      "D": "Objective standard."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 2 / Krishna Gopal (1988)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Differentiate reasonable doubt from fanciful doubt.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 embodies the celebrated Doctrine of Res Gestae (facts forming part of the same transaction)?",
+    "options": [
+      "Section 4 BSA (Section 6 IEA)",
+      "Section 6 BSA",
+      "Section 8 BSA",
+      "Section 11 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 4 BSA corresponds directly to Section 6 of the Indian Evidence Act (Relevancy of facts forming part of same transaction / Res Gestae).",
+    "optionBreakdown": {
+      "A": "Correct; Section 4 BSA corresponds to Section 6 IEA.",
+      "B": "Section 6 BSA is Motive, preparation and conduct (S. 8 IEA).",
+      "C": "Section 8 BSA is Conspiracy (S. 10 IEA).",
+      "D": "Section 11 IEA is S. 9 BSA (Alibi)."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 4 / IEA S. 6",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 6 IEA (Res Gestae) to Section 4 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "Under Section 4 BSA (Section 6 IEA), facts which, though not in issue, are so connected with a fact in issue as to form part of the same transaction, are relevant:",
+    "options": [
+      "Whether they occurred at the same time and place or at different times and places",
+      "Only if they occurred at the exact same second and spot",
+      "Only if reduced to writing in an FIR",
+      "Only if witnessed by a police officer"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 4 BSA / S. 6 IEA explicitly provides: 'whether they occurred at the same time and place or at different times and places'.",
+    "optionBreakdown": {
+      "A": "Correct; can occur at same time/place or different times and places.",
+      "B": "Not restricted to same second/spot.",
+      "C": "Need not be in FIR.",
+      "D": "Police witness not required."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 4 / IEA S. 6",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall temporal/spatial scope of Res Gestae.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "In the English leading case of R v. Bedingfield ((1879) 14 Cox CC 341), the victim came out of a room with her throat cut and said 'Oh dear aunt, see what Bedingfield has done to me'. Why was this statement rejected under Res Gestae by Cockburn CJ?",
+    "options": [
+      "Because it was made AFTER the transaction was over, and was not contemporaneous with the act",
+      "Because the aunt was a minor",
+      "Because Bedingfield was not present in the city",
+      "Because hearsay is always admitted"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Cockburn CJ strictly held that the statement was narrative after the transaction had ended, not contemporaneous with the act (criticized and relaxed in Ratten v. R).",
+    "optionBreakdown": {
+      "A": "Correct; rejected for lack of strict contemporaneity (narrative after transaction ended).",
+      "B": "Aunt's age irrelevant.",
+      "C": "He was nearby.",
+      "D": "Hearsay general bar."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 4 / IEA S. 6 / R v. Bedingfield",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze R v. Bedingfield strict contemporaneity rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "In Ratten v. R ([1972] AC 378), how did Lord Wilberforce reformulate the test for Res Gestae statements?",
+    "options": [
+      "The statement is admissible if made under the immediate and overwhelming pressure of the event, so that there was no opportunity for fabrication or concoction",
+      "Statements are admissible only if sworn on oath before a notary",
+      "Res gestae applies only to written contracts",
+      "Statements must be made by the accused himself"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Ratten v. R established the modern test: spontaneity and contemporaneous pressure excluding the possibility of concoction/fabrication.",
+    "optionBreakdown": {
+      "A": "Correct; spontaneity excluding possibility of fabrication (modern Ratten test).",
+      "B": "Oath not required.",
+      "C": "Applies to criminal transactions.",
+      "D": "Statements of victims and bystanders also covered."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 4 / Ratten v. R (1972)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Ratten v. R spontaneity test for Res Gestae.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "In Gentela Vijayavardhan Rao v. State of A.P. ((1996) 6 SCC 241), passengers of a burnt bus gave statements to a magistrate some hours after the occurrence. Were these statements admissible under Section 6 IEA (Section 4 BSA)?",
+    "options": [
+      "No; because there was an appreciable interval of time, eliminating the spontaneous character and contemporaneous connection required for res gestae",
+      "Yes, any statement by a victim is res gestae forever",
+      "Yes, because the bus was destroyed",
+      "Only if the bus driver agreed"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Gentela Vijayavardhan Rao held that statements made after an interval of time cannot be admitted as res gestae under S. 6; spontaneity is essential.",
+    "optionBreakdown": {
+      "A": "Correct; interval of time destroyed spontaneity; inadmissible under S. 6.",
+      "B": "Interval destroys res gestae.",
+      "C": "Physical destruction does not make narrative res gestae.",
+      "D": "Driver consent irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 4 / Gentela Vijayavardhan Rao (1996)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master contemporaneity in Gentela Vijayavardhan Rao.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "In Sawal Das v. State of Bihar (AIR 1974 SC 778), cries of the victim 'Save me, they are killing me' heard by neighbours immediately coming from the room were held to be:",
+    "options": [
+      "Admissible under Section 6 IEA (Section 4 BSA) as part of the transaction (res gestae)",
+      "Inadmissible hearsay",
+      "Admissible only under Section 32 as dying declaration",
+      "A confession of the accused"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Sawal Das established that spontaneous exclamations and cries of a victim during an assault are admissible under S. 6 / BSA S. 4 as res gestae.",
+    "optionBreakdown": {
+      "A": "Correct; spontaneous cries during assault are res gestae under S. 6.",
+      "B": "Res gestae is a recognised exception to hearsay.",
+      "C": "Admissible under S. 6 independently of S. 32.",
+      "D": "Victim's cry is not a confession."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 4 / Sawal Das (1974)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Res Gestae to cries of victim during assault.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "Under Illustration (a) to Section 4 BSA (Section 6 IEA), A is accused of the murder of B by beating him. What constitutes Res Gestae?",
+    "options": [
+      "Whatever was said or done by A or B or the by-standers at the beating, or so shortly before or after it as to form part of the transaction",
+      "What A told his lawyer three weeks later",
+      "What B wrote in his school diary ten years earlier",
+      "What the newspaper reported next day"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Illustration (a) explicitly provides: whatever said or done by A, B, or by-standers at the beating or shortly before/after forming part of transaction is relevant.",
+    "optionBreakdown": {
+      "A": "Correct; statutory illustration (a) to Section 6 IEA / Section 4 BSA.",
+      "B": "Privileged communication, not res gestae.",
+      "C": "Too remote.",
+      "D": "Newspaper report is hearsay."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 4 Illus (a) / IEA S. 6 Illus (a)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall statutory illustration of bystander shouts in murder.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "Can the statement of a bystander be admitted under Res Gestae (Section 4 BSA / S. 6 IEA)?",
+    "options": [
+      "Yes, provided the bystander was present at the scene and his exclamation was spontaneous and contemporaneous with the event (Mahendra Pal v. State)",
+      "No, only statements of the accused and victim are admissible",
+      "Only if the bystander is a gazetted officer",
+      "Bystander statements are barred under all circumstances"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Mahendra Pal and Chhotey Lal settled that spontaneous exclamations of eye-witness bystanders present at the spot form part of the res gestae.",
+    "optionBreakdown": {
+      "A": "Correct; spontaneous exclamation of bystander present at spot is admissible.",
+      "B": "Bystander statements are explicitly covered.",
+      "C": "Official status not needed.",
+      "D": "Admissible under S. 6."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 4 / IEA S. 6 / Mahendra Pal",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master bystander statements under Res Gestae.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "What is the relationship between the Doctrine of Res Gestae and the Rule against Hearsay?",
+    "options": [
+      "Res Gestae is a well-established exception to the general rule that hearsay evidence is excluded",
+      "Res Gestae reinforces the hearsay ban",
+      "Res Gestae applies only to written documents",
+      "Hearsay is never excluded in Indian law"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Res gestae is a primary exception to the rule against hearsay: spontaneous contemporaneous utterances are admitted because spontaneity guarantees truthfulness without time to concoct.",
+    "optionBreakdown": {
+      "A": "Correct; Res Gestae is an exception to the rule against hearsay.",
+      "B": "It operates as an exception.",
+      "C": "Applies prominently to oral statements.",
+      "D": "Hearsay is generally excluded under S. 60 IEA."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 4 / IEA S. 6",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand Res Gestae as exception to Hearsay.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-01",
+    "question": "Under Illustration (b) to Section 4 BSA (Section 6 IEA), A is accused of waging war against the Government of India by taking part in an armed insurrection in which property is destroyed, troops are attacked and goals are broken open. Are these occurrences relevant if A was present only at one of them?",
+    "options": [
+      "Yes, the occurrence of these facts is relevant as forming part of the general transaction, though A may not have been present at all of them",
+      "No, A is only responsible for the exact spot where he stood",
+      "Only if A fired a gun personally",
+      "None of these occurrences can be proved"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Illustration (b) establishes that in a wide transaction (insurrection/conspiracy), acts forming part of the same transaction are relevant even if accused was not present at each.",
+    "optionBreakdown": {
+      "A": "Correct; statutory illustration (b) to Section 6 IEA / Section 4 BSA.",
+      "B": "Same transaction connects all acts.",
+      "C": "Weapon firing not mandatory for relevancy.",
+      "D": "All occurrences are provable."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 4 Illus (b) / IEA S. 6 Illus (b)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Res Gestae to multi-venue transactions (waging war).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "Which provision of BSA 2023 corresponds to Section 7 IEA (facts which are the occasion, cause or effect of facts in issue)?",
+    "options": [
+      "Section 5 BSA",
+      "Section 6 BSA",
+      "Section 7 BSA",
+      "Section 8 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 5 BSA corresponds directly to Section 7 of the Indian Evidence Act.",
+    "optionBreakdown": {
+      "A": "Correct; Section 5 BSA corresponds to Section 7 IEA.",
+      "B": "Section 6 BSA is Section 8 IEA (Motive/Conduct).",
+      "C": "Section 7 BSA is Section 9 IEA (Explanatory facts/TIP).",
+      "D": "Section 8 BSA is Section 10 IEA (Conspiracy)."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 5 / IEA S. 7",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 7 IEA to Section 5 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "Under Section 5 BSA (Section 7 IEA), the question is whether A robbed B. The fact that, shortly before the robbery, B went to a fair with money in his possession, and that he showed it, or mentioned the fact that he had it, to third persons, is relevant as:",
+    "options": [
+      "Constitutes the occasion or opportunity for the offence",
+      "Res Gestae under Section 4",
+      "An admission under Section 15",
+      "A dying declaration under Section 26"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Illustration (a) to S. 7 IEA / BSA S. 5 explicitly states that B having money and showing it constitutes the occasion or opportunity for robbery.",
+    "optionBreakdown": {
+      "A": "Correct; constitutes occasion or opportunity under S. 7 IEA / S. 5 BSA.",
+      "B": "Not res gestae.",
+      "C": "Not an admission.",
+      "D": "Not dying declaration."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 5 Illus (a) / IEA S. 7 Illus (a)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify Occasion and Opportunity in robbery illustration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "Under Section 5 BSA (Section 7 IEA), the marks on the ground produced by a struggle at or near the place where the murder was committed are relevant as:",
+    "options": [
+      "The effect of the fact in issue",
+      "The motive for the murder",
+      "An admission by conduct",
+      "A confession under Section 23"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Illustration (b) to S. 7 IEA / BSA S. 5: marks of struggle on the ground are relevant as the 'effect' of the murder transaction.",
+    "optionBreakdown": {
+      "A": "Correct; relevant as effect of fact in issue.",
+      "B": "Not motive.",
+      "C": "Not admission.",
+      "D": "Not confession."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 5 Illus (b) / IEA S. 7 Illus (b)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall footprints/struggle marks as 'Effect' under S. 7 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "Which provision of BSA 2023 corresponds to Section 8 IEA (Motive, preparation and previous or subsequent conduct)?",
+    "options": [
+      "Section 6 BSA",
+      "Section 5 BSA",
+      "Section 7 BSA",
+      "Section 8 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 6 BSA corresponds directly to Section 8 of the Indian Evidence Act.",
+    "optionBreakdown": {
+      "A": "Correct; Section 6 BSA corresponds to Section 8 IEA.",
+      "B": "Section 5 BSA is S. 7 IEA.",
+      "C": "Section 7 BSA is S. 9 IEA.",
+      "D": "Section 8 BSA is S. 10 IEA."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 6 / IEA S. 8",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 8 IEA (Motive, Preparation, Conduct) to Section 6 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "In a criminal case based entirely on Circumstantial Evidence, what is the legal significance of 'Motive'?",
+    "options": [
+      "Motive assumes paramount importance; absence of motive weakens the prosecution case, while establishing motive forms an important link in the chain of circumstances (Babu v. State of Kerala)",
+      "Absence of motive entitles accused to automatic acquittal even with 10 eye-witnesses",
+      "Motive is irrelevant in circumstantial cases",
+      "Motive is sufficient by itself to convict without any other evidence"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In circumstantial cases, motive is a critical link in the chain; while not substantive proof alone, its presence strongly corroborates (Babu v. State of Kerala (2010)).",
+    "optionBreakdown": {
+      "A": "Correct; motive is of paramount importance in circumstantial evidence cases.",
+      "B": "Eye-witness cases do not require proof of motive.",
+      "C": "Highly relevant in circumstantial cases.",
+      "D": "Motive alone cannot sustain conviction."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 6 / IEA S. 8 / Babu v. State of Kerala",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master significance of Motive in circumstantial evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "Under Section 6 BSA (Section 8 IEA), A is tried for the murder of B by poison. The fact that, before the death of B, A procured poison similar to that which was administered to B, is relevant as:",
+    "options": [
+      "Preparation for committing the offence",
+      "Motive only",
+      "Subsequent conduct",
+      "Res Gestae"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Illustration (c) to S. 8 IEA / BSA S. 6: procuring poison prior to the murder is relevant as 'preparation'.",
+    "optionBreakdown": {
+      "A": "Correct; relevant as preparation under S. 8 IEA / S. 6 BSA.",
+      "B": "Not motive (procuring poison is action, not desire).",
+      "C": "It is prior to death, not subsequent.",
+      "D": "Not part of the act of killing itself."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 6 Illus (c) / IEA S. 8 Illus (c)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify Preparation under Section 8 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "Under Explanation 1 to Section 6 BSA (Section 8 IEA), does the word 'conduct' include statements?",
+    "options": [
+      "Conduct does not include statements, unless those statements accompany and explain acts other than statements",
+      "Conduct includes any statement made at any time",
+      "Conduct never includes any spoken word",
+      "Conduct applies only to written letters"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 1 to S. 8 IEA / BSA S. 6 specifies: 'The word conduct in this section does not include statements, unless those statements accompany and explain acts other than statements.'",
+    "optionBreakdown": {
+      "A": "Correct; statements excluded unless accompanying and explaining acts.",
+      "B": "Bare statements not conduct.",
+      "C": "Words accompanying acts are included.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 6 Expl 1 / IEA S. 8 Expl 1",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Explanation 1 to Section 8 IEA: Statements as Conduct.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "Under Explanation 2 to Section 6 BSA (Section 8 IEA), when the conduct of any person is relevant, any statement made to him or in his presence and hearing, which affects such conduct:",
+    "options": [
+      "Is relevant",
+      "Is inadmissible hearsay",
+      "Is conclusive proof",
+      "Can only be proved by a magistrate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 2 to S. 8 IEA / BSA S. 6: statements made to a person or in his presence/hearing which affect his conduct are relevant.",
+    "optionBreakdown": {
+      "A": "Correct; relevant if affecting conduct.",
+      "B": "Not barred by hearsay.",
+      "C": "Not conclusive proof.",
+      "D": "Can be proved by anyone who heard it."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 6 Expl 2 / IEA S. 8 Expl 2",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Explanation 2 to S. 8 IEA: Statements affecting conduct.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "Under Section 6 BSA (Section 8 IEA), the fact that immediately after the alleged murder, the accused absconded, is relevant as:",
+    "options": [
+      "Subsequent conduct",
+      "Preparation",
+      "Motive",
+      "Conclusive proof of guilt"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Absconding immediately after the crime is relevant as subsequent conduct under S. 8 IEA / BSA S. 6 (though not conclusive proof of guilt alone).",
+    "optionBreakdown": {
+      "A": "Correct; relevant as subsequent conduct.",
+      "B": "Preparation precedes crime.",
+      "C": "Motive is psychological cause.",
+      "D": "Absconding is not conclusive proof (innocent persons also flee in fear)."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 6 / IEA S. 8",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall absconding as subsequent conduct.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-02",
+    "question": "In Queen Empress v. Abdullah ((1885) ILR 7 All 385 FB), the throat of a prostitute was cut. Being unable to speak, she made signs with her hand in response to questions, identifying Abdullah. The Full Bench held these signs were:",
+    "options": [
+      "Admissible as verbal statements under Section 32(1) IEA (Dying Declaration), but NOT as conduct under Section 8",
+      "Admissible as conduct under Section 8 exclusively",
+      "Completely inadmissible hearsay",
+      "A confession under Section 25"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Abdullah Full Bench settled that nods and signs in answer to questions are verbal representations under S. 32(1) (dying declaration), not 'conduct' under S. 8.",
+    "optionBreakdown": {
+      "A": "Correct; admissible as dying declaration under S. 32(1), not conduct under S. 8.",
+      "B": "Signs answering questions are not 'conduct' under S. 8.",
+      "C": "Admissible.",
+      "D": "Not a confession."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 6 & 26 / Queen Empress v. Abdullah (1885)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Queen Empress v. Abdullah signs and conduct distinction.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-031",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "Which provision of BSA 2023 corresponds to Section 9 IEA (facts necessary to explain or introduce relevant facts / Test Identification Parade)?",
+    "options": [
+      "Section 7 BSA",
+      "Section 9 BSA",
+      "Section 8 BSA",
+      "Section 11 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 7 BSA corresponds directly to Section 9 of the Indian Evidence Act.",
+    "optionBreakdown": {
+      "A": "Correct; Section 7 BSA corresponds to Section 9 IEA.",
+      "B": "Section 9 BSA is Section 11 IEA (Alibi).",
+      "C": "Section 8 BSA is Section 10 IEA (Conspiracy).",
+      "D": "Incorrect."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 7 / IEA S. 9",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 9 IEA (TIP and Explanatory Facts) to Section 7 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-032",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "What is the evidentiary value of a Test Identification Parade (TIP) conducted during investigation under Section 9 IEA (Section 7 BSA)?",
+    "options": [
+      "TIP is not substantive evidence; it is a corroborative piece of evidence used to test the memory and veracity of the witness whose substantive evidence is given in court",
+      "TIP is substantive evidence and can form the sole basis of conviction",
+      "TIP is conclusive proof of identity",
+      "TIP is completely inadmissible under Indian law"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Rameshwar Singh v. State of J&K ((1971) 2 SCC 715) settled that identification in TIP is not substantive evidence; substantive identification is made in court by witness on oath.",
+    "optionBreakdown": {
+      "A": "Correct; corroborative evidence to test veracity, not substantive evidence.",
+      "B": "Court identification is substantive evidence.",
+      "C": "Not conclusive proof.",
+      "D": "Admissible under S. 9 IEA / S. 7 BSA."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 7 / IEA S. 9 / Rameshwar Singh (1971)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master evidentiary value of Test Identification Parade (TIP).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-033",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "What is the required ratio of non-suspects (dummies) to suspects in a properly conducted Test Identification Parade?",
+    "options": [
+      "Ordinarily 1 suspect to 8 or 9 dummies of similar age, height and physical appearance",
+      "1 suspect to 1 dummy",
+      "10 suspects to 1 dummy",
+      "No dummies are required"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "State of Maharashtra v. Suresh (2000) and High Court criminal rules specify a ratio of at least 1:8 or 1:9 (suspect to similar dummies) to eliminate chance identification.",
+    "optionBreakdown": {
+      "A": "Correct; standard ratio of 1:8 or 1:9 dummies.",
+      "B": "1:1 is inadequate and vitiates TIP.",
+      "C": "Absurd.",
+      "D": "Dummies are indispensable."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 7 / IEA S. 9",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall dummy ratio in Test Identification Parade.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-034",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "What is the effect if the accused was shown to the identifying witness by police before the Test Identification Parade was held?",
+    "options": [
+      "The TIP becomes completely farcical and valueless, and identification in court cannot be relied upon without independent corroboration (Sheikh Hasib v. State of Bihar)",
+      "The TIP becomes conclusive proof",
+      "It enhances the credibility of the witness",
+      "The trial must be dismissed immediately"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Showing the accused to the witness prior to TIP destroys the test value; court identification becomes tainted and unreliable without independent corroboration.",
+    "optionBreakdown": {
+      "A": "Correct; prior exposure renders TIP valueless and court identification unreliable.",
+      "B": "Destroys value, does not make it conclusive.",
+      "C": "Destroys credibility.",
+      "D": "Trial proceeds on other evidence."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 7 / Sheikh Hasib (1972)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze effect of prior exposure of accused before TIP.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-035",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "Who should ordinarily conduct a Test Identification Parade to ensure highest evidentiary weight?",
+    "options": [
+      "An Executive Magistrate or Judicial Magistrate",
+      "The investigating officer of the police station",
+      "The complainant's private advocate",
+      "The jail warden alone"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "TIP conducted by a Magistrate carries the highest evidentiary weight; if conducted by police, it is hit by S. 162 CrPC / S. 181 BNSS (Ramkishan Mithanlal Sharma v. State of Bombay).",
+    "optionBreakdown": {
+      "A": "Correct; Magistrate conducts TIP to avoid S. 162 bar.",
+      "B": "Police TIP hit by Section 162 CrPC bar.",
+      "C": "Private advocate has no authority.",
+      "D": "Warden is prison staff."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 7 / CrPC S. 162 / Ramkishan Mithanlal (1955)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand why Magistrates conduct TIPs to bypass S. 162 CrPC.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-036",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "Under Section 7 BSA (Section 9 IEA), which of the following is NOT relevant under this section?",
+    "options": [
+      "Facts which make the existence of any fact in issue or relevant fact highly probable or improbable",
+      "Facts necessary to explain or introduce a fact in issue or relevant fact",
+      "Facts which support or rebut an inference suggested by a fact in issue or relevant fact",
+      "Facts which establish the identity of any thing or person whose identity is relevant"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Facts making existence highly probable/improbable fall under Section 11 IEA (Section 9 BSA - Alibi), not Section 9 IEA (Section 7 BSA).",
+    "optionBreakdown": {
+      "A": "Correct; falls under S. 11 IEA / S. 9 BSA, not S. 9 IEA.",
+      "B": "Core clause of S. 9 IEA / S. 7 BSA.",
+      "C": "Core clause of S. 9 IEA.",
+      "D": "Core clause of S. 9 IEA (identity)."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 7 & 9 / IEA S. 9 & 11",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish S. 9 IEA scope from S. 11 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-037",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "Can an accused refuse to participate in a Test Identification Parade during investigation?",
+    "options": [
+      "Under Section 54A CrPC (Section 54 BNSS), an accused can be ordered by a court to undergo TIP; refusal may lead to adverse inference under S. 114 IEA (S. 117 BSA)",
+      "Accused has an absolute constitutional right to refuse without adverse inference",
+      "Refusal results in mandatory death sentence",
+      "Accused can never be photographed or identified"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 54A CrPC / S. 54 BNSS empowers court to direct accused to subject to identification; refusal allows court to draw adverse inference under S. 114 Illus (g).",
+    "optionBreakdown": {
+      "A": "Correct; court may direct TIP and draw adverse inference on refusal.",
+      "B": "Physical identification does not violate Art 20(3) (Kathi Kalu Oghad).",
+      "C": "Absurd.",
+      "D": "Identification is legal."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 54 / CrPC S. 54A / Kathi Kalu Oghad",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master refusal to participate in TIP and adverse inference.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-038",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "Under Section 7 BSA (Section 9 IEA), the relation of parties by whom any fact was transacted is relevant:",
+    "options": [
+      "In so far as they are necessary for the purpose of fixing the time or place, or showing the relation of parties",
+      "Only in matrimonial divorce proceedings",
+      "Only if parties are blood relatives",
+      "Never"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 7 BSA / S. 9 IEA explicitly makes facts showing the relation of parties, time and place relevant in so far as necessary for that purpose.",
+    "optionBreakdown": {
+      "A": "Correct; statutory wording of S. 9 IEA / S. 7 BSA.",
+      "B": "Applies across all proceedings.",
+      "C": "Not limited to blood relations.",
+      "D": "Express statutory rule."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 7 / IEA S. 9",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall time, place and relation of parties under S. 9 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-039",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "In Malkhansingh v. State of M.P. ((2003) 5 SCC 746), what did the Supreme Court hold regarding identification of the accused for the first time in court without a prior TIP?",
+    "options": [
+      "Substantive evidence of identification is the evidence made in court; absence of prior TIP is not fatal if the witness had ample opportunity to see and remember the accused during a prolonged crime (e.g. gang rape)",
+      "Court identification without prior TIP is automatically inadmissible",
+      "Accused must be acquitted if no TIP was held",
+      "TIP must be held inside the courtroom during trial"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Malkhansingh settled that failure to hold TIP is not fatal where witness had ample light, time and proximity to observe offender; court identification is substantive evidence.",
+    "optionBreakdown": {
+      "A": "Correct; absence of prior TIP not fatal where witness had ample opportunity to observe.",
+      "B": "Court identification is admissible.",
+      "C": "No automatic acquittal.",
+      "D": "TIP is pre-trial investigative tool."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 7 / Malkhansingh (2003)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Malkhansingh rule on court identification without prior TIP.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-040",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-03",
+    "question": "Under Section 7 BSA (Section 9 IEA), identification of stolen property (e.g. jewellery, cattle) by the owner during investigation is:",
+    "options": [
+      "Relevant as a fact establishing the identity of any thing whose identity is relevant",
+      "A confession under Section 23",
+      "An admission under Section 15",
+      "Inadmissible hearsay"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 7 BSA / S. 9 IEA covers identification of things (stolen property, weapons) as well as identification of persons.",
+    "optionBreakdown": {
+      "A": "Correct; establishing identity of any thing whose identity is relevant.",
+      "B": "Not a confession.",
+      "C": "Not an admission.",
+      "D": "Admissible under S. 9 IEA / S. 7 BSA."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 7 / IEA S. 9",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall identification of things/property under S. 9 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-041",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 10 of the Indian Evidence Act (things said or done by conspirator in reference to common design)?",
+    "options": [
+      "Section 8 BSA",
+      "Section 10 BSA",
+      "Section 9 BSA",
+      "Section 6 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 8 BSA corresponds directly to Section 10 of the Indian Evidence Act.",
+    "optionBreakdown": {
+      "A": "Correct; Section 8 BSA corresponds to Section 10 IEA.",
+      "B": "Section 10 BSA is crpc/iea 12.",
+      "C": "Section 9 BSA is Section 11 IEA (Alibi).",
+      "D": "Section 6 BSA is Section 8 IEA."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 8 / IEA S. 10",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 10 IEA (Conspiracy evidence) to Section 8 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-042",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "What is the indispensable condition precedent for invoking Section 8 BSA (Section 10 IEA) against co-conspirators?",
+    "options": [
+      "There must be reasonable ground to believe that two or more persons have conspired together to commit an offence or an actionable wrong",
+      "All conspirators must be arrested together",
+      "There must be a written signed conspiracy agreement",
+      "The conspiracy must have succeeded in killing the victim"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 8 BSA / S. 10 IEA explicitly opens with the condition precedent: 'Where there is reasonable ground to believe that two or more persons have conspired together...'",
+    "optionBreakdown": {
+      "A": "Correct; reasonable ground to believe two or more conspired together.",
+      "B": "Joint arrest not required.",
+      "C": "Written agreement not required (conspiracy is hatched in secrecy).",
+      "D": "Attempt/formation suffices."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 8 / IEA S. 10",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master condition precedent for invoking Section 10 IEA / Section 8 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-043",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "In the landmark Privy Council decision of Mirza Akbar v. King-Emperor (AIR 1940 PC 176), what did Lord Wright rule regarding Section 10 IEA?",
+    "options": [
+      "Section 10 IEA incorporates agency principle; things said, done or written are admissible against co-conspirators ONLY while the conspiracy is still subsisting, and NOT after the conspiracy has ended",
+      "Statements made to a magistrate after arrest are admissible against all co-conspirators under Section 10",
+      "Section 10 applies to statements made at any time in the conspirator's lifetime",
+      "Section 10 was declared ultra vires"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Mirza Akbar established that words 'in reference to common intention' mean while the conspiracy is being carried out; statements made after the conspiracy ends are narrative and inadmissible under S. 10.",
+    "optionBreakdown": {
+      "A": "Correct; admissible only while conspiracy subsists, not after it ends (Mirza Akbar).",
+      "B": "Post-arrest statement excluded from S. 10.",
+      "C": "Lifetime rule rejected.",
+      "D": "Valid law."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 8 / IEA S. 10 / Mirza Akbar (1940)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Mirza Akbar doctrine on post-conspiracy statements.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-044",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 11 of the Indian Evidence Act (When facts not otherwise relevant become relevant / Plea of Alibi)?",
+    "options": [
+      "Section 9 BSA",
+      "Section 11 BSA",
+      "Section 7 BSA",
+      "Section 12 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 9 BSA corresponds directly to Section 11 of the Indian Evidence Act.",
+    "optionBreakdown": {
+      "A": "Correct; Section 9 BSA corresponds to Section 11 IEA.",
+      "B": "Section 11 BSA is crpc/iea 13.",
+      "C": "Section 7 BSA is Section 9 IEA.",
+      "D": "Section 12 BSA is damages."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 9 / IEA S. 11",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 11 IEA (Plea of Alibi) to Section 9 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-045",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "What does the Latin word 'Alibi' literally mean in criminal jurisprudence?",
+    "options": [
+      "Elsewhere (at another place)",
+      "Innocent",
+      "Forgiven",
+      "Truthful witness"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Alibi is a Latin term meaning 'elsewhere'; the accused pleads that he was so far away at the time of crime that his physical presence at the scene was impossible.",
+    "optionBreakdown": {
+      "A": "Correct; 'Alibi' means elsewhere.",
+      "B": "Not innocence.",
+      "C": "Not forgiveness.",
+      "D": "Not witness."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 9 / IEA S. 11",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define literal meaning of Alibi.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-046",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "Under Section 106 BSA (Section 103 IEA), who bears the Burden of Proving the Plea of Alibi?",
+    "options": [
+      "The burden of proving an alibi lies strictly on the accused who sets it up",
+      "The prosecution must prove that the accused was not elsewhere",
+      "The investigating officer must prove the alibi",
+      "The judge must investigate the alibi personally"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 103 IEA / Section 106 BSA, the burden of proving any particular fact lies on the person who wishes the court to believe in its existence (Dudh Nath Pandey v. State of U.P.).",
+    "optionBreakdown": {
+      "A": "Correct; burden of proving alibi lies on the accused setting it up.",
+      "B": "Prosecution proves presence, but alibi is accused's burden.",
+      "C": "Police not bound to prove defence alibi.",
+      "D": "Court does not investigate on behalf of accused."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 106 / IEA S. 103 / Dudh Nath Pandey",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master burden of proof in Plea of Alibi.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-047",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "In Dudh Nath Pandey v. State of U.P. ((1981) 2 SCC 166), what did the Supreme Court hold regarding the standard of distance required for a valid Plea of Alibi?",
+    "options": [
+      "The distance must be so great as to render it practically impossible for the accused to have been physically present at the scene of occurrence at the time of crime",
+      "A distance of 500 meters is always a complete alibi",
+      "Being in the next room is an alibi",
+      "Alibi does not require consideration of distance"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Dudh Nath Pandey established that alibi requires proof of such physical distance as to render presence at the crime scene impossible; being nearby does not exclude presence.",
+    "optionBreakdown": {
+      "A": "Correct; physical impossibility of presence at scene due to distance.",
+      "B": "500 meters can be crossed in minutes.",
+      "C": "Next room does not exclude presence.",
+      "D": "Distance is the crux of alibi."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 9 / IEA S. 11 / Dudh Nath Pandey (1981)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Dudh Nath Pandey physical impossibility test for alibi.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-048",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "Does the failure of the accused to prove his Plea of Alibi automatically establish the prosecution case?",
+    "options": [
+      "No; failure to establish an alibi does not relieve the prosecution of its duty to prove guilt beyond reasonable doubt; prosecution cannot rely on weak defence",
+      "Yes, false alibi is conclusive proof of murder",
+      "The accused must be convicted immediately if alibi fails",
+      "Burden shifts permanently to accused"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Jayantibhai Bhenkarbhai v. State of Gujarat ((2002) 8 SCC 165) settled that failure of alibi does not absolve the prosecution from proving its case beyond reasonable doubt.",
+    "optionBreakdown": {
+      "A": "Correct; failure of alibi does not relieve prosecution of burden of proof.",
+      "B": "Not conclusive proof of guilt.",
+      "C": "No automatic conviction.",
+      "D": "Prosecution burden remains throughout."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 9 / Jayantibhai (2002)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand effect of failure of plea of alibi.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-049",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "Under Section 8 BSA (Section 10 IEA), what things are admissible against co-conspirators?",
+    "options": [
+      "Anything said, done or written by any one of such persons in reference to their common intention, after the time when such intention was first entertained by any one of them",
+      "Only written notarised letters",
+      "Only statements made in presence of all conspirators",
+      "Only weapons seized from the scene"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 8 BSA / S. 10 IEA covers anything said, done, or written in reference to common intention, after intention first entertained.",
+    "optionBreakdown": {
+      "A": "Correct; anything said, done or written in reference to common intention.",
+      "B": "Not restricted to notarised documents.",
+      "C": "Need not be in presence of others (agency principle).",
+      "D": "Covers words and writings."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 8 / IEA S. 10",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall scope of acts/statements admissible in conspiracy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-02-050",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-02",
+    "topicId": "top-evi-02-04",
+    "question": "Under Section 9 BSA (Section 11 IEA), facts not otherwise relevant are relevant:",
+    "options": [
+      "(1) If they are inconsistent with any fact in issue or relevant fact; (2) If by themselves or in connection with other facts they make the existence or non-existence of any fact in issue or relevant fact highly probable or improbable",
+      "Only if the judge permits in writing",
+      "Only if stated by a public servant",
+      "Only in civil property partition suits"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 9 BSA / S. 11 IEA provides two limbs: (1) inconsistency (alibi); (2) high probability or improbability (probability facts).",
+    "optionBreakdown": {
+      "A": "Correct; inconsistency or high probability/improbability.",
+      "B": "Statutory rule.",
+      "C": "Not limited to public servants.",
+      "D": "Applies to civil and criminal cases."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 9 / IEA S. 11",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall two limbs of Section 11 IEA / Section 9 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 17 of the Indian Evidence Act (Admission defined)?",
+    "options": [
+      "Section 15 BSA",
+      "Section 17 BSA",
+      "Section 18 BSA",
+      "Section 21 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 15 BSA corresponds directly to Section 17 of the Indian Evidence Act.",
+    "optionBreakdown": {
+      "A": "Correct; Section 15 BSA corresponds to Section 17 IEA.",
+      "B": "Section 17 BSA is S. 19/20 IEA.",
+      "C": "Section 18 BSA is S. 21 IEA.",
+      "D": "Section 21 BSA is S. 23 IEA."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 15 / IEA S. 17",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 17 IEA (Admission defined) to Section 15 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "How is an 'Admission' defined under Section 15 BSA (Section 17 IEA)?",
+    "options": [
+      "A statement, oral or documentary or contained in electronic form, which suggests any inference as to any fact in issue or relevant fact, and which is made by any of the persons, and under the circumstances, hereinafter mentioned",
+      "Any confession made to police",
+      "A formal plea of guilty before trial court",
+      "A compromise deed signed before a mediator"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 15 BSA / S. 17 IEA defines admission: statement (oral, documentary, or electronic) suggesting inference as to fact in issue or relevant fact by qualified persons.",
+    "optionBreakdown": {
+      "A": "Correct; statement suggesting inference as to fact in issue/relevant fact by qualified persons.",
+      "B": "Confession to police is barred.",
+      "C": "Plea of guilty is judicial plea, admission is wider.",
+      "D": "Compromise deed is specific."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 15 / IEA S. 17",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define Admission under Evidence Act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "Are Admissions 'Conclusive Proof' of the matters admitted under Section 25 BSA (Section 31 IEA)?",
+    "options": [
+      "Admissions are NOT conclusive proof of the matters admitted, but they may operate as ESTOPPELS under the provisions hereinafter contained",
+      "Yes, admissions are absolute conclusive proof",
+      "Admissions can never be used in court",
+      "Admissions bind the court to dismiss the suit"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 25 BSA / S. 31 IEA explicitly declares: 'Admissions are not conclusive proof of the matters admitted, but they may operate as estoppels...'",
+    "optionBreakdown": {
+      "A": "Correct; not conclusive proof, but may operate as estoppels.",
+      "B": "Rejected; not conclusive proof.",
+      "C": "Substantive evidence, but rebuttable.",
+      "D": "Does not dismiss suit automatically."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 25 / IEA S. 31",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Section 31 IEA: Admissions not conclusive proof but may estop.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "In Bharat Singh v. Bhagirathi ((1966) 1 SCR 606), what did the Supreme Court hold regarding the substantive nature of Admissions?",
+    "options": [
+      "Admissions are substantive evidence by themselves under Sections 17 and 21 IEA, and can be relied upon without confronting the maker under Section 145",
+      "Admissions can only be used to contradict the maker under Section 145",
+      "Admissions are inadmissible unless corroborated by 5 witnesses",
+      "Admissions apply only in criminal trials"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Bharat Singh and Bishwanath Prasad settled that admissions are substantive evidence; unlike witness contradictions under S. 145, an admission of a party can be used directly without prior confrontation.",
+    "optionBreakdown": {
+      "A": "Correct; admissions are substantive evidence and need not be confronted under S. 145.",
+      "B": "Applies to witness statements, not party admissions.",
+      "C": "Corroboration not mandatory.",
+      "D": "Applies primarily in civil and criminal law."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 15 & 18 / Bharat Singh (1966)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Bharat Singh rule: admissions are substantive evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "What is the general rule under Section 18 BSA (Section 21 IEA) regarding who an Admission can be proved against or for?",
+    "options": [
+      "Admissions are relevant and may be proved as against the person who makes them, or his representative in interest; but they CANNOT be proved by or on behalf of the person who makes them, except in three specific statutory exceptions",
+      "Admissions can always be proved by the maker in his own favour",
+      "Admissions can only be proved by the State",
+      "Admissions can never be proved against anyone"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 18 BSA / S. 21 IEA embodies the golden rule: self-harming admissions are receivable against maker; self-serving statements cannot be proved in one's own favour (subject to 3 exceptions).",
+    "optionBreakdown": {
+      "A": "Correct; proved against maker, not by/on behalf of maker (with 3 exceptions).",
+      "B": "Self-serving statements barred.",
+      "C": "Proved by opposing party.",
+      "D": "Admissions are provable."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 18 / IEA S. 21",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master general rule and self-harming nature of admissions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "Which of the following is an Exception under Section 18 BSA (Section 21 IEA) where an admission MAY be proved by or on behalf of the person making it?",
+    "options": [
+      "When it is of such a nature that, if the person making it were dead, it would be relevant as between third persons under Section 26 BSA (Section 32 IEA)",
+      "Whenever it helps him win the case",
+      "Whenever he made it while talking to himself",
+      "Whenever his advocate drafts it"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 21(1) IEA / BSA S. 18(a) is Exception 1: provable by maker if it would be relevant under S. 32 / BSA S. 26 if he were dead.",
+    "optionBreakdown": {
+      "A": "Correct; Exception 1 under Section 21 IEA / Section 18 BSA.",
+      "B": "Self-serving interest not ground.",
+      "C": "Soliloquy not ground.",
+      "D": "Advocate drafting irrelevant."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 18 / IEA S. 21(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Exception 1 to Section 21 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "Under Section 16 BSA (Section 18 IEA), statements made by an agent are admissions when:",
+    "options": [
+      "The Court regards the agent under the circumstances of the case as expressly or impliedly authorised by the principal to make them",
+      "The agent was dismissed 5 years ago",
+      "The agent spoke at a private birthday party without authority",
+      "The agent is an infant"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 16(1) BSA / S. 18 IEA provides that statements by an agent expressly or impliedly authorized by principal are admissions against principal.",
+    "optionBreakdown": {
+      "A": "Correct; authorized agent's statements are admissions.",
+      "B": "Unauthorized ex-agent cannot bind.",
+      "C": "Private unauthorized talk does not bind.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 16(1) / IEA S. 18",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall agency admissions under S. 18 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "Under Section 20 BSA (Section 23 IEA), in civil cases, when is an Admission NOT relevant?",
+    "options": [
+      "If it is made either upon an express condition that evidence of it is not to be given, or under circumstances from which the court can infer that the parties agreed together that evidence of it should not be given ('Without Prejudice' communications)",
+      "If made in the presence of a judge",
+      "If signed on stamp paper",
+      "If sent via registered post"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 20 BSA / S. 23 IEA codifies 'Without Prejudice' privilege in civil cases: settlement negotiations cannot be used as admissions.",
+    "optionBreakdown": {
+      "A": "Correct; 'Without Prejudice' communications protected under S. 23 IEA / S. 20 BSA.",
+      "B": "Judicial admissions are relevant.",
+      "C": "Stamp paper does not bar.",
+      "D": "Registered post provable."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 20 / IEA S. 23",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master 'Without Prejudice' privilege under S. 23 IEA / S. 20 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "Can an admission be made by a person to whom a party to the suit has expressly referred for information in reference to a matter in dispute?",
+    "options": [
+      "Yes, under Section 17 BSA (Section 20 IEA), statements made by persons to whom a party has expressly referred for information are admissions (Reference to Referee)",
+      "No, only the party's own words can be an admission",
+      "Only if the referee is a High Court judge",
+      "Only in divorce proceedings"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 17 BSA / S. 20 IEA covers admissions by third-party referees (e.g. 'Go and ask X, he knows all about it'; X's statement is an admission).",
+    "optionBreakdown": {
+      "A": "Correct; statement by referee referred to for information is an admission.",
+      "B": "S. 20 is an express statutory exception.",
+      "C": "Judge not required.",
+      "D": "Applies across all civil/commercial disputes."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 17 / IEA S. 20",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master third-party referee admissions under S. 20 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-01",
+    "question": "What is the difference between an 'Admission' and a 'Confession'?",
+    "options": [
+      "Confession is a species of Admission; all confessions are admissions, but all admissions are not confessions; a confession is a direct admission of guilt in criminal proceedings (Pakala Narayana Swami)",
+      "Admission is criminal; Confession is civil",
+      "Admissions are conclusive proof; Confessions are not",
+      "There is no distinction in Indian law"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Lord Atkin in Pakala Narayana Swami established that confession is an admission made by a person charged with crime stating or suggesting inference that he committed the crime.",
+    "optionBreakdown": {
+      "A": "Correct; confession is species of admission admitting guilt in criminal law.",
+      "B": "Inverted.",
+      "C": "Neither is conclusive proof per se.",
+      "D": "Fundamental legal distinction."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 15 & 22 / Pakala Narayana Swami (1939)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish Admission from Confession.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 24 of the Indian Evidence Act (confession caused by inducement, threat or promise)?",
+    "options": [
+      "Section 22 BSA",
+      "Section 24 BSA",
+      "Section 23 BSA",
+      "Section 25 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 22 BSA corresponds directly to Section 24 of the Indian Evidence Act.",
+    "optionBreakdown": {
+      "A": "Correct; Section 22 BSA corresponds to Section 24 IEA.",
+      "B": "Section 24 BSA is S. 28/29 IEA.",
+      "C": "Section 23 BSA is S. 25/26/27 IEA.",
+      "D": "Section 25 BSA is S. 31 IEA."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 22 / IEA S. 24",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 24 IEA to Section 22 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "Under Section 22 BSA (Section 24 IEA), a confession made by an accused person is IRRELEVANT in a criminal proceeding if the making of the confession appears to the Court to have been caused by:",
+    "options": [
+      "Any inducement, threat or promise having reference to the charge, proceeding from a person in authority, giving grounds of temporal advantage or avoiding temporal evil",
+      "Moral or spiritual exhortations by a priest",
+      "The accused feeling guilty in his own conscience",
+      "Friendly advice from his own brother"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 22 BSA / S. 24 IEA excludes confessions caused by inducement, threat, or promise relating to the charge from a person in authority giving temporal gain/avoiding evil.",
+    "optionBreakdown": {
+      "A": "Correct; inducement, threat or promise from person in authority regarding charge.",
+      "B": "Spiritual/moral exhortation does not invalidate confession under S. 24.",
+      "C": "Conscience is internal.",
+      "D": "Brother is not person in authority."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 22 / IEA S. 24",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master ingredients of Section 24 IEA / Section 22 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "Who is a 'Person in Authority' within the meaning of Section 24 IEA (Section 22 BSA)?",
+    "options": [
+      "Anyone who has authority over the prosecution or the accused (e.g. Police Officer, Magistrate, Public Prosecutor, Village Pradhan having custody)",
+      "Any private passenger on a bus",
+      "The accused's neighbour",
+      "A medical doctor treating the accused"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Pyare Lal Bhargava v. State of Rajasthan (1963) settled that a person in authority is one who has power to influence the prosecution or custody of the accused.",
+    "optionBreakdown": {
+      "A": "Correct; person having control over prosecution or custody.",
+      "B": "Private stranger is not person in authority.",
+      "C": "Neighbour is not in authority.",
+      "D": "Doctor is not person in authority regarding charge."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 22 / IEA S. 24 / Pyare Lal Bhargava",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'Person in Authority' under Section 24 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "If a priest says to an accused: 'Confess your sin to God, for the truth will save your soul in the afterlife', and the accused confesses, is this confession barred under Section 24 IEA?",
+    "options": [
+      "No; because the inducement was spiritual/religious, not a temporal advantage or avoiding temporal evil in reference to the criminal charge",
+      "Yes, all statements to priests are barred",
+      "Yes, priests are persons in authority",
+      "The confession is conclusive proof"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 24 IEA requires that the inducement/promise must offer a 'temporal' (worldly/legal) advantage or avoid evil; purely spiritual or moral appeals do not attract Section 24.",
+    "optionBreakdown": {
+      "A": "Correct; spiritual/religious inducement does not attract S. 24 temporal requirement.",
+      "B": "Not barred under S. 24.",
+      "C": "Priest is not in authority over charge.",
+      "D": "Not conclusive proof."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 22 / IEA S. 24",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish temporal inducement from spiritual/moral exhortation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "Under Section 24(1) BSA (Section 28 IEA), when does a confession caused by inducement, threat or promise become RELEVANT?",
+    "options": [
+      "If it is made after the impression caused by any such inducement, threat or promise has, in the opinion of the Court, been fully removed",
+      "If the accused is paid Rs 10,000",
+      "If the police officer apologises",
+      "It can never become relevant under any circumstance"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 24(1) BSA (Section 28 IEA) provides that if the court is of opinion that the impression of the threat/inducement was fully removed, the confession becomes relevant.",
+    "optionBreakdown": {
+      "A": "Correct; becomes relevant once impression is fully removed (S. 28 IEA).",
+      "B": "Bribery illegal.",
+      "C": "Apology does not remove impression.",
+      "D": "Statutory revival exists under S. 28."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 24(1) / IEA S. 28",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall removal of impression under Section 28 IEA / Section 24(1) BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "Under Section 24(2) BSA (Section 29 IEA), if a confession is otherwise relevant, does it become irrelevant merely because it was made:",
+    "options": [
+      "Under a promise of secrecy, or in consequence of a deception practised on the accused, or when he was drunk, or because he was not warned that he was not bound to make it",
+      "No, it does NOT become irrelevant merely on these grounds",
+      "Yes, deception makes it completely inadmissible",
+      "Yes, drunkenness voids all confessions"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 24(2) BSA / S. 29 IEA expressly states that confession does not become irrelevant merely because made under promise of secrecy, deception, intoxication, or lack of warning.",
+    "optionBreakdown": {
+      "A": "Correct; does NOT become irrelevant merely on these grounds under S. 29 IEA / S. 24(2) BSA.",
+      "B": "Deception does not per se invalidate under S. 29.",
+      "C": "S. 29 explicitly preserves it.",
+      "D": "Intoxication does not bar under S. 29."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 24(2) / IEA S. 29",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Section 29 IEA: Confession under deception/drunkenness not irrelevant.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "In State of Rajasthan v. Raja Ram ((2003) 8 SCC 180), what did the Supreme Court hold regarding an 'Extra-Judicial Confession'?",
+    "options": [
+      "An extra-judicial confession, if voluntary, consistent and inspiring confidence, is substantive evidence and can form the basis of conviction, but is generally viewed with caution as a weak type of evidence",
+      "Extra-judicial confession is conclusive proof",
+      "Extra-judicial confession is completely barred under Indian law",
+      "Extra-judicial confession requires approval of High Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Raja Ram established that while an extra-judicial confession is weak evidence requiring careful scrutiny, it can support conviction if proved voluntary, credible and truthful.",
+    "optionBreakdown": {
+      "A": "Correct; weak evidence viewed with caution, but can sustain conviction if voluntary and credible.",
+      "B": "Not conclusive proof.",
+      "C": "Admissible under law.",
+      "D": "Trial court evaluates."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 22 / Raja Ram (2003)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master evidentiary value of Extra-Judicial Confession.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "Can a confession be parsed by accepting the inculpatory part while rejecting the exculpatory part?",
+    "options": [
+      "No; as held in Palvinder Kaur v. State of Punjab (AIR 1952 SC 354) and Nishikant Jha (1969), a confession must be accepted as a whole or rejected as a whole, unless exculpatory part is contradicted by other evidence",
+      "Yes, court can arbitrarily pick two words and reject the rest",
+      "Court must always believe the police",
+      "Exculpatory part is automatically false"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Palvinder Kaur settled that a confession must be accepted as a whole or rejected as a whole; court cannot pick only the incriminating portion if the rest is exculpatory (qualified in Nishikant Jha).",
+    "optionBreakdown": {
+      "A": "Correct; confession accepted or rejected as a whole (Palvinder Kaur).",
+      "B": "Arbitrary parsing rejected.",
+      "C": "Police statements inadmissible.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 22 / Palvinder Kaur (1952)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Palvinder Kaur rule: confession accepted or rejected as a whole.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "What is the standard of judicial satisfaction under Section 24 IEA (Section 22 BSA)?",
+    "options": [
+      "The word 'appears' in Section 24 imports a lesser degree of probability than proof; if it appears to the court from circumstances that confession was induced, court must exclude it",
+      "Strict proof beyond reasonable doubt of torture is required",
+      "Accused must produce video recording of torture",
+      "Presumption of voluntariness is irrebuttable"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Pyare Lal Bhargava established that the statutory word 'appears' requires only a prima facie impression or reasonable doubt regarding voluntariness to exclude the confession.",
+    "optionBreakdown": {
+      "A": "Correct; word 'appears' imports lesser degree of probability than strict proof.",
+      "B": "Strict proof of torture not required.",
+      "C": "Video recording not mandatory.",
+      "D": "Presumption of voluntariness is not irrebuttable."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 22 / IEA S. 24 / Pyare Lal Bhargava",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Interpret the word 'appears' in Section 24 IEA / Section 22 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-02",
+    "question": "A village pradhan tells an accused: 'Tell me the truth and I will save you from the police'. The accused confesses. Is this confession admissible?",
+    "options": [
+      "No; it is inadmissible under Section 24 IEA (Section 22 BSA) because the pradhan is a person in authority and gave a temporal promise of saving him from police",
+      "Yes, pradhans have power to forgive crimes",
+      "Yes, village talks are exempt from evidence law",
+      "It is admissible under Section 27"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "A village pradhan/panchayat head having authority over village administration is a person in authority; promise of immunity renders confession inadmissible under S. 24.",
+    "optionBreakdown": {
+      "A": "Correct; barred under S. 24 IEA / S. 22 BSA due to promise by person in authority.",
+      "B": "Pradhan cannot forgive penal offences.",
+      "C": "Evidence Act applies.",
+      "D": "No discovery of fact under S. 27."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 22 / IEA S. 24",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Section 24 to village pradhan promise scenario.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-021",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "Under Section 23(1) BSA (Section 25 IEA), what is the statutory bar regarding confessions made to police officers?",
+    "options": [
+      "No confession made to a police officer shall be proved as against a person accused of any offence",
+      "Confessions to police officers are admissible if signed",
+      "Confessions to police officers are admissible if recorded by DSP",
+      "Confessions to police officers are conclusive proof"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 23(1) BSA (Section 25 IEA) creates an absolute, non-negotiable statutory bar: NO confession made to a police officer shall be proved against an accused.",
+    "optionBreakdown": {
+      "A": "Correct; absolute bar on proving confession made to a police officer.",
+      "B": "Signing does not make it admissible.",
+      "C": "Rank of police officer is irrelevant.",
+      "D": "Strictly inadmissible."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23(1) / IEA S. 25",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master absolute bar on police confessions under S. 25 IEA / S. 23(1) BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-022",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "Does the bar under Section 25 IEA (Section 23(1) BSA) apply to confessions made to a police officer before the person was formally arrested or accused?",
+    "options": [
+      "Yes; as held in Aghnoo Nagesia v. State of Bihar (AIR 1966 SC 119), Section 25 protects any person who subsequently becomes an accused; timing of confession before or after FIR is immaterial",
+      "No, it applies only after formal arrest",
+      "No, applies only after filing charge-sheet",
+      "Only if the person was in handcuffs"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Aghnoo Nagesia established that Section 25 applies to any confession made to a police officer, even if the maker was not accused of an offence at the moment he confessed.",
+    "optionBreakdown": {
+      "A": "Correct; applies whether made before or after becoming an accused.",
+      "B": "Prior arrest not required.",
+      "C": "Charge-sheet irrelevant.",
+      "D": "Handcuffs irrelevant."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 23(1) / Aghnoo Nagesia (1966)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Aghnoo Nagesia ruling on confession to police prior to accusation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-023",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "Under Section 23(2) BSA (Section 26 IEA), what is the rule regarding confessions made while in the CUSTODY of a police officer?",
+    "options": [
+      "No confession made by any person whilst he is in the custody of a police officer shall be proved as against such person, UNLESS it be made in the immediate presence of a Magistrate",
+      "Admissible if made to a cell-mate",
+      "Admissible if made to a doctor in police lockup",
+      "Admissible if overheard by a reporter"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 23(2) BSA / S. 26 IEA bars confessions made in police custody to ANY person (cellmate, doctor, visitor), UNLESS made in immediate presence of a Magistrate.",
+    "optionBreakdown": {
+      "A": "Correct; barred unless made in the immediate presence of a Magistrate.",
+      "B": "Confession to cellmate in custody is barred.",
+      "C": "Confession to doctor in custody is barred.",
+      "D": "Overheard confession in custody barred."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23(2) / IEA S. 26",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Section 26 IEA police custody bar and Magistrate exception.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-024",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "In State of Punjab v. Barkat Ram (AIR 1962 SC 276) and Badaku Joti Svant (1966), are Customs Officers or Central Excise Officers 'Police Officers' under Section 25 IEA?",
+    "options": [
+      "No; Customs, Excise and FERA officers are not police officers within Section 25 because they do not possess the power to submit a police report (charge-sheet) under S. 173 CrPC",
+      "Yes, all uniformed government officers are police officers",
+      "Customs officers can execute capital sentences",
+      "Section 25 applies to all public servants"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Barkat Ram and Badaku Joti Svant established that 'police officer' under S. 25 requires power to investigate AND file a charge-sheet under S. 173 CrPC (confirmed in Tofan Singh regarding NDPS officers).",
+    "optionBreakdown": {
+      "A": "Correct; Customs/Excise officers are not police officers under Section 25.",
+      "B": "Uniform does not make one a police officer.",
+      "C": "Absurd.",
+      "D": "Section 25 is specific to police officers."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 23 / Barkat Ram (1962) / Badaku Joti Svant",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Barkat Ram test for 'Police Officer' under S. 25 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-025",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "In Tofan Singh v. State of Tamil Nadu ((2021) 4 SCC 1), what did the Supreme Court hold regarding Officers of the NCB under the NDPS Act?",
+    "options": [
+      "Officers of the NCB invested with powers under Section 53 of the NDPS Act ARE 'police officers' within the meaning of Section 25 IEA; confessions made to them are inadmissible",
+      "Confessions to NCB officers are conclusive proof of guilt",
+      "NDPS Act is exempt from all evidence laws",
+      "NCB officers are judicial magistrates"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Tofan Singh 3-Judge Bench held that officers invested with powers under S. 53 NDPS Act are police officers under S. 25 IEA, rendering confessional statements inadmissible.",
+    "optionBreakdown": {
+      "A": "Correct; NCB officers under S. 53 NDPS are police officers under S. 25 IEA.",
+      "B": "Rejected; inadmissible under S. 25.",
+      "C": "Evidence law applies.",
+      "D": "They are investigative officers."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23 / Tofan Singh (2021)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Tofan Singh ruling on NDPS / NCB officers under S. 25 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-026",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "What does 'Police Custody' mean under Section 26 IEA (Section 23(2) BSA)?",
+    "options": [
+      "Includes not only formal arrest in a police station, but also any surveillance, restriction on movement or control exercised by police over the person (State of A.P. v. Gangula Satya Murthy)",
+      "Only being locked behind physical iron bars in a police station",
+      "Only when the person is in handcuffs",
+      "Only after remand by a Magistrate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Gangula Satya Murthy ((1997) 1 SCC 272) affirmed that police custody begins as soon as freedom of movement is restricted by police, even without formal arrest.",
+    "optionBreakdown": {
+      "A": "Correct; physical surveillance, restriction or control constitutes police custody.",
+      "B": "Too narrow; lockup is not mandatory.",
+      "C": "Handcuffs not required.",
+      "D": "Custody exists prior to remand."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 23(2) / Gangula Satya Murthy (1997)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define constructive police custody under Section 26 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-027",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "In Aghnoo Nagesia v. State of Bihar (AIR 1966 SC 119), the accused himself went to the police station and lodged an FIR confessing that he had murdered four relatives. The Supreme Court held:",
+    "options": [
+      "The entire confession in the FIR is inadmissible under Section 25 IEA, save only such parts as relate to discovery of dead bodies/weapons under Section 27",
+      "The entire FIR is admissible as substantive evidence",
+      "The FIR can be treated as a dying declaration",
+      "The accused was acquitted of murder"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Aghnoo Nagesia held that a confessional FIR lodged by the accused cannot be proved against him under S. 25, except severable parts leading to discovery of facts under S. 27.",
+    "optionBreakdown": {
+      "A": "Correct; confessional FIR is inadmissible under S. 25, save S. 27 discoveries.",
+      "B": "Confessional FIR barred by S. 25.",
+      "C": "Not dying declaration.",
+      "D": "Convicted based on S. 27 discoveries and corroborative evidence."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23 / Aghnoo Nagesia (1966)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Aghnoo Nagesia confessional FIR doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-028",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "Can a confession made to a private citizen while a police officer is standing outside the room within hearing distance be admitted?",
+    "options": [
+      "No; because the accused is under the effective custody and immediate presence of the police officer, attracting the bar of Section 26 IEA",
+      "Yes, because it was spoken to a private person",
+      "Yes, eavesdropping is always valid evidence",
+      "Only if the citizen was a relative"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "State of Maharashtra v. Kamal Ahmed (2013) settled that presence of police within earshot or immediate vicinity constitutes police custody, barring the confession.",
+    "optionBreakdown": {
+      "A": "Correct; presence of police in vicinity constitutes custody under S. 26.",
+      "B": "Cannot evade S. 26 by speaking to third person in police presence.",
+      "C": "Barred by statute.",
+      "D": "Relation irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 23(2) / IEA S. 26",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Section 26 bar to confession to third person in police presence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-029",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "What is the rationale behind the strict exclusionary rule of Section 25 and 26 IEA?",
+    "options": [
+      "To prevent the widespread danger of third-degree methods, torture, extortion and fabrication of confessions by police to secure convictions (Queen Empress v. Babu Lal)",
+      "Because police officers are not educated",
+      "Because courts do not like police",
+      "To delay trials"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Straight J. in Queen Empress v. Babu Lal (1884) famously expounded that Sections 25 and 26 are protective walls erected to protect citizens from police torture and forced confessions.",
+    "optionBreakdown": {
+      "A": "Correct; protecting citizens against third-degree methods and forced confessions.",
+      "B": "Irrelevant.",
+      "C": "Judicial respect for statutory policy.",
+      "D": "Protective, not dilatory."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 23 / Babu Lal (1884)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall policy rationale of Section 25 and 26 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-030",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-03",
+    "question": "Is a non-confessional FIR lodged by the accused (e.g. reporting his own injury or an alibi) admissible under Section 25 IEA?",
+    "options": [
+      "Yes; only confessional statements in the FIR are hit by Section 25; non-confessional admissions of fact can be proved against the accused under Section 21 (Faddi v. State of M.P.)",
+      "No, any document signed by accused in police station is void",
+      "Yes, but only if the victim consents",
+      "Only in civil suits"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Faddi v. State of M.P. (AIR 1964 SC 1850) established that an FIR by accused which is not a confession can be used against him as an admission under S. 21 / BSA S. 18.",
+    "optionBreakdown": {
+      "A": "Correct; non-confessional parts are admissible as admissions under S. 21.",
+      "B": "Only confessions barred by S. 25.",
+      "C": "Consent irrelevant.",
+      "D": "Applies in criminal trial."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 18 & 23 / Faddi (1964)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish confessional from non-confessional statements in FIR by accused.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-031",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to the famous Section 27 of the Indian Evidence Act (how much of information received from accused may be proved / Discovery Statements)?",
+    "options": [
+      "Section 23(2) Proviso BSA",
+      "Section 27 BSA",
+      "Section 22 BSA",
+      "Section 28 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 23(2) Proviso BSA incorporates Section 27 of the Indian Evidence Act (Information leading to discovery of fact).",
+    "optionBreakdown": {
+      "A": "Correct; Section 23(2) Proviso BSA corresponds to Section 27 IEA.",
+      "B": "Section 27 is renumbered within Section 23 in BSA.",
+      "C": "Section 22 BSA is S. 24 IEA.",
+      "D": "Section 28 BSA is dying declaration."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23(2) Proviso / IEA S. 27",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 27 IEA (Discovery Statement) to Section 23(2) Proviso BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-032",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "In the celebrated Privy Council decision of Pulukuri Kottaya v. King-Emperor (AIR 1947 PC 67), what did Sir John Beaumont settle regarding the scope of Section 27 IEA?",
+    "options": [
+      "'The fact discovered embraces the place from which the object is produced and the knowledge of the accused as to this, and the information given must relate distinctly to this fact'; confession of having killed is strictly excluded",
+      "The entire confession including past history of murder is admissible",
+      "Section 27 was declared unconstitutional",
+      "Section 27 applies only to theft cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Pulukuri Kottaya is the locus classicus: fact discovered is physical object + place of concealment + accused's knowledge; the confession of past guilt ('I killed X with this knife') is inadmissible.",
+    "optionBreakdown": {
+      "A": "Correct; fact discovered = object + place + knowledge; past guilt confession excluded.",
+      "B": "Past guilt confession strictly excluded.",
+      "C": "Upheld as valid law.",
+      "D": "Applies across all offences."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23(2) Proviso / IEA S. 27 / Pulukuri Kottaya",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Pulukuri Kottaya doctrine on Section 27 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-033",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "An accused in police custody states: 'I have buried the knife with which I stabbed B in the field behind my house, and I will show you where it is'. Which part of this statement is ADMISSIBLE under Section 27 IEA / Section 23(2) Proviso BSA?",
+    "options": [
+      "Only 'I have buried the knife in the field behind my house, and I will show you where it is'; the words 'with which I stabbed B' are strictly inadmissible",
+      "The entire sentence is admissible",
+      "Nothing is admissible because he was in police custody",
+      "Only the word 'knife' is admissible"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Pulukuri Kottaya, the confession of past stabbing ('with which I stabbed B') is severed and excluded; only the statement of concealment and location distinctly leading to discovery is admitted.",
+    "optionBreakdown": {
+      "A": "Correct; words relating to past stabbing are severed and excluded.",
+      "B": "Inculpatory past guilt cannot be smuggled under S. 27.",
+      "C": "Section 27 is an express exception to police custody bar.",
+      "D": "Statement of concealment is admissible."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23(2) Proviso / Pulukuri Kottaya (1947)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Pulukuri Kottaya severability rule to discovery statement.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-034",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "What is the relationship between Section 27 IEA (Section 23(2) Proviso BSA) and Sections 24, 25, 26 IEA?",
+    "options": [
+      "Section 27 is an EXCEPTION or proviso to Sections 24, 25, and 26; it partially lifts the ban on police confessions to the extent that information distinctly leads to discovery of a relevant fact",
+      "Section 27 cancels Sections 24, 25 and 26 completely",
+      "Sections 25 and 26 override Section 27",
+      "Section 27 applies only in civil courts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "State of U.P. v. Deoman Upadhyaya (AIR 1960 SC 1125) settled that Section 27 operates as a proviso/exception carving out discovery of facts from the absolute ban of Sections 24-26.",
+    "optionBreakdown": {
+      "A": "Correct; Section 27 is an exception carving out confirmation by subsequent facts.",
+      "B": "Does not cancel general ban.",
+      "C": "Section 27 prevails to the extent of discovery.",
+      "D": "Criminal evidence provision."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23 / Deoman Upadhyaya (1960)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Section 27 as exception to Sections 24-26 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-035",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "In State of U.P. v. Deoman Upadhyaya (AIR 1960 SC 1125), the Constitution Bench upheld the constitutional validity of Section 27 IEA under Article 14, holding that:",
+    "options": [
+      "The classification between persons in police custody and persons not in police custody is reasonable and founded on an intelligible differentia with rational relation to the object",
+      "Section 27 violates Article 14 and was struck down",
+      "Section 27 violates Article 20(3)",
+      "Section 27 applies only to Uttar Pradesh"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Deoman Upadhyaya Constitution Bench upheld Section 27 under Article 14: custody status creates a valid classification to ensure discovery reliability.",
+    "optionBreakdown": {
+      "A": "Correct; upheld under Article 14 on intelligible differentia.",
+      "B": "Upheld, not struck down.",
+      "C": "Upheld under Art 20(3) (Kathi Kalu Oghad).",
+      "D": "National statute."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 23(2) Proviso / Deoman Upadhyaya (1960)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Deoman Upadhyaya Article 14 constitutional ruling.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-036",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "In State of Bombay v. Kathi Kalu Oghad (AIR 1961 SC 1808), the 11-Judge Constitution Bench held that Section 27 IEA does NOT violate Article 20(3) (right against self-incrimination), because:",
+    "options": [
+      "Giving information leading to discovery of physical facts or giving handwriting/fingerprints does not amount to 'being a witness against oneself' unless compelled",
+      "Self-incrimination does not exist in Indian law",
+      "Article 20(3) applies only to corporate fraud",
+      "Police can use torture to discover weapons"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Kathi Kalu Oghad 11-Judge Bench held that furnishing physical evidence or info leading to discovery is not testimonial compulsion under Art 20(3) unless actual force/torture was used.",
+    "optionBreakdown": {
+      "A": "Correct; discovery of physical facts does not constitute testimonial compulsion under Art 20(3).",
+      "B": "Art 20(3) is a fundamental right.",
+      "C": "Applies to criminal accused.",
+      "D": "Torture is strictly illegal."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 23 / Kathi Kalu Oghad (1961) / Art. 20(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Kathi Kalu Oghad 11-Judge Bench ruling on S. 27 and Article 20(3).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-037",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "Can a discovery under Section 27 IEA be made from an OPEN PUBLIC PLACE accessible to all?",
+    "options": [
+      "No; if the property was discovered from an open public place accessible to anyone (e.g. an open public road or field), it carries no evidentiary weight unless proved hidden or concealed by the accused",
+      "Yes, finding anything anywhere is conclusive proof against the accused",
+      "Discoveries must only be from inside police stations",
+      "Open places are preferred over secret places"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Trimbak v. State of M.P. (AIR 1954 SC 39) established that recovery from an open place accessible to the public does not prove exclusive possession or knowledge of accused.",
+    "optionBreakdown": {
+      "A": "Correct; recovery from open public place without concealment carries no evidentiary value.",
+      "B": "Not conclusive proof.",
+      "C": "Police station recovery is suspect.",
+      "D": "Secret/concealed place is essential."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 23(2) Proviso / Trimbak (1954)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze discovery from open public place under S. 27 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-038",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "What is the doctrine of 'Confirmation by Subsequent Events' underlying Section 27 IEA?",
+    "options": [
+      "Even though a confession to police is tainted with suspicion, when the information is verified and confirmed by the actual discovery of the physical object at the designated place, the truth of that part is guaranteed",
+      "Subsequent events forgive all prior offences",
+      "Subsequent discovery permits police to beat the suspect",
+      "Any weapon found anywhere confirms the accused's guilt"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The theoretical foundation of Section 27 is the doctrine of confirmation by subsequent facts: physical discovery corroborates the veracity of the information given.",
+    "optionBreakdown": {
+      "A": "Correct; verification by physical discovery guarantees truth of that part.",
+      "B": "Does not forgive offences.",
+      "C": "Torture illegal.",
+      "D": "Must be based on accused's distinct information."
+    },
+    "difficulty": "Medium",
+    "provision": "BSA S. 23(2) Proviso / IEA S. 27",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master doctrine of Confirmation by Subsequent Events.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-039",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "If the police ALREADY KNEW where the weapon was hidden before the accused made his statement, can the discovery be proved under Section 27 IEA?",
+    "options": [
+      "No; if the fact was already known to the police, there is NO discovery in consequence of the information given by the accused, and Section 27 cannot apply (Jaffar Hussain Dastagir)",
+      "Yes, statement can be recorded post-discovery",
+      "Police knowledge is irrelevant",
+      "Accused is still presumed to have discovered it"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Jaffar Hussain Dastagir v. State of Maharashtra ((1969) 2 SCC 872) held that discovery must be in consequence of information; if police already knew the place, S. 27 is inapplicable.",
+    "optionBreakdown": {
+      "A": "Correct; prior police knowledge negates discovery under Section 27.",
+      "B": "Post-discovery statement is farcical.",
+      "C": "Police knowledge is fatal.",
+      "D": "No presumption."
+    },
+    "difficulty": "Hard",
+    "provision": "BSA S. 23(2) Proviso / Jaffar Hussain (1969)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master prior police knowledge bar on Section 27 discovery.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-03-040",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-03",
+    "topicId": "top-evi-03-04",
+    "question": "Must the accused be in 'Custody of a police officer' at the time of giving information under Section 27 IEA / Section 23(2) Proviso BSA?",
+    "options": [
+      "Yes, custody is an express statutory requirement ('received from a person accused of any offence, in the custody of a police officer')",
+      "No, custody is not mentioned in Section 27",
+      "Accused must be on bail",
+      "Custody must be in the High Court lockup"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 27 IEA / Section 23(2) Proviso BSA explicitly requires: 'received from a person accused of any offence, in the custody of a police officer' (constructive or formal custody).",
+    "optionBreakdown": {
+      "A": "Correct; police custody is an express statutory requirement.",
+      "B": "Explicitly stated in text.",
+      "C": "Not on bail.",
+      "D": "Police custody."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 23(2) Proviso / IEA S. 27",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall statutory custody requirement for Section 27 discovery.",
+    "eligible": true,
+    "status": "active"
+  }
+]

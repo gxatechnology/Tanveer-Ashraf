@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f5ede0"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#142c46" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Decorative Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#ffffff">Comparative Schools of Jurisprudence</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Foundational philosophical paradigms, core doctrines and leading jurists</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">UP PCS-J ACADEMIC BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <!-- 5 Schools Comparison Cards -->
+  <g transform="translate(20, 20)">
+    <!-- Natural Law -->
+    <rect x="0" y="0" width="140" height="360" rx="8" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="140" height="36" rx="8" fill="#137d72"/>
+    <rect x="0" y="28" width="140" height="8" fill="#137d72"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">Natural Law</text>
+    <text x="70" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Core Premise</text>
+    <text x="70" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Universal moral order</text>
+    <text x="70" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Lex injusta non est lex</text>
+    <line x1="15" y1="105" x2="125" y2="105" stroke="#edf0f4"/>
+    <text x="70" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Key Proponents</text>
+    <text x="70" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#137d72">• Thomas Aquinas</text>
+    <text x="70" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#137d72">• John Locke</text>
+    <text x="70" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#137d72">• Lon Fuller</text>
+    <text x="70" y="187" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#137d72">• John Finnis</text>
+    <line x1="15" y1="205" x2="125" y2="205" stroke="#edf0f4"/>
+    <text x="70" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Central Focus</text>
+    <text x="15" y="245" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">Law derived from reason,</text>
+    <text x="15" y="260" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">nature and divine purpose.</text>
+    <text x="15" y="275" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">Morality is an inherent</text>
+    <text x="15" y="290" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">validity condition of law.</text>
+
+    <!-- Analytical Positivist -->
+    <rect x="155" y="0" width="140" height="360" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="155" y="0" width="140" height="36" rx="8" fill="#142c46"/>
+    <rect x="155" y="28" width="140" height="8" fill="#142c46"/>
+    <text x="225" y="22" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">Analytical</text>
+    <text x="225" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Core Premise</text>
+    <text x="225" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Law as it is (Positum)</text>
+    <text x="225" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Separation thesis</text>
+    <line x1="170" y1="105" x2="280" y2="105" stroke="#edf0f4"/>
+    <text x="225" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Key Proponents</text>
+    <text x="225" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#142c46">• Jeremy Bentham</text>
+    <text x="225" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#142c46">• John Austin</text>
+    <text x="225" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#142c46">• H.L.A. Hart</text>
+    <text x="225" y="187" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#142c46">• Hans Kelsen</text>
+    <line x1="170" y1="205" x2="280" y2="205" stroke="#edf0f4"/>
+    <text x="225" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Central Focus</text>
+    <text x="170" y="245" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">Commands of sovereign,</text>
+    <text x="170" y="260" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">sanctions, primary/secondary</text>
+    <text x="170" y="275" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">rules, and the Grundnorm</text>
+    <text x="170" y="290" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">hierarchy of norms.</text>
+
+    <!-- Historical -->
+    <rect x="310" y="0" width="140" height="360" rx="8" fill="#ffffff" stroke="#b98a38" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="310" y="0" width="140" height="36" rx="8" fill="#b98a38"/>
+    <rect x="310" y="28" width="140" height="8" fill="#b98a38"/>
+    <text x="380" y="22" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">Historical</text>
+    <text x="380" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Core Premise</text>
+    <text x="380" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Law is found, not made</text>
+    <text x="380" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Volksgeist (National spirit)</text>
+    <line x1="325" y1="105" x2="435" y2="105" stroke="#edf0f4"/>
+    <text x="380" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Key Proponents</text>
+    <text x="380" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#74582a">• F.C. von Savigny</text>
+    <text x="380" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#74582a">• Sir Henry Maine</text>
+    <text x="380" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#74582a">• Georg F. Puchta</text>
+    <line x1="325" y1="205" x2="435" y2="205" stroke="#edf0f4"/>
+    <text x="380" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Central Focus</text>
+    <text x="325" y="245" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">Customary traditions,</text>
+    <text x="325" y="260" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">historical evolution,</text>
+    <text x="325" y="275" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">movement from Status</text>
+    <text x="325" y="290" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">to Contract in societies.</text>
+
+    <!-- Sociological -->
+    <rect x="465" y="0" width="140" height="360" rx="8" fill="#ffffff" stroke="#135e48" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="465" y="0" width="140" height="36" rx="8" fill="#135e48"/>
+    <rect x="465" y="28" width="140" height="8" fill="#135e48"/>
+    <text x="535" y="22" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">Sociological</text>
+    <text x="535" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Core Premise</text>
+    <text x="535" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Law as Social Engineering</text>
+    <text x="535" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Living Law in action</text>
+    <line x1="480" y1="105" x2="590" y2="105" stroke="#edf0f4"/>
+    <text x="535" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Key Proponents</text>
+    <text x="535" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#135e48">• Rudolf von Ihering</text>
+    <text x="535" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#135e48">• Eugen Ehrlich</text>
+    <text x="535" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#135e48">• Léon Duguit</text>
+    <text x="535" y="187" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#135e48">• Roscoe Pound</text>
+    <line x1="480" y1="205" x2="590" y2="205" stroke="#edf0f4"/>
+    <text x="535" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Central Focus</text>
+    <text x="480" y="245" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">Balancing competing</text>
+    <text x="480" y="260" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">individual, public and</text>
+    <text x="480" y="275" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">social interests with least</text>
+    <text x="480" y="290" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">friction and waste.</text>
+
+    <!-- Realist -->
+    <rect x="620" y="0" width="140" height="360" rx="8" fill="#ffffff" stroke="#a63b49" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="620" y="0" width="140" height="36" rx="8" fill="#a63b49"/>
+    <rect x="620" y="28" width="140" height="8" fill="#a63b49"/>
+    <text x="690" y="22" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">Realist</text>
+    <text x="690" y="58" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Core Premise</text>
+    <text x="690" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Law is what judges do</text>
+    <text x="690" y="90" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Skepticism of rules</text>
+    <line x1="635" y1="105" x2="745" y2="105" stroke="#edf0f4"/>
+    <text x="690" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Key Proponents</text>
+    <text x="690" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#a63b49">• O.W. Holmes Jr.</text>
+    <text x="690" y="157" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#a63b49">• Karl Llewellyn</text>
+    <text x="690" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#a63b49">• Jerome Frank</text>
+    <text x="690" y="187" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#a63b49">• Alf Ross</text>
+    <line x1="635" y1="205" x2="745" y2="205" stroke="#edf0f4"/>
+    <text x="690" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Central Focus</text>
+    <text x="635" y="245" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">Courtroom realities,</text>
+    <text x="635" y="260" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">psychological biases,</text>
+    <text x="635" y="275" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">bad man perspective,</text>
+    <text x="635" y="290" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">and prophecy of courts.</text>
+  </g>
+
+  </g>
+
+  <!-- Footer Watermark -->
+  <text x="400.0" y="488" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#8899aa">Judicial Learning Academy · Tanveer Ashraf Judicial Prep · Authoritative Subject Schematic</text>
+</svg>

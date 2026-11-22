@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Remand &amp; Police Custody in Parts under Section 187 BNSS</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">15-day custody spread across 40/60 days &amp; Default Bail Rights</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">PROCEDURAL REFORMS</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(50, 20)">
+    <rect x="0" y="0" width="700" height="40" rx="6" fill="#142c46"/>
+    <text x="350" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80">SECTION 187 BNSS: REMAND ARCHITECTURE &amp; POLICE CUSTODY IN PARTS</text>
+
+    <!-- Diagram comparison -->
+    <rect x="0" y="60" width="330" height="230" rx="8" fill="#ffffff" stroke="#8c2432" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="60" width="330" height="35" rx="8" fill="#8c2432"/>
+    <text x="165" y="83" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">OLD CrPC S. 167 (Anupam Kulkarni)</text>
+    <text x="15" y="120" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Police custody strictly limited to FIRST 15 DAYS</text>
+    <text x="25" y="136" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">from the initial date of Magistrate remand.</text>
+    <text x="15" y="160" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• After 15 days, ONLY judicial custody allowed.</text>
+    <text x="15" y="185" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• If accused fell sick in first 15 days, police</text>
+    <text x="25" y="201" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">lost all opportunity for police interrogation.</text>
+    <text x="15" y="230" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b">CBI v. Anupam J. Kulkarni (1992) 3 SCC 141</text>
+    <text x="15" y="255" font-family="system-ui, sans-serif" font-size="10" fill="#991b1b">Rigid cutoff caused investigation bottlenecks.</text>
+
+    <!-- New BNSS S. 187 -->
+    <rect x="370" y="60" width="330" height="230" rx="8" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="370" y="60" width="330" height="35" rx="8" fill="#137d72"/>
+    <text x="535" y="83" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">NEW BNSS S. 187(2) FRAMEWORK</text>
+    <text x="385" y="120" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">• 15 DAYS POLICE CUSTODY IN WHOLE OR IN PARTS</text>
+    <text x="395" y="136" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Spread across first 40 days (for 60-day offences)</text>
+    <text x="395" y="152" font-family="system-ui, sans-serif" font-size="10" fill="#334155">or first 60 days (for 90-day offences).</text>
+    <text x="385" y="180" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Police can seek intermittent police remand</text>
+    <text x="395" y="196" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">subject to total aggregate cap of 15 days.</text>
+    <text x="385" y="225" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#065f46">V. Senthil Balaji v. State (2023) confirmed need;</text>
+    <text x="385" y="245" font-family="system-ui, sans-serif" font-size="10" fill="#065f46">Now statutorily codified in Section 187(2) BNSS.</text>
+
+    <!-- Footer Banner on Default Bail -->
+    <rect x="0" y="305" width="700" height="55" rx="6" fill="#142c46"/>
+    <text x="350" y="327" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#dfbf80">DEFAULT BAIL PRESERVED: If investigation not completed within 90 days (death/life/10+ yrs)</text>
+    <text x="350" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff">or 60 days (any other offence), accused is entitled to indefeasible default bail (S. 187(5) BNSS).</text>
+  </g>
+
+  </g>
+</svg>

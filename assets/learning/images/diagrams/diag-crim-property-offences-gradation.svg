@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Property Offences: The Theft to Dacoity Escalation Spectrum</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">From simple possession transfer to organized violent extortion</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">CRIMINAL LAW BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(50, 20)">
+    <rect x="0" y="0" width="700" height="70" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <text x="30" y="30" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#142c46">1. THEFT [BNS S. 303 / IPC S. 378]</text>
+    <text x="30" y="52" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Dishonest taking of movable property out of possession without consent. Community service if under Rs 5,000.</text>
+
+    <text x="350" y="90" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#8c2432">▼ + Delivery induced by fear of injury</text>
+
+    <rect x="0" y="105" width="700" height="70" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <text x="30" y="135" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#142c46">2. EXTORTION [BNS S. 308 / IPC S. 383]</text>
+    <text x="30" y="157" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Intentionally putting person in fear of injury and dishonestly inducing delivery of property/valuable security.</text>
+
+    <text x="350" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#8c2432">▼ + Instant death, instant hurt, or instant wrongful restraint</text>
+
+    <rect x="0" y="210" width="700" height="70" rx="8" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <text x="30" y="240" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#137d72">3. ROBBERY [BNS S. 309 / IPC S. 390]</text>
+    <text x="30" y="262" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">In all robbery there is either theft or extortion with immediate violence/presence. S. 390: Aggravated offence.</text>
+
+    <text x="350" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#8c2432">▼ + Five (5) or more persons acting conjointly</text>
+
+    <rect x="0" y="315" width="700" height="60" rx="8" fill="#8c2432" filter="url(#shadow)"/>
+    <text x="30" y="342" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#ffffff">4. DACOITY [BNS S. 310 / IPC S. 391]</text>
+    <text x="30" y="360" font-family="system-ui, sans-serif" font-size="11" fill="#dfbf80">Conjoint robbery committed or attempted by five or more persons. Preparation is also punishable (S. 312 BNS).</text>
+  </g>
+
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Comparative Matrix of Four Criminal Trials</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Sessions, Warrant, Summons, and Summary Trials under BNSS &amp; CrPC</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">CRIMINAL PROCEDURE BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(40, 20)">
+    <rect x="0" y="0" width="720" height="350" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Table Header -->
+    <rect x="0" y="0" width="720" height="40" rx="8" fill="#142c46"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">TRIAL TYPE</text>
+    <text x="240" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">SECTIONS (BNSS / CrPC)</text>
+    <text x="430" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">APPLICABLE OFFENCES</text>
+    <text x="630" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">KEY PROCEDURE</text>
+
+    <!-- Row 1: Sessions -->
+    <line x1="0" y1="40" x2="720" y2="40" stroke="#cbd5e1"/>
+    <text x="90" y="70" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#8c2432">Sessions Trial</text>
+    <text x="240" y="70" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">BNSS S. 248–260</text>
+    <text x="240" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">(CrPC S. 225–237)</text>
+    <text x="430" y="70" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Exclusively triable by Sessions</text>
+    <text x="430" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">(Murder, Rape, Dacoity)</text>
+    <text x="630" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Opened by PP; Discharge</text>
+    <text x="630" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">app within 60 days of committal;</text>
+    <text x="630" y="95" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Formal charge framing mandatory</text>
+
+    <!-- Row 2: Warrant Cases -->
+    <line x1="0" y1="110" x2="720" y2="110" stroke="#cbd5e1"/>
+    <text x="90" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Warrant Cases</text>
+    <text x="90" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">by Magistrates</text>
+    <text x="240" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">BNSS S. 261–273</text>
+    <text x="240" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">(CrPC S. 238–250)</text>
+    <text x="430" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Punishable with death, life,</text>
+    <text x="430" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">or imprisonment > 2 years</text>
+    <text x="630" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Bifurcated: Police report vs</text>
+    <text x="630" y="150" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Private complaint; Pre-charge</text>
+    <text x="630" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">evidence in complaint cases</text>
+
+    <!-- Row 3: Summons Cases -->
+    <line x1="0" y1="180" x2="720" y2="180" stroke="#cbd5e1"/>
+    <text x="90" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">Summons Cases</text>
+    <text x="90" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">by Magistrates</text>
+    <text x="240" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">BNSS S. 274–282</text>
+    <text x="240" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">(CrPC S. 251–259)</text>
+    <text x="430" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Relating to offence not being</text>
+    <text x="430" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">a warrant case (≤ 2 years)</text>
+    <text x="630" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">NO formal charge framed;</text>
+    <text x="630" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Substance of accusation stated;</text>
+    <text x="630" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">No discharge (straight acquittal/convict)</text>
+
+    <!-- Row 4: Summary Trial -->
+    <line x1="0" y1="250" x2="720" y2="250" stroke="#cbd5e1"/>
+    <text x="90" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Summary Trial</text>
+    <text x="240" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">BNSS S. 283–288</text>
+    <text x="240" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">(CrPC S. 260–265)</text>
+    <text x="430" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Offences not punishable with</text>
+    <text x="430" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">imprisonment > 3 years (BNSS)</text>
+    <text x="630" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Summons procedure followed;</text>
+    <text x="630" y="290" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Max sentence: 3 MONTHS;</text>
+    <text x="630" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Abridged record &amp; judgment</text>
+
+    <!-- Footer Note -->
+    <rect x="0" y="325" width="720" height="25" rx="4" fill="#f8fafc"/>
+    <text x="360" y="342" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">BNSS S. 283(2) raises summary trial threshold to offences punishable with imprisonment up to 3 years (formerly 2 years in CrPC).</text>
+  </g>
+
+  </g>
+</svg>

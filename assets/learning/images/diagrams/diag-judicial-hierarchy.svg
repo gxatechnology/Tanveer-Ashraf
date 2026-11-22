@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs><linearGradient id="jbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="900" height="360" fill="url(#jbg)" rx="12"/>
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#dfbf80">THE INTEGRATED INDIAN JUDICIAL PYRAMID</text>
+  <text x="450" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#a0b3c6">Unified Single System of Courts (Articles 124–147, 214–237)</text>
+  
+  <!-- Tier 1: Supreme Court of India -->
+  <polygon points="450,85 300,165 600,165" fill="#dfbf80" stroke="#fff" stroke-width="2"/>
+  <text x="450" y="125" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#142c46">SUPREME COURT OF INDIA</text>
+  <text x="450" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#1b3857">Apex Court • Art. 124 • 34 Judges • Binding Law (Art. 141)</text>
+
+  <!-- Tier 2: High Courts of States -->
+  <polygon points="300,170 200,245 700,245 600,170" fill="#137d72" stroke="#fff" stroke-width="2"/>
+  <text x="450" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#ffffff">HIGH COURTS OF STATES &amp; UTs (25 High Courts)</text>
+  <text x="450" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#dfbf80">Writ Jurisdiction (Art. 226) • Superintendence over all Courts &amp; Tribunals (Art. 227)</text>
+
+  <!-- Tier 3: Subordinate Judiciary -->
+  <polygon points="200,250 80,335 820,335 700,250" fill="#ffffff" stroke="#dfbf80" stroke-width="2"/>
+  <text x="450" y="275" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">SUBORDINATE JUDICIARY (DISTRICT &amp; SESSIONS COURTS)</text>
+  <text x="250" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#137d72">CIVIL SIDE</text>
+  <text x="250" y="322" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">District Judge → Civil Judge (Senior Div) → Junior Div</text>
+  <line x1="450" y1="285" x2="450" y2="330" stroke="#cdb17d" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <text x="650" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#a63b49">CRIMINAL SIDE</text>
+  <text x="650" y="322" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">Sessions Judge → Addl. Sessions → CJM / JMFC / JMIC</text>
+</svg>

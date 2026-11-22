@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Trial in Absentia of Proclaimed Offenders: Section 356 BNSS</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Groundbreaking procedure for absconders evading trial</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">BNSS 2023 INNOVATION</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(50, 20)">
+    <rect x="0" y="0" width="700" height="40" rx="6" fill="#142c46"/>
+    <text x="350" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80">TRIAL IN ABSENTIA OF PROCLAIMED OFFENDERS [SECTION 356 BNSS]</text>
+
+    <!-- Stage 1 -->
+    <rect x="0" y="60" width="160" height="240" rx="6" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="60" width="160" height="30" rx="6" fill="#142c46"/>
+    <text x="80" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">1. ABSCONDING</text>
+    <text x="10" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#137d72">Statutory Trigger</text>
+    <text x="10" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Person declared as</text>
+    <text x="18" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#334155">proclaimed offender (S. 84)</text>
+    <text x="10" y="165" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Absconded to evade trial</text>
+    <text x="10" y="185" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• No immediate prospect</text>
+    <text x="18" y="200" font-family="system-ui, sans-serif" font-size="9" fill="#334155">of arrest</text>
+    <text x="10" y="225" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Warrant unexecuted</text>
+
+    <text x="175" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#8c2432">➔</text>
+
+    <!-- Stage 2 -->
+    <rect x="190" y="60" width="160" height="240" rx="6" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="190" y="60" width="160" height="30" rx="6" fill="#142c46"/>
+    <text x="270" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">2. CHARGE FRAMING</text>
+    <text x="200" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#137d72">Court Procedure</text>
+    <text x="200" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Charges framed against</text>
+    <text x="208" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#334155">absconding accused</text>
+    <text x="200" y="165" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Mandatory 90 DAYS</text>
+    <text x="208" y="180" font-family="system-ui, sans-serif" font-size="9" fill="#334155">cooling period begins</text>
+    <text x="200" y="200" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Public notice published in</text>
+    <text x="208" y="215" font-family="system-ui, sans-serif" font-size="9" fill="#334155">national newspapers</text>
+
+    <text x="365" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#8c2432">➔</text>
+
+    <!-- Stage 3 -->
+    <rect x="380" y="60" width="160" height="240" rx="6" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="380" y="60" width="160" height="30" rx="6" fill="#137d72"/>
+    <text x="460" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#ffffff">3. LEGAL AID COUNSEL</text>
+    <text x="390" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">Fair Trial Safeguard</text>
+    <text x="390" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Court appoints advocate</text>
+    <text x="398" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#334155">at State expense</text>
+    <text x="390" y="165" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Evidence of prosecution</text>
+    <text x="398" y="180" font-family="system-ui, sans-serif" font-size="9" fill="#334155">witnesses recorded</text>
+    <text x="390" y="200" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Defence cross-examines</text>
+    <text x="398" y="215" font-family="system-ui, sans-serif" font-size="9" fill="#334155">witnesses</text>
+
+    <text x="555" y="170" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" fill="#8c2432">➔</text>
+
+    <!-- Stage 4 -->
+    <rect x="570" y="60" width="130" height="240" rx="6" fill="#ffffff" stroke="#8c2432" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="570" y="60" width="130" height="30" rx="6" fill="#8c2432"/>
+    <text x="635" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#ffffff">4. JUDGMENT</text>
+    <text x="580" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#8c2432">Pronouncement</text>
+    <text x="580" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Court delivers verdict</text>
+    <text x="580" y="150" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Conviction/Acquittal</text>
+    <text x="580" y="170" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• If convicted, sentence</text>
+    <text x="588" y="185" font-family="system-ui, sans-serif" font-size="9" fill="#334155">passed in absentia</text>
+    <text x="580" y="210" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Appeal rights: 3 yrs</text>
+
+    <!-- Bottom Banner -->
+    <rect x="0" y="315" width="700" height="40" rx="6" fill="#142c46"/>
+    <text x="350" y="338" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dfbf80">Section 356 BNSS marks an unprecedented break from ancient English common law trial presence requirements.</text>
+  </g>
+
+  </g>
+</svg>

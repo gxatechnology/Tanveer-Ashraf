@@ -1,0 +1,1279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142c46">
+  <meta name="description" content="The Civil Suit Journey: From Plaint to Decree — 14-Stage Interactive Civil Trial Simulator under the Code of Civil Procedure, 1908 for UP PCS-J.">
+  <title>The Civil Suit Journey: From Plaint to Decree | Judicial Prep</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/learning/css/academy.css">
+  <style>
+    /* Civil Suit Journey Dedicated Styles */
+    .journey-hero {
+      background: linear-gradient(135deg, #142c46 0%, #1a3c5a 55%, #137d72 100%);
+      color: #fff;
+      padding: 34px 36px;
+      border-radius: 14px;
+      margin-bottom: 24px;
+      border: 1px solid #dfbf80;
+      box-shadow: 0 4px 18px rgba(20, 44, 70, 0.15);
+      position: relative;
+      overflow: hidden;
+    }
+    .journey-hero::after {
+      content: "⚖️";
+      position: absolute;
+      right: 28px;
+      bottom: -15px;
+      font-size: 120px;
+      opacity: 0.08;
+      pointer-events: none;
+    }
+    .journey-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(223, 191, 128, 0.2);
+      border: 1px solid #dfbf80;
+      color: #f7e6c4;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12.5px;
+      font-weight: 600;
+      letter-spacing: 0.4px;
+      margin-bottom: 12px;
+    }
+    .journey-hero h1 {
+      font-family: Georgia, serif;
+      font-size: 28px;
+      margin: 0 0 10px 0;
+      color: #fff;
+      line-height: 1.25;
+    }
+    .journey-hero p {
+      font-size: 15px;
+      color: #d8e5f2;
+      max-width: 820px;
+      margin: 0 0 18px 0;
+      line-height: 1.5;
+    }
+    .journey-metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-top: 14px;
+    }
+    .metric-pill {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(223, 191, 128, 0.4);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: #f3f5f8;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .metric-pill b {
+      color: #dfbf80;
+    }
+
+    /* Stepper Track */
+    .stepper-container {
+      background: #fff;
+      border: 1px solid #d4b67e;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    .stepper-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .stepper-title {
+      font-family: Georgia, serif;
+      font-size: 18px;
+      color: #142c46;
+      font-weight: bold;
+    }
+    .stepper-progress {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: #607387;
+    }
+    .progress-bar-wrap {
+      width: 140px;
+      height: 8px;
+      background: #edf1f5;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: #137d72;
+      width: 7%;
+      transition: width 0.3s ease;
+    }
+
+    .stages-scroll {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      padding-bottom: 10px;
+      scrollbar-width: thin;
+      scrollbar-color: #dfbf80 #f3f5f8;
+    }
+    .stages-scroll::-webkit-scrollbar {
+      height: 6px;
+    }
+    .stages-scroll::-webkit-scrollbar-track {
+      background: #f3f5f8;
+    }
+    .stages-scroll::-webkit-scrollbar-thumb {
+      background: #dfbf80;
+      border-radius: 3px;
+    }
+
+    .stage-chip {
+      flex: 0 0 auto;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 10px 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 130px;
+      text-align: left;
+    }
+    .stage-chip:hover {
+      border-color: #137d72;
+      background: #edf7f4;
+    }
+    .stage-chip.active {
+      background: #142c46;
+      color: #fff;
+      border-color: #dfbf80;
+      box-shadow: 0 3px 8px rgba(20, 44, 70, 0.2);
+    }
+    .stage-chip.completed {
+      border-color: #137d72;
+      background: #edf7f4;
+    }
+    .stage-chip.completed .chip-num {
+      color: #137d72;
+      font-weight: bold;
+    }
+    .stage-chip.active .chip-num {
+      color: #dfbf80;
+    }
+    .stage-chip.active .chip-name {
+      color: #fff;
+    }
+    .chip-num {
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #607387;
+      letter-spacing: 0.5px;
+    }
+    .chip-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: #1c2e40;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 140px;
+    }
+
+    /* Main Stage Workspace */
+    .stage-workspace {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 960px) {
+      .stage-workspace {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .stage-card {
+      background: #fff;
+      border: 1px solid #d4b67e;
+      border-radius: 12px;
+      padding: 26px 30px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    }
+    .stage-badge-tag {
+      display: inline-block;
+      background: #edf7f4;
+      color: #137d72;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      margin-bottom: 10px;
+      border: 1px solid #137d72;
+    }
+    .stream-badge-tag {
+      display: inline-block;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 11.5px;
+      margin-bottom: 10px;
+      margin-left: 6px;
+      border: 1px solid transparent;
+      letter-spacing: 0.3px;
+    }
+    .stream-ordinary {
+      background: #edf7f4;
+      color: #137d72;
+      border-color: #137d72;
+    }
+    .stream-interlocutory {
+      background: #fff8f0;
+      color: #b98a38;
+      border-color: #dfbf80;
+    }
+    .stream-alternate {
+      background: #f0fdf4;
+      color: #15803d;
+      border-color: #86efac;
+    }
+    .stream-adjudication {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-color: #93c5fd;
+    }
+    .stream-recourse {
+      background: #faf5ff;
+      color: #7e22ce;
+      border-color: #d8b4fe;
+    }
+    .stream-enforcement {
+      background: #f8fafc;
+      color: #334155;
+      border-color: #94a3b8;
+    }
+    .procedural-distinction-banner {
+      background: #edf7f4;
+      border: 1px solid #137d72;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      font-size: 13.5px;
+      color: #142c46;
+      line-height: 1.6;
+    }
+    .stage-main-title {
+      font-family: Georgia, serif;
+      font-size: 24px;
+      color: #142c46;
+      margin: 0 0 12px 0;
+      line-height: 1.3;
+    }
+    .statutory-pills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid #edf1f5;
+    }
+    .statute-tag {
+      background: #f3f5f8;
+      border: 1px solid #cbd5e1;
+      padding: 3px 9px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #1b3857;
+    }
+
+    .section-subheading {
+      font-family: Georgia, serif;
+      font-size: 17px;
+      color: #142c46;
+      margin: 20px 0 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .stage-prose {
+      font-size: 14.5px;
+      line-height: 1.65;
+      color: #2d3748;
+      margin-bottom: 16px;
+    }
+    .stage-prose ul {
+      margin: 8px 0 12px 20px;
+      padding: 0;
+    }
+    .stage-prose li {
+      margin-bottom: 6px;
+    }
+
+    /* Callout Boxes */
+    .callout-box {
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 13.5px;
+      line-height: 1.55;
+    }
+    .callout-box.procedure {
+      background: #edf7f4;
+      border-left: 4px solid #137d72;
+      color: #0b433e;
+    }
+    .callout-box.trap {
+      background: #fff8f8;
+      border-left: 4px solid #a63b49;
+      color: #641520;
+    }
+    .callout-box.landmark {
+      background: #fffaf0;
+      border-left: 4px solid #dfbf80;
+      color: #5c4415;
+    }
+
+    /* Simulation Sidebar */
+    .sim-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .sim-card {
+      background: #fff;
+      border: 1px solid #d4b67e;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    }
+    .sim-card h3 {
+      font-family: Georgia, serif;
+      font-size: 16px;
+      color: #142c46;
+      margin: 0 0 12px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #edf1f5;
+    }
+
+    /* Practical Scenario */
+    .scenario-box {
+      background: #f8fafc;
+      border: 1px dashed #607387;
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 13px;
+      line-height: 1.5;
+      color: #1e293b;
+      margin-bottom: 12px;
+    }
+    .scenario-question {
+      font-weight: 600;
+      color: #142c46;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+    .scenario-answer-reveal {
+      background: #eef8f6;
+      border: 1px solid #137d72;
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-size: 12.5px;
+      color: #0d4e47;
+      display: none;
+      margin-top: 10px;
+      line-height: 1.45;
+    }
+
+    /* Quiz Widget */
+    .quiz-question-text {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #142c46;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+    .quiz-options {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .quiz-opt-btn {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      padding: 8px 12px;
+      font-size: 12.5px;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      line-height: 1.35;
+      color: #1e293b;
+    }
+    .quiz-opt-btn:hover:not(:disabled) {
+      border-color: #137d72;
+      background: #edf7f4;
+    }
+    .quiz-opt-btn.correct {
+      background: #d1fae5;
+      border-color: #059669;
+      color: #065f46;
+      font-weight: 600;
+    }
+    .quiz-opt-btn.wrong {
+      background: #fee2e2;
+      border-color: #dc2626;
+      color: #991b1b;
+    }
+    .quiz-feedback {
+      margin-top: 10px;
+      padding: 8px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      display: none;
+      line-height: 1.4;
+    }
+    .quiz-feedback.show-correct {
+      display: block;
+      background: #ecfdf5;
+      color: #065f46;
+      border: 1px solid #a7f3d0;
+    }
+    .quiz-feedback.show-wrong {
+      display: block;
+      background: #fef2f2;
+      color: #991b1b;
+      border: 1px solid #fecaca;
+    }
+
+    /* Controls Bar */
+    .nav-controls-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 24px;
+      padding-top: 18px;
+      border-top: 1px solid #cbd5e1;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .btn-journey {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 18px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-decoration: none;
+      border: 1px solid transparent;
+    }
+    .btn-journey-primary {
+      background: #142c46;
+      color: #fff;
+      border-color: #dfbf80;
+    }
+    .btn-journey-primary:hover {
+      background: #1b3857;
+      box-shadow: 0 2px 6px rgba(20, 44, 70, 0.3);
+    }
+    .btn-journey-teal {
+      background: #137d72;
+      color: #fff;
+    }
+    .btn-journey-teal:hover {
+      background: #0f6259;
+    }
+    .btn-journey-outline {
+      background: #fff;
+      border-color: #cbd5e1;
+      color: #142c46;
+    }
+    .btn-journey-outline:hover {
+      border-color: #142c46;
+      background: #f8fafc;
+    }
+
+    /* Diagram Modal */
+    .diagram-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.75);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .diagram-modal.active {
+      display: flex;
+    }
+    .diagram-modal-content {
+      background: #fff;
+      border-radius: 12px;
+      border: 2px solid #dfbf80;
+      max-width: 950px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 24px;
+      position: relative;
+    }
+    .modal-close-btn {
+      position: absolute;
+      top: 14px;
+      right: 18px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #607387;
+    }
+    .modal-close-btn:hover {
+      color: #142c46;
+    }
+  </style>
+</head>
+<body data-page="journey">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div>
+          <b>Judicial Prep</b>
+          <small>UP PCS-J · 2026–27</small>
+        </div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="learning-academy.html" data-view="academy" class="active"><span aria-hidden="true">🏛️</span>Subject Academy</a>
+        <a href="brain-arena.html" data-view="arena"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results & Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus & Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div>
+          <b>Tauqeer Ashraf</b>
+          <small>Platform Developer</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main" id="main-content">
+      <header class="topbar">
+        <div class="crumb">
+          <a href="learning-academy.html">Learning Academy</a>
+          <span>/</span>
+          <a href="subject-study.html?subject=law-cpc">Code of Civil Procedure</a>
+          <span>/</span>
+          <span class="active">The Civil Suit Journey</span>
+        </div>
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>14 Interactive Stages</span>
+        </div>
+      </header>
+
+      <div class="content">
+        <!-- Hero Section -->
+        <section class="journey-hero">
+          <div class="journey-badge">CPC PROCEDURAL SIMULATOR · PHASE 4</div>
+          <h1>The Civil Suit Journey: From Plaint to Decree</h1>
+          <p>
+            An interactive structural guide to the procedural lifecycle of a civil suit under the Code of Civil Procedure, 1908. Distinguishes the <b>Ordinary Trial Stream</b> from <b>Optional Interlocutory Relief</b>, <b>Settlement Off-Ramps</b>, <b>Final Adjudication</b>, <b>Appellate/Revisional Recourse</b>, and <b>Execution</b>.
+          </p>
+          <div class="journey-metrics">
+            <span class="metric-pill"><b>14</b> Core Stages</span>
+            <span class="metric-pill"><b>6</b> Procedural Streams</span>
+            <span class="metric-pill"><b>14</b> Practical Scenarios</span>
+            <span class="metric-pill"><b>14</b> Knowledge Check MCQs</span>
+            <button class="metric-pill" style="cursor:pointer; background:rgba(223,191,128,0.25);" onclick="openDiagramModal()">
+              🔍 <b>View Master Journey Diagram</b>
+            </button>
+          </div>
+        </section>
+
+        <!-- Procedural Distinction Architecture Callout -->
+        <div class="procedural-distinction-banner">
+          <div style="font-weight: 700; color: #137d72; display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-size: 15px;">
+            <span>⚖️</span> <span>Civil Procedural Architecture: Stream Distinctions for Judicial Aspirants</span>
+          </div>
+          <p style="margin: 0 0 10px; font-size: 13px; color: #1c2e40;">
+            <b>Educational Note:</b> A civil suit does not proceed in an inflexible single-track queue where all 14 stages occur sequentially. The Code establishes a <b>Main Procedural Backbone</b> intersected by <b>Interlocutory Branches</b>, <b>Alternative Dispute Resolution off-ramps</b>, and <b>Conditional Recourse</b>:
+          </p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px; font-size: 12.5px;">
+            <div style="background: #fff; padding: 10px 14px; border-radius: 6px; border: 1px solid #cbd5e1;">
+              <b style="color: #137d72;">1. Ordinary Trial Stream (Stages 1–11):</b><br>
+              Inception → Plaint (O. VII) → Process/Summons (O. V) → WS (O. VIII) → First Hearing/Issues (O. XIV) → Evidence on Affidavit (O. XVIII) → Arguments.
+            </div>
+            <div style="background: #fff; padding: 10px 14px; border-radius: 6px; border: 1px solid #cbd5e1;">
+              <b style="color: #b98a38;">2. Optional Interlocutory Relief (Active Across Stages):</b><br>
+              Temporary Injunctions (O. XXXIX), Receiver (O. XL), Attachment Before Judgment (O. XXXVIII) — may arise at <i>any time</i> from plaint to decree.
+            </div>
+            <div style="background: #fff; padding: 10px 14px; border-radius: 6px; border: 1px solid #cbd5e1;">
+              <b style="color: #15803d;">3. Settlement & Alternate Paths (Off-Ramps):</b><br>
+              Section 89 ADR (Mediation, Lok Adalat, Arbitration, Conciliation) & Compromise (O. XXIII) — may resolve and terminate the suit without trial.
+            </div>
+            <div style="background: #fff; padding: 10px 14px; border-radius: 6px; border: 1px solid #cbd5e1;">
+              <b style="color: #1d4ed8;">4. Adjudication & Recourse (Stages 12–14):</b><br>
+              Judgment (S. 33, O. XX) → Formal Decree (S. 2(2)) → Execution (O. XXI), with Appeals (Ss. 96, 100), Review (S. 114) and Revision (S. 115) as conditional recourse.
+            </div>
+          </div>
+          <div style="margin-top: 10px; font-size: 11.5px; color: #607387; font-style: italic;">
+            * Note on CPC Section-Order-Rule Explorer: The 83 statutory entries form a <b>Curated High-Yield Index</b> targeting high-frequency UP PCS-J examination questions, not an exhaustive directory of all 158 sections and 51 orders.
+          </div>
+        </div>
+
+        <!-- Stepper Navigation -->
+        <section class="stepper-container">
+          <div class="stepper-header">
+            <div class="stepper-title">Civil Trial Stage Navigator</div>
+            <div class="stepper-progress">
+              <span>Progress: <b id="progress-text">Stage 1 of 14 (7%)</b></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar-fill" id="progress-fill"></div>
+              </div>
+            </div>
+          </div>
+          <div class="stages-scroll" id="stages-chips-row">
+            <!-- Dynamically generated stage chips -->
+          </div>
+        </section>
+
+        <!-- Main Stage Workspace -->
+        <div class="stage-workspace">
+          <!-- Left: Stage Card -->
+          <article class="stage-card" id="stage-detail-card">
+            <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-bottom: 10px;">
+              <div class="stage-badge-tag" id="stage-number-badge">STAGE 1 OF 14</div>
+              <div class="stream-badge-tag stream-ordinary" id="stage-stream-badge">ORDINARY TRIAL STREAM</div>
+            </div>
+            <h2 class="stage-main-title" id="stage-title">Cause of Action & Pre-Suit Notice</h2>
+            <div class="statutory-pills-row" id="stage-statutes">
+              <!-- Statutes pills -->
+            </div>
+
+            <div class="section-subheading">📖 Judicial Overview & Procedure</div>
+            <div class="stage-prose" id="stage-overview">
+              <!-- Overview HTML -->
+            </div>
+
+            <div class="callout-box procedure" id="stage-checklist-box">
+              <b>📋 Presiding Officer's Scrutiny Checklist:</b>
+              <div id="stage-checklist" style="margin-top:6px;"></div>
+            </div>
+
+            <div class="callout-box trap" id="stage-trap-box">
+              <b>⚠️ High-Yield Procedural Trap & Exception:</b>
+              <div id="stage-trap" style="margin-top:6px;"></div>
+            </div>
+
+            <div class="callout-box landmark" id="stage-landmark-box">
+              <b>🏛️ Landmark Judicial Precedents:</b>
+              <div id="stage-landmark" style="margin-top:6px;"></div>
+            </div>
+
+            <!-- Navigation Controls -->
+            <div class="nav-controls-bar">
+              <button class="btn-journey btn-journey-outline" id="prev-stage-btn" onclick="prevStage()">
+                ← Previous Stage
+              </button>
+              <div style="display:flex; gap:10px;">
+                <a class="btn-journey btn-journey-teal" id="study-topic-link" href="#" target="_blank">
+                  📖 Open Topic in Study Room
+                </a>
+                <button class="btn-journey btn-journey-primary" id="next-stage-btn" onclick="nextStage()">
+                  Next Stage →
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Right: Simulator & Knowledge Check -->
+          <aside class="sim-sidebar">
+            <!-- Practical Scenario -->
+            <div class="sim-card">
+              <h3>⚖️ Practical Court Scenario</h3>
+              <div class="scenario-box" id="sim-scenario-text">
+                Loading scenario...
+              </div>
+              <button class="btn-journey btn-journey-outline" style="width:100%; justify-content:center; font-size:12.5px; padding:6px 12px;" onclick="toggleScenarioAnswer()">
+                💡 Reveal Judicial Decision
+              </button>
+              <div class="scenario-answer-reveal" id="sim-scenario-answer">
+                <!-- Answer -->
+              </div>
+            </div>
+
+            <!-- Stage Mini-Quiz -->
+            <div class="sim-card">
+              <h3>🎯 Stage Knowledge Check</h3>
+              <div class="quiz-question-text" id="quiz-question">
+                Loading question...
+              </div>
+              <div class="quiz-options" id="quiz-options-list">
+                <!-- 4 Options -->
+              </div>
+              <div class="quiz-feedback" id="quiz-feedback-box">
+                <!-- Feedback -->
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Master Diagram Modal -->
+  <div class="diagram-modal" id="diagram-modal" onclick="closeDiagramModalOnBackdrop(event)">
+    <div class="diagram-modal-content">
+      <button class="modal-close-btn" onclick="closeDiagramModal()">×</button>
+      <h2 style="font-family:Georgia,serif; color:#142c46; margin-top:0;">Master Civil Suit Journey Schematic</h2>
+      <p style="font-size:13.5px; color:#607387; margin-bottom:16px;">
+        14-Stage Architectural Flowchart: From Cause of Action to Execution & Appellate Remedies.
+      </p>
+      <div style="text-align:center; background:#f8fafc; padding:16px; border-radius:8px; border:1px solid #cbd5e1;">
+        <img src="assets/learning/images/diagrams/diag-cpc-civil-suit-journey.svg" alt="Civil Suit Journey Diagram" style="max-width:100%; height:auto;">
+      </div>
+    </div>
+  </div>
+
+  <!-- Stage Dataset & Interaction Controller -->
+  <script>
+    const CIVIL_SUIT_STAGES = [
+      {
+        num: 1,
+        stream: "Ordinary Trial Stream: Inception",
+        streamClass: "stream-ordinary",
+        title: "Cause of Action & Pre-Suit Notice",
+        badge: "STAGE 1 · INCEPTION",
+        statutes: ["Section 80 CPC", "Order VII Rule 1(e)", "Article 300 Constitution"],
+        topicId: "top-cpc-01-02",
+        overview: `<p>Every civil suit originates from a <b>Cause of Action</b>—the bundle of essential facts which it is necessary for the plaintiff to prove to obtain a decree. Without a cause of action, a plaint cannot stand.</p>
+        <p><b>Pre-Suit Statutory Notice:</b> Under <b>Section 80(1) CPC</b>, no suit shall be instituted against the Government or a public officer in respect of any act purporting to be done in official capacity until the expiration of <b>two months</b> next after notice in writing has been delivered.</p>`,
+        checklist: `• Verify plaint clearly states date and facts constituting cause of action.<br>• If defendant is Government or Public Officer, verify expiration of mandatory 2 months notice under Section 80(1).<br>• If urgent relief is sought against Government without 2 months notice, verify leave application under Section 80(2).`,
+        trap: `Under Section 80(2), leave may be granted to institute suit without 2 months notice in urgent cases, BUT the court <b>shall not grant ex parte interim relief</b> without giving the Government a reasonable opportunity of showing cause!`,
+        landmark: `<b>Bihari Chowdhary v. State of Bihar (1984):</b> Section 80 is mandatory; suit instituted before expiration of 2 months without leave is void ab initio.`,
+        scenario: `Plaintiff wants an immediate injunction against municipal demolition scheduled for tomorrow morning. Can Plaintiff file suit without serving the 2-month Section 80 notice?`,
+        scenarioAnswer: `Yes, under Section 80(2) CPC, Plaintiff may seek leave of the court to institute suit without serving notice for urgent relief. However, the court cannot grant an ex parte injunction without giving notice to the State!`,
+        quiz: {
+          q: "What is the mandatory notice period under Section 80(1) CPC before suing the Government?",
+          opts: ["15 days", "30 days", "Two months", "Six months"],
+          ans: 2,
+          exp: "Section 80(1) explicitly requires 2 months notice before instituting a suit against the Government."
+        }
+      },
+      {
+        num: 2,
+        stream: "Ordinary Trial Stream: Jurisdiction",
+        streamClass: "stream-ordinary",
+        title: "Jurisdiction & Place of Suing",
+        badge: "STAGE 2 · JURISDICTION",
+        statutes: ["Section 9 CPC", "Sections 15–20 CPC", "Section 21 CPC"],
+        topicId: "top-cpc-02-01",
+        overview: `<p>Under <b>Section 9 CPC</b>, civil courts have jurisdiction to try all suits of a civil nature, excepting suits of which their cognizance is either expressly or impliedly barred.</p>
+        <p><b>Place of Suing:</b> Governed by Sections 15 to 20:
+        <ul>
+          <li><b>Pecuniary:</b> Suit must be instituted in the court of lowest grade competent (S. 15).</li>
+          <li><b>Immovable Property:</b> Instituted where property is situated (S. 16).</li>
+          <li><b>Person or Movables:</b> Instituted where defendant resides, works for gain, or where cause of action arises (S. 20).</li>
+        </ul></p>`,
+        checklist: `• Scrutinize whether subject matter is of civil nature.<br>• Check pecuniary valuation against court's statutory limits.<br>• Verify territorial connection with immovable property or defendant's residence/cause of action.`,
+        trap: `Objection to place of suing must be taken at the earliest opportunity under <b>Section 21(1)</b> (in trial court before issues). It cannot be raised in appeal without proof of consequent failure of justice. But lack of subject-matter jurisdiction can be raised at ANY stage!`,
+        landmark: `<b>Kiran Singh v. Chaman Paswan (1954):</b> A decree passed by a court without subject-matter jurisdiction is an absolute nullity.`,
+        scenario: `A contract is signed in Delhi. Goods delivered in Kanpur. Defendant resides in Lucknow. Where can a suit for breach of contract be instituted?`,
+        scenarioAnswer: `Under Section 20 CPC, plaintiff may institute suit in Delhi (where contract made / part of cause of action), Kanpur (where goods delivered / part of cause of action), or Lucknow (where defendant resides).`,
+        quiz: {
+          q: "Under Section 15 CPC, every suit shall be instituted in:",
+          opts: ["The High Court", "The Court of the lowest grade competent to try it", "The District Court", "Any court chosen by plaintiff"],
+          ans: 1,
+          exp: "Section 15 mandates institution in the court of the lowest grade competent."
+        }
+      },
+      {
+        num: 3,
+        stream: "Ordinary Trial Stream: Plaint Presentation",
+        streamClass: "stream-ordinary",
+        title: "Institution of Suit & Plaint Presentation",
+        badge: "STAGE 3 · INSTITUTION",
+        statutes: ["Section 26 CPC", "Order IV Rules 1 & 2", "Order VII Rules 1–9"],
+        topicId: "top-cpc-03-01",
+        overview: `<p>Under <b>Section 26(1) CPC</b>, every suit shall be instituted by the presentation of a <b>plaint in duplicate</b> or in such other manner as prescribed. Order IV Rule 1 mandates duplicate plaints verified by affidavit.</p>
+        <p>Order VII details the required contents of a plaint: court name, parties' details, facts constituting cause of action, valuation, and relief claimed.</p>`,
+        checklist: `• Verify plaint is presented in duplicate accompanied by affidavit (O. IV R. 1).<br>• Check that cause of action and date of accrual are explicitly pleaded (O. VII R. 1(e)).<br>• Verify valuation statement for jurisdiction and court fee computation (O. VII R. 1(f)-(i)).`,
+        trap: `Order IV Rule 1(3) provides: 'The plaint shall not be deemed to be duly instituted unless it complies with the requirements specified in sub-rules (1) and (2).' Failure to file in duplicate is fatal!`,
+        landmark: `<b>Salem Advocate Bar Association (I) (2003):</b> Upheld mandatory filing of duplicate plaint and supporting affidavits under Section 26.`,
+        scenario: `Plaintiff files a plaint in single copy. Does this constitute a valid institution of suit?`,
+        scenarioAnswer: `No. Under Order IV Rule 1(1) and (3), a plaint must be presented in duplicate. Non-compliance means the suit is not deemed duly instituted.`,
+        quiz: {
+          q: "Every suit shall be instituted by presentation of a plaint in:",
+          opts: ["Single copy", "Duplicate", "Triplicate", "Quadruplicate"],
+          ans: 1,
+          exp: "Order IV Rule 1(1) strictly mandates presentation in duplicate."
+        }
+      },
+      {
+        num: 4,
+        stream: "Ordinary Trial Stream: Threshold Scrutiny (O. VII R. 10/11)",
+        streamClass: "stream-ordinary",
+        title: "Scrutiny, Registration & Threshold Bars",
+        badge: "STAGE 4 · SCRUTINY",
+        statutes: ["Order VII Rule 10 CPC", "Order VII Rule 11 CPC", "General Rules (Civil) R. 24"],
+        topicId: "top-cpc-04-01",
+        overview: `<p>Upon presentation, the Munsarim scrutinizes the plaint for court fees, limitation, and jurisdiction. The court then examines threshold sustainability:</p>
+        <ul>
+          <li><b>Order VII Rule 10:</b> Return of plaint for presentation to the proper court if court lacks jurisdiction.</li>
+          <li><b>Order VII Rule 11:</b> Rejection of plaint where it does not disclose cause of action, is undervalued, deficit court fees not cured, or barred by law.</li>
+        </ul>`,
+        checklist: `• Munsarim's report examined for valuation and court fees.<br>• If lack of jurisdiction, return plaint under Rule 10 with endorsement.<br>• If barred by law (e.g. limitation, S. 80, S. 11), reject plaint under Rule 11.`,
+        trap: `While considering Order VII Rule 11 rejection, court can <b>only look at averments in the plaint</b> and documents produced with it. Defence pleas in the written statement CANNOT be considered at this threshold stage!`,
+        landmark: `<b>Dahiben v. Arvindbhai (2020):</b> Only plaint averments are relevant for Order VII Rule 11; bogus or illusionary causes of action must be nipped in the bud.`,
+        scenario: `Defendant files an Order VII Rule 11 application citing documents attached to his Written Statement showing the suit is time-barred. Can the court reject the plaint?`,
+        scenarioAnswer: `No. Under Dahiben, the court cannot look at the written statement or defence documents under Order VII Rule 11; only the plaint averments and plaintiff's documents can be examined.`,
+        quiz: {
+          q: "Rejection of a plaint under Order VII Rule 11 of the CPC operates as:",
+          opts: ["An interlocutory order", "A deemed decree under Section 2(2)", "A remand order", "A revisional order"],
+          ans: 1,
+          exp: "Section 2(2) explicitly includes rejection of a plaint within the definition of a decree."
+        }
+      },
+      {
+        num: 5,
+        stream: "Ordinary Trial Stream: Process & Service of Summons",
+        streamClass: "stream-ordinary",
+        title: "Issue & Service of Summons",
+        badge: "STAGE 5 · SUMMONS",
+        statutes: ["Section 27 CPC", "Order V Rules 1–30", "Order V Rule 9A"],
+        topicId: "top-cpc-05-01",
+        overview: `<p>Under <b>Section 27 CPC</b>, when a suit has been duly instituted, a summons may be issued to the defendant to appear and answer the claim on a day not beyond <b>thirty days</b> from institution.</p>
+        <p><b>Modes of Service (Order V):</b> Personal service, registered post / speed post / courier / email (Rule 9), dasti summons (Rule 9A), service on adult family member (Rule 15), and substituted service by publication (Rule 20).</p>`,
+        checklist: `• Ensure summons issued within 30 days of institution.<br>• Check process server's return affidavit and endorsement.<br>• Before ordering substituted service under Rule 20, verify satisfaction that defendant is intentionally keeping out of the way.`,
+        trap: `Under Order V Rule 15, service cannot be effected on a male or female <b>servant</b>; they are not considered family members!`,
+        landmark: `<b>Sushil Kumar Sabharwal v. Gurpreet Singh (2002):</b> Due service of summons is a vital condition precedent; casual endorsement of refusal without proper identification voids ex parte decree.`,
+        scenario: `Process server hands summons to defendant's domestic cook at defendant's bungalow. Is this valid service?`,
+        scenarioAnswer: `No. Under the Explanation to Order V Rule 15, a servant is not a member of the family for the purpose of serving summons.`,
+        quiz: {
+          q: "Under Order V Rule 20, substituted service by newspaper publication is ordered when:",
+          opts: ["Defendant resides in another state", "Defendant is intentionally keeping out of the way to avoid service", "Suit value exceeds Rs. 1 lakh", "Defendant is illiterate"],
+          ans: 1,
+          exp: "Order V Rule 20 requires court satisfaction that defendant is intentionally evading service."
+        }
+      },
+      {
+        num: 6,
+        stream: "Ordinary Trial Stream: Written Statement & Set-Off",
+        streamClass: "stream-ordinary",
+        title: "Written Statement, Set-off & Counter-Claim",
+        badge: "STAGE 6 · PLEADINGS",
+        statutes: ["Order VIII Rule 1 CPC", "Order VIII Rule 6", "Order VIII Rule 6A–6G"],
+        topicId: "top-cpc-06-01",
+        overview: `<p>Defendant must present a Written Statement within <b>30 days</b> from service of summons, extendable up to <b>90 days</b> for reasons recorded in writing (Order VIII Rule 1).</p>
+        <p><b>Set-off (Rule 6):</b> Recovery of ascertained sum legally recoverable in money suits.<br>
+        <b>Counter-Claim (Rule 6A):</b> Independent cross-suit by defendant against plaintiff for any cause of action accruing before delivery of defence or expiration of time.</p>`,
+        checklist: `• Check whether WS is filed within 30 days (or 90 days with sufficient cause).<br>• Verify specific denials; evasive denial is deemed admission (O. VIII R. 3 & 5).<br>• Verify counter-claim does not exceed court's pecuniary limits.`,
+        trap: `Every allegation of fact not denied specifically or by necessary implication is <b>taken to be admitted</b> under Order VIII Rule 5!`,
+        landmark: `<b>Kailash v. Nanhku (2005):</b> The 90-day timeline in Order VIII Rule 1 is directory in regular civil suits, though extension is granted only in exceptional cases.`,
+        scenario: `Defendant files a counter-claim for an assault that occurred two months AFTER filing his written statement. Is the counter-claim maintainable?`,
+        scenarioAnswer: `No. Under Order VIII Rule 6A(1), a counter-claim must be founded on a cause of action that accrued before the defendant delivered his defence or before time for delivery expired.`,
+        quiz: {
+          q: "If an allegation of fact in the plaint is not specifically denied in the written statement, it is:",
+          opts: ["Deemed admitted under Order VIII Rule 5", "Deemed denied", "Referred to arbitration", "Ignored by the court"],
+          ans: 0,
+          exp: "Order VIII Rule 5 embodies the doctrine of non-traverse: undenied facts are taken as admitted."
+        }
+      },
+      {
+        num: 7,
+        stream: "Settlement & Alternate Paths: Appearance / S. 89 ADR",
+        streamClass: "stream-alternate",
+        title: "Appearance, Examination & Default Remedies",
+        badge: "STAGE 7 · APPEARANCE",
+        statutes: ["Order IX Rules 1–14 CPC", "Order X Rules 1–4", "Section 89 CPC"],
+        topicId: "top-cpc-07-01",
+        overview: `<p>Parties must appear on the date fixed. Consequences of non-appearance under Order IX:</p>
+        <ul>
+          <li><b>Neither party appears:</b> Suit dismissed (Rule 3). Remedy: Fresh suit or Rule 4 setting aside.</li>
+          <li><b>Defendant appears, Plaintiff absent:</b> Dismissal of suit (Rule 8). Remedy: Rule 9 setting aside; fresh suit barred!</li>
+          <li><b>Plaintiff appears, Defendant absent:</b> Ex parte hearing (Rule 6). Remedy: Rule 13 setting aside ex parte decree.</li>
+        </ul>
+        <p>Under <b>Order X</b>, court ascertains admissions/denials and directs parties to ADR under Section 89.</p>`,
+        checklist: `• Record appearance of parties or pleaders.<br>• If plaintiff absent and defendant appears, dismiss suit under Rule 8 unless defendant admits claim.<br>• If ex parte proceeding ordered, ensure summons service was strictly proven.`,
+        trap: `Dismissal under Rule 3 allows filing a FRESH suit. But dismissal under Rule 8 <b>strictly bars a fresh suit</b> on the same cause of action; only an application under Rule 9 lies!`,
+        landmark: `<b>Bhanu Kumar Jain v. Archana Kumar (2005):</b> Setting aside ex parte decree under Order IX Rule 13 and first appeal under Section 96(2) are concurrent remedies.`,
+        scenario: `Suit is called. Plaintiff is absent, but defendant appears and denies the claim. What order must the court pass?`,
+        scenarioAnswer: `Under Order IX Rule 8, the court shall make an order that the suit be dismissed. Plaintiff cannot file a fresh suit; he must apply under Order IX Rule 9.`,
+        quiz: {
+          q: "Under Order IX Rule 13, an ex parte decree may be set aside if defendant proves:",
+          opts: ["Summons was not duly served OR sufficient cause for non-appearance", "Plaintiff is wealthy", "Suit was undervalued", "Trial judge was biased"],
+          ans: 0,
+          exp: "Order IX Rule 13 prescribes two specific grounds: summons not duly served, or prevented by sufficient cause."
+        }
+      },
+      {
+        num: 8,
+        stream: "Ordinary Trial Stream: Discovery & Inspection",
+        streamClass: "stream-ordinary",
+        title: "Discovery, Inspection & Admissions",
+        badge: "STAGE 8 · DISCOVERY",
+        statutes: ["Order XI Rules 1–23 CPC", "Order XII Rules 1–9", "Order XIII Rules 1–11"],
+        topicId: "top-cpc-08-01",
+        overview: `<p>Before trial, parties narrow the controversy through procedural discovery tools:</p>
+        <ul>
+          <li><b>Interrogatories (Order XI):</b> Delivery of written questions relating to matters in question with leave of court.</li>
+          <li><b>Discovery of Documents (Order XI Rule 12):</b> Compelling opponent to declare documents on affidavit.</li>
+          <li><b>Notice to Admit (Order XII):</b> Notice to admit documents or facts to eliminate proof.</li>
+          <li><b>Production of Originals (Order XIII):</b> Original documents must be presented at or before issue settlement.</li>
+        </ul>`,
+        checklist: `• Verify interrogatories relate to relevant matters, not fishing/oppressive questions.<br>• Enforce Order XI Rule 21 penalty for failure to comply with discovery.<br>• Examine original documents under Order XIII and reject inadmissible documents.`,
+        trap: `Failure to comply with an order for interrogatories or discovery under <b>Order XI Rule 21</b> empowers the court to <b>dismiss the suit</b> (if plaintiff) or <b>strike out the defence</b> (if defendant)!`,
+        landmark: `<b>Babbar Sewing Machine Co. v. T.L.K. Gupta (1978):</b> Striking out defence under Order XI Rule 21 is a drastic penalty to be used only as a last resort for contumacious default.`,
+        scenario: `Defendant refuses to answer interrogatories ordered by the court regarding crucial contract accounts. What power can the court exercise?`,
+        scenarioAnswer: `Under Order XI Rule 21, the court may order the defendant's defence to be struck out and place him in the same position as if he had not defended.`,
+        quiz: {
+          q: "Under Order XIII Rule 1, when must original documents be presented in court?",
+          opts: ["During final arguments", "At or before the settlement of issues", "In the execution stage", "Only when summoned by High Court"],
+          ans: 1,
+          exp: "Order XIII Rule 1 mandates production of original documents at or before issue settlement."
+        }
+      },
+      {
+        num: 9,
+        stream: "Ordinary Trial Stream: Framing & Settlement of Issues",
+        streamClass: "stream-ordinary",
+        title: "Framing & Settlement of Issues",
+        badge: "STAGE 9 · ISSUES",
+        statutes: ["Order XIV Rules 1–7 CPC", "Order XV Rules 1–4"],
+        topicId: "top-cpc-09-01",
+        overview: `<p>Issues arise when a material proposition of fact or law is affirmed by one party and denied by the other (Order XIV Rule 1). Issues are the backbone of a civil trial.</p>
+        <ul>
+          <li><b>Issues of Fact vs Issues of Law:</b> Under Rule 2, where an issue of law relates to jurisdiction or a statutory bar, the court may try that issue first as a preliminary issue.</li>
+          <li><b>Order XV (Disposal at First Hearing):</b> If parties are not at issue on any question of law or fact, court may pronounce judgment immediately!</li>
+        </ul>`,
+        checklist: `• Read plaint and WS carefully to extract material affirmations and denials.<br>• Ascertain whether any issue can be tried as a preliminary issue under Rule 2.<br>• Frame clear, concise issues placing burden of proof on the proper party.`,
+        trap: `Under amended Order XIV Rule 2(2), only issues of law relating to (a) jurisdiction of court, or (b) a statutory bar to suit, can be tried as <b>preliminary issues</b>. Mixed questions of fact and law CANNOT be tried as preliminary issues!`,
+        landmark: `<b>Ramesh B. Desai v. Bipin Vadilal Mehta (2006):</b> A plea of limitation is usually a mixed question of fact and law; it cannot be decided as a preliminary issue unless facts are undisputed.`,
+        scenario: `Defendant pleads that the suit is barred by limitation and requests the court to decide limitation as a preliminary issue under Order XIV Rule 2. The dates of acknowledgment of debt are disputed. Can it be tried as preliminary issue?`,
+        scenarioAnswer: `No. Since the facts regarding debt acknowledgment are disputed, limitation becomes a mixed question of fact and law and cannot be decided as a preliminary issue without evidence.`,
+        quiz: {
+          q: "Under Order XIV Rule 2(2), which issue may be tried as a preliminary issue?",
+          opts: ["Any issue of fact", "An issue of law relating to jurisdiction or statutory bar", "An issue relating to damages quantum", "An issue regarding witness credibility"],
+          ans: 1,
+          exp: "Order XIV Rule 2(2) strictly restricts preliminary issues to issues of law relating to jurisdiction or statutory bars."
+        }
+      },
+      {
+        num: 10,
+        stream: "Ordinary Trial Stream: Trial Evidence (Interlocutory O. 39 Active)",
+        streamClass: "stream-interlocutory",
+        title: "Trial, Evidence & Examination of Witnesses",
+        badge: "STAGE 10 · TRIAL",
+        statutes: ["Order XVI CPC", "Order XVII Rules 1–3", "Order XVIII Rules 1–19"],
+        topicId: "top-cpc-10-01",
+        overview: `<p><b>Right to Begin (Order XVIII Rule 1):</b> The plaintiff has the right to begin, unless defendant admits facts and contends that plaintiff is not entitled to relief.</p>
+        <p><b>Examination-in-Chief on Affidavit (Rule 4):</b> Examination-in-chief of all witnesses is recorded on affidavit; cross-examination and re-examination are conducted in open court or before a court commissioner.</p>
+        <p><b>Adjournments (Order XVII Rule 1):</b> Proviso limits adjournments to not more than 3 times to a party during trial.</p>`,
+        checklist: `• Determine which party has the right to begin under Order XVIII Rules 1 & 2.<br>• Receive examination-in-chief affidavits and administer oath.<br>• Control cross-examination relevance and mark documentary exhibits under O. XIII R. 4.`,
+        trap: `If a party fails to produce evidence or cause attendance of witnesses on an adjourned date, the court may proceed to decide the suit forthwith under <b>Order XVII Rule 3</b>!`,
+        landmark: `<b>Salem Advocate Bar Association (II) (2005):</b> Upheld recording of cross-examination by court commissioners under Order XVIII Rule 4.`,
+        scenario: `Plaintiff files an affidavit of examination-in-chief for witness 'W'. Before cross-examination begins, 'W' passes away. Can the affidavit be read as substantive evidence?`,
+        scenarioAnswer: `No. If a witness dies before cross-examination, the untested affidavit has negligible or no evidentiary value because the opponent was deprived of the right of cross-examination.`,
+        quiz: {
+          q: "Under Order XVIII Rule 4(1) of the CPC, the examination-in-chief of a witness shall be on:",
+          opts: ["Oral interrogatories", "Affidavit", "Video recording only", "Police statement"],
+          ans: 1,
+          exp: "Order XVIII Rule 4(1) mandates examination-in-chief of all witnesses on affidavit."
+        }
+      },
+      {
+        num: 11,
+        stream: "Ordinary Trial Stream: Final Arguments",
+        streamClass: "stream-ordinary",
+        title: "Final Arguments & Judicial Submissions",
+        badge: "STAGE 11 · ARGUMENTS",
+        statutes: ["Order XVIII Rule 2 CPC", "Order XVIII Rule 2(3A)–(3D)", "Section 33"],
+        topicId: "top-cpc-10-02",
+        overview: `<p>Under <b>Order XVIII Rule 2</b>, after the close of evidence, the party addressing the court first submits oral arguments, followed by the opponent, and the first party replies on points of law.</p>
+        <p><b>Written Arguments (Rule 2(3A)):</b> Any party may submit written arguments under distinct headings before concluding oral arguments; these form part of the record. Court may fix time limits for oral arguments (Rule 2(3D)).</p>`,
+        checklist: `• Ensure oral arguments address issues framed sequentially.<br>• Accept written submissions on record and provide copy to opponent.<br>• Formally close hearing and record conclusion date on the Order Sheet.`,
+        trap: `Written arguments under Rule 2(3A) are meant to aid the court, NOT to replace oral arguments or smuggle in unproved facts not on record!`,
+        landmark: `<b>Arjun Singh v. Mohindra Kumar (1964):</b> Between conclusion of hearing and pronouncement of judgment, no further steps are contemplated under CPC.`,
+        scenario: `After hearing is concluded and case reserved for judgment, plaintiff files an application to produce an additional witness. Can the court allow it?`,
+        scenarioAnswer: `Under Arjun Singh, once hearing is formally concluded and judgment reserved, the stage of trial is closed. Reopening is permissible only in extraordinary cases under inherent powers (S. 151).`,
+        quiz: {
+          q: "Under Order XVIII Rule 2(3A), written arguments must be submitted:",
+          opts: ["Before oral arguments conclude", "Six months after judgment", "Only in the High Court", "Before summons is issued"],
+          ans: 0,
+          exp: "Rule 2(3A) requires written arguments to be submitted before concluding oral arguments."
+        }
+      },
+      {
+        num: 12,
+        stream: "Adjudication Stream: Judgment Pronouncement (S. 33)",
+        streamClass: "stream-adjudication",
+        title: "Judgment Pronouncement",
+        badge: "STAGE 12 · JUDGMENT",
+        statutes: ["Section 33 CPC", "Order XX Rules 1–5", "Order XX Rule 3"],
+        topicId: "top-cpc-11-01",
+        overview: `<p>Under <b>Section 33 CPC</b>, the Court, after the case has been heard, shall pronounce judgment, and on such judgment a decree shall follow.</p>
+        <p><b>Timeline (Order XX Rule 1):</b> Judgment must be pronounced at once or within <b>30 days</b> from conclusion of hearing (extendable up to <b>60 days</b> under exceptional circumstances).</p>
+        <p><b>Contents (Order XX Rule 4(2)):</b> Judgments of courts other than Small Causes shall contain a concise statement of case, points for determination, decision thereon, and reasons for such decision.</p>`,
+        checklist: `• Verify judgment is pronounced within 30 days of conclusion of hearing.<br>• Ensure a specific finding is recorded on EVERY issue framed (Order XX Rule 5).<br>• Sign and date judgment in open court; once signed, it cannot be altered except under Section 152.`,
+        trap: `Under Order XX Rule 3, once a judgment is signed by the Judge, it <b>shall not afterwards be altered or added to</b>, save as provided by Section 152 (clerical/arithmetical errors) or on review!`,
+        landmark: `<b>Anil Rai v. State of Bihar (2001):</b> Pronouncement of judgments must be timely; unexplained delay exceeding six months violates procedural justice.`,
+        scenario: `A civil judge pronounces judgment dismissing the suit, but omits to give any finding on Issue No. 3 regarding damages. Is this legally valid?`,
+        scenarioAnswer: `No. Order XX Rule 5 mandates that the court shall state its finding or decision, with reasons, upon EACH separate issue, unless the finding on one or more issues is sufficient to dispose of the suit.`,
+        quiz: {
+          q: "Under Order XX Rule 1, what is the ordinary time limit for pronouncing judgment?",
+          opts: ["Within seven days", "Within thirty days from conclusion of hearing", "Within ninety days", "Within one year"],
+          ans: 1,
+          exp: "Order XX Rule 1 prescribes within 30 days, extendable up to 60 days under exceptional circumstances."
+        }
+      },
+      {
+        num: 13,
+        stream: "Adjudication Stream: Formal Decree & Costs (S. 2(2), S. 34)",
+        streamClass: "stream-adjudication",
+        title: "Drawing of Decree & Costs Assessment",
+        badge: "STAGE 13 · DECREE",
+        statutes: ["Section 2(2) CPC", "Order XX Rules 6–7", "Sections 34 & 35 CPC"],
+        topicId: "top-cpc-11-02",
+        overview: `<p>A <b>Decree</b> is the formal expression of an adjudication conclusively determining the rights of parties (Section 2(2)). Decree must agree with judgment (Order XX Rule 6).</p>
+        <p><b>Drawing Timeline:</b> Decree shall be drawn up within <b>14 days</b> of judgment (Rule 6A).<br>
+        <b>Date of Decree:</b> Bears the date on which judgment was pronounced (Rule 7).<br>
+        <b>Interest (Section 34):</b> Pre-suit, pendente lite, and future interest (not exceeding 6% per annum, or contractual/commercial rate).<br>
+        <b>Costs (Section 35):</b> Discretion of court; costs normally follow the event.</p>`,
+        checklist: `• Ensure decree agrees strictly with the operative part of judgment.<br>• Verify date of decree corresponds to date of judgment pronouncement (Rule 7).<br>• Check award of costs and specify reasons if costs do not follow the event (Section 35(2)).`,
+        trap: `The date of the decree is the <b>date of judgment pronouncement</b>, NOT the date on which the decree was actually drawn up or signed! Limitation for appeal runs from judgment date.`,
+        landmark: `<b>Satnam Singh v. Surender Kaur (2009):</b> Distinction between preliminary decree and final decree; final decree completely disposes of the suit.`,
+        scenario: `Judgment is pronounced on 1st March. The formal decree is drawn up and signed by the judge on 20th March. What date must the decree bear?`,
+        scenarioAnswer: `Under Order XX Rule 7 CPC, the decree shall bear the date on which the judgment was pronounced (1st March).`,
+        quiz: {
+          q: "Under Section 34 CPC, what is the maximum rate of future interest for non-commercial debts?",
+          opts: ["3% per annum", "6% per annum", "12% per annum", "18% per annum"],
+          ans: 1,
+          exp: "Section 34(1) restricts post-decree future interest to a maximum of 6% per annum for non-commercial transactions."
+        }
+      },
+      {
+        num: 14,
+        stream: "Enforcement & Recourse: Execution (O. XXI) & Appeals (S. 96/100/115)",
+        streamClass: "stream-enforcement",
+        title: "Execution & Post-Decree Remedies",
+        badge: "STAGE 14 · ENFORCEMENT",
+        statutes: ["Sections 36–74 CPC", "Order XXI Rules 1–106", "Sections 96, 100, 115, 144"],
+        topicId: "top-cpc-12-01",
+        overview: `<p>The decree-holder realizes the fruits of the decree through <b>Execution</b> under Order XXI (the longest Order in the CPC with 106 rules).</p>
+        <ul>
+          <li><b>Modes of Execution (S. 51):</b> Delivery of property, attachment and sale, arrest and civil prison detention, appointing receiver.</li>
+          <li><b>Executing Court Powers (S. 47):</b> All questions relating to execution, discharge, or satisfaction determined by executing court, NOT by separate suit!</li>
+          <li><b>Appellate & Post-Decree Remedies:</b> First appeal (S. 96), Second appeal (S. 100), Revision (S. 115), Review (S. 114), and Restitution (S. 144).</li>
+        </ul>`,
+        checklist: `• Check whether execution petition is filed within limitation (12 years under Art. 136).<br>• All objections to execution heard under Section 47; separate suit is barred.<br>• Executing court cannot go behind the decree except for inherent lack of jurisdiction.`,
+        trap: `An executing court <b>cannot go behind the decree</b>! It must execute the decree as it stands and cannot evaluate whether the trial court decided evidence correctly.`,
+        landmark: `<b>Kiran Singh (1954) & Afcons (2010):</b> Nullity of decree for lack of jurisdiction can be raised in execution, but correctness of decree cannot be questioned.`,
+        scenario: `Judgment-debtor files a fresh civil suit claiming that the decree was passed on incorrect evidence. Is the separate suit maintainable?`,
+        scenarioAnswer: `No. Under Section 47 CPC, all questions relating to execution, discharge, or satisfaction must be determined by the executing court and not by a separate suit.`,
+        quiz: {
+          q: "Under Section 47 of the CPC, questions relating to execution, discharge or satisfaction shall be determined by:",
+          opts: ["A fresh civil suit", "The executing court", "The High Court on revision only", "The District Magistrate"],
+          ans: 1,
+          exp: "Section 47 explicitly mandates that all execution questions are determined by the executing court, barring a separate suit."
+        }
+      }
+    ];
+
+    let currentStageIndex = 0;
+    const completedStages = new Set();
+
+    function initJourney() {
+      renderStageChips();
+      loadStage(0);
+    }
+
+    function renderStageChips() {
+      const container = document.getElementById('stages-chips-row');
+      container.innerHTML = '';
+      CIVIL_SUIT_STAGES.forEach((st, idx) => {
+        const chip = document.createElement('div');
+        chip.className = 'stage-chip' + (idx === currentStageIndex ? ' active' : '') + (completedStages.has(idx) ? ' completed' : '');
+        chip.id = 'stage-chip-' + idx;
+        chip.onclick = () => loadStage(idx);
+        chip.innerHTML = `
+          <span class="chip-num">Stage ${st.num}</span>
+          <span class="chip-name" title="${st.title}">${st.title}</span>
+        `;
+        container.appendChild(chip);
+      });
+    }
+
+    function loadStage(idx) {
+      currentStageIndex = idx;
+      const st = CIVIL_SUIT_STAGES[idx];
+
+      // Update chips UI
+      document.querySelectorAll('.stage-chip').forEach((c, i) => {
+        c.classList.remove('active');
+        if (i === idx) c.classList.add('active');
+      });
+
+      // Scroll chip into view
+      const activeChip = document.getElementById('stage-chip-' + idx);
+      if (activeChip) {
+        activeChip.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+      }
+
+      // Update progress
+      const pct = Math.round(((idx + 1) / CIVIL_SUIT_STAGES.length) * 100);
+      document.getElementById('progress-text').textContent = `Stage ${idx + 1} of 14 (${pct}%)`;
+      document.getElementById('progress-fill').style.width = pct + '%';
+
+      // Update main card
+      document.getElementById('stage-number-badge').textContent = st.badge;
+      const streamBadge = document.getElementById('stage-stream-badge');
+      if (streamBadge) {
+        streamBadge.textContent = st.stream || 'ORDINARY TRIAL STREAM';
+        streamBadge.className = 'stream-badge-tag ' + (st.streamClass || 'stream-ordinary');
+      }
+      document.getElementById('stage-title').textContent = `${st.num}. ${st.title}`;
+
+      // Statutes
+      const statContainer = document.getElementById('stage-statutes');
+      statContainer.innerHTML = st.statutes.map(s => `<span class="statute-tag">§ ${s}</span>`).join('');
+
+      // Overview
+      document.getElementById('stage-overview').innerHTML = st.overview;
+      document.getElementById('stage-checklist').innerHTML = st.checklist;
+      document.getElementById('stage-trap').innerHTML = st.trap;
+      document.getElementById('stage-landmark').innerHTML = st.landmark;
+
+      // Link to study room
+      const studyLink = document.getElementById('study-topic-link');
+      studyLink.href = `subject-study.html?subject=law-cpc&topic=${st.topicId}`;
+
+      // Navigation buttons
+      document.getElementById('prev-stage-btn').style.visibility = (idx === 0) ? 'hidden' : 'visible';
+      const nextBtn = document.getElementById('next-stage-btn');
+      if (idx === CIVIL_SUIT_STAGES.length - 1) {
+        nextBtn.textContent = '🎉 Complete Journey';
+      } else {
+        nextBtn.textContent = 'Next Stage →';
+      }
+
+      // Scenario
+      document.getElementById('sim-scenario-text').textContent = st.scenario;
+      const ansBox = document.getElementById('sim-scenario-answer');
+      ansBox.style.display = 'none';
+      ansBox.textContent = st.scenarioAnswer;
+
+      // Quiz
+      renderQuiz(st.quiz);
+    }
+
+    function toggleScenarioAnswer() {
+      const box = document.getElementById('sim-scenario-answer');
+      box.style.display = (box.style.display === 'block') ? 'none' : 'block';
+    }
+
+    function renderQuiz(quiz) {
+      document.getElementById('quiz-question').textContent = quiz.q;
+      const optsList = document.getElementById('quiz-options-list');
+      optsList.innerHTML = '';
+      const feedback = document.getElementById('quiz-feedback-box');
+      feedback.className = 'quiz-feedback';
+      feedback.style.display = 'none';
+
+      quiz.opts.forEach((optText, optIdx) => {
+        const btn = document.createElement('button');
+        btn.className = 'quiz-opt-btn';
+        btn.textContent = String.fromCharCode(65 + optIdx) + '. ' + optText;
+        btn.onclick = () => handleQuizAnswer(optIdx, quiz.ans, quiz.exp, btn);
+        optsList.appendChild(btn);
+      });
+    }
+
+    function handleQuizAnswer(selectedIdx, correctIdx, explanation, btn) {
+      const allBtns = document.querySelectorAll('.quiz-opt-btn');
+      allBtns.forEach(b => b.disabled = true);
+
+      const feedback = document.getElementById('quiz-feedback-box');
+
+      if (selectedIdx === correctIdx) {
+        btn.classList.add('correct');
+        feedback.className = 'quiz-feedback show-correct';
+        feedback.innerHTML = `<b>✓ Correct!</b> ${explanation}`;
+        completedStages.add(currentStageIndex);
+        renderStageChips();
+      } else {
+        btn.classList.add('wrong');
+        if (allBtns[correctIdx]) allBtns[correctIdx].classList.add('correct');
+        feedback.className = 'quiz-feedback show-wrong';
+        feedback.innerHTML = `<b>✗ Incorrect.</b> ${explanation}`;
+      }
+    }
+
+    function nextStage() {
+      completedStages.add(currentStageIndex);
+      if (currentStageIndex < CIVIL_SUIT_STAGES.length - 1) {
+        loadStage(currentStageIndex + 1);
+        renderStageChips();
+      } else {
+        alert('🎉 Congratulations! You have completed all 14 stages of The Civil Suit Journey.');
+      }
+    }
+
+    function prevStage() {
+      if (currentStageIndex > 0) {
+        loadStage(currentStageIndex - 1);
+      }
+    }
+
+    function openDiagramModal() {
+      document.getElementById('diagram-modal').classList.add('active');
+    }
+
+    function closeDiagramModal() {
+      document.getElementById('diagram-modal').classList.remove('active');
+    }
+
+    function closeDiagramModalOnBackdrop(e) {
+      if (e.target.id === 'diagram-modal') {
+        closeDiagramModal();
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', initJourney);
+  </script>
+</body>
+</html>

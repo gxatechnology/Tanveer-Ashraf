@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_dv2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow_dv2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg_dv2)"/>
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow_dv2)"/>
+  <text x="400" y="46" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">SHARED HOUSEHOLD &amp; DOMESTIC RELATIONSHIP</text>
+  <text x="400" y="64" fill="#dfbf80" font-family="sans-serif" font-size="11" text-anchor="middle">Section 2(s) • Section 17 Right of Residence • Overruling of S.R. Batra</text>
+
+  <!-- Left: Definitions & Judicial Evolution -->
+  <g transform="translate(40, 95)" filter="url(#shadow_dv2)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">SECTION 2(s) &amp; SECTION 17</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 2(f): Domestic Relationship</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Relationship between two persons who live or have, at any</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">point of time, lived together in a shared household through</text>
+    <text x="25" y="115" fill="#4a5568" font-family="sans-serif" font-size="11">consanguinity, marriage, adoption or relationships in nature of marriage.</text>
+
+    <text x="20" y="140" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 17: Right to Reside</text>
+    <text x="25" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">Every woman in a domestic relationship has the right to</text>
+    <text x="25" y="175" fill="#4a5568" font-family="sans-serif" font-size="11">reside in the shared household, whether or not she has</text>
+    <text x="25" y="190" fill="#4a5568" font-family="sans-serif" font-size="11">any right, title or beneficial interest in the property.</text>
+
+    <rect x="20" y="205" width="300" height="100" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="225" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">SATISH CHANDER AHUJA V. SNEHA AHUJA (2020):</text>
+    <text x="30" y="245" fill="#4a5568" font-family="sans-serif" font-size="10">• 3-Judge Bench OVERRULED S.R. Batra v. Taruna Batra.</text>
+    <text x="30" y="260" fill="#4a5568" font-family="sans-serif" font-size="10">• Held: Shared household is NOT restricted to property</text>
+    <text x="35" y="275" fill="#4a5568" font-family="sans-serif" font-size="10">owned/rented by husband; includes property of in-laws</text>
+    <text x="35" y="290" fill="#4a5568" font-family="sans-serif" font-size="10">where woman lived in domestic relationship.</text>
+
+    <rect x="20" y="320" width="300" height="40" rx="4" fill="#fff9ec"/>
+    <text x="170" y="337" fill="#b98a38" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Prabha Tyagi v. Kamlesh Devi (2022)</text>
+    <text x="170" y="352" fill="#4a5568" font-family="sans-serif" font-size="9" text-anchor="middle">Subsequent past residence suffices; subsisting cohabitation not required</text>
+  </g>
+
+  <!-- Right: Protection Officers & Machinery -->
+  <g transform="translate(420, 95)" filter="url(#shadow_dv2)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">ENFORCEMENT MACHINERY</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 8: Protection Officers (PO)</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">• Appointed by State Govt; preferably WOMEN.</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">• Shall be under control and supervision of Magistrate.</text>
+
+    <text x="20" y="125" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 9: Duties of Protection Officers</text>
+    <text x="25" y="145" fill="#4a5568" font-family="sans-serif" font-size="11">• Assist Magistrate in discharge of functions.</text>
+    <text x="25" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">• Make Domestic Incident Report (DIR) to Magistrate.</text>
+    <text x="25" y="175" fill="#4a5568" font-family="sans-serif" font-size="11">• Ensure legal aid, medical examination &amp; safe shelter.</text>
+
+    <text x="20" y="200" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 10: Service Providers</text>
+    <text x="25" y="220" fill="#4a5568" font-family="sans-serif" font-size="11">Voluntary associations/NGOs registered with State Govt;</text>
+    <text x="25" y="235" fill="#4a5568" font-family="sans-serif" font-size="11">empowered to record DIR, get medical aid &amp; shelter.</text>
+
+    <rect x="20" y="250" width="300" height="60" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="30" y="270" fill="#a63b49" font-family="sans-serif" font-size="11" font-weight="bold">FEMALE RELATIVES AS RESPONDENTS:</text>
+    <text x="30" y="290" fill="#4a5568" font-family="sans-serif" font-size="10">• Hiralal P. Harsora v. Kusum Narottamdas Harsora (2016):</text>
+    <text x="35" y="303" fill="#4a5568" font-family="sans-serif" font-size="10">SC struck down "adult male person"; female relatives can</text>
+    <text x="35" y="316" fill="#4a5568" font-family="sans-serif" font-size="10">also be named as respondents (mother-in-law, sister-in-law).</text>
+
+    <rect x="20" y="335" width="300" height="28" rx="4" fill="#edf7f4"/>
+    <text x="170" y="353" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Landmark: Hiralal Harsora (Female Respondents)</text>
+  </g>
+</svg>

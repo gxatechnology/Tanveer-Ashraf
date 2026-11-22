@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs><linearGradient id="abg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="900" height="360" fill="url(#abg)" rx="12"/>
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#dfbf80">ARTICLE 368: CONSTITUTIONAL AMENDMENT FLOW</text>
+  
+  <!-- Step 1: Initiation -->
+  <rect x="40" y="80" width="160" height="130" rx="8" fill="#fff"/>
+  <rect x="40" y="80" width="160" height="28" rx="8" fill="#142c46"/>
+  <text x="120" y="99" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">1. INITIATION</text>
+  <text x="50" y="125" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• In EITHER House of Parliament</text>
+  <text x="50" y="150" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• By Minister or Private Member</text>
+  <text x="50" y="175" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• NO prior President recommendation</text>
+
+  <!-- Arrow 1 -->
+  <line x1="205" y1="145" x2="250" y2="145" stroke="#dfbf80" stroke-width="3"/>
+  <polygon points="250,145 240,140 240,150" fill="#dfbf80"/>
+
+  <!-- Step 2: Passage in Parliament -->
+  <rect x="255" y="80" width="180" height="130" rx="8" fill="#fff"/>
+  <rect x="255" y="80" width="180" height="28" rx="8" fill="#137d72"/>
+  <text x="345" y="99" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">2. PARLIAMENT VOTE</text>
+  <text x="265" y="125" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• Special Majority in EACH House:</text>
+  <text x="270" y="145" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">(a) Majority of total membership</text>
+  <text x="270" y="160" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">(b) 2/3rds present &amp; voting</text>
+  <text x="265" y="185" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• NO JOINT SITTING (Art. 108)</text>
+
+  <!-- Arrow 2 -->
+  <line x1="440" y1="145" x2="485" y2="145" stroke="#dfbf80" stroke-width="3"/>
+  <polygon points="485,145 475,140 475,150" fill="#dfbf80"/>
+
+  <!-- Step 3: State Ratification (if federal) -->
+  <rect x="490" y="80" width="170" height="130" rx="8" fill="#fff"/>
+  <rect x="490" y="80" width="170" height="28" rx="8" fill="#142c46"/>
+  <text x="575" y="99" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">3. STATE RATIFICATION</text>
+  <text x="500" y="125" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Required ONLY for federal matters (Art. 54, 55, 73, 162, 7th Sched, SC/HC, Art 368)</text>
+  <text x="500" y="170" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• ≥ 50% State Assemblies</text>
+  <text x="500" y="190" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Simple majority in States</text>
+
+  <!-- Arrow 3 -->
+  <line x1="665" y1="145" x2="710" y2="145" stroke="#dfbf80" stroke-width="3"/>
+  <polygon points="710,145 700,140 700,150" fill="#dfbf80"/>
+
+  <!-- Step 4: Presidential Assent -->
+  <rect x="715" y="80" width="155" height="130" rx="8" fill="#dfbf80"/>
+  <rect x="715" y="80" width="155" height="28" rx="8" fill="#142c46"/>
+  <text x="792" y="99" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">4. ASSENT</text>
+  <text x="725" y="125" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">• President SHALL give assent</text>
+  <text x="725" y="150" font-family="system-ui, sans-serif" font-size="9" fill="#1b3857">• Cannot withhold assent</text>
+  <text x="725" y="170" font-family="system-ui, sans-serif" font-size="9" fill="#1b3857">• Cannot return for reconsideration</text>
+  <text x="725" y="195" font-family="system-ui, sans-serif" font-size="8.5" fill="#a63b49">(24th Amendment Act, 1971)</text>
+
+  <!-- Inviolable Safeguard: Basic Structure -->
+  <rect x="150" y="240" width="600" height="90" rx="8" fill="#ffffff" stroke="#a63b49" stroke-width="2"/>
+  <text x="450" y="265" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#a63b49">THE INVIOLABLE CONSTITUTIONAL BOUNDARY</text>
+  <text x="450" y="288" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">THE BASIC STRUCTURE DOCTRINE (Kesavananda Bharati, 1973)</text>
+  <text x="450" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#607387">Parliament cannot alter Supremacy of Constitution, Republican &amp; Democratic form, Secularism, Federalism, Separation of Powers, Judicial Review, or Judicial Independence.</text>
+</svg>

@@ -1,14 +1,14 @@
-# PROJECT_STATUS.md — Final Integration & Production Readiness Baseline
+# PROJECT_STATUS.md — Subject-Wise Judicial Learning Academy & 17-Subject Baseline
 
 ## 1. Executive Summary
-- **Current Version:** V3.0 — Phase 5 (Final Integration, Legal Content Audit, Advanced UI Polish, Performance Optimization & Production Readiness)
-- **Previous Baseline:** V3.0 — Phase 4 (Advanced Legal Mastery, Myth Buster & Judicial Career Journey)
+- **Current Version:** V3.1 — Phase 5 (Complete Social Legislation Learning Academy, Nine Special Acts, Thematic Study Centre & Statutory Explorer)
+- **Previous Baseline:** V3.1 — Phase 4 (Complete Civil Procedure Code Learning Academy, The Civil Suit Journey, and Section-Order-Rule Explorer)
 - **Audit Date:** November 22, 2026
 - **Status:** 100% Integrated, Locally Validated, Production-Ready Static Web Application
-- **Automated Validation:** 21/21 Automated Tests Passed (`scripts/validate_production.py`)
+- **Automated Validation:** 21/21 Tests Passed (`scripts/validate_production.py`) & 58/58 Tests Passed across 15 Test Groups (`scripts/validate_learning_academy.py`)
 - **Release Decision:** READY FOR USER ACCEPTANCE TESTING (Pre-deployment lock active)
 - **Production URL:** [https://tanveer-ashraf-judicial.vercel.app](https://tanveer-ashraf-judicial.vercel.app)
-- **Production Branch:** `main` (Last pushed commit: `3a94255`)
+- **Production Branch:** `main` (Last pushed commit: `08c7433`)
 - **GitHub Repository:** [https://github.com/gxatechnology/Tanveer-Ashraf](https://github.com/gxatechnology/Tanveer-Ashraf)
 
 ---
@@ -16,9 +16,9 @@
 ## 2. Confirmed Project Metrics & Inventory
 
 ### A. Core Architecture & Files
-- **Operational HTML Pages:** Exactly 21 pages in workspace root.
-- **JavaScript Modules:** Exactly 36 modules across core portal and gaming engine.
-- **Stylesheets:** 8 custom stylesheets (`assets/css/site.css` and 7 gaming stylesheets).
+- **Operational HTML Pages:** Exactly 27 pages in workspace root (21 baseline + 6 Judicial Learning Academy, Comparison Lab & Civil Suit Journey).
+- **JavaScript Modules:** Exactly 119 modules across core portal, gaming engine, and 17 active academy subjects.
+- **Stylesheets:** 9 custom stylesheets (`assets/css/site.css`, 7 gaming stylesheets, and `assets/learning/css/academy.css`).
 - **Core Assets & Branding:** 100% intact and uncorrupted (`tanveer.webp`, `tauqeer.webp`, `emblem.svg`).
 - **Dependencies:** Strictly zero external framework or server-side dependencies (Vanilla HTML5, CSS3, ES6+ JS).
 
@@ -31,83 +31,33 @@
 - **Bharatiya Nyaya Sanhita Database (`assets/data/bns.js`):**
   - Total section titles: 358 sections across 20 chapters.
   - Section number uniqueness: 100%.
-- **Legal Vocabulary Database (`assets/games/data/legal-vocabulary.js`):**
-  - Total validated terms: 285 unique entries across 10 disciplines.
-  - Canonical attributes & authorities: 100% populated.
-- **Legal Crossword Matrices (`assets/games/data/crossword-puzzles.js`):**
-  - Total puzzles: 30 validated puzzle configurations across 3 tiers.
-  - Multiset letter intersection consistency: 100% (0 conflicts).
-- **Cinematic Case Files & Courtroom Hearings:**
-  - Detective investigations: 6 authored criminal investigations.
-  - Courtroom proceedings: 6 authored judicial bench hearings.
-  - Case verification: 100% equipped with `status: "Verified against authoritative source"`, `sourceUrl` India Code handles, and `scorable: true`.
-- **Legal Myth Buster Database (`assets/games/data/legal-myths.js`):**
-  - Total verified propositions: 330 unique legal statements.
-  - 100% equipped with authoritative HTTPS India Code or Supreme Court URLs.
-- **Road to Judiciary Campaign:**
-  - Chapters: 9 syllabus chapters.
-  - Missions: 36 connected missions (100% target URLs validated).
-- **Judicial Achievements:**
-  - Total honors: 38 badges.
-- **Illustrated Mentor Character Roster:**
-  - Total characters: 12 recurring mentor profiles.
-
----
-
-## 3. Phase 5 Integration & Design Improvements Completed
-
-1. **Simulated Judicial Appointment Replaced:**
-   - Simulated official titles and appointments have been permanently replaced with *ROAD TO JUDICIARY — LEARNING JOURNEY COMPLETED: Personal Educational Achievement*.
-   - A prominent educational disclaimer is permanently embedded on the decree modal, certificate, and print styles.
-2. **Confidence Challenge Non-Punitive Calibration:**
-   - Removed point penalties ($-5$, $-10$, $-20$); implemented cognitive self-calibration tracking (`Low`, `Medium`, `High` confidence).
-   - Analysis generates a comprehensive Confidence Calibration Report distinguishing mastered concepts from dangerous misconceptions and hesitant knowledge.
-3. **Objective Personal Learning Progress:**
-   - Replaced simulated judicial readiness scores with *Personal Learning Progress*.
-   - Requires $\ge 3$ completed activities before computing competence percentages to prevent misleading predictions.
-   - Categorizes progress into 5 educational mastery tiers (*Foundational Aspirant* to *Comprehensive Mastery*).
-4. **Master Dashboard UI Polish (`index.html`):**
-   - High-contrast academic judicial hero.
-   - "Continue Learning" dynamic panel resuming active missions or mock tests.
-   - Quick Actions grid with 6 core preparation shortcuts.
-   - Distinct year cards for historical papers and Brain Arena Spotlight card.
-5. **Advanced Performance Analytics (`results.html`):**
-   - Cleanly separates official-pattern examination simulations (Paper I GK & Paper II Law) from cognitive gaming metrics (XP, Streaks, Accuracies).
-   - Renders CSS horizontal progress bars and visual trends with empty-state guidance.
-6. **Unified Smart Revision Centre (`revision.html`):**
-   - Filter tabs: *All Items*, *Bookmarked PYQs*, and *Arena Errors & Misconceptions*.
-   - Interactive "Mark Resolved" triggers and direct links back to source material.
-7. **Multi-Corpus Smart Legal Search (`search.html` & `legal-search.js`):**
-   - Indexes BNS section headings, PYQ questions, Legal Vocabulary, and Myth propositions.
-   - Debounced search input (200ms) with XSS-safe escaping and category badge grouping.
-8. **Unified Versioned Backup & Restore:**
-   - Exports and imports all three localStorage keys (`tanveer-pcsj-portal-v1`, `tanveer-arena-v1`, `tanveer-bns-bookmarks-v1`) into a single versioned JSON file (`v3.0.0-unified-backup`) with confirmation safety.
-9. **Print & Export Optimization:**
-   - Dedicated `@media print` styles hiding interactive navigation elements and displaying clean serif typography with educational disclaimers.
-
----
-
-## 4. Operational Playable Modules (All 21 Pages Live)
-| Page | File | Module Function | Status |
-| :--- | :--- | :--- | :--- |
-| **1. Master Dashboard** | `index.html` | Unified learning command center & quick actions | ● LIVE |
-| **2. Brain Arena Dashboard** | `brain-arena.html` | Cognitive gaming lobby & 8 game selectors | ● LIVE |
-| **3. Legal Memory Match** | `memory-match.html` | 3D statutory and maxim matching | ● LIVE |
-| **4. Section Sprint** | `section-sprint.html` | High-speed statutory section recall | ● LIVE |
-| **5. Legal Detective** | `legal-detective.html` | 6 criminal investigations with evidence board | ● LIVE |
-| **6. Be the Judge** | `courtroom.html` | 6 judicial hearings with order builder | ● LIVE |
-| **7. Legal Crossword** | `crossword.html` | 30 verified statutory crossword puzzles | ● LIVE |
-| **8. Legal Word Scramble** | `word-scramble.html` | 8 decryption modes & 5 Mystery Manuscripts | ● LIVE |
-| **9. Legal Myth Buster** | `myth-buster.html` | 8 modes, 330 propositions, scales of truth | ● LIVE |
-| **10. Road to Judiciary** | `judiciary-journey.html`| 9 chapters, 36 missions, learning plan | ● LIVE |
-| **11. Achievement Gallery**| `achievements.html` | 38 judicial honors with filtering | ● LIVE |
-| **12. PYQ Library** | `library.html` | 1,800 question search and filter browser | ● LIVE |
-| **13. BNS Library** | `bns.html` | 358 section browser with India Code links | ● LIVE |
-| **14. Smart Legal Search** | `search.html` | Multi-corpus tokenized search engine | ● LIVE |
-| **15. Mock Test Centre** | `tests.html` | Year and paper exam configuration | ● LIVE |
-| **16. Active Examination** | `exam.html` | Distraction-free full-screen test simulator | ● LIVE |
-| **17. Performance Analytics**| `results.html` | Separated exam & gaming analytics + Backup | ● LIVE |
-| **18. Question Review** | `review.html` | Answer evaluation and statutory rationale | ● LIVE |
-| **19. Revision Centre** | `revision.html` | Unified bookmarks, weak queue & misconceptions | ● LIVE |
-| **20. Official Syllabus** | `syllabus.html` | UP PCS-J curriculum structure & guidelines | ● LIVE |
-| **21. About & Attributions**| `about.html` | Candidate & developer profiles and mission | ● LIVE |
+- **Subject-Wise Judicial Learning Academy (V3.1 Phase 5 Cumulative Metrics):**
+  - Total Defined Subjects: 30 subjects (Paper I: 12 GK + 9 Social Legislation; Paper II: 9 Law & sub-disciplines).
+  - Active Production Subjects: **17 Subjects** (8 Paper II Law Modules + 9 Paper I Social Legislation Acts):
+    1. law-constitution (Indian Constitution) — 15 Chapters, 45 Topics, 480 MCQs, 158 PYQs, 12 Diagrams.
+    2. law-jurisprudence (Jurisprudence) — 11 Chapters, 30 Topics, 240 MCQs, 45 PYQs, 8 Diagrams.
+    3. law-contract (Indian Contract Act, 1872) — 11 Chapters, 32 Topics, 260 MCQs, 82 PYQs, 8 Diagrams.
+    4. law-tpa (Transfer of Property Act, 1882) — 8 Chapters, 24 Topics, 240 MCQs, 47 PYQs, 8 Diagrams.
+    5. law-criminal (Criminal Law: BNS 2023 & IPC 1860) — 12 Chapters, 36 Topics, 360 MCQs, 78 PYQs, 8 Diagrams.
+    6. law-crpc (Criminal Procedure: BNSS 2023 & CrPC 1973) — 12 Chapters, 35 Topics, 360 MCQs, 49 PYQs, 8 Diagrams.
+    7. law-evidence (Law of Evidence: BSA 2023 & IEA 1872) — 10 Chapters, 30 Topics, 280 MCQs, 73 PYQs, 8 Diagrams.
+    8. law-cpc (Code of Civil Procedure, 1908) — 20 Chapters, 57 Topics, 400 MCQs, 60 PYQs, 12 Diagrams.
+    9. soc-disabilities (RPwD Act, 2016) — 3 Chapters, 9 Topics, 50 MCQs, 4 PYQs, 2 Diagrams.
+    10. soc-parents (Senior Citizens & Parents Act, 2007) — 3 Chapters, 9 Topics, 50 MCQs, 1 PYQ, 2 Diagrams.
+    11. soc-dowry (Dowry Prohibition Act, 1961) — 3 Chapters, 9 Topics, 50 MCQs, 5 PYQs, 2 Diagrams.
+    12. soc-domestic-violence (PWDVA, 2005) — 3 Chapters, 9 Topics, 50 MCQs, 2 PYQs, 2 Diagrams.
+    13. soc-posh (POSH Act, 2013) — 3 Chapters, 9 Topics, 50 MCQs, 1 PYQ, 2 Diagrams.
+    14. soc-pcpndt (PCPNDT Act, 1994) — 3 Chapters, 9 Topics, 50 MCQs, 2 PYQs, 2 Diagrams.
+    15. soc-mtp (MTP Act, 1971 as amended 2021) — 3 Chapters, 9 Topics, 50 MCQs, 3 PYQs, 2 Diagrams.
+    16. soc-indecent-rep (IRWA, 1986) — 3 Chapters, 9 Topics, 45 MCQs, 3 PYQs, 2 Diagrams.
+    17. soc-pocso (POCSO Act, 2012 as amended 2019) — 4 Chapters, 12 Topics, 60 MCQs, 2 PYQs, 2 Diagrams.
+  - Total Chapters: Exactly **127 structured chapters** (99 Law + 28 Social).
+  - Total Topics: Exactly **373 structured topics** (289 Law + 84 Social).
+  - Total Authored Concepts: Exactly **373 comprehensive topic notes** with statutory blueprints, bare act breakdowns, landmark cases, flashcards, and exam traps.
+  - Practice MCQs: Exactly **3,075 unique, verified practice MCQs** with 4-option breakdowns (A, B, C, D), bare act provisions, and learning objectives (2,620 Law + 455 Social).
+  - Historical PYQs Mapped: Exactly **615 authentic UP PCS-J previous-year questions** mapped across 2012–2023 (592 Law + 23 Social).
+  - Academic SVG Schematics: Exactly **90 custom vector diagrams** (72 Law + 18 Social).
+  - Statutory Explorer Entries: Exactly **181 curated statutory entries** (83 CPC + 98 Social).
+  - Statutory Comparison Lab: Exactly 79 verified comparative transitions (30 BNS vs IPC, 21 BNSS vs CrPC, 28 BSA vs IEA), with S. 106(2) BNS caveat.
+  - The Civil Suit Journey: Exactly 14 sequential procedural stages with Presiding Officer Scrutiny Checklists, High-Yield Traps, Landmark Judicial Precedents, and Scenario Simulators.
+  - Practice Modes: 8 distinct modes (learn, topic_test, chapter_test, subject_mock, pyq, mistakes, bookmarks, challenge) supporting all 17 active subjects.

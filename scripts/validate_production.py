@@ -27,9 +27,9 @@ def run_tests():
             print(f" [FAIL] {name} -> {details}")
             failures += 1
 
-    # 1. Operational HTML Pages Count
+    # 1. Operational HTML Pages Count (21 Baseline + 6 Learning Academy, Comparison Lab & Civil Suit Journey in V3.1 = 27)
     html_files = sorted([f for f in os.listdir('.') if f.endswith('.html')])
-    check("Operational HTML page count is exactly 21", len(html_files) == 21, f"Found {len(html_files)} pages: {html_files}")
+    check("Operational HTML page count is exactly 27 (21 baseline + 6 Learning Academy, Comparison Lab & Civil Suit Journey)", len(html_files) == 27, f"Found {len(html_files)} pages: {html_files}")
 
     # 2. Check HTML structure and local assets
     missing_assets = []

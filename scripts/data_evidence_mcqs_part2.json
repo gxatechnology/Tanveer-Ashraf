@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "mcq-evi-04-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 32(1) of the Indian Evidence Act regarding Dying Declarations?",
+    "options": [
+      "Section 26(a) BSA",
+      "Section 28(1) BSA",
+      "Section 32(a) BSA",
+      "Section 24(1) BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 26(a) BSA corresponds to Section 32(1) IEA, making statements made by a person as to the cause of his death or circumstances of the transaction resulting in death relevant.",
+    "optionBreakdown": {
+      "A": "Correct; Section 26(a) BSA corresponds to Section 32(1) IEA.",
+      "B": "Section 28 BSA relates to other provisions.",
+      "C": "No Section 32(a) in BSA.",
+      "D": "Section 24 BSA relates to confessions."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify the corresponding provision for dying declarations in BSA 2023.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "Under Indian law (Section 26(a) BSA / Section 32(1) IEA), is it necessary that the declarant was in actual expectation of death when making the statement?",
+    "options": [
+      "No, statements are admissible whether the person was or was not under expectation of death",
+      "Yes, the declarant must be in settled, hopeless expectation of imminent death (like English law)",
+      "Yes, expectation of death must be certified by two medical doctors",
+      "Only in suicide cases expectation of death is required"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Unlike English law where 'nemo moriturus praesumitur mentire' requires a settled, hopeless expectation of death, Section 26(a) BSA and Section 32(1) IEA explicitly state: 'whether the person who made them was or was not, at the time when they were made, under expectation of death'.",
+    "optionBreakdown": {
+      "A": "Correct; expectation of death is not required under Indian evidence law.",
+      "B": "That is the rule of English law, rejected in India.",
+      "C": "Medical certification of expectation is not required by statute.",
+      "D": "Statutory rule applies uniformly."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish Indian dying declaration law from English law regarding expectation of death.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "In which landmark Privy Council judgment was the phrase 'circumstances of the transaction which resulted in his death' authoritatively interpreted?",
+    "options": [
+      "Pakala Narayana Swami v. Emperor (1939)",
+      "Queen Empress v. Abdullah (1885)",
+      "Sharad Birdhichand Sarda v. State of Maharashtra (1984)",
+      "Kashmira Singh v. State of MP (1952)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Pakala Narayana Swami v. Emperor (AIR 1939 PC 47), Lord Atkin held that 'circumstances of the transaction' must have some proximate relation to the actual occurrence and resulted in the death.",
+    "optionBreakdown": {
+      "A": "Correct; Lord Atkin laid down the foundational test in Pakala Narayana Swami.",
+      "B": "Queen Empress v. Abdullah dealt with signs and gestures as dying declaration.",
+      "C": "Sharad Birdhichand Sarda laid down the panchsheel of circumstantial evidence.",
+      "D": "Kashmira Singh dealt with confession of co-accused."
+    },
+    "difficulty": "Landmark",
+    "provision": "IEA S. 32(1) / BSA S. 26(a)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Lord Atkin's interpretation of 'circumstances of the transaction'.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "In Queen Empress v. Abdullah (1885), how did the deceased girl (whose throat had been cut) make an admissible dying declaration?",
+    "options": [
+      "By nods and hand gestures in response to questions",
+      "Through a written affidavit signed by a notary",
+      "Through telepathic communication",
+      "Through an audio recording made by a constable"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Queen Empress v. Abdullah (1885 ILR 7 All 385 FB), the Allahabad High Court held that signs and gestures made by a deceased whose vocal cords were severed constitute verbal statements within Section 32(1) IEA / Section 26(a) BSA.",
+    "optionBreakdown": {
+      "A": "Correct; signs and gestures in response to questions amount to verbal statements.",
+      "B": "No written affidavit was made.",
+      "C": "Absurd.",
+      "D": "Audio recording was not used in 1885."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand that signs and gestures can constitute an admissible dying declaration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "Can a conviction be based SOLELY on an uncorroborated dying declaration if the court finds it truthful and voluntary?",
+    "options": [
+      "Yes, if the court is satisfied that it is true, voluntary, and not the result of tutoring",
+      "No, Indian law strictly requires independent eyewitness corroboration in all cases",
+      "No, a dying declaration is weak evidence requiring mandatory DNA corroboration",
+      "Yes, but only if recorded by a High Court Judge"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "As held in Kushal Rao v. State of Bombay (AIR 1958 SC 22) and reaffirmed in Laxman v. State of Maharashtra (2002), a dying declaration can form the sole basis of conviction without corroboration if it is found to be true and voluntary.",
+    "optionBreakdown": {
+      "A": "Correct; Kushal Rao settled that sole conviction is legally permissible.",
+      "B": "Corroboration is a rule of prudence, not absolute statutory necessity.",
+      "C": "It is substantive evidence, not inherently weak.",
+      "D": "High Court Judge is not required; can be recorded by Magistrate, doctor, or police."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the legal weight of an uncorroborated dying declaration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "Where multiple dying declarations are made by the deceased that contain material contradictions, how must the court approach them?",
+    "options": [
+      "The court must examine whether the contradictions are material and if inconsistent, it cannot safely convict without corroboration",
+      "The court must automatically accept the first declaration and discard all others",
+      "The court must automatically accept the last declaration",
+      "The court must discard all declarations without examination"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In cases of multiple inconsistent dying declarations (e.g., State of Punjab v. Parveen Kumar 2005), the court cannot arbitrarily pick one; if there are material irreconcilable contradictions, it is unsafe to rely on them without independent corroboration.",
+    "optionBreakdown": {
+      "A": "Correct; material contradictions require independent corroboration or careful scrutiny.",
+      "B": "No automatic acceptance of the first declaration.",
+      "C": "No automatic acceptance of the latest.",
+      "D": "They are not discarded wholesale without judicial examination."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze judicial approach to multiple conflicting dying declarations.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "If an injured person makes a statement regarding the cause of injury to police, but ultimately SURVIVES, what is the evidentiary status of that statement?",
+    "options": [
+      "It cannot be used as a dying declaration under Section 26(a) BSA, but can be used under Section 145/157 IEA to contradict or corroborate",
+      "It remains a valid dying declaration under Section 26(a) BSA",
+      "It becomes completely inadmissible for any purpose whatsoever",
+      "It operates as a conclusive confession of the accused"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "When the maker does not die, the statement does not fall under Section 32(1) IEA / Section 26(a) BSA; it can only be used under Section 157 to corroborate or Section 145 to contradict the maker when examined as a witness (Ramprasad v. State of Maharashtra).",
+    "optionBreakdown": {
+      "A": "Correct; not a dying declaration, but admissible for corroboration or contradiction.",
+      "B": "Cannot be a dying declaration because the person survived.",
+      "C": "It is admissible under general witness rules.",
+      "D": "It is not a confession of the accused."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish dying declaration from statement of an injured survivor.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "In Laxman v. State of Maharashtra (2002 Constitution Bench), what did the Supreme Court hold regarding the requirement of a medical certificate of fitness for a dying declaration?",
+    "options": [
+      "Absence of medical certification of fitness does not render the declaration invalid if the magistrate/person recording was satisfied of mental fitness",
+      "A certificate by two government doctors is an absolute mandatory condition precedent",
+      "Only an AIIMS board certificate can validate a dying declaration",
+      "A dying declaration recorded without video recording is void ab initio"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Laxman v. State of Maharashtra (2002 6 SCC 710), the Constitution Bench held that what is crucial is the declarant's fit state of mind; if the Magistrate is satisfied, the absence of a doctor's endorsement will not invalidate the declaration.",
+    "optionBreakdown": {
+      "A": "Correct; satisfaction of the magistrate on mental fitness is paramount.",
+      "B": "Two doctors' certificate is not mandatory.",
+      "C": "AIIMS board is absurd.",
+      "D": "Video recording is not a statutory prerequisite under IEA/BSA."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Constitution Bench ruling on medical certification in Laxman.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "Can a First Information Report (FIR) lodged by the victim be treated as a Dying Declaration?",
+    "options": [
+      "Yes, if the informant dies subsequently of the injuries inflicted during the occurrence",
+      "No, an FIR can never be converted into a dying declaration under any circumstance",
+      "Yes, but only if the FIR was lodged within 10 minutes of the assault",
+      "Only if the FIR was recorded by a Judicial Magistrate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In K. Ramachand Reddy v. Public Prosecutor (AIR 1976 SC 1994), the Supreme Court held that an FIR lodged by the deceased relating to the cause of death is admissible as a dying declaration under Section 32(1) IEA / Section 26(a) BSA.",
+    "optionBreakdown": {
+      "A": "Correct; FIR lodged by victim who dies of injuries operates as a dying declaration.",
+      "B": "Incorrect; settled law allows FIR as dying declaration.",
+      "C": "No 10-minute limitation exists.",
+      "D": "Police officer can record the FIR."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand when an FIR operates as an admissible dying declaration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-01",
+    "question": "Is a dying declaration admissible in CIVIL proceedings under Section 26(a) BSA / Section 32(1) IEA?",
+    "options": [
+      "Yes, it is admissible in any proceeding, whether civil or criminal, in which the cause of death comes into question",
+      "No, dying declarations are strictly confined to murder and culpable homicide trials",
+      "Only in civil suits for specific performance",
+      "Only in motor accident claims before the MACT"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 26(a) BSA / Section 32(1) IEA explicitly provides: 'whatever may be the nature of the proceeding in which the cause of his death comes into question'. Thus, it applies equally to civil and criminal proceedings.",
+    "optionBreakdown": {
+      "A": "Correct; admissible in both civil and criminal proceedings where cause of death is in question.",
+      "B": "Not confined to criminal trials.",
+      "C": "Applicable across civil claims.",
+      "D": "Not limited to MACT."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 26(a) / IEA S. 32(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize applicability of dying declarations to civil as well as criminal cases.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Under Section 26(b) BSA (Section 32(2) IEA), statements made in the ordinary course of business are relevant when the maker is dead or cannot be found, particularly:",
+    "options": [
+      "Entries in books of account kept in ordinary course of business, or acknowledgment of written receipt",
+      "Oral opinions expressed to strangers on the street",
+      "Secret diary entries kept hidden under a pillow",
+      "Speculative stock predictions made to friends"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 26(b) BSA / Section 32(2) IEA makes relevant statements made in the ordinary course of business, especially entries in books or documents kept in the course of business or formal acknowledgments.",
+    "optionBreakdown": {
+      "A": "Correct; business entries and receipts are relevant under S. 26(b) BSA / S. 32(2) IEA.",
+      "B": "Casual oral opinions do not qualify.",
+      "C": "Hidden secret diaries not in ordinary course of business.",
+      "D": "Speculative predictions do not qualify."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 26(b) / IEA S. 32(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand ordinary course of business exception.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Under Section 26(c) BSA (Section 32(3) IEA), a statement made by a deceased person is relevant if it is against their:",
+    "options": [
+      "Pecuniary or proprietary interest, or would expose them to criminal prosecution or suit for damages",
+      "Religious beliefs or dietary preferences",
+      "Political opinions and party allegiance",
+      "Familial pride and social standing"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 26(c) BSA / Section 32(3) IEA makes statements relevant when against the pecuniary or proprietary interest of the person making it, or when it would expose them to criminal prosecution or a suit for damages.",
+    "optionBreakdown": {
+      "A": "Correct; against pecuniary, proprietary, or penal interest.",
+      "B": "Religious beliefs are not covered.",
+      "C": "Political opinions are irrelevant.",
+      "D": "Social pride is not covered."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(c) / IEA S. 32(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the doctrine of statements against pecuniary or proprietary interest.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Under Section 26(e) & (f) BSA (Section 32(5) & (6) IEA), statements relating to the existence of any relationship (pedigree) are admissible ONLY IF made:",
+    "options": [
+      "Ante litem motam (before the question in dispute was raised)",
+      "Post litem motam (after the litigation commenced)",
+      "Under the direction of an Executive Magistrate",
+      "In the presence of an adverse party"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Sections 32(5) and 32(6) IEA / Section 26(e) and (f) BSA strictly require that the statement relating to relationship must be made 'before the question in dispute was raised' (ante litem motam) to eliminate bias.",
+    "optionBreakdown": {
+      "A": "Correct; must be made ante litem motam (before the dispute arose).",
+      "B": "Post litem motam statements are excluded.",
+      "C": "Executive Magistrate presence not required.",
+      "D": "Adverse party presence not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(e),(f) / IEA S. 32(5),(6)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the ante litem motam requirement for pedigree evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Under Section 27 BSA (Section 33 IEA), when is evidence given by a witness in a previous judicial proceeding relevant in a subsequent judicial proceeding?",
+    "options": [
+      "When the witness is dead, cannot be found, incapable of giving evidence, or kept out of way by adverse party",
+      "Whenever the witness is busy in another city on work",
+      "Whenever the court finds it convenient to avoid hearing live witnesses",
+      "Whenever the prosecutor requests to save government travel expenses"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 27 BSA / Section 33 IEA allows prior depositions only when the witness is dead, cannot be found, incapable, or kept out of the way by adverse party, or presence cannot be obtained without unreasonable delay/expense.",
+    "optionBreakdown": {
+      "A": "Correct; statutory conditions of unavailability under S. 27 BSA / S. 33 IEA.",
+      "B": "Being busy is not a statutory ground.",
+      "C": "Convenience cannot override live cross-examination.",
+      "D": "Saving travel expenses is impermissible."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 27 / IEA S. 33",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the conditions under Section 33 IEA / Section 27 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Which of the following is a MANDATORY statutory proviso under Section 27 BSA / Section 33 IEA for admitting prior deposition evidence?",
+    "options": [
+      "The adverse party in the first proceeding had the right and opportunity to cross-examine",
+      "The prior proceeding must have been decided by the Supreme Court",
+      "The prior witness must have been rewarded by the State",
+      "The prior statement must have been recorded in Hindi"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 27 BSA / S. 33 IEA contains three provisos: (1) proceeding was between same parties or representatives in interest; (2) adverse party had right and opportunity to cross-examine; (3) questions in issue were substantially the same.",
+    "optionBreakdown": {
+      "A": "Correct; right and opportunity to cross-examine is an essential constitutional and statutory proviso.",
+      "B": "Need not be Supreme Court.",
+      "C": "Reward is irrelevant.",
+      "D": "Language in Hindi is not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 27 / IEA S. 33",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify the mandatory statutory provisos of Section 33 IEA / S. 27 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Can a statement in a will or deed relating to family affairs be admissible under Section 26(f) BSA (Section 32(6) IEA)?",
+    "options": [
+      "Yes, relating to the existence of any relationship between deceased persons, made before the dispute arose",
+      "No, statements in wills can never prove relationship",
+      "Only if the will was probated by the Privy Council",
+      "Only if registered within 24 hours of execution"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 26(f) BSA / S. 32(6) IEA expressly covers statements relating to the existence of any relationship contained in any will or deed or family pedigree.",
+    "optionBreakdown": {
+      "A": "Correct; express statutory category under S. 26(f) BSA / S. 32(6) IEA.",
+      "B": "Wills can certainly prove pedigree relationships.",
+      "C": "Privy Council probate not required.",
+      "D": "No 24-hour registration rule."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 26(f) / IEA S. 32(6)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply pedigree exceptions to wills and family deeds.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Under Section 26(d) BSA (Section 32(4) IEA), statements giving opinion as to public right or custom or matters of general interest are admissible provided they were made:",
+    "options": [
+      "Before any controversy as to such right or custom arose",
+      "After a civil suit has already been filed",
+      "By a sitting Member of Parliament",
+      "Under oath before an Oath Commissioner"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 26(d) BSA / S. 32(4) IEA requires that the opinion as to public right or custom of general interest must have been made before any controversy as to such right, custom or matter had arisen.",
+    "optionBreakdown": {
+      "A": "Correct; must be made before controversy arose.",
+      "B": "Controversy post-dates exclude the statement.",
+      "C": "Need not be an MP.",
+      "D": "Oath not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 26(d) / IEA S. 32(4)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand public right/custom opinion admissibility.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "In the famous case of Higham v. Ridgway (1808), an entry made by a deceased male midwife in his ledger acknowledging payment for delivering a child was admitted because:",
+    "options": [
+      "It was an entry against his pecuniary interest (acknowledging receipt of money discharged debt)",
+      "It was a dying declaration under criminal law",
+      "It was a judgment in rem",
+      "It was judicial notice of birth"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Higham v. Ridgway is the foundational common law authority for statements against pecuniary interest (codified in S. 32(3) IEA / S. 26(c) BSA); acknowledging payment discharged the customer's debt, operating against interest.",
+    "optionBreakdown": {
+      "A": "Correct; entry against pecuniary interest proving date of birth.",
+      "B": "Not a dying declaration.",
+      "C": "Not a judgment in rem.",
+      "D": "Not judicial notice."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 26(c) / IEA S. 32(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Connect Higham v. Ridgway to statements against pecuniary interest.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Under Section 27 BSA (Section 33 IEA), does an ex parte proceeding afford the adverse party an 'opportunity to cross-examine'?",
+    "options": [
+      "Yes, if notice was duly served and the party had the legal right and opportunity to appear and cross-examine, even if they chose not to",
+      "No, opportunity requires actual cross-examination to have occurred",
+      "Only if the party was physically dragged to court",
+      "Never under any circumstance"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Settled law establishes that 'opportunity' means a full legal opportunity; if a party was duly served with notice and chose not to appear, the legal opportunity was provided.",
+    "optionBreakdown": {
+      "A": "Correct; legal opportunity exists if party was duly served and had the right to appear.",
+      "B": "Actual cross-examination is not mandatory if waived.",
+      "C": "Absurd.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 27 / IEA S. 33",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Examine scope of 'opportunity to cross-examine' under Section 33 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-04-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-04",
+    "topicId": "top-evi-04-02",
+    "question": "Statements made by a number of persons expressing feelings or impressions on their part (e.g., crowd reactions, placards) are relevant under which clause?",
+    "options": [
+      "Section 26(h) BSA / Section 32(8) IEA",
+      "Section 10 BSA / Section 12 IEA",
+      "Section 4 BSA / Section 6 IEA",
+      "Section 52 BSA / Section 57 IEA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 26(h) BSA / Section 32(8) IEA provides that statements made by a number of persons, and expressing feelings or impressions on their part relevant to the matter in question, are relevant.",
+    "optionBreakdown": {
+      "A": "Correct; S. 26(h) BSA / S. 32(8) IEA covers expressions of feelings of crowds/masses.",
+      "B": "Section 10 BSA relates to damages.",
+      "C": "Res gestae is broader.",
+      "D": "Section 52 BSA is judicial notice."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 26(h) / IEA S. 32(8)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify statutory provision for group expressions and impressions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 deals with the relevancy of judgments in rem (probate, matrimonial, admiralty, or insolvency)?",
+    "options": [
+      "Section 35 BSA (Section 41 IEA)",
+      "Section 34 BSA (Section 40 IEA)",
+      "Section 36 BSA (Section 42 IEA)",
+      "Section 38 BSA (Section 44 IEA)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 35 BSA corresponds to Section 41 IEA, making final judgments in the exercise of probate, matrimonial, admiralty or insolvency jurisdiction relevant and conclusive proof of legal character.",
+    "optionBreakdown": {
+      "A": "Correct; Section 35 BSA corresponds to Section 41 IEA (judgments in rem).",
+      "B": "Section 34 BSA is Section 40 IEA (res judicata).",
+      "C": "Section 36 BSA is Section 42 IEA (matters of public nature).",
+      "D": "Section 38 BSA is Section 44 IEA (fraud/collusion)."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 35 / IEA S. 41",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 41 IEA (judgments in rem) to Section 35 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Under Section 35 BSA (Section 41 IEA), a judgment in rem confers conclusive proof of:",
+    "options": [
+      "Any legal character conferred, declared, or taken away, effective from the date specified",
+      "Guilt of any criminal accused in a distinct case",
+      "Ownership of all movable properties across the State",
+      "The absolute morality of the parties"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 41 IEA / Section 35 BSA, judgments in rem are conclusive proof of legal character (e.g., status as married, bankrupt, executor) against the entire world.",
+    "optionBreakdown": {
+      "A": "Correct; conclusive proof of legal character or declaration.",
+      "B": "Criminal guilt is not covered under S. 41.",
+      "C": "Movable property ownership is judgment in personam.",
+      "D": "Morality is not a legal character."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 35 / IEA S. 41",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand conclusive effect of judgments in rem.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Which four jurisdictions are EXCLUSIVELY recognized under Section 35 BSA / Section 41 IEA as generating judgments in rem?",
+    "options": [
+      "Probate, Matrimonial, Admiralty, and Insolvency",
+      "Writ, Criminal, Revenue, and Labour",
+      "Civil, Arbitration, Company, and Tax",
+      "Consumer, Human Rights, Motor Accident, and Forest"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 41 IEA / Section 35 BSA applies strictly and exclusively to final judgments in the exercise of: (1) Probate, (2) Matrimonial, (3) Admiralty, and (4) Insolvency jurisdiction.",
+    "optionBreakdown": {
+      "A": "Correct; Probate, Matrimonial, Admiralty, and Insolvency are the four statutory jurisdictions.",
+      "B": "Writ and Criminal are not S. 41 in rem jurisdictions.",
+      "C": "Civil and Arbitration are in personam.",
+      "D": "Consumer and MACT are in personam."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 35 / IEA S. 41",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Memorize the four statutory in rem jurisdictions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Under Section 34 BSA (Section 40 IEA), the existence of a previous judgment is relevant when:",
+    "options": [
+      "It bars any Court from taking cognizance of a suit or holding a trial (Res Judicata / Autrefois Acquit / Convict)",
+      "It has a pleasing literary style of writing",
+      "It was written by a judge from the same home district",
+      "It has received more than 10,000 views on social media"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 34 BSA / Section 40 IEA admits previous judgments to prove plea of res judicata (S. 11 CPC) or double jeopardy / autrefois convict/acquit (S. 300 CrPC / S. 222 BNSS / Art. 20(2)).",
+    "optionBreakdown": {
+      "A": "Correct; relevant to bar second suit or trial under res judicata.",
+      "B": "Literary style is irrelevant.",
+      "C": "Judge district is irrelevant.",
+      "D": "Social media views are irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 34 / IEA S. 40",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Relate Section 40 IEA / Section 34 BSA to res judicata.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Under Section 38 BSA (Section 44 IEA), any party to a suit or proceeding may show that any judgment relevant under Sections 34, 35 or 36 was delivered by a court:",
+    "options": [
+      "Not competent to deliver it, or was obtained by fraud or collusion",
+      "Without serving tea to the advocates",
+      "On a gazetted public holiday",
+      "Whose judge has retired subsequently"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 38 BSA / Section 44 IEA establishes that fraud, collusion, or lack of jurisdiction (incompetency of court) can be proved to impeach and nullify a judgment otherwise relevant under Sections 34-36 BSA / 40-42 IEA.",
+    "optionBreakdown": {
+      "A": "Correct; fraud, collusion, or lack of competency nullifies the judgment.",
+      "B": "Absurd.",
+      "C": "Holiday delivery does not necessarily invalidate under S. 44.",
+      "D": "Subsequent retirement does not invalidate."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 38 / IEA S. 44",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand grounds to impeach judgments under Section 44 IEA / S. 38 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Is a judgment of acquittal in a criminal case binding on a civil court deciding a suit for damages based on the same facts?",
+    "options": [
+      "No, the civil court must independently decide the matter on the preponderance of probabilities; criminal judgment is not binding",
+      "Yes, criminal acquittal automatically dismisses the civil suit as res judicata",
+      "Yes, under Section 41 IEA criminal judgments are judgments in rem",
+      "Only if the civil suit is filed by the police"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Settled law (e.g., K.G. Premshanker v. Inspector of Police 2002) holds that criminal court judgments are not binding on civil courts; the standard of proof is different and criminal judgments are not judgments in rem.",
+    "optionBreakdown": {
+      "A": "Correct; criminal judgments are not binding on civil courts.",
+      "B": "Res judicata does not apply across differing standards of proof.",
+      "C": "Criminal judgments are not under S. 41.",
+      "D": "Police status does not bind civil courts."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 37 / IEA S. 43",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish interrelation of criminal judgments and civil proceedings.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Under Section 37 BSA (Section 43 IEA), judgments other than those mentioned in Sections 34, 35 and 36 are:",
+    "options": [
+      "Irrelevant, unless the existence of such judgment is a fact in issue, or is relevant under some other provision",
+      "Always conclusive proof of the facts stated therein",
+      "Admissible as expert opinions",
+      "Presumed to be drafted under coercion"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 37 BSA / Section 43 IEA lays down the general exclusionary rule: judgments not covered by earlier sections are irrelevant unless their existence is a fact in issue or relevant under other provisions (e.g., motive under S. 6 BSA).",
+    "optionBreakdown": {
+      "A": "Correct; irrelevant unless existence is a fact in issue or relevant under other provisions.",
+      "B": "Not conclusive proof.",
+      "C": "Not expert opinions.",
+      "D": "No presumption of coercion."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 37 / IEA S. 43",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the general exclusionary rule for judgments under Section 43 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Which of the following constitutes a Judgment in Personam?",
+    "options": [
+      "A decree for specific performance of contract or payment of debt",
+      "A decree granting probate of a will",
+      "A decree of divorce dissolving a marriage",
+      "An order adjudicating a debtor insolvent"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Decrees for specific performance or recovery of debt bind only the parties and their privies; they are classic judgments in personam, unlike probate, divorce, or insolvency which are judgments in rem.",
+    "optionBreakdown": {
+      "A": "Correct; decree for debt/contract is a judgment in personam.",
+      "B": "Probate is in rem.",
+      "C": "Divorce is in rem.",
+      "D": "Insolvency is in rem."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 35, 37 / IEA S. 41, 43",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish judgments in personam from judgments in rem.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Under Section 36 BSA (Section 42 IEA), judgments relating to matters of a PUBLIC NATURE are:",
+    "options": [
+      "Relevant, but not conclusive proof of that which they state",
+      "Irrelevant and inadmissible",
+      "Conclusive proof against the entire nation",
+      "Treated as oral hearsay"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 36 BSA / Section 42 IEA provides that judgments relating to matters of a public nature relevant to the inquiry are relevant; but such judgments are NOT conclusive proof of that which they state.",
+    "optionBreakdown": {
+      "A": "Correct; relevant, but not conclusive proof.",
+      "B": "They are relevant.",
+      "C": "They are explicitly NOT conclusive proof.",
+      "D": "Not treated as hearsay."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 36 / IEA S. 42",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand evidentiary weight of judgments on matters of public nature.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-01",
+    "question": "Can a stranger to a judgment challenge it in collateral proceedings on the ground of fraud or collusion under Section 38 BSA / Section 44 IEA?",
+    "options": [
+      "Yes, any party or stranger affected by a judgment obtained by fraud or collusion may impeach it",
+      "No, only the Attorney General of India can allege fraud",
+      "No, judgments once signed can never be questioned in any court",
+      "Only if the Chief Justice gives prior sanction"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 38 BSA / Section 44 IEA allows any party to demonstrate fraud or collusion, and under settled law (S.P. Chengalvaraya Naidu v. Jagannath 1994), fraud vitiates all judicial acts and can be raised in collateral proceedings.",
+    "optionBreakdown": {
+      "A": "Correct; fraud unravels everything and can be pleaded by affected parties.",
+      "B": "Attorney General sanction is not required.",
+      "C": "Fraud is an exception to finality.",
+      "D": "No Chief Justice sanction needed."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 38 / IEA S. 44",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Chengalvaraya Naidu principle to Section 44 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 45 of the Indian Evidence Act (Opinions of Experts)?",
+    "options": [
+      "Section 39(1) BSA",
+      "Section 45 BSA",
+      "Section 42(1) BSA",
+      "Section 37(2) BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 39(1) BSA corresponds to Section 45 IEA, admitting opinions of persons specially skilled in foreign law, science, art, handwriting, or finger impressions.",
+    "optionBreakdown": {
+      "A": "Correct; Section 39(1) BSA corresponds to Section 45 IEA.",
+      "B": "Section 45 BSA is character evidence.",
+      "C": "Section 42 BSA is another provision.",
+      "D": "Section 37 BSA is relevancy of other judgments."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 39(1) / IEA S. 45",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 45 IEA to Section 39(1) BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "What is the evidentiary nature and weight of an expert opinion in Indian law?",
+    "options": [
+      "Advisory and corroborative in nature; not substantive evidence that binds the court",
+      "Conclusive proof that overrides all eyewitness testimony",
+      "Irrelevant unless the expert is a civil servant",
+      "Equal to a statutory presumption of law"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "As held in Ramesh Chandra Agrawal v. Regency Hospital (2009) and Murari Lal v. State of MP (1980), expert opinion is advisory and corroborative; the court is the ultimate judge of facts and cannot abdicate its function to an expert.",
+    "optionBreakdown": {
+      "A": "Correct; expert opinion is advisory and not binding or conclusive.",
+      "B": "Cannot override credible ocular evidence.",
+      "C": "Need not be a civil servant.",
+      "D": "Not a presumption of law."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 39 / IEA S. 45",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand evidentiary status of expert opinion as advisory.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "What significant modernization was incorporated regarding digital evidence in Section 39(2) BSA (corresponding to Section 45A IEA)?",
+    "options": [
+      "Opinion of Examiner of Electronic Evidence (referred to in Section 79A IT Act) is made relevant on computer/digital media",
+      "All social media users are declared certified cyber experts",
+      "Police head constables can authoritatively certify source code",
+      "AI algorithms have been granted sole power to pass verdicts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 39(2) BSA / Section 45A IEA provides that when the court has to form an opinion on any matter relating to any information transmitted or stored in any computer resource, the opinion of the Examiner of Electronic Evidence is a relevant fact.",
+    "optionBreakdown": {
+      "A": "Correct; opinion of Examiner of Electronic Evidence under S. 79A IT Act is relevant.",
+      "B": "Social media users are not experts.",
+      "C": "Head constables are not S. 79A examiners.",
+      "D": "AI does not pass verdicts."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 39(2) / IEA S. 45A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall provisions for Examiner of Electronic Evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "In Murari Lal v. State of M.P. (AIR 1980 SC 531), what did the Supreme Court hold regarding conviction based solely on handwriting expert testimony?",
+    "options": [
+      "There is no rule of law requiring corroboration, but as a rule of prudence, courts hesitate to base conviction solely on handwriting opinion without corroboration",
+      "Conviction can NEVER be based on handwriting expert opinion under any circumstance",
+      "Handwriting expert opinion is conclusive proof under Section 4 IEA",
+      "Handwriting opinion is barred under Article 20(3)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Murari Lal, the Supreme Court held that while there is no absolute rule of law prohibiting conviction on handwriting evidence alone, as a rule of prudence courts require corroboration because handwriting analysis is not an exact science.",
+    "optionBreakdown": {
+      "A": "Correct; rule of prudence requires corroboration, though no absolute legal bar exists.",
+      "B": "No absolute legal bar exists.",
+      "C": "It is never conclusive proof.",
+      "D": "Not barred under Art. 20(3) per Kathi Kalu Oghad."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 39 / IEA S. 45",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Supreme Court jurisprudence on handwriting expert evidence in Murari Lal.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "Under Section 41 BSA (Section 47 IEA), handwriting may be proved by the opinion of any person who is:",
+    "options": [
+      "Acquainted with the handwriting of the person by whom it is supposed to be written",
+      "A certified graphologist with 20 years experience",
+      "A bank manager who has never seen the person write",
+      "A revenue collector of the district"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 41 BSA / Section 47 IEA permits proof of handwriting through the opinion of any person 'acquainted with the handwriting' (e.g., has seen them write, received documents written by them, or in ordinary course of business).",
+    "optionBreakdown": {
+      "A": "Correct; opinion of person acquainted with handwriting is relevant.",
+      "B": "Graphologist qualification not mandatory under S. 47.",
+      "C": "Must be acquainted.",
+      "D": "Official status alone is insufficient."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 41 / IEA S. 47",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify non-expert method of proving handwriting through acquaintance.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "Where there is a conflict between eyewitness testimony and medical expert opinion, which one generally prevails?",
+    "options": [
+      "Credible, trustworthy eyewitness testimony generally prevails unless the medical evidence completely rules out the ocular version",
+      "Medical evidence always overrides eyewitnesses automatically",
+      "The court must order a retrial under international law",
+      "The accused must be acquitted immediately without reason"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "As held in Solanki Chimanbhai v. State of Gujarat (1983) and State of UP v. Hari Chand (2009), ocular evidence prevails over medical opinion unless the medical evidence completely and fundamentally rules out the ocular version.",
+    "optionBreakdown": {
+      "A": "Correct; ocular testimony prevails unless medical evidence makes ocular version impossible.",
+      "B": "Medical opinion does not automatically override.",
+      "C": "Retrial not required.",
+      "D": "No automatic acquittal."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 39 / IEA S. 45",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Resolve conflict between ocular testimony and medical expert evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "Can a court compare a disputed handwriting or signature itself under Section 73 IEA (Section 71 BSA)?",
+    "options": [
+      "Yes, the court is entitled to compare disputed signatures/writing, but prudence advises seeking expert assistance",
+      "No, the judge is legally prohibited from looking at handwriting samples",
+      "Only if the Chief Judicial Magistrate approves in writing",
+      "Only in civil disputes below Rs. 10,000"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 73 IEA / Section 71 BSA empowers the Court to compare disputed writing, seal or signature with admitted ones; while permitted, Supreme Court cautions that courts should not play the role of an expert without proper care.",
+    "optionBreakdown": {
+      "A": "Correct; court has statutory power to compare, but must exercise caution.",
+      "B": "No prohibition exists.",
+      "C": "No CJM approval needed.",
+      "D": "No pecuniary ceiling."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 71 / IEA S. 73",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall court's independent power to compare writing and signatures.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "Under Section 45 BSA (Section 51 IEA), whenever the opinion of any living person is relevant, what else is relevant?",
+    "options": [
+      "The grounds on which such opinion is based",
+      "The political party the expert voted for",
+      "The salary drawn by the expert's spouse",
+      "The religious beliefs of the expert"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 45 BSA / Section 51 IEA provides that whenever the opinion of any living person is relevant, the grounds on which such opinion is based are also relevant (an expert may refer to experiments).",
+    "optionBreakdown": {
+      "A": "Correct; grounds on which opinion is based are relevant.",
+      "B": "Political voting is irrelevant.",
+      "C": "Spouse salary is irrelevant.",
+      "D": "Religion is irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 45 / IEA S. 51",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand relevancy of grounds supporting expert opinion.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "Is DNA profiling evidence admissible as expert opinion in India, and what is its standard?",
+    "options": [
+      "Yes, under Section 39(1) BSA / Section 45 IEA as scientific evidence, highly accurate when chain of custody is established",
+      "No, DNA evidence is unconstitutional under Article 21",
+      "DNA evidence is admissible only in plant biology cases",
+      "DNA evidence is conclusive proof that cannot be rebutted"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "DNA profiling is admissible under Section 45 IEA / Section 39(1) BSA as expert scientific evidence (Nandlal Wasudeo Badwaik v. Lata Nandlal Badwaik 2014); it is scientifically robust when collection and chain of custody are proved.",
+    "optionBreakdown": {
+      "A": "Correct; admissible as scientific expert evidence under S. 39(1) BSA / S. 45 IEA.",
+      "B": "Not unconstitutional.",
+      "C": "Applicable to human criminal/paternity cases.",
+      "D": "Not conclusive proof under statute, though scientifically compelling."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 39(1) / IEA S. 45",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand admissibility of DNA profiling as scientific expert evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-02",
+    "question": "Under Section 40 BSA (Section 46 IEA), facts not otherwise relevant are relevant if they support or are inconsistent with the opinions of experts:",
+    "options": [
+      "When such opinions are relevant",
+      "Only in maritime piracy trials",
+      "Only if verified by a foreign embassy",
+      "Only when the expert has passed away"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 40 BSA / Section 46 IEA states that facts, not otherwise relevant, are relevant if they support or are inconsistent with the opinions of experts, when such opinions are relevant.",
+    "optionBreakdown": {
+      "A": "Correct; facts supporting or rebutting expert opinions are relevant under S. 40 BSA / S. 46 IEA.",
+      "B": "Not limited to piracy.",
+      "C": "Embassy verification not needed.",
+      "D": "Expert need not be deceased."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 40 / IEA S. 46",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall relevancy of facts bearing on expert opinions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-021",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "In CIVIL cases, what is the general rule regarding character evidence under Section 46 BSA (Section 52 IEA)?",
+    "options": [
+      "Character to prove conduct imputed is irrelevant",
+      "Good character must be proved in every civil suit",
+      "Bad character of the defendant is always conclusive proof of breach of contract",
+      "Character evidence is mandatory before issues are framed"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 46 BSA / Section 52 IEA lays down that in civil cases, the fact that the character of any person concerned is such as to render probable or improbable any conduct imputed to him, is IRRELEVANT.",
+    "optionBreakdown": {
+      "A": "Correct; character to prove conduct imputed is irrelevant in civil cases.",
+      "B": "Good character is not required to be proved.",
+      "C": "Bad character does not prove breach.",
+      "D": "Not mandatory."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 46 / IEA S. 52",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the general exclusionary rule for character in civil cases.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-022",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "In CRIMINAL proceedings, what is the rule regarding the PREVIOUS GOOD CHARACTER of an accused under Section 47 BSA (Section 53 IEA)?",
+    "options": [
+      "The fact that the accused person is of a good character is ALWAYS relevant",
+      "Good character is strictly irrelevant and inadmissible",
+      "Good character can only be proved after conviction for sentencing",
+      "Good character can only be proved if sanctioned by the Governor"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 47 BSA / Section 53 IEA provides that in criminal proceedings, the fact that the person accused is of a good character is relevant.",
+    "optionBreakdown": {
+      "A": "Correct; previous good character is always relevant in criminal cases.",
+      "B": "It is explicitly relevant.",
+      "C": "Relevant during trial on guilt, not just sentencing.",
+      "D": "Governor sanction not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 47 / IEA S. 53",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize relevancy of good character in criminal trials.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-023",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "Under Section 48 BSA (Section 54 IEA), what is the rule regarding the PREVIOUS BAD CHARACTER of an accused in criminal proceedings?",
+    "options": [
+      "Previous bad character is irrelevant, UNLESS evidence has been given that he has a good character, in which case it becomes relevant in reply",
+      "Previous bad character is always admissible as primary evidence of guilt",
+      "Previous bad character can be proved by the prosecution before opening its case",
+      "Bad character is conclusive proof of criminal conspiracy"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 48 BSA / Section 54 IEA establishes that previous bad character is irrelevant in criminal proceedings, EXCEPT: (1) in reply to evidence of good character, or (2) where the bad character itself is a fact in issue.",
+    "optionBreakdown": {
+      "A": "Correct; bad character is irrelevant except in reply or where bad character is a fact in issue.",
+      "B": "Not admissible as primary proof.",
+      "C": "Cannot be proved upfront to prejudice accused.",
+      "D": "Not conclusive proof."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 48 / IEA S. 54",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master exceptions where previous bad character becomes admissible in criminal cases.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-024",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "Under Explanation 1 to Section 48 BSA / Section 54 IEA, when does previous bad character become DIRECTLY relevant as a fact in issue?",
+    "options": [
+      "In proceedings where bad character itself is in issue (e.g., bad livelihood under S. 110 CrPC / S. 129 BNSS)",
+      "In every trial for petty theft",
+      "In civil suits for recovery of rent",
+      "In arbitration proceedings under the 1996 Act"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 1 to Section 54 IEA / Section 48 BSA provides that this section does not apply to cases in which the bad character of any person is itself a fact in issue (e.g., proceedings for security for good behaviour under S. 110 CrPC / S. 129 BNSS).",
+    "optionBreakdown": {
+      "A": "Correct; where bad character itself is a fact in issue (such as habitual offender proceedings).",
+      "B": "Not in ordinary theft trials.",
+      "C": "Not in rent suits.",
+      "D": "Evidence Act does not apply to arbitration."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 48 / IEA S. 54",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify when bad character is a fact in issue.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-025",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "Under Explanation 2 to Section 48 BSA / Section 54 IEA, a previous conviction is relevant as evidence of:",
+    "options": [
+      "Bad character",
+      "Good character",
+      "Judicial notice",
+      "Estoppel in pais"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 2 to Section 54 IEA / Section 48 BSA explicitly enacts: 'A previous conviction is relevant as evidence of bad character.'",
+    "optionBreakdown": {
+      "A": "Correct; previous conviction is relevant as evidence of bad character.",
+      "B": "Not evidence of good character.",
+      "C": "Not judicial notice.",
+      "D": "Not estoppel."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 48 / IEA S. 54",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Know that previous conviction operates as evidence of bad character.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-026",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "What strict prohibition does Section 53A of the Indian Evidence Act / Section 47 Proviso of BSA impose in rape and sexual offence trials?",
+    "options": [
+      "Evidence of the character of the victim or of her previous sexual experience with any person is NOT relevant on the issue of consent or quality of consent",
+      "The victim cannot be represented by a female advocate",
+      "The accused cannot enter a plea of not guilty",
+      "Medical examination of the victim is barred"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 53A IEA (inserted by Criminal Law Amendment 2013, retained in BSA) strictly prohibits evidence or questions regarding the general immoral character or previous sexual experience of the victim to prove consent.",
+    "optionBreakdown": {
+      "A": "Correct; victim's character or previous sexual experience is strictly irrelevant to consent.",
+      "B": "Advocate representation is unaffected.",
+      "C": "Accused can plead not guilty.",
+      "D": "Medical examination is not barred."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 47 / IEA S. 53A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the statutory ban on victim's sexual character evidence in sexual offence trials.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-027",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "In CIVIL cases, when does character become relevant under Section 49 BSA (Section 55 IEA)?",
+    "options": [
+      "In so far as such character affects the amount of damages which a party ought to receive",
+      "Whenever the plaintiff is a government official",
+      "To decide which party pays the filing court fees",
+      "To determine whether the suit should be decreed ex parte"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 49 BSA / Section 55 IEA provides that in civil cases, the fact that the character of any person is such as to affect the amount of damages which he ought to receive, is relevant (e.g., in defamation or breach of promise of marriage).",
+    "optionBreakdown": {
+      "A": "Correct; relevant in so far as it affects the quantum of damages.",
+      "B": "Government status does not trigger S. 55.",
+      "C": "Does not determine court fees.",
+      "D": "Does not govern ex parte decrees."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 49 / IEA S. 55",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand character as affecting quantum of damages in civil suits.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-028",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "How is the term 'Character' defined and limited under the Explanation to Section 50 BSA (Section 55 IEA)?",
+    "options": [
+      "Includes both reputation and disposition; but evidence may be given only of general reputation and general disposition, not of particular acts",
+      "Includes only the criminal convictions on record",
+      "Includes only horoscope and astrological predictions",
+      "Refers exclusively to wealth and bank balance"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Explanation to Section 55 IEA / Section 50 BSA provides: 'the word 'character' includes both reputation and disposition; but ... evidence may be given only of general reputation and general disposition, and not of particular acts by which reputation or disposition were shown.'",
+    "optionBreakdown": {
+      "A": "Correct; general reputation and disposition, not particular isolated acts.",
+      "B": "Not limited to criminal convictions.",
+      "C": "Horoscopes are irrelevant.",
+      "D": "Wealth is not character."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 50 / IEA S. 55",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish general reputation/disposition from particular acts.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-029",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "In a prosecution for defamation where the accused pleads justification (truth), is the character of the complainant a fact in issue?",
+    "options": [
+      "Yes, because the accused has put the complainant's character directly in issue by pleading truth",
+      "No, defamation trials never permit any mention of character",
+      "Only if the complainant gives written consent",
+      "Only in appellate proceedings"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Where the accused pleads the defence of truth (justification) in a defamation case, the character of the complainant is directly a fact in issue under Explanation 1 to Section 54 IEA / Section 48 BSA.",
+    "optionBreakdown": {
+      "A": "Correct; plea of justification makes character a fact in issue.",
+      "B": "Defamation trials can involve character.",
+      "C": "Written consent not required.",
+      "D": "Permitted at trial stage."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 48 / IEA S. 54",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply character rules to defamation and plea of justification.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-05-030",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-05",
+    "topicId": "top-evi-05-03",
+    "question": "Can the prosecution lead evidence of bad character of the accused if the accused has merely led evidence to prove an alibi?",
+    "options": [
+      "No, proving an alibi does not amount to giving evidence of good character; hence prosecution cannot lead bad character in reply",
+      "Yes, any defence automatically opens the door to bad character evidence",
+      "Yes, alibi is statutory admission of guilt",
+      "Only if the alibi witnesses were relatives"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Pleading an alibi or denying the charge is merely defending against the actus reus; it does NOT constitute leading evidence of good character. Therefore, Section 54 IEA / S. 48 BSA does not permit the prosecution to introduce bad character in reply.",
+    "optionBreakdown": {
+      "A": "Correct; pleading alibi does not open the door to bad character evidence.",
+      "B": "Ordinary defense does not open character door.",
+      "C": "Alibi is not admission of guilt.",
+      "D": "Witness relationship is irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 48 / IEA S. 54",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze limits of prosecution's right to lead bad character in reply.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "What is the statutory command of Section 51 BSA (Section 56 IEA)?",
+    "options": [
+      "No fact of which the Court will take judicial notice need be proved",
+      "All facts, without exception, must be proved by two witnesses",
+      "Judicial notice is prohibited in criminal trials",
+      "Every admitted fact must be proved by expert forensic evidence"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 51 BSA / Section 56 IEA contains the fundamental principle of judicial economy: 'No fact of which the Court will take judicial notice need be proved.'",
+    "optionBreakdown": {
+      "A": "Correct; facts judicially noticeable need not be proved.",
+      "B": "Witnesses are not needed for judicially noticed facts.",
+      "C": "Judicial notice applies to both civil and criminal trials.",
+      "D": "Admitted facts generally need not be proved."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 51 / IEA S. 56",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the fundamental rule of judicial notice.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 enumerates the list of facts of which the court MUST take judicial notice (corresponding to Section 57 IEA)?",
+    "options": [
+      "Section 52 BSA",
+      "Section 50 BSA",
+      "Section 54 BSA",
+      "Section 58 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 52 BSA corresponds to Section 57 IEA, enumerating matters of which the Court shall take judicial notice (laws in force, public Acts, proceedings of legislatures, seals, territories, etc.).",
+    "optionBreakdown": {
+      "A": "Correct; Section 52 BSA corresponds to Section 57 IEA.",
+      "B": "Section 50 BSA is character definition.",
+      "C": "Section 54 BSA is oral evidence.",
+      "D": "Section 58 IEA is Section 53 BSA (admissions)."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 52 / IEA S. 57",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 57 IEA to Section 52 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "Which of the following is a fact of which the Court is BOUND to take judicial notice under Section 52 BSA / Section 57 IEA?",
+    "options": [
+      "All laws in force in the territory of India",
+      "Private family customs of the plaintiff",
+      "The internal financial balances of a private partnership",
+      "The personal health history of the defense counsel"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 52(1)(a) BSA / Section 57(1) IEA mandates that the court shall take judicial notice of 'all laws in force in the territory of India'.",
+    "optionBreakdown": {
+      "A": "Correct; all laws in force in India must be judicially noticed.",
+      "B": "Private family customs must be proved by evidence.",
+      "C": "Private balances must be proved.",
+      "D": "Personal health of counsel is not judicially noticed."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 52 / IEA S. 57",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify statutory matters subject to mandatory judicial notice.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "Under Section 52(2) BSA / the final clause of Section 57 IEA, if the Court is called upon by any person to take judicial notice of any fact, what may the Court do?",
+    "options": [
+      "Refuse to do so unless and until such person produces any such book or document as it may consider necessary to enable it to do so",
+      "Impose a mandatory fine of Rs. 5,000 on the advocate",
+      "Dismiss the entire suit immediately with costs",
+      "Refer the matter to a constitutional bench"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 57 IEA / Section 52(2) BSA provides that the Court may refuse to take judicial notice until the person calling upon it produces books or documents necessary to enable the Court to satisfy itself.",
+    "optionBreakdown": {
+      "A": "Correct; court may refuse until necessary reference materials/books are produced.",
+      "B": "No fine is prescribed.",
+      "C": "Suit cannot be dismissed for this.",
+      "D": "No constitutional reference required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 52(2) / IEA S. 57",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall court's power to demand reference materials for judicial notice.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "What is the rule regarding ADMITTED FACTS under Section 53 BSA (Section 58 IEA)?",
+    "options": [
+      "No fact need be proved in any proceeding which the parties thereto or their agents agree to admit at the hearing",
+      "Admitted facts must always be proved by original certified copies",
+      "Admissions in pleadings cannot be considered by the court",
+      "Admissions only bind the party if attested by five witnesses"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 53 BSA / Section 58 IEA enacts that no fact need be proved which the parties or their agents agree to admit at the hearing, or which by rule of pleading they are deemed to have admitted.",
+    "optionBreakdown": {
+      "A": "Correct; admitted facts need not be proved.",
+      "B": "Proof is dispensed with.",
+      "C": "Pleading admissions are expressly recognized.",
+      "D": "No attestation required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 53 / IEA S. 58",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand that admissions dispense with proof under Section 58 IEA / S. 53 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "What vital discretion is reserved to the Court under the PROVISO to Section 53 BSA / Section 58 IEA?",
+    "options": [
+      "The Court may, in its discretion, require the facts admitted to be proved otherwise than by such admissions",
+      "The Court must accept all admissions as conclusive proof without any exception",
+      "The Court must refer every admission to a handwriting expert",
+      "The Court loses all jurisdiction once a fact is admitted"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Proviso to Section 58 IEA / Section 53 BSA preserves judicial caution: 'Provided that the Court may, in its discretion, require the facts admitted to be proved otherwise than by such admissions.'",
+    "optionBreakdown": {
+      "A": "Correct; court may in its discretion require admitted facts to be proved independently.",
+      "B": "Not absolute conclusive proof if court demands proof.",
+      "C": "Expert not mandatory.",
+      "D": "Jurisdiction is not lost."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 53 / IEA S. 58",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the court's discretionary power under the proviso to Section 58 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "Can an admission on a pure QUESTION OF LAW operate as an estoppel or dispense with proof under Section 58 IEA / Section 53 BSA?",
+    "options": [
+      "No, there can be no admission or estoppel against a statute or on a pure question of law",
+      "Yes, admissions of law bind the Supreme Court permanently",
+      "Yes, concessions of counsel on law are irrevocable and conclusive",
+      "Only in consumer disputes"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Settled law (Union of India v. Mohanlal Capoor 1973; Sanatan Gauda v. Berhampur University 1990) holds that there can be no estoppel or admission on a pure question of law; concessions on law do not bind the party or the court.",
+    "optionBreakdown": {
+      "A": "Correct; no admission or estoppel on a pure question of law.",
+      "B": "Concessions on law do not bind courts.",
+      "C": "Counsel concessions on law can be retracted.",
+      "D": "Uniform rule across law."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 53 / IEA S. 58",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze whether admissions of law bind the parties or court.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "Does Section 58 IEA / Section 53 BSA apply with equal rigour to CRIMINAL TRIALS to dispense with proof of core ingredients of murder?",
+    "options": [
+      "No, in serious criminal trials, the prosecution must prove guilt beyond reasonable doubt; the accused's admission/plea does not dispense with proof of corpus delicti",
+      "Yes, if an accused admits murder, the judge must hang him without recording any evidence",
+      "Yes, Section 58 applies identically to capital crimes and small cause suits",
+      "Section 58 applies only to criminal cases, not civil cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In serious criminal cases, the court exercises its discretion under the proviso to Section 58 IEA; public policy requires the prosecution to prove the case beyond reasonable doubt, and admissions by counsel cannot waive the requirement of proof of guilt.",
+    "optionBreakdown": {
+      "A": "Correct; criminal trials require strict proof beyond reasonable doubt; court exercises proviso caution.",
+      "B": "Summary hanging on plea is illegal.",
+      "C": "Standard differs fundamentally in practice.",
+      "D": "Applies primarily in civil and subject to proviso in criminal."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 53 / IEA S. 58",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Examine application of Section 58 IEA in criminal trials.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "Are courts bound to take judicial notice of the division of time, geographical divisions of the world, and public festivals under Section 52 BSA / Section 57 IEA?",
+    "options": [
+      "Yes, they are explicitly included in Section 52 BSA / Section 57 IEA",
+      "No, calendars and geographical boundaries must be proved by surveyor witnesses in every case",
+      "Only the Gregorian calendar of the United Kingdom is recognized",
+      "Only if notified in the local weekly bazaar"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 57(9) IEA / Section 52 BSA includes 'the divisions of time, the geographical divisions of the world, and public festivals, fasts and holidays notified in the Official Gazette'.",
+    "optionBreakdown": {
+      "A": "Correct; divisions of time, geography, and gazetted festivals are judicially noticed.",
+      "B": "Surveyor not needed for basic geography/calendars.",
+      "C": "Official gazetted calendars are noticed.",
+      "D": "Bazaar notifications irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 52 / IEA S. 57",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify calendar and geographical elements under judicial notice.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-01",
+    "question": "Can a judge take judicial notice of personal private knowledge acquired outside the courtroom (e.g., witnessing an accident on his evening walk)?",
+    "options": [
+      "No, judicial notice is confined to public, notorious facts authorized by law; personal private knowledge cannot substitute for legal proof",
+      "Yes, personal knowledge of the judge is the highest form of primary evidence",
+      "Yes, the judge can write the judgment based entirely on his private memory without putting it to parties",
+      "Only if the judge was accompanied by his personal secretary"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "A judge cannot import personal private knowledge into a case; judicial notice applies only to matters of general notoriety, public knowledge, or statutory categories. If a judge is an eyewitness, he must step down or testify as a witness.",
+    "optionBreakdown": {
+      "A": "Correct; judge's private knowledge cannot be imported as judicial notice.",
+      "B": "Private knowledge is not primary evidence in court.",
+      "C": "Violates natural justice.",
+      "D": "Secretary presence is irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 51, 52 / IEA S. 56, 57",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish judicial notice of notorious facts from judge's personal private knowledge.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "What is the statutory scope of Oral Evidence under Section 54 BSA (Section 59 IEA)?",
+    "options": [
+      "All facts, EXCEPT the contents of documents or electronic records, may be proved by oral evidence",
+      "Only civil facts may be proved orally",
+      "Documents must always be proved orally and never by production",
+      "Oral evidence is prohibited in Indian courts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 54 BSA / Section 59 IEA establishes: 'All facts, except the contents of documents or electronic records, may be proved by oral evidence.'",
+    "optionBreakdown": {
+      "A": "Correct; all facts except contents of documents or electronic records may be proved by oral evidence.",
+      "B": "Applies to both civil and criminal.",
+      "C": "Contents of documents cannot be proved orally (S. 91).",
+      "D": "Oral evidence is widely used."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 54 / IEA S. 59",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the scope and exceptions of Section 59 IEA / S. 54 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "What is the Golden Rule enacted in Section 55 BSA (Section 60 IEA) regarding oral evidence?",
+    "options": [
+      "Oral evidence must, in all cases whatever, be direct",
+      "Oral evidence may be hearsay if given by a respectable citizen",
+      "Oral evidence is subordinate to newspaper reports",
+      "Oral evidence must always be given through an interpreter"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 55 BSA / Section 60 IEA enacts the foundational common law principle: 'Oral evidence must, in all cases whatever, be direct.'",
+    "optionBreakdown": {
+      "A": "Correct; oral evidence must, in all cases whatever, be direct.",
+      "B": "Hearsay is generally excluded.",
+      "C": "Newspapers are not superior.",
+      "D": "Interpreter only when necessary."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 55 / IEA S. 60",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Memorize the direct oral evidence rule of Section 60 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "Under Section 55 BSA / Section 60 IEA, if oral evidence refers to a fact which could be SEEN, it must be the evidence of:",
+    "options": [
+      "A witness who says he saw it",
+      "A police officer who heard about it from an informer",
+      "A relative of the person who saw it",
+      "A journalist who published an article about it"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 60 IEA / Section 55 BSA specifies: if it refers to a fact which could be seen, it must be the evidence of a witness who says he saw it.",
+    "optionBreakdown": {
+      "A": "Correct; must be the witness who saw it personally.",
+      "B": "Police hearing from informer is hearsay.",
+      "C": "Relative hearing from eyewitness is hearsay.",
+      "D": "Journalist reporting hearsay is excluded."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 55 / IEA S. 60",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify direct sight evidence requirements under Section 60 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "Why is 'Hearsay Evidence' generally excluded in the law of evidence?",
+    "options": [
+      "The original declarant is not on oath, not subject to cross-examination, and the court cannot observe their demeanour",
+      "Hearsay is banned only because it takes too long to type in court",
+      "Hearsay is excluded only when spoken in regional languages",
+      "Hearsay violates copyright laws"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Hearsay is excluded because: (1) statement was not on oath; (2) maker cannot be tested by cross-examination; (3) lack of opportunity to observe demeanour; (4) risk of distortion and fraud in transmission.",
+    "optionBreakdown": {
+      "A": "Correct; absence of oath, cross-examination, and demeanour testing.",
+      "B": "Typing time is not the reason.",
+      "C": "Language is irrelevant.",
+      "D": "Copyright is irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 55 / IEA S. 60",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand the foundational rationales for excluding hearsay evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "Which of the following is a recognized STATUTORY EXCEPTION to the rule against hearsay in Indian evidence law?",
+    "options": [
+      "Dying Declarations (Section 26(a) BSA / Section 32(1) IEA)",
+      "Whispers overheard in a marketplace about a candidate",
+      "Anonymous letters sent to a newspaper editor",
+      "Unverified WhatsApp forwarded rumors"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Dying declarations, Res Gestae (S. 4 BSA / S. 6 IEA), Admissions/Confessions, and Public Documents are celebrated statutory exceptions where hearsay statements are admitted due to necessity and guarantees of trustworthiness.",
+    "optionBreakdown": {
+      "A": "Correct; dying declaration is a primary statutory exception to hearsay.",
+      "B": "Marketplace whispers are inadmissible hearsay.",
+      "C": "Anonymous letters are inadmissible.",
+      "D": "WhatsApp forwards are inadmissible."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 26(a), 55 / IEA S. 32(1), 60",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify dying declaration as an exception to the hearsay rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "Under the First Proviso to Section 55 BSA / Section 60 IEA, the opinions of experts expressed in treatises commonly offered for sale may be proved by producing such treatises IF:",
+    "options": [
+      "The author is dead, cannot be found, incapable, or cannot be called without unreasonable delay or expense",
+      "The book is printed on glossy luxury paper",
+      "The author has won a Nobel Prize",
+      "The treatise is over 100 years old"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The First Proviso to Section 60 IEA / S. 55 BSA provides that opinions of experts expressed in treatises may be proved by production of treaties if the author is dead, cannot be found, incapable, or cannot be called without unreasonable delay or expense.",
+    "optionBreakdown": {
+      "A": "Correct; treatise production permitted if author is unavailable without unreasonable delay/expense.",
+      "B": "Paper quality is irrelevant.",
+      "C": "Nobel Prize not required.",
+      "D": "Age of 100 years not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 55 Proviso 1 / IEA S. 60 Proviso 1",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the treatise exception under the first proviso to Section 60 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "Under the Second Proviso to Section 55 BSA / Section 60 IEA, if oral evidence refers to the existence or condition of any MATERIAL THING other than a document, what may the Court do?",
+    "options": [
+      "The Court may, if it thinks fit, require the production of such material thing for its inspection",
+      "The Court is forbidden from ever inspecting physical exhibits",
+      "The Court must send the material thing to the National Museum",
+      "The Court must order the physical destruction of the item immediately"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Second Proviso to Section 60 IEA / Section 55 BSA authorizes real evidence: the Court may, if it thinks fit, require the production of such material thing for its inspection (e.g., murder weapon, seized counterfeit notes).",
+    "optionBreakdown": {
+      "A": "Correct; court may require production of material thing for its judicial inspection.",
+      "B": "Inspection of material objects (real evidence) is standard.",
+      "C": "Museum sending not required.",
+      "D": "Destruction during trial is unlawful."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 55 Proviso 2 / IEA S. 60 Proviso 2",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand inspection of material objects (real evidence) under Section 60 proviso.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "If witness A testifies: 'B told me that he saw C stabbing D', what type of evidence is A's testimony regarding the stabbing of D?",
+    "options": [
+      "Inadmissible Hearsay evidence regarding the fact of stabbing",
+      "Direct evidence of the murder committed by C",
+      "Conclusive proof of C's guilt under Section 4",
+      "Real evidence under Section 60 Proviso 2"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Witness A did not see the stabbing; A merely heard B say it. As to the truth of whether C stabbed D, A's testimony is classic hearsay and excluded under Section 60 IEA / Section 55 BSA.",
+    "optionBreakdown": {
+      "A": "Correct; inadmissible hearsay on the fact of stabbing.",
+      "B": "Not direct evidence of the act.",
+      "C": "Not conclusive proof.",
+      "D": "Not real evidence."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 55 / IEA S. 60",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply hearsay definition to oral testimony of secondary listeners.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "Is tape-recorded conversation or audio recording treated as oral evidence or documentary evidence?",
+    "options": [
+      "Documentary evidence; an electronic recording is included within the definition of 'Document' under Section 2(1)(d) BSA / Section 3 IEA",
+      "Oral evidence, because it involves the human voice",
+      "Judicial notice under Section 52 BSA",
+      "Presumption of law under Section 114"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In R.M. Malkani v. State of Maharashtra (AIR 1973 SC 157) and under Section 2(1)(d) BSA / Section 3 IEA, recorded audio and electronic sound recordings are categorized as documentary evidence.",
+    "optionBreakdown": {
+      "A": "Correct; sound and audio recordings are documentary evidence in law.",
+      "B": "Not classified as oral evidence.",
+      "C": "Not judicial notice.",
+      "D": "Not a presumption."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 2(1)(d), 55 / IEA S. 3, 60",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Classify tape/audio recordings as documentary evidence under Malkani.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-06-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-06",
+    "topicId": "top-evi-06-02",
+    "question": "What is the doctrine of 'Falsus in uno, falsus in omnibus' (false in one thing, false in everything) and its applicability in Indian law?",
+    "options": [
+      "It is NOT a rule of law in India; courts may separate the grain from the chaff and accept truthful portions while rejecting false ones",
+      "It is an absolute mandatory rule of law in India requiring total rejection of any witness who speaks a partial untruth",
+      "It applies only to expert medical witnesses",
+      "It was enacted into Section 60 IEA by the 2000 IT Act"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "As held in Ugar Ahir v. State of Bihar (1965) and numerous rulings, 'falsus in uno, falsus in omnibus' is not a rule of law in India; the duty of the court is to disengage the truth from falsehood and separate the grain from the chaff.",
+    "optionBreakdown": {
+      "A": "Correct; not recognized as a rule of law in India; courts separate grain from chaff.",
+      "B": "Not an absolute rule in India.",
+      "C": "Not limited to medical witnesses.",
+      "D": "Never enacted into statute."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 55 / IEA S. 60",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand non-applicability of falsus in uno doctrine in India.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "Under Section 56 BSA (Section 61 IEA), how may the contents of documents be proved?",
+    "options": [
+      "Either by primary or by secondary evidence",
+      "Only by oral testimony of two village elders",
+      "Exclusively by producing the original before the Supreme Court",
+      "Only through chemical carbon dating"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 56 BSA / Section 61 IEA states: 'The contents of documents may be proved either by primary or by secondary evidence.'",
+    "optionBreakdown": {
+      "A": "Correct; proved either by primary or secondary evidence.",
+      "B": "Oral testimony cannot substitute for document contents generally.",
+      "C": "Supreme Court production not required.",
+      "D": "Carbon dating not required."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 56 / IEA S. 61",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the two methods of proving document contents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "How is 'PRIMARY EVIDENCE' defined under Section 57 BSA (Section 62 IEA)?",
+    "options": [
+      "The document itself produced for the inspection of the Court",
+      "A photocopy attested by a local politician",
+      "An oral recitation from memory by an advocate",
+      "A summary published in an evening tabloid"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 57 BSA / Section 62 IEA defines: 'Primary evidence means the document itself produced for the inspection of the Court.'",
+    "optionBreakdown": {
+      "A": "Correct; primary evidence is the original document itself produced for court inspection.",
+      "B": "Photocopy is secondary evidence.",
+      "C": "Oral recitation is secondary evidence at best.",
+      "D": "Tabloid summary is inadmissible hearsay."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 57 / IEA S. 62",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define primary evidence under Section 62 IEA / Section 57 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "Under Section 57 Explanation 2 BSA / Section 62 Explanation 2 IEA, where a number of documents are all made by one uniform process, as in the case of PRINTING, lithography or photography:",
+    "options": [
+      "Each is primary evidence of the contents of the rest; but where they are all copies of a common original, they are NOT primary evidence of the common original",
+      "All copies are permanently inadmissible",
+      "Only the printing machine plate is primary evidence",
+      "They are treated as oral admissions"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 2 to Section 62 IEA / Section 57 BSA establishes that each copy printed by a uniform process is primary evidence of the contents of the others, but they are not primary evidence of the original manuscript from which they were copied.",
+    "optionBreakdown": {
+      "A": "Correct; primary evidence of each other, but secondary evidence of the common original.",
+      "B": "They are admissible.",
+      "C": "Machine plate is not the only primary evidence.",
+      "D": "Not oral admissions."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 57 Expl. 2 / IEA S. 62 Expl. 2",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the uniform process / printing rule for primary evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "Which of the following is SECONDARY EVIDENCE under Section 58 BSA (Section 63 IEA)?",
+    "options": [
+      "Certified copies, copies made from the original by mechanical processes, and oral accounts of the contents given by a person who has seen it",
+      "The original signed contract produced before the court",
+      "A counterpart of an agreement executed by the party producing it",
+      "Original currency note seized during raid"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 58 BSA / Section 63 IEA defines secondary evidence: (1) certified copies; (2) copies made by mechanical processes; (3) copies compared with originals; (4) counterparts against parties who did not execute them; (5) oral accounts by someone who has seen it.",
+    "optionBreakdown": {
+      "A": "Correct; certified copies, mechanical copies, and oral accounts by viewers.",
+      "B": "Original signed contract is primary evidence.",
+      "C": "Counterpart executed by producing party is primary against him.",
+      "D": "Original note is primary evidence."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 58 / IEA S. 63",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify the statutory forms of secondary evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "Can a person who CANNOT READ give an oral account of the contents of a written document as secondary evidence under Section 63(5) IEA / Section 58 BSA?",
+    "options": [
+      "No, the witness must have personally read and understood the document to give an oral account of its contents",
+      "Yes, if the person held the physical paper in his hands",
+      "Yes, if the person smelled the ink on the paper",
+      "Oral accounts of documents can never be given by anyone"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 63(5) IEA / Section 58 BSA, oral accounts must be given by a person who has 'himself seen it'; in Kanhyalal v. Ramchandra, it was held that a person who cannot read cannot be said to have 'seen' the contents of a document.",
+    "optionBreakdown": {
+      "A": "Correct; witness must be capable of reading and have read the contents himself.",
+      "B": "Merely holding paper is insufficient.",
+      "C": "Smelling ink is absurd.",
+      "D": "Oral accounts are permitted under S. 63(5) by qualified witnesses."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 58 / IEA S. 63(5)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand requirements for oral accounts of document contents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "Under Section 60 BSA (Section 65 IEA), in which of the following cases may SECONDARY EVIDENCE be given of the existence, condition or contents of a document?",
+    "options": [
+      "When the original is in the possession of the person against whom it is sought to be proved and after notice under Section 66 fails to produce it",
+      "Whenever the original is boring to read",
+      "Whenever the lawyer forgot to bring the original from his office",
+      "Only when the original is over 500 pages long"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 60(a) BSA / Section 65(a) IEA permits secondary evidence when the original is in the possession or power of the adversary who fails to produce it after notice under Section 66 IEA / S. 61 BSA.",
+    "optionBreakdown": {
+      "A": "Correct; adversary possession after notice to produce warrants secondary evidence.",
+      "B": "Boredom is not a statutory ground.",
+      "C": "Lawyer forgetfulness is not a statutory ground.",
+      "D": "Length alone is not a ground under clause (a)."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 60 / IEA S. 65(a)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify conditions for secondary evidence under Section 65(a) IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "When the original has been DESTROYED or LOST, what secondary evidence is admissible under Section 60(c) BSA (Section 65(c) IEA)?",
+    "options": [
+      "Any secondary evidence of the contents of the document is admissible",
+      "Only oral evidence of a police officer",
+      "Only a photocopy verified by a foreign consulate",
+      "No secondary evidence can ever be given if lost"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 65(c) IEA / Section 60(c) BSA, when the original has been destroyed or lost (not arising from the party's own default or neglect), 'any secondary evidence of the contents of the document is admissible'.",
+    "optionBreakdown": {
+      "A": "Correct; any secondary evidence is admissible upon proof of loss or destruction.",
+      "B": "Not limited to police officers.",
+      "C": "Foreign consulate verification not required.",
+      "D": "Secondary evidence is specifically designed for lost originals."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 60 / IEA S. 65(c)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall secondary evidence rule for lost or destroyed documents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "Under Section 60(g) BSA (Section 65(g) IEA), when the original consists of numerous accounts or other documents which cannot conveniently be examined in Court:",
+    "options": [
+      "Evidence may be given as to the general result of the documents by any person who has examined them and who is skilled in the examination of such accounts",
+      "The Court must summon every ledger clerk to read every page aloud",
+      "The suit must be dismissed as too complex",
+      "The documents are deemed proved without any examination"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 65(g) IEA / Section 60(g) BSA provides for summary evidence of voluminous accounts by a skilled person (e.g., a Chartered Accountant) who has examined them.",
+    "optionBreakdown": {
+      "A": "Correct; summary of general result by a skilled examiner of voluminous accounts.",
+      "B": "Clerks need not read every page aloud.",
+      "C": "Complexity does not warrant dismissal.",
+      "D": "Not deemed proved without examination."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 60(g) / IEA S. 65(g)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the voluminous accounts exception under Section 65(g) IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "What is the general consequence under Section 61 BSA (Section 66 IEA) before leading secondary evidence under clause (a) of Section 65?",
+    "options": [
+      "Notice to produce the document must previously be given to the party in whose possession or power it is",
+      "A police search warrant must be executed",
+      "An advertisement must be published in three national newspapers",
+      "The party must obtain prior leave from the High Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 66 IEA / Section 61 BSA mandates that notice to produce must be given to the adverse party before secondary evidence can be given under Section 65(a), subject to statutory exceptions (such as when the document itself is a notice).",
+    "optionBreakdown": {
+      "A": "Correct; notice to produce is required before leading secondary evidence under S. 65(a).",
+      "B": "Search warrant not required.",
+      "C": "Newspaper advertisement not required.",
+      "D": "High Court leave not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 61 / IEA S. 66",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall requirement of notice to produce under Section 66 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-01",
+    "question": "Can an objection to the ADMISSIBILITY of secondary evidence (e.g., that mode of proof was irregular) be raised for the first time in APPELLATE court?",
+    "options": [
+      "No, if an objection relates to the mode of proof, it must be raised at the time of admission in the trial court; if waived, it cannot be raised in appeal",
+      "Yes, objections to mode of proof can be raised at any time including the Supreme Court",
+      "Yes, appeals are full de novo trials of every technicality",
+      "Only if the trial judge has passed away"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In R.V.E. Venkatachala Gounder v. Arulmigu Viswesaraswami (AIR 2003 SC 4548), the Supreme Court held that objections as to mode of proof must be taken when the document is tendered; once admitted without objection, it cannot be raised in appeal.",
+    "optionBreakdown": {
+      "A": "Correct; objection to mode of proof must be taken at trial stage, not for first time in appeal.",
+      "B": "Mode of proof objections cannot be raised first in appeal.",
+      "C": "Appeals do not reopen waived procedural objections.",
+      "D": "Judge status is irrelevant."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 56, 60 / IEA S. 61, 65",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Venkatachala Gounder ruling on waiver of objection to mode of proof.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 governs the admissibility of Electronic Records (corresponding to Section 65B of the Indian Evidence Act)?",
+    "options": [
+      "Section 63 BSA",
+      "Section 65B BSA",
+      "Section 72 BSA",
+      "Section 58 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 63 BSA corresponds to Section 65B of the Indian Evidence Act, providing the statutory mechanism and certificate requirements for the admissibility of electronic records.",
+    "optionBreakdown": {
+      "A": "Correct; Section 63 BSA governs electronic records admissibility.",
+      "B": "There is no Section 65B in BSA.",
+      "C": "Section 72 is another provision.",
+      "D": "Section 58 BSA is secondary evidence."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 63 / IEA S. 65B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify Section 63 BSA as the successor to Section 65B IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "In which landmark three-judge bench decision did the Supreme Court settle the law regarding mandatory Section 65B certificates, overruling Shafhi Mohammad?",
+    "options": [
+      "Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal (2020)",
+      "Anvar P.V. v. P.K. Basheer (2014)",
+      "State of Maharashtra v. Praful B. Desai (2003)",
+      "Shreya Singhal v. Union of India (2015)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Arjun Panditrao Khotkar v. Kailash Kushanrao Gorantyal (2020 7 SCC 1), a three-judge bench affirmed Anvar P.V. and overruled Shafhi Mohammad, clarifying that a S. 65B certificate is a condition precedent for secondary electronic evidence.",
+    "optionBreakdown": {
+      "A": "Correct; Arjun Panditrao Khotkar settled the law in 2020.",
+      "B": "Anvar P.V. (2014) was the initial ruling, affirmed and clarified in Arjun Panditrao.",
+      "C": "Praful Desai dealt with video-conferencing.",
+      "D": "Shreya Singhal dealt with S. 66A IT Act."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 63 / IEA S. 65B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the authoritative ruling on electronic certificates in Arjun Panditrao Khotkar.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "Under Arjun Panditrao Khotkar (2020), is a Section 65B certificate required when the original electronic device itself (PRIMARY electronic evidence) is produced in court?",
+    "options": [
+      "No, if the original device itself (e.g., the original phone, server, or hard drive) is produced by its owner in the witness box, Section 65B certificate is NOT required",
+      "Yes, even the original phone requires a certificate under S. 65B",
+      "Yes, primary electronic evidence is completely illegal without certificate",
+      "Only if the phone is made by an Indian manufacturer"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Arjun Panditrao Khotkar, the Supreme Court explicitly held that Section 65B applies only to secondary electronic evidence (computer printouts, copied CDs, pen drives); if the original primary device itself is produced, no certificate is necessary under S. 65B.",
+    "optionBreakdown": {
+      "A": "Correct; no certificate required when the original primary device itself is produced.",
+      "B": "Original device is primary evidence under S. 62 / S. 57.",
+      "C": "Primary electronic evidence is fully legal.",
+      "D": "Manufacturer origin is irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 63 / IEA S. 65B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish primary electronic evidence from secondary electronic copies regarding certificate requirement.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "What statutory form does the Bharatiya Sakshya Adhiniyam, 2023 provide for the Certificate for Electronic Records under Section 63(4)?",
+    "options": [
+      "A standardized form set out in the SCHEDULE to the Bharatiya Sakshya Adhiniyam, 2023",
+      "An affidavit signed before the President of India",
+      "An unwritten oral oath in chambers",
+      "A stamp on the back of a postal stamp"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 63(4) BSA modernizes the practice by expressly prescribing a statutory template: the certificate shall be in the form set out in the SCHEDULE to the Adhiniyam, signed by the person in charge.",
+    "optionBreakdown": {
+      "A": "Correct; BSA incorporates a statutory Schedule Certificate format.",
+      "B": "President of India signature not required.",
+      "C": "Oral oath not sufficient.",
+      "D": "Postal stamp is absurd."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 63(4) / Schedule",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize the introduction of the statutory Schedule certificate in BSA 2023.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "Who is competent to sign the Certificate for electronic records under Section 63(4) BSA / Section 65B(4) IEA?",
+    "options": [
+      "A person occupying a responsible official position in relation to the operation of the relevant device or the management of the relevant activities",
+      "Any passerby who witnessed someone typing on the keyboard",
+      "The opposing party's defense counsel",
+      "Only the Union Minister for Electronics and IT"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 63(4) BSA / Section 65B(4) IEA, the certificate must be signed by a person occupying a responsible official position in relation to the operation of the device or the management of the relevant activities.",
+    "optionBreakdown": {
+      "A": "Correct; person in responsible official position managing device or activities.",
+      "B": "Passerby cannot sign.",
+      "C": "Defense counsel cannot sign.",
+      "D": "Union Minister signature not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 63(4) / IEA S. 65B(4)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify persons authorized to execute electronic records certificate.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "Under Section 2(1)(d) of the Bharatiya Sakshya Adhiniyam, 2023, how has the definition of 'DOCUMENT' been expanded?",
+    "options": [
+      "Explicitly includes electronic and digital records, electronic emails, server logs, smartphone files, messages, websites, and cloud storage",
+      "Completely excludes all computer files",
+      "Restricted solely to parchment and vellum manuscripts",
+      "Excludes all digital photographs"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 2(1)(d) BSA expressly incorporates electronic and digital records into the core definition of 'Document', including emails, server logs, documents on computers/laptops, messages, websites, and cloud files.",
+    "optionBreakdown": {
+      "A": "Correct; expansive statutory definition explicitly including digital records and cloud/server files.",
+      "B": "Computer files are central to BSA.",
+      "C": "Parchment limitation is ancient.",
+      "D": "Digital photos are included."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 2(1)(d)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the modern definition of Document in BSA 2023.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "If a party is unable to procure a Section 63 BSA / Section 65B IEA certificate because the device is in the custody of a recalcitrant third party, what remedy did Arjun Panditrao Khotkar establish?",
+    "options": [
+      "The court can exercise its powers under Section 165 IEA / Section 91 CrPC (S. 94 BNSS) to summon the device and order the person to produce the certificate",
+      "The evidence must be thrown out and the suit dismissed",
+      "The party must commit a cyber intrusion to steal the certificate",
+      "The party must file a revision before the International Court of Justice"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Arjun Panditrao Khotkar, the Supreme Court held that where the device is with a third party or adversary, the party can apply to the trial judge under Section 91 CrPC / Section 165 IEA to summon the custodian and compel production of the certificate.",
+    "optionBreakdown": {
+      "A": "Correct; court summons under S. 91 CrPC / S. 165 IEA (S. 94 BNSS) to produce certificate.",
+      "B": "Evidence is not thrown out without affording summons process.",
+      "C": "Cyber intrusion is a crime.",
+      "D": "ICJ is absurd."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 63 / IEA S. 65B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall procedural mechanism to obtain electronic certificates from third parties.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "What are the four conditions specified in Section 63(2) BSA / Section 65B(2) IEA for admitting computer outputs?",
+    "options": [
+      "Computer was produced during regular activities, information regularly fed, computer operating properly, and output reproduces original information accurately",
+      "Computer was manufactured in India, certified by ISO, connected to 5G, and operated by a software engineer",
+      "Computer was running on Windows 95, unencrypted, connected to police headquarters, and audited by CBI",
+      "Computer was purchased with cash, never connected to internet, and blessed by notary"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 65B(2) IEA / Section 63(2) BSA specifies: (a) regular period of use in activities; (b) information regularly fed; (c) computer was operating properly (or defect didn't affect accuracy); (d) reproduces accurately.",
+    "optionBreakdown": {
+      "A": "Correct; regular use, regular feeding, proper operation, accurate reproduction.",
+      "B": "ISO and 5G are not statutory conditions.",
+      "C": "Windows 95/CBI not statutory.",
+      "D": "Absurd."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 63(2) / IEA S. 65B(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Memorize the four statutory conditions of computer output admissibility.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "Can a Section 65B / Section 63 certificate be produced during the trial BEFORE the completion of trial, if inadvertently omitted at the time of filing chargesheet?",
+    "options": [
+      "Yes, the trial court has discretion to allow the certificate to be produced at any stage prior to the conclusion of trial",
+      "No, failure to file with the chargesheet permanently bars the electronic evidence",
+      "Only if the State Government issues an ordinance",
+      "Only in capital murder trials"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Arjun Panditrao Khotkar, the Supreme Court clarified that the certificate can be produced at any subsequent stage before the conclusion of trial, subject to giving full opportunity to the defence to cross-examine.",
+    "optionBreakdown": {
+      "A": "Correct; permissible to be produced at subsequent stage before trial concludes.",
+      "B": "Not permanently barred.",
+      "C": "No ordinance needed.",
+      "D": "Applies across all trials."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 63 / IEA S. 65B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand timing and curing of omission in producing electronic certificates.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-02",
+    "question": "Under Section 63(3) BSA, where computers across a network or servers operated continuously over a period, how are they treated?",
+    "options": [
+      "All computers used for that purpose shall be treated as constituting a single computer",
+      "Each computer must be brought to court physically on a truck",
+      "Each router must be examined as an independent co-conspirator",
+      "The network is presumed to be compromised"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 63(3) BSA / Section 65B(3) IEA provides that where the function of storing or processing was performed by a combination of computers, network, or over different periods, all computers shall be treated as constituting a single computer.",
+    "optionBreakdown": {
+      "A": "Correct; treated as constituting a single computer.",
+      "B": "Truck transport of servers not required.",
+      "C": "Routers are not co-conspirators.",
+      "D": "No presumption of compromise."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 63(3) / IEA S. 65B(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall single computer doctrine for networks in electronic evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-021",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "Which of the following constitutes a PUBLIC DOCUMENT under Section 74 of the Indian Evidence Act / Section 74 of the Bharatiya Sakshya Adhiniyam, 2023?",
+    "options": [
+      "Documents forming the acts or records of the acts of sovereign authority, official bodies, tribunals, and public records of private documents",
+      "A private lease agreement kept in a tenant's drawer",
+      "A love letter sent via private courier",
+      "A shopping list prepared by a homemaker"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 74 IEA / Section 74 BSA defines public documents: (1) documents forming acts or records of sovereign authority, official bodies, tribunals, or legislative/judicial/executive officers; (2) public records kept of private documents (e.g., registered deeds).",
+    "optionBreakdown": {
+      "A": "Correct; acts/records of sovereign bodies, tribunals, and public records of private documents.",
+      "B": "Private lease is a private document.",
+      "C": "Love letter is private.",
+      "D": "Shopping list is private."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 74 / IEA S. 74",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define public documents under Section 74 IEA / BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-022",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "All documents other than public documents are classified under Section 75 IEA / BSA as:",
+    "options": [
+      "Private documents",
+      "Secret documents",
+      "Unlawful documents",
+      "State secrets"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 75 IEA / Section 75 BSA succinctly enacts: 'All other documents are private.'",
+    "optionBreakdown": {
+      "A": "Correct; all other documents are private documents.",
+      "B": "Not secret documents.",
+      "C": "Not unlawful documents.",
+      "D": "Not state secrets."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 75 / IEA S. 75",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall classification of private documents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-023",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "Under Section 76 IEA / Section 76 BSA, who is entitled to obtain a CERTIFIED COPY of a public document?",
+    "options": [
+      "Every person who has a right to inspect the public document, upon payment of the legal fees",
+      "Only the sitting Chief Minister of the State",
+      "Only advocates with more than 15 years practice",
+      "Only gazetted officers of the central government"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 76 IEA / Section 76 BSA gives every person having a right to inspect a public document the right to receive a certified copy upon payment of legal fees.",
+    "optionBreakdown": {
+      "A": "Correct; any person with right to inspect upon payment of legal fees.",
+      "B": "Not limited to Chief Minister.",
+      "C": "Not limited to senior advocates.",
+      "D": "Not limited to gazetted officers."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 76 / IEA S. 76",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand entitlement to certified copies of public documents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-024",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "What is the MAJOR STATUTORY CHANGE made in Section 92 of the Bharatiya Sakshya Adhiniyam, 2023 regarding the presumption as to ancient documents (Section 90 IEA)?",
+    "options": [
+      "BSA REDUCES the time period from 30 YEARS (IEA) to 20 YEARS (BSA)",
+      "BSA increases the time period from 30 years to 50 years",
+      "BSA abolishes the presumption for ancient documents completely",
+      "BSA requires ancient documents to be written in Sanskrit"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Crucial competitive exam difference: Section 90 IEA provided a presumption of due execution for documents 30 years old; Section 92 BSA REDUCES this period to TWENTY (20) YEARS produced from proper custody.",
+    "optionBreakdown": {
+      "A": "Correct; BSA reduces the ancient document period from 30 years to 20 years.",
+      "B": "Did not increase to 50 years.",
+      "C": "Presumption was not abolished.",
+      "D": "Language in Sanskrit not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 92 / IEA S. 90",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Highlight crucial statutory reduction: 30 years in IEA S. 90 vs 20 years in BSA S. 92.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-025",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "Under Section 92 BSA (Section 90 IEA), what does the Court presume when an ancient document is produced from PROPER CUSTODY?",
+    "options": [
+      "The Court MAY presume that the signature and every other part which purports to be in handwriting is genuine and was duly executed and attested",
+      "The Court MUST declare the suit decreed in favour of the producer",
+      "The Court SHALL presume the contents are conclusive proof of title",
+      "The Court SHALL presume the document was drafted by a High Court Judge"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 90 IEA / Section 92 BSA, the court 'may presume' that the signature, handwriting, execution, and attestation are genuine; it is a rebuttable presumption of fact, not conclusive proof.",
+    "optionBreakdown": {
+      "A": "Correct; court MAY presume genuine execution and attestation.",
+      "B": "Does not decree the suit.",
+      "C": "Not conclusive proof of title.",
+      "D": "No presumption of judge drafting."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 92 / IEA S. 90",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master nature of presumption under Section 90 IEA / S. 92 BSA (may presume).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-026",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "What constitutes 'PROPER CUSTODY' for the purpose of the ancient document presumption under Section 90 IEA / Section 92 BSA?",
+    "options": [
+      "Custody in the place in which, and under the care of the person with whom, it would naturally be",
+      "Custody in a bank locker locked with three digital passwords",
+      "Custody with the local police station house officer",
+      "Custody with the Registrar of the Supreme Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Explanation to Section 90 IEA / Section 92 BSA states: documents are in proper custody if they are in the place in which, and under the care of the person with whom, they would naturally be.",
+    "optionBreakdown": {
+      "A": "Correct; custody where it would naturally be according to circumstances.",
+      "B": "Bank locker not specifically required.",
+      "C": "Police custody not natural for private deeds.",
+      "D": "Supreme Court custody not required."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 92 Expl. / IEA S. 90 Expl.",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define proper custody for ancient documents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-027",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "Does the presumption under Section 90 IEA / Section 92 BSA apply to COPIES of ancient documents or only to the ORIGINAL document itself?",
+    "options": [
+      "Settled law (Lakhi Baruah v. Padma Kanta Kalita 1996) holds that the presumption applies ONLY to the ORIGINAL document, NOT to certified copies",
+      "Applies equally to photocopies made yesterday",
+      "Applies only to certified copies and never to originals",
+      "Applies to oral recitations of ancient poems"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Lakhi Baruah v. Padma Kanta Kalita (1996 8 SCC 357), the Supreme Court held that the presumption under Section 90 IEA applies only to the original document when produced; it does not apply to a copy.",
+    "optionBreakdown": {
+      "A": "Correct; applies only to the original document, not to copies.",
+      "B": "Does not apply to photocopies.",
+      "C": "Original is required.",
+      "D": "Does not apply to oral poems."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 92 / IEA S. 90",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Lakhi Baruah ruling on non-applicability of Section 90 presumption to copies.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-028",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "Under Section 90A IEA / Section 93 BSA, what is the time period for the presumption as to ELECTRONIC RECORDS produced from proper custody?",
+    "options": [
+      "FIVE (5) YEARS",
+      "TEN (10) YEARS",
+      "TWENTY (20) YEARS",
+      "THIRTY (30) YEARS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 90A IEA / Section 93 BSA provides that where an electronic record purporting to be five years old is produced from proper custody, the Court may presume that the digital signature was affixed by the subscriber.",
+    "optionBreakdown": {
+      "A": "Correct; 5 years for presumption as to electronic records.",
+      "B": "Not 10 years.",
+      "C": "20 years is for paper documents in BSA S. 92.",
+      "D": "30 years was old IEA paper rule."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 93 / IEA S. 90A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish electronic record presumption period (5 years) from paper documents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-029",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "Under Section 79 IEA / Section 77 BSA, the Court SHALL PRESUME every document purporting to be a certified copy to be:",
+    "options": [
+      "Genuine, provided it is substantially in the form and executed in the manner directed by law",
+      "Fraudulent until verified by the Chief Secretary",
+      "A private forgery unless countersigned by five witnesses",
+      "Null and void unless stamped with red wax"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 79 IEA / Section 77 BSA creates a mandatory presumption of law ('shall presume'): the Court shall presume every document purporting to be a certificate or certified copy to be genuine.",
+    "optionBreakdown": {
+      "A": "Correct; mandatory presumption ('shall presume') that certified copy is genuine.",
+      "B": "Not presumed fraudulent.",
+      "C": "Attestation by five witnesses not required.",
+      "D": "Red wax not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 77 / IEA S. 79",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize mandatory presumption of genuineness of certified copies under Section 79 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-07-030",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-07",
+    "topicId": "top-evi-07-03",
+    "question": "Under Section 85 IEA / Section 83 BSA, the Court SHALL PRESUME that every document purporting to be a POWER-OF-ATTORNEY was so executed and authenticated if:",
+    "options": [
+      "Executed before and authenticated by a Notary Public, or any Court, Judge, Magistrate, Indian Consul or Vice-Consul",
+      "Executed before any village shopkeeper",
+      "Signed on plain scrap paper without any date",
+      "Notarized by a notary whose license expired 10 years ago"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 85 IEA / Section 83 BSA creates a mandatory presumption ('shall presume') that a power-of-attorney was duly executed and authenticated if done before and authenticated by a Notary Public, Court, Judge, Magistrate, or Indian Consul.",
+    "optionBreakdown": {
+      "A": "Correct; mandatory presumption when authenticated by Notary, Court, Magistrate, or Consul.",
+      "B": "Shopkeeper authentication not recognized.",
+      "C": "Undated scrap paper fails statutory test.",
+      "D": "Expired notary fails requirement."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 83 / IEA S. 85",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall mandatory presumption for Powers of Attorney under Section 85 IEA.",
+    "eligible": true,
+    "status": "active"
+  }
+]

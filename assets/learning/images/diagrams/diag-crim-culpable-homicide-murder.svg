@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Culpable Homicide vs Murder: The S. 100/101 BNS Distinction</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Statutory elements, Reg v. Govinda formula &amp; The 5 Exceptions</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">CRIMINAL LAW BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(40, 20)">
+    <!-- Genus Card: Culpable Homicide -->
+    <rect x="0" y="0" width="340" height="360" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="0" width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#dfbf80">CULPABLE HOMICIDE [GENUS]</text>
+    <text x="170" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">BNS Section 100 / IPC Section 299</text>
+    <text x="20" y="90" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Three Statutory Limbs:</text>
+    <text x="20" y="115" font-family="system-ui, sans-serif" font-size="11" fill="#334155">1. Intention of causing death</text>
+    <text x="20" y="135" font-family="system-ui, sans-serif" font-size="11" fill="#334155">2. Intention of causing bodily injury likely</text>
+    <text x="35" y="150" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">to cause death</text>
+    <text x="20" y="175" font-family="system-ui, sans-serif" font-size="11" fill="#334155">3. Knowledge that act is likely to</text>
+    <text x="35" y="190" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">cause death</text>
+    <line x1="20" y1="210" x2="320" y2="210" stroke="#e2e8f0"/>
+    <text x="20" y="235" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Key Legal Maxim:</text>
+    <text x="20" y="255" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#8c2432">"All murders are culpable homicide,</text>
+    <text x="20" y="272" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#8c2432">but all culpable homicides are not murder."</text>
+    <text x="20" y="300" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Authority: Reg v. Govinda (1876)</text>
+    <text x="20" y="325" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Punishment: S. 105 BNS / S. 304 IPC</text>
+
+    <!-- Arrow / Transition -->
+    <path d="M 350 180 L 370 180" stroke="#dfbf80" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <!-- Species Card: Murder -->
+    <rect x="380" y="0" width="340" height="360" rx="8" fill="#ffffff" stroke="#8c2432" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="380" y="0" width="340" height="42" rx="8" fill="#8c2432"/>
+    <text x="550" y="27" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#ffffff">MURDER [SPECIES]</text>
+    <text x="550" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#8c2432">BNS Section 101 / IPC Section 300</text>
+    <text x="400" y="90" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Four Aggravated Clauses:</text>
+    <text x="400" y="115" font-family="system-ui, sans-serif" font-size="11" fill="#334155">1. Act done with intention of causing death</text>
+    <text x="400" y="135" font-family="system-ui, sans-serif" font-size="11" fill="#334155">2. Subjective knowledge of special vulnerability</text>
+    <text x="400" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#334155">3. Bodily injury sufficient in ordinary course</text>
+    <text x="415" y="170" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">of nature to cause death (Virsa Singh)</text>
+    <text x="400" y="195" font-family="system-ui, sans-serif" font-size="11" fill="#334155">4. Imminently dangerous act (no excuse)</text>
+    <line x1="400" y1="210" x2="700" y2="210" stroke="#e2e8f0"/>
+    <text x="400" y="235" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#8c2432">The 5 Mitigating Exceptions:</text>
+    <text x="400" y="255" font-family="system-ui, sans-serif" font-size="10" fill="#334155">1. Grave &amp; sudden provocation (Nanavati)</text>
+    <text x="400" y="272" font-family="system-ui, sans-serif" font-size="10" fill="#334155">2. Private defence excess in good faith</text>
+    <text x="400" y="289" font-family="system-ui, sans-serif" font-size="10" fill="#334155">3. Public servant exceeding powers</text>
+    <text x="400" y="306" font-family="system-ui, sans-serif" font-size="10" fill="#334155">4. Sudden fight without premeditation</text>
+    <text x="400" y="323" font-family="system-ui, sans-serif" font-size="10" fill="#334155">5. Consent of deceased (above 18 years)</text>
+  </g>
+
+  </g>
+</svg>

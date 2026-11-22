@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs><linearGradient id="dbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="900" height="360" fill="url(#dbg)" rx="12"/>
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#dfbf80">DIRECTIVE PRINCIPLES OF STATE POLICY: 3-TIER CLASSIFICATION</text>
+  <text x="450" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#a0b3c6">Part IV (Articles 36–51) — Ideological Framework for Socio-Economic Justice</text>
+  
+  <!-- Socialistic Principles -->
+  <rect x="40" y="90" width="250" height="240" rx="8" fill="#fff"/>
+  <rect x="40" y="90" width="250" height="35" rx="8" fill="#137d72"/>
+  <text x="165" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#fff">SOCIALISTIC PRINCIPLES</text>
+  <text x="50" y="145" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 38:</tspan> Social order promoting welfare</text>
+  <text x="50" y="170" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 39(b)&amp;(c):</tspan> Material resources &amp; no concentration of wealth</text>
+  <text x="50" y="200" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 39(d):</tspan> Equal pay for equal work</text>
+  <text x="50" y="225" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 39A:</tspan> Equal justice &amp; free legal aid</text>
+  <text x="50" y="250" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 41:</tspan> Right to work &amp; education</text>
+  <text x="50" y="275" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 42:</tspan> Just, humane &amp; maternity relief</text>
+  <text x="50" y="300" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 43/43A:</tspan> Living wage &amp; worker mgmt</text>
+
+  <!-- Gandhian Principles -->
+  <rect x="325" y="90" width="250" height="240" rx="8" fill="#fff"/>
+  <rect x="325" y="90" width="250" height="35" rx="8" fill="#142c46"/>
+  <text x="450" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#dfbf80">GANDHIAN PRINCIPLES</text>
+  <text x="335" y="145" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 40:</tspan> Organization of Village Panchayats</text>
+  <text x="335" y="180" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 43:</tspan> Promotion of cottage industries in rural areas</text>
+  <text x="335" y="215" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 43B:</tspan> Voluntary formation of Co-operative societies (97th Am.)</text>
+  <text x="335" y="250" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 46:</tspan> Educational &amp; economic interests of SCs, STs &amp; weaker sections</text>
+  <text x="335" y="285" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 47:</tspan> Prohibition of intoxicating drinks</text>
+  <text x="335" y="310" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 48:</tspan> Prohibition of slaughter of cows</text>
+
+  <!-- Liberal-Intellectual -->
+  <rect x="610" y="90" width="250" height="240" rx="8" fill="#fff"/>
+  <rect x="610" y="90" width="250" height="35" rx="8" fill="#137d72"/>
+  <text x="735" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#fff">LIBERAL-INTELLECTUAL</text>
+  <text x="620" y="145" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 44:</tspan> Uniform Civil Code (UCC) for all citizens</text>
+  <text x="620" y="180" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 45:</tspan> Early childhood care (0-6 yrs)</text>
+  <text x="620" y="215" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 48A:</tspan> Protection of environment, forests &amp; wild life (42nd Am.)</text>
+  <text x="620" y="250" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 49:</tspan> Protection of monuments &amp; places of national importance</text>
+  <text x="620" y="285" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 50:</tspan> Separation of Judiciary from Executive in public services</text>
+  <text x="620" y="315" font-family="system-ui, sans-serif" font-size="10" fill="#1c2e40">• <tspan font-weight="bold">Art. 51:</tspan> International peace &amp; security</text>
+</svg>

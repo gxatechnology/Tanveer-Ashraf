@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "mcq-crpc-01-001",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "Which class of criminal courts in CrPC 1973 has been completely eliminated in the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)?",
+    "options": [
+      "Metropolitan Magistrates",
+      "Judicial Magistrates of the First Class",
+      "Courts of Session",
+      "Executive Magistrates"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "BNSS Section 6 abolishes the separate cadre of Metropolitan Magistrates; throughout India only Judicial Magistrates (JMFC/JMIC) and Executive Magistrates are retained under Courts of Session.",
+    "optionBreakdown": {
+      "A": "Correct; Metropolitan Magistrates are omitted in BNSS Section 6.",
+      "B": "Retained in BNSS.",
+      "C": "Retained as principal trial court of district.",
+      "D": "Retained for preventive/executive functions."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 6 / CrPC S. 6",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master elimination of Metropolitan Magistrates in BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-002",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "How many classes of Criminal Courts (besides High Courts and special courts) are established under Section 6 BNSS?",
+    "options": [
+      "Four classes: Court of Session, JMFC, JMIC, and Executive Magistrates",
+      "Two classes only",
+      "Five classes including Metropolitan Magistrates",
+      "Three classes"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 6 BNSS specifies four classes: (i) Courts of Session; (ii) Judicial Magistrates of the first class; (iii) Judicial Magistrates of the second class; (iv) Executive Magistrates.",
+    "optionBreakdown": {
+      "A": "Correct; exactly four classes under Section 6 BNSS.",
+      "B": "Too few.",
+      "C": "Metropolitan courts are abolished.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 6 / CrPC S. 6",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall four classes of criminal courts.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-003",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "Under Section 8 BNSS (Section 9 CrPC), who establishes the Court of Session for every sessions division?",
+    "options": [
+      "The State Government, but the High Court appoints the Judge",
+      "The High Court exclusively",
+      "The Governor with approval of President",
+      "The Chief Judicial Magistrate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The State Government establishes a Court of Session for every sessions division, but the Judge thereof is appointed by the High Court.",
+    "optionBreakdown": {
+      "A": "Correct; established by State Govt, Judge appointed by High Court.",
+      "B": "High Court appoints judges, does not establish the territorial court itself.",
+      "C": "Governor acts through State Govt.",
+      "D": "CJM is subordinate to Sessions Judge."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 8 / CrPC S. 9",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish role of State Govt and High Court in Sessions Courts.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-004",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "Who appoints the Chief Judicial Magistrate (CJM) in every district under Section 9 BNSS (Section 12 CrPC)?",
+    "options": [
+      "The High Court",
+      "The State Government",
+      "The Sessions Judge",
+      "The District Magistrate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 9(1) BNSS (Section 12(1) CrPC) provides that in every district the High Court shall appoint a Judicial Magistrate of the first class to be the Chief Judicial Magistrate.",
+    "optionBreakdown": {
+      "A": "Correct; CJM is appointed by High Court from JMFCs.",
+      "B": "State Government does not appoint judicial magistrates.",
+      "C": "Sessions Judge exercises supervisory power, not appointment.",
+      "D": "District Magistrate is head of Executive Magistrates."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 9 / CrPC S. 12",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall authority appointing CJM.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-005",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "To whom is the Chief Judicial Magistrate subordinate under Section 12 BNSS (Section 15 CrPC)?",
+    "options": [
+      "Subordinate to the Sessions Judge",
+      "Subordinate to the District Magistrate",
+      "Subordinate directly to the Chief Minister",
+      "Subordinate to the Director of Prosecution"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 12(1) BNSS (Section 15(1) CrPC) mandates that every Chief Judicial Magistrate shall be subordinate to the Sessions Judge.",
+    "optionBreakdown": {
+      "A": "Correct; CJM is subordinate to the Sessions Judge.",
+      "B": "Judicial Magistrates are completely independent of DM under separation of powers.",
+      "C": "Violates judicial independence.",
+      "D": "Prosecution cannot supervise judges."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 12 / CrPC S. 15",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand judicial hierarchy and subordination of CJM.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-006",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "Who appoints Special Judicial Magistrates under Section 11 BNSS (Section 13 CrPC)?",
+    "options": [
+      "The High Court, upon request of Central or State Government",
+      "The Governor directly",
+      "The Law Minister",
+      "The Supreme Court Collegium"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The High Court may, if requested by Central or State Government, confer upon any qualified person the powers of a JMFC or JMIC as Special Judicial Magistrate for up to 1 year at a time.",
+    "optionBreakdown": {
+      "A": "Correct; High Court upon request of Central/State Govt.",
+      "B": "Governor does not appoint judicial magistrates.",
+      "C": "Executive cannot appoint.",
+      "D": "Collegium appoints constitutional court judges."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 11 / CrPC S. 13",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Special Judicial Magistrate appointment provisions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-007",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "Under Section 14 BNSS (Section 20 CrPC), who appoints Executive Magistrates in every district?",
+    "options": [
+      "The State Government, and appoints one of them to be the District Magistrate",
+      "The High Court",
+      "The Sessions Judge",
+      "The Central Home Ministry"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The State Government appoints in every district as many persons as it thinks fit to be Executive Magistrates, and appoints one to be District Magistrate.",
+    "optionBreakdown": {
+      "A": "Correct; State Government appoints Executive Magistrates.",
+      "B": "High Court appoints Judicial Magistrates.",
+      "C": "Sessions Judge supervises Judicial Magistrates.",
+      "D": "State subject."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 14 / CrPC S. 20",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify appointment authority for Executive Magistrates.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-008",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "Can an Additional Sessions Judge try cases directly without an order of committal or transfer from the Sessions Judge?",
+    "options": [
+      "No; an Additional Sessions Judge tries only cases made over by general or special order of the Sessions Judge or High Court",
+      "Yes, has concurrent direct original filing jurisdiction",
+      "Yes, in all non-bailable cases",
+      "Only on Sundays"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 8(3) BNSS / S. 9(3) CrPC, an Additional Sessions Judge exercises jurisdiction only over cases made over by the Sessions Judge or directed by High Court.",
+    "optionBreakdown": {
+      "A": "Correct; Additional Sessions Judge tries made-over cases.",
+      "B": "Direct filing is in Court of Session under Sessions Judge.",
+      "C": "Incorrect.",
+      "D": "Irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 8(3) / CrPC S. 9(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Additional Sessions Judge jurisdiction.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-009",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "In which landmark case did the Supreme Court enforce separation of the judiciary from the executive under Article 50 across subordinate criminal courts?",
+    "options": [
+      "State of Bihar v. Bal Mukund Sah (2000)",
+      "Kesavananda Bharati v. State of Kerala (1973)",
+      "Maneka Gandhi v. Union of India (1978)",
+      "A.K. Gopalan v. State of Madras (1950)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Bal Mukund Sah ((2000) 4 SCC 640) reaffirmed that subordinate criminal judiciary is under the exclusive control of the High Court pursuant to Article 50 and 235.",
+    "optionBreakdown": {
+      "A": "Correct; Bal Mukund Sah on separation of subordinate criminal courts.",
+      "B": "Basic structure doctrine.",
+      "C": "Procedure established by law under Art 21.",
+      "D": "Preventive detention."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 6 / Art. 50 / Bal Mukund Sah",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand constitutional separation in criminal judiciary.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-010",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-01",
+    "question": "Under Section 7 BNSS (Section 7 CrPC), every State shall be a sessions division or consist of sessions divisions, and every sessions division shall be:",
+    "options": [
+      "A district or consist of districts",
+      "A police station",
+      "A subdivision only",
+      "A municipality"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 7 BNSS mandates that every State shall be a sessions division or consist of sessions divisions; and every sessions division shall, for the purposes of this Sanhita, be a district or consist of districts.",
+    "optionBreakdown": {
+      "A": "Correct; sessions division is a district or consists of districts.",
+      "B": "Police station is an investigation unit.",
+      "C": "Subdivision is within district.",
+      "D": "Municipality is local self-govt unit."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 7 / CrPC S. 7",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define territorial units of criminal administration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-011",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "Under Section 22(2) BNSS (Section 28(2) CrPC), what sentences may a Sessions Judge or Additional Sessions Judge pass?",
+    "options": [
+      "Any sentence authorised by law, but any sentence of death passed by any such Judge shall be subject to confirmation by the High Court",
+      "Any sentence except death",
+      "Imprisonment up to 10 years only",
+      "Any sentence without requiring confirmation"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "A Sessions Judge or Additional Sessions Judge may pass any sentence authorised by law, but a death sentence requires confirmation by High Court under Chapter 30 (S. 407 BNSS / S. 366 CrPC).",
+    "optionBreakdown": {
+      "A": "Correct; any sentence, but death requires High Court confirmation.",
+      "B": "Sessions Judge CAN pass death sentence, subject to confirmation.",
+      "C": "10 years applies to Assistant Sessions Judge in CrPC.",
+      "D": "Confirmation is mandatory under statute."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 22(2) / CrPC S. 28(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Sessions Court sentencing jurisdiction.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-012",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "What significant change has BNSS 2023 made regarding Assistant Sessions Judges?",
+    "options": [
+      "The post and sentencing jurisdiction of Assistant Sessions Judge (formerly S. 28(3) CrPC: up to 10 years) has been abolished in BNSS",
+      "Assistant Sessions Judges can now pass death sentences",
+      "Assistant Sessions Judges are renamed Chief Magistrates",
+      "Assistant Sessions Judges are transferred to civil courts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "BNSS Section 22 completely eliminates Assistant Sessions Judges; only Sessions Judges and Additional Sessions Judges are retained at the Sessions level.",
+    "optionBreakdown": {
+      "A": "Correct; Assistant Sessions Judge post is omitted in BNSS.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 22 / CrPC S. 28(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master abolition of Assistant Sessions Judge in BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-013",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "What sentence may the Court of a Chief Judicial Magistrate (CJM) pass under Section 23(1) BNSS (Section 29(1) CrPC)?",
+    "options": [
+      "Any sentence authorised by law except a sentence of death or of imprisonment for life or of imprisonment for a term exceeding seven years",
+      "Imprisonment up to 3 years and fine up to Rs 50,000",
+      "Imprisonment up to 10 years",
+      "Any sentence authorised by law without restriction"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 23(1) BNSS (Section 29(1) CrPC) provides that a CJM may pass any sentence except death, life imprisonment, or imprisonment exceeding 7 years.",
+    "optionBreakdown": {
+      "A": "Correct; up to 7 years imprisonment (cannot pass death/life/7+ yrs).",
+      "B": "This applies to JMFC.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 23(1) / CrPC S. 29(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall sentencing power of CJM.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-014",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "What are the sentencing powers of a Judicial Magistrate First Class (JMFC) under Section 23(2) BNSS (Section 29(2) CrPC)?",
+    "options": [
+      "Imprisonment for a term not exceeding three years, or fine not exceeding Rs 50,000, or both, or community service",
+      "Imprisonment up to 1 year and fine up to Rs 5,000",
+      "Imprisonment up to 7 years",
+      "Imprisonment up to 3 years and fine up to Rs 10,000"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 23(2) BNSS increased the maximum fine for JMFC from Rs 10,000 (under CrPC) to Rs 50,000, and added community service as a sentencing option.",
+    "optionBreakdown": {
+      "A": "Correct; up to 3 years, fine up to Rs 50,000, or community service.",
+      "B": "Applies to JMIC under CrPC.",
+      "C": "Applies to CJM.",
+      "D": "Rs 10,000 was the old CrPC limit."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 23(2) / CrPC S. 29(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master enhanced JMFC fine limit (Rs 50,000) under BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-015",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "What are the sentencing powers of a Judicial Magistrate Second Class (JMIC) under Section 23(3) BNSS (Section 29(3) CrPC)?",
+    "options": [
+      "Imprisonment for a term not exceeding one year, or fine not exceeding Rs 10,000, or both, or community service",
+      "Imprisonment up to 3 years and fine up to Rs 50,000",
+      "Imprisonment up to 6 months only",
+      "Fine not exceeding Rs 1,000 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 23(3) BNSS increased the maximum fine for JMIC from Rs 5,000 to Rs 10,000, with imprisonment up to 1 year and community service.",
+    "optionBreakdown": {
+      "A": "Correct; up to 1 year, fine up to Rs 10,000, or community service.",
+      "B": "Applies to JMFC.",
+      "C": "Incorrect.",
+      "D": "Old pre-1978 limit."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 23(3) / CrPC S. 29(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master enhanced JMIC fine limit (Rs 10,000) under BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-016",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "Under Section 24 BNSS (Section 30 CrPC), what is the maximum imprisonment in default of payment of fine that a Magistrate may award?",
+    "options": [
+      "Not exceed one-fourth of the maximum term of imprisonment which the Magistrate is competent to inflict for the offence",
+      "Not exceed one-half of the substantive sentence",
+      "Equal to the full substantive sentence",
+      "Maximum 14 days in all cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 24(1)(b) BNSS / S. 30(1)(b) CrPC mandates that default imprisonment shall not exceed 1/4th of the maximum term the Magistrate is competent to inflict.",
+    "optionBreakdown": {
+      "A": "Correct; not exceed 1/4th of the competent imprisonment term.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 24 / CrPC S. 30",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply one-fourth default imprisonment rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-017",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "Can the term of imprisonment in default of fine be in addition to a substantive sentence of the maximum term awarded by the Magistrate?",
+    "options": [
+      "Yes, under Section 24(2) BNSS / S. 30(2) CrPC, default imprisonment may be in addition to substantive imprisonment of the maximum term competent",
+      "No, total imprisonment can never exceed the maximum jurisdiction",
+      "Only if the High Court permits",
+      "Only in warrant trials"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 24(2) BNSS (Section 30(2) CrPC) expressly states that the imprisonment awarded in default of fine may be in addition to a substantive sentence of the maximum term.",
+    "optionBreakdown": {
+      "A": "Correct; default imprisonment is in addition to substantive sentence.",
+      "B": "Default imprisonment does not merge with substantive ceiling.",
+      "C": "Statutory rule does not require case-by-case HC permission.",
+      "D": "Applies across all trials."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 24(2) / CrPC S. 30(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master default imprisonment additivity principle.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-018",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "Under Section 25 BNSS (Section 31 CrPC), when a person is convicted at one trial of two or more offences, what is the aggregate limit of consecutive sentences that a Magistrate may impose?",
+    "options": [
+      "Shall not exceed twice the amount of punishment which the Magistrate is competent to inflict for a single offence, nor exceed 14 years in aggregate",
+      "Shall not exceed 3 years",
+      "Shall not exceed 7 years",
+      "No aggregate ceiling exists"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 25(2) BNSS / S. 31(2) CrPC limits aggregate consecutive sentences: not exceeding twice the competent jurisdiction, and maximum 14 years.",
+    "optionBreakdown": {
+      "A": "Correct; twice the competent limit and maximum 14 years.",
+      "B": "Too low.",
+      "C": "Too low.",
+      "D": "Statutory ceiling exists."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 25 / CrPC S. 31",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master consecutive sentencing limits under S. 31 CrPC / S. 25 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-019",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "Under Section 407 BNSS (Section 366 CrPC), when a Court of Session passes a sentence of death:",
+    "options": [
+      "The proceedings shall be submitted to the High Court, and the sentence shall not be executed unless confirmed by the High Court",
+      "The convict is executed within 30 days unless he appeals",
+      "The Governor must confirm within 60 days",
+      "Execution proceeds automatically unless stayed by Supreme Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 407 BNSS (Section 366 CrPC) mandates that death sentence proceedings must be submitted to the High Court and cannot be executed until confirmed.",
+    "optionBreakdown": {
+      "A": "Correct; mandatory High Court confirmation.",
+      "B": "Execution without confirmation is illegal.",
+      "C": "Governor acts under Art 161 (clemency), not statutory confirmation.",
+      "D": "No automatic execution."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 407 / CrPC S. 366",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall death confirmation procedure.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-020",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-02",
+    "question": "How many Judges of the High Court must sign a confirmation of death sentence under Section 410 BNSS (Section 369 CrPC)?",
+    "options": [
+      "At least two Judges",
+      "A Single Judge is competent",
+      "All Judges of the Full Bench",
+      "A Bench of three Judges"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 410 BNSS (Section 369 CrPC) requires that confirmation or new sentence shall be made, passed and signed by at least two Judges when the High Court consists of two or more Judges.",
+    "optionBreakdown": {
+      "A": "Correct; at least two Judges must hear and sign.",
+      "B": "Single Judge cannot confirm capital sentence.",
+      "C": "Full bench not mandatory.",
+      "D": "Three judges required only on split bench reference (S. 370)."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 410 / CrPC S. 369",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Verify two-judge quorum for death confirmation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-031",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "Under Section 18 BNSS (Section 24 CrPC), how many years of practice as an advocate is mandatory for appointment as a Public Prosecutor or Additional Public Prosecutor?",
+    "options": [
+      "Not less than seven years",
+      "Not less than five years",
+      "Not less than ten years",
+      "Not less than three years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 18(7) BNSS / S. 24(7) CrPC requires not less than 7 years of practice as an advocate for PP or Additional PP.",
+    "optionBreakdown": {
+      "A": "Correct; not less than 7 years.",
+      "B": "Too short.",
+      "C": "10 years is required for Special Public Prosecutor.",
+      "D": "Too short."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 18(7) / CrPC S. 24(7)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall advocate experience for Public Prosecutor.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-032",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "What is the minimum practice required for appointment as a Special Public Prosecutor under Section 18(8) BNSS (Section 24(8) CrPC)?",
+    "options": [
+      "Not less than ten years as an advocate",
+      "Not less than seven years",
+      "Not less than fifteen years",
+      "Not less than five years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 18(8) BNSS (Section 24(8) CrPC) mandates not less than 10 years of practice as an advocate for Special Public Prosecutor.",
+    "optionBreakdown": {
+      "A": "Correct; not less than 10 years.",
+      "B": "7 years is for regular PP.",
+      "C": "Too high.",
+      "D": "Too low."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 18(8) / CrPC S. 24(8)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall experience for Special Public Prosecutor.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-033",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "Under Section 20 BNSS (Section 25A CrPC), who heads the Directorate of Prosecution in a State?",
+    "options": [
+      "Director of Prosecution, who shall be a person who has been an advocate for not less than 15 years or a Sessions Judge",
+      "The Advocate General ex officio",
+      "The Director General of Police",
+      "The Chief Secretary"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 20(2) BNSS provides that a person shall be eligible to be appointed as Director of Prosecution only if he has been in practice as an advocate for not less than 15 years or is or has been a Sessions Judge.",
+    "optionBreakdown": {
+      "A": "Correct; advocate for 15+ years or Sessions Judge.",
+      "B": "Advocate General is constitutional advisor under Art 165.",
+      "C": "Police cannot head prosecution.",
+      "D": "Civil bureaucracy."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 20 / CrPC S. 25A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall qualifications for Director of Prosecution.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-034",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "Who appoints Assistant Public Prosecutors (APPs) for conducting prosecutions in the Courts of Magistrates under Section 19 BNSS (Section 25 CrPC)?",
+    "options": [
+      "The State Government",
+      "The High Court",
+      "The Sessions Judge",
+      "The Superintendent of Police"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 19(1) BNSS (Section 25(1) CrPC) provides that the State Government shall appoint in every district one or more Assistant Public Prosecutors for conducting prosecution in Magistrate courts.",
+    "optionBreakdown": {
+      "A": "Correct; appointed by State Government.",
+      "B": "High Court does not appoint prosecutors.",
+      "C": "Sessions Judge does not appoint prosecutors.",
+      "D": "SP has no appointment authority."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 19 / CrPC S. 25",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall appointment authority for Assistant Public Prosecutors.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-035",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "Can a police officer be appointed as an Assistant Public Prosecutor under Section 19 BNSS (Section 25 CrPC)?",
+    "options": [
+      "No police officer shall be eligible if he has taken any part in the investigation into the offence, or is below the rank of Inspector",
+      "Yes, any police constable can prosecute",
+      "Yes, the Investigating Officer must always prosecute",
+      "Police officers are absolutely barred under all circumstances"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under S. 19(2)-(3) BNSS / S. 25(2)-(3) CrPC, a police officer cannot be appointed if below the rank of Inspector or if he has taken part in the investigation of the offence.",
+    "optionBreakdown": {
+      "A": "Correct; barred if investigated the offence or below Inspector rank.",
+      "B": "Constables cannot prosecute.",
+      "C": "IO cannot prosecute his own case (conflict of interest).",
+      "D": "Ad hoc appointment permitted if above Inspector and not investigated."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 19 / CrPC S. 25",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master police officer appointment restrictions as APP.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-036",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "In Sheonandan Paswan v. State of Bihar ((1987) 1 SCC 288), what was held regarding the role of the Public Prosecutor under Section 321 CrPC (Section 360 BNSS)?",
+    "options": [
+      "The Public Prosecutor is an officer of the court and a minister of justice; withdrawal from prosecution must be based on his independent executive judgment, not mere political dictation",
+      "Public Prosecutor is a mere mouthpiece of the ruling government",
+      "Court must mechanically grant withdrawal whenever requested",
+      "Only the victim can decide withdrawal"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Sheonandan Paswan established that the Public Prosecutor is a minister of justice who must exercise independent discretion free from executive coercion.",
+    "optionBreakdown": {
+      "A": "Correct; independent minister of justice exercising independent discretion.",
+      "B": "Rejected by Supreme Court.",
+      "C": "Court exercises judicial discretion.",
+      "D": "Prosecutor exercises statutory power."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 360 / CrPC S. 321 / Sheonandan Paswan",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Public Prosecutor independence doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-037",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "To whom is the Directorate of Prosecution administratively subordinate under Section 20(3) BNSS (Section 25A(3) CrPC)?",
+    "options": [
+      "The administrative head of the Home Department of the State",
+      "The Director General of Police",
+      "The High Court Registrar General",
+      "The Law Commission of India"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 20(3) BNSS / S. 25A(3) CrPC specifies that the Head of the Directorate of Prosecution shall function under the administrative control of the Head of the Home Department in the State.",
+    "optionBreakdown": {
+      "A": "Correct; functions under the Head of the Home Department.",
+      "B": "Explicitly segregated from DGP.",
+      "C": "Independent of judicial registry.",
+      "D": "Irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 20(3) / CrPC S. 25A(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify administrative control of Directorate of Prosecution.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-038",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "Under Section 18(4) BNSS (Section 24(4) CrPC), the District Magistrate prepares a panel of names of persons fit to be appointed as Public Prosecutors in consultation with:",
+    "options": [
+      "The Sessions Judge",
+      "The Superintendent of Police",
+      "The Chief Judicial Magistrate",
+      "The Bar Council Chairman"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 18(4) BNSS / S. 24(4) CrPC provides that the District Magistrate shall, in consultation with the Sessions Judge, prepare a panel of names.",
+    "optionBreakdown": {
+      "A": "Correct; in consultation with the Sessions Judge.",
+      "B": "SP is not the statutory consultee.",
+      "C": "Consultation is with Sessions Judge.",
+      "D": "Bar Council not involved in district panel."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 18(4) / CrPC S. 24(4)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall consultation authority for Public Prosecutor panel.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-039",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "In Shiv Kumar v. Hukam Chand ((1999) 7 SCC 467), what did the Supreme Court hold regarding the role of a private counsel engaged by a complainant?",
+    "options": [
+      "Private counsel must act under the directions of the Public Prosecutor and can only submit written arguments after evidence is closed with court permission",
+      "Private counsel can take over conduct of prosecution completely",
+      "Public Prosecutor must follow private counsel's instructions",
+      "Private counsel has equal standing with Public Prosecutor"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Shiv Kumar settled that private counsel engaged by victim acts in subordinate capacity under the Public Prosecutor under S. 301/302 CrPC (S. 338/339 BNSS).",
+    "optionBreakdown": {
+      "A": "Correct; acts subordinate to Public Prosecutor and submits written arguments.",
+      "B": "Cannot supersede Public Prosecutor in Sessions Court.",
+      "C": "PP is in charge.",
+      "D": "Not equal."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 338 & 339 / CrPC S. 301 & 302",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand subordinate role of private counsel.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-01-040",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-01",
+    "topicId": "top-crpc-01-03",
+    "question": "Under Section 18(1) BNSS, who appoints Public Prosecutors for the High Court?",
+    "options": [
+      "The Central Government or the State Government, after consultation with the High Court",
+      "The Chief Justice of the High Court alone",
+      "The Union Law Minister",
+      "The Governor without consultation"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 18(1) BNSS mandates that Central or State Government shall, after consultation with the High Court, appoint Public Prosecutors for the High Court.",
+    "optionBreakdown": {
+      "A": "Correct; Central or State Govt after consultation with High Court.",
+      "B": "Chief Justice does not appoint directly.",
+      "C": "Incorrect.",
+      "D": "Consultation is mandatory."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 18(1) / CrPC S. 24(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall High Court Public Prosecutor appointment rules.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-001",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "Under Section 35(1) BNSS (Section 41(1) CrPC), when can a police officer arrest without warrant a person against whom a reasonable complaint is made for an offence punishable up to 7 years?",
+    "options": [
+      "Only if the police officer has reason to believe on the basis of such complaint that such person has committed the offence AND satisfies one of the specific necessity conditions (preventing further offence, proper investigation, tampering, absconding)",
+      "Automatically upon registration of any cognizable FIR",
+      "Whenever requested by the complainant in writing",
+      "Only after obtaining sanction from the High Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 35(1)(b) BNSS / S. 41(1)(b) CrPC bars routine arrest for offences up to 7 years unless specific necessity criteria (a to e) are satisfied and recorded in writing.",
+    "optionBreakdown": {
+      "A": "Correct; necessity conditions must be satisfied and recorded.",
+      "B": "Routine arrest is barred.",
+      "C": "Complainant request does not justify arrest.",
+      "D": "Sanction from High Court not required."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 35(1)(b) / CrPC S. 41(1)(b)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master conditional arrest rule for offences up to 7 years.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-002",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "What did the Supreme Court hold in the landmark decision of Arnesh Kumar v. State of Bihar ((2014) 8 SCC 273)?",
+    "options": [
+      "Police officers must not arrest accused unnecessarily and Magistrates must not authorize detention mechanically; failure to comply with S. 41/41A attracts departmental action and contempt of court",
+      "Arrest is mandatory in all Section 498A IPC cases",
+      "Anticipatory bail is abolished for matrimonial offences",
+      "Police can detain suspects for 15 days without recording reasons"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Arnesh Kumar issued mandatory directions to prevent unnecessary arrests in offences punishable up to 7 years, enforcing checklist and magistrate scrutiny.",
+    "optionBreakdown": {
+      "A": "Correct; Arnesh Kumar mandatory arrest guidelines and contempt consequences.",
+      "B": "Opposite; barred automatic arrest in 498A.",
+      "C": "Bail preserved.",
+      "D": "Reasons must be recorded."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 35 / Arnesh Kumar (2014)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Arnesh Kumar arrest guidelines.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-003",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "Under Section 35(3) BNSS (Section 41A CrPC), when the arrest of a person is not required under sub-section (1), what must the police officer issue?",
+    "options": [
+      "A notice directing the person to appear before him or at such other place as may be specified",
+      "A non-bailable warrant",
+      "A proclamation under Section 82",
+      "An order of attachment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 35(3) BNSS (Section 41A CrPC) mandates issuing a Notice of Appearance where arrest is not necessary under Section 35(1).",
+    "optionBreakdown": {
+      "A": "Correct; Notice of Appearance under S. 35(3) BNSS / S. 41A CrPC.",
+      "B": "Warrants are issued by courts, not police.",
+      "C": "Proclamation is court order.",
+      "D": "Attachment is court order."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 35(3) / CrPC S. 41A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define Notice of Appearance.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-004",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "If a person complies with and continues to comply with a notice of appearance issued under Section 35(3) BNSS (Section 41A CrPC):",
+    "options": [
+      "He shall not be arrested in respect of the offence referred to in the notice unless, for reasons to be recorded, the police officer is of the opinion that he ought to be arrested",
+      "He can still be arrested mechanically without recording reasons",
+      "He must deposit cash security of Rs 50,000",
+      "He is immune from prosecution permanently"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 35(4) BNSS / S. 41A(3) CrPC confers statutory protection: person complying with notice shall not be arrested unless police record special reasons.",
+    "optionBreakdown": {
+      "A": "Correct; cannot be arrested unless reasons recorded.",
+      "B": "Mechanical arrest is barred.",
+      "C": "No cash deposit authorized.",
+      "D": "Immunity from arrest does not mean immunity from prosecution."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 35(4) / CrPC S. 41A(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand protection afforded by compliance with S. 41A notice.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-005",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "In Satender Kumar Antil v. CBI ((2022) 10 SCC 51), what did the Supreme Court hold regarding non-compliance with Section 41 and 41A CrPC?",
+    "options": [
+      "Non-compliance entitles the accused to bail as a matter of right, and courts must enforce strict adherence to arrest safeguards",
+      "Non-compliance is a minor irregularity having no effect on bail",
+      "Arrest without notice is valid if the accused is wealthy",
+      "Section 41A is merely directory, not mandatory"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Satender Kumar Antil categorized offences and held that non-compliance with S. 41/41A directly entitles the accused to bail.",
+    "optionBreakdown": {
+      "A": "Correct; violation entitles accused to bail.",
+      "B": "Rejected; fatal to lawful custody.",
+      "C": "Wealth is irrelevant.",
+      "D": "Statutory safeguards are mandatory."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 35 / Satender Kumar Antil (2022)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Satender Kumar Antil bail doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-006",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "What new safeguard does Section 35(7) BNSS introduce regarding arrest of elderly persons or persons suffering from infirmity?",
+    "options": [
+      "No arrest shall be made without prior permission of an officer not below Deputy Superintendent of Police where offence is punishable with less than 3 years and person is infirm or above 60 years",
+      "Complete immunity from trial",
+      "Trial can only be conducted at home",
+      "Arrest requires Presidential assent"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 35(7) BNSS introduces a crucial new reform: for offences under 3 years, if person is infirm or over 60, arrest requires prior DSP permission.",
+    "optionBreakdown": {
+      "A": "Correct; DSP permission required for elderly/infirm in petty offences.",
+      "B": "Not immune from trial.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 35(7)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master elderly/infirm arrest safeguard in BNSS S. 35(7).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-007",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "Can a private person arrest any person under Section 40 BNSS (Section 43 CrPC)?",
+    "options": [
+      "Yes, if any person in his presence commits a non-bailable and cognizable offence, or is a proclaimed offender",
+      "Yes, for any civil default",
+      "Yes, whenever a private person suspects an offence",
+      "Private persons have no legal right to arrest"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 40 BNSS (Section 43 CrPC) empowers any private person to arrest who in his presence commits a non-bailable and cognizable offence, or is a proclaimed offender.",
+    "optionBreakdown": {
+      "A": "Correct; non-bailable & cognizable committed in his presence, or proclaimed offender.",
+      "B": "Cannot arrest for civil debt.",
+      "C": "Mere suspicion insufficient for private arrest.",
+      "D": "Statutory right exists under S. 40."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 40 / CrPC S. 43",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master private person arrest powers.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-008",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "What must a private person do immediately after arresting an offender under Section 40(1) BNSS (Section 43(1) CrPC)?",
+    "options": [
+      "Without unnecessary delay, make over the person to a police officer, or take him to the nearest police station",
+      "Interrogate the suspect at his home",
+      "Confiscate his mobile phone and money",
+      "Keep him detained until he confesses"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 40(1) BNSS requires the private person to hand over the arrested person to a police officer or nearest police station without unnecessary delay.",
+    "optionBreakdown": {
+      "A": "Correct; hand over without unnecessary delay to police.",
+      "B": "Private interrogation is illegal.",
+      "C": "Private seizure is illegal.",
+      "D": "Constitutes wrongful confinement."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 40(1) / CrPC S. 43(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall duty of private person post-arrest.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-009",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "Under Section 41 BNSS (Section 44 CrPC), an Executive or Judicial Magistrate may arrest or order arrest of any person when:",
+    "options": [
+      "Any offence is committed in the presence of the Magistrate within his local jurisdiction",
+      "An offence is committed anywhere in India",
+      "A anonymous complaint is received by telephone",
+      "The person is acquitted by a Sessions Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 41(1) BNSS (Section 44(1) CrPC) allows a Magistrate to arrest or order arrest when any offence is committed in his presence within his local jurisdiction.",
+    "optionBreakdown": {
+      "A": "Correct; offence committed in his presence within local jurisdiction.",
+      "B": "Restricted to local jurisdiction.",
+      "C": "Telephone complaint insufficient without presence/process.",
+      "D": "Cannot arrest an acquitted person."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 41 / CrPC S. 44",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define Magistrate power of arrest under S. 44 CrPC / S. 41 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-010",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-01",
+    "question": "Under Section 35(1)(c) BNSS, a person who has been proclaimed as an offender can be arrested by:",
+    "options": [
+      "Any police officer without an order from a Magistrate and without a warrant",
+      "Only the CBI",
+      "Only the Sessions Judge personally",
+      "Only a police officer above SP rank"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 35(1)(c) BNSS empowers any police officer to arrest a proclaimed offender without warrant.",
+    "optionBreakdown": {
+      "A": "Correct; any police officer can arrest a proclaimed offender.",
+      "B": "Not limited to CBI.",
+      "C": "Police power.",
+      "D": "No rank restriction."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 35(1)(c) / CrPC S. 41(1)(c)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize proclaimed offender arrest authority.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-011",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Which groundbreaking statutory provision is introduced in Section 43(3) BNSS regarding the use of handcuffs?",
+    "options": [
+      "Codifies specific circumstances where police may use handcuffs (habitual/repeat offenders, escaped convicts, offences like terrorism, murder, rape, acid attack, organised crime)",
+      "Handcuffs are banned entirely in all circumstances",
+      "Police may handcuff any arrested person at their sole discretion",
+      "Handcuffs can only be used on women"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 43(3) BNSS provides statutory codification for handcuffs: permitted for habitual offenders, escapees, or grave offences (rape, murder, terrorism, drugs, organised crime).",
+    "optionBreakdown": {
+      "A": "Correct; Section 43(3) BNSS codifies specific handcuff grounds.",
+      "B": "Not totally banned under BNSS S. 43(3).",
+      "C": "Discretion is circumscribed by statutory list.",
+      "D": "Handcuffing women is strictly restricted."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 43(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master statutory handcuffing rules under BNSS S. 43(3).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-012",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "In Prem Shankar Shukla v. Delhi Administration ((1980) 3 SCC 526) and Citizen for Democracy (1995), what did the Supreme Court hold regarding handcuffing?",
+    "options": [
+      "Handcuffing is prima facie inhuman, unreasonable and violative of Article 21; can only be justified if there is clear, present risk of escape or violence recorded in writing",
+      "Handcuffs should be applied to all undertrials as routine safety",
+      "Every accused must be chained during transport",
+      "Judicial permission is never required for handcuffs"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Prem Shankar Shukla held that routine handcuffing violates human dignity under Art 21; special reasons must be recorded and judicial approval obtained.",
+    "optionBreakdown": {
+      "A": "Correct; leading constitutional authority on handcuff restraint.",
+      "B": "Rejected; routine handcuffing is unconstitutional.",
+      "C": "Rejected.",
+      "D": "Judicial oversight required."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 43(3) / Prem Shankar Shukla (1980)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze constitutional jurisprudence on handcuffing.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-013",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Under the Proviso to Section 43(1) BNSS (Section 46(1) CrPC), how must the arrest of a female be made?",
+    "options": [
+      "Her submission to custody on oral intimation shall be presumed, and unless circumstances otherwise require or officer is female, police officer shall not touch her person",
+      "She must be handcuffed immediately",
+      "Arrest can be made by male officers without any female officer present",
+      "She must be searched in public"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Proviso to S. 43(1) BNSS / S. 46(1) CrPC mandates that male police officers shall not touch the person of a woman for making arrest; custody is presumed on oral intimation.",
+    "optionBreakdown": {
+      "A": "Correct; male officers cannot touch female arrestee; submission presumed.",
+      "B": "Incorrect.",
+      "C": "Female officer required.",
+      "D": "Search must be private."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 43(1) / CrPC S. 46(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall procedure for arrest of a female.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-014",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Under Section 43(5) BNSS (Section 46(4) CrPC), what is the statutory bar regarding arrest of women between sunset and sunrise?",
+    "options": [
+      "No woman shall be arrested after sunset and before sunrise, save in exceptional circumstances and with prior permission of Judicial Magistrate First Class",
+      "No woman can ever be arrested at night under any circumstance",
+      "Police can arrest women at night if accompanied by two male witnesses",
+      "Arrest at night requires permission of the Superintendent of Police only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 43(5) BNSS (Section 46(4) CrPC) prohibits night arrest of women without prior written permission of Judicial Magistrate First Class.",
+    "optionBreakdown": {
+      "A": "Correct; prior permission of JMFC required in exceptional circumstances.",
+      "B": "Exceptional window with JMFC permission exists.",
+      "C": "Requires JMFC order, not merely male witnesses.",
+      "D": "JMFC permission, not SP."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 43(5) / CrPC S. 46(4)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master sunset-sunrise female arrest rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-015",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Under Section 49 BNSS (Section 51 CrPC), whenever a female is to be searched, the search shall be made by:",
+    "options": [
+      "Another female with strict regard to decency",
+      "Any police officer in presence of a Magistrate",
+      "A medical officer only",
+      "A male officer in presence of two women"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 49(2) BNSS / S. 51(2) CrPC requires that whenever a female is searched, search shall be made by another female with strict regard to decency.",
+    "optionBreakdown": {
+      "A": "Correct; search of female must be by female with strict decency.",
+      "B": "Male officer cannot search female.",
+      "C": "Medical officer is for examination under S. 51 BNSS / S. 53 CrPC.",
+      "D": "Male cannot conduct physical search."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 49(2) / CrPC S. 51(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall female search safeguards.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-016",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Under Section 53 BNSS (Section 54 CrPC), medical examination of an arrested person by a medical officer immediately after arrest is:",
+    "options": [
+      "Mandatory for every arrested person",
+      "Conducted only if the accused requests it in writing",
+      "Conducted only in murder cases",
+      "Conducted only if ordered by High Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 53 BNSS (Section 54 CrPC) mandates medical examination of every arrested person immediately after arrest by a medical officer.",
+    "optionBreakdown": {
+      "A": "Correct; mandatory examination of every arrestee.",
+      "B": "Mandatory by law, not dependent on accused's request.",
+      "C": "Applies across all offences.",
+      "D": "Statutory duty of police, no court order needed."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 53 / CrPC S. 54",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master mandatory medical examination post-arrest.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-017",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Under Section 36 BNSS (Section 41B CrPC), every police officer making an arrest shall prepare a memorandum of arrest which shall be:",
+    "options": [
+      "Attested by at least one witness who is a member of the family of the arrestee or a respectable member of the locality, and countersigned by the arrestee",
+      "Signed only by the police officer",
+      "Submitted to the High Court within 2 hours",
+      "Published in a local newspaper"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 36 BNSS (Section 41B CrPC) requires memo of arrest attested by at least one witness (family member or locality resident) and countersigned by arrestee.",
+    "optionBreakdown": {
+      "A": "Correct; statutory requirements of arrest memo.",
+      "B": "Must be attested by independent/family witness.",
+      "C": "Submitted to Magistrate, not HC.",
+      "D": "Not published in newspaper."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 36 / CrPC S. 41B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall arrest memo requirements.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-018",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Under Section 43(2) BNSS (Section 46(2) CrPC), does the right to use all means necessary to effect arrest extend to causing death of the person?",
+    "options": [
+      "No, nothing gives a right to cause death of a person who is not accused of an offence punishable with death or imprisonment for life",
+      "Yes, police can cause death of any fleeing suspect",
+      "Yes, in all non-bailable offences",
+      "Only if the suspect is a proclaimed offender"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 43(2) Proviso BNSS / S. 46(3) CrPC explicitly bars causing death unless the person is accused of an offence punishable with death or life imprisonment.",
+    "optionBreakdown": {
+      "A": "Correct; death can only be caused if offence carries death or life imprisonment.",
+      "B": "Strictly prohibited.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 43(2) / CrPC S. 46(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master statutory limitation on use of lethal force during arrest.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-019",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Under Section 50 BNSS (Section 52 CrPC), what power does a police officer have regarding offensive weapons found on an arrested person?",
+    "options": [
+      "May seize all offensive weapons and shall deliver all weapons so taken to the Court or officer before whom the arrested person is required to be produced",
+      "May sell the weapons at public auction",
+      "Must return the weapons to the arrestee's family immediately",
+      "Can destroy the weapons on the spot"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 50 BNSS (Section 52 CrPC) empowers the arresting officer to seize all offensive weapons and deliver them to the court or officer before whom arrestee is produced.",
+    "optionBreakdown": {
+      "A": "Correct; seize and deliver to court/officer.",
+      "B": "Auction is illegal.",
+      "C": "Cannot return weapons.",
+      "D": "Weapons are case property and cannot be destroyed on the spot."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 50 / CrPC S. 52",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall weapon seizure procedure.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-020",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-02",
+    "question": "Under Section 51 BNSS (Section 53 CrPC), examination of an accused for rape or sexual offences (DNA profiling, swab collection) can be conducted by:",
+    "options": [
+      "A registered medical practitioner at the request of a police officer not below the rank of Sub-Inspector",
+      "Any compounder or nurse",
+      "The Station House Officer himself",
+      "Only after the accused signs written consent"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 51 BNSS / S. 53A CrPC provides that examination of person accused of rape shall be made by a registered medical practitioner on request of police officer not below Sub-Inspector.",
+    "optionBreakdown": {
+      "A": "Correct; registered doctor on request of SI or above.",
+      "B": "Qualified doctor mandatory.",
+      "C": "Police cannot conduct medical exam.",
+      "D": "Reasonable force may be used; accused cannot veto examination."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 51 / CrPC S. 53A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall medical examination of rape accused.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-021",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "Under Section 58 BNSS (Section 57 CrPC) and Article 22(2) of the Constitution, what is the maximum period an arrested person can be detained in police custody without production before a Magistrate?",
+    "options": [
+      "Twenty-four hours exclusive of the time necessary for the journey from place of arrest to the Magistrate",
+      "Twenty-four hours inclusive of journey time",
+      "Forty-eight hours",
+      "Seventy-two hours"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 58 BNSS, Section 57 CrPC, and Article 22(2) Constitution mandate production within 24 hours exclusive of journey time.",
+    "optionBreakdown": {
+      "A": "Correct; 24 hours exclusive of journey time.",
+      "B": "Journey time is excluded.",
+      "C": "Too long.",
+      "D": "Too long."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 58 / CrPC S. 57 / Art. 22(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall 24-hour production rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-022",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "In which landmark case did the Supreme Court lay down 11 mandatory guidelines to prevent custodial violence and torture during arrest and detention?",
+    "options": [
+      "D.K. Basu v. State of West Bengal ((1997) 1 SCC 416)",
+      "Maneka Gandhi v. Union of India (1978)",
+      "Sunil Batra v. Delhi Administration (1980)",
+      "Rudul Sah v. State of Bihar (1983)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "D.K. Basu v. State of West Bengal established 11 mandatory guidelines including identification tags, memo of arrest, right to inform friend/relative, medical inspection.",
+    "optionBreakdown": {
+      "A": "Correct; D.K. Basu is the leading authority on arrest safeguards.",
+      "B": "Personal liberty procedure.",
+      "C": "Prisoners rights.",
+      "D": "Compensation for illegal detention."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 36-38 / D.K. Basu (1997)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master D.K. Basu arrest guidelines.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-023",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "Under Section 47 BNSS (Section 50 CrPC), what information must the police officer arresting a person without warrant immediately communicate?",
+    "options": [
+      "Full particulars of the offence for which he is arrested or other grounds for such arrest, and if offence is bailable, that he is entitled to be released on bail",
+      "Only the FIR number",
+      "The name of the informant",
+      "No information is required until production before Magistrate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 47 BNSS / S. 50 CrPC mandates communicating grounds of arrest immediately, and informing of right to bail if offence is bailable.",
+    "optionBreakdown": {
+      "A": "Correct; grounds of arrest and right to bail.",
+      "B": "FIR number alone is insufficient.",
+      "C": "Informant name not mandatory.",
+      "D": "Grounds must be given immediately at arrest."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 47 / CrPC S. 50",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall duty to inform grounds of arrest and bail eligibility.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-024",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "Under Section 38 BNSS (Section 41D CrPC), an arrested person is entitled to meet an advocate of his choice:",
+    "options": [
+      "During interrogation, though not throughout interrogation",
+      "Throughout interrogation continuously without interruption",
+      "Only after the police filing charge-sheet",
+      "Only after securing regular bail"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 38 BNSS (Section 41D CrPC) provides that an arrested person is entitled to meet an advocate of his choice during interrogation, though not throughout interrogation.",
+    "optionBreakdown": {
+      "A": "Correct; during interrogation, though not throughout.",
+      "B": "'Not throughout interrogation' is the statutory wording.",
+      "C": "Charge-sheet is months later.",
+      "D": "Right exists while in custody."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 38 / CrPC S. 41D",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall right to consult advocate during interrogation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-025",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "What new institution is created under Section 37 BNSS (Section 41C CrPC) for public transparency of arrests?",
+    "options": [
+      "Designated Police Officer in every district and at every police station, and display of names and addresses of all arrested persons on a digital portal / board",
+      "A national television channel for arrests",
+      "A military oversight council",
+      "An intelligence tribunal"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 37 BNSS strengthens arrest transparency by establishing a designated police officer in every district and police station and displaying arrestee names digitally.",
+    "optionBreakdown": {
+      "A": "Correct; designated officer and digital display of arrest information.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 37 / CrPC S. 41C",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify arrest transparency reforms in BNSS S. 37.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-026",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "In Pankaj Bansal v. Union of India ((2023) 16 SCC 1) and Prabir Purkayastha (2024), what did the Supreme Court hold regarding 'grounds of arrest'?",
+    "options": [
+      "Written copy of grounds of arrest must be furnished to the arrestee as a matter of constitutional mandate under Article 22(1)",
+      "Oral intimation is sufficient in all cases",
+      "Grounds need only be revealed in the charge-sheet",
+      "Police have no duty to disclose grounds"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Pankaj Bansal and Prabir Purkayastha mandated that written grounds of arrest must be served to enable effective exercise of right to legal counsel and bail.",
+    "optionBreakdown": {
+      "A": "Correct; written copy of grounds of arrest is constitutionally mandatory.",
+      "B": "Oral intimation held inadequate in Pankaj Bansal.",
+      "C": "Too late.",
+      "D": "Violates Art 22(1)."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 47 / Pankaj Bansal (2023)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master written grounds of arrest requirement.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-027",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "Under Section 48 BNSS (Section 50A CrPC), the police officer making an arrest must immediately give information regarding such arrest and place of custody to:",
+    "options": [
+      "Any friend, relative or other person disclosed or nominated by the arrested person",
+      "The local village pradhan only",
+      "The High Court Registrar",
+      "The media"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 48 BNSS (Section 50A CrPC) mandates informing a nominated friend, relative, or person disclosed by the arrestee.",
+    "optionBreakdown": {
+      "A": "Correct; nominated friend, relative or person disclosed.",
+      "B": "Pradhan not mandatory unless nominated.",
+      "C": "Not HC registrar.",
+      "D": "Media notice not required."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 48 / CrPC S. 50A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall obligation to inform nominated person.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-028",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "In Khatri (II) v. State of Bihar ((1981) 1 SCC 627) (Bhagalpur Blinding Case), what did the Supreme Court rule regarding legal aid for indigent accused?",
+    "options": [
+      "State is under a constitutional mandate under Article 21 to provide free legal aid to an indigent accused from the moment of arrest and first production before Magistrate",
+      "Legal aid is only required at the Supreme Court stage",
+      "Accused must pay 50% of the legal aid costs",
+      "Magistrate has no duty to inform accused of free legal aid"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Khatri held that the constitutional right to free legal aid attaches at the earliest moment of production before the Magistrate and Magistrate has a duty to inform accused.",
+    "optionBreakdown": {
+      "A": "Correct; free legal aid from first production before Magistrate.",
+      "B": "Attaches at trial/custody court.",
+      "C": "Must be free.",
+      "D": "Magistrate has affirmative duty to inform."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 341 / CrPC S. 304 / Khatri (1981)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master right to free legal aid at first remand.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-029",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "What is the legal effect if a police officer detains an arrested person beyond 24 hours without an order of a Magistrate under Section 167 CrPC / S. 187 BNSS?",
+    "options": [
+      "The detention becomes illegal and unlawful, rendering the officer liable for wrongful confinement (S. 127 BNS) and civil damages for violation of Article 21",
+      "The detention automatically becomes valid if charge-sheet is filed later",
+      "No consequence if the offence was murder",
+      "The arrestee is permanently acquitted of all charges"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Detention beyond 24 hours without a remand order constitutes illegal custody and wrongful confinement, entitling victim to habeas corpus and public law compensation.",
+    "optionBreakdown": {
+      "A": "Correct; illegal custody, wrongful confinement, and Art 21 violation.",
+      "B": "Subsequent charge-sheet does not cure prior illegal detention.",
+      "C": "Applies strictly to all offences.",
+      "D": "Does not automatically acquit, but custody is illegal."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 58 / CrPC S. 57 / Art. 21",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze consequences of violating 24-hour detention rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-02-030",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-02",
+    "topicId": "top-crpc-02-03",
+    "question": "Under Section 54 BNSS (Section 55A CrPC), who has the statutory duty to take reasonable care of the health and safety of the accused while in custody?",
+    "options": [
+      "The person having the custody of an accused",
+      "The accused's family members",
+      "The defence counsel",
+      "The High Court Bar Association"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 54 BNSS (Section 55A CrPC) mandates: 'It shall be the duty of the person having the custody of an accused to take reasonable care of the health and safety of the accused.'",
+    "optionBreakdown": {
+      "A": "Correct; statutory duty of custodian to take reasonable care of health and safety.",
+      "B": "Custodian bears statutory duty.",
+      "C": "Counsel is advocate, not custodian.",
+      "D": "Irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 54 / CrPC S. 55A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall statutory duty of care of arrestee's health.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-001",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "Under Section 63 BNSS (Section 61 CrPC), every summons issued by a court shall be:",
+    "options": [
+      "In writing, in duplicate, signed by the presiding officer of such court or designated officer, and shall bear the seal of the court",
+      "Sent orally via police telephone",
+      "Published in a gazette only",
+      "Drafted and signed by the complainant"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 63 BNSS (Section 61 CrPC) specifies form of summons: in writing, duplicate, signed by presiding officer, and bearing court seal.",
+    "optionBreakdown": {
+      "A": "Correct; in writing, duplicate, signed, and sealed.",
+      "B": "Oral intimation is not summons.",
+      "C": "Gazette is for proclamation, not ordinary summons.",
+      "D": "Issued by court, not complainant."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 63 / CrPC S. 61",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall form of summons.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-002",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "What major reform does Section 64(2) BNSS introduce regarding the service of summons?",
+    "options": [
+      "Explicitly authorizes service of summons in electronic form bearing digital signature or encrypted message via email, SMS or WhatsApp",
+      "Summons can only be delivered by physical horseback messenger",
+      "Electronic service is strictly banned",
+      "Electronic service applies only to government officers"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 64(2) BNSS codifies modern electronic service: summons may be served in electronic form by email, messaging platforms or encrypted transmission.",
+    "optionBreakdown": {
+      "A": "Correct; electronic service authorized under BNSS S. 64(2).",
+      "B": "Archaic.",
+      "C": "Explicitly permitted in BNSS.",
+      "D": "Applies generally."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 64(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master electronic service of summons in BNSS S. 64(2).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-003",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "Under Section 72 BNSS (Section 70 CrPC), every warrant of arrest issued by a court shall remain in force until:",
+    "options": [
+      "It is cancelled by the court which issued it, or until it is executed",
+      "The expiry of 6 months from the date of issue",
+      "The next general election",
+      "The retirement of the Magistrate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 72(2) BNSS (Section 70(2) CrPC) states: 'Every such warrant shall remain in force until it is cancelled by the court which issued it, or until it is executed.'",
+    "optionBreakdown": {
+      "A": "Correct; remains in force until executed or cancelled by court.",
+      "B": "Does not lapse automatically by passage of time.",
+      "C": "Irrelevant.",
+      "D": "Judicial vacancies do not cancel warrants."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 72(2) / CrPC S. 70(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master perpetual validity of warrant until executed/cancelled.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-004",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "What is a 'Bailable Warrant' under Section 73 BNSS (Section 71 CrPC)?",
+    "options": [
+      "A warrant with an endorsement by the court that if the person executes a bond with sufficient sureties, the officer shall release him from custody",
+      "A warrant that police can tear up if they like",
+      "A warrant issued only for witnesses",
+      "A summons disguised as warrant"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 73 BNSS (Section 71 CrPC) provides for endorsement on warrant directing security to be taken; upon furnishing security, the arrestee is released.",
+    "optionBreakdown": {
+      "A": "Correct; endorsed warrant with release on security.",
+      "B": "Police cannot disregard warrant.",
+      "C": "Applies to accused as well.",
+      "D": "Distinct statutory instrument."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 73 / CrPC S. 71",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define bailable warrant.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-005",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "Under Section 66 BNSS (Section 64 CrPC), if the person summoned cannot after the exercise of due diligence be found, summons may be served by leaving a duplicate for him with:",
+    "options": [
+      "Some adult member of his family residing with him",
+      "A servant of the family",
+      "Any neighbour on the street",
+      "The postman"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 66 BNSS (Section 64 CrPC) permits substituted service on some adult member of his family; Explanation clarifies a servant is not a member of the family.",
+    "optionBreakdown": {
+      "A": "Correct; some adult member of his family.",
+      "B": "Explanation explicitly excludes a servant.",
+      "C": "Neighbour is not family.",
+      "D": "Postman is delivery agent."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 66 / CrPC S. 64",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall adult family member service rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-006",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "In Inder Mohan Goswami v. State of Uttaranchal ((2007) 12 SCC 1), what did the Supreme Court hold regarding the issuance of non-bailable warrants (NBWs)?",
+    "options": [
+      "Non-bailable warrants involve curtailment of liberty and should not be issued mechanically; courts should first issue summons, then bailable warrants, and NBWs only as a last resort",
+      "NBWs must be issued immediately upon non-appearance to any summons",
+      "Magistrates have unfettered discretion to issue NBWs",
+      "NBWs can only be issued in murder cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Inder Mohan Goswami laid down that NBWs should not be issued mechanically where summons or bailable warrant would suffice, to balance individual liberty with administration of justice.",
+    "optionBreakdown": {
+      "A": "Correct; NBW is a tool of last resort.",
+      "B": "Mechanical NBW deprecated.",
+      "C": "Discretion is judicially circumscribed.",
+      "D": "Can be issued across offences as last resort."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 72 / Inder Mohan Goswami (2007)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Inder Mohan Goswami NBW issuance guidelines.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-007",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "Under Section 79 BNSS (Section 77 CrPC), where may a warrant of arrest be executed?",
+    "options": [
+      "At any place in India",
+      "Only within the district of the issuing court",
+      "Only within the police station jurisdiction",
+      "Only within the State"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 79 BNSS (Section 77 CrPC) provides: 'A warrant of arrest may be executed at any place in India.'",
+    "optionBreakdown": {
+      "A": "Correct; anywhere in India.",
+      "B": "Not limited to issuing district.",
+      "C": "Not limited to police station.",
+      "D": "National territorial scope."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 79 / CrPC S. 77",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall territorial scope of warrant execution.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-008",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "Under Section 67 BNSS (Section 65 CrPC), if service cannot by exercise of due diligence be effected under S. 64, 65 or 66, how may the summons be served?",
+    "options": [
+      "By affixing one of the duplicates to some conspicuous part of the house or homestead in which the person summoned ordinarily resides",
+      "By publishing in a national newspaper",
+      "By radio broadcast",
+      "The case must be dropped"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 67 BNSS (Section 65 CrPC) provides for affixing duplicate of summons to a conspicuous part of the house, followed by court inquiry.",
+    "optionBreakdown": {
+      "A": "Correct; affixation on conspicuous part of house.",
+      "B": "Newspaper is not the primary S. 65 method.",
+      "C": "Incorrect.",
+      "D": "Case is not dropped."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 67 / CrPC S. 65",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall service by affixation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-009",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "Under Section 74 BNSS (Section 72 CrPC), a warrant of arrest shall ordinarily be directed to:",
+    "options": [
+      "One or more police officers, but the court may direct it to any other person if immediate execution is necessary",
+      "The complainant personally",
+      "The District Magistrate",
+      "The Army Commander"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 74 BNSS (Section 72 CrPC) provides that a warrant is ordinarily directed to police officers, but court may direct to any other person if immediate execution is necessary.",
+    "optionBreakdown": {
+      "A": "Correct; ordinarily to police officers, but may be to any person if necessary.",
+      "B": "Not ordinarily to complainant.",
+      "C": "Not to DM.",
+      "D": "Military not involved in routine warrants."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 74 / CrPC S. 72",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall to whom warrants are directed.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-010",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-01",
+    "question": "What is the procedure under Section 77 BNSS (Section 75 CrPC) when a police officer executes a warrant of arrest?",
+    "options": [
+      "Shall notify the substance thereof to the person to be arrested, and, if so required, shall show him the warrant",
+      "Must read the entire charge-sheet to the person",
+      "Must obtain signature of two gazetted officers",
+      "Can arrest silently without disclosing any warrant"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 77 BNSS (Section 75 CrPC) requires notifying substance of warrant and showing it if required by the arrestee.",
+    "optionBreakdown": {
+      "A": "Correct; notify substance and show warrant if required.",
+      "B": "Charge-sheet not required at warrant execution.",
+      "C": "Gazetted officers not required.",
+      "D": "Secret arrest without disclosing warrant is illegal."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 77 / CrPC S. 75",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall notification of substance of warrant.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-021",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "Under Section 84(1) BNSS (Section 82(1) CrPC), what is the minimum statutory notice period that must be specified in a proclamation for an absconder?",
+    "options": [
+      "Not less than thirty days from the date of publishing such proclamation",
+      "Not less than fifteen days",
+      "Not less than sixty days",
+      "Not less than seven days"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 84(1) BNSS (Section 82(1) CrPC) mandates requiring the person to appear at a specified place and time not less than 30 days from date of publishing.",
+    "optionBreakdown": {
+      "A": "Correct; not less than 30 days from publishing.",
+      "B": "Too short.",
+      "C": "Too long.",
+      "D": "Too short."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 84(1) / CrPC S. 82(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall 30-day notice period for proclamation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-022",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "What is the legal effect if the proclamation published under Section 82 CrPC / S. 84 BNSS gives less than 30 days to appear?",
+    "options": [
+      "The proclamation is void ab initio and all consequential attachment proceedings under Section 83 CrPC / S. 85 BNSS are rendered completely illegal",
+      "It is a curable irregularity under Section 465 CrPC",
+      "It remains valid if approved by the Sessions Judge",
+      "The notice period is automatically extended by court staff"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Devendra Singh Negi and consistent High Court rulings settle that giving less than 30 clear days violates the statutory mandate, vitiating the proclamation and subsequent attachment.",
+    "optionBreakdown": {
+      "A": "Correct; void ab initio and vitiates attachment.",
+      "B": "Not curable under S. 465.",
+      "C": "Sessions Judge cannot cure void proclamation.",
+      "D": "Cannot be cured administratively."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 84 / CrPC S. 82",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master mandatory 30-day requirement and nullity of defect.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-023",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "Under Section 85(1) BNSS (Section 83(1) CrPC), when may the court order attachment of property of an absconding person?",
+    "options": [
+      "At any time after the issue of proclamation, but simultaneously with proclamation if the court is satisfied that the person is about to dispose of or remove property from district",
+      "Only after 1 year from proclamation",
+      "Only after the accused is convicted in absentia",
+      "Immediately before issuing warrant of arrest"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Attachment is ordered at any time after proclamation, but proviso allows simultaneous attachment if person is about to dispose of or remove property from local jurisdiction.",
+    "optionBreakdown": {
+      "A": "Correct; after proclamation, or simultaneously if disposing of property.",
+      "B": "Too late.",
+      "C": "Conviction not required.",
+      "D": "Cannot attach before proclamation."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 85(1) / CrPC S. 83(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master timing of attachment of property.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-024",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "Under Section 84(4) BNSS (Section 82(4) CrPC), for what offences may the court, after inquiry, pronounce an absconder as a 'Proclaimed Offender'?",
+    "options": [
+      "Offences punishable with imprisonment of 10 years or more, imprisonment for life, or death penalty (such as murder, kidnapping for ransom, dacoity)",
+      "Any bailable offence",
+      "Traffic challans and fine defaults",
+      "Simple hurt only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 84(4) BNSS expands the list of heinous offences (punishable with 10+ years, life, or death) where court can declare the person a 'proclaimed offender'.",
+    "optionBreakdown": {
+      "A": "Correct; heinous offences punishable with 10+ years, life, or death.",
+      "B": "Cannot declare proclaimed offender in petty bailable cases.",
+      "C": "Absurd.",
+      "D": "Too petty."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 84(4) / CrPC S. 82(4)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall offences attracting Proclaimed Offender declaration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-025",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "What is the time limit under Section 86 BNSS (Section 84 CrPC) for making claims and objections to attachment of property by third parties?",
+    "options": [
+      "Within six months from the date of the attachment",
+      "Within thirty days",
+      "Within three years",
+      "Within one year"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 86(1) BNSS (Section 84(1) CrPC) provides that claims or objections must be preferred within six months from date of attachment.",
+    "optionBreakdown": {
+      "A": "Correct; within six months from attachment.",
+      "B": "Too short.",
+      "C": "Too long.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 86 / CrPC S. 84",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall limitation period for third-party attachment claims.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-026",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "If a claim or objection to attachment is disallowed under Section 86 BNSS (Section 84 CrPC), what remedy is available to the claimant?",
+    "options": [
+      "May institute a civil suit within one year from date of disallowance to establish his right, subject to which the order shall be conclusive",
+      "Appeal directly to the Supreme Court",
+      "File an FIR against the Magistrate",
+      "No remedy exists"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 86(4) BNSS / S. 84(4) CrPC enables the aggrieved claimant to institute a regular civil suit within one year to establish ownership right.",
+    "optionBreakdown": {
+      "A": "Correct; civil suit within one year to establish property right.",
+      "B": "Direct SC appeal barred.",
+      "C": "Illegal.",
+      "D": "Civil remedy exists."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 86(4) / CrPC S. 84(4)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master civil suit remedy for disallowed attachment claims.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-027",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "Under Section 87 BNSS (Section 85 CrPC), if the proclaimed person appears within the time specified in the proclamation:",
+    "options": [
+      "The court shall make an order releasing the property from attachment",
+      "The property is automatically forfeited to the State",
+      "The property must be sold at auction immediately",
+      "The court must impose 50% property tax"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 87(1) BNSS / S. 85(1) CrPC provides that if proclaimed person appears within time, court shall release property from attachment.",
+    "optionBreakdown": {
+      "A": "Correct; court releases property from attachment.",
+      "B": "Forfeiture occurs only if he fails to appear.",
+      "C": "Sale is barred if he appears.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 87(1) / CrPC S. 85(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall release of property upon appearance.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-028",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "Under Section 87(3) BNSS (Section 85(3) CrPC), within what period may an absconder appear and prove that he did not abscond to recover property or net proceeds of sale?",
+    "options": [
+      "Within two years from the date of attachment",
+      "Within six months",
+      "Within five years",
+      "Within thirty days"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 87(3) BNSS / S. 85(3) CrPC gives a two-year window from attachment for the person to prove absence was involuntary (no notice/could not attend).",
+    "optionBreakdown": {
+      "A": "Correct; within two years from date of attachment.",
+      "B": "Six months is for third-party claims.",
+      "C": "Too long.",
+      "D": "Too short."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 87(3) / CrPC S. 85(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall two-year window to reclaim attached property.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-029",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "How is a proclamation published under Section 84(2) BNSS (Section 82(2) CrPC)?",
+    "options": [
+      "Publicly read in some conspicuous place of town/village, affixed to conspicuous part of house, affixed to conspicuous part of court-house, and may also be published in daily newspaper",
+      "Only whispered to village pradhan",
+      "Sent by unsealed postcard",
+      "Posted on the High Court website only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 84(2) BNSS mandates threefold publication: public reading in town/village, affixation on house, affixation on court-house, and optional newspaper publication.",
+    "optionBreakdown": {
+      "A": "Correct; public reading, house affixation, court affixation, and newspaper.",
+      "B": "Absurd.",
+      "C": "Insufficient.",
+      "D": "Local physical publication is mandatory."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 84(2) / CrPC S. 82(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall statutory mode of publishing proclamation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-030",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-02",
+    "question": "If the property attached consists of livestock or perishable articles, what may the court do under Section 85(2) BNSS (Section 83(2) CrPC)?",
+    "options": [
+      "May direct immediate sale thereof, and the proceeds shall abide the result of the inquiry",
+      "Must keep animals without food until trial ends",
+      "Must release livestock unconditionally",
+      "Must deliver livestock to the complainant"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 85(2) BNSS / S. 83(2) CrPC authorizes immediate sale of livestock or perishable property, with proceeds held in deposit.",
+    "optionBreakdown": {
+      "A": "Correct; immediate sale of perishables/livestock.",
+      "B": "Inhuman and illegal.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 85(2) / CrPC S. 83(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall perishable property attachment rules.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-031",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "Under Section 94 BNSS (Section 91 CrPC), who may issue a summons or written order to produce any document or other thing necessary for inquiry, trial or investigation?",
+    "options": [
+      "Any Court or any officer in charge of a police station",
+      "Only the High Court",
+      "Only a Sessions Judge",
+      "The defence counsel"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 94 BNSS (Section 91 CrPC) empowers either a Court (by summons) or an officer in charge of a police station (by written order) to require production.",
+    "optionBreakdown": {
+      "A": "Correct; any Court or officer in charge of police station.",
+      "B": "Not limited to High Court.",
+      "C": "Not limited to Sessions.",
+      "D": "Defence counsel cannot issue statutory process."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 94 / CrPC S. 91",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify authorities empowered to issue process to produce documents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-032",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "In State of Gujarat v. Shyamlal Mohanlal Choksi (AIR 1965 SC 1251), what did the Constitution Bench hold regarding Section 91 CrPC (Section 94 BNSS)?",
+    "options": [
+      "Section 91 CrPC does not apply to an accused person, because compelling an accused to produce incriminating documents violates Article 20(3) (protection against self-incrimination)",
+      "Section 91 applies equally to accused persons",
+      "Accused can be jailed for refusing to produce confession diary",
+      "Section 91 is unconstitutional"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Shyamlal Mohanlal Choksi held that Section 91 CrPC cannot be used to compel an accused to produce self-incriminating documents in view of Article 20(3).",
+    "optionBreakdown": {
+      "A": "Correct; Section 91 does not apply to an accused person.",
+      "B": "Rejected by Constitution Bench.",
+      "C": "Violates Art 20(3).",
+      "D": "Provision is valid as applied to witnesses/others."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 94 / CrPC S. 91 / Shyamlal Choksi (1965)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Shyamlal Choksi rule on S. 91 and Article 20(3).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-033",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "Under Section 96 BNSS (Section 93 CrPC), when may a court issue a Search Warrant?",
+    "options": [
+      "Where the court has reason to believe that a person will not produce the document on summons, or where it is not known who possesses it, or for general search/inspection",
+      "Whenever police request verbally",
+      "In all civil disputes",
+      "Only with consent of property owner"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 96 BNSS (Section 93 CrPC) enumerates three conditions: (a) belief of non-compliance with S. 91; (b) possessor unknown; (c) general search/inspection necessary.",
+    "optionBreakdown": {
+      "A": "Correct; three statutory grounds under S. 96 BNSS / S. 93 CrPC.",
+      "B": "Verbal request insufficient.",
+      "C": "Criminal procedure, not civil.",
+      "D": "Search warrant overcomes lack of consent."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 96 / CrPC S. 93",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall conditions for issuing search warrant.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-034",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "Under Section 96(3) BNSS (Section 93(3) CrPC), who alone can issue a search warrant for a document, parcel or thing in the custody of the postal or telegraph authority?",
+    "options": [
+      "The District Magistrate or Chief Judicial Magistrate",
+      "Any Judicial Magistrate of the second class",
+      "Any Sub-Inspector of police",
+      "The Station House Officer"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 96(3) BNSS / S. 93(3) CrPC restricts search warrants for postal/telegraph custody strictly to the District Magistrate or Chief Judicial Magistrate.",
+    "optionBreakdown": {
+      "A": "Correct; District Magistrate or Chief Judicial Magistrate exclusively.",
+      "B": "JMIC lacks jurisdiction.",
+      "C": "Police officers cannot issue.",
+      "D": "SHO cannot issue."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 96(3) / CrPC S. 93(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master exclusive jurisdiction for postal search warrants.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-035",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "Under Section 100 BNSS (Section 97 CrPC), when may a District Magistrate, SDM or Magistrate First Class issue a search warrant for persons wrongfully confined?",
+    "options": [
+      "If there is reason to believe that any person is confined under such circumstances that the confinement amounts to an offence",
+      "Whenever a tenant fails to pay rent",
+      "Whenever a husband files for restitution of conjugal rights",
+      "Only after a civil decree is passed"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 100 BNSS (Section 97 CrPC) provides a summary search warrant (quasi-habeas corpus) where a person is wrongfully confined amounting to an offence.",
+    "optionBreakdown": {
+      "A": "Correct; search warrant for person wrongfully confined.",
+      "B": "Rent dispute is civil.",
+      "C": "Restitution is civil matrimonial remedy.",
+      "D": "No civil decree required."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 100 / CrPC S. 97",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define quasi-habeas corpus search warrant under S. 97 CrPC / S. 100 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-036",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "Under Section 103 BNSS (Section 100 CrPC), before making a search under this Chapter, the officer shall call upon:",
+    "options": [
+      "Two or more independent and respectable inhabitants of the locality to attend and witness the search",
+      "Any two police constables",
+      "The accused's family members only",
+      "A magistrate personally"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 103(4) BNSS / S. 100(4) CrPC mandates calling upon two or more independent and respectable inhabitants of the locality as search witnesses (panchas).",
+    "optionBreakdown": {
+      "A": "Correct; two or more independent respectable locality inhabitants.",
+      "B": "Police personnel cannot be independent panch witnesses.",
+      "C": "Family members are not independent.",
+      "D": "Magistrate presence not mandatory."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 103 / CrPC S. 100",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall independent witness requirement for search (panchnama).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-037",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "What groundbreaking technological requirement does Section 105 BNSS introduce regarding searches and seizures?",
+    "options": [
+      "The process of conducting search of place or taking seizure of any property shall be recorded through audio-video electronic means, preferably by mobile phone",
+      "All searches must be broadcast on public television",
+      "Searches must be conducted using drone cameras only",
+      "Electronic recording is prohibited during searches"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 105 BNSS is a monumental reform mandating mandatory audio-video electronic recording of searches and seizures and forwarding recording to Magistrate within 48 hours.",
+    "optionBreakdown": {
+      "A": "Correct; mandatory audio-video electronic recording under Section 105 BNSS.",
+      "B": "Public broadcast not required.",
+      "C": "Drones not mandatory.",
+      "D": "Explicitly mandated."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 105",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master mandatory videography of search and seizure under BNSS S. 105.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-038",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "Under Section 107 BNSS (Section 104 CrPC), what power does any Court have regarding documents or things produced before it?",
+    "options": [
+      "May, if it thinks fit, impound any document or thing produced before it under this Sanhita",
+      "Must destroy the document after 7 days",
+      "Must return the document immediately without inspection",
+      "Can sell the document at market rate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 107 BNSS (Section 104 CrPC) provides: 'Any Court may, if it thinks fit, impound any document or thing produced before it under this Sanhita.'",
+    "optionBreakdown": {
+      "A": "Correct; court may impound document or thing produced.",
+      "B": "Destruction is illegal.",
+      "C": "Court retains for trial.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 107 / CrPC S. 104",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall impounding powers under S. 104 CrPC / S. 107 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-039",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "Can a police officer conduct a search without a warrant under Section 185 BNSS (Section 165 CrPC)?",
+    "options": [
+      "Yes, if he has reasonable grounds for believing that anything necessary for investigation cannot be otherwise obtained without undue delay, and records grounds in writing",
+      "No, warrantless search by police is void under all circumstances",
+      "Yes, without recording any reasons",
+      "Only in the presence of the Governor"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 185 BNSS / S. 165 CrPC allows emergent search by IO without warrant, provided he records reasons in writing and specifies thing to be searched.",
+    "optionBreakdown": {
+      "A": "Correct; emergent search permitted if reasons recorded in writing.",
+      "B": "S. 165 is a recognized statutory exception.",
+      "C": "Recording reasons is mandatory.",
+      "D": "Absurd."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 185 / CrPC S. 165",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master police warrantless search under S. 165 CrPC / S. 185 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-03-040",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-03",
+    "topicId": "top-crpc-03-03",
+    "question": "In State of Maharashtra v. Natwarlal Damodardas Soni ((1980) 4 SCC 669), what was held regarding evidence obtained through an illegal search?",
+    "options": [
+      "Illegality of search does not per se vitiate the trial or render the evidence inadmissible; court will only scrutinize evidence with greater care",
+      "Evidence obtained through illegal search is automatically excluded under Indian law",
+      "The accused must be discharged immediately",
+      "The investigating officer must be sentenced to 3 years imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Indian law follows the English doctrine: illegality of search does not render seized evidence inadmissible per se (Pooran Mal doctrine affirmed in Natwarlal).",
+    "optionBreakdown": {
+      "A": "Correct; evidence remains admissible though scrutinized with greater care.",
+      "B": "US exclusionary rule does not apply in India.",
+      "C": "No automatic discharge.",
+      "D": "Trial continues on merits."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 103 / Natwarlal (1980) / Pooran Mal",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze admissibility of evidence obtained through illegal search.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-001",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "Under Section 126 BNSS (Section 106 CrPC), when a Court of Session or Magistrate First Class convicts a person of rioting, assault or offences involving breach of peace, what security may it demand?",
+    "options": [
+      "Security for keeping the peace for a period not exceeding three years",
+      "Security for good behaviour for 7 years",
+      "Cash security of Rs 10 lakhs",
+      "Imprisonment in a labour camp"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 126 BNSS (Section 106 CrPC) empowers the trial court upon conviction to order bond with or without sureties for keeping peace up to 3 years.",
+    "optionBreakdown": {
+      "A": "Correct; security for keeping peace up to 3 years upon conviction.",
+      "B": "Good behaviour is S. 108-110 CrPC.",
+      "C": "Excessive amount barred.",
+      "D": "Unconstitutional."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 126 / CrPC S. 106",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall post-conviction security for keeping peace.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-002",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "Under Section 127 BNSS (Section 107 CrPC), who may initiate preventive proceedings for Security for keeping the peace in other cases?",
+    "options": [
+      "An Executive Magistrate, upon information that any person is likely to commit a breach of peace or disturb public tranquility",
+      "A Judicial Magistrate Second Class",
+      "The Chief Judicial Magistrate exclusively",
+      "The Superintendent of Police"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 127 BNSS (Section 107 CrPC) confers jurisdiction on Executive Magistrates to take security for keeping peace up to 1 year.",
+    "optionBreakdown": {
+      "A": "Correct; Executive Magistrate upon information of likely breach of peace.",
+      "B": "Executive Magistrates handle S. 107 proceedings.",
+      "C": "Not CJM.",
+      "D": "Police officer reports, Magistrate adjudicates."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 127 / CrPC S. 107",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall jurisdiction for S. 107 preventive proceedings.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-003",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "What is the maximum period for which security for keeping the peace may be required under Section 127 BNSS (Section 107 CrPC)?",
+    "options": [
+      "Not exceeding one year",
+      "Not exceeding three years",
+      "Not exceeding six months",
+      "Not exceeding five years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 127(1) BNSS / S. 107(1) CrPC specifies that the bond shall be for a period not exceeding one year.",
+    "optionBreakdown": {
+      "A": "Correct; not exceeding one year.",
+      "B": "3 years applies to S. 106 (on conviction) and S. 110 (habitual offenders).",
+      "C": "Too short.",
+      "D": "Too long."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 127 / CrPC S. 107",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall one-year limit for S. 107 peace bond.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-004",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "Under Section 130 BNSS (Section 110 CrPC), security for good behaviour from habitual offenders may be demanded for a period not exceeding:",
+    "options": [
+      "Three years",
+      "One year",
+      "Six months",
+      "Five years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 130 BNSS (Section 110 CrPC) empowers Executive Magistrates to require habitual offenders to execute a bond for good behaviour up to 3 years.",
+    "optionBreakdown": {
+      "A": "Correct; not exceeding three years.",
+      "B": "1 year applies to S. 107, 108, 109.",
+      "C": "Too short.",
+      "D": "Too long."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 130 / CrPC S. 110",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall three-year limit for habitual offender good behaviour bond.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-005",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "In Madhu Limaye v. Sub-Divisional Magistrate ((1970) 3 SCC 746), what did the Supreme Court hold regarding Chapter VIII preventive proceedings (Sections 106–110 CrPC)?",
+    "options": [
+      "Chapter VIII proceedings are constitutional and constitute reasonable restrictions under Article 19(2)-(5) in the interest of public order, but must comply strictly with natural justice",
+      "Chapter VIII is unconstitutional and violates fundamental rights",
+      "Magistrates can demand bonds without conducting any inquiry",
+      "Police can detain suspects indefinitely without Magistrate inquiry"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Madhu Limaye Constitution Bench upheld the constitutional validity of Chapter VIII CrPC, ruling that preventive justice is distinct from punitive justice but requires fair hearing.",
+    "optionBreakdown": {
+      "A": "Correct; constitutional reasonable restriction complying with fair procedure.",
+      "B": "Rejected; upheld validity.",
+      "C": "Inquiry is mandatory under S. 116 CrPC / S. 135 BNSS.",
+      "D": "Indefinite detention illegal."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 127-135 / Madhu Limaye (1970)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Madhu Limaye constitutional ruling on preventive bonds.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-006",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "Under Section 135 BNSS (Section 116 CrPC), what is the maximum duration within which an inquiry under Chapter VIII must be completed?",
+    "options": [
+      "Within six months from date of commencement, failing which the proceeding shall stand terminated unless extended for special reasons recorded in writing",
+      "Within thirty days",
+      "Within three years",
+      "No time limit exists"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 135(6) BNSS / S. 116(6) CrPC mandates that inquiry shall be completed within six months, failing which it terminates automatically unless extended for special reasons.",
+    "optionBreakdown": {
+      "A": "Correct; completed within six months or terminates automatically.",
+      "B": "Too short.",
+      "C": "Too long.",
+      "D": "Statutory termination rule exists."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 135(6) / CrPC S. 116(6)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master 6-month statutory inquiry termination rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-007",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "Under Section 128 BNSS (Section 108 CrPC), security for good behaviour may be required from persons disseminating:",
+    "options": [
+      "Seditious matters, matters promoting enmity between classes, or obscene matters",
+      "Lawful political criticism of municipal tax",
+      "Commercial advertisements",
+      "Scientific research papers"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 128 BNSS (Section 108 CrPC) covers dissemination of matters punishable under BNS S. 152, 196, 197, or 294.",
+    "optionBreakdown": {
+      "A": "Correct; matters endangering sovereignty, promoting enmity, or obscenity.",
+      "B": "Lawful criticism protected.",
+      "C": "Commercial speech.",
+      "D": "Scientific speech."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 128 / CrPC S. 108",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall scope of S. 108 CrPC / S. 128 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-008",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "Under Section 129 BNSS (Section 109 CrPC), security for good behaviour is taken from suspected persons who:",
+    "options": [
+      "Are taking precautions to conceal their presence with a view to committing a cognizable offence",
+      "Are sleeping on a park bench peacefully",
+      "Are unemployed graduates",
+      "Have failed to pay their electricity bill"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 129 BNSS (Section 109 CrPC) applies to persons taking precautions to conceal presence with a view to committing a cognizable offence (bond up to 1 year).",
+    "optionBreakdown": {
+      "A": "Correct; concealing presence with view to committing cognizable offence.",
+      "B": "Sleeping peacefully is no ground.",
+      "C": "Unemployment is not an offence.",
+      "D": "Civil recovery."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 129 / CrPC S. 109",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall ingredients of S. 109 CrPC / S. 129 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-009",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "What is the consequence if a person ordered to give security under Section 106 or 117 CrPC (Section 126 or 136 BNSS) fails to give such security?",
+    "options": [
+      "Shall be committed to prison until such period expires or until he gives security to the court",
+      "He shall be sentenced to 7 years rigorous imprisonment",
+      "He loses his Indian citizenship",
+      "His ancestral property is forfeited automatically"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 141 BNSS (Section 122 CrPC) provides that failure to give security results in detention in prison until period expires or security is given.",
+    "optionBreakdown": {
+      "A": "Correct; detention in prison until period expires or security given.",
+      "B": "Substantive sentence of 7 years cannot be passed.",
+      "C": "Citizenship unaffected.",
+      "D": "No automatic forfeiture."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 141 / CrPC S. 122",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall detention consequences for failure to give security.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-010",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-01",
+    "question": "Can an order under Section 111 CrPC / Section 130 BNSS requiring an individual to show cause be issued without setting forth the substance of the information received?",
+    "options": [
+      "No, the order must be in writing setting forth the substance of information received, amount of bond, term, and number/character of sureties",
+      "Yes, Magistrates can issue blank orders",
+      "Yes, police can fill in the details later",
+      "Information received must be kept permanently secret"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 130 BNSS (Section 111 CrPC) mandates a written order setting forth substance of information, bond amount, period, and sureties to satisfy natural justice.",
+    "optionBreakdown": {
+      "A": "Correct; substance of information and bond details mandatory.",
+      "B": "Blank show cause orders are void.",
+      "C": "Magistrate must draft and apply mind.",
+      "D": "Secret orders violate natural justice."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 130 / CrPC S. 111",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master mandatory contents of show-cause order under S. 111 CrPC.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-011",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "Which provision of the Bharatiya Nagarik Suraksha Sanhita, 2023 corresponds to the famous Section 144 CrPC (urgent orders in cases of nuisance or apprehended danger)?",
+    "options": [
+      "Section 163 BNSS",
+      "Section 144 BNSS",
+      "Section 187 BNSS",
+      "Section 223 BNSS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 163 BNSS corresponds directly to Section 144 CrPC.",
+    "optionBreakdown": {
+      "A": "Correct; Section 163 BNSS corresponds to Section 144 CrPC.",
+      "B": "Section 144 BNSS corresponds to Section 125 CrPC (Maintenance).",
+      "C": "Section 187 BNSS corresponds to Section 167 CrPC (Remand).",
+      "D": "Section 223 BNSS is disobedience to public order."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 163 / CrPC S. 144",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master statutory mapping: S. 144 CrPC is S. 163 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-012",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "What is the maximum initial validity period of an order passed by an Executive Magistrate under Section 163(4) BNSS (Section 144(4) CrPC)?",
+    "options": [
+      "Not exceed two months from the making thereof",
+      "Not exceed six months",
+      "Not exceed fourteen days",
+      "One year"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 163(4) BNSS (Section 144(4) CrPC) mandates that no order under this section shall remain in force for more than two months from the making thereof.",
+    "optionBreakdown": {
+      "A": "Correct; maximum two months initially.",
+      "B": "Six months is the maximum extension by State Government.",
+      "C": "Too short.",
+      "D": "Too long."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 163(4) / CrPC S. 144(4)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall 2-month initial validity period of S. 144 order.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-013",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "Under the Proviso to Section 163(4) BNSS (Section 144(4) CrPC), the State Government may extend an order under this section for a further period not exceeding:",
+    "options": [
+      "Six months from the date on which the order made by the Magistrate would have expired",
+      "Two years",
+      "One year",
+      "Indefinitely"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Proviso to Section 163(4) BNSS / S. 144(4) CrPC allows the State Government to extend the order for a maximum period not exceeding six months.",
+    "optionBreakdown": {
+      "A": "Correct; State Government can extend up to six months.",
+      "B": "Too long.",
+      "C": "Too long.",
+      "D": "Indefinite extension is unconstitutional."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 163(4) Proviso / CrPC S. 144(4) Proviso",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall 6-month maximum extension by State Government.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-014",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "In Anuradha Bhasin v. Union of India ((2020) 3 SCC 637), what did the Supreme Court hold regarding the exercise of powers under Section 144 CrPC?",
+    "options": [
+      "Power under Section 144 cannot be used to suppress legitimate expression of democratic rights; repetitive orders without material facts constitute abuse of power, and proportionality test must be satisfied",
+      "Section 144 orders are immune from judicial review",
+      "Internet shutdown orders under S. 144 can be indefinite",
+      "Magistrate has unfettered subjective discretion"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Anuradha Bhasin established that S. 144 orders must satisfy the test of proportionality, cannot be repetitive or indefinite, and are subject to judicial review.",
+    "optionBreakdown": {
+      "A": "Correct; proportionality test and bar on repetitive orders suppressing democratic rights.",
+      "B": "Subject to judicial review.",
+      "C": "Indefinite shutdowns declared illegal.",
+      "D": "Subjective satisfaction must be based on objective material."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 163 / Anuradha Bhasin (2020)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Anuradha Bhasin ruling on S. 144 CrPC.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-015",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "Can an order under Section 163 BNSS (Section 144 CrPC) be passed ex parte?",
+    "options": [
+      "Yes, under subsection (2), in cases of emergency or in cases where circumstances do not admit of the serving of notice in due time",
+      "No, prior notice to all affected citizens is mandatory under all circumstances",
+      "Only if approved by High Court within 24 hours",
+      "Only during general elections"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 163(2) BNSS / S. 144(2) CrPC explicitly permits ex parte orders in cases of emergency or where notice cannot be served in due time.",
+    "optionBreakdown": {
+      "A": "Correct; ex parte order permitted in emergency.",
+      "B": "Notice can be dispensed with in emergency.",
+      "C": "HC approval not needed for ex parte order.",
+      "D": "Not limited to elections."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 163(2) / CrPC S. 144(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall emergency ex parte orders under S. 144 CrPC.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-016",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "Under Section 163(1) BNSS (Section 144(1) CrPC), which of the following is NOT a legitimate objective for passing an order?",
+    "options": [
+      "Suppressing peaceful political criticism of government policies",
+      "Preventing obstruction, annoyance or injury to any person lawfully employed",
+      "Preventing danger to human life, health or safety",
+      "Preventing a riot or an affray"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Suppressing peaceful lawful dissent violates Article 19(1)(a) and is an illegal abuse of power outside Section 144 objectives.",
+    "optionBreakdown": {
+      "A": "Correct; suppressing peaceful political criticism is illegal.",
+      "B": "Statutory objective under S. 163(1).",
+      "C": "Statutory objective.",
+      "D": "Statutory objective."
+    },
+    "difficulty": "Easy",
+    "provision": "BNSS S. 163(1) / CrPC S. 144(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify statutory grounds for Section 144 orders.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-017",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "Under Section 163(5)-(6) BNSS (Section 144(5)-(6) CrPC), what opportunity must be given to an aggrieved person who applies to rescind or alter an order?",
+    "options": [
+      "The Magistrate or State Government shall afford him an earliest opportunity of showing cause or being heard",
+      "His application must be dismissed without hearing",
+      "He must deposit Rs 1 lakh fine before being heard",
+      "He must be detained under preventive detention"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 163(5)-(6) BNSS / S. 144(5)-(6) CrPC mandates giving the applicant an earliest opportunity of showing cause, and recording reasons in writing if rejected.",
+    "optionBreakdown": {
+      "A": "Correct; right to be heard and show cause at earliest opportunity.",
+      "B": "Hearing is mandatory.",
+      "C": "No deposit required.",
+      "D": "Illegal."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 163(5) / CrPC S. 144(5)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall right of hearing against S. 144 order.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-018",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "Can an order under Section 163 BNSS (Section 144 CrPC) be directed to the general public?",
+    "options": [
+      "Yes, under subsection (3), an order may be directed to a particular individual, or to persons residing in a particular place, or to the public generally when frequenting a particular place",
+      "No, must only be addressed to named individuals",
+      "Only to foreigners",
+      "Only to registered political parties"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 163(3) BNSS / S. 144(3) CrPC explicitly states that order may be directed to public generally when frequenting or visiting a particular place.",
+    "optionBreakdown": {
+      "A": "Correct; order can be directed to public generally frequenting a particular place.",
+      "B": "Can apply to public generally.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 163(3) / CrPC S. 144(3)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall addressees of S. 144 orders.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-019",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "In Babulal Parate v. State of Maharashtra (AIR 1961 SC 884), what did the Constitution Bench hold regarding the nature of power under Section 144 CrPC?",
+    "options": [
+      "The power is preventive and intended to be used in anticipatory emergencies to prevent breaches of peace before they actually occur",
+      "Power can only be used after a riot has killed at least five people",
+      "Power is purely administrative and non-judicial",
+      "Section 144 was declared unconstitutional"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Babulal Parate established that Section 144 is designed for preventive use in emergent situations to nip violence in the bud.",
+    "optionBreakdown": {
+      "A": "Correct; preventive power intended for anticipatory emergencies.",
+      "B": "Does not require waiting for bloodshed.",
+      "C": "Exercised quasi-judicially.",
+      "D": "Upheld as constitutional."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 163 / Babulal Parate (1961)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Babulal Parate precedent.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-020",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-02",
+    "question": "Disobedience to an order lawfully promulgated under Section 163 BNSS (Section 144 CrPC) is punishable under which section of BNS 2023?",
+    "options": [
+      "Section 223 BNS (Section 188 IPC)",
+      "Section 152 BNS",
+      "Section 303 BNS",
+      "Section 106 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Disobedience to an order under S. 163 BNSS / S. 144 CrPC is prosecuted under Section 223 BNS (Section 188 IPC).",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 223 corresponds to IPC Section 188.",
+      "B": "Section 152 is acts endangering sovereignty.",
+      "C": "Section 303 is theft.",
+      "D": "Section 106 is rash/negligent death."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 223 / IPC S. 188",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify penal section for violating Section 144 order.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-031",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "Which provision of BNSS 2023 corresponds to Section 145 CrPC (procedure where dispute concerning land or water is likely to cause breach of peace)?",
+    "options": [
+      "Section 164 BNSS",
+      "Section 145 BNSS",
+      "Section 168 BNSS",
+      "Section 173 BNSS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 164 BNSS corresponds directly to Section 145 CrPC.",
+    "optionBreakdown": {
+      "A": "Correct; Section 164 BNSS corresponds to Section 145 CrPC.",
+      "B": "Section 145 BNSS is crpc 126.",
+      "C": "Incorrect.",
+      "D": "Section 173 BNSS is FIR."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 164 / CrPC S. 145",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 145 CrPC to Section 164 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-032",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "What is the sole question to be decided by an Executive Magistrate under Section 164(4) BNSS (Section 145(4) CrPC)?",
+    "options": [
+      "Which party was in actual possession of the subject-matter on the date of preliminary order, without reference to the merits of their claims to title",
+      "Who has the superior legal title and deed of ownership",
+      "Who paid more property taxes in the past 10 years",
+      "How the boundary should be permanently partitioned between heirs"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 164(4) BNSS / S. 145(4) CrPC, the Magistrate decides only actual physical possession on date of preliminary order, completely detached from title.",
+    "optionBreakdown": {
+      "A": "Correct; actual possession without reference to merits of title.",
+      "B": "Title is exclusively for civil courts.",
+      "C": "Tax records are evidential, not deciding issue.",
+      "D": "Partition is civil court function."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 164(4) / CrPC S. 145(4)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master core inquiry of Section 145 CrPC: possession vs title.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-033",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "Under the Proviso to Section 164(4) BNSS (Section 145(4) CrPC), what is the statutory period for treating a forcibly and wrongfully dispossessed party as in possession?",
+    "options": [
+      "If dispossessed within two months next before the date of the police report or other information received by the Magistrate",
+      "If dispossessed within six months",
+      "If dispossessed within one year",
+      "If dispossessed within 14 days"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Proviso creates a legal fiction: a party forcibly and wrongfully dispossessed within two months next before information received is treated as in possession on date of order.",
+    "optionBreakdown": {
+      "A": "Correct; forcibly dispossessed within two months.",
+      "B": "Six months is civil Specific Relief Act S. 6 period.",
+      "C": "Too long.",
+      "D": "Too short."
+    },
+    "difficulty": "Important",
+    "provision": "BNSS S. 164(4) Proviso / CrPC S. 145(4) Proviso",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master two-month forcible dispossession rule under S. 145(4).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-034",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "When can an Executive Magistrate attach the subject of dispute under Section 165(1) BNSS (Section 146(1) CrPC)?",
+    "options": [
+      "In case of emergency, or if the Magistrate decides that none of the parties was in possession, or is unable to satisfy himself as to which was in possession",
+      "Whenever requested by the complainant without emergency",
+      "Whenever land value exceeds Rs 1 crore",
+      "Only after the civil court passes a decree"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 165(1) BNSS (Section 146(1) CrPC) allows attachment in three situations: (1) case of emergency; (2) none in possession; (3) unable to decide possession.",
+    "optionBreakdown": {
+      "A": "Correct; emergency, none in possession, or unable to satisfy who was in possession.",
+      "B": "Complainant request insufficient.",
+      "C": "Value irrelevant.",
+      "D": "Before civil determination."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 165(1) / CrPC S. 146(1)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall three grounds for attachment under S. 146 CrPC / S. 165 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-035",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "In Ram Sumer Puri Mahant v. State of U.P. ((1985) 1 SCC 427), what did the Supreme Court hold regarding parallel Section 145 CrPC proceedings when a civil suit is pending?",
+    "options": [
+      "When a civil suit is for the same property and the question of possession is involved and parties are in a position to approach civil court for interim injunction, parallel S. 145 proceedings should not be entertained",
+      "Section 145 CrPC always supersedes civil suits",
+      "Executive Magistrate can overrule civil court injunctions",
+      "Civil courts are barred from hearing land disputes"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Ram Sumer Puri Mahant established that where civil court is already seized of question of possession/title, parallel S. 145 proceedings constitute abuse of process.",
+    "optionBreakdown": {
+      "A": "Correct; civil suit takes precedence; parallel S. 145 proceedings deprecated.",
+      "B": "Civil court is superior.",
+      "C": "Magistrate cannot overrule civil injunction.",
+      "D": "Civil court has jurisdiction."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 164 / Ram Sumer Puri Mahant (1985)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Ram Sumer Puri rule on parallel civil suit and S. 145.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-036",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "Under Section 164(5) BNSS (Section 145(5) CrPC), what must the Magistrate do if any party shows that no such dispute exists or has ceased to exist?",
+    "options": [
+      "The Magistrate shall cancel the preliminary order, and all further proceedings thereon shall be stayed",
+      "The Magistrate must continue the proceedings to declare title",
+      "The Magistrate must sentence the parties to prison",
+      "The property must be auctioned"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 164(5) BNSS / S. 145(5) CrPC mandates that if dispute likely to cause breach of peace ceases to exist, Magistrate shall cancel preliminary order and stay proceedings.",
+    "optionBreakdown": {
+      "A": "Correct; cancel preliminary order and stay all further proceedings.",
+      "B": "Cannot declare title.",
+      "C": "No penal sentence.",
+      "D": "No auction."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 164(5) / CrPC S. 145(5)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall cancellation of S. 145 proceedings when peace restored.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-037",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "Under Section 166 BNSS (Section 147 CrPC), what disputes are investigated by an Executive Magistrate?",
+    "options": [
+      "Disputes concerning the right of user of any land or water (e.g., easements, right of way, water flow) likely to cause breach of peace",
+      "Breach of commercial supply contracts",
+      "Disputes regarding copyright and patents",
+      "Disputes concerning defamation"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 166 BNSS (Section 147 CrPC) covers disputes regarding the right of user of land or water (easements, access, water channels).",
+    "optionBreakdown": {
+      "A": "Correct; right of user of land or water (easements/way).",
+      "B": "Contractual dispute is civil.",
+      "C": "IPR dispute.",
+      "D": "Defamation is penal/tortious."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 166 / CrPC S. 147",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall scope of S. 147 CrPC / S. 166 BNSS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-038",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "What is the nature of an order passed under Section 145 CrPC (Section 164 BNSS)?",
+    "options": [
+      "It is an executive/police order maintaining status quo peace temporarily until rights are determined by a competent civil court",
+      "It is a final and conclusive judgment on title operating as res judicata in civil court",
+      "It creates an irrevocable partition of property",
+      "It transfers title to the State Government"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "An order under S. 145 CrPC is a police measure to maintain peace; it is subject to the determination of rights by a competent civil court (Bhinka v. Charan Singh).",
+    "optionBreakdown": {
+      "A": "Correct; temporary status quo measure subject to civil court decree.",
+      "B": "Does not operate as res judicata on title in civil court.",
+      "C": "Cannot partition.",
+      "D": "No transfer of title."
+    },
+    "difficulty": "Hard",
+    "provision": "BNSS S. 164 / Bhinka v. Charan Singh (1959)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand temporary police nature of S. 145 orders.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-039",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "What happens to a receiver appointed by an Executive Magistrate under Section 165(2) BNSS (Section 146(2) CrPC) when a receiver is subsequently appointed by a civil court?",
+    "options": [
+      "The magistrate's receiver shall be discharged and shall hand over possession to the receiver appointed by the civil court",
+      "The magistrate's receiver retains control over the civil court receiver",
+      "Both receivers manage the property jointly",
+      "The civil court appointment is void"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 165(2) BNSS / S. 146(2) CrPC provides that upon civil court appointing a receiver, Magistrate's receiver shall be discharged and hand over possession.",
+    "optionBreakdown": {
+      "A": "Correct; Magistrate receiver discharged upon civil court appointing receiver.",
+      "B": "Civil court receiver prevails.",
+      "C": "No joint management.",
+      "D": "Civil court order is superior."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 165(2) / CrPC S. 146(2)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master superiority of civil receiver over magistrate receiver.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crpc-04-040",
+    "subjectId": "law-crpc",
+    "chapterId": "ch-crpc-04",
+    "topicId": "top-crpc-04-03",
+    "question": "Does death of a party abate proceedings under Section 164 BNSS (Section 145 CrPC)?",
+    "options": [
+      "No, under subsection (7), the legal representatives of the deceased party may be made parties to the proceeding and the inquiry shall continue",
+      "Yes, proceedings automatically abate completely",
+      "The land is automatically forfeited to the State",
+      "The surviving party is declared owner automatically"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 164(7) BNSS / S. 145(7) CrPC states: 'Proceedings under this section shall not abate by reason only of the death of any of the parties; legal representatives can be substituted.'",
+    "optionBreakdown": {
+      "A": "Correct; proceedings do not abate; legal representatives substituted.",
+      "B": "Does not abate.",
+      "C": "No forfeiture.",
+      "D": "No automatic declaration."
+    },
+    "difficulty": "Medium",
+    "provision": "BNSS S. 164(7) / CrPC S. 145(7)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall non-abatement upon death of party under S. 145(7).",
+    "eligible": true,
+    "status": "active"
+  }
+]

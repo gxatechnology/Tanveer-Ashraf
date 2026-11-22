@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "mcq-crim-05-121",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "Which provision of the Bharatiya Nyaya Sanhita, 2023 codifies the principle of Joint Liability based on Common Intention (Section 34 IPC)?",
+    "options": [
+      "Section 3(5)",
+      "Section 190",
+      "Section 61",
+      "Section 111"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 3(5) BNS replaces Section 34 IPC: when a criminal act is done by several persons in furtherance of the common intention of all, each is liable as if done by him alone.",
+    "optionBreakdown": {
+      "A": "Correct; Section 3(5) BNS corresponds to Section 34 IPC.",
+      "B": "Section 190 BNS is common object (S. 149 IPC).",
+      "C": "Section 61 BNS is conspiracy.",
+      "D": "Section 111 BNS is organised crime."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 3(5) vs IPC Section 34",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify BNS provision for Common Intention.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-122",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "Does Section 3(5) BNS / Section 34 IPC create a distinct, standalone substantive offence?",
+    "options": [
+      "Yes, it is punishable with 7 years imprisonment",
+      "No; it is a rule of evidence and principle of joint liability, not a substantive offence",
+      "Yes, in murder cases only",
+      "Yes, when 5 or more persons participate"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 34 IPC / Section 3(5) BNS does not create any new offence; it lays down a principle of joint vicarious liability attributing acts done in furtherance of common intention.",
+    "optionBreakdown": {
+      "A": "No separate sentence exists for S. 34.",
+      "B": "Correct; it is a rule of joint liability, not a distinct offence.",
+      "C": "Applies across all offences.",
+      "D": "5+ persons is unlawful assembly."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 3(5)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand the nature of Common Intention.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-123",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "In the landmark 'Indus River Case' (Mahbub Shah v. King-Emperor, 1945), the Privy Council established the crucial distinction between:",
+    "options": [
+      "Motive and intention",
+      "Common intention and similar intention",
+      "Preparation and attempt",
+      "Manslaughter and murder"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Sir Madhavan Nair drew the classic line: common intention implies a pre-arranged plan and prior meeting of minds; similar intention arises independently without pre-concert.",
+    "optionBreakdown": {
+      "A": "Different legal concepts.",
+      "B": "Correct; common intention requires pre-concert; similar intention does not.",
+      "C": "Attempt doctrines.",
+      "D": "Homicide tiers."
+    },
+    "difficulty": "Hard",
+    "provision": "AIR 1945 PC 118",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish common intention from similar intention.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-124",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "In the famous 'Post Office Case' (Barendra Kumar Ghosh v. King-Emperor, 1925), Lord Sumner used which immortal phrase to hold the guard liable for murder?",
+    "options": [
+      "The hand that strikes is the hand of all",
+      "They also serve who only stand and wait",
+      "He who plans the deed executes the deed",
+      "Silence is consent in murder"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Lord Sumner quoted Milton's phrase: 'They also serve who only stand and wait', holding that the person standing outside to warn of danger actively participated in furtherance of common intention.",
+    "optionBreakdown": {
+      "A": "Informal paraphrase.",
+      "B": "Correct; 'They also serve who only stand and wait'.",
+      "C": "Conspiracy doctrine.",
+      "D": "Consent maxim."
+    },
+    "difficulty": "Medium",
+    "provision": "AIR 1925 PC 1",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Barendra Kumar Ghosh participation doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-125",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "Can common intention develop on the spot during the course of the transaction without prior long-term conspiracy?",
+    "options": [
+      "No, it requires days of written planning",
+      "Yes; common intention can develop on the spur of the moment during the commission of the offence",
+      "Only if approved by a gang leader",
+      "Only in riot cases"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "In Kripal Singh v. State of U.P. and Pandurang v. State of Hyderabad, the Supreme Court held that common intention can develop instantaneously on the spot.",
+    "optionBreakdown": {
+      "A": "Prior meeting need not be long-term.",
+      "B": "Correct; can develop on the spot.",
+      "C": "Leader not required.",
+      "D": "Applies to all group acts."
+    },
+    "difficulty": "Medium",
+    "provision": "Pandurang v. State of Hyderabad, AIR 1955 SC 216",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand instantaneous development of common intention.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-126",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "What is the minimum number of persons required to attract Section 3(5) BNS / Section 34 IPC?",
+    "options": [
+      "One person",
+      "Two persons",
+      "Five persons",
+      "Seven persons"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "The statutory words are 'done by several persons', which requires a minimum of at least two persons acting together.",
+    "optionBreakdown": {
+      "A": "Cannot have common intention alone.",
+      "B": "Correct; minimum two persons.",
+      "C": "Five is for unlawful assembly (S. 189 / 141).",
+      "D": "No seven person rule."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 3(5)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall minimum number for common intention.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-127",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "A and B go together armed with knives to rob C. A stands outside the room holding a knife to prevent anyone from entering, while B stabs C to death inside. A is liable for murder under:",
+    "options": [
+      "Section 103 read with Section 3(5) BNS",
+      "Section 105 BNS only",
+      "Simple hurt only",
+      "No liability as A did not stab C"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Barendra Kumar Ghosh and Section 3(5) BNS, physical participation by guarding the door in furtherance of the pre-concerted robbery and violence makes A jointly liable for murder.",
+    "optionBreakdown": {
+      "A": "Correct; joint liability for murder under S. 103 r/w S. 3(5).",
+      "B": "Not reduced to culpable homicide.",
+      "C": "Fatal stabbing occurred.",
+      "D": "Physical presence and guarding constitutes active participation."
+    },
+    "difficulty": "Easy",
+    "provision": "Barendra Kumar Ghosh, AIR 1925 PC 1",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply common intention to guarding accomplice.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-128",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "What is the essential element that distinguishes Section 3(5) BNS / Section 34 IPC from Section 190 BNS / Section 149 IPC?",
+    "options": [
+      "Section 34 requires active participation; Section 149 requires mere membership of an unlawful assembly",
+      "Section 34 requires 5 persons; Section 149 requires 2",
+      "Section 34 is a distinct offence; Section 149 is not",
+      "Section 34 applies only to property offences"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 34 requires pre-concert and participation in the criminal act; Section 149 requires membership of an unlawful assembly (5+ persons) with a common object, without requiring individual participation in the fatal blow.",
+    "optionBreakdown": {
+      "A": "Correct; active participation vs mere assembly membership.",
+      "B": "Reversed numbers.",
+      "C": "Section 149 creates a distinct offence; Section 34 does not.",
+      "D": "Applies across all offences."
+    },
+    "difficulty": "Medium",
+    "provision": "Nanak Chand v. State of Punjab, AIR 1955 SC 274",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Contrast Section 34 and Section 149.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-129",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "In Suresh v. State of U.P. (2001), the Supreme Court affirmed that participation under Section 34 IPC / Section 3(5) BNS:",
+    "options": [
+      "Always requires overt physical assault",
+      "Can be physical, or by moral support, keeping watch, or giving signals, provided there is shared common intention",
+      "Requires firing of a weapon",
+      "Is irrelevant if conspiracy is proved"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Participation need not be violent assault; standing guard, giving signals, or keeping watch in furtherance of the common design constitutes sufficient participation.",
+    "optionBreakdown": {
+      "A": "Overt violent act not strictly necessary.",
+      "B": "Correct; non-physical or guarding participation suffices.",
+      "C": "Weapon firing not mandatory.",
+      "D": "Participation is the core of Section 34."
+    },
+    "difficulty": "Hard",
+    "provision": "(2001) 3 SCC 673",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master modes of participation under Section 34 / 3(5).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-130",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-01",
+    "question": "If four persons are charged under Section 302 read with Section 34 IPC / Section 3(5) BNS, and three are acquitted due to lack of evidence, can the sole remaining accused be convicted with the aid of Section 34 / 3(5)?",
+    "options": [
+      "Yes, an individual can have common intention alone",
+      "No, unless it is proved that the sole accused acted jointly with some other unidentified or named persons who shared the common intention",
+      "Yes, automatically",
+      "No, the sole accused must be acquitted of all charges"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Under settled law, an individual cannot be convicted with the aid of Section 34 alone, unless evidence shows they acted with other persons (even if unidentified).",
+    "optionBreakdown": {
+      "A": "Single person cannot have joint liability alone.",
+      "B": "Correct; requires proof of other participants.",
+      "C": "Cannot convict alone under S. 34.",
+      "D": "Can be convicted substantively for his own acts."
+    },
+    "difficulty": "Hard",
+    "provision": "Prabhu Babaji v. State of Bombay, AIR 1956 SC 51",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze effect of acquittal of co-accused in Section 34.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-131",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "Under Section 189 BNS / Section 141 IPC, an assembly of persons is designated an 'Unlawful Assembly' if it consists of at least:",
+    "options": [
+      "Three persons",
+      "Five persons",
+      "Seven persons",
+      "Ten persons"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 189 BNS / Section 141 IPC strictly requires an assembly of five (5) or more persons having one of the five specified common objects.",
+    "optionBreakdown": {
+      "A": "Three is insufficient.",
+      "B": "Correct; minimum five persons.",
+      "C": "Seven is too high.",
+      "D": "Ten is too high."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 189 / IPC Section 141",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall minimum membership of unlawful assembly.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-132",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "Which of the following is NOT one of the five statutory common objects specified in Section 189 BNS / Section 141 IPC?",
+    "options": [
+      "To overawe by criminal force the Central or State Government or Parliament",
+      "To resist the execution of any law or of any legal process",
+      "To commit any mischief or criminal trespass or other offence",
+      "To hold a peaceful silent prayer gathering in a private home"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "explanation": "Section 189 BNS / Section 141 IPC specifies 5 unlawful objects: overawing government, resisting legal process, committing offence/mischief/trespass, enforcing right by criminal force, and compelling illegal acts.",
+    "optionBreakdown": {
+      "A": "Statutory object (First).",
+      "B": "Statutory object (Second).",
+      "C": "Statutory object (Third).",
+      "D": "Correct; peaceful private prayer is not an unlawful object."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 189",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify statutory common objects.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-133",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "Which provision of BNS 2023 replaces Section 149 IPC concerning every member of an unlawful assembly guilty of offence committed in prosecution of common object?",
+    "options": [
+      "Section 3(5)",
+      "Section 190",
+      "Section 191",
+      "Section 194"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 190 BNS corresponds directly to Section 149 IPC (constructive joint liability of unlawful assembly members).",
+    "optionBreakdown": {
+      "A": "Section 3(5) is S. 34 IPC.",
+      "B": "Correct; Section 190 BNS is S. 149 IPC.",
+      "C": "Section 191 BNS is Rioting.",
+      "D": "Section 194 BNS is Affray."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 190 vs IPC Section 149",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map BNS Section 190 to IPC Section 149.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-134",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "What is the crucial two-fold test for constructive liability under Section 190 BNS / Section 149 IPC?",
+    "options": [
+      "Act was done in prosecution of the common object, OR was such as the members knew to be likely to be committed in prosecution of that object",
+      "Act was planned 24 hours in advance",
+      "All members used deadly firearms",
+      "Act was committed in daylight"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 190 BNS / Section 149 IPC has two limbs: (1) offence committed in prosecution of common object; or (2) offence which members knew was likely to be committed.",
+    "optionBreakdown": {
+      "A": "Correct; two statutory limbs of Section 149/190.",
+      "B": "Pre-planning not required.",
+      "C": "Weaponry irrelevant to definition.",
+      "D": "Time of day irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 190 / IPC Section 149",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the two limbs of Section 149 constructive liability.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-135",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "In Mizaji v. State of U.P. (1959), the Supreme Court interpreted the second limb of Section 149 IPC ('knew to be likely') to mean:",
+    "options": [
+      "Mere possibility of crime",
+      "Knowledge that the offence was likely to be committed, which is more than a mere possibility and implies real foresight",
+      "Certainty that murder will occur",
+      "Prior agreement in writing"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "The Supreme Court held that 'knew' means something more than a speculation or possibility; it implies a state of mind where members foresee the offence as a likely incident.",
+    "optionBreakdown": {
+      "A": "Mere possibility insufficient.",
+      "B": "Correct; real foresight of likelihood.",
+      "C": "Certainty not required.",
+      "D": "Writing not required."
+    },
+    "difficulty": "Hard",
+    "provision": "AIR 1959 SC 572",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Mizaji doctrine on knowledge of likelihood.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-136",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "What happens when six persons are charged under Section 302 read with Section 149 IPC / Section 190 BNS, and two are acquitted, leaving four persons convicted?",
+    "options": [
+      "The four can still be convicted under Section 149 without any qualifications",
+      "Conviction under Section 149 cannot stand unless it is proved that there were other unidentified persons making the total at least five",
+      "All four must be discharged immediately",
+      "The offence becomes dacoity"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "In Ram Bilas Singh v. State of Bihar, the Supreme Court held that Section 149 requires at least 5 persons; if acquittals reduce the number below 5, S. 149 fails unless others participated.",
+    "optionBreakdown": {
+      "A": "Four persons cannot constitute unlawful assembly.",
+      "B": "Correct; requires proof that total assembly was 5+.",
+      "C": "Can be convicted individually or under S. 34 if common intention proved.",
+      "D": "Not dacoity."
+    },
+    "difficulty": "Hard",
+    "provision": "AIR 1964 SC 259",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze effect of reducing assembly below five persons.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-137",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "Under Section 191 BNS / Section 146 IPC, 'Rioting' is defined as:",
+    "options": [
+      "Whenever force or violence is used by an unlawful assembly, or by any member thereof, in prosecution of the common object",
+      "Whenever five persons speak loudly on a public road",
+      "Whenever two persons fight in a cinema hall",
+      "Whenever traffic is blocked by vehicles"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 191 BNS / Section 146 IPC defines rioting: an unlawful assembly using force or violence in prosecution of common object.",
+    "optionBreakdown": {
+      "A": "Correct; force/violence by unlawful assembly.",
+      "B": "Loud speech is not rioting.",
+      "C": "Two persons fighting in public is Affray under S. 194 BNS / S. 159 IPC.",
+      "D": "Traffic blockage is nuisance."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 191 / IPC Section 146",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define Rioting under BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-138",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "Under Section 194 BNS / Section 159 IPC, 'Affray' requires:",
+    "options": [
+      "Five persons using deadly weapons",
+      "Two or more persons, by fighting in a public place, disturbing the public peace",
+      "Damage to private property exceeding Rs 10,000",
+      "Assembly in a private drawing room"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 194 BNS / Section 159 IPC defines Affray: when two or more persons, by fighting in a public place, disturb the public peace.",
+    "optionBreakdown": {
+      "A": "This is rioting/dacoity.",
+      "B": "Correct; 2+ persons fighting in public place disturbing peace.",
+      "C": "Property damage not required.",
+      "D": "Must be a public place."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 194 / IPC Section 159",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define Affray in criminal law.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-139",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "What is the punishment for committing an Affray under Section 194(2) BNS / Section 160 IPC?",
+    "options": [
+      "Imprisonment up to 1 month, or fine up to Rs 1,000, or both",
+      "Rigorous imprisonment up to 3 years",
+      "Life imprisonment",
+      "Community service for 1 year"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Affray is a petty offence punished with imprisonment extending up to one month, or fine up to Rs 1,000, or both.",
+    "optionBreakdown": {
+      "A": "Correct; max 1 month or fine.",
+      "B": "Too severe.",
+      "C": "Disproportionate.",
+      "D": "Not code term."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 194(2) / IPC Section 160",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for Affray.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-140",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-02",
+    "question": "Can an assembly which was lawful when it assembled subsequently become an unlawful assembly?",
+    "options": [
+      "No, character is fixed at the time of gathering",
+      "Yes; under Section 189 Explanation BNS / Section 141 Explanation IPC, an assembly which was not unlawful when it assembled, may subsequently become an unlawful assembly",
+      "Only if police declare it so under Section 144 CrPC",
+      "Only after sunset"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "The statutory explanation explicitly provides: 'An assembly which was not unlawful when it assembled, may subsequently become an unlawful assembly.'",
+    "optionBreakdown": {
+      "A": "Assembly can change character.",
+      "B": "Correct; lawful assembly can turn unlawful.",
+      "C": "Magisterial order not prerequisite.",
+      "D": "Time irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 189 Explanation / IPC S. 141 Exp.",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand evolution of lawful into unlawful assembly.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-141",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "Under Section 45 BNS / Section 107 IPC, in how many statutory ways can a person abet the doing of a thing?",
+    "options": [
+      "Two ways",
+      "Three ways",
+      "Four ways",
+      "Five ways"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 45 BNS / Section 107 IPC specifies three ways of abetment: (1) Instigation; (2) Conspiracy; (3) Intentional aid.",
+    "optionBreakdown": {
+      "A": "Two is incomplete.",
+      "B": "Correct; Instigation, Conspiracy, and Aiding.",
+      "C": "Four is incorrect.",
+      "D": "Five is incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 45 / IPC Section 107",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify the three statutory modes of abetment.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-142",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "A public officer is authorized by warrant from a Court of Justice to apprehend Z. B, knowing that fact and also that C is not Z, wilfully represents to the officer that C is Z, and thereby intentionally causes the apprehension of C. B abets the arrest by:",
+    "options": [
+      "Conspiracy",
+      "Instigation under Section 45 Explanation 1 BNS",
+      "Passive silence",
+      "Duress"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Explanation 1 to Section 107 IPC / Section 45 BNS provides that wilful misrepresentation causing an act constitutes abetment by instigation.",
+    "optionBreakdown": {
+      "A": "No agreement between B and officer.",
+      "B": "Correct; instigation by wilful misrepresentation.",
+      "C": "Active misrepresentation, not silence.",
+      "D": "No threats used."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 45 Explanation 1",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply instigation by wilful misrepresentation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-143",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "Can a person be guilty of abetting the abetment of an offence under Section 47 BNS / Section 108 Explanation 4 IPC?",
+    "options": [
+      "No, abetment cannot be compounded",
+      "Yes; the abetment of an abetment of an offence is itself an offence",
+      "Only if the main offence is murder",
+      "Only if the second abettor is present on the spot"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Explanation 4 to Section 108 IPC / Section 47 BNS explicitly enacts: 'The abetment of an abetment of an offence is an offence.' (e.g. A instigates B to instigate C to murder Z).",
+    "optionBreakdown": {
+      "A": "Statute permits it.",
+      "B": "Correct; abetment of abetment is an offence.",
+      "C": "Applies across all offences.",
+      "D": "Presence not required."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 47 / IPC Section 108 Explanation 4",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand abetment of an abetment.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-144",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "A instigates B to murder C. B refuses to do so. What offence has A committed?",
+    "options": [
+      "No offence because the act was not committed",
+      "Abetment of murder under Section 46 BNS / Section 108 IPC",
+      "Attempt to murder",
+      "Criminal intimidation only"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Under Explanation 2 to Section 108 IPC / Section 46 BNS, to constitute abetment, it is NOT necessary that the act abetted should be committed or that the effect should be caused.",
+    "optionBreakdown": {
+      "A": "Abetment is complete upon instigation.",
+      "B": "Correct; abetment is an inchoate offence complete upon instigation.",
+      "C": "A did not attempt murder.",
+      "D": "Substantive abetment of murder."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 46 Explanation 2",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the inchoate nature of abetment.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-145",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "A instigates a child of six years to set fire to a dwelling house. The child does not understand the nature of the act and sets fire. A is guilty of:",
+    "options": [
+      "No offence because the child is doli incapax",
+      "Abetment of mischief by fire, punishable as if the child were capable of committing the offence",
+      "Only negligence",
+      "Contempt of court"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Under Explanation 3 to Section 108 IPC / Section 46 BNS, it is not necessary that the person abetted should be capable by law of committing an offence. The abettor is fully liable.",
+    "optionBreakdown": {
+      "A": "Child's incapacity does not protect abettor.",
+      "B": "Correct; abettor is liable though actor is legally immune.",
+      "C": "Intentional instigation.",
+      "D": "Not contempt."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS Section 46 Explanation 3",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply abetment of person incapable of committing crime.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-146",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "Under Section 50 BNS / Section 111 IPC, an abettor is liable for a different act committed by the person abetted IF:",
+    "options": [
+      "The act done was a probable consequence of the abetment, and was committed under the influence of the instigation",
+      "The abettor was related to the actor",
+      "The actor used the abettor's car",
+      "The victim was a public servant"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 50 BNS / Section 111 IPC (Doctrine of Probable Consequence), the abettor is liable for a different act if it was a probable consequence of the abetment.",
+    "optionBreakdown": {
+      "A": "Correct; probable consequence doctrine.",
+      "B": "Kinship irrelevant.",
+      "C": "Vehicle irrelevant.",
+      "D": "Victim status irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 50 / IPC Section 111",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the probable consequence doctrine in abetment.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-147",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "A instigates B to burn Z's house. B sets fire to the house and at the same time commits theft of property there. Is A liable for the theft?",
+    "options": [
+      "Yes, A instigated B",
+      "No, because the theft was not a probable consequence of burning the house",
+      "Yes, under joint liability",
+      "Yes, if A accepted a share of the stolen property"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Under Illustration (a) to Section 111 IPC / Section 50 BNS, A is guilty of abetting the burning of the house, but is not guilty of abetting the theft, for the theft was a distinct act and not a probable consequence of the burning.",
+    "optionBreakdown": {
+      "A": "Overstates liability.",
+      "B": "Correct; theft is distinct, not a probable consequence of burning.",
+      "C": "No common intention for theft.",
+      "D": "Receiving stolen property is separate S. 317."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS Section 50 Illustration (a)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Section 111 probable consequence illustration.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-148",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "Under Section 52 BNS / Section 113 IPC, when an act is abetted and a different effect is caused, the abettor is liable for the effect caused if:",
+    "options": [
+      "The abettor knew that the act abetted was likely to cause that effect",
+      "The victim was elderly",
+      "The offence took place at night",
+      "The weapon was licensed"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 52 BNS / Section 113 IPC provides that the abettor is liable for the different effect caused in the same manner as if he had directly intended it, if he knew the act was likely to cause that effect.",
+    "optionBreakdown": {
+      "A": "Correct; foresight of likelihood of effect.",
+      "B": "Age irrelevant.",
+      "C": "Time irrelevant.",
+      "D": "License irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 52 / IPC Section 113",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand different effect liability in abetment.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-149",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "What is the consequence under Section 53 BNS / Section 114 IPC when an abettor who would be punishable is present when the act is committed?",
+    "options": [
+      "He is treated as an accessory after the fact",
+      "He shall be deemed to have committed such act or offence himself",
+      "He gets half the punishment",
+      "He is acquitted"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 53 BNS / Section 114 IPC creates a statutory fiction: whenever an abettor is present when the act is committed, he shall be deemed to have committed the offence himself.",
+    "optionBreakdown": {
+      "A": "Not accessory.",
+      "B": "Correct; deemed to have committed offence himself.",
+      "C": "Full penalty.",
+      "D": "Full liability."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 53 / IPC Section 114",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall deemed principal rule in abetment presence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-150",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-03",
+    "question": "A gives poison to B with instructions to administer it to C. B takes the poison to C's house, but throws it in the river instead. What is A's liability?",
+    "options": [
+      "A has committed no offence because no poison was given to C",
+      "A is guilty of abetment of murder",
+      "A is guilty of simple hurt",
+      "A is guilty of nuisance"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Abetment is an independent inchoate offence; instigation and providing poison completes the abetment of murder regardless of B's subsequent abandonment.",
+    "optionBreakdown": {
+      "A": "Abetment does not depend on commission.",
+      "B": "Correct; abetment of murder complete.",
+      "C": "No hurt caused.",
+      "D": "Severe crime, not nuisance."
+    },
+    "difficulty": "Medium",
+    "provision": "Queen v. Mostapha, (1870) 5 MHC 189",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply inchoate nature of abetment to abandoned crime.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-151",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "Which provision of BNS 2023 replaces Sections 120A and 120B of the Indian Penal Code, 1860 for Criminal Conspiracy?",
+    "options": [
+      "Section 3(5)",
+      "Section 61",
+      "Section 111",
+      "Section 189"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 61 BNS consolidates the definition (S. 120A) and punishment (S. 120B) of Criminal Conspiracy into a single section.",
+    "optionBreakdown": {
+      "A": "Section 3(5) is S. 34 IPC.",
+      "B": "Correct; Section 61 BNS is Criminal Conspiracy.",
+      "C": "Section 111 is Organised crime.",
+      "D": "Section 189 is Unlawful assembly."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 61 vs IPC Sections 120A/120B",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map BNS Section 61 for Criminal Conspiracy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-152",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "Under Section 61(1) BNS / Section 120A IPC, when two or more persons agree to do an ILLEGAL ACT (which is an offence), is an overt act necessary to complete the conspiracy?",
+    "options": [
+      "Yes, an overt act must always be proved",
+      "No; bare agreement itself constitutes the offence of criminal conspiracy without any overt act",
+      "Yes, money must be exchanged",
+      "Yes, weapon must be procured"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "The proviso to Section 120A IPC / Section 61(1) BNS provides that no overt act is necessary where the agreement is to commit an offence; the bare agreement itself is the crime.",
+    "optionBreakdown": {
+      "A": "Overt act needed only if act is not an offence.",
+      "B": "Correct; bare agreement to commit an offence is complete conspiracy.",
+      "C": "Money not required.",
+      "D": "Weapon not required."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 61(1) Proviso",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master agreement as the gist of conspiracy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-153",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "When is an OVERT ACT required to constitute criminal conspiracy under Section 61(1) BNS / Section 120A IPC?",
+    "options": [
+      "When the agreement is to commit murder",
+      "When the agreement is to do an act which is not an offence, but is an illegal act or an act by illegal means",
+      "When the conspirators are more than ten",
+      "In cyber-crimes only"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "The proviso stipulates: 'Provided that no agreement except an agreement to commit an offence shall amount to a criminal conspiracy unless some act besides the agreement is done...'.",
+    "optionBreakdown": {
+      "A": "Offences need no overt act.",
+      "B": "Correct; non-offence illegal acts require an overt act.",
+      "C": "Number of conspirators doesn't change rule.",
+      "D": "General rule across all conspiracies."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS Section 61(1) Proviso",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish offence conspiracy from non-offence illegal conspiracy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-154",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "In State (NCT of Delhi) v. Navjot Sandhu (Parliament Attack Case, 2005), the Supreme Court affirmed that criminal conspiracy is:",
+    "options": [
+      "A substantive offence that is continuous in nature from the time of agreement until completion or abandonment",
+      "A minor misdemeanour requiring proof by eyewitnesses of the secret meeting",
+      "Admissible only if written minutes exist",
+      "Punishable only if treason is committed"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Supreme Court held conspiracy is a continuing offence hatched in secrecy; direct evidence is rarely available and agreement is inferred from circumstantial acts.",
+    "optionBreakdown": {
+      "A": "Correct; continuing substantive offence.",
+      "B": "Not minor; secret meetings rarely have direct witnesses.",
+      "C": "Conspirators do not keep minutes.",
+      "D": "Applies across offences."
+    },
+    "difficulty": "Hard",
+    "provision": "(2005) 11 SCC 600",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Navjot Sandhu criminal conspiracy doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-155",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "What is the punishment for criminal conspiracy to commit an offence punishable with death, life imprisonment, or rigorous imprisonment for 2+ years under S. 61(2) BNS / S. 120B(1) IPC?",
+    "options": [
+      "Simple imprisonment up to 6 months",
+      "Punished in the same manner as if he had abetted such offence",
+      "Fine of Rs 5,000 only",
+      "Community service"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 61(2)(a) BNS / Section 120B(1) IPC provides that the conspirator shall be punished in the same manner as if he had abetted such offence.",
+    "optionBreakdown": {
+      "A": "6 months is for minor offences under clause (b).",
+      "B": "Correct; punished as an abettor of the offence.",
+      "C": "Not fine only.",
+      "D": "Severe crime, not community service."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 61(2)(a) / IPC Section 120B(1)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for serious criminal conspiracies.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-156",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "What is the minimum number of persons required to form a criminal conspiracy under Section 61 BNS / Section 120A IPC?",
+    "options": [
+      "One person",
+      "Two persons",
+      "Three persons",
+      "Five persons"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "A person cannot conspire with himself; Section 61 BNS / Section 120A IPC explicitly requires 'two or more persons'.",
+    "optionBreakdown": {
+      "A": "Conspiracy requires agreement between two or more.",
+      "B": "Correct; minimum two persons.",
+      "C": "Three is not minimum.",
+      "D": "Five is for unlawful assembly."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 61(1)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall minimum membership for conspiracy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-157",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "In Topandas v. State of Bombay (1955), four persons were charged with criminal conspiracy. Three were acquitted on trial. Can the conviction of the sole fourth accused for conspiracy stand?",
+    "options": [
+      "Yes, if he was the mastermind",
+      "No; one person alone cannot be convicted of criminal conspiracy when all other alleged conspirators have been acquitted",
+      "Yes, if he confesses",
+      "Yes, on payment of fine"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "The Supreme Court held that it is an established principle of law that one person cannot be convicted of conspiracy where all co-accused have been acquitted, as an agreement requires at least two minds.",
+    "optionBreakdown": {
+      "A": "Cannot agree with oneself.",
+      "B": "Correct; sole accused cannot be convicted of conspiracy.",
+      "C": "Legal impossibility.",
+      "D": "Not fine."
+    },
+    "difficulty": "Hard",
+    "provision": "AIR 1956 SC 33",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Topandas acquittal of co-conspirators rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-158",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "Is it necessary that every conspirator must actively participate in every single act done in execution of the conspiracy?",
+    "options": [
+      "Yes, all conspirators must be physically present at all acts",
+      "No; once common design is established, every conspirator is liable for acts done by any co-conspirator in execution of the common plan",
+      "Only the conspirator who supplied weapons is liable",
+      "Only the person who struck the fatal blow is liable"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "In Yash Pal Mittal v. State of Punjab, the Supreme Court confirmed that it is not necessary that each conspirator must know every detail or participate in every stage.",
+    "optionBreakdown": {
+      "A": "Presence not required.",
+      "B": "Correct; agency principle binds all conspirators.",
+      "C": "Too narrow.",
+      "D": "Fatal striker is not sole liable person."
+    },
+    "difficulty": "Medium",
+    "provision": "(1977) 4 SCC 540",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master agency liability in criminal conspiracy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-159",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "What is the punishment for criminal conspiracy to commit an offence NOT punishable with death, life, or 2+ years under S. 61(2)(b) BNS / S. 120B(2) IPC?",
+    "options": [
+      "Imprisonment up to six (6) months, or fine, or both",
+      "Imprisonment up to 2 years",
+      "Life imprisonment",
+      "Community service for 2 years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 61(2)(b) BNS / Section 120B(2) IPC, conspiracy for minor offences is punishable with imprisonment up to six months, or fine, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to six months or fine or both.",
+      "B": "Incorrect.",
+      "C": "Disproportionate.",
+      "D": "Not code penalty."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 61(2)(b)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for minor conspiracies.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-05-160",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-05",
+    "topicId": "top-crim-05-04",
+    "question": "How does Criminal Conspiracy under Section 61 BNS differ from Abetment by Conspiracy under Section 45(Secondly) BNS?",
+    "options": [
+      "Section 61 requires an overt act; Section 45 does not",
+      "In Section 61 bare agreement to commit offence is punishable; in Section 45 abetment, an act or illegal omission must take place in pursuance of the conspiracy",
+      "Section 61 applies only to public servants",
+      "Section 45 is a civil wrong"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "In Pramatha Nath Talukdar v. Saroj Ranjan Sarkar, the Supreme Court held: under Section 107/45 abetment by conspiracy, an act or illegal omission must occur in pursuance; under Section 120A/61, bare agreement to commit an offence is substantive crime.",
+    "optionBreakdown": {
+      "A": "Inverts the rule.",
+      "B": "Correct; Section 61 bare agreement vs Section 45 overt act in pursuance.",
+      "C": "Applies generally.",
+      "D": "Abetment is criminal."
+    },
+    "difficulty": "Hard",
+    "provision": "AIR 1962 SC 876",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish substantive conspiracy from abetment by conspiracy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-161",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "Which provisions of BNS 2023 define and punish Culpable Homicide and Murder?",
+    "options": [
+      "Section 100 defines Culpable Homicide; Section 101 defines Murder; Section 103 punishes Murder",
+      "Section 103 defines Culpable Homicide; Section 105 defines Murder",
+      "Section 299 and 300 (unchanged numbers)",
+      "Section 302 defines Culpable Homicide; Section 304 punishes Murder"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In BNS 2023: Section 100 defines Culpable Homicide (IPC 299); Section 101 defines Murder (IPC 300); Section 103 punishes Murder (IPC 302); Section 105 punishes Culpable Homicide (IPC 304).",
+    "optionBreakdown": {
+      "A": "Correct; Section 100 (CH) and Section 101 (Murder).",
+      "B": "Incorrect mapping.",
+      "C": "Numbers are completely restructured in BNS.",
+      "D": "Old IPC numbers."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Sections 100, 101, 103",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map BNS homicide provisions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-162",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "The classic legal formula establishing that 'all murders are culpable homicide, but all culpable homicides are not murder' was authored by Melvill J. in which landmark decision?",
+    "options": [
+      "Reg. v. Govinda (1876)",
+      "K.M. Nanavati v. State of Maharashtra",
+      "Bachan Singh v. State of Punjab",
+      "MacDonald v. State"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Reg. v. Govinda (1876) ILR 1 Bom 147, Melvill J. drew the comparative tabular distinction between Section 299 and Section 300 IPC based on degrees of probability.",
+    "optionBreakdown": {
+      "A": "Correct; Reg. v. Govinda (1876).",
+      "B": "Nanavati is provocation.",
+      "C": "Bachan Singh is rarest of rare death penalty.",
+      "D": "Not Indian landmark."
+    },
+    "difficulty": "Easy",
+    "provision": "Reg. v. Govinda, (1876) ILR 1 Bom 147",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify Reg. v. Govinda formula.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-163",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "What is the critical distinction between Section 100(b) BNS / Section 299(b) IPC and Section 101(c) BNS / Section 300(3) IPC?",
+    "options": [
+      "Section 299(b) requires 'likely to cause death'; Section 300(3) requires 'sufficient in the ordinary course of nature to cause death'",
+      "Section 299(b) applies to poisons only",
+      "Section 300(3) requires weapon registration",
+      "Section 299(b) is civil; Section 300(3) is criminal"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Melvill J. in Govinda showed: Section 299(b) requires bodily injury 'likely to cause death' (lower probability); Section 300(3) requires bodily injury 'sufficient in the ordinary course of nature to cause death' (high probability/virtual certainty).",
+    "optionBreakdown": {
+      "A": "Correct; 'likely' vs 'sufficient in ordinary course of nature'.",
+      "B": "Applies across all weapons.",
+      "C": "Registration irrelevant.",
+      "D": "Both are criminal."
+    },
+    "difficulty": "Medium",
+    "provision": "Reg. v. Govinda & BNS S. 100/101",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master probability distinction between 299(b) and 300(3).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-164",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "In Virsa Singh v. State of Punjab (1958), Vivian Bose J. formulated the definitive four-step test for Section 300(3) IPC / Section 101(c) BNS, holding that:",
+    "options": [
+      "Prosecution must prove the accused intended to cause death specifically",
+      "Prosecution must prove an intentional bodily injury was inflicted, and that injury objectively was sufficient in the ordinary course of nature to cause death",
+      "The doctor must testify that death was accidental",
+      "The accused must have used a licensed firearm"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Vivian Bose J. held: it is not necessary to prove intention to cause death; it is enough to prove that the accused intended to inflict that particular bodily injury, and that injury was objectively sufficient in the ordinary course of nature to cause death.",
+    "optionBreakdown": {
+      "A": "Intention to kill is 300(1), not 300(3).",
+      "B": "Correct; Virsa Singh classic four-point test.",
+      "C": "Accident excludes murder.",
+      "D": "Weapon license irrelevant."
+    },
+    "difficulty": "Hard",
+    "provision": "Virsa Singh v. State of Punjab, AIR 1958 SC 465",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Virsa Singh Section 300(3) test.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-165",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "Under Section 101(d) BNS / Section 300(4) IPC (imminently dangerous act), which element distinguishes it from Section 100(c) BNS / Section 299(c) IPC?",
+    "options": [
+      "Act is so imminently dangerous that it must in all probability cause death without any excuse",
+      "Act is committed in a private house",
+      "Act causes financial loss",
+      "Act is committed by multiple persons"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 300(4) requires an act so imminently dangerous that it must in all probability cause death, committed without any excuse for incurring the risk (e.g. firing a cannon into a crowded street).",
+    "optionBreakdown": {
+      "A": "Correct; imminently dangerous act without excuse.",
+      "B": "Location irrelevant.",
+      "C": "Financial loss irrelevant.",
+      "D": "Can be single actor."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 101(d) / IPC Section 300(4)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Section 300(4) imminently dangerous act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-166",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "A, knowing that B is labouring under an enlarged spleen so that a blow is likely to kill him, strikes B a single moderate blow on the abdomen, rupturing the spleen and killing him. A ordinary blow would not kill a healthy man. A is guilty of:",
+    "options": [
+      "Murder under Section 101(b) BNS / Section 300(2) IPC",
+      "Simple hurt only under Section 115 BNS",
+      "Grievous hurt only",
+      "No offence under accident"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 300(2) IPC / Section 101(b) BNS (Illustration b), if the offender knows the special physical condition of the victim and intends to cause bodily injury likely to cause death to that particular person, it is Murder.",
+    "optionBreakdown": {
+      "A": "Correct; special knowledge of physical infirmity makes it Murder.",
+      "B": "Hurt is eclipsed by fatal result with knowledge.",
+      "C": "Grievous hurt is insufficient.",
+      "D": "Not accident."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS Section 101(b) Illustration (b)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply special victim knowledge in Section 300(2).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-167",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "Under Explanation 1 to Section 100 BNS / Section 299 IPC, if a person causes bodily injury to another who is labouring under a disease or disorder, and thereby accelerates death, the person:",
+    "options": [
+      "Is guilty of simple hurt only",
+      "Shall be deemed to have caused his death",
+      "Is exempt from homicide liability",
+      "Is liable only for medical expenses"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Explanation 1 to Section 299 IPC / Section 100 BNS explicitly provides: 'A person who causes bodily injury to another who is labouring under a disorder, disease or bodily infirmity, and thereby accelerates the death of that other, shall be deemed to have caused his death.'",
+    "optionBreakdown": {
+      "A": "Homicide liability applies.",
+      "B": "Correct; deemed to have caused death by acceleration.",
+      "C": "No exemption.",
+      "D": "Penal homicide applies."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 100 Explanation 1",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall acceleration of death rule in culpable homicide.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-168",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "Under Explanation 3 to Section 100 BNS / Section 299 IPC, causing the death of a child in the mother's womb is:",
+    "options": [
+      "Murder",
+      "Culpable homicide",
+      "Not culpable homicide, though causing death after any part of the child has been brought forth, even if not fully breathed, is culpable homicide",
+      "Attempt to commit suicide"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Explanation 3 provides that causing death of child in womb is not culpable homicide; but it may amount to culpable homicide if any part has been brought forth, though child may not have breathed.",
+    "optionBreakdown": {
+      "A": "Fetus in womb is S. 91 BNS / S. 312-315 IPC.",
+      "B": "Not culpable homicide while entirely in womb.",
+      "C": "Correct; statutory rule in Explanation 3.",
+      "D": "Not suicide."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS Section 100 Explanation 3",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish fetal death from culpable homicide.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-169",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "A intentionally aims a rifle at B intending to kill him, but misses and shoots C dead, whom A never saw. Under Section 102 BNS / Section 301 IPC (Doctrine of Transferred Malice), A is guilty of:",
+    "options": [
+      "Culpable homicide not amounting to murder",
+      "Murder of C, of the same description as if he had killed B",
+      "Negligent homicide under Section 106 BNS",
+      "Accident"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Under Section 301 IPC / Section 102 BNS (Doctrine of Transferred Malice / Aberratio Ictus), the culpability for killing C is identical to the intention entertained towards B.",
+    "optionBreakdown": {
+      "A": "Not reduced to culpable homicide.",
+      "B": "Correct; transferred malice treats death of C as murder.",
+      "C": "Not mere negligence.",
+      "D": "Intentional shooting is not accident."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 102 / IPC Section 301",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Doctrine of Transferred Malice.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-170",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-01",
+    "question": "What is the mandatory punishment for Murder under Section 103(1) of the Bharatiya Nyaya Sanhita, 2023?",
+    "options": [
+      "Death or imprisonment for life, and shall also be liable to fine",
+      "Imprisonment for 10 years and fine",
+      "Death penalty mandatorily in all cases",
+      "Community service for 5 years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 103(1) BNS provides that whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine.",
+    "optionBreakdown": {
+      "A": "Correct; death or life imprisonment, and fine.",
+      "B": "10 years is for culpable homicide Part II.",
+      "C": "Mandatory death penalty was struck down in Mithu v. State of Punjab.",
+      "D": "Community service impossible for murder."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS Section 103(1)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall statutory penalties for Murder.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-011",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "Which landmark Supreme Court decision laid down the authoritative test for Grave and Sudden Provocation under Exception 1 to Murder?",
+    "options": [
+      "K.M. Nanavati v. State of Maharashtra (1962)",
+      "Bachan Singh v. State of Punjab (1980)",
+      "Machhi Singh v. State of Punjab (1983)",
+      "Kehar Singh v. State (Delhi Admn.) (1988)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "K.M. Nanavati v. State of Maharashtra (AIR 1962 SC 605) formulated the principles of grave and sudden provocation, cooling time, and the reasonable person test.",
+    "optionBreakdown": {
+      "A": "Correct; K.M. Nanavati is the locus classicus on Exception 1.",
+      "B": "Deals with rarest of rare doctrine for death penalty.",
+      "C": "Deals with sentencing guidelines in murder.",
+      "D": "Deals with conspiracy in assassination."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 101 Exception 1 / IPC S. 300 Exception 1",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Grave and Sudden Provocation doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-012",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "How many statutory exceptions to Murder reduce culpable homicide not amounting to murder under Section 101(1) BNS (Section 300 IPC)?",
+    "options": [
+      "3 exceptions",
+      "4 exceptions",
+      "5 exceptions",
+      "7 exceptions"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Both IPC Section 300 and BNS Section 101 contain exactly 5 statutory exceptions.",
+    "optionBreakdown": {
+      "A": "Incorrect; there are 5 exceptions.",
+      "B": "Incorrect.",
+      "C": "Correct; exactly 5 exceptions exist.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 101(1) / IPC S. 300 Exceptions 1-5",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall number of murder exceptions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-013",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "Exception 2 to Section 101 BNS (Section 300 IPC) applies when the offender causes death while:",
+    "options": [
+      "Acting in sudden fight without premeditation",
+      "Exceeding the right of private defence in good faith without premeditation",
+      "Being a public servant exceeding lawful powers",
+      "Causing death with the consent of a person above 18 years"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Exception 2 applies when culpable homicide is committed in good faith exceeding the right of private defence without intention of doing more harm than necessary.",
+    "optionBreakdown": {
+      "A": "This is Exception 4 (sudden fight).",
+      "B": "Correct; Exception 2 covers exceeding private defence in good faith.",
+      "C": "This is Exception 3 (public servant).",
+      "D": "This is Exception 5 (consent of adult victim)."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 101 Exception 2 / IPC S. 300 Exception 2",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish Exception 2 from other exceptions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-014",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "For Exception 4 (Sudden Fight) to apply, which of the following conditions is NOT required?",
+    "options": [
+      "Sudden fight without premeditation",
+      "Sudden quarrel and heat of passion",
+      "Offender must not have taken undue advantage or acted in a cruel manner",
+      "Provocation must have been given by the victim prior to the fight"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "explanation": "In Exception 4, it is immaterial which party offers the provocation or commits the first assault; prior provocation by victim is not a prerequisite.",
+    "optionBreakdown": {
+      "A": "Required statutory condition.",
+      "B": "Required statutory condition.",
+      "C": "Required statutory condition.",
+      "D": "Correct; explanation to Exception 4 explicitly states it is immaterial who offered the provocation."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 101 Exception 4 / IPC S. 300 Exception 4",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand ingredients of sudden fight exception.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-015",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "Under Exception 5 to Section 101 BNS (Section 300 IPC), culpable homicide is not murder when the person whose death is caused:",
+    "options": [
+      "Being above 18 years of age, suffers death or takes the risk of death with his own consent",
+      "Being above 12 years of age, gives consent",
+      "Consents under intoxication or delirium",
+      "Consents to mercy killing by family members"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Exception 5 requires the deceased to be above the age of 18 years and to have given voluntary, informed consent.",
+    "optionBreakdown": {
+      "A": "Correct; statutory age limit is above 18 years.",
+      "B": "12 years is the threshold under general exception S. 27 BNS (S. 90 IPC), not Exception 5.",
+      "C": "Consent under delirium or intoxication is invalid.",
+      "D": "Euthanasia is governed by Supreme Court guidelines, not Exception 5."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 101 Exception 5 / IPC S. 300 Exception 5",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Verify age threshold in Exception 5.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-016",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "Under Proviso 1 to Exception 1, the provocation must NOT be:",
+    "options": [
+      "Sought or voluntarily provoked by the offender as an excuse for killing",
+      "Given by anything done in obedience to law",
+      "Given by anything done in lawful exercise of private defence",
+      "All of the above"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "explanation": "Provisos 1, 2, and 3 to Exception 1 bar provocation that is self-sought, in obedience to law, or in lawful exercise of private defence.",
+    "optionBreakdown": {
+      "A": "Barred under Proviso 1.",
+      "B": "Barred under Proviso 2.",
+      "C": "Barred under Proviso 3.",
+      "D": "Correct; all three provisos negate Exception 1."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 101 Exception 1 Provisos / IPC S. 300 Provisos",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master provisos to Grave & Sudden Provocation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-017",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "What is the statutory punishment for Culpable Homicide Not Amounting to Murder with intention under Section 105 Part I BNS (IPC S. 304 Part I)?",
+    "options": [
+      "Imprisonment for life or imprisonment up to 10 years and fine",
+      "Rigorous imprisonment up to 5 years only",
+      "Simple imprisonment up to 3 years",
+      "Capital punishment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 105 Part I BNS (IPC S. 304 Part I) prescribes life imprisonment or imprisonment of either description up to 10 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; life imprisonment or imprisonment up to 10 years and fine.",
+      "B": "Incorrect penalty.",
+      "C": "Incorrect penalty.",
+      "D": "Death penalty is not available for culpable homicide not amounting to murder."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 105 / IPC S. 304 Part I",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand punishment for culpable homicide.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-018",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "If an act is done with knowledge that it is likely to cause death, but without any intention to cause death, under which part of Section 105 BNS (S. 304 IPC) is it punished?",
+    "options": [
+      "Part I",
+      "Part II",
+      "Section 103",
+      "Section 106"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Part II of S. 105 BNS (S. 304 IPC) punishes culpable homicide committed with knowledge but without intention (up to 10 years, or fine, or both).",
+    "optionBreakdown": {
+      "A": "Part I applies where there is intention to cause death or grievous injury.",
+      "B": "Correct; Part II applies to knowledge without intention.",
+      "C": "Section 103 is Murder.",
+      "D": "Section 106 is rash/negligent act."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 105 / IPC S. 304 Part II",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Differentiate S. 304 Part I vs Part II.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-019",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "In which case did the Supreme Court hold that the words 'sudden fight' imply mutual combat where blows are exchanged on both sides?",
+    "options": [
+      "Ghapoo Yadav v. State of M.P. (2003)",
+      "Dudh Nath Pandey v. State of U.P. (1981)",
+      "Kehar Singh v. State (1988)",
+      "State of A.P. v. Rayavarapu Punnayya (1977)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Ghapoo Yadav v. State of M.P. (2003), the Supreme Court detailed the four elements of Exception 4 including bilateral mutual combat.",
+    "optionBreakdown": {
+      "A": "Correct; Ghapoo Yadav clarifies Exception 4.",
+      "B": "Deals with plea of alibi.",
+      "C": "Deals with conspiracy.",
+      "D": "Deals with distinction between S. 299 and S. 300."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 101 Exception 4 / IPC S. 300 Exception 4",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze case law on Exception 4.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-020",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-02",
+    "question": "Exception 3 to Section 101 BNS (Section 300 IPC) protects a public servant who causes death, provided:",
+    "options": [
+      "He acts in good faith, believing his act to be lawful and necessary for the due discharge of his duty, without ill-will",
+      "He had an explicit shoot-to-kill executive order",
+      "The victim was an accused felon regardless of offence severity",
+      "The act was committed during election duty"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Exception 3 requires good faith, lawful discharge of public duty, and absence of personal ill-will towards the person killed.",
+    "optionBreakdown": {
+      "A": "Correct; statutory wording of Exception 3.",
+      "B": "Orders do not justify intentional murder outside necessity.",
+      "C": "No general right to execute felons.",
+      "D": "Duty must satisfy statutory good faith."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 101 Exception 3 / IPC S. 300 Exception 3",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand public servant exception.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-021",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "What is the statutory punishment under Section 106(1) BNS for causing death by any rash or negligent act not amounting to culpable homicide (general category)?",
+    "options": [
+      "Imprisonment up to 2 years, or fine, or both",
+      "Imprisonment up to 5 years, and shall also be liable to fine",
+      "Imprisonment up to 7 years",
+      "Imprisonment up to 10 years"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 106(1) BNS increased the general penalty for causing death by rash/negligent act from 2 years (under IPC S. 304A) to imprisonment up to 5 years and fine.",
+    "optionBreakdown": {
+      "A": "This was the penalty under IPC Section 304A.",
+      "B": "Correct; BNS Section 106(1) provides up to 5 years and fine.",
+      "C": "Incorrect period.",
+      "D": "10 years is under subsection (2) which is currently held in abeyance."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 106(1) / IPC S. 304A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master S. 106(1) general punishment.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-022",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "Under the Proviso to Section 106(1) BNS, if a registered medical practitioner causes death while performing a medical procedure, what is the maximum imprisonment?",
+    "options": [
+      "Up to 1 year, or fine, or both",
+      "Up to 2 years, and fine",
+      "Up to 5 years",
+      "Complete statutory immunity from criminal prosecution"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "The Proviso to Section 106(1) BNS caps punishment for registered medical practitioners at imprisonment up to 2 years and fine.",
+    "optionBreakdown": {
+      "A": "Incorrect period.",
+      "B": "Correct; proviso limits medical negligence imprisonment to 2 years.",
+      "C": "5 years is the general penalty for non-medical offenders.",
+      "D": "Doctors do not have absolute immunity under S. 106(1)."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 106(1) Proviso",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize special medical practitioner proviso under S. 106(1).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-023",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "What is the status of Section 106(2) BNS (enhanced 10-year punishment for hit-and-run without reporting) as per MHA Notification S.O. 850(E)?",
+    "options": [
+      "Fully in force from 1 July 2024",
+      "Struck down by the Supreme Court as unconstitutional",
+      "Excluded from enforcement and held in abeyance pending consultation",
+      "Repealed by the Bharatiya Sakshya Adhiniyam"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "MHA Gazette Notification S.O. 850(E) dated 23 Feb 2024 brought BNS into force on 1 July 2024 EXCEPT sub-section (2) of Section 106.",
+    "optionBreakdown": {
+      "A": "Incorrect; S. 106(2) was explicitly omitted from the commencement notification.",
+      "B": "Not struck down by judiciary; held back by executive notification.",
+      "C": "Correct; held in abeyance pending consultations with transport associations.",
+      "D": "Not repealed; enacted by Parliament but commencement deferred."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 106(2) & MHA Notif S.O. 850(E)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand crucial S. 106(2) stay caveat.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-024",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "In which landmark case did the Supreme Court lay down guidelines for prosecuting medical professionals for criminal negligence under IPC S. 304A (now BNS S. 106)?",
+    "options": [
+      "Jacob Mathew v. State of Punjab (2005)",
+      "Common Cause v. Union of India (2018)",
+      "Aruna Shanbaug v. Union of India (2011)",
+      "Parmanand Katara v. Union of India (1989)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Jacob Mathew v. State of Punjab ((2005) 6 SCC 1) established that medical negligence requires gross lack of competence or care (Bolam test adapted to criminal law).",
+    "optionBreakdown": {
+      "A": "Correct; Jacob Mathew is the leading authority on medical criminal negligence.",
+      "B": "Deals with passive euthanasia and living will.",
+      "C": "Deals with passive euthanasia guidelines.",
+      "D": "Deals with duty of doctors to provide immediate emergency care."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 106(1) / Jacob Mathew (2005)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Jacob Mathew ruling.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-025",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "To attract Section 106(1) BNS (Section 304A IPC), the death must be the direct result of the rash or negligent act, known in law as:",
+    "options": [
+      "Causa causans (immediate direct cause)",
+      "Causa sine qua non (remote cause)",
+      "Res ipsa loquitur",
+      "Volenti non fit injuria"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Emperor v. Omkar Rampratap and reaffirmed in Kurban Hussein (1965), death must be the causa causans (direct, immediate, proximate cause).",
+    "optionBreakdown": {
+      "A": "Correct; causa causans is required.",
+      "B": "Causa sine qua non is insufficient for criminal liability.",
+      "C": "Rule of civil evidence, not the test of proximate causation.",
+      "D": "Defence of consent, not causation."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 106(1) / IPC S. 304A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master causa causans causation doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-026",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "Can Section 106(1) BNS (Section 304A IPC) apply where the accused had the intention to cause death?",
+    "options": [
+      "Yes, always",
+      "No; Section 106 applies only where there is NEITHER intention NOR knowledge that the act will cause death",
+      "Yes, provided the weapon was not deadly",
+      "Only if the victim was a trespasser"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 106(1) explicitly states 'causes death of any person by doing any rash or negligent act not amounting to culpable homicide'. Where intention or knowledge exists, it falls under S. 100/101/105.",
+    "optionBreakdown": {
+      "A": "Incorrect; intention excludes Section 106.",
+      "B": "Correct; Section 106 applies only where culpable homicide is ruled out.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 106(1) / IPC S. 304A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish S. 106 from culpable homicide.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-027",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "What is the difference between 'rashness' and 'negligence' in criminal jurisprudence?",
+    "options": [
+      "Rashness implies acting with consciousness of the risk; negligence implies breach of duty to take care through inadvertence or indifference",
+      "Rashness is an intentional offence; negligence is accidental",
+      "Rashness applies only to vehicles; negligence applies only to doctors",
+      "There is no legal difference between them"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "As explained in Niranjan Singh and Bhalchandra, rashness involves acting despite foreseeing the dangerous risk; negligence is omitting to do what a prudent person would do.",
+    "optionBreakdown": {
+      "A": "Correct; classical distinction between rashness and negligence.",
+      "B": "Neither involves intention to cause death.",
+      "C": "Both apply across multiple activities.",
+      "D": "Distinct legal concepts."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 106(1) / IPC S. 304A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Differentiate criminal rashness from negligence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-028",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "If brought into force, what sentence does Section 106(2) BNS prescribe for a driver who escapes without reporting the accident to police or magistrate?",
+    "options": [
+      "Imprisonment up to 3 years and fine",
+      "Imprisonment up to 7 years and fine",
+      "Imprisonment up to 10 years, and shall also be liable to fine",
+      "Life imprisonment"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Section 106(2) provides imprisonment up to 10 years and fine for escaping without reporting soon after the incident.",
+    "optionBreakdown": {
+      "A": "Incorrect.",
+      "B": "Incorrect.",
+      "C": "Correct; S. 106(2) provides up to 10 years.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 106(2)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall proposed penalty under S. 106(2).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-029",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "In Cherubin Gregory v. State of Bihar (1964), the accused fixed live electric wires to his latrine to deter trespassers, resulting in the death of a trespasser. He was held guilty under:",
+    "options": [
+      "Section 304A IPC (now BNS S. 106(1))",
+      "Section 300 IPC (Murder)",
+      "Section 323 IPC (Simple Hurt)",
+      "Not guilty under right of private defence of property"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Cherubin Gregory v. State of Bihar (AIR 1964 SC 205), setting uninsulated live wires was held to be a rash and negligent act causing death under S. 304A.",
+    "optionBreakdown": {
+      "A": "Correct; convicted under S. 304A.",
+      "B": "Not held guilty of murder.",
+      "C": "Death resulted, so not simple hurt.",
+      "D": "Private defence does not permit setting lethal man-traps without warning."
+    },
+    "difficulty": "Hard",
+    "provision": "IPC S. 304A / BNS S. 106(1)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Cherubin Gregory man-trap precedent.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-030",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-03",
+    "question": "What is the equivalent of Section 304A IPC in the Bharatiya Nyaya Sanhita, 2023?",
+    "options": [
+      "Section 103",
+      "Section 105",
+      "Section 106",
+      "Section 115"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Section 304A IPC corresponds to Section 106 BNS.",
+    "optionBreakdown": {
+      "A": "Section 103 BNS corresponds to Section 302 IPC (Murder).",
+      "B": "Section 105 BNS corresponds to Section 304 IPC (Culpable Homicide).",
+      "C": "Correct; Section 106 BNS corresponds to Section 304A IPC.",
+      "D": "Section 115 BNS corresponds to Section 323 IPC (Hurt)."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 106 / IPC S. 304A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map statutory section numbers for rash death.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-031",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "Under Section 79 BNS (Section 304B IPC), what is the statutory time frame within which the unnatural death of a woman must occur for dowry death?",
+    "options": [
+      "Within 3 years of marriage",
+      "Within 5 years of marriage",
+      "Within 7 years of marriage",
+      "Within 10 years of marriage"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Section 79 BNS (and Section 304B IPC) specifies death occurring within 7 years of marriage.",
+    "optionBreakdown": {
+      "A": "Incorrect.",
+      "B": "Incorrect.",
+      "C": "Correct; statutory period is within 7 years of marriage.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 79 / IPC S. 304B",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall time threshold for dowry death.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-032",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "What is the minimum statutory punishment for Dowry Death under Section 79 BNS (Section 304B IPC)?",
+    "options": [
+      "Imprisonment for 3 years",
+      "Imprisonment for 5 years",
+      "Imprisonment for 7 years",
+      "Imprisonment for 10 years"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "The minimum sentence for dowry death is imprisonment for 7 years, which may extend to imprisonment for life.",
+    "optionBreakdown": {
+      "A": "Too low.",
+      "B": "Too low.",
+      "C": "Correct; minimum sentence is 7 years.",
+      "D": "Maximum may be life, but minimum is 7 years."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 79 / IPC S. 304B",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify minimum punishment for dowry death.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-033",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "Which provision of the Bharatiya Nyaya Sanhita, 2023 specifically introduces murder by a mob of five or more persons on grounds of race, caste, community, sex, or place of birth (Mob Lynching)?",
+    "options": [
+      "Section 103(1)",
+      "Section 103(2)",
+      "Section 111(2)",
+      "Section 189"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 103(2) BNS is a groundbreaking new provision punishing murder committed by 5 or more persons acting in concert on grounds of race, caste, community, sex, place of birth, language, or religion with death or life imprisonment.",
+    "optionBreakdown": {
+      "A": "Section 103(1) is the general penalty for murder.",
+      "B": "Correct; Section 103(2) BNS covers mob lynching.",
+      "C": "Section 111 deals with organised crime.",
+      "D": "Section 189 deals with unlawful assembly."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 103(2)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master new Mob Lynching provision in BNS S. 103(2).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-034",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "What is the statutory punishment prescribed under Section 103(2) BNS for mob lynching?",
+    "options": [
+      "Rigorous imprisonment for 7 years",
+      "Imprisonment for 10 years and fine",
+      "Death or imprisonment for life, and shall also be liable to fine",
+      "Imprisonment up to 14 years"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Section 103(2) BNS prescribes death or imprisonment for life, and fine, for each member of such group.",
+    "optionBreakdown": {
+      "A": "Incorrect penalty.",
+      "B": "Incorrect penalty.",
+      "C": "Correct; death or life imprisonment.",
+      "D": "Incorrect penalty."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 103(2)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand mob lynching penalties.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-035",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "Under Section 108 BNS (Section 306 IPC), what is the maximum punishment for Abetment of Suicide?",
+    "options": [
+      "Imprisonment up to 5 years",
+      "Imprisonment up to 7 years",
+      "Imprisonment up to 10 years, and fine",
+      "Life imprisonment"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Section 108 BNS (S. 306 IPC) punishes abetment of suicide with imprisonment of either description for a term up to 10 years, and fine.",
+    "optionBreakdown": {
+      "A": "Incorrect.",
+      "B": "Incorrect.",
+      "C": "Correct; up to 10 years and fine.",
+      "D": "Life imprisonment applies if suicide is abetted of a child or insane person (S. 107 BNS / S. 305 IPC)."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 108 / IPC S. 306",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for abetment of suicide.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-036",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "Section 107 BNS (Section 305 IPC) deals with abetment of suicide of:",
+    "options": [
+      "Any child under 18 years, insane person, or intoxicated person",
+      "A public servant",
+      "A married woman within 7 years of marriage",
+      "An army officer on active duty"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 107 BNS punishes abetment of suicide of any person under 18 years of age, insane, delirious, or intoxicated with death or life imprisonment, or up to 10 years.",
+    "optionBreakdown": {
+      "A": "Correct; statutory protected categories in S. 107 BNS / S. 305 IPC.",
+      "B": "Not a distinct section.",
+      "C": "Falls under S. 108 BNS with presumption under S. 117 BSA (S. 113A IEA).",
+      "D": "Not covered here."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 107 / IPC S. 305",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Differentiate S. 107 from S. 108 BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-037",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "Which essential ingredient must be established for dowry death under S. 79 BNS (S. 304B IPC)?",
+    "options": [
+      "Cruelty or harassment by husband or his relatives was 'soon before her death' in connection with demand for dowry",
+      "Husband was physically present at the scene of death",
+      "Demand for dowry was made in writing before solemnisation",
+      "The marriage was an inter-caste marriage"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The phrase 'soon before her death' establishes proximate and live link between cruelty for dowry and the unnatural death (Satvir Singh v. State of Punjab).",
+    "optionBreakdown": {
+      "A": "Correct; 'soon before her death' is the crucial proximate link.",
+      "B": "Physical presence of husband at moment of death is not required.",
+      "C": "Written demand is not required.",
+      "D": "Irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 79 / IPC S. 304B",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand 'soon before her death' requirement.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-038",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "In which case did the Supreme Court hold that to convict under S. 306 IPC for abetment of suicide, there must be clear mens rea, active instigation or direct act leading the deceased to commit suicide?",
+    "options": [
+      "Sanju alias Sanjay Singh Sengar v. State of M.P. (2002)",
+      "State of West Bengal v. Orilal Jaiswal (1994)",
+      "Ramesh Kumar v. State of Chhattisgarh (2001)",
+      "All of the above"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "explanation": "A long line of judgments including Sanju Sengar, Orilal Jaiswal, and Ramesh Kumar established that mere harassment or abusive words without active instigation does not constitute abetment under S. 306.",
+    "optionBreakdown": {
+      "A": "Leading case on word 'go and die'.",
+      "B": "Leading case on high proof standard for abetment.",
+      "C": "Leading case on instigation.",
+      "D": "Correct; all three reinforce this consistent jurisprudence."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 108 / IPC S. 306",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze mens rea requirement in abetment of suicide.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-039",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "How did BNS 2023 treat Attempt to Commit Suicide (formerly Section 309 IPC)?",
+    "options": [
+      "Retained identically with 1 year simple imprisonment",
+      "Shifted to Section 226 BNS, punishing attempt to commit suicide to compel or restrain exercise of lawful power",
+      "Abolished entirely with no offence remaining in the penal code",
+      "Made punishable with capital punishment"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 309 IPC is replaced by Section 226 BNS, which punishes attempting suicide ONLY with intent to compel/restrain a public servant from discharging duty (with up to 1 year, fine, or community service).",
+    "optionBreakdown": {
+      "A": "General suicide attempt was not retained identically.",
+      "B": "Correct; S. 226 BNS covers attempt to commit suicide to compel/restrain lawful power.",
+      "C": "A restricted form is retained in S. 226.",
+      "D": "Absurd penalty."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 226 / IPC S. 309",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize reform of attempt to commit suicide in BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-06-040",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-06",
+    "topicId": "top-crim-06-04",
+    "question": "In Tehseen S. Poonawalla v. Union of India (2018), what did the Supreme Court mandate regarding mob lynching?",
+    "options": [
+      "Parliament should create a separate offence for lynching, and States must take preventive, remedial and punitive measures",
+      "Mob lynching is an internal security matter beyond judicial review",
+      "All participants should be tried under military court martials",
+      "Sections 141-149 IPC are unconstitutional"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Tehseen Poonawalla ((2018) 9 SCC 501) issued comprehensive guidelines and recommended enactment of a standalone lynching law, which influenced BNS S. 103(2).",
+    "optionBreakdown": {
+      "A": "Correct; Tehseen Poonawalla guidelines prompted specific statutory provisions.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 103(2) / Tehseen Poonawalla (2018)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Trace constitutional origin of BNS mob lynching law.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-011",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "Under Section 114 BNS (Section 319 IPC), Hurt is defined as causing:",
+    "options": [
+      "Bodily pain, disease or infirmity to any person",
+      "Mental agony or emotional distress",
+      "Damage to clothes or property",
+      "Loss of reputation or standing"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Hurt is defined as causing bodily pain, disease or infirmity to any person.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of simple hurt.",
+      "B": "Mental pain alone does not constitute bodily hurt under this section.",
+      "C": "Relates to mischief, not hurt.",
+      "D": "Relates to defamation."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 114 / IPC S. 319",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define simple hurt.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-012",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "How many statutory clauses designate 'Grievous Hurt' under Section 116 BNS (Section 320 IPC)?",
+    "options": [
+      "Five clauses",
+      "Six clauses",
+      "Eight clauses",
+      "Ten clauses"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Both IPC Section 320 and BNS Section 116 specify exactly eight designated kinds of hurt as grievous hurt.",
+    "optionBreakdown": {
+      "A": "Incorrect.",
+      "B": "Incorrect.",
+      "C": "Correct; eight clauses designate grievous hurt.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 116 / IPC S. 320",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall eight clauses of grievous hurt.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-013",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "Under Clause Eighth of Section 116 BNS (Section 320 IPC), any hurt which causes the sufferer to be during what space of time in severe bodily pain, or unable to follow his ordinary pursuits, is grievous hurt?",
+    "options": [
+      "14 days",
+      "20 days",
+      "30 days",
+      "40 days"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Clause Eighth specifies a period of 20 days during which the victim is in severe bodily pain or unable to follow ordinary pursuits.",
+    "optionBreakdown": {
+      "A": "Incorrect.",
+      "B": "Correct; 20 days is the statutory period under Clause Eighth.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 116 Clause 8 / IPC S. 320 Clause 8",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Verify 20-day rule for grievous hurt.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-014",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "Which of the following is NOT one of the eight clauses of Grievous Hurt under Section 116 BNS (Section 320 IPC)?",
+    "options": [
+      "Emasculation",
+      "Permanent privation of the sight of either eye",
+      "Simple contusion causing pain for 7 days",
+      "Fracture or dislocation of a bone or tooth"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Simple contusion causing pain for only 7 days falls under simple hurt; only hurt causing severe pain/inability for 20 days becomes grievous under Clause 8.",
+    "optionBreakdown": {
+      "A": "Clause 1.",
+      "B": "Clause 2.",
+      "C": "Correct; 7 days pain is simple hurt, not grievous hurt.",
+      "D": "Clause 7."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 116 / IPC S. 320",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish simple hurt from grievous hurt.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-015",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "What is the statutory punishment for voluntarily causing grievous hurt by use of acid under Section 124(1) BNS (Section 326A IPC)?",
+    "options": [
+      "Imprisonment of not less than 5 years up to 10 years",
+      "Imprisonment of not less than 10 years which may extend to life imprisonment, and fine",
+      "Imprisonment up to 7 years",
+      "Imprisonment for 3 years only"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 124(1) BNS (IPC S. 326A) provides mandatory minimum imprisonment of 10 years, up to life, with fine to cover medical expenses.",
+    "optionBreakdown": {
+      "A": "Too lenient.",
+      "B": "Correct; minimum 10 years up to life, and fine payable to victim.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 124(1) / IPC S. 326A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master acid attack penalties under BNS S. 124(1).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-016",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "Which section of BNS 2023 deals with voluntarily throwing or attempting to throw acid (corresponding to Section 326B IPC)?",
+    "options": [
+      "Section 124(2)",
+      "Section 125",
+      "Section 126",
+      "Section 128"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 124(2) BNS covers throwing or attempting to throw acid, punishable with imprisonment of not less than 5 years up to 7 years.",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 124(2) corresponds to IPC Section 326B.",
+      "B": "Section 125 covers act endangering life or personal safety.",
+      "C": "Section 126 covers wrongful restraint.",
+      "D": "Section 128 covers causing grievous hurt by dangerous weapons."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 124(2) / IPC S. 326B",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify BNS section for attempt to throw acid.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-017",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "What is the statutory punishment for Voluntarily Causing Hurt under Section 115(2) BNS (Section 323 IPC)?",
+    "options": [
+      "Imprisonment up to 1 year, or fine up to Rs 10,000, or both, or community service",
+      "Imprisonment up to 3 years and fine",
+      "Rigorous imprisonment for 6 months only",
+      "Fine of Rs 500 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 115(2) BNS punishes voluntarily causing hurt with imprisonment up to 1 year, or fine up to Rs 10,000, or both, or with community service.",
+    "optionBreakdown": {
+      "A": "Correct; includes community service in BNS.",
+      "B": "Incorrect period.",
+      "C": "Incorrect.",
+      "D": "Old IPC fine was Rs 1,000; BNS increases fine and adds community service."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 115(2) / IPC S. 323",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall updated penalties for simple hurt under BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-018",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "What did the Supreme Court hold in Laxmi v. Union of India (2014) regarding acid attack victims?",
+    "options": [
+      "Regulation of acid sales, minimum compensation of Rs 3 lakhs, and free medical treatment in all hospitals",
+      "Complete ban on industrial use of acids",
+      "Trial of acid attacks only by military tribunals",
+      "Victim must bear 50% of reconstructive surgery costs"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Laxmi v. Union of India ((2014) 4 SCC 427) mandated retail acid regulation, mandatory minimum compensation, and free medical treatment under CrPC S. 357C / BNSS S. 397.",
+    "optionBreakdown": {
+      "A": "Correct; seminal Laxmi judgment directives.",
+      "B": "Industrial sales are regulated, not completely banned.",
+      "C": "Tried by Sessions Court, not military tribunals.",
+      "D": "Treatment must be completely free."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 124 / Laxmi v. UOI",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Laxmi v. UOI acid attack guidelines.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-019",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "If A cuts off B's little finger, which clause of Grievous Hurt does this act fall under?",
+    "options": [
+      "Clause Sixth: Permanent privation of any member or joint",
+      "Clause First: Emasculation",
+      "Clause Second: Permanent privation of the sight of eye",
+      "It is only simple hurt because a little finger is not vital"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Permanent privation of any member or joint (including any finger or toe) is grievous hurt under Clause Sixth.",
+    "optionBreakdown": {
+      "A": "Correct; finger is a member/joint under Clause Sixth.",
+      "B": "Clause First is emasculation.",
+      "C": "Clause Second is sight of eye.",
+      "D": "Cutting off a finger is explicitly grievous hurt."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 116 Clause 6 / IPC S. 320 Clause 6",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Grievous Hurt clauses to factual scenarios.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-020",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-01",
+    "question": "Voluntarily causing hurt by dangerous weapons or means is punished under:",
+    "options": [
+      "Section 117 BNS (Section 324 IPC)",
+      "Section 118(1) BNS (Section 324 IPC)",
+      "Section 120 BNS",
+      "Section 130 BNS"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 118(1) BNS corresponds to Section 324 IPC (voluntarily causing hurt by dangerous weapons or means, up to 3 years imprisonment or fine).",
+    "optionBreakdown": {
+      "A": "Section 117 covers Voluntarily causing grievous hurt.",
+      "B": "Correct; Section 118(1) covers hurt by dangerous weapons.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 118(1) / IPC S. 324",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map dangerous weapons hurt provisions.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-021",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "Wrongful Restraint under Section 126(1) BNS (Section 339 IPC) is defined as:",
+    "options": [
+      "Voluntarily obstructing any person so as to prevent that person from proceeding in any direction in which that person has a right to proceed",
+      "Restraining a person within circumscribed limits",
+      "Restraining a person inside a locked room",
+      "Tying a person with ropes"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Wrongful restraint is partial restraint preventing movement in a particular direction where the person has a legal right to proceed.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of wrongful restraint.",
+      "B": "Restraint within circumscribed limits is wrongful confinement.",
+      "C": "This is confinement.",
+      "D": "Method is irrelevant; direction is the defining test."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 126(1) / IPC S. 339",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define wrongful restraint.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-022",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "Wrongful Confinement under Section 127(1) BNS (Section 340 IPC) requires:",
+    "options": [
+      "Restraining a person in a single direction only",
+      "Wrongfully restraining a person in such a manner as to prevent that person from proceeding beyond certain circumscribing limits",
+      "Detaining a person for more than 24 hours",
+      "Use of physical iron chains"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Wrongful confinement is total restraint in all directions within bounded circumscribing limits.",
+    "optionBreakdown": {
+      "A": "Single direction is wrongful restraint.",
+      "B": "Correct; circumscribing limits define wrongful confinement.",
+      "C": "Duration affects punishment under S. 127(3)-(5), but not the core definition.",
+      "D": "Physical chains are not mandatory; psychological or physical walls suffice."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 127(1) / IPC S. 340",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define wrongful confinement.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-023",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "What is the statutory punishment for Wrongful Restraint under Section 126(2) BNS (Section 341 IPC)?",
+    "options": [
+      "Simple imprisonment up to 1 month, or fine up to Rs 5,000, or both",
+      "Rigorous imprisonment up to 1 year",
+      "Imprisonment up to 3 years",
+      "Fine of Rs 100 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 126(2) BNS prescribes simple imprisonment up to 1 month, or fine up to Rs 5,000, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 1 month simple imprisonment or fine up to Rs 5,000.",
+      "B": "Too severe.",
+      "C": "Too severe.",
+      "D": "Old IPC fine was Rs 500; BNS raised it to Rs 5,000."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 126(2) / IPC S. 341",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for wrongful restraint.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-024",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "What is the statutory punishment for general Wrongful Confinement under Section 127(2) BNS (Section 342 IPC)?",
+    "options": [
+      "Imprisonment up to 1 year, or fine up to Rs 5,000, or both",
+      "Simple imprisonment up to 1 month",
+      "Rigorous imprisonment up to 5 years",
+      "Fine only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 127(2) BNS provides imprisonment of either description up to 1 year, or fine up to Rs 5,000, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 1 year, or fine up to Rs 5,000, or both.",
+      "B": "1 month applies to wrongful restraint.",
+      "C": "5 years applies to confinement for 10 or more days.",
+      "D": "Imprisonment may also be awarded."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 127(2) / IPC S. 342",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for wrongful confinement.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-025",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "Under the Exception to Section 126(1) BNS (Section 339 IPC), which of the following does NOT constitute wrongful restraint?",
+    "options": [
+      "Obstruction of a private way over land or water which a person in good faith believes himself to have a lawful right to obstruct",
+      "Obstructing a public highway with bullock carts",
+      "Stopping a passenger train illegally",
+      "Blocking a hospital gate"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Exception to S. 126(1) protects bona fide obstruction of a private way over land or water based on good faith belief of lawful right.",
+    "optionBreakdown": {
+      "A": "Correct; bona fide assertion of private property right is protected.",
+      "B": "Public highway obstruction is wrongful restraint.",
+      "C": "Obstructing train is wrongful restraint and railway offence.",
+      "D": "Blocking hospital is wrongful restraint."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 126(1) Exception / IPC S. 339 Exception",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master exception to wrongful restraint.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-026",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "If a person is wrongfully confined for 3 or more days, what is the maximum punishment under Section 127(3) BNS (Section 343 IPC)?",
+    "options": [
+      "Imprisonment up to 2 years, or fine, or both",
+      "Imprisonment up to 3 years, or fine, or both",
+      "Imprisonment up to 5 years",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Confinement for 3 days or more is punishable with imprisonment up to 2 years, or fine, or both under S. 127(3) BNS / S. 343 IPC.",
+    "optionBreakdown": {
+      "A": "Correct; up to 2 years for 3 or more days.",
+      "B": "3 years applies to 10 or more days.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 127(3) / IPC S. 343",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Differentiate confinement durations and penalties.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-027",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "If a person is wrongfully confined for 10 or more days, what is the maximum punishment under Section 127(4) BNS (Section 344 IPC)?",
+    "options": [
+      "Imprisonment up to 3 years, and fine",
+      "Imprisonment up to 5 years",
+      "Imprisonment up to 7 years",
+      "Imprisonment up to 10 years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Confinement for 10 days or more is punishable with imprisonment of either description up to 3 years, and fine (S. 127(4) BNS / S. 344 IPC).",
+    "optionBreakdown": {
+      "A": "Correct; up to 3 years and fine.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 127(4) / IPC S. 344",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify penalty for 10+ days wrongful confinement.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-028",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "A locks the only exit door of a room from outside while Z is sleeping inside. What offence has A committed?",
+    "options": [
+      "Wrongful Confinement",
+      "Wrongful Restraint only",
+      "Attempt to Murder",
+      "No offence until Z wakes up and tries to exit"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Locking a person inside a room sets total circumscribed limits on their freedom of movement, constituting wrongful confinement.",
+    "optionBreakdown": {
+      "A": "Correct; locking someone in a room is wrongful confinement.",
+      "B": "Restraint is partial; this is total confinement.",
+      "C": "No intention to cause death.",
+      "D": "Confinement is complete upon imposing the circumscribing boundary."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 127(1) / IPC S. 340",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply confinement to locked room scenario.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-029",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "What is the key conceptual difference between Wrongful Restraint and Wrongful Confinement?",
+    "options": [
+      "Restraint is partial (in one direction); Confinement is total (in all directions within limits)",
+      "Restraint applies to property; Confinement applies to person",
+      "Restraint is cognizable; Confinement is non-cognizable",
+      "Restraint requires physical force; Confinement requires verbal threats"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Wrongful restraint abridges liberty in a particular direction; wrongful confinement abridges liberty in all directions (Bird v. Jones doctrine).",
+    "optionBreakdown": {
+      "A": "Correct; classic partial vs total liberty distinction.",
+      "B": "Both apply to the human person.",
+      "C": "Both are cognizable.",
+      "D": "Both can be committed by force or threat."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 126 & 127 / IPC S. 339 & 340",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish restraint from confinement.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-030",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-02",
+    "question": "Wrongful confinement to extort property or constrain to an illegal act under S. 127(6) BNS (S. 347 IPC) is punishable with:",
+    "options": [
+      "Imprisonment up to 3 years and fine",
+      "Imprisonment up to 5 years",
+      "Rigorous imprisonment up to 7 years",
+      "Imprisonment for 6 months only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 127(6) BNS (IPC S. 347) provides imprisonment of either description up to 3 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 3 years and fine.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 127(6) / IPC S. 347",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall extortion-linked confinement penalty.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-031",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "Under Section 137(1) BNS (Section 359 IPC), Kidnapping is of how many kinds?",
+    "options": [
+      "Two kinds: Kidnapping from India and Kidnapping from lawful guardianship",
+      "Three kinds: from India, from state, and from home",
+      "Four kinds including international kidnapping",
+      "Only one kind"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 137(1) BNS (Section 359 IPC) classifies kidnapping into two kinds: (i) from India, and (ii) from lawful guardianship.",
+    "optionBreakdown": {
+      "A": "Correct; exactly two kinds of kidnapping exist.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 137(1) / IPC S. 359",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall two kinds of kidnapping.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-032",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "Under Section 137(2) BNS (Section 361 IPC), what are the age limits for kidnapping from lawful guardianship?",
+    "options": [
+      "Male under 16 years, female under 18 years",
+      "Male under 18 years, female under 18 years",
+      "Any child under 14 years",
+      "Under 21 years for both"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 137(2) BNS (Section 361 IPC), the age limits are a male under 16 years, or a female under 18 years, or any person of unsound mind.",
+    "optionBreakdown": {
+      "A": "Correct; male under 16, female under 18.",
+      "B": "Equal 18 threshold was proposed but 16/18 is retained in statute.",
+      "C": "14 is POCSO age in certain contexts, not S. 137(2).",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 137(2) / IPC S. 361",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Verify statutory age limits for kidnapping.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-033",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "How is 'Abduction' defined under Section 138 BNS (Section 362 IPC)?",
+    "options": [
+      "Whoever by force compels, or by any deceitful means induces, any person to go from any place",
+      "Taking or enticing away a minor from lawful guardian",
+      "Conveying any person beyond the limits of India without consent",
+      "Trafficking a person across state borders"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Abduction requires compelling by force or inducing by deceitful means any person to go from any place.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of abduction.",
+      "B": "This is kidnapping from lawful guardianship.",
+      "C": "This is kidnapping from India.",
+      "D": "This is human trafficking."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 138 / IPC S. 362",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define abduction.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-034",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "Is Abduction per se an offence under the Bharatiya Nyaya Sanhita or Indian Penal Code?",
+    "options": [
+      "Yes, it is punishable with 7 years imprisonment by itself",
+      "No; abduction is an auxiliary act and becomes punishable only when accompanied by a specific criminal intent",
+      "Yes, it is a non-bailable standalone offence",
+      "No, it is only a civil tort"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Abduction per se is not an offence; it becomes punishable only when accompanied by intent to murder (S. 139), wrongfully confine (S. 140), compel marriage, etc.",
+    "optionBreakdown": {
+      "A": "Incorrect; abduction alone without purpose is not punishable.",
+      "B": "Correct; abduction is an auxiliary/inchoate element requiring specific statutory purpose.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 138 / IPC S. 362",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master auxiliary nature of abduction.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-035",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "What is the landmark Supreme Court decision on kidnapping where the minor girl left her father's house voluntarily and met the accused on the road?",
+    "options": [
+      "S. Varadarajan v. State of Madras (1965)",
+      "State of Haryana v. Rajinder Singh (1996)",
+      "Parkash v. State of Haryana (2004)",
+      "Kalyani v. State (2012)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "S. Varadarajan v. State of Madras (AIR 1965 SC 942) held that where a minor capable of thinking leaves voluntarily and asks the accused to come, there is no 'taking' or 'enticing'.",
+    "optionBreakdown": {
+      "A": "Correct; Varadarajan is the leading authority on 'taking or enticing'.",
+      "B": "Deals with dowry death.",
+      "C": "Deals with rape age determination.",
+      "D": "Deals with domestic cruelty."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 137(2) / S. Varadarajan (1965)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply S. Varadarajan precedent on kidnapping.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-036",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "Under Section 143 BNS (Section 370 IPC), Human Trafficking includes recruitment, transportation, harboring or receipt of persons by means of:",
+    "options": [
+      "Threat, force, coercion, abduction, fraud, or abuse of power for exploitation",
+      "Lawful contractual recruitment through licensed agents",
+      "Voluntary domestic migration for employment",
+      "Adoption through official CARA channels"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 143 BNS (Section 370 IPC) incorporates the UN Palermo Protocol definition of trafficking for physical, sexual, or organ exploitation.",
+    "optionBreakdown": {
+      "A": "Correct; comprehensive trafficking definition.",
+      "B": "Lawful employment is not trafficking.",
+      "C": "Voluntary migration is not trafficking.",
+      "D": "Lawful CARA adoption is legal."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 143 / IPC S. 370",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand human trafficking ingredients.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-037",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "What is the statutory punishment for trafficking more than one person under Section 143(3) BNS (Section 370(3) IPC)?",
+    "options": [
+      "Rigorous imprisonment for not less than 10 years, which may extend to life imprisonment, and fine",
+      "Imprisonment up to 7 years",
+      "Imprisonment for 5 years",
+      "Capital punishment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Trafficking of multiple persons is punishable with rigorous imprisonment of not less than 10 years extending to life imprisonment, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; minimum 10 years to life.",
+      "B": "7-10 years applies to single person trafficking.",
+      "C": "Too low.",
+      "D": "Death penalty does not apply to Section 143(3)."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 143(3) / IPC S. 370(3)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalties for multi-person trafficking.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-038",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "Which section of BNS 2023 deals with Kidnapping for Ransom (corresponding to Section 364A IPC)?",
+    "options": [
+      "Section 140(2)",
+      "Section 140(1)",
+      "Section 142",
+      "Section 144"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 140(2) BNS covers kidnapping or abducting for ransom, punishable with death or imprisonment for life, and fine (IPC Section 364A).",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 140(2) corresponds to IPC Section 364A.",
+      "B": "Section 140(1) covers kidnapping with intent to secretly confine.",
+      "C": "Section 142 covers slavery.",
+      "D": "Section 144 covers trafficking of child."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 140(2) / IPC S. 364A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify BNS section for kidnapping for ransom.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-039",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "Can a father be guilty of kidnapping his own legitimate minor child from the custody of the mother under Section 137(2) BNS?",
+    "options": [
+      "Yes, always",
+      "No, generally a father is the natural guardian, unless a competent civil court has granted exclusive custody to the mother",
+      "Yes, father has no guardianship rights in criminal law",
+      "Only if the child is a daughter"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Under Exception to S. 137(2) BNS / S. 361 IPC, a person who in good faith believes himself to be entitled to custody is not guilty, and father is natural guardian unless deprived by court order.",
+    "optionBreakdown": {
+      "A": "Incorrect.",
+      "B": "Correct; father as natural guardian is protected unless court stripped custody.",
+      "C": "Incorrect.",
+      "D": "Irrelevant."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 137(2) Exception / IPC S. 361 Exception",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze parental custody and kidnapping exception.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-07-040",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-07",
+    "topicId": "top-crim-07-03",
+    "question": "What is the difference between Kidnapping and Abduction regarding the consent of the victim?",
+    "options": [
+      "Consent of minor in kidnapping is entirely immaterial; in abduction, free and voluntary consent of person removes the offence",
+      "Consent is valid in both",
+      "Consent is immaterial in both",
+      "Minor's consent is valid in kidnapping if above 12 years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In kidnapping from guardianship, consent of the minor is completely irrelevant (consent must be of guardian); in abduction, free consent negates force/deceit.",
+    "optionBreakdown": {
+      "A": "Correct; consent of minor is immaterial in kidnapping.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 137 & 138 / IPC S. 361 & 362",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Compare consent in kidnapping vs abduction.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-011",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "Under Section 63 BNS (Section 375 IPC), what is the statutory age threshold below which sexual intercourse with a female is rape regardless of her consent?",
+    "options": [
+      "Under 16 years",
+      "Under 18 years",
+      "Under 21 years",
+      "Under 15 years"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Under Clause Sixth of Section 63 BNS (and Section 375 IPC), sexual intercourse with a female under 18 years of age is rape with or without her consent.",
+    "optionBreakdown": {
+      "A": "Old pre-2013 age limit was 16; Criminal Law Amendment 2013 raised it to 18.",
+      "B": "Correct; under 18 years is the statutory threshold.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 63 Clause 6 / IPC S. 375 Clause 6",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Verify statutory age threshold in rape.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-012",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "What is the minimum statutory punishment for simple Rape under Section 64(1) BNS (Section 376(1) IPC)?",
+    "options": [
+      "Rigorous imprisonment for not less than 7 years",
+      "Rigorous imprisonment for not less than 10 years, which may extend to life, and fine",
+      "Imprisonment up to 5 years",
+      "Rigorous imprisonment for 3 years"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Section 64(1) BNS prescribes rigorous imprisonment of not less than 10 years extending to life imprisonment, and fine.",
+    "optionBreakdown": {
+      "A": "7 years was the old pre-2018 minimum.",
+      "B": "Correct; 10 years minimum under BNS S. 64(1) and post-2018 IPC S. 376(1).",
+      "C": "Too low.",
+      "D": "Too low."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 64(1) / IPC S. 376(1)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall minimum sentence for rape.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-013",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "What is the punishment for Gang Rape under Section 70(1) BNS (Section 376D IPC)?",
+    "options": [
+      "Rigorous imprisonment for not less than 20 years, which may extend to life (natural life), and fine",
+      "Imprisonment for 10 years",
+      "Imprisonment up to 14 years",
+      "Simple imprisonment for 7 years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 70(1) BNS (IPC S. 376D) punishes gang rape with rigorous imprisonment for not less than 20 years, extending to life (remainder of natural life), and fine.",
+    "optionBreakdown": {
+      "A": "Correct; minimum 20 years extending to natural life.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 70(1) / IPC S. 376D",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall gang rape statutory penalty.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-014",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "Under Section 70(2) BNS (Section 376DA IPC), what is the punishment for gang rape of a woman under 18 years of age?",
+    "options": [
+      "Imprisonment for life (natural life) and fine, or death",
+      "Imprisonment for 10 years only",
+      "Rigorous imprisonment for 7 years",
+      "Fine of Rs 1 lakh only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 70(2) BNS provides imprisonment for the remainder of natural life and fine, or death.",
+    "optionBreakdown": {
+      "A": "Correct; natural life or death.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "Absurd penalty."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 70(2) / IPC S. 376DA",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master aggravated child gang rape penalties.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-015",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "How is 'Consent' defined in Explanation 2 to Section 63 BNS (Section 375 IPC)?",
+    "options": [
+      "An unequivocal voluntary agreement when the woman by words, gestures or any form of verbal or non-verbal communication, communicates willingness",
+      "Passive submission without physical resistance",
+      "Absence of physical injuries on the body of the woman",
+      "Consent inferred from previous sexual history"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Consent is defined as an unequivocal voluntary agreement by words, gestures or non-verbal communication. Lack of physical resistance does not imply consent.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of consent in Explanation 2.",
+      "B": "Proviso explicitly states lack of physical resistance does not constitute consent.",
+      "C": "Absence of injuries does not imply consent.",
+      "D": "Previous sexual history is inadmissible under S. 53A IEA / S. 53 BSA."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 63 Expl 2 / IPC S. 375 Expl 2",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand affirmative consent definition.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-016",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "Which landmark case led to the appointment of the Justice Verma Committee and subsequent radical overhaul of sexual offences in Indian criminal law?",
+    "options": [
+      "Mukesh & Anr. v. State for NCT of Delhi (2017) (Nirbhaya Case)",
+      "Tukaram v. State of Maharashtra (1979) (Mathura Case)",
+      "Vishaka v. State of Rajasthan (1997)",
+      "Independent Thought v. Union of India (2017)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The 2012 Delhi gang rape (Nirbhaya case) prompted the Verma Committee recommendations leading to Criminal Law Amendment Act, 2013.",
+    "optionBreakdown": {
+      "A": "Correct; Nirbhaya case catalyzed the modern rape law reform.",
+      "B": "Mathura case led to 1983 amendment introducing custodial rape provisions.",
+      "C": "Vishaka deals with workplace sexual harassment guidelines.",
+      "D": "Independent Thought removed marital rape exception for wives aged 15-18."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 63-71 / Nirbhaya Case",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Contextualize rape law reforms.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-017",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "In Independent Thought v. Union of India ((2017) 10 SCC 800), what did the Supreme Court hold regarding Exception 2 to Section 375 IPC (now Exception 2 to S. 63 BNS)?",
+    "options": [
+      "Sexual intercourse by a man with his wife, who is not under 18 years, is not rape; marital exception for girls between 15-18 was struck down",
+      "Marital rape exception was declared entirely unconstitutional for all ages",
+      "Child marriage was declared void ab initio under criminal law",
+      "Age of consent was reduced to 16 years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Independent Thought held that Exception 2 protecting sex with a child wife aged 15-18 violated Article 14, 15, 21, and read it down so that intercourse with any wife under 18 is rape.",
+    "optionBreakdown": {
+      "A": "Correct; struck down exception for child wives under 18.",
+      "B": "General marital rape for adult wives over 18 was not decided in this judgment.",
+      "C": "Dealt with penal law exception, not civil validity.",
+      "D": "Age was affirmed as 18."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 63 Exception 2 / Independent Thought (2017)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Independent Thought child wife precedent.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-018",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "What is the statutory punishment under Section 66 BNS (Section 376A IPC) for causing death or resulting in persistent vegetative state of victim in rape?",
+    "options": [
+      "Rigorous imprisonment for not less than 20 years extending to life (natural life), or with death",
+      "Imprisonment for 10 years",
+      "Imprisonment up to 14 years",
+      "Life imprisonment with remission after 10 years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 66 BNS provides rigorous imprisonment for not less than 20 years up to natural life, or with death.",
+    "optionBreakdown": {
+      "A": "Correct; 20 years to natural life, or death.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "No remission applies where natural life is specified."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 66 / IPC S. 376A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalties for vegetative state/death in rape.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-019",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "Under Section 64(2) BNS (Section 376(2) IPC), aggravated forms of rape include rape committed by:",
+    "options": [
+      "Police officer, public servant, member of armed forces, or hospital/jail management on person in their custody",
+      "Any stranger on a highway",
+      "A co-worker in a private office",
+      "Any person during night hours"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 64(2) BNS enumerates aggravated rape including custodial rape by police, public servants, armed forces, jail/hospital superintendents.",
+    "optionBreakdown": {
+      "A": "Correct; custodial and fiduciary positions constitute aggravated rape.",
+      "B": "Not per se an aggravated category under S. 64(2).",
+      "C": "Covered under workplace harassment or general rape.",
+      "D": "Not an aggravated clause."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 64(2) / IPC S. 376(2)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify aggravated custodial rape categories.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-020",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-01",
+    "question": "What is the punishment for rape of a woman under 16 years of age under Section 65(1) BNS (Section 376DA / 376(3) IPC)?",
+    "options": [
+      "Rigorous imprisonment for not less than 20 years which may extend to life (natural life), and fine",
+      "Imprisonment for 7 years",
+      "Imprisonment up to 10 years",
+      "Simple imprisonment for 5 years"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 65(1) BNS prescribes rigorous imprisonment of not less than 20 years extending to remainder of natural life, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; minimum 20 years up to natural life.",
+      "B": "Too low.",
+      "C": "Too low.",
+      "D": "Too low."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 65(1) / IPC S. 376(3)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalties for rape of girl under 16.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-021",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "Assault or criminal force to woman with intent to outrage her modesty is punishable under:",
+    "options": [
+      "Section 74 BNS (Section 354 IPC)",
+      "Section 75 BNS (Section 354A IPC)",
+      "Section 77 BNS (Section 354C IPC)",
+      "Section 78 BNS (Section 354D IPC)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 74 BNS corresponds to Section 354 IPC (assault or criminal force with intent to outrage modesty, 1 to 5 years and fine).",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 74 corresponds to IPC Section 354.",
+      "B": "Section 75 is Sexual Harassment (S. 354A IPC).",
+      "C": "Section 77 is Voyeurism (S. 354C IPC).",
+      "D": "Section 78 is Stalking (S. 354D IPC)."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 74 / IPC S. 354",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map section for outraging modesty.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-022",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "In State of Punjab v. Major Singh (AIR 1967 SC 63), what did the Supreme Court hold regarding the 'modesty' of a female child aged seven and a half months?",
+    "options": [
+      "Even a female infant possesses the modesty of a woman from the moment of birth capable of being outraged",
+      "An infant does not possess modesty until attaining puberty",
+      "Modesty requires sexual consciousness by the victim",
+      "Modesty can only be outraged if the child cries"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Major Singh (1967) held that modesty is an attribute of the female sex from birth, and subjective consciousness of the victim is irrelevant.",
+    "optionBreakdown": {
+      "A": "Correct; Major Singh held modesty attaches to female sex from birth.",
+      "B": "Overruled/rejected by SC.",
+      "C": "Rejected; subjective awareness not required.",
+      "D": "Irrelevant."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 74 / Major Singh (1967)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Major Singh doctrine on modesty.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-023",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "Under Section 75 BNS (Section 354A IPC), which of the following acts does NOT constitute the offence of Sexual Harassment?",
+    "options": [
+      "Physical contact and advances involving unwelcome and explicit sexual overtures",
+      "A demand or request for sexual favours",
+      "Showing pornography against the will of a woman",
+      "Politely asking a woman for professional directions on a public road"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "explanation": "Asking professional directions without unwelcome sexual undertones is lawful conduct.",
+    "optionBreakdown": {
+      "A": "Constitutes S. 75(1)(i).",
+      "B": "Constitutes S. 75(1)(ii).",
+      "C": "Constitutes S. 75(1)(iii).",
+      "D": "Correct; asking directions is not sexual harassment."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 75 / IPC S. 354A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify ingredients of sexual harassment.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-024",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "What is the statutory punishment for Voyeurism on a first conviction under Section 77 BNS (Section 354C IPC)?",
+    "options": [
+      "Imprisonment of not less than 1 year up to 3 years, and fine",
+      "Imprisonment of not less than 3 years up to 7 years, and fine",
+      "Fine of Rs 1,000 only",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "First conviction for voyeurism carries imprisonment of not less than 1 year extending up to 3 years, and fine (second conviction: 3 to 7 years).",
+    "optionBreakdown": {
+      "A": "Correct; 1 to 3 years and fine on first conviction.",
+      "B": "3 to 7 years applies on second or subsequent conviction.",
+      "C": "Too lenient.",
+      "D": "Absurd penalty."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 77 / IPC S. 354C",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall voyeurism sentencing tiers.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-025",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "Under Section 78 BNS (Section 354D IPC), Stalking includes which of the following conducts?",
+    "options": [
+      "Following a woman and contacting or attempting to contact her repeatedly despite clear disinterest",
+      "Monitoring the use by a woman of the internet, email or any other form of electronic communication",
+      "Both (A) and (B)",
+      "Only physical stalking on roads"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Section 78 BNS (IPC S. 354D) penalises both physical following/contacting and cyber-stalking (monitoring internet/email/electronic communication).",
+    "optionBreakdown": {
+      "A": "Covers physical stalking.",
+      "B": "Covers cyber stalking.",
+      "C": "Correct; both physical and cyber stalking are covered.",
+      "D": "Cyber stalking is explicitly included."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 78 / IPC S. 354D",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master physical and cyber stalking.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-026",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "Under Section 76 BNS (Section 354B IPC), assault or use of criminal force to a woman with intent to disrobe is punishable with:",
+    "options": [
+      "Imprisonment of not less than 3 years which may extend to 7 years, and fine",
+      "Imprisonment up to 1 year",
+      "Fine of Rs 5,000 only",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 76 BNS prescribes imprisonment of not less than 3 years extending up to 7 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; 3 to 7 years and fine.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 76 / IPC S. 354B",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for intent to disrobe.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-027",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "Which of the following is a statutory exception where conduct does NOT amount to Stalking under Section 78 BNS?",
+    "options": [
+      "Pursued for the purpose of preventing or detecting crime by a person entrusted with that responsibility by the State",
+      "Pursued under any law or to comply with any condition imposed under any law",
+      "In that particular circumstance, the conduct was reasonable and justified",
+      "All of the above"
+    ],
+    "answer": 3,
+    "answerLetter": "D",
+    "explanation": "All three are statutory exceptions under the Proviso to Section 78(1) BNS (Section 354D(1) IPC).",
+    "optionBreakdown": {
+      "A": "Statutory exception under clause (a).",
+      "B": "Statutory exception under clause (b).",
+      "C": "Statutory exception under clause (c).",
+      "D": "Correct; all three are recognised defences to stalking."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 78 Proviso / IPC S. 354D Proviso",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master statutory defences to stalking.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-028",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "In Rupan Deol Bajaj v. K.P.S. Gill ((1995) 6 SCC 194), slapping a woman on her posterior at a dinner party was held to constitute:",
+    "options": [
+      "Outraging modesty under Section 354 IPC (now BNS S. 74) and insult under Section 509 IPC (now BNS S. 79)",
+      "Only simple assault under Section 352 IPC",
+      "No offence because it occurred in a private social gathering",
+      "A non-cognizable civil tort only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Rupan Deol Bajaj established that slapping or touching private parts with sexual undertone outrages modesty under S. 354 and S. 509 regardless of social status.",
+    "optionBreakdown": {
+      "A": "Correct; convicted under S. 354 and S. 509.",
+      "B": "Not reduced to simple assault.",
+      "C": "Venue does not immunize the offence.",
+      "D": "Held to be a serious penal offence."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 74 / Rupan Deol Bajaj (1995)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Rupan Deol Bajaj modesty precedent.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-029",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "What is the punishment on a second or subsequent conviction for Stalking under Section 78(2) BNS (Section 354D(2) IPC)?",
+    "options": [
+      "Imprisonment up to 5 years, and fine",
+      "Imprisonment up to 3 years and fine",
+      "Imprisonment up to 10 years",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "First conviction carries up to 3 years and fine; second conviction carries imprisonment up to 5 years and fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 5 years and fine on repeat conviction.",
+      "B": "3 years is for first conviction.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 78(2) / IPC S. 354D(2)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall recidivist stalking penalties.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-030",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-02",
+    "question": "Word, gesture or act intended to insult the modesty of a woman under Section 79 BNS (Section 509 IPC) carries what maximum punishment under BNS 2023?",
+    "options": [
+      "Simple imprisonment up to 3 years, and fine",
+      "Simple imprisonment up to 1 year only",
+      "Fine of Rs 500 only",
+      "7 years rigorous imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under BNS Section 79 (IPC S. 509), the punishment is simple imprisonment for a term up to 3 years, and fine (increased from 1 year in earlier law).",
+    "optionBreakdown": {
+      "A": "Correct; up to 3 years and fine.",
+      "B": "1 year was the pre-amendment IPC term.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 79 / IPC S. 509",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize enhanced penalty for insulting modesty under BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-031",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "How has BNS 2023 structured the former Section 498A IPC (Cruelty by Husband or Relatives)?",
+    "options": [
+      "Split into Section 85 (Punishment for cruelty: up to 3 years and fine) and Section 86 (Statutory definition of Cruelty)",
+      "Abolished entirely",
+      "Merged into Section 106",
+      "Retained as a non-cognizable civil dispute"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "BNS 2023 innovatively bifurcated Section 498A IPC into Section 85 (punishment clause) and Section 86 (substantive definition of cruelty).",
+    "optionBreakdown": {
+      "A": "Correct; Section 85 provides penalty and Section 86 provides the definition.",
+      "B": "Not abolished.",
+      "C": "Section 106 is rash/negligent death.",
+      "D": "Remains a cognizable criminal offence."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 85 & 86 / IPC S. 498A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master statutory bifurcation of S. 498A IPC into BNS S. 85 & 86.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-032",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "Under Section 86 BNS, 'Cruelty' means:",
+    "options": [
+      "Any wilful conduct of such a nature as is likely to drive the woman to commit suicide or cause grave injury, or harassment to coerce unlawful property demands",
+      "Mere incompatibility of temper between spouses",
+      "Occasional domestic arguments without harassment",
+      "Filing for lawful divorce in family court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 86 BNS defines cruelty under two limbs: (a) wilful conduct driving to suicide or grave injury/danger to life/limb/health; and (b) harassment for unlawful property/security demands.",
+    "optionBreakdown": {
+      "A": "Correct; two-pronged statutory definition of cruelty in Section 86.",
+      "B": "Incompatibility is not criminal cruelty.",
+      "C": "Ordinary wear and tear is not cruelty.",
+      "D": "Exercising legal remedy is not cruelty."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 86 / IPC S. 498A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define cruelty under BNS S. 86.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-033",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "Which groundbreaking new provision is introduced in Section 69 BNS 2023?",
+    "options": [
+      "Sexual intercourse by employing deceitful means or false promise of marriage",
+      "Adultery as a penal offence with 5 years imprisonment",
+      "Mandatory pre-nuptial arbitration in all marriages",
+      "Criminalisation of live-in relationships"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 69 BNS creates a specific standalone offence for sexual intercourse by deceitful means (inducing false promise of employment/promotion or marrying without intention of fulfilling it).",
+    "optionBreakdown": {
+      "A": "Correct; Section 69 BNS penalises sexual intercourse by deceitful means.",
+      "B": "Adultery was struck down in Joseph Shine and not re-enacted.",
+      "C": "No such provision.",
+      "D": "Live-in relationships are not criminalised."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 69",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify novel BNS Section 69 deceitful sexual intercourse offence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-034",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "What is the statutory punishment under Section 69 BNS for sexual intercourse by deceitful means?",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 10 years, and fine",
+      "Simple imprisonment up to 1 year",
+      "Death penalty",
+      "Community service only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 69 BNS punishes sexual intercourse by deceitful means with imprisonment of either description up to 10 years, and shall also be liable to fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 10 years and fine.",
+      "B": "Too low.",
+      "C": "Death penalty does not apply.",
+      "D": "Community service does not apply to S. 69."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 69",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment under BNS S. 69.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-035",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "In Arnesh Kumar v. State of Bihar ((2014) 8 SCC 273), what mandatory directions did the Supreme Court issue regarding arrests under Section 498A IPC (now BNS S. 85)?",
+    "options": [
+      "Police officers shall not automatically arrest accused without satisfying Section 41 CrPC (now BNSS S. 35) checklist, and notice of appearance under S. 41A (BNSS S. 35(3)) must be served",
+      "Bail is permanently barred for all in-laws",
+      "All cases must be settled out of court within 30 days",
+      "Magistrate must remand accused to police custody automatically"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Arnesh Kumar curbed mechanical arrests in matrimonial offences punishable up to 7 years, mandating strict compliance with arrest guidelines and reasons in writing.",
+    "optionBreakdown": {
+      "A": "Correct; Arnesh Kumar arrest guidelines.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Magistrate must scrutinize and not mechanically remand."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 85 / Arnesh Kumar (2014)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Arnesh Kumar arrest guidelines.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-036",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "What is the statutory punishment for Cruelty by Husband or Relatives under Section 85 BNS (Section 498A IPC)?",
+    "options": [
+      "Imprisonment for a term which may extend to 3 years, and shall also be liable to fine",
+      "Imprisonment up to 7 years",
+      "Imprisonment for 1 year or fine of Rs 500",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 85 BNS prescribes imprisonment of either description for a term up to 3 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 3 years and fine.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 85 / IPC S. 498A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment under BNS S. 85.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-037",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "Under Section 82 BNS (Section 494 IPC), Bigamy (marrying again during lifetime of husband or wife) is punishable with:",
+    "options": [
+      "Imprisonment up to 7 years, and fine",
+      "Imprisonment up to 2 years",
+      "Life imprisonment",
+      "Simple fine only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 82 BNS (Section 494 IPC) punishes bigamy with imprisonment of either description up to 7 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 7 years and fine.",
+      "B": "Too lenient.",
+      "C": "Too severe.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 82 / IPC S. 494",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for bigamy under BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-038",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "In Sarla Mudgal v. Union of India ((1995) 3 SCC 635), reaffirmed in Lily Thomas (2000), what did the Supreme Court hold regarding religious conversion and bigamy?",
+    "options": [
+      "A Hindu marriage cannot be dissolved by a Hindu husband by merely converting to Islam and marrying again; second marriage is void and punishable under Section 494 IPC",
+      "Conversion to Islam automatically dissolves previous Hindu marriage",
+      "A man may have multiple wives if converted to any religion",
+      "Section 494 IPC does not apply to converts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Sarla Mudgal and Lily Thomas held that apostasy or religious conversion does not automatically dissolve an existing marriage, and a second marriage during subsistence of the first is bigamy under S. 494.",
+    "optionBreakdown": {
+      "A": "Correct; conversion does not dissolve first marriage; bigamy applies.",
+      "B": "Rejected by Supreme Court.",
+      "C": "Rejected.",
+      "D": "Rejected."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 82 / Sarla Mudgal (1995)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Sarla Mudgal & Lily Thomas bigamy precedent.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-039",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "Cohabitation caused by a man deceitfully inducing a belief of lawful marriage under Section 81 BNS (Section 493 IPC) is punishable with:",
+    "options": [
+      "Imprisonment for a term which may extend to 10 years, and fine",
+      "Imprisonment up to 3 years",
+      "Fine of Rs 10,000 only",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 81 BNS (Section 493 IPC) prescribes imprisonment of either description for a term up to 10 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 10 years and fine.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 81 / IPC S. 493",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for deceitful mock marriage under BNS S. 81.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-08-040",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-08",
+    "topicId": "top-crim-08-03",
+    "question": "In Anurag Soni v. State of Chhattisgarh ((2019) 13 SCC 1), what did the Supreme Court hold regarding consent given on a false promise to marry?",
+    "options": [
+      "If from the very inception the accused had no intention to marry and made a false promise only to satisfy lust, consent is vitiated by misconception of fact",
+      "Promise to marry is a civil matter and can never vitiate consent in criminal law",
+      "Consent is always valid if the victim was above 18 years regardless of fraud",
+      "Prosecution under Section 376 is barred if the parties were engaged"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Anurag Soni established that lack of bona fide intention from inception vitiates consent under S. 90 IPC (now codified distinctly in BNS S. 69).",
+    "optionBreakdown": {
+      "A": "Correct; inception-level falsehood vitiates consent.",
+      "B": "Rejected by Supreme Court.",
+      "C": "Misconception of fact vitiates consent of adults as well.",
+      "D": "Engagement does not confer immunity."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 69 / Anurag Soni (2019)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish breach of promise from false promise.",
+    "eligible": true,
+    "status": "active"
+  }
+]

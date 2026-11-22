@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">The Criminal Bail Spectrum: Regular, Undertrial &amp; Anticipatory</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Bailable right, Section 479 undertrial release, and Section 482</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">BAIL JURISPRUDENCE</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(40, 20)">
+    <rect x="0" y="0" width="720" height="40" rx="6" fill="#142c46"/>
+    <text x="360" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80">THE COMPREHENSIVE BAIL SPECTRUM IN CRIMINAL PROCEDURE</text>
+
+    <!-- Bailable -->
+    <rect x="0" y="55" width="170" height="280" rx="6" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="55" width="170" height="35" rx="6" fill="#137d72"/>
+    <text x="85" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#ffffff">BAILABLE OFFENCES</text>
+    <text x="10" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">S. 478 BNSS / S. 436</text>
+    <text x="10" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Bail is an ABSOLUTE</text>
+    <text x="18" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#334155">statutory right</text>
+    <text x="10" y="165" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Police officer or court</text>
+    <text x="18" y="180" font-family="system-ui, sans-serif" font-size="9" fill="#334155">MUST release on bail</text>
+    <text x="10" y="200" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Indigent person released</text>
+    <text x="18" y="215" font-family="system-ui, sans-serif" font-size="9" fill="#334155">on personal bond without</text>
+    <text x="18" y="230" font-family="system-ui, sans-serif" font-size="9" fill="#334155">sureties after 1 week</text>
+    <text x="10" y="260" font-family="system-ui, sans-serif" font-size="9" fill="#065f46">Rasiklal v. Kishore (2009)</text>
+
+    <!-- Non-Bailable -->
+    <rect x="180" y="55" width="175" height="280" rx="6" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="180" y="55" width="175" height="35" rx="6" fill="#142c46"/>
+    <text x="267" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">NON-BAILABLE OFFENCE</text>
+    <text x="190" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#137d72">S. 480 BNSS / S. 437</text>
+    <text x="190" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Judicial discretion</text>
+    <text x="190" y="148" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Barred if reasonable</text>
+    <text x="198" y="162" font-family="system-ui, sans-serif" font-size="9" fill="#334155">ground for death/life</text>
+    <text x="190" y="180" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#8c2432">Proviso Exceptions:</text>
+    <text x="190" y="200" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Under 16 years of age</text>
+    <text x="190" y="218" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Woman</text>
+    <text x="190" y="236" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Sick or infirm person</text>
+    <text x="190" y="260" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Satender Kumar Antil (2022)</text>
+
+    <!-- Undertrials -->
+    <rect x="365" y="55" width="175" height="280" rx="6" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="365" y="55" width="175" height="35" rx="6" fill="#137d72"/>
+    <text x="452" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#ffffff">UNDERTRIAL BAIL</text>
+    <text x="375" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">S. 479 BNSS / S. 436A</text>
+    <text x="375" y="130" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#065f46">★ MAJOR BNSS REFORM:</text>
+    <text x="375" y="148" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• First-time offender: released</text>
+    <text x="385" y="162" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">after ONE-THIRD period</text>
+    <text x="375" y="180" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• General undertrials: released</text>
+    <text x="385" y="195" font-family="system-ui, sans-serif" font-size="9" fill="#334155">after ONE-HALF period</text>
+    <text x="375" y="215" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• In no case detained > max</text>
+    <text x="375" y="235" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Jailer duty to file app</text>
+    <text x="375" y="260" font-family="system-ui, sans-serif" font-size="9" fill="#065f46">Bhim Singh v. UOI (2015)</text>
+
+    <!-- Anticipatory -->
+    <rect x="550" y="55" width="170" height="280" rx="6" fill="#ffffff" stroke="#8c2432" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="550" y="55" width="170" height="35" rx="6" fill="#8c2432"/>
+    <text x="635" y="78" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#ffffff">ANTICIPATORY BAIL</text>
+    <text x="560" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#8c2432">S. 482 BNSS / S. 438</text>
+    <text x="560" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Direction for bail in</text>
+    <text x="568" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#334155">anticipation of arrest</text>
+    <text x="560" y="165" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• High Court or Sessions</text>
+    <text x="560" y="185" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• Non-bailable offences</text>
+    <text x="560" y="205" font-family="system-ui, sans-serif" font-size="9" fill="#334155">• No time-limit (Sushila</text>
+    <text x="568" y="220" font-family="system-ui, sans-serif" font-size="9" fill="#334155">Aggarwal 5-judge bench)</text>
+    <text x="560" y="240" font-family="system-ui, sans-serif" font-size="9" fill="#991b1b">• Barred in SC/ST Act &amp;</text>
+    <text x="568" y="255" font-family="system-ui, sans-serif" font-size="9" fill="#991b1b">certain aggravated rapes</text>
+    <text x="560" y="275" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">Gurbaksh Sibbia (1980)</text>
+  </g>
+
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f5ede0"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#142c46" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Decorative Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#ffffff">Vested Interest (s. 19) versus Contingent Interest (s. 21)</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Comprehensive comparison of heritability, alienability and certainty of vesting</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">UP PCS-J ACADEMIC BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(60, 30)">
+    <rect x="0" y="0" width="300" height="320" rx="8" fill="#ffffff" stroke="#137d72" stroke-width="2"/>
+    <rect x="0" y="0" width="300" height="40" rx="8" fill="#137d72"/>
+    <text x="150" y="26" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#ffffff">VESTED INTEREST [s. 19]</text>
+    <text x="20" y="65" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#142c46">1. Creation:</text>
+    <text x="20" y="85" font-family="system-ui, sans-serif" font-size="11" fill="#4a5c6e">Created without condition, or on event that MUST happen (e.g. death).</text>
+    <text x="20" y="115" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#142c46">2. Present Right:</text>
+    <text x="20" y="135" font-family="system-ui, sans-serif" font-size="11" fill="#4a5c6e">Present fixed right, even if enjoyment is postponed to future date.</text>
+    <text x="20" y="165" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#142c46">3. Heritability:</text>
+    <text x="20" y="185" font-family="system-ui, sans-serif" font-size="11" fill="#137d72">✓ Heritable. If transferee dies, it passes to legal heirs.</text>
+    <text x="20" y="215" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#142c46">4. Transferability:</text>
+    <text x="20" y="235" font-family="system-ui, sans-serif" font-size="11" fill="#137d72">✓ Fully transferable and attachable in execution.</text>
+
+    <rect x="360" y="0" width="300" height="320" rx="8" fill="#ffffff" stroke="#a63b49" stroke-width="2"/>
+    <rect x="360" y="0" width="300" height="40" rx="8" fill="#a63b49"/>
+    <text x="510" y="26" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#ffffff">CONTINGENT INTEREST [s. 21]</text>
+    <text x="380" y="65" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#142c46">1. Creation:</text>
+    <text x="380" y="85" font-family="system-ui, sans-serif" font-size="11" fill="#4a5c6e">Depends on uncertain future event that MAY or MAY NOT happen.</text>
+    <text x="380" y="115" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#142c46">2. Present Right:</text>
+    <text x="380" y="135" font-family="system-ui, sans-serif" font-size="11" fill="#4a5c6e">Mere promise / expectation until condition happens.</text>
+    <text x="380" y="165" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#142c46">3. Heritability:</text>
+    <text x="380" y="185" font-family="system-ui, sans-serif" font-size="11" fill="#a63b49">✗ Not heritable if condition requires transferee to survive.</text>
+    <text x="380" y="215" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#142c46">4. Transferability:</text>
+    <text x="380" y="235" font-family="system-ui, sans-serif" font-size="11" fill="#a63b49">Transferable, but transferee gets only contingent chance.</text>
+  </g>
+
+  </g>
+
+  <!-- Footer Watermark -->
+  <text x="400.0" y="488" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#8899aa">Judicial Learning Academy · Tanveer Ashraf Judicial Prep · Authoritative Subject Schematic</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_pcp1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow_pcp1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg_pcp1)"/>
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow_pcp1)"/>
+  <text x="400" y="46" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">PCPNDT ACT, 1994: REGULATORY ARCHITECTURE</text>
+  <text x="400" y="64" fill="#dfbf80" font-family="sans-serif" font-size="11" text-anchor="middle">Supervisory Boards • Appropriate Authorities (S. 17) • Mandatory Registration (S. 18)</text>
+
+  <!-- Left: Supervisory Boards & Policy -->
+  <g transform="translate(40, 95)" filter="url(#shadow_pcp1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">POLICY &amp; SUPERVISORY BOARDS</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Central Supervisory Board (CSB, S. 7)</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">• Chaired by Union Minister for Health &amp; Family Welfare.</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">• Meets at least once every SIX (6) MONTHS.</text>
+    <text x="25" y="115" fill="#4a5568" font-family="sans-serif" font-size="11">• Advises Central Govt on policy matters.</text>
+
+    <text x="20" y="140" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• State Supervisory Boards (SSB, S. 16A)</text>
+    <text x="25" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">• Chaired by State Minister for Health &amp; Family Welfare.</text>
+    <text x="25" y="175" fill="#4a5568" font-family="sans-serif" font-size="11">• Meets at least once every FOUR (4) MONTHS.</text>
+    <text x="25" y="190" fill="#4a5568" font-family="sans-serif" font-size="11">• Oversees implementation by Appropriate Authorities.</text>
+
+    <rect x="20" y="205" width="300" height="100" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="225" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">SECTION 4 PERMISSIBLE TEST CONDITIONS:</text>
+    <text x="30" y="245" fill="#4a5568" font-family="sans-serif" font-size="10">Diagnostic techniques permitted ONLY for detecting:</text>
+    <text x="30" y="260" fill="#4a5568" font-family="sans-serif" font-size="10">(i) Chromosomal abnormalities (ii) Genetic metabolic</text>
+    <text x="30" y="275" fill="#4a5568" font-family="sans-serif" font-size="10">diseases (iii) Haemoglobinopathies (iv) Sex-linked disorders.</text>
+    <text x="30" y="290" fill="#a63b49" font-family="sans-serif" font-size="10" font-weight="bold">-> NEVER FOR DETERMINATION OF SEX!</text>
+
+    <rect x="20" y="325" width="300" height="38" rx="4" fill="#fff9ec"/>
+    <text x="170" y="343" fill="#b98a38" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: CSB meets 6 months; SSB meets 4 months</text>
+  </g>
+
+  <!-- Right: Appropriate Authority & Enforcement -->
+  <g transform="translate(420, 95)" filter="url(#shadow_pcp1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">APPROPRIATE AUTHORITY (S. 17)</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Constitution &amp; Levels (S. 17)</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">State Govt appoints Appropriate Authority for whole State,</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">District (DM/CMO), or Sub-district levels.</text>
+
+    <text x="20" y="125" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Advisory Committee (Section 17(5))</text>
+    <text x="25" y="145" fill="#4a5568" font-family="sans-serif" font-size="11">3 medical experts, 1 legal expert, 1 social worker / NGO.</text>
+    <text x="25" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">Aids Appropriate Authority in grant/cancellation of licenses.</text>
+
+    <rect x="20" y="175" width="300" height="95" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="30" y="195" fill="#a63b49" font-family="sans-serif" font-size="11" font-weight="bold">SEARCH &amp; SEIZURE POWERS (SECTION 30):</text>
+    <text x="30" y="215" fill="#4a5568" font-family="sans-serif" font-size="10">• Enter and search any clinic, genetic lab, or vehicle.</text>
+    <text x="30" y="230" fill="#4a5568" font-family="sans-serif" font-size="10">• SEIZE ultrasound machines, records, registers, Form F.</text>
+    <text x="30" y="245" fill="#4a5568" font-family="sans-serif" font-size="10">• SEAL machines immediately upon detection of violation.</text>
+    <text x="30" y="258" fill="#4a5568" font-family="sans-serif" font-size="9.5">• Civil Court powers under CPC under Section 17A.</text>
+
+    <text x="20" y="285" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 28: Cognizance Safeguard</text>
+    <text x="25" y="305" fill="#4a5568" font-family="sans-serif" font-size="11">Court takes cognizance ONLY on complaint by Appropriate</text>
+    <text x="25" y="320" fill="#4a5568" font-family="sans-serif" font-size="11">Authority, or citizen giving 15 DAYS NOTICE to Authority.</text>
+
+    <rect x="20" y="335" width="300" height="28" rx="4" fill="#edf7f4"/>
+    <text x="170" y="353" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: Citizen Notice Period is 15 Days (S. 28)</text>
+  </g>
+</svg>

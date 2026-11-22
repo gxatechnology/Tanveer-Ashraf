@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow4" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg4)"/>
+
+  <!-- Title -->
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow4)"/>
+  <text x="400" y="47" fill="#ffffff" font-family="Georgia, serif" font-size="19" font-weight="bold" text-anchor="middle">PLEADINGS, SET-OFF &amp; COUNTER-CLAIM</text>
+  <text x="400" y="65" fill="#dfbf80" font-family="sans-serif" font-size="12" text-anchor="middle">Plaint (Order VII), Written Statement (Order VIII), Set-Off (Rule 6) vs Counter-Claim (Rule 6A)</text>
+
+  <!-- Left: Legal Set-off -->
+  <g transform="translate(40, 95)" filter="url(#shadow4)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="14" font-weight="bold" text-anchor="middle">LEGAL SET-OFF (Order VIII Rule 6)</text>
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Nature: Shield / Ground of Defence</text>
+    <text x="20" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">• Applies ONLY in money recovery suits.</text>
+    <text x="20" y="105" fill="#4a5568" font-family="sans-serif" font-size="11">• Sum claimed must be an ASCERTAINED sum.</text>
+    <text x="20" y="125" fill="#4a5568" font-family="sans-serif" font-size="11">• Sum must be LEGALLY RECOVERABLE</text>
+    <text x="25" y="140" fill="#4a5568" font-family="sans-serif" font-size="11">(cannot be barred by limitation on suit date).</text>
+    <text x="20" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">• Must not exceed court's pecuniary limits.</text>
+    <text x="20" y="180" fill="#4a5568" font-family="sans-serif" font-size="11">• Both parties must fill same character.</text>
+    
+    <rect x="20" y="210" width="300" height="85" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="230" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">LEGAL SET-OFF vs EQUITABLE SET-OFF:</text>
+    <text x="30" y="250" fill="#4a5568" font-family="sans-serif" font-size="10">• Legal Set-off: Ascertained sum, statutory right.</text>
+    <text x="30" y="265" fill="#4a5568" font-family="sans-serif" font-size="10">• Equitable Set-off: Unascertained sum arising</text>
+    <text x="30" y="280" fill="#4a5568" font-family="sans-serif" font-size="10">  from SAME transaction; judicial discretion.</text>
+
+    <rect x="20" y="315" width="300" height="45" rx="4" fill="#fff5f5"/>
+    <text x="170" y="333" fill="#a63b49" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Effect: Extinguishes plaintiff's claim pro tanto</text>
+    <text x="170" y="348" fill="#607387" font-family="sans-serif" font-size="9" text-anchor="middle">(Falls with suit if suit dismissed on preliminary ground)</text>
+  </g>
+
+  <!-- Right: Counter-Claim -->
+  <g transform="translate(420, 95)" filter="url(#shadow4)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="14" font-weight="bold" text-anchor="middle">COUNTER-CLAIM (Rules 6A to 6G)</text>
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Nature: Sword / Cross-Action (Cross-Suit)</text>
+    <text x="20" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">• Not restricted to money suits; can be for any relief.</text>
+    <text x="20" y="105" fill="#4a5568" font-family="sans-serif" font-size="11">• Sum claimed can be unascertained damages.</text>
+    <text x="20" y="125" fill="#4a5568" font-family="sans-serif" font-size="11">• Cause of action must accrue before or after</text>
+    <text x="25" y="140" fill="#4a5568" font-family="sans-serif" font-size="11">suit filed, BUT BEFORE defence delivered.</text>
+    <text x="20" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">• Must be within pecuniary jurisdiction of court.</text>
+    <text x="20" y="180" fill="#4a5568" font-family="sans-serif" font-size="11">• Treated as a PLAINT in a cross-suit.</text>
+
+    <rect x="20" y="210" width="300" height="85" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="230" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">INDEPENDENT VIABILITY (Rule 6D):</text>
+    <text x="30" y="250" fill="#4a5568" font-family="sans-serif" font-size="10">• If plaintiff's suit is stayed, discontinued or</text>
+    <text x="30" y="265" fill="#4a5568" font-family="sans-serif" font-size="10">  dismissed, counter-claim MAY NEVERTHELESS</text>
+    <text x="30" y="280" fill="#4a5568" font-family="sans-serif" font-size="10">  BE PROCEEDED WITH and decreed!</text>
+
+    <rect x="20" y="315" width="300" height="45" rx="4" fill="#edf7f4"/>
+    <text x="170" y="333" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Effect: Independent cross-decree against plaintiff</text>
+    <text x="170" y="348" fill="#607387" font-family="sans-serif" font-size="9" text-anchor="middle">(Plaintiff can file written statement in answer: Rule 6G)</text>
+  </g>
+</svg>

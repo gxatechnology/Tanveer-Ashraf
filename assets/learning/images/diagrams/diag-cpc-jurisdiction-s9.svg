@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bgGrad)"/>
+
+  <!-- Title Banner -->
+  <rect x="30" y="25" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow)"/>
+  <text x="400" y="52" fill="#ffffff" font-family="Georgia, serif" font-size="20" font-weight="bold" text-anchor="middle">SECTION 9 CPC: JURISDICTION OF CIVIL COURTS</text>
+  <text x="400" y="70" fill="#dfbf80" font-family="sans-serif" font-size="12" text-anchor="middle">"Courts shall have jurisdiction to try all suits of a civil nature excepting suits barred expressly or impliedly"</text>
+
+  <!-- Left: General Rule -->
+  <g transform="translate(40, 105)" filter="url(#shadow)">
+    <rect width="225" height="355" rx="8" fill="#fbf8f2"/>
+    <rect width="225" height="42" rx="8" fill="#142c46"/>
+    <text x="112" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="14" font-weight="bold" text-anchor="middle">1. GENERAL MANDATE</text>
+    <text x="20" y="70" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Plenary Civil Jurisdiction</text>
+    <text x="25" y="90" fill="#4a5568" font-family="sans-serif" font-size="11">Presumption is always IN FAVOR</text>
+    <text x="25" y="105" fill="#4a5568" font-family="sans-serif" font-size="11">of civil court jurisdiction.</text>
+    <text x="20" y="135" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• What is "Civil Nature"?</text>
+    <text x="25" y="155" fill="#4a5568" font-family="sans-serif" font-size="11">Rights to property, office, status,</text>
+    <text x="25" y="170" fill="#4a5568" font-family="sans-serif" font-size="11">worship, contract, breach of trust,</text>
+    <text x="25" y="185" fill="#4a5568" font-family="sans-serif" font-size="11">franchise, or restitution.</text>
+    <text x="20" y="215" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Explanations I &amp; II</text>
+    <text x="25" y="235" fill="#4a5568" font-family="sans-serif" font-size="11">Suit for right to property or office</text>
+    <text x="25" y="250" fill="#4a5568" font-family="sans-serif" font-size="11">is civil even if dependent on</text>
+    <text x="25" y="265" fill="#4a5568" font-family="sans-serif" font-size="11">religious rites or ceremonies.</text>
+    <text x="25" y="285" fill="#4a5568" font-family="sans-serif" font-size="11">Irrelevant whether fees attached.</text>
+    <rect x="15" y="310" width="195" height="32" rx="4" fill="#edf7f4"/>
+    <text x="112" y="330" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">PMA Metropolitan Case (1995)</text>
+  </g>
+
+  <!-- Center: Two Statutory Bars -->
+  <g transform="translate(285, 105)" filter="url(#shadow)">
+    <rect width="230" height="355" rx="8" fill="#fbf8f2"/>
+    <rect width="230" height="42" rx="8" fill="#137d72"/>
+    <text x="115" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="14" font-weight="bold" text-anchor="middle">2. STATUTORY BARS</text>
+    <rect x="15" y="55" width="200" height="135" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="25" y="75" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">A. Express Bar</text>
+    <text x="25" y="95" fill="#4a5568" font-family="sans-serif" font-size="11">• Barred by direct enactment</text>
+    <text x="25" y="110" fill="#4a5568" font-family="sans-serif" font-size="11">• E.g., Industrial Disputes Act,</text>
+    <text x="25" y="125" fill="#4a5568" font-family="sans-serif" font-size="11">  Income Tax Act, NGT Act,</text>
+    <text x="25" y="140" fill="#4a5568" font-family="sans-serif" font-size="11">  Armed Forces Tribunal.</text>
+    <text x="25" y="160" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold">Jurisdiction explicitly taken away.</text>
+
+    <rect x="15" y="200" width="200" height="140" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="25" y="220" fill="#a63b49" font-family="sans-serif" font-size="12" font-weight="bold">B. Implied Bar</text>
+    <text x="25" y="240" fill="#4a5568" font-family="sans-serif" font-size="11">• Barred by general legal principles</text>
+    <text x="25" y="255" fill="#4a5568" font-family="sans-serif" font-size="11">• Public policy &amp; state sovereignty</text>
+    <text x="25" y="270" fill="#4a5568" font-family="sans-serif" font-size="11">• Purely political or caste questions</text>
+    <text x="25" y="285" fill="#4a5568" font-family="sans-serif" font-size="11">• Special statute creates new right</text>
+    <text x="25" y="300" fill="#4a5568" font-family="sans-serif" font-size="11">  AND provides complete remedy.</text>
+    <text x="25" y="325" fill="#a63b49" font-family="sans-serif" font-size="10" font-weight="bold">Exclusion must not be readily implied.</text>
+  </g>
+
+  <!-- Right: Dhulabhai Principles -->
+  <g transform="translate(535, 105)" filter="url(#shadow)">
+    <rect width="225" height="355" rx="8" fill="#fbf8f2"/>
+    <rect width="225" height="42" rx="8" fill="#a63b49"/>
+    <text x="112" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">3. DHULABHAI TESTS (1969)</text>
+    <text x="15" y="65" fill="#142c46" font-family="sans-serif" font-size="11" font-weight="bold">Principles on Exclusion of Jurisdiction:</text>
+    <text x="15" y="90" fill="#4a5568" font-family="sans-serif" font-size="10">1. Special tribunal must have power</text>
+    <text x="20" y="105" fill="#4a5568" font-family="sans-serif" font-size="10">to decide all questions and grant</text>
+    <text x="20" y="120" fill="#4a5568" font-family="sans-serif" font-size="10">adequate remedies.</text>
+    <text x="15" y="145" fill="#4a5568" font-family="sans-serif" font-size="10">2. If provisions of special act</text>
+    <text x="20" y="160" fill="#4a5568" font-family="sans-serif" font-size="10">are ultra vires or unconstitutional,</text>
+    <text x="20" y="175" fill="#4a5568" font-family="sans-serif" font-size="10">civil court ALWAYS has jurisdiction.</text>
+    <text x="15" y="200" fill="#4a5568" font-family="sans-serif" font-size="10">3. Civil courts always examine if</text>
+    <text x="20" y="215" fill="#4a5568" font-family="sans-serif" font-size="10">fundamental judicial procedure</text>
+    <text x="20" y="230" fill="#4a5568" font-family="sans-serif" font-size="10">or natural justice was violated.</text>
+    <text x="15" y="255" fill="#4a5568" font-family="sans-serif" font-size="10">4. Exclusion is NOT readily inferred.</text>
+    <rect x="15" y="295" width="195" height="45" rx="4" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="112" y="315" fill="#a63b49" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">Dhulabhai v. State of MP</text>
+    <text x="112" y="330" fill="#4a5568" font-family="sans-serif" font-size="9" text-anchor="middle">(1968) 3 SCR 662 (Constitution Bench)</text>
+  </g>
+</svg>

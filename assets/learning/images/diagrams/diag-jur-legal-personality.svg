@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f5ede0"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#142c46" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Decorative Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#ffffff">Theories and Taxonomy of Legal Personality</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Natural vs Juristic persons and the five major theories of corporate entity</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">UP PCS-J ACADEMIC BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(40, 20)">
+    <rect x="0" y="0" width="340" height="160" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="1.5"/>
+    <rect x="0" y="0" width="340" height="30" rx="8" fill="#142c46"/>
+    <text x="170" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#dfbf80">Natural Persons</text>
+    <text x="20" y="55" font-family="system-ui, sans-serif" font-size="11.5" fill="#1c2e40">• Living human beings with legal capacity</text>
+    <text x="20" y="75" font-family="system-ui, sans-serif" font-size="11.5" fill="#1c2e40">• Unborn child (Nasciturus pro iam nato habetur)</text>
+    <text x="20" y="95" font-family="system-ui, sans-serif" font-size="11.5" fill="#1c2e40">• Dead persons: Reputation, body, will protected</text>
+    <text x="20" y="115" font-family="system-ui, sans-serif" font-size="11.5" fill="#1c2e40">• Animals: Objects of legal duty, not rights holders</text>
+
+    <rect x="380" y="0" width="340" height="160" rx="8" fill="#ffffff" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="380" y="0" width="340" height="30" rx="8" fill="#137d72"/>
+    <text x="550" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">Juristic / Artificial Persons</text>
+    <text x="400" y="55" font-family="system-ui, sans-serif" font-size="11.5" fill="#1c2e40">• Incorporated Companies (Salomon v Salomon)</text>
+    <text x="400" y="75" font-family="system-ui, sans-serif" font-size="11.5" fill="#1c2e40">• Hindu Deity / Idol (Pramatha Nath Mullick)</text>
+    <text x="400" y="95" font-family="system-ui, sans-serif" font-size="11.5" fill="#1c2e40">• Guru Granth Sahib (Shiromani Gurdwara case)</text>
+    <text x="400" y="115" font-family="system-ui, sans-serif" font-size="11.5" fill="#1c2e40">• Corporations sole and Corporations aggregate</text>
+
+    <!-- Theories of Corporate Personality -->
+    <rect x="0" y="180" width="720" height="180" rx="8" fill="#ffffff" stroke="#b98a38" stroke-width="1.5"/>
+    <rect x="0" y="180" width="720" height="30" rx="8" fill="#b98a38"/>
+    <text x="360" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#ffffff">THEORIES OF CORPORATE PERSONALITY</text>
+    
+    <text x="20" y="235" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">1. Fiction Theory (Savigny &amp; Salmond):</text>
+    <text x="20" y="252" font-family="system-ui, sans-serif" font-size="11" fill="#4a5c6e">Personality is a pure legal fiction created solely by the authority of the state.</text>
+
+    <text x="20" y="280" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">2. Realist Theory (Gierke):</text>
+    <text x="20" y="297" font-family="system-ui, sans-serif" font-size="11" fill="#4a5c6e">Corporation is an organic, living reality with a genuine collective will, not a fiction.</text>
+
+    <text x="380" y="235" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">3. Bracket / Symbolist Theory (Jhering):</text>
+    <text x="380" y="252" font-family="system-ui, sans-serif" font-size="11" fill="#4a5c6e">Corporation is a convenient bracket enclosing natural human members.</text>
+
+    <text x="380" y="280" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">4. Purpose Theory (Brinz):</text>
+    <text x="380" y="297" font-family="system-ui, sans-serif" font-size="11" fill="#4a5c6e">Legal person is simply dedicated property (Zweckvermögen) tied to a purpose.</text>
+  </g>
+
+  </g>
+
+  <!-- Footer Watermark -->
+  <text x="400.0" y="488" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#8899aa">Judicial Learning Academy · Tanveer Ashraf Judicial Prep · Authoritative Subject Schematic</text>
+</svg>

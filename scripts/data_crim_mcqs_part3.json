@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "mcq-crim-09-001",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "Under Section 303(1) BNS (Section 378 IPC), which of the following is an indispensable essential ingredient of Theft?",
+    "options": [
+      "Dishonest intention to take movable property out of the possession of any person without consent, and moving that property in order to such taking",
+      "Taking immovable property by breaking boundaries",
+      "Putting a person in fear of injury to deliver property",
+      "Taking property with a bona fide belief of ownership"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 303(1) BNS defines theft: intending to take dishonestly any movable property out of the possession of any person without consent, moves that property.",
+    "optionBreakdown": {
+      "A": "Correct; statutory ingredients of theft.",
+      "B": "Theft applies only to movable property.",
+      "C": "This is extortion, not theft.",
+      "D": "Bona fide claim of right negates dishonest intention."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 303(1) / IPC S. 378",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master ingredients of theft.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-002",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "How does BNS 2023 punish theft where the value of stolen property is less than Rs 5,000 and the person is a first-time offender (Section 303(2) Proviso)?",
+    "options": [
+      "Community service or fine up to Rs 5,000 upon return of property",
+      "Mandatory imprisonment of 3 years",
+      "Imprisonment of 6 months without bail",
+      "No punishment or trial permitted"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 303(2) Proviso BNS introduces community service as an alternative sentence for petty theft under Rs 5,000 on first conviction upon return/restoration.",
+    "optionBreakdown": {
+      "A": "Correct; community service under BNS S. 303(2) proviso.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 303(2) Proviso",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize petty theft community service reform.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-003",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "What distinguishes Extortion (Section 308 BNS / Section 383 IPC) from Theft (Section 303 BNS / Section 378 IPC)?",
+    "options": [
+      "In extortion, delivery of property is obtained by putting the victim in fear of injury; in theft, property is taken without consent",
+      "Extortion applies only to movable property",
+      "Theft requires presence of weapons",
+      "There is no difference in mens rea"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In theft, property is taken without consent; in extortion, consent is wrongfully obtained by putting in fear of injury to person, reputation or property.",
+    "optionBreakdown": {
+      "A": "Correct; fear of injury obtaining coerced delivery is extortion.",
+      "B": "Extortion can apply to movable or immovable property or valuable security.",
+      "C": "Weapons not mandatory for simple theft.",
+      "D": "Mens rea differs."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 308 / IPC S. 383",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish theft from extortion.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-004",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "When does Theft become Robbery under Section 309(1) BNS (Section 390 IPC)?",
+    "options": [
+      "When the offender, in order to the committing of theft, or in carrying away stolen property, voluntarily causes or attempts to cause death, hurt, or wrongful restraint, or fear of instant death, hurt, or wrongful restraint",
+      "When more than 2 persons commit theft",
+      "When stolen property exceeds Rs 10 lakhs in value",
+      "When committed during night time only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Theft is robbery if in order to committing theft or carrying away property, offender causes or attempts to cause instant death, hurt or wrongful restraint.",
+    "optionBreakdown": {
+      "A": "Correct; statutory condition converting theft to robbery.",
+      "B": "Number of persons does not define robbery (5+ makes it dacoity).",
+      "C": "Value is irrelevant.",
+      "D": "Night time affects aggravated robbery penalty under S. 309(2), but not definition."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 309(1) / IPC S. 390",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define robbery from theft.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-005",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "What is the minimum number of persons required to constitute the offence of Dacoity under Section 310(1) BNS (Section 391 IPC)?",
+    "options": [
+      "Two persons",
+      "Three persons",
+      "Five persons",
+      "Ten persons"
+    ],
+    "answer": 2,
+    "answerLetter": "C",
+    "explanation": "Section 310(1) BNS (Section 391 IPC) requires five or more persons conjointly committing or attempting to commit robbery.",
+    "optionBreakdown": {
+      "A": "Too few.",
+      "B": "Too few.",
+      "C": "Correct; five or more persons constitute dacoity.",
+      "D": "Too many."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 310(1) / IPC S. 391",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall statutory minimum for dacoity.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-006",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "In Pyare Lal Bhargava v. State of Rajasthan (AIR 1963 SC 1094), taking a government file temporarily from the office to show it to a friend and returning it after two days was held to be:",
+    "options": [
+      "Theft, because temporary deprivation of possession with dishonest intention constitutes theft",
+      "Not theft, because there was no intention to permanently deprive",
+      "Only criminal trespass",
+      "A non-penal civil departmental breach"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Pyare Lal Bhargava established that permanent taking is not necessary; even temporary removal causing wrongful gain/loss constitutes theft.",
+    "optionBreakdown": {
+      "A": "Correct; temporary deprivation constitutes theft.",
+      "B": "Permanent deprivation is required in English law, but not in Indian law.",
+      "C": "Not restricted to trespass.",
+      "D": "Held to be criminal theft."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 303 / Pyare Lal Bhargava (1963)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master temporary removal theft doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-007",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "What is the statutory punishment for Dacoity under Section 310(2) BNS (Section 395 IPC)?",
+    "options": [
+      "Imprisonment for life, or rigorous imprisonment up to 10 years, and fine",
+      "Rigorous imprisonment up to 5 years",
+      "Imprisonment up to 3 years",
+      "Capital punishment in all cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 310(2) BNS punishes dacoity with imprisonment for life, or rigorous imprisonment for a term up to 10 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; life imprisonment or RI up to 10 years and fine.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "Death penalty is for dacoity with murder (S. 310(3) BNS / S. 396 IPC)."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 310(2) / IPC S. 395",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for dacoity.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-008",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "Under Section 310(3) BNS (Section 396 IPC), if any one of five or more persons committing dacoity commits murder in so committing dacoity, what is the liability of the other persons?",
+    "options": [
+      "Every one of those persons shall be punished with death, or imprisonment for life, or rigorous imprisonment up to 10 years, and fine",
+      "Only the person who actually struck the fatal blow is liable for murder",
+      "The others are liable only for simple theft",
+      "The others are liable only under Section 34"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 310(3) BNS (S. 396 IPC) creates constructive joint liability: if any one member commits murder, EVERY member is punishable with death, life imprisonment, or 10 years RI.",
+    "optionBreakdown": {
+      "A": "Correct; constructive liability applies to all members in dacoity with murder.",
+      "B": "Rejected; S. 310(3) explicitly creates joint liability.",
+      "C": "Incorrect.",
+      "D": "Section 310(3) has its own substantive joint liability."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 310(3) / IPC S. 396",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master constructive liability in dacoity with murder.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-009",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "Can electricity be the subject of theft under Section 303 BNS (Section 378 IPC)?",
+    "options": [
+      "No, theft under the penal code requires movable property; theft of electricity is governed specifically by the Electricity Act, 2003",
+      "Yes, electricity is movable property under Section 2 BNS",
+      "Yes, electricity can be seized by physical moving",
+      "Only if it is stored in a battery"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Avtar Singh v. State of Punjab (1965) settled that electricity is not movable property under the penal code; its theft is prosecuted under Section 135 of Electricity Act, 2003.",
+    "optionBreakdown": {
+      "A": "Correct; governed by Electricity Act, 2003.",
+      "B": "Not movable property under general penal definition.",
+      "C": "Incorrect.",
+      "D": "Energy itself is governed by special statute."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 303 / Electricity Act S. 135",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand statutory scope of movable property in theft.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-010",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-01",
+    "question": "Making preparation to commit dacoity under Section 311 BNS (Section 399 IPC) is punishable with:",
+    "options": [
+      "Rigorous imprisonment up to 10 years, and fine",
+      "Imprisonment up to 3 years",
+      "Fine only",
+      "Not punishable until an actual attempt is made"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 311 BNS (Section 399 IPC) is an exception to the rule that preparation is not punishable: making preparation to commit dacoity carries RI up to 10 years and fine.",
+    "optionBreakdown": {
+      "A": "Correct; preparation to commit dacoity is specifically punishable up to 10 years.",
+      "B": "Too low.",
+      "C": "Too low.",
+      "D": "Preparation for dacoity is an express statutory exception."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 311 / IPC S. 399",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify punishable stages of dacoity.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-021",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "Under Section 314 BNS (Section 403 IPC), Dishonest Misappropriation of Property is defined as:",
+    "options": [
+      "Dishonestly misappropriating or converting to one's own use any movable property",
+      "Taking property out of possession without consent",
+      "Coercing delivery by extortion",
+      "Entrustment of property followed by conversion"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 314 BNS defines dishonest misappropriation: whoever dishonestly misappropriates or converts to his own use any movable property.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of dishonest misappropriation.",
+      "B": "This is theft.",
+      "C": "This is extortion.",
+      "D": "This is criminal breach of trust."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 314 / IPC S. 403",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define dishonest misappropriation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-022",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "What is the essential distinction between Theft (S. 303 BNS) and Criminal Misappropriation (S. 314 BNS)?",
+    "options": [
+      "In theft, the initial taking is wrongful/dishonest; in misappropriation, the initial possession is innocent or lawful, but subsequent retention/conversion becomes dishonest",
+      "Theft applies to movable property; misappropriation applies to immovable property",
+      "Misappropriation requires weapons",
+      "Theft requires breach of a formal contract"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In theft, the taking itself is dishonest. In criminal misappropriation, possession comes innocently (e.g. finding lost property), but the finder subsequently conceals or converts it dishonestly.",
+    "optionBreakdown": {
+      "A": "Correct; innocent initial possession transitioning to dishonest conversion.",
+      "B": "Both apply to movable property.",
+      "C": "Weapons not required.",
+      "D": "Breach of contract is not theft."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 314 / IPC S. 403",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish theft from misappropriation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-023",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "Under Section 316(1) BNS (Section 405 IPC), Criminal Breach of Trust requires:",
+    "options": [
+      "Being in any manner entrusted with property or with any dominion over property, and dishonestly misappropriating, converting, or using it in violation of law or contract",
+      "Taking property by putting in fear of injury",
+      "Stealing property from an open cart",
+      "Breaking boundaries of land"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 316(1) BNS defines Criminal Breach of Trust: entrustment with property or dominion, and subsequent dishonest misappropriation/conversion or disposal in violation of legal direction.",
+    "optionBreakdown": {
+      "A": "Correct; entrustment followed by dishonest conversion is the essence of CBT.",
+      "B": "This is extortion.",
+      "C": "This is theft.",
+      "D": "This is civil/criminal trespass."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 316(1) / IPC S. 405",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define criminal breach of trust.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-024",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "What is the statutory punishment for general Criminal Breach of Trust under Section 316(2) BNS (Section 406 IPC)?",
+    "options": [
+      "Imprisonment of either description for a term up to 5 years, or fine, or both",
+      "Imprisonment up to 3 years only",
+      "Simple imprisonment up to 1 year",
+      "Life imprisonment in all cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 316(2) BNS increased the general penalty for criminal breach of trust to imprisonment up to 5 years (under IPC S. 406 it was 3 years), or fine, or both.",
+    "optionBreakdown": {
+      "A": "Correct; BNS S. 316(2) provides up to 5 years or fine, or both.",
+      "B": "3 years was the old IPC Section 406 penalty.",
+      "C": "Too low.",
+      "D": "Life imprisonment applies to public servants/bankers under S. 316(5)."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 316(2) / IPC S. 406",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize enhanced penalty for CBT under BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-025",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "Under Section 316(5) BNS (Section 409 IPC), what is the punishment for Criminal Breach of Trust by a public servant, banker, merchant, factor, broker, attorney or agent?",
+    "options": [
+      "Imprisonment for life, or imprisonment of either description up to 10 years, and fine",
+      "Imprisonment up to 3 years",
+      "Fine of Rs 5,000 only",
+      "Suspension from service only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 316(5) BNS (IPC S. 409) punishes CBT by public servants, bankers, or agents with life imprisonment or imprisonment up to 10 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; life imprisonment or up to 10 years and fine.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "It is a grave criminal offence, not merely departmental."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 316(5) / IPC S. 409",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall CBT by public servant penalties.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-026",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "In State of Gujarat v. Jaswantlal Nathalal (AIR 1968 SC 700), what did the Supreme Court hold regarding 'entrustment' in Criminal Breach of Trust?",
+    "options": [
+      "Entrustment requires that the person handing over property continues to be the owner, and the accused holds it in fiduciary capacity for the owner or a specific purpose",
+      "Entrustment occurs whenever money is paid under a commercial sale contract",
+      "Entrustment is identical to a debtor-creditor loan relationship",
+      "Entrustment does not require transfer of possession"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Jaswantlal Nathalal established that entrustment implies creating a fiduciary relationship where ownership remains with the entrustor.",
+    "optionBreakdown": {
+      "A": "Correct; fiduciary holding while ownership remains with entrustor.",
+      "B": "Sale transfers ownership, so not entrustment.",
+      "C": "Debtor-creditor relationship is not CBT (loan creates debt, not trust).",
+      "D": "Possession must be transferred."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 316 / Jaswantlal Nathalal (1968)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master entrustment doctrine in CBT.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-027",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "A finds a diamond ring on the floor of a crowded public bus. Without making any attempt to find the owner, A immediately sells it and pockets the cash. What offence has A committed?",
+    "options": [
+      "Dishonest Misappropriation of Property under Section 314 BNS (Section 403 IPC)",
+      "Theft under Section 303 BNS",
+      "Criminal Breach of Trust under Section 316 BNS",
+      "No offence because finders are keepers"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 2 to Section 314 BNS (S. 403 IPC) states that a finder who appropriates property without using reasonable means to discover the owner is guilty of dishonest misappropriation.",
+    "optionBreakdown": {
+      "A": "Correct; finder appropriating without reasonable search commits misappropriation.",
+      "B": "Not theft because finding was innocent.",
+      "C": "No entrustment by owner.",
+      "D": "'Finders keepers' is not a defence in criminal law when owner can be traced."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 314 Expl 2 / IPC S. 403 Expl 2",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply finder of lost property rules.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-028",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "Can a partner be prosecuted by other partners for Criminal Breach of Trust in respect of partnership assets?",
+    "options": [
+      "Generally no, unless there is a special agreement constituting entrustment of specific property to that partner (Velji Raghavji v. State of Maharashtra)",
+      "Yes, automatically whenever any partner spends firm money",
+      "No, partnership is immune from all criminal law",
+      "Yes, under Section 303 BNS as theft"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Velji Raghavji v. State of Maharashtra (AIR 1965 SC 1433) held that since partners are joint owners of all assets, one cannot be guilty of CBT unless specific entrustment is proved.",
+    "optionBreakdown": {
+      "A": "Correct; Velji Raghavji partner CBT rule.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Partner cannot steal joint property from himself."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 316 / Velji Raghavji (1965)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master partner liability in CBT.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-029",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "What is the punishment for dishonest misappropriation of property possessed by a deceased person at the time of his death under Section 315 BNS (Section 404 IPC)?",
+    "options": [
+      "Imprisonment up to 3 years and fine (or up to 7 years if committed by clerk or servant)",
+      "Imprisonment up to 1 year only",
+      "Life imprisonment",
+      "Community service only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 315 BNS (Section 404 IPC) provides imprisonment up to 3 years and fine, and if by a clerk or servant, up to 7 years.",
+    "optionBreakdown": {
+      "A": "Correct; up to 3 years (or 7 years for clerk/servant).",
+      "B": "Too low.",
+      "C": "Too high.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 315 / IPC S. 404",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall deceased property misappropriation penalties.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-030",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-02",
+    "question": "What is the statutory punishment for Criminal Breach of Trust by a carrier, wharfinger, or warehouse-keeper under Section 316(3) BNS (Section 407 IPC)?",
+    "options": [
+      "Imprisonment up to 7 years, and fine",
+      "Imprisonment up to 2 years",
+      "Fine of Rs 1,000 only",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 316(3) BNS (Section 407 IPC) punishes CBT by a carrier, wharfinger or warehouse-keeper with imprisonment up to 7 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 7 years and fine.",
+      "B": "Too low.",
+      "C": "Too low.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 316(3) / IPC S. 407",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify carrier CBT punishment.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-031",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "Cheating is defined under Section 318(1) BNS (Section 415 IPC) as fraudulently or dishonestly deceiving any person to:",
+    "options": [
+      "Deliver any property, or consent that any person shall retain property, or intentionally induce the person to do or omit to do anything which causes harm to body, mind, reputation or property",
+      "Trespass onto agricultural land",
+      "Damage public property by fire",
+      "Fabricate a signature on a will"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 318(1) BNS defines Cheating: deceiving a person dishonestly to deliver property or inducing any act/omission causing harm in body, mind, reputation, or property.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of cheating.",
+      "B": "This is trespass.",
+      "C": "This is mischief.",
+      "D": "This is forgery."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 318(1) / IPC S. 415",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define cheating under BNS S. 318(1).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-032",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "What is the statutory punishment for Cheating and dishonestly inducing delivery of property under Section 318(4) BNS (Section 420 IPC)?",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 7 years, and shall also be liable to fine",
+      "Imprisonment up to 3 years",
+      "Imprisonment up to 1 year",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 318(4) BNS corresponds to the famous Section 420 IPC (cheating and dishonestly inducing delivery of property, up to 7 years and fine).",
+    "optionBreakdown": {
+      "A": "Correct; up to 7 years and fine.",
+      "B": "3 years applies to simple cheating under S. 318(2).",
+      "C": "Too low.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 318(4) / IPC S. 420",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall BNS equivalent of S. 420 IPC.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-033",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "In Hridaya Ranjan Prasad Verma v. State of Bihar ((2000) 4 SCC 168), what did the Supreme Court hold regarding the distinction between mere breach of contract and cheating?",
+    "options": [
+      "In cheating, dishonest intention must exist at the very inception of the transaction; in breach of contract, intention failed subsequently",
+      "Every breach of contract is automatically criminal cheating",
+      "Cheating cannot occur in commercial transactions",
+      "Breach of contract is punishable under Section 420 IPC"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Hridaya Ranjan settled that fraudulent or dishonest intention at the very beginning is the crux of cheating; subsequent inability to perform is only civil breach of contract.",
+    "optionBreakdown": {
+      "A": "Correct; inception-level dishonest intention distinguishes cheating from civil breach.",
+      "B": "Rejected; civil breach is not criminal cheating.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 318 / Hridaya Ranjan (2000)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish cheating from breach of contract.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-034",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "How is 'Mischief' defined under Section 324(1) BNS (Section 425 IPC)?",
+    "options": [
+      "With intent to cause, or knowing that he is likely to cause, wrongful loss or damage to the public or any person, causes the destruction of any property, or change diminishing its value or utility",
+      "Taking movable property out of possession without consent",
+      "Entrusting property and converting it",
+      "Deceiving a person to part with money"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 324(1) BNS defines mischief: causing destruction or change in property diminishing its value or utility with intent/knowledge to cause wrongful loss.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of mischief.",
+      "B": "This is theft.",
+      "C": "This is CBT.",
+      "D": "This is cheating."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 324(1) / IPC S. 425",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define mischief under BNS S. 324(1).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-035",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "Under Section 329(1) BNS (Section 441 IPC), Criminal Trespass occurs when a person enters into or upon property in possession of another with intent to:",
+    "options": [
+      "Commit an offence or to intimidate, insult or annoy any person in possession",
+      "Inspect boundaries innocently",
+      "Deliver mail in official course of duty",
+      "Pluck flowers without any criminal intent"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 329(1) BNS defines criminal trespass: entry with intent to commit an offence, or to intimidate, insult, or annoy any person in possession.",
+    "optionBreakdown": {
+      "A": "Correct; entry with criminal intent or to intimidate/insult/annoy.",
+      "B": "Innocent inspection lacks mens rea.",
+      "C": "Official duty is lawful.",
+      "D": "Lack of intent to commit offence/annoy negates criminal trespass."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 329(1) / IPC S. 441",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define criminal trespass.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-036",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "How many statutory ways of entering or quitting a house designate 'House-breaking' under Section 330 BNS (Section 445 IPC)?",
+    "options": [
+      "Four ways",
+      "Six ways",
+      "Eight ways",
+      "Ten ways"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Both IPC Section 445 and BNS Section 330 specify exactly six designated ways (through hole not intended for entry, scaling walls, unfastening locks, force/threat, etc.).",
+    "optionBreakdown": {
+      "A": "Incorrect.",
+      "B": "Correct; exactly six statutory ways constitute house-breaking.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 330 / IPC S. 445",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall six statutory ways of house-breaking.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-037",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "What is 'Lurking House-trespass' under Section 329(3) BNS (Section 443 IPC)?",
+    "options": [
+      "House-trespass after taking precautions to conceal such house-trespass from some person who has a right to exclude or eject the trespasser",
+      "Trespass during broad daylight",
+      "Entering an open shop during business hours",
+      "Trespass by five or more armed persons"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Lurking house-trespass is committing house-trespass having taken precautions to conceal it from someone entitled to exclude the trespasser.",
+    "optionBreakdown": {
+      "A": "Correct; concealment is the defining feature of lurking house-trespass.",
+      "B": "Time of day does not define 'lurking'.",
+      "C": "Lawful entry.",
+      "D": "Relates to dacoity/assembly."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 329(3) / IPC S. 443",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define lurking house-trespass.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-038",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "What is the punishment for Lurking House-trespass or House-breaking by Night under Section 331(4) BNS (Section 456 IPC)?",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 3 years, and fine",
+      "Imprisonment up to 1 year",
+      "Imprisonment up to 10 years",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 331(4) BNS (IPC S. 456) punishes lurking house-trespass or house-breaking by night with imprisonment up to 3 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 3 years and fine.",
+      "B": "Too low.",
+      "C": "Too high.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 331(4) / IPC S. 456",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for night house-breaking.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-039",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "Under Section 324(4) BNS (Section 435 IPC), mischief by fire or explosive substance with intent to cause damage to property of value of Rs 100 or upwards (in BNS Rs 20,000) is punishable with:",
+    "options": [
+      "Imprisonment up to 7 years, and fine",
+      "Imprisonment up to 2 years",
+      "Life imprisonment in all cases",
+      "Simple fine of Rs 500"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 324(4) BNS (IPC S. 435) provides imprisonment of either description up to 7 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; up to 7 years and fine.",
+      "B": "Too low.",
+      "C": "Life imprisonment applies to destroying human dwellings (S. 324(5) BNS / S. 436 IPC).",
+      "D": "Too low."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 324(4) / IPC S. 435",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall mischief by fire penalty.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-09-040",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-09",
+    "topicId": "top-crim-09-03",
+    "question": "Can a person commit Mischief to his own property under Section 324 BNS (Section 425 IPC)?",
+    "options": [
+      "Yes, if he destroys his own property with intent to cause wrongful loss to another (e.g., to an insurance company or joint mortgagee)",
+      "No, a person has absolute right to destroy his own property without criminal liability",
+      "Only if the property is agricultural land",
+      "Only if the property is situated in a cantonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 1 to Section 324 BNS (IPC S. 425) clarifies that mischief can be committed by causing damage to property belonging to the offender himself if done to cause wrongful loss to insurer/others.",
+    "optionBreakdown": {
+      "A": "Correct; destroying own insured property to defraud is mischief.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 324 Expl 1 / IPC S. 425 Expl 1",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze mischief to own property.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-001",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "Which provision of the Bharatiya Nyaya Sanhita, 2023 replaces the colonial offence of 'Sedition' (Section 124A IPC)?",
+    "options": [
+      "Section 152 BNS ('Act endangering sovereignty, unity and integrity of India')",
+      "Section 124 BNS",
+      "Section 147 BNS",
+      "Section 153A BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 152 BNS explicitly repeals the archaic word 'sedition' and replaces it with 'Act endangering sovereignty, unity and integrity of India'.",
+    "optionBreakdown": {
+      "A": "Correct; Section 152 BNS replaces Section 124A IPC.",
+      "B": "Section 124 BNS relates to acid attacks.",
+      "C": "Section 147 BNS relates to rioting.",
+      "D": "Section 153A IPC corresponds to Section 196 BNS."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 152 / IPC S. 124A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master statutory replacement of sedition with S. 152 BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-002",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "What is the statutory punishment prescribed under Section 152 BNS?",
+    "options": [
+      "Imprisonment for life or with imprisonment which may extend to 7 years, and shall also be liable to fine",
+      "Imprisonment up to 3 years only",
+      "Death penalty in all cases",
+      "Community service only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 152 BNS prescribes imprisonment for life or imprisonment which may extend to 7 years, and fine (minimum alternate term increased from 3 years under IPC S. 124A).",
+    "optionBreakdown": {
+      "A": "Correct; life imprisonment or up to 7 years and fine.",
+      "B": "3 years was the lower tier under IPC S. 124A.",
+      "C": "Death penalty does not apply to S. 152.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 152",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment under BNS S. 152.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-003",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "Under the Explanation to Section 152 BNS, which of the following does NOT constitute an offence under Section 152?",
+    "options": [
+      "Comments expressing disapprobation of the measures, or administrative or other action of the Government with a view to obtain their alteration by lawful means without exciting subversive activities",
+      "Advocating armed rebellion",
+      "Inciting secession of any State from India",
+      "Promoting feelings of separatist activities"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Explanation to Section 152 BNS explicitly protects lawful democratic dissent, criticism, and disapprobation of government policies.",
+    "optionBreakdown": {
+      "A": "Correct; legitimate democratic criticism is explicitly protected.",
+      "B": "Armed rebellion is criminalised.",
+      "C": "Secession is criminalised.",
+      "D": "Separatist incitement is criminalised."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 152 Explanation",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master democratic dissent protection under S. 152 Explanation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-004",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "In S.G. Vombatkere v. Union of India ((2022) 7 SCC 433), what historic interim order was passed by the Supreme Court regarding Section 124A IPC?",
+    "options": [
+      "Kept Section 124A IPC in abeyance, directing that all pending trials, appeals and proceedings be kept in abeyance and no new FIRs be registered",
+      "Struck down Section 124A as completely void ab initio",
+      "Enhanced punishment for sedition to death penalty",
+      "Directed that sedition cases be tried only by High Courts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In S.G. Vombatkere (2022), the Supreme Court stayed the operation of Section 124A IPC pending governmental review, leading to legislative changes in BNS.",
+    "optionBreakdown": {
+      "A": "Correct; historic stay on sedition prosecutions.",
+      "B": "Interim stay was granted, not final invalidation.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 152 / S.G. Vombatkere (2022)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Vombatkere interim sedition freeze.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-005",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "In Kedar Nath Singh v. State of Bihar (AIR 1962 SC 955), the Constitution Bench upheld the constitutional validity of sedition by reading it down to require:",
+    "options": [
+      "Incitement to violence or public disorder or intention to create public disorder",
+      "Mere strong criticism of government policies",
+      "Unflattering newspaper cartoons",
+      "Defamation of public ministers"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Kedar Nath Singh held that sedition requires incitement to violence or public disorder; mere harsh words or criticism do not attract penal sanctions.",
+    "optionBreakdown": {
+      "A": "Correct; incitement to violence or public disorder.",
+      "B": "Criticism is protected by Art 19(1)(a).",
+      "C": "Cartoons do not constitute sedition.",
+      "D": "Defamation is a distinct personal offence."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 152 / Kedar Nath Singh (1962)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Kedar Nath Singh incitement doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-006",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "Which section of BNS 2023 deals with waging, or attempting to wage war, or abetting waging of war, against the Government of India (Section 121 IPC)?",
+    "options": [
+      "Section 147 BNS",
+      "Section 148 BNS",
+      "Section 150 BNS",
+      "Section 152 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 147 BNS corresponds to Section 121 IPC (waging war against the Government of India, punishable with death or life imprisonment).",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 147 corresponds to IPC Section 121.",
+      "B": "Section 148 is conspiracy to wage war.",
+      "C": "Section 150 is collecting arms.",
+      "D": "Section 152 is acts endangering sovereignty."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 147 / IPC S. 121",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map waging war provisions in BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-007",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "What is the punishment for waging war against the Government of India under Section 147 BNS (Section 121 IPC)?",
+    "options": [
+      "Death, or imprisonment for life, and shall also be liable to fine",
+      "Imprisonment up to 10 years only",
+      "Rigorous imprisonment for 7 years",
+      "Fine only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 147 BNS provides that whoever wages war, attempts to wage war, or abets waging war shall be punished with death or imprisonment for life, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; capital punishment or life imprisonment and fine.",
+      "B": "Too low.",
+      "C": "Too low.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 147 / IPC S. 121",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for waging war.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-008",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "In Balwant Singh v. State of Punjab (AIR 1995 SC 1785), what was held regarding raising slogans like 'Khalistan Zindabad' in a public crowd after Indira Gandhi's assassination?",
+    "options": [
+      "Casual raising of slogans a couple of times without overt violence or inciting disorder does not constitute sedition or promote enmity",
+      "Any political slogan is an act of war under Section 121 IPC",
+      "Mandatory life imprisonment must be awarded",
+      "The speakers lose all citizenship rights"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Balwant Singh held that raising slogans a few times by two individuals without reaction or incitement to violence did not attract Section 124A or Section 153A IPC.",
+    "optionBreakdown": {
+      "A": "Correct; slogan shouting without incitement does not constitute sedition.",
+      "B": "Rejected.",
+      "C": "Rejected.",
+      "D": "Rejected."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 152 / Balwant Singh (1995)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Balwant Singh slogan shouting precedent.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-009",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "Promoting enmity between different groups on grounds of religion, race, place of birth, residence, language, etc., is punishable under which section of BNS 2023 (Section 153A IPC)?",
+    "options": [
+      "Section 196 BNS",
+      "Section 152 BNS",
+      "Section 189 BNS",
+      "Section 299 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 196 BNS corresponds to Section 153A IPC (promoting enmity between classes, punishable up to 3 years, or 5 years in place of worship).",
+    "optionBreakdown": {
+      "A": "Correct; Section 196 BNS corresponds to Section 153A IPC.",
+      "B": "Section 152 is acts endangering sovereignty.",
+      "C": "Section 189 is unlawful assembly.",
+      "D": "Section 299 is outraging religious feelings."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 196 / IPC S. 153A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map promoting enmity section in BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-010",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-01",
+    "question": "Under Section 152 BNS, electronic communication and financial means used to endanger sovereignty are:",
+    "options": [
+      "Explicitly included within the operative words of the statute",
+      "Excluded from the scope of Section 152",
+      "Governed only by the Information Technology Act",
+      "Applicable only to foreign nationals"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 152 BNS modernises the law by explicitly penalising acts done by words, signs, visible representation, or by electronic communication or by use of financial means.",
+    "optionBreakdown": {
+      "A": "Correct; electronic communication and financial means are express statutory elements.",
+      "B": "Incorrect.",
+      "C": "Substantive penal liability is in S. 152 BNS.",
+      "D": "Applies to any person."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 152",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify modern electronic/financial limbs in S. 152.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-011",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "Which provision of the Bharatiya Nyaya Sanhita, 2023 introduces 'Organised Crime' into general penal law for the first time?",
+    "options": [
+      "Section 111 BNS",
+      "Section 112 BNS",
+      "Section 113 BNS",
+      "Section 120 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 111 BNS incorporates Organised Crime into general penal law, inspired by special statutes like MCOCA.",
+    "optionBreakdown": {
+      "A": "Correct; Section 111 BNS defines and punishes Organised Crime.",
+      "B": "Section 112 is Petty Organised Crime.",
+      "C": "Section 113 is Terrorist Act.",
+      "D": "Section 120 is causing hurt to extort confession."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 111",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify BNS Section 111 for Organised Crime.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-012",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "Under Section 111(1) BNS, 'continuing unlawful activity' requires that how many charge-sheets have been filed before a competent court within the preceding ten years?",
+    "options": [
+      "More than one charge-sheet",
+      "At least five charge-sheets",
+      "At least ten charge-sheets",
+      "Only one charge-sheet"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 111(1) Explanation requires that more than one charge-sheet has been filed before a competent court within the preceding period of 10 years and the court has taken cognizance.",
+    "optionBreakdown": {
+      "A": "Correct; more than one charge-sheet within preceding 10 years.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Single charge-sheet is insufficient."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 111(1) Explanation",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master 'continuing unlawful activity' threshold in S. 111.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-013",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "What is the statutory punishment under Section 111(2)(a) BNS if the organised crime results in the death of any person?",
+    "options": [
+      "Death or imprisonment for life, and shall also be liable to fine which shall not be less than Rs 10 lakhs",
+      "Imprisonment for 7 years",
+      "Imprisonment up to 10 years",
+      "Simple fine only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 111(2)(a) BNS prescribes death or life imprisonment, and a mandatory minimum fine of not less than Rs 10 lakhs.",
+    "optionBreakdown": {
+      "A": "Correct; death or life imprisonment, and fine not less than Rs 10 lakhs.",
+      "B": "Too low.",
+      "C": "Too low.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 111(2)(a)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalties for organised crime causing death.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-014",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "Which provision of BNS 2023 defines and punishes 'Petty Organised Crime' (e.g., theft, snatching, cheating, ticket touting by organised gangs)?",
+    "options": [
+      "Section 112 BNS",
+      "Section 111 BNS",
+      "Section 113 BNS",
+      "Section 304 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 112 BNS specifically penalises Petty Organised Crime committed by members of a gang or group.",
+    "optionBreakdown": {
+      "A": "Correct; Section 112 BNS covers Petty Organised Crime.",
+      "B": "Section 111 covers major Organised Crime.",
+      "C": "Section 113 covers Terrorist Act.",
+      "D": "Section 304 covers snatching."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 112",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize petty organised crime in BNS S. 112.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-015",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "What is the punishment for committing Petty Organised Crime under Section 112(2) BNS?",
+    "options": [
+      "Imprisonment of not less than 1 year which may extend to 7 years, and fine",
+      "Imprisonment for life",
+      "Capital punishment",
+      "Simple fine of Rs 500 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 112(2) BNS punishes petty organised crime with imprisonment of not less than 1 year extending to 7 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; 1 to 7 years and fine.",
+      "B": "Applies to major organised crime.",
+      "C": "Does not apply.",
+      "D": "Too low."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 112(2)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment under BNS S. 112(2).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-016",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "Which provision of BNS 2023 incorporates 'Terrorist Act' directly into general penal law?",
+    "options": [
+      "Section 113 BNS",
+      "Section 111 BNS",
+      "Section 121 BNS",
+      "Section 153 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 113 BNS defines and punishes Terrorist Acts, synchronising penal law definitions with UAPA Section 15.",
+    "optionBreakdown": {
+      "A": "Correct; Section 113 BNS covers Terrorist Act.",
+      "B": "Section 111 covers Organised Crime.",
+      "C": "Section 121 is hurt to deter public servant.",
+      "D": "Section 153 is provocation to riot."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 113",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Terrorist Act provision in BNS S. 113.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-017",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "Under Section 113(1) BNS, an act constitutes a Terrorist Act if done with intent to threaten or likely to threaten the unity, integrity, sovereignty or security of India, or to strike terror in people by using:",
+    "options": [
+      "Bombs, dynamite, explosive substances, firearms, lethal weapons, poisonous gases, or cyber means",
+      "Peaceful boycotts and strikes",
+      "Public speeches criticizing tax policy",
+      "Filing public interest litigations"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 113(1) covers using explosive substances, firearms, chemical/biological substances, radiation, or cyber warfare to strike terror or endanger sovereignty.",
+    "optionBreakdown": {
+      "A": "Correct; statutory terrorist weapons and means under S. 113.",
+      "B": "Peaceful protests are constitutional rights.",
+      "C": "Protected democratic speech.",
+      "D": "Lawful judicial recourse."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 113(1)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify weapons and means in Terrorist Act.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-018",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "Under Section 113(2) BNS, what is the punishment if a terrorist act results in the death of any person?",
+    "options": [
+      "Death or imprisonment for life, and shall also be liable to fine",
+      "Imprisonment up to 10 years",
+      "Imprisonment up to 5 years",
+      "Life imprisonment with automatic parole"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 113(2) BNS prescribes death or imprisonment for life, and fine, where death results from a terrorist act.",
+    "optionBreakdown": {
+      "A": "Correct; death or life imprisonment and fine.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "No automatic parole."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 113(2)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalties for terrorist act causing death.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-019",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "Which officer is authorised under Section 113(3) BNS to decide whether an offence under Section 113 shall be investigated under BNS or UAPA?",
+    "options": [
+      "An officer not below the rank of Superintendent of Police",
+      "The Station House Officer (Sub-Inspector)",
+      "The Judicial Magistrate First Class",
+      "The District Magistrate only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 113 Proviso/clause provides that an officer not below the rank of SP shall decide whether to invoke BNS S. 113 or UAPA, 1967.",
+    "optionBreakdown": {
+      "A": "Correct; officer not below the rank of Superintendent of Police.",
+      "B": "Sub-Inspector lacks statutory jurisdiction.",
+      "C": "Judicial officer does not direct choice of investigative statute at inception.",
+      "D": "SP is the designated police officer."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 113",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify rank threshold for invoking BNS S. 113.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-020",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-02",
+    "question": "Under Section 304 BNS, which distinct new offence is introduced into the penal code for the first time?",
+    "options": [
+      "Snatching",
+      "Stalking",
+      "Voyeurism",
+      "Hijacking"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 304 BNS specifically defines 'Snatching' as a separate aggravated form of theft where property is grabbed suddenly and quickly, punishable up to 3 years and fine.",
+    "optionBreakdown": {
+      "A": "Correct; Snatching is codified as Section 304 BNS.",
+      "B": "Stalking is S. 78.",
+      "C": "Voyeurism is S. 77.",
+      "D": "Hijacking is governed by Anti-Hijacking Act."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 304",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize new Snatching offence in BNS S. 304.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-021",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "How many persons are required to constitute an 'Unlawful Assembly' under Section 189(1) BNS (Section 141 IPC)?",
+    "options": [
+      "Five or more persons",
+      "Two or more persons",
+      "Three or more persons",
+      "Ten or more persons"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 189(1) BNS (Section 141 IPC) specifies an assembly of five or more persons designated as an unlawful assembly if having one of the five common objects.",
+    "optionBreakdown": {
+      "A": "Correct; five or more persons.",
+      "B": "Two is for affray.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 189(1) / IPC S. 141",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall minimum membership of unlawful assembly.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-022",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "How many statutory 'Common Objects' are specified in Section 189(1) BNS (Section 141 IPC)?",
+    "options": [
+      "Five common objects",
+      "Three common objects",
+      "Seven common objects",
+      "Ten common objects"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 189(1) BNS specifies exactly five common objects (overawing government/public servants, resisting execution of law, committing mischief/trespass, enforcing right by force, compelling illegal acts).",
+    "optionBreakdown": {
+      "A": "Correct; exactly five common objects.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 189(1) / IPC S. 141",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall five statutory common objects.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-023",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "Can an assembly which was not unlawful when it assembled subsequently become an unlawful assembly?",
+    "options": [
+      "Yes, under Section 189(1) Explanation, an assembly which was lawful when it assembled may subsequently become an unlawful assembly",
+      "No, nature of assembly is permanently fixed at the time of gathering",
+      "Only if police declare it unlawful under Section 144 BNSS",
+      "Only if they pick up lethal weapons"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The Explanation to Section 189(1) BNS (IPC S. 141) states: 'An assembly which was not unlawful when it assembled, may subsequently become an unlawful assembly.'",
+    "optionBreakdown": {
+      "A": "Correct; lawful assembly can subsequently become unlawful.",
+      "B": "Rejected by statute.",
+      "C": "Statutory character does not depend solely on administrative order.",
+      "D": "Weapons not mandatory."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 189(1) Explanation / IPC S. 141 Explanation",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand dynamic nature of unlawful assembly.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-024",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "Under Section 191(1) BNS (Section 146 IPC), when is 'Rioting' committed?",
+    "options": [
+      "Whenever force or violence is used by an unlawful assembly, or by any member thereof, in prosecution of the common object of such assembly",
+      "Whenever two persons fight in a private room",
+      "Whenever five people walk peacefully on a street",
+      "Whenever anti-government slogans are raised"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Rioting is the use of force or violence by an unlawful assembly (or member thereof) in prosecution of their common object.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of rioting.",
+      "B": "Fighting in private is simple assault/affray.",
+      "C": "Peaceful march is lawful.",
+      "D": "Slogans without violence do not constitute rioting."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 191(1) / IPC S. 146",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define rioting under BNS S. 191(1).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-025",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "What is the punishment for Rioting under Section 191(2) BNS (Section 147 IPC)?",
+    "options": [
+      "Imprisonment of either description for a term up to 2 years, or fine, or both",
+      "Imprisonment up to 5 years",
+      "Rigorous imprisonment up to 7 years",
+      "Fine of Rs 500 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 191(2) BNS punishes rioting with imprisonment of either description for a term up to 2 years, or fine, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 2 years or fine, or both.",
+      "B": "Applies to rioting armed with deadly weapon (S. 191(3) BNS / S. 148 IPC).",
+      "C": "Too severe.",
+      "D": "Too low."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 191(2) / IPC S. 147",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for rioting.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-026",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "What is the punishment for Rioting armed with a deadly weapon under Section 191(3) BNS (Section 148 IPC)?",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 5 years, or fine, or both",
+      "Imprisonment up to 2 years",
+      "Life imprisonment",
+      "Capital punishment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 191(3) BNS (IPC S. 148) punishes rioting armed with a deadly weapon with imprisonment up to 5 years, or fine, or both (increased from 3 years in IPC).",
+    "optionBreakdown": {
+      "A": "Correct; up to 5 years or fine, or both.",
+      "B": "2 years is for simple rioting.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 191(3) / IPC S. 148",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall armed rioting penalty under BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-027",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "Under Section 194(1) BNS (Section 159 IPC), what constitutes an 'Affray'?",
+    "options": [
+      "When two or more persons, by fighting in a public place, disturb the public peace",
+      "When five persons conspire in a private house",
+      "When one person shouts on a road",
+      "When a mob destroys public property"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Affray requires: (i) two or more persons, (ii) actual fighting, (iii) in a public place, and (iv) actual disturbance of public peace.",
+    "optionBreakdown": {
+      "A": "Correct; two or more persons fighting in public disturbing peace.",
+      "B": "Conspiracy in private is not affray.",
+      "C": "One person cannot commit affray.",
+      "D": "Mob destroying property is rioting."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 194(1) / IPC S. 159",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define affray under BNS S. 194(1).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-028",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "What is the punishment for committing Affray under Section 194(2) BNS (Section 160 IPC)?",
+    "options": [
+      "Imprisonment of either description for a term up to 1 month, or fine up to Rs 1,000, or both",
+      "Imprisonment up to 1 year and fine",
+      "Rigorous imprisonment up to 3 years",
+      "Fine of Rs 100 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 194(2) BNS prescribes imprisonment up to 1 month, or fine up to Rs 1,000, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 1 month or fine up to Rs 1,000, or both.",
+      "B": "Too severe.",
+      "C": "Too severe.",
+      "D": "Old IPC fine was Rs 100; BNS raised to Rs 1,000."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 194(2) / IPC S. 160",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for affray.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-029",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "What is the difference between Rioting and Affray regarding place and number of persons?",
+    "options": [
+      "Rioting requires minimum 5 persons and can occur anywhere (public or private); Affray requires minimum 2 persons and must occur in a public place",
+      "Rioting must occur in a public place; Affray occurs only in private",
+      "Rioting requires 2 persons; Affray requires 5 persons",
+      "Both require 5 persons in a public place"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Rioting requires an unlawful assembly (5+ persons) and can occur anywhere; Affray requires 2+ persons fighting in a public place disturbing public peace.",
+    "optionBreakdown": {
+      "A": "Correct; definitive distinction between rioting and affray.",
+      "B": "Reversed.",
+      "C": "Numbers are inverted.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 191 & 194 / IPC S. 146 & 159",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Compare rioting and affray.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-10-030",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-10",
+    "topicId": "top-crim-10-03",
+    "question": "Can a person be convicted of being a member of an unlawful assembly under Section 189(2) BNS if the total number of accused acquitted reduces the assembly below five?",
+    "options": [
+      "No, if specific named persons are acquitted leaving fewer than five, remaining cannot be convicted unless proven that unidentified persons were also present",
+      "Yes, even a single person can be convicted as an unlawful assembly",
+      "Yes, assembly size is measured only at the time of lodging FIR",
+      "Court can substitute two persons to make up the number"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Amar Singh v. State of Punjab and Dharam Pal v. State of U.P. established that if named accused are acquitted and remaining are fewer than 5, S. 149/189 cannot be invoked unless unidentified members are proved.",
+    "optionBreakdown": {
+      "A": "Correct; reduction below five negates unlawful assembly unless unidentifiable members proved.",
+      "B": "Single person cannot be unlawful assembly.",
+      "C": "Proof at trial governs conviction.",
+      "D": "Courts cannot invent members."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 189 / Dharam Pal (1975)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze reduction below statutory minimum in unlawful assembly.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-001",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "Giving False Evidence (Perjury) is defined under Section 227 BNS (Section 191 IPC) as:",
+    "options": [
+      "Being legally bound by an oath or express provision of law to state the truth, makes any statement which is false, and which he either knows or believes to be false or does not believe to be true",
+      "Giving an inaccurate statement accidentally due to poor memory",
+      "Expressing a bona fide personal opinion",
+      "Refusing to sign a police statement"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 227 BNS defines giving false evidence: bound by oath or law to speak truth, making a statement known/believed to be false or not believed to be true.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of giving false evidence.",
+      "B": "Inadvertent memory lapse lacks mens rea.",
+      "C": "Bona fide opinion is protected under Explanation 2.",
+      "D": "Police statements are not under oath."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 227 / IPC S. 191",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define giving false evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-002",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "Fabricating False Evidence under Section 228 BNS (Section 192 IPC) requires:",
+    "options": [
+      "Causing any circumstance to exist, or making false document/electronic record, intending that it may appear in evidence in a judicial proceeding and cause an erroneous opinion",
+      "Giving oral false testimony in court",
+      "Submitting a late written statement",
+      "Arguing an incorrect proposition of law"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 228 BNS defines fabricating false evidence: creating circumstances or false documents/records intending them to appear in evidence to mislead a judicial/public proceeding.",
+    "optionBreakdown": {
+      "A": "Correct; creating false circumstances/records to mislead evidence.",
+      "B": "Oral testimony is giving false evidence under S. 227.",
+      "C": "Procedural delay is not fabrication.",
+      "D": "Legal argument is not evidence."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 228 / IPC S. 192",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define fabricating false evidence.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-003",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "What is the punishment for giving or fabricating false evidence in a judicial proceeding under Section 229 BNS (Section 193 IPC)?",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 7 years, and shall also be liable to fine",
+      "Imprisonment up to 3 years",
+      "Imprisonment up to 1 year",
+      "Death penalty in all cases"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 229 BNS (Section 193 IPC) prescribes imprisonment of either description up to 7 years, and fine, for false evidence in any judicial proceeding.",
+    "optionBreakdown": {
+      "A": "Correct; up to 7 years and fine in judicial proceedings.",
+      "B": "3 years applies to non-judicial proceedings.",
+      "C": "Too low.",
+      "D": "Death penalty applies only under S. 230 if false evidence leads to capital conviction."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 229 / IPC S. 193",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall punishment for perjury in judicial proceeding.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-004",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "What is the punishment under Section 230 BNS (Section 194 IPC) for giving or fabricating false evidence intending to procure conviction of a capital offence, if an innocent person is thereby convicted and executed?",
+    "options": [
+      "Punished with death or with imprisonment for life, or rigorous imprisonment up to 10 years, and fine",
+      "Imprisonment up to 7 years only",
+      "Simple imprisonment for 1 year",
+      "No criminal liability attaches to witness"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 230 BNS (IPC S. 194) provides that if an innocent person is convicted and executed in consequence of such false evidence, the perjurer may be punished with death or life imprisonment.",
+    "optionBreakdown": {
+      "A": "Correct; capital punishment or life imprisonment for fatal perjury.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "False witness is criminally liable."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 230 / IPC S. 194",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master capital perjury sanction.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-005",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "Can a person be prosecuted for perjury based on an FIR or police diary statement recorded under Section 161 CrPC (Section 180 BNSS)?",
+    "options": [
+      "No, because statements to police under S. 161 CrPC are neither made on oath nor signed, and do not constitute substantive evidence for perjury",
+      "Yes, any lie to a police officer is perjury",
+      "Yes, under Section 193 IPC automatically",
+      "Only if recorded on video"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Statements under Section 161 CrPC / Section 180 BNSS are not made on oath and cannot be the foundation for a perjury prosecution under S. 191/193 IPC.",
+    "optionBreakdown": {
+      "A": "Correct; S. 161 statements are not on oath and cannot ground perjury.",
+      "B": "Lies to police fall under S. 182 IPC / S. 217 BNS (false information), not perjury.",
+      "C": "Section 193 requires oath or legal obligation to state truth.",
+      "D": "Video recording does not make it an oath."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 227 / CrPC S. 161",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand procedural prerequisite for perjury.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-006",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "Under Section 340 CrPC (Section 379 BNSS), how can a criminal court initiate prosecution for perjury committed in or in relation to a proceeding in that court?",
+    "options": [
+      "By conducting a preliminary inquiry, recording a finding that it is expedient in the interests of justice, and making a formal written complaint to a Magistrate",
+      "By directly sentencing the witness to 7 years imprisonment without trial",
+      "By instructing the police to arrest the witness immediately on the spot",
+      "By dismissing the main suit"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 340 CrPC (Section 379 BNSS), the court must form an opinion that it is 'expedient in the interests of justice' and file a formal written complaint under S. 195 CrPC.",
+    "optionBreakdown": {
+      "A": "Correct; statutory procedure under Section 340 CrPC / 379 BNSS.",
+      "B": "Court cannot bypass trial.",
+      "C": "Police cannot register FIR without court's complaint under S. 195.",
+      "D": "Irrelevant."
+    },
+    "difficulty": "Hard",
+    "provision": "CrPC S. 340 / BNSS S. 379",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master procedure for prosecuting perjury.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-007",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "In Iqbal Singh Marwah v. Meenakshi Marwah ((2005) 4 SCC 370), what did the Constitution Bench hold regarding the bar under Section 195(1)(b)(ii) CrPC for forged documents?",
+    "options": [
+      "The bar applies ONLY to documents forged after they are produced or given in evidence in court (custodia curiae); for documents forged prior to production in court, private complaint or police FIR is competent",
+      "The bar applies to all forged documents whenever forged",
+      "No court can ever prosecute forgery",
+      "Police can never investigate forgery"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Iqbal Singh Marwah settled that S. 195(1)(b)(ii) bar applies only to offences committed in respect of a document after it has been produced in court; prior forgery can be investigated by police.",
+    "optionBreakdown": {
+      "A": "Correct; Iqbal Singh Marwah ruling on pre-court vs custodia curiae forgery.",
+      "B": "Overruled Sacchida Nand Singh.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "CrPC S. 195(1)(b) / Iqbal Singh Marwah (2005)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Iqbal Singh Marwah forgery bar.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-008",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "Under Section 231 BNS (Section 195 IPC), giving or fabricating false evidence with intent to procure conviction of an offence punishable with imprisonment for life or imprisonment for 7+ years is punishable with:",
+    "options": [
+      "The same punishment as a person convicted of that offence would be liable to",
+      "Simple imprisonment up to 1 year",
+      "Fine of Rs 10,000 only",
+      "Community service only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 231 BNS provides that the offender shall be punished in the same manner as a person convicted of that offence would be liable to be punished.",
+    "optionBreakdown": {
+      "A": "Correct; punished identically to the offence attempted to be falsely fastened.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 231 / IPC S. 195",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for framing severe charges with perjury.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-009",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "Under Section 238 BNS (Section 201 IPC), causing disappearance of evidence of an offence or giving false information to screen the offender is an offence:",
+    "options": [
+      "Committed by an accessory after the fact to protect the principal offender",
+      "Only when committed by a police officer",
+      "Only when committed in murder cases",
+      "Which can only be tried by a High Court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 238 BNS (IPC S. 201) punishes whoever, knowing or having reason to believe an offence has been committed, causes evidence to disappear with intention of screening the offender.",
+    "optionBreakdown": {
+      "A": "Correct; statutory offence of screening offender / destroying evidence.",
+      "B": "Can be committed by anyone.",
+      "C": "Applies to any capital or non-capital offence.",
+      "D": "Tried by competent Magistrate/Sessions."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 238 / IPC S. 201",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define destroying evidence to screen offender.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-010",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-01",
+    "question": "Under Section 248 BNS (Section 211 IPC), falsely charging any person with having committed an offence with intent to cause injury is punishable with:",
+    "options": [
+      "Imprisonment of either description up to 2 years, or fine, or both (or up to 7 years if the false charge is of an offence punishable with death/life/7+ years)",
+      "Imprisonment up to 1 month only",
+      "Death penalty in all cases",
+      "A civil damages decree only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 248 BNS (IPC S. 211) punishes false criminal charges with up to 2 years and fine; if the false charge is for death, life or 7+ years imprisonment, penalty extends up to 7 years.",
+    "optionBreakdown": {
+      "A": "Correct; two-tier penalty structure up to 2 years or up to 7 years.",
+      "B": "Too lenient.",
+      "C": "Death penalty does not apply.",
+      "D": "It is a substantive criminal offence."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 248 / IPC S. 211",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall false charge sanctions under BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-021",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Under Section 217 BNS (Section 182 IPC), giving false information to a public servant with intent to cause him to use his lawful power to the injury of another person is punishable with:",
+    "options": [
+      "Imprisonment of either description for a term up to 6 months, or fine up to Rs 10,000, or both",
+      "Imprisonment up to 3 years",
+      "Life imprisonment",
+      "Community service only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 217 BNS prescribes imprisonment of either description up to 6 months, or fine up to Rs 10,000, or both (increased from Rs 1,000 in IPC).",
+    "optionBreakdown": {
+      "A": "Correct; up to 6 months or fine up to Rs 10,000, or both.",
+      "B": "Too severe.",
+      "C": "Too severe.",
+      "D": "Fine or imprisonment."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 217 / IPC S. 182",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for giving false information to public servant.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-022",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Under Section 223 BNS (Section 188 IPC), disobedience to an order duly promulgated by a public servant (e.g. curfew or prohibitory order) is punishable with:",
+    "options": [
+      "Simple imprisonment up to 6 months, or fine up to Rs 2,500, or both (if disobedience causes danger to human life, health or safety)",
+      "Death penalty",
+      "Imprisonment for 7 years",
+      "Community service only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 223 BNS (Section 188 IPC) punishes disobedience: simple imprisonment up to 6 months or fine up to Rs 2,500 if causing danger to life/health/safety (or 1 month / Rs 500 for obstruction).",
+    "optionBreakdown": {
+      "A": "Correct; up to 6 months or fine up to Rs 2,500, or both.",
+      "B": "Absurd.",
+      "C": "Too high.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 223 / IPC S. 188",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for disobeying promulgated order.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-023",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Under Section 195(1)(a) CrPC (Section 215 BNSS), who alone can file a complaint for prosecution under Sections 172 to 188 IPC (now Sections 206 to 223 BNS)?",
+    "options": [
+      "The public servant concerned or some other public servant to whom he is administratively subordinate",
+      "Any private citizen who witnessed the disobedience",
+      "The police on their own FIR without written complaint",
+      "The High Court on a suo motu writ"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 195(1)(a) CrPC creates an absolute statutory bar: no court can take cognizance of contempt of public authority except on the complaint in writing of that public servant or his superior.",
+    "optionBreakdown": {
+      "A": "Correct; only the public servant concerned or his administrative superior.",
+      "B": "Private complaint is barred.",
+      "C": "Police cannot bypass S. 195 written complaint requirement.",
+      "D": "High Court cannot override statutory bar."
+    },
+    "difficulty": "Hard",
+    "provision": "CrPC S. 195(1)(a) / BNSS S. 215",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master statutory complaint bar under S. 195(1)(a).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-024",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Threatening a public servant with injury to induce him to do or forbear from doing any official act is punishable under:",
+    "options": [
+      "Section 224 BNS (Section 189 IPC)",
+      "Section 217 BNS",
+      "Section 152 BNS",
+      "Section 303 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 224 BNS corresponds to Section 189 IPC (threat of injury to public servant, up to 2 years imprisonment or fine, or both).",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 224 corresponds to IPC Section 189.",
+      "B": "Section 217 is false information.",
+      "C": "Section 152 is acts endangering sovereignty.",
+      "D": "Section 303 is theft."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 224 / IPC S. 189",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map threat to public servant section in BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-025",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Refusing to take oath or affirmation when legally required by a public servant under Section 213 BNS (Section 178 IPC) carries what punishment?",
+    "options": [
+      "Simple imprisonment up to 6 months, or fine up to Rs 5,000, or both",
+      "Rigorous imprisonment for 3 years",
+      "Imprisonment for 1 year",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 213 BNS (IPC S. 178) punishes refusal to take oath with simple imprisonment up to 6 months, or fine up to Rs 5,000, or both.",
+    "optionBreakdown": {
+      "A": "Correct; simple imprisonment up to 6 months or fine up to Rs 5,000.",
+      "B": "Too severe.",
+      "C": "Too severe.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 213 / IPC S. 178",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for refusal to take oath.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-026",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Obstructing a public servant in discharge of public functions under Section 221 BNS (Section 186 IPC) is punishable with:",
+    "options": [
+      "Imprisonment of either description for a term up to 3 months, or fine up to Rs 2,500, or both",
+      "Imprisonment up to 2 years",
+      "Rigorous imprisonment up to 5 years",
+      "Fine of Rs 100 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 221 BNS prescribes imprisonment of either description up to 3 months, or fine up to Rs 2,500, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 3 months or fine up to Rs 2,500, or both.",
+      "B": "Too severe.",
+      "C": "Too severe.",
+      "D": "Old IPC fine was Rs 500; BNS raised to Rs 2,500."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 221 / IPC S. 186",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for obstructing public servant.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-027",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Can a public servant who has issued an order under Section 144 CrPC lodge a criminal complaint under Section 188 IPC against violators?",
+    "options": [
+      "Yes, but only by way of a formal complaint in writing to the competent Magistrate under Section 195(1)(a) CrPC",
+      "Yes, he can directly convict and send them to jail on his own signature",
+      "No, Executive Magistrates have no power to lodge complaints",
+      "Only if approved by the Governor"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "A Magistrate whose order under S. 144 is violated must file a written complaint under S. 195(1)(a) CrPC before the judicial magistrate.",
+    "optionBreakdown": {
+      "A": "Correct; written complaint under Section 195(1)(a) CrPC is mandatory.",
+      "B": "Magistrate cannot act as judge in his own cause.",
+      "C": "Has explicit power to complain.",
+      "D": "Governor approval not needed."
+    },
+    "difficulty": "Hard",
+    "provision": "CrPC S. 195(1)(a) / IPC S. 188",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply S. 195 complaint procedure to S. 144 violations.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-028",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Omission to produce document or electronic record to a public servant by a person legally bound to produce it is punishable under:",
+    "options": [
+      "Section 210 BNS (Section 175 IPC)",
+      "Section 215 BNS",
+      "Section 220 BNS",
+      "Section 230 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 210 BNS corresponds to Section 175 IPC (omission to produce document/electronic record, up to 1 month / Rs 5,000 fine, or 6 months / Rs 10,000 if to a court of justice).",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 210 corresponds to IPC Section 175.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 210 / IPC S. 175",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map omission to produce documents in BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-029",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Non-attendance in obedience to an order from a public servant (absconding or failing to attend in response to summons) is punishable under:",
+    "options": [
+      "Section 209 BNS (Section 174 IPC)",
+      "Section 206 BNS",
+      "Section 218 BNS",
+      "Section 222 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 209 BNS corresponds to Section 174 IPC (non-attendance in obedience to summons/notice, up to 1 month / fine, or up to 6 months if from court).",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 209 corresponds to IPC Section 174.",
+      "B": "Section 206 is absconding to avoid summons.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 209 / IPC S. 174",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall summons disobedience section in BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-11-030",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-11",
+    "topicId": "top-crim-11-02",
+    "question": "Under Section 209(3) BNS (Section 174A IPC), non-appearance in response to a proclamation under Section 82 CrPC (Section 84 BNSS) for an offence punishable with death/life/10+ years is punishable with:",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 7 years, and shall also be liable to fine",
+      "Imprisonment up to 1 year",
+      "Imprisonment up to 3 years",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 209(3) BNS (IPC S. 174A) prescribes imprisonment up to 7 years and fine where proclamation was issued for a heinous offence.",
+    "optionBreakdown": {
+      "A": "Correct; up to 7 years and fine.",
+      "B": "Too low.",
+      "C": "3 years applies to non-heinous proclamation default.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 209(3) / IPC S. 174A",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master proclaimed offender non-appearance penalties.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-001",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "Forgery is defined under Section 336(1) BNS (Section 463 IPC) as making any false document or false electronic record with intent to:",
+    "options": [
+      "Cause damage or injury to public/person, support any claim/title, cause person to part with property/contract, or commit fraud",
+      "Accidentally sign an incorrect date on a greeting card",
+      "Draft a legal notice with exaggerated claims",
+      "Correct a spelling mistake in one's own notebook"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 336(1) BNS defines forgery: making false document/record with intent to cause damage, support claim, induce parting with property, or commit fraud.",
+    "optionBreakdown": {
+      "A": "Correct; statutory ingredients of forgery.",
+      "B": "Inadvertent date lacks fraudulent intent.",
+      "C": "Exaggeration in legal notice is not forgery.",
+      "D": "Spelling correction is innocent."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 336(1) / IPC S. 463",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define forgery under BNS S. 336(1).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-002",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "How many ways of 'Making a False Document or Electronic Record' are defined under Section 335 BNS (Section 464 IPC)?",
+    "options": [
+      "Three ways",
+      "Five ways",
+      "Two ways",
+      "Seven ways"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 335 BNS (Section 464 IPC) specifies three ways: (1) dishonestly/fraudulently making/signing/sealing/transmitting; (2) altering without authority; (3) causing execution by person under deception/unsoundness of mind.",
+    "optionBreakdown": {
+      "A": "Correct; exactly three statutory ways to make a false document.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 335 / IPC S. 464",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall three statutory ways of making false document.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-003",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "In Sheila Sebastian v. R. Jawaharaj ((2018) 7 SCC 581), what did the Supreme Court hold regarding the liability for Forgery under Section 465 IPC?",
+    "options": [
+      "To constitute forgery, the accused himself must be the maker of the false document or have caused it to be made; a person who merely uses a forged document cannot be convicted as the maker unless proved",
+      "Anyone who benefits from a forged document is automatically the maker",
+      "Forgery can be committed by negligence",
+      "Registration of a power of attorney cures forgery"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Sheila Sebastian established that maker of the document is the essential foundation for forgery under S. 464/465 IPC; using a forged document is separate under S. 471.",
+    "optionBreakdown": {
+      "A": "Correct; Sheila Sebastian strict maker doctrine.",
+      "B": "Rejected; beneficiary is not automatically maker.",
+      "C": "Requires fraudulent/dishonest intent.",
+      "D": "Registration does not validate forgery."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 336 / Sheila Sebastian (2018)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Sheila Sebastian maker doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-004",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "What is the general punishment for Forgery under Section 336(2) BNS (Section 465 IPC)?",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 2 years, or fine, or both",
+      "Imprisonment up to 5 years",
+      "Rigorous imprisonment up to 7 years",
+      "Fine of Rs 1,000 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 336(2) BNS (Section 465 IPC) prescribes imprisonment of either description up to 2 years, or fine, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 2 years or fine, or both.",
+      "B": "Too severe for simple forgery.",
+      "C": "7 years applies to forgery of record of court or public register (S. 337 BNS / S. 466 IPC).",
+      "D": "Too low."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 336(2) / IPC S. 465",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall general punishment for forgery.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-005",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "What is the statutory punishment for Forgery of a valuable security, will, or authority to adopt under Section 338 BNS (Section 467 IPC)?",
+    "options": [
+      "Imprisonment for life, or imprisonment of either description up to 10 years, and fine",
+      "Imprisonment up to 2 years only",
+      "Fine of Rs 50,000 only",
+      "Capital punishment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 338 BNS (Section 467 IPC) punishes forgery of a valuable security or will with life imprisonment, or imprisonment up to 10 years, and fine.",
+    "optionBreakdown": {
+      "A": "Correct; life imprisonment or up to 10 years and fine.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "Death penalty does not apply to forgery."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 338 / IPC S. 467",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalties for forging valuable security/will.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-006",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "Using as genuine a forged document or electronic record knowing it to be forged is punishable under Section 340 BNS (Section 471 IPC):",
+    "options": [
+      "In the same manner as if the person had forged such document or electronic record",
+      "With half the punishment of the maker",
+      "With simple fine of Rs 500 only",
+      "Only if the document was registered"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 340 BNS (Section 471 IPC) prescribes that the user shall be punished in the same manner as if he had forged the document.",
+    "optionBreakdown": {
+      "A": "Correct; punished identically to the forger.",
+      "B": "Not half; identical punishment.",
+      "C": "Incorrect.",
+      "D": "Registration irrelevant."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 340 / IPC S. 471",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall using forged document sanction.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-007",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "In Dr. Vimla v. Delhi Administration (AIR 1963 SC 1572), what did the Supreme Court hold regarding the meaning of 'fraudulently' in forgery?",
+    "options": [
+      "To act fraudulently requires two elements: deceit and injury (non-economic injury or economic injury) to some person",
+      "Injury must always be pecuniary or economic loss",
+      "Deceit alone without any potential injury constitutes fraud",
+      "Fraud is synonymous with negligence"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Dr. Vimla established that 'fraudulently' under Section 25 IPC / BNS requires both deceit and injury (injury need not be financial; can be deprivation of right).",
+    "optionBreakdown": {
+      "A": "Correct; deceit plus injury constitutes fraud.",
+      "B": "Injury need not be purely pecuniary.",
+      "C": "Deceit alone is insufficient without injury.",
+      "D": "Fraud requires intent, not negligence."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 335 / Dr. Vimla (1963)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Dr. Vimla deceit-plus-injury doctrine.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-008",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "Under Section 335 BNS, does signing a document with one's own name constitute making a false document?",
+    "options": [
+      "Yes, if a person signs his own name intending it to be believed that the document was made by another person of the same name (Explanation 1)",
+      "No, signing one's own genuine signature can never be forgery under any circumstances",
+      "Only if done on stamp paper",
+      "Only if signed in red ink"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 1 to Section 335 BNS (IPC S. 464) explicitly clarifies that a man's signature of his own name may amount to forgery if done deceitfully to impersonate another person with the identical name.",
+    "optionBreakdown": {
+      "A": "Correct; signing own name to impersonate another namesake is forgery.",
+      "B": "Incorrect.",
+      "C": "Incorrect.",
+      "D": "Irrelevant."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 335 Expl 1 / IPC S. 464 Expl 1",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze namesake signature forgery rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-009",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "Forging a document or electronic record intending that it shall be used for the purpose of cheating is punishable under:",
+    "options": [
+      "Section 339 BNS (Section 468 IPC)",
+      "Section 336 BNS",
+      "Section 341 BNS",
+      "Section 344 BNS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 339 BNS corresponds to Section 468 IPC (forgery for purpose of cheating, imprisonment up to 7 years and fine).",
+    "optionBreakdown": {
+      "A": "Correct; BNS Section 339 corresponds to IPC Section 468.",
+      "B": "Section 336 is simple forgery.",
+      "C": "Section 341 is making counterfeit seal.",
+      "D": "Section 344 is possessing counterfeit currency."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 339 / IPC S. 468",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map forgery for cheating section in BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-010",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-01",
+    "question": "Can an electronic record or digital signature be the subject matter of forgery under BNS 2023?",
+    "options": [
+      "Yes, BNS Sections 335 and 336 explicitly incorporate electronic records and electronic signatures throughout",
+      "No, electronic documents are governed exclusively by the Information Technology Act, 2000",
+      "Only if printed out on physical paper",
+      "Only if authenticated by a notary"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "BNS Sections 335, 336, 337, 338, and 340 fully incorporate electronic records and electronic signatures alongside physical paper documents.",
+    "optionBreakdown": {
+      "A": "Correct; express statutory integration of electronic records.",
+      "B": "Substantive penal forgery applies directly under BNS.",
+      "C": "Digital form is directly covered.",
+      "D": "Notary not required."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 335 & 336",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recognize electronic record integration in forgery.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-021",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "Under Section 351(1) BNS (Section 503 IPC), Criminal Intimidation is defined as threatening another with injury to:",
+    "options": [
+      "His person, reputation or property, or to the person or reputation of anyone in whom that person is interested, with intent to cause alarm or cause him to do any act which he is not legally bound to do",
+      "Civil litigation in a competent court for recovery of debt",
+      "Filing an administrative tax return",
+      "Competing peacefully in lawful commerce"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 351(1) BNS defines criminal intimidation: threatening injury to person, reputation or property to cause alarm or coerce illegal act/omission.",
+    "optionBreakdown": {
+      "A": "Correct; statutory definition of criminal intimidation.",
+      "B": "Threatening lawful civil suit is not criminal intimidation.",
+      "C": "Administrative compliance is lawful.",
+      "D": "Lawful trade competition is legal."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 351(1) / IPC S. 503",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define criminal intimidation under BNS S. 351(1).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-022",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "What is the general punishment for Criminal Intimidation under Section 351(2) BNS (Section 506 Part I IPC)?",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 2 years, or fine, or both",
+      "Imprisonment up to 7 years",
+      "Imprisonment up to 6 months",
+      "Fine of Rs 500 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 351(2) BNS (IPC S. 506 Part I) prescribes imprisonment of either description up to 2 years, or fine, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 2 years or fine, or both.",
+      "B": "7 years applies if threat is to cause death or grievous hurt (Part II).",
+      "C": "Too low.",
+      "D": "Too low."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 351(2) / IPC S. 506 Part I",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall general punishment for criminal intimidation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-023",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "If the threat in criminal intimidation is to cause death or grievous hurt, or destruction of property by fire, what is the maximum punishment under Section 351(3) BNS (Section 506 Part II IPC)?",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 7 years, or fine, or both",
+      "Imprisonment up to 2 years",
+      "Life imprisonment",
+      "Capital punishment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 351(3) BNS (IPC S. 506 Part II) provides imprisonment of either description up to 7 years, or fine, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 7 years or fine, or both.",
+      "B": "2 years is for simple intimidation.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 351(3) / IPC S. 506 Part II",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall enhanced penalty for threat to cause death.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-024",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "How is 'Defamation' structured under Section 356 BNS (Section 499 & 500 IPC)?",
+    "options": [
+      "Section 356(1) defines defamation with 10 statutory Exceptions, and Section 356(2) punishes it with simple imprisonment up to 2 years, or fine, or both, or community service",
+      "Abolished as a criminal offence and left exclusively to civil tort",
+      "Punishable with 7 years rigorous imprisonment",
+      "Applicable only to printed newspapers"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 356 BNS unifies definition and punishment: simple imprisonment up to 2 years, or fine, or both, or with community service, with 10 statutory exceptions.",
+    "optionBreakdown": {
+      "A": "Correct; BNS S. 356 merges definition and penalty with community service option.",
+      "B": "Criminal defamation is retained in BNS.",
+      "C": "Too severe.",
+      "D": "Applies to spoken, written, visible and electronic representations."
+    },
+    "difficulty": "Important",
+    "provision": "BNS S. 356 / IPC S. 499 & 500",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master BNS defamation structure and community service reform.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-025",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "In Subramanian Swamy v. Union of India ((2016) 7 SCC 221), the Supreme Court upheld the constitutional validity of criminal defamation (Sections 499 & 500 IPC), holding that:",
+    "options": [
+      "Right to reputation is a facet of Article 21 and constitutes a reasonable restriction on freedom of speech under Article 19(2)",
+      "Criminal defamation violates Article 19(1)(a) and must be repealed",
+      "Only politicians can be prosecuted for defamation",
+      "Defamation trials must be conducted by summary courts within 7 days"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Subramanian Swamy held that right to reputation is protected under Article 21, and criminal defamation constitutes a permissible reasonable restriction under Article 19(2).",
+    "optionBreakdown": {
+      "A": "Correct; reputation under Art 21 justifies criminal defamation restriction under Art 19(2).",
+      "B": "Rejected by Supreme Court.",
+      "C": "Applies universally.",
+      "D": "Regular warrant procedure applies."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 356 / Subramanian Swamy (2016)",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master Subramanian Swamy constitutional ruling on defamation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-026",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "Under the First Exception to Section 356(1) BNS (Section 499 IPC), it is NOT defamation to impute anything which is true concerning any person, if:",
+    "options": [
+      "It be for the public good that the imputation should be made or published",
+      "The imputation is made in a private gathering",
+      "The speaker had personal rivalry against the person",
+      "The imputation was published anonymously"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "The First Exception requires two concurrent elements: (i) truth of the imputation, AND (ii) publication was for the public good.",
+    "optionBreakdown": {
+      "A": "Correct; truth combined with public good is the statutory defence.",
+      "B": "Private gathering alone does not confer immunity without public good.",
+      "C": "Personal malice negates good faith.",
+      "D": "Anonymous publication does not protect."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 356(1) Exception 1 / IPC S. 499 Exception 1",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master First Exception to Defamation: Truth for Public Good.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-027",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "How many statutory Exceptions to Defamation are provided in Section 356(1) BNS (Section 499 IPC)?",
+    "options": [
+      "Eight exceptions",
+      "Ten exceptions",
+      "Twelve exceptions",
+      "Five exceptions"
+    ],
+    "answer": 1,
+    "answerLetter": "B",
+    "explanation": "Both IPC Section 499 and BNS Section 356(1) contain exactly ten statutory exceptions.",
+    "optionBreakdown": {
+      "A": "Incorrect.",
+      "B": "Correct; exactly ten statutory exceptions.",
+      "C": "Incorrect.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Easy",
+    "provision": "BNS S. 356(1) / IPC S. 499 Exceptions",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall ten exceptions to defamation.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-028",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "Under Section 352 BNS (Section 504 IPC), intentional insult with intent to provoke breach of the peace is punishable with:",
+    "options": [
+      "Imprisonment of either description for a term which may extend to 2 years, or fine, or both",
+      "Imprisonment up to 5 years",
+      "Rigorous imprisonment for 6 months only",
+      "Fine of Rs 100 only"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 352 BNS prescribes imprisonment of either description up to 2 years, or fine, or both.",
+    "optionBreakdown": {
+      "A": "Correct; up to 2 years or fine, or both.",
+      "B": "Too severe.",
+      "C": "Too low.",
+      "D": "Too low."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 352 / IPC S. 504",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for intentional insult provoking breach of peace.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-029",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "Under Section 355 BNS (Section 510 IPC), misconduct in public by a drunken person causing annoyance to any person is punishable with:",
+    "options": [
+      "Simple imprisonment for a term which may extend to 24 hours, or fine up to Rs 1,000, or both, or community service",
+      "Imprisonment up to 1 year and fine",
+      "Rigorous imprisonment for 3 months",
+      "Death penalty"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 355 BNS (IPC S. 510) punishes public drunken annoyance with simple imprisonment up to 24 hours, or fine up to Rs 1,000, or both, or community service.",
+    "optionBreakdown": {
+      "A": "Correct; up to 24 hours, fine up to Rs 1,000, or community service.",
+      "B": "Too severe.",
+      "C": "Too severe.",
+      "D": "Absurd."
+    },
+    "difficulty": "Medium",
+    "provision": "BNS S. 355 / IPC S. 510",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall penalty for public drunken misconduct under BNS.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-crim-12-030",
+    "subjectId": "law-criminal",
+    "chapterId": "ch-crim-12",
+    "topicId": "top-crim-12-02",
+    "question": "Under Section 351(4) BNS (Section 507 IPC), Criminal Intimidation by anonymous communication or having taken precaution to conceal the name or abode of the sender is punishable with:",
+    "options": [
+      "Imprisonment of either description up to 2 years, in addition to the punishment for simple criminal intimidation",
+      "Community service only",
+      "Fine of Rs 500 only",
+      "Life imprisonment"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 351(4) BNS (IPC S. 507) provides imprisonment up to 2 years in addition to the punishment under subsection (2) or (3).",
+    "optionBreakdown": {
+      "A": "Correct; additional imprisonment up to 2 years.",
+      "B": "Too lenient.",
+      "C": "Too lenient.",
+      "D": "Incorrect."
+    },
+    "difficulty": "Hard",
+    "provision": "BNS S. 351(4) / IPC S. 507",
+    "sourceUrl": "https://www.mha.gov.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall anonymous criminal intimidation penalty.",
+    "eligible": true,
+    "status": "active"
+  }
+]

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Electronic Evidence Admissibility &amp; Section 63 BSA Certificate</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Digital equivalence under S. 61 &amp; Mandatory Section 63 Conditions</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">MODERN EVIDENCE BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(50, 20)">
+    <rect x="0" y="0" width="700" height="40" rx="6" fill="#142c46"/>
+    <text x="350" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80">ELECTRONIC EVIDENCE ADMISSIBILITY [BSA S. 61 &amp; S. 63 / IEA S. 65B]</text>
+
+    <!-- Section 61 BSA Equivalence -->
+    <rect x="0" y="55" width="700" height="50" rx="6" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <text x="20" y="78" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#137d72">SECTION 61 BSA: EQUAL LEGAL STATUS</text>
+    <text x="20" y="94" font-family="system-ui, sans-serif" font-size="10" fill="#334155">Electronic or digital records shall have the same legal effect, validity, and enforceability as any paper document.</text>
+
+    <!-- S. 63 Certificate Requirements -->
+    <rect x="0" y="120" width="335" height="175" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="120" width="335" height="30" rx="8" fill="#142c46"/>
+    <text x="167" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">SECTION 63 CERTIFICATE CONDITIONS</text>
+    <text x="15" y="170" font-family="system-ui, sans-serif" font-size="10" fill="#334155">1. Identifying the electronic record</text>
+    <text x="15" y="190" font-family="system-ui, sans-serif" font-size="10" fill="#334155">2. Describing the device producing it</text>
+    <text x="15" y="210" font-family="system-ui, sans-serif" font-size="10" fill="#334155">3. Computer operating in lawful custody</text>
+    <text x="15" y="230" font-family="system-ui, sans-serif" font-size="10" fill="#334155">4. Device operating properly at all times</text>
+    <text x="15" y="250" font-family="system-ui, sans-serif" font-size="10" fill="#334155">5. Signed by person in official custody</text>
+
+    <!-- Judicial Interpretation -->
+    <rect x="365" y="120" width="335" height="175" rx="8" fill="#ffffff" stroke="#8c2432" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="365" y="120" width="335" height="30" rx="8" fill="#8c2432"/>
+    <text x="532" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#ffffff">LANDMARK SUPREME COURT RULINGS</text>
+    <text x="380" y="170" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#8c2432">Anvar P.V. v. P.K. Basheer (2014):</text>
+    <text x="380" y="185" font-family="system-ui, sans-serif" font-size="9" fill="#334155">Certificate is a condition precedent for secondary electronic evidence.</text>
+    <text x="380" y="210" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#137d72">Arjun Panditrao Khotkar (2020) 3-Judge Bench:</text>
+    <text x="380" y="225" font-family="system-ui, sans-serif" font-size="9" fill="#334155">Certificate mandatory for secondary copy; if original device produced in court, no certificate needed.</text>
+    <text x="380" y="255" font-family="system-ui, sans-serif" font-size="9" fill="#64748b">BSA provides standard schedule form for certificate.</text>
+
+    <!-- Bottom note -->
+    <rect x="0" y="310" width="700" height="40" rx="6" fill="#142c46"/>
+    <text x="350" y="333" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dfbf80">Section 63(4) BSA schedule format codifies standard certificate requirements into statutory law.</text>
+  </g>
+
+  </g>
+</svg>

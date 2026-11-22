@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "mcq-evi-08-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 91 of the Indian Evidence Act (Evidence of terms of contracts, grants and other dispositions of property reduced to form of document)?",
+    "options": [
+      "Section 94 BSA",
+      "Section 91 BSA",
+      "Section 92 BSA",
+      "Section 89 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 94 BSA corresponds to Section 91 IEA, embodying the classic 'Best Evidence Rule' that where terms of a contract, grant or disposition are reduced to writing, no evidence shall be given in proof thereof except the document itself or secondary evidence.",
+    "optionBreakdown": {
+      "A": "Correct; Section 94 BSA corresponds to Section 91 IEA.",
+      "B": "Section 91 BSA relates to presumption as to electronic messages.",
+      "C": "Section 92 BSA is 20-year ancient documents.",
+      "D": "Section 89 BSA relates to telegraphic messages."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 94 / IEA S. 91",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 91 IEA to Section 94 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "What is the core mandate of the Best Evidence Rule under Section 94 BSA (Section 91 IEA)?",
+    "options": [
+      "No evidence shall be given in proof of the terms of a contract, grant, or disposition reduced to writing, except the document itself or admissible secondary evidence",
+      "Oral testimony of the parties overrides the written text in all civil disputes",
+      "Parties may verbally alter terms of registered deeds at their whim",
+      "Written contracts are only evidentiary suggestions that courts may ignore"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 94 BSA / Section 91 IEA enacts that when terms of a contract, grant or disposition of property have been reduced to the form of a document, no oral evidence can be given to prove the terms except the document itself or secondary evidence.",
+    "optionBreakdown": {
+      "A": "Correct; Best Evidence Rule: document itself or secondary evidence must be produced.",
+      "B": "Oral evidence cannot override.",
+      "C": "Cannot verbally alter.",
+      "D": "Written contracts are binding."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 94 / IEA S. 91",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "State the core mandate of the Best Evidence Rule.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "Does Section 94 BSA (Section 91 IEA) apply only to contracts required by law to be in writing, or also to contracts voluntarily reduced to writing by the parties?",
+    "options": [
+      "It applies BOTH to contracts voluntarily reduced to writing by parties AND to matters required by law to be in writing",
+      "It applies ONLY to matters required by law to be in writing",
+      "It applies ONLY to contracts voluntarily reduced to writing",
+      "It applies exclusively to government procurement contracts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 91 IEA / Section 94 BSA explicitly covers two situations: (1) terms of contracts, grants or other dispositions of property reduced to form of document; and (2) in all cases in which any matter is required by law to be reduced to writing.",
+    "optionBreakdown": {
+      "A": "Correct; covers both voluntary written contracts and matters required by law to be in writing.",
+      "B": "Not restricted to matters required by law.",
+      "C": "Not restricted to voluntary contracts.",
+      "D": "Not limited to government contracts."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 94 / IEA S. 91",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify both branches of Section 91 IEA / Section 94 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "Under Exception 1 to Section 94 BSA / Section 91 IEA, when a public officer is required by law to be appointed in writing:",
+    "options": [
+      "The writing by which he is appointed need not be proved if it is shown that he has acted as such officer",
+      "The original Presidential warrant of appointment must be produced in every criminal trial",
+      "The officer cannot testify unless his appointment letter is tattooed on his arm",
+      "The officer is presumed to be an impostor"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Exception 1 to Section 91 IEA / Section 94 BSA enacts: 'When a public officer is required by law to be appointed in writing, and it is shown that any particular person has acted as such officer, the writing by which he is appointed need not be proved.'",
+    "optionBreakdown": {
+      "A": "Correct; acting as public officer dispenses with proof of written appointment.",
+      "B": "Presidential warrant production not required.",
+      "C": "Absurd.",
+      "D": "No presumption of impostor."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 94 Ex. 1 / IEA S. 91 Ex. 1",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Exception 1 to Section 91 IEA regarding public officers acting in office.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "Under Exception 2 to Section 94 BSA / Section 91 IEA, WILLS admitted to probate in India may be proved by:",
+    "options": [
+      "The probate itself",
+      "The original handwritten draft of the testator",
+      "Oral recollection of the funeral attendees",
+      "Newspaper obituary notices"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Exception 2 to Section 91 IEA / Section 94 BSA provides: 'Wills admitted to probate in India may be proved by the probate.'",
+    "optionBreakdown": {
+      "A": "Correct; wills admitted to probate may be proved by the probate.",
+      "B": "Original draft not required when probate exists.",
+      "C": "Oral recollection excluded.",
+      "D": "Obituary notice excluded."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 94 Ex. 2 / IEA S. 91 Ex. 2",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Know that probated wills are proved by the probate itself.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "Under Explanation 3 to Section 94 BSA / Section 91 IEA, does the statement of a fact in a document (other than the terms of contract/grant) exclude oral evidence of that fact?",
+    "options": [
+      "No, the statement of any fact whatever (e.g., receipt of money in a written contract) does not preclude oral evidence of that fact",
+      "Yes, every single word written in any document bars oral evidence permanently",
+      "Oral evidence is excluded even to prove the date of signature",
+      "Receipt of money can never be proved orally under any circumstances"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Explanation 3 to Section 91 IEA / Section 94 BSA states: 'The statement, in any document whatever, of a fact other than the facts referred to in this section, shall not preclude the admission of oral evidence as to the same fact.' (e.g., oral proof of payment of money even if written receipt exists).",
+    "optionBreakdown": {
+      "A": "Correct; factual statements like payment of money can be proved orally notwithstanding a written receipt.",
+      "B": "Not every word bars oral evidence.",
+      "C": "Date can be proved.",
+      "D": "Payment can be proved orally."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 94 Expl. 3 / IEA S. 91 Expl. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand Explanation 3 regarding oral proof of facts mentioned in documents.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "A sells his horse to B for Rs. 50,000 and gives a written receipt saying: 'Received Rs. 50,000 from B for horse'. Can B prove by oral evidence that A also gave a verbal warranty of soundness of the horse?",
+    "options": [
+      "Yes, because the receipt was merely an acknowledgment of payment, not a complete reduction of the contract of sale to writing",
+      "No, the receipt bars any oral evidence of warranty under Section 91",
+      "No, warranties can only be created by Parliament",
+      "Only if the horse nods in agreement"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under illustration (e) to Section 91 IEA, where a person gives a simple receipt for money, oral evidence of a verbal warranty of soundness is admissible because the receipt was an informal receipt of cash, not an integrated document containing all terms of contract.",
+    "optionBreakdown": {
+      "A": "Correct; receipt is not an integrated contract document; verbal warranty is provable.",
+      "B": "Section 91 does not bar warranty proof here.",
+      "C": "Warranties are contractual.",
+      "D": "Absurd."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 94 / IEA S. 91 Illus (e)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Illustration (e) to Section 91 IEA on verbal warranties alongside receipts.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "If a contract of loan is reduced into a Promissory Note, but the note is INSUFFICIENTLY STAMPED and inadmissible under the Stamp Act, can the lender sue on the original consideration (debt)?",
+    "options": [
+      "Yes, if the cause of action for the debt is independent and complete before the execution of the promissory note",
+      "No, once an invalid promissory note is executed, the entire debt is extinguished forever",
+      "Yes, but only in criminal courts under Section 420 IPC",
+      "Only if the borrower agrees to pay double interest"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Settled law (Perumal Chettiar v. Kamakshi Ammal 1938 FB) establishes that where the loan and promissory note are part of the same transaction, but the debt exists independently, the creditor can fall back on the original consideration to recover the debt.",
+    "optionBreakdown": {
+      "A": "Correct; lender can sue on original loan consideration if independent of the invalid instrument.",
+      "B": "Debt is not automatically extinguished.",
+      "C": "Not confined to Section 420 IPC.",
+      "D": "Double interest is irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 94 / IEA S. 91",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Resolve recovery on original debt consideration when negotiable instrument is unstamped.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "Does Section 94 BSA (Section 91 IEA) apply to THIRD PARTIES who are strangers to the document?",
+    "options": [
+      "No, under Section 99 IEA / Section 102 BSA, persons who are not parties to a document may give evidence of any facts tending to show a contemporaneous agreement varying terms",
+      "Yes, Section 91 binds third-party strangers with equal force as the contracting parties",
+      "Third parties cannot give any evidence in any court",
+      "Third parties are bound if they read the document"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 99 IEA / Section 102 BSA expressly provides that persons who are not parties to a document, nor their representatives in interest, may give evidence of any facts tending to show a contemporaneous agreement varying the terms of the document.",
+    "optionBreakdown": {
+      "A": "Correct; strangers are not bound by Section 91/92 and can lead varying evidence under S. 99 IEA / S. 102 BSA.",
+      "B": "Section 91/92 does not bind strangers.",
+      "C": "Strangers can give evidence.",
+      "D": "Reading does not bind strangers."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 102 / IEA S. 99",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Contrast application of Section 91 between parties and third-party strangers.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-01",
+    "question": "What is the relationship between Section 91 and Section 92 of the Indian Evidence Act (Section 94 and 95 BSA)?",
+    "options": [
+      "Section 91 deals with the MODE OF PROOF of document terms, while Section 92 deals with the EXCLUSION OF EVIDENCE TO VARY OR CONTRADICT those terms",
+      "Section 91 applies only to criminal cases, Section 92 only to civil cases",
+      "Section 92 repeals Section 91 entirely",
+      "Both sections are identical with no legal distinction"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "As held in Bai Hira Devi v. Official Assignee of Bombay (AIR 1958 SC 448), Section 91 lays down what type of evidence can prove the terms of a document; Section 92 steps in after the document is proved, excluding oral evidence to contradict, vary, add to or subtract from its terms.",
+    "optionBreakdown": {
+      "A": "Correct; S. 91 prescribes mode of proof; S. 92 excludes oral evidence to contradict/vary terms.",
+      "B": "Both apply to civil and criminal appropriately.",
+      "C": "Neither repeals the other.",
+      "D": "They serve distinct successive functions."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 94, 95 / IEA S. 91, 92",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish the analytical spheres of Section 91 and Section 92 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 92 of the Indian Evidence Act (Exclusion of evidence of oral agreement)?",
+    "options": [
+      "Section 95 BSA",
+      "Section 92 BSA",
+      "Section 90 BSA",
+      "Section 98 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 95 BSA corresponds directly to Section 92 IEA, barring oral evidence to contradict, vary, add to, or subtract from terms of a document proved under Section 94 BSA / Section 91 IEA.",
+    "optionBreakdown": {
+      "A": "Correct; Section 95 BSA corresponds to Section 92 IEA.",
+      "B": "Section 92 BSA is ancient documents presumption.",
+      "C": "Section 90 BSA is electronic documents.",
+      "D": "Section 98 BSA is patent ambiguity."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 95 / IEA S. 92",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 92 IEA to Section 95 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "How many statutory PROVISOS are enacted in Section 95 BSA / Section 92 IEA creating exceptions to the exclusion of oral evidence?",
+    "options": [
+      "SIX (6) Provisos",
+      "TWO (2) Provisos",
+      "FOUR (4) Provisos",
+      "TEN (10) Provisos"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 92 IEA / Section 95 BSA contains exactly SIX (6) provisos permitting oral evidence in specified situations (fraud/invalidity, separate oral agreement, condition precedent, subsequent modification, usage/custom, surrounding circumstances).",
+    "optionBreakdown": {
+      "A": "Correct; exactly 6 statutory provisos.",
+      "B": "Not 2.",
+      "C": "Not 4.",
+      "D": "Not 10."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 95 / IEA S. 92",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the number of statutory provisos under Section 92 IEA / Section 95 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "Under PROVISO 1 to Section 95 BSA / Section 92 IEA, which of the following facts MAY be proved by oral evidence to invalidate a document?",
+    "options": [
+      "Fraud, intimidation, illegality, want of due execution, incapacity of party, or mistake in fact or law",
+      "That the document was signed on a Monday",
+      "That the ink used was black instead of blue",
+      "That one of the parties disliked the other party's car"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Proviso 1 to Section 92 IEA / Section 95 BSA allows oral evidence of any fact which would invalidate any document, such as fraud, intimidation, illegality, want of due execution, want of capacity, failure of consideration, or mistake in fact or law.",
+    "optionBreakdown": {
+      "A": "Correct; fraud, intimidation, illegality, incapacity, mistake invalidate the document.",
+      "B": "Day of signing does not invalidate.",
+      "C": "Ink color is irrelevant.",
+      "D": "Car preference is irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 95 Prov. 1 / IEA S. 92 Prov. 1",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify vitiating grounds covered by Proviso 1 of Section 92 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "Under PROVISO 2 to Section 95 BSA / Section 92 IEA, the existence of any separate oral agreement may be proved as to any matter:",
+    "options": [
+      "On which a document is silent, and which is not inconsistent with its terms",
+      "Which directly contradicts the fundamental purchase price in a deed",
+      "Which adds a totally contradictory covenant to a registered lease",
+      "Whenever the oral agreement was made over a telephone call"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Proviso 2 to Section 92 IEA / Section 95 BSA permits oral evidence of a separate oral agreement as to any matter on which the document is silent, provided it is NOT inconsistent with its terms.",
+    "optionBreakdown": {
+      "A": "Correct; document is silent and oral agreement is NOT inconsistent with its terms.",
+      "B": "Cannot contradict purchase price.",
+      "C": "Cannot add contradictory covenant.",
+      "D": "Telephone medium is irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 95 Prov. 2 / IEA S. 92 Prov. 2",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master conditions under Proviso 2 of Section 92 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "Under PROVISO 3 to Section 95 BSA / Section 92 IEA, oral evidence is admissible to prove:",
+    "options": [
+      "The existence of any separate oral agreement constituting a CONDITION PRECEDENT to the attaching of any obligation under the contract",
+      "That the contract was meant to be purely fictional",
+      "That the parties intended to bribe a public servant",
+      "That the parties had agreed to violate the Constitution"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Proviso 3 to Section 92 IEA / Section 95 BSA allows proof of any separate oral agreement constituting a condition precedent to the attaching of any obligation under the document (e.g., escrow, agreement not to take effect until approval by third party).",
+    "optionBreakdown": {
+      "A": "Correct; condition precedent to the attaching of obligation under contract.",
+      "B": "Pure fiction is not Proviso 3.",
+      "C": "Bribery is illegal under Proviso 1.",
+      "D": "Constitutional violation is illegal."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 95 Prov. 3 / IEA S. 92 Prov. 3",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand doctrine of condition precedent under Proviso 3 of Section 92 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "Under PROVISO 4 to Section 95 BSA / Section 92 IEA, can oral evidence be given of a subsequent oral agreement to rescind or modify a contract required by law to be in writing or registered?",
+    "options": [
+      "No, if the contract is required by law to be in writing or has been registered, oral evidence of subsequent modification or rescission is STRICTLY BARRED",
+      "Yes, any registered mortgage can be orally cancelled at any time",
+      "Yes, registration has no effect on subsequent oral variations",
+      "Only if the parties pay a modification fee to the court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Proviso 4 to Section 92 IEA / Section 95 BSA explicitly carves out an exception: a subsequent oral agreement to rescind or modify CANNOT be proved if such contract, grant or disposition is by law required to be in writing, or has been registered.",
+    "optionBreakdown": {
+      "A": "Correct; barred if contract is required by law to be in writing or is registered.",
+      "B": "Registered mortgage cannot be orally cancelled.",
+      "C": "Registration creates a statutory bar to oral variation.",
+      "D": "Fee is irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 95 Prov. 4 / IEA S. 92 Prov. 4",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze statutory restriction on oral modification of registered contracts under Proviso 4.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "Under PROVISO 5 to Section 95 BSA / Section 92 IEA, oral evidence of USAGE or CUSTOM may be given:",
+    "options": [
+      "By which incidents not expressly mentioned in any contract are usually annexed to contracts of that description, unless repugnant to express terms",
+      "To override express clauses negotiated by corporate lawyers",
+      "To introduce illegal narcotics customs into shipping agreements",
+      "Only in ancient maritime pirate treaties"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Proviso 5 allows proof of any usage or custom by which incidents not expressly mentioned are annexed to contracts, provided that the annexing of such incident would NOT be repugnant to or inconsistent with the express terms.",
+    "optionBreakdown": {
+      "A": "Correct; custom/usage annexed provided not repugnant to express terms.",
+      "B": "Cannot override express terms.",
+      "C": "Illegal customs are void.",
+      "D": "Not limited to piracy."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 95 Prov. 5 / IEA S. 92 Prov. 5",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall usage and custom exception under Proviso 5.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "Under PROVISO 6 to Section 95 BSA / Section 92 IEA, what facts may be proved to interpret a document?",
+    "options": [
+      "Any fact may be proved which shows in what manner the language of a document is related to existing facts (surrounding circumstances)",
+      "Oral testimony of the draftsman stating what secret intention he had in mind",
+      "A psychic medium's interpretation of the deceased's soul",
+      "The political party manifestos of the parties"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Proviso 6 to Section 92 IEA / Section 95 BSA permits evidence of surrounding circumstances: 'Any fact may be proved which shows in what manner the language of a document is related to existing facts.'",
+    "optionBreakdown": {
+      "A": "Correct; facts showing how document language relates to existing facts (surrounding circumstances).",
+      "B": "Direct subjective intention cannot override plain words.",
+      "C": "Psychic mediums are absurd.",
+      "D": "Political manifestos irrelevant."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 95 Prov. 6 / IEA S. 92 Prov. 6",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand surrounding circumstances rule under Proviso 6 of Section 92 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "What is the distinction between 'PATENT AMBIGUITY' (Section 93 IEA / Section 96 BSA) and 'LATENT AMBIGUITY' (Sections 95-97 IEA / Sections 98-100 BSA)?",
+    "options": [
+      "Patent ambiguity is obvious on the face of the document and CANNOT be cured by oral evidence; latent ambiguity is hidden and discovered only upon application to facts, and CAN be cured by oral evidence",
+      "Patent ambiguity can always be cured by oral evidence; latent ambiguity can never be cured",
+      "Both patent and latent ambiguities are cured by coin toss",
+      "Neither patent nor latent ambiguity can ever be admitted in court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 93 IEA / Section 96 BSA: where language is on its face ambiguous or defective (patent ambiguity), oral evidence cannot be given to show its meaning. Latent ambiguity (plain on face, but ambiguous in application to facts) can be cleared by oral evidence under Ss. 95-97 IEA / Ss. 98-100 BSA.",
+    "optionBreakdown": {
+      "A": "Correct; patent ambiguity cannot be cured by oral evidence; latent ambiguity can be cured.",
+      "B": "Reverses the rule.",
+      "C": "Coin toss is absurd.",
+      "D": "Latent ambiguity is provable by oral evidence."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 96-100 / IEA S. 93-97",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish patent ambiguity from latent ambiguity and their admissibility rules.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-08-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-08",
+    "topicId": "top-evi-08-02",
+    "question": "A agrees, in writing, to sell to B 'my white horse for rupees one thousand or one thousand five hundred'. Can oral evidence be given to show which price was to be given under Section 93 IEA / Section 96 BSA?",
+    "options": [
+      "No, evidence cannot be given to show which price was to be given because it is a Patent Ambiguity on the face of the document",
+      "Yes, oral evidence is freely admissible to pick the lower price",
+      "Yes, the court splits the difference and fixes Rs. 1,250",
+      "The horse is forfeited to the State Government"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Illustration (a) to Section 93 IEA / Section 96 BSA, where the document itself specifies alternative prices on its face, evidence cannot be given to show which price was intended; the agreement is void for patent ambiguity / uncertainty.",
+    "optionBreakdown": {
+      "A": "Correct; patent ambiguity on face of deed; oral evidence barred under S. 93 IEA / S. 96 BSA.",
+      "B": "Oral evidence is excluded.",
+      "C": "Court cannot rewrite contract.",
+      "D": "No forfeiture to State."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 96 / IEA S. 93 Illus (a)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Illustration (a) of Section 93 IEA to patent price ambiguity.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 defines the primary BURDEN OF PROOF (corresponding to Section 101 of the Indian Evidence Act)?",
+    "options": [
+      "Section 104 BSA",
+      "Section 101 BSA",
+      "Section 107 BSA",
+      "Section 102 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 104 BSA corresponds to Section 101 IEA: 'Whoever desires any Court to give judgment as to any legal right or liability dependent on the existence of facts which he asserts, must prove that those facts exist.'",
+    "optionBreakdown": {
+      "A": "Correct; Section 104 BSA corresponds to Section 101 IEA.",
+      "B": "Section 101 BSA relates to deciphering illegible characters.",
+      "C": "Section 107 BSA is burden of proving exception.",
+      "D": "Section 102 BSA is rights of third parties."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 104 / IEA S. 101",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 101 IEA to Section 104 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "What is the classical distinction between 'BURDEN OF PROOF' (Section 101 IEA / Section 104 BSA) and 'ONUS OF PROOF' (Section 102 IEA / Section 105 BSA)?",
+    "options": [
+      "The burden of proof on pleadings never shifts and remains static; the onus of proof shifts from party to party as evidence is adduced",
+      "Burden of proof shifts constantly, while onus of proof never moves",
+      "Both burden and onus mean identical things and never shift",
+      "Onus applies only in family courts, burden only in commercial courts"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Raghavamma v. Chenchamma (AIR 1964 SC 136), the Supreme Court laid down that there is an essential distinction: the burden of proof as a matter of law (pleadings) never shifts; but the onus of proof as a matter of adducing evidence shifts constantly.",
+    "optionBreakdown": {
+      "A": "Correct; legal burden on pleadings never shifts; evidential onus shifts dynamically.",
+      "B": "Reverses the classic legal positions.",
+      "C": "They are fundamentally distinct.",
+      "D": "Not forum-specific."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 104, 105 / IEA S. 101, 102",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish legal burden of proof from evidential onus under Raghavamma.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "What is the statutory test under Section 105 BSA (Section 102 IEA) to determine on whom the burden of proof lies?",
+    "options": [
+      "The burden of proof lies on that person who would fail if no evidence at all were given on either side",
+      "The burden lies on the plaintiff in all cases without exception",
+      "The burden lies on the person who has the higher annual income",
+      "The burden lies on the person who speaks first in court"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 105 BSA / Section 102 IEA enacts: 'The burden of proof in a suit or proceeding lies on that person who would fail if no evidence at all were given on either side.'",
+    "optionBreakdown": {
+      "A": "Correct; lies on the party who would fail if no evidence were given on either side.",
+      "B": "Not always on plaintiff if defendant admits execution.",
+      "C": "Income is irrelevant.",
+      "D": "Speaking order is irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 105 / IEA S. 102",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the statutory test of Section 102 IEA / Section 105 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "Under Section 108 BSA (Section 105 IEA), when an accused claims the benefit of a GENERAL EXCEPTION in the Indian Penal Code (or BNS), who bears the burden of proving it?",
+    "options": [
+      "The burden of proving the existence of circumstances bringing the case within the exception lies on the ACCUSED, and the Court shall presume the absence of such circumstances",
+      "The prosecution must prove beyond doubt that the accused was completely sane and had no right of private defense",
+      "The police station house officer bears the burden",
+      "The doctor who conducted the post-mortem bears the burden"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 108 BSA / Section 105 IEA explicitly places the burden of proving any general or special exception (insanity, private defense, accident) on the ACCUSED, and the Court SHALL PRESUME the absence of such circumstances.",
+    "optionBreakdown": {
+      "A": "Correct; burden lies on the accused to prove exception, and court presumes absence of circumstances.",
+      "B": "Prosecution does not bear initial burden to disprove exceptions.",
+      "C": "SHO does not bear burden.",
+      "D": "Doctor does not bear burden."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 108 / IEA S. 105",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master burden of proving exceptions under Section 105 IEA / Section 108 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "What is the STANDARD OF PROOF required of an accused when discharging the burden of proving an exception under Section 105 IEA / Section 108 BSA?",
+    "options": [
+      "Preponderance of probabilities (the civil standard), NOT proof beyond reasonable doubt",
+      "Proof beyond all reasonable doubt, identical to the prosecution's burden",
+      "Proof beyond a shadow of doubt attested by two forensic scientists",
+      "An unsworn oral denial is sufficient without more"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In K.M. Nanavati v. State of Maharashtra (AIR 1962 SC 605) and Vijayee Singh v. State of UP (1990), the Supreme Court settled that the accused is not required to prove an exception beyond reasonable doubt; discharge on the preponderance of probabilities is sufficient.",
+    "optionBreakdown": {
+      "A": "Correct; accused discharges burden on preponderance of probabilities.",
+      "B": "Accused is not subject to beyond reasonable doubt standard.",
+      "C": "Shadow of doubt is not a recognized legal standard.",
+      "D": "Mere denial without probability is insufficient."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 108 / IEA S. 105",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall standard of proof for accused under Nanavati and Vijayee Singh.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 embodies the doctrine of SPECIAL KNOWLEDGE (corresponding to Section 106 of the Indian Evidence Act)?",
+    "options": [
+      "Section 109 BSA",
+      "Section 106 BSA",
+      "Section 103 BSA",
+      "Section 114 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 109 BSA corresponds directly to Section 106 IEA: 'When any fact is especially within the knowledge of any person, the burden of proving that fact is upon him.'",
+    "optionBreakdown": {
+      "A": "Correct; Section 109 BSA corresponds to Section 106 IEA.",
+      "B": "Section 106 BSA is burden of proving fact to make evidence admissible.",
+      "C": "Section 103 BSA is other matters.",
+      "D": "Section 114 BSA is court presumptions."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 109 / IEA S. 106",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 106 IEA to Section 109 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "In Shambhu Nath Mehra v. State of Ajmer (AIR 1956 SC 404), what did the Supreme Court lay down regarding the true scope of Section 106 IEA / Section 109 BSA?",
+    "options": [
+      "Section 106 cannot be used to shift the prosecution's foundational burden of establishing the crime beyond reasonable doubt; it applies only when facts are especially within the knowledge of the accused",
+      "Section 106 relieves the prosecution of proving anything whenever a crime occurs inside a house",
+      "Section 106 applies only to railway passengers traveling without tickets",
+      "Section 106 renders the presumption of innocence unconstitutional"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Shambhu Nath Mehra, Vivian Bose J. held that Section 106 does not relieve the prosecution of its primary burden to prove guilt beyond reasonable doubt; it is designed to meet exceptional situations where it is impossible for prosecution to establish facts especially within the accused's knowledge.",
+    "optionBreakdown": {
+      "A": "Correct; cannot substitute for prosecution's primary burden under Shambhu Nath Mehra.",
+      "B": "Does not relieve prosecution wholesale.",
+      "C": "Ticketless travel is merely an illustration.",
+      "D": "Presumption of innocence remains intact."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 109 / IEA S. 106",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Vivian Bose J.'s landmark ruling on Section 106 in Shambhu Nath Mehra.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "A is charged with traveling on a railway without a ticket. On whom does the burden of proving that A had a ticket lie under Section 106 IEA / Section 109 BSA?",
+    "options": [
+      "On A, because whether A had a ticket is a fact especially within A's knowledge",
+      "On the railway ticket collector to prove that no ticket was printed anywhere in India",
+      "On the Minister of Railways",
+      "On the locomotive engine driver"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Illustration (b) to Section 106 IEA / Section 109 BSA: 'A is charged with traveling on a railway without a ticket. The burden of proving that he had a ticket is on him.'",
+    "optionBreakdown": {
+      "A": "Correct; burden is on A under Section 106 Illustration (b).",
+      "B": "Ticket collector does not prove negative non-printing.",
+      "C": "Railway Minister is irrelevant.",
+      "D": "Engine driver is irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 109 Illus (b) / IEA S. 106 Illus (b)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Illustration (b) to Section 106 IEA on ticketless travel.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "Where a husband and wife were alone in a room behind closed doors at night, and the wife is found murdered the next morning, what role does Section 106 IEA / Section 109 BSA play?",
+    "options": [
+      "Once the prosecution proves the deceased was last seen alive alone in the exclusive custody of the husband, the burden shifts to the husband under Section 106 to offer a plausible explanation of how she died",
+      "The husband is automatically hanged without trial under Section 106",
+      "The burden of proof remains exclusively on the parents of the wife",
+      "The court must presume suicide without any evidence"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Trimukh Maroti Kirkan v. State of Maharashtra (2006 10 SCC 681), the Supreme Court held that once the prosecution establishes the foundational fact of exclusive custody inside a house, Section 106 requires the husband to offer a plausible explanation; failure to do so forms a strong missing link.",
+    "optionBreakdown": {
+      "A": "Correct; husband must offer explanation of what transpired in exclusive privacy under S. 106.",
+      "B": "Automatic hanging is illegal.",
+      "C": "Parents do not bear burden.",
+      "D": "No presumption of suicide."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 109 / IEA S. 106",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Apply Section 106 to custodial spousal deaths inside the home under Trimukh Maroti.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-01",
+    "question": "Under Section 106 BSA (Section 103 IEA), the burden of proof as to any particular fact lies on that person who wishes the Court to believe in its existence:",
+    "options": [
+      "Unless it is provided by any law that the proof of that fact shall lie on any particular person",
+      "Unless the person is represented by a senior advocate",
+      "Only if the claim exceeds Rs. 1 lakh",
+      "Only when the witness testifies in writing"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 106 BSA / Section 103 IEA provides: 'The burden of proof as to any particular fact lies on that person who wishes the Court to believe in its existence, unless it is provided by any law that the proof of that fact shall lie on any particular person.'",
+    "optionBreakdown": {
+      "A": "Correct; lies on person wishing court to believe, unless law places it on someone else.",
+      "B": "Advocate status does not alter burden.",
+      "C": "No pecuniary threshold.",
+      "D": "Form of testimony does not alter rule."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 106 / IEA S. 103",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall general rule of proving particular facts under Section 103 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "Under Section 111 BSA (Section 108 IEA), when is a person PRESUMED DEAD by the Court?",
+    "options": [
+      "When it is proved that he has not been heard of for SEVEN (7) YEARS by those who would naturally have heard of him",
+      "When he has not updated his social media status for 30 days",
+      "When he has been missing for 3 years",
+      "When his employer stops paying his pension for 12 months"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 108 IEA / Section 111 BSA provides that when a person has not been heard of for SEVEN YEARS by those who would naturally have heard of him if alive, the burden of proving that he is alive is shifted to the person asserting it (presumption of death).",
+    "optionBreakdown": {
+      "A": "Correct; not heard of for seven (7) years by those naturally hearing.",
+      "B": "Social media is irrelevant.",
+      "C": "3 years is insufficient.",
+      "D": "Pension stoppage does not create presumption."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 111 / IEA S. 108",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the seven-year presumption of death under Section 108 IEA / Section 111 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "Under settled law (Lic of India v. Anuradha 2004), does the presumption under Section 108 IEA extend to the EXACT DATE OR TIME of death?",
+    "options": [
+      "No, the presumption is ONLY that the person is dead at the date of the suit/trial; there is NO presumption as to the exact date or time of death during the seven years",
+      "Yes, the law presumes the person died on the very first day of disappearance",
+      "Yes, the law presumes death occurred at midnight on the last day of the 7th year",
+      "The court must determine the exact second using astrology"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In LIC of India v. Anuradha (2004 10 SCC 131), the Supreme Court affirmed that Section 108 raises a presumption only of the fact of death; it extends no presumption as to the exact time or date of death, which must be proved by specific evidence if material.",
+    "optionBreakdown": {
+      "A": "Correct; presumption is of the fact of death, not of the exact date or time.",
+      "B": "No presumption of death on first day.",
+      "C": "No presumption of death on last day.",
+      "D": "Astrology is excluded."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 111 / IEA S. 108",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand limits of presumption of death under Anuradha.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 deals with the CONCLUSIVE PRESUMPTION OF LEGITIMACY (corresponding to Section 112 of the Indian Evidence Act)?",
+    "options": [
+      "Section 116 BSA",
+      "Section 112 BSA",
+      "Section 118 BSA",
+      "Section 120 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 116 BSA corresponds to Section 112 IEA, enacting that birth during valid marriage (or within 280 days after dissolution, mother remaining unmarried) is conclusive proof of legitimacy.",
+    "optionBreakdown": {
+      "A": "Correct; Section 116 BSA corresponds to Section 112 IEA.",
+      "B": "Section 112 BSA is presumption of life.",
+      "C": "Section 118 BSA is dowry death.",
+      "D": "Section 120 BSA is other presumptions."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 116 / IEA S. 112",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 112 IEA to Section 116 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "What is the ONLY STATUTORY GROUND on which the conclusive presumption of legitimacy under Section 112 IEA / Section 116 BSA can be rebutted?",
+    "options": [
+      "By showing that the parties to the marriage had NO ACCESS to each other at any time when the child could have been begotten",
+      "By showing that the child resembles a neighbouring shopkeeper",
+      "By showing that the husband was unhappy with his wife's cooking",
+      "By producing an affidavit of the village headman"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 112 IEA / Section 116 BSA permits rebuttal on one single statutory ground: 'unless it can be shown that the parties to the marriage had no access to each other at any time when he could have been begotten.'",
+    "optionBreakdown": {
+      "A": "Correct; non-access between husband and wife at time of conception is the only statutory rebuttal.",
+      "B": "Physical resemblance is not statutory rebuttal.",
+      "C": "Cooking is irrelevant.",
+      "D": "Village headman affidavit cannot rebut conclusive proof."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 116 / IEA S. 112",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify non-access as the sole statutory ground to rebut Section 112 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "In Nandlal Wasudeo Badwaik v. Lata Nandlal Badwaik (2014), what did the Supreme Court hold regarding the conflict between Section 112 IEA presumption and scientific DNA test results?",
+    "options": [
+      "Scientific DNA test results establishing non-paternity prevail over the statutory legal presumption under Section 112 IEA",
+      "The legal presumption under Section 112 overrides 100% accurate scientific DNA evidence",
+      "DNA testing is strictly banned in all matrimonial disputes",
+      "The child must decide whether to accept the DNA report or Section 112"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Nandlal Wasudeo Badwaik (2014 2 SCC 576), the Supreme Court held that when there is a conflict between a legal fiction (Section 112) and scientific proof of non-paternity (DNA test), truth must prevail and DNA test results rule out paternity.",
+    "optionBreakdown": {
+      "A": "Correct; conclusive scientific DNA evidence of non-paternity prevails over legal presumption.",
+      "B": "Legal fiction does not override scientific truth under Nandlal.",
+      "C": "DNA testing is permitted with judicial caution.",
+      "D": "Child choice is irrelevant."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 116 / IEA S. 112",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze Nandlal Wasudeo Badwaik on DNA evidence vs Section 112 legitimacy presumption.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "What is the statutory time period under Section 112 IEA / Section 116 BSA for a child born AFTER DISSOLUTION of marriage to be conclusively legitimate?",
+    "options": [
+      "TWO HUNDRED AND EIGHTY (280) DAYS after dissolution, mother remaining unmarried",
+      "ONE HUNDRED AND EIGHTY (180) DAYS",
+      "THREE HUNDRED AND SIXTY-FIVE (365) DAYS",
+      "NINETY (90) DAYS"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 112 IEA / Section 116 BSA specifically provides: 'within two hundred and eighty days after its dissolution, the mother remaining unmarried, shall be conclusive proof that he is the legitimate son of that man.'",
+    "optionBreakdown": {
+      "A": "Correct; 280 days after dissolution, mother remaining unmarried.",
+      "B": "Not 180 days.",
+      "C": "Not 365 days.",
+      "D": "Not 90 days."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 116 / IEA S. 112",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the statutory period of 280 days for legitimacy.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 deals with the PRESUMPTION AS TO DOWRY DEATH (corresponding to Section 113B of the Indian Evidence Act)?",
+    "options": [
+      "Section 118 BSA",
+      "Section 113B BSA",
+      "Section 117 BSA",
+      "Section 115 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 118 BSA corresponds to Section 113B IEA, providing that when a woman has died of dowry death and it is shown that soon before her death she was subjected to cruelty/harassment for dowry, the Court SHALL PRESUME that such person caused the dowry death.",
+    "optionBreakdown": {
+      "A": "Correct; Section 118 BSA corresponds to Section 113B IEA.",
+      "B": "No Section 113B in BSA.",
+      "C": "Section 117 BSA is court presumptions (S. 114 IEA).",
+      "D": "Section 115 BSA is another provision."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 118 / IEA S. 113B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 113B IEA to Section 118 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "What type of presumption is created under Section 118 BSA / Section 113B IEA (Presumption as to Dowry Death)?",
+    "options": [
+      "A mandatory presumption of law ('the Court SHALL PRESUME')",
+      "A discretionary presumption of fact ('the Court MAY PRESUME')",
+      "Conclusive proof which cannot be rebutted",
+      "No presumption whatsoever"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 113B IEA / Section 118 BSA uses the mandatory formulation 'the Court SHALL PRESUME that such person had caused the dowry death', once the foundational ingredients (death within 7 years, cruelty soon before death for dowry) are established by prosecution.",
+    "optionBreakdown": {
+      "A": "Correct; mandatory presumption ('shall presume').",
+      "B": "Section 113A (suicide) is 'may presume'; Section 113B is 'shall presume'.",
+      "C": "It is rebuttable, not conclusive proof.",
+      "D": "Presumption exists."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 118 / IEA S. 113B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish 'shall presume' under Section 113B / S. 118 BSA from 'may presume' under Section 113A.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "In Satman Singh v. State of Punjab (2001), what was held regarding the phrase 'SOON BEFORE HER DEATH' in Section 304B IPC and Section 113B IEA?",
+    "options": [
+      "It implies a proximate and live link between the effect of cruelty based on dowry demand and the death; no rigid mathematical formula can be laid down",
+      "It strictly means within exactly 24 hours before death",
+      "It means within 10 minutes of death",
+      "It means within 5 years before death"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Satman Singh v. State of Punjab (2001 8 SCC 633) and Kunhiabdulla v. State of Kerala (2004), the Supreme Court held that 'soon before' is a relative term indicating a proximate and live link between cruelty and death, not measurable by days or hours.",
+    "optionBreakdown": {
+      "A": "Correct; proximate and live link between cruelty and death, not a rigid mathematical formula.",
+      "B": "Not restricted to 24 hours.",
+      "C": "Not 10 minutes.",
+      "D": "5 years lacks proximate link without intervening continuity."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 118 / IEA S. 113B",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define 'soon before death' under Satman Singh.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-02",
+    "question": "Under Section 117 BSA / Section 113A IEA (Presumption as to abetment of suicide by a married woman), what are the foundational statutory conditions?",
+    "options": [
+      "Woman committed suicide within SEVEN (7) YEARS of marriage, and her husband or relative subjected her to cruelty",
+      "Suicide within 15 years of marriage",
+      "Suicide within 1 year of marriage without any cruelty",
+      "Woman left a registered suicide video naming the President of India"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 113A IEA / Section 117 BSA provides that when a woman commits suicide within a period of seven years from the date of marriage and was subjected to cruelty by her husband/relatives, the Court MAY PRESUME abetment.",
+    "optionBreakdown": {
+      "A": "Correct; suicide within 7 years of marriage and cruelty established.",
+      "B": "Not 15 years.",
+      "C": "Cruelty is a mandatory ingredient.",
+      "D": "Video naming President is absurd."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 117 / IEA S. 113A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall conditions for Section 113A IEA / Section 117 BSA suicide presumption.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-021",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 corresponds to Section 114 of the Indian Evidence Act (Court may presume existence of certain facts)?",
+    "options": [
+      "Section 119 BSA",
+      "Section 114 BSA",
+      "Section 117 BSA",
+      "Section 122 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 119 BSA corresponds to Section 114 IEA, empowering the Court to presume the existence of any fact which it thinks likely to have happened, regard being had to the common course of natural events, human conduct and public/private business.",
+    "optionBreakdown": {
+      "A": "Correct; Section 119 BSA corresponds to Section 114 IEA.",
+      "B": "Section 114 BSA is another provision.",
+      "C": "Section 117 BSA is suicide presumption.",
+      "D": "Section 122 BSA is accomplice."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 119 / IEA S. 114",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 114 IEA to Section 119 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-022",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Under Illustration (a) to Section 114 IEA / Section 119 BSA, what may the Court presume regarding a person found in possession of STOLEN GOODS soon after the theft?",
+    "options": [
+      "That he is either the thief or has received the goods knowing them to be stolen, unless he can account for his possession",
+      "That he is the owner of the goods under Article 300A",
+      "That the goods were delivered by the postal department as a gift",
+      "That he is immune from criminal prosecution"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 114 Illustration (a) IEA / Section 119 BSA provides that a man who is in possession of stolen goods soon after the theft is either the thief or has received them knowing them to be stolen, unless he can account for his possession.",
+    "optionBreakdown": {
+      "A": "Correct; presumed either thief or receiver knowing them to be stolen.",
+      "B": "Not owner under Art. 300A.",
+      "C": "Not postal gift.",
+      "D": "Not immune."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 119 Illus (a) / IEA S. 114 Illus (a)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the stolen goods presumption under Section 114 Illustration (a).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-023",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Under Illustration (b) to Section 114 IEA / Section 119 BSA, what is the celebrated presumption regarding an ACCOMPLICE?",
+    "options": [
+      "That an accomplice is unworthy of credit, unless he is corroborated in material particulars",
+      "That an accomplice is the most trustworthy witness in the case",
+      "That an accomplice cannot be examined as a witness under any circumstances",
+      "That an accomplice's uncorroborated statement is conclusive proof of guilt"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 114 Illustration (b) enacts the rule of prudence: 'That an accomplice is unworthy of credit, unless he is corroborated in material particulars.' (Read alongside Section 133 IEA / Section 138 BSA).",
+    "optionBreakdown": {
+      "A": "Correct; accomplice is unworthy of credit unless corroborated in material particulars.",
+      "B": "Not inherently trustworthy.",
+      "C": "Accomplice is a competent witness under S. 133.",
+      "D": "Not conclusive proof."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 119 Illus (b) / IEA S. 114 Illus (b)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand the rule of prudence regarding accomplice testimony in Section 114 Illus (b).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-024",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Under Illustration (e) to Section 114 IEA / Section 119 BSA, what does the Court presume regarding OFFICIAL ACTS?",
+    "options": [
+      "That judicial and official acts have been REGULARLY PERFORMED (Omnia praesumuntur rite esse acta)",
+      "That all official acts are tainted by bureaucratic corruption",
+      "That judges never read the case files",
+      "That government orders must be countersigned by the police"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 114 Illustration (e) encapsulates the maxim 'omnia praesumuntur rite esse acta': that judicial and official acts have been regularly performed.",
+    "optionBreakdown": {
+      "A": "Correct; judicial and official acts are presumed regularly performed.",
+      "B": "No presumption of corruption.",
+      "C": "No presumption of unread files.",
+      "D": "Countersignature not presumed."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 119 Illus (e) / IEA S. 114 Illus (e)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify the maxim omnia praesumuntur rite esse acta under Section 114 Illus (e).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-025",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Under Illustration (g) to Section 114 IEA / Section 119 BSA, what adverse inference may the Court draw regarding EVIDENCE WITHHELD?",
+    "options": [
+      "That evidence which could be and is not produced would, if produced, be UNFAVOURABLE to the person who withholds it",
+      "That the evidence withheld was written in gold ink",
+      "That the person withholding evidence was too modest to brag",
+      "That the withheld evidence is deemed admitted in full"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 114 Illustration (g) provides that the Court may presume 'that evidence which could be and is not produced would, if produced, be unfavourable to the person who withholds it' (adverse inference).",
+    "optionBreakdown": {
+      "A": "Correct; adverse inference that withheld evidence would be unfavourable if produced.",
+      "B": "Gold ink is absurd.",
+      "C": "Modesty is irrelevant.",
+      "D": "Not automatically deemed admitted in full."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 119 Illus (g) / IEA S. 114 Illus (g)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the doctrine of adverse inference under Section 114 Illustration (g).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-026",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Under Illustration (c) to Section 114 IEA / Section 119 BSA, what does the Court presume regarding a BILL OF EXCHANGE?",
+    "options": [
+      "That a bill of exchange, accepted or endorsed, was accepted or endorsed for GOOD CONSIDERATION",
+      "That all bills of exchange are void wagering contracts",
+      "That the acceptor is a money lender without a license",
+      "That the drawer committed forgery"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 114 Illustration (c) provides: 'That a bill of exchange, accepted or endorsed, was accepted or endorsed for good consideration.' (Paralleled in Section 118 Negotiable Instruments Act).",
+    "optionBreakdown": {
+      "A": "Correct; presumed accepted/endorsed for good consideration.",
+      "B": "Not wagering contracts.",
+      "C": "Not unlicensed money lender.",
+      "D": "No presumption of forgery."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 119 Illus (c) / IEA S. 114 Illus (c)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall presumption of consideration for bills of exchange under Section 114 Illus (c).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-027",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 deals with the MANDATORY PRESUMPTION AS TO ABSENCE OF CONSENT in certain prosecutions for rape (corresponding to Section 114A of the Indian Evidence Act)?",
+    "options": [
+      "Section 120 BSA",
+      "Section 114A BSA",
+      "Section 115 BSA",
+      "Section 118 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 120 BSA corresponds to Section 114A IEA, enacting that in prosecutions for rape under specified aggravated sections where sexual intercourse is proved and the victim states that she did not consent, the Court SHALL PRESUME that she did not consent.",
+    "optionBreakdown": {
+      "A": "Correct; Section 120 BSA corresponds to Section 114A IEA.",
+      "B": "No Section 114A in BSA.",
+      "C": "Section 115 BSA is estoppel.",
+      "D": "Section 118 BSA is dowry death."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 120 / IEA S. 114A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 114A IEA to Section 120 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-028",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "What are the two essential conditions precedent for the statutory presumption under Section 114A IEA / Section 120 BSA to arise?",
+    "options": [
+      "(1) Sexual intercourse by the accused is proved, and (2) the woman states in her evidence that she did not consent",
+      "(1) The accused confesses in the police station, and (2) no advocate represents him",
+      "(1) The offence occurred in a forest, and (2) the victim was unmarried",
+      "(1) The victim is over 60 years old, and (2) two villagers testified"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 114A IEA / Section 120 BSA applies only when: (1) sexual intercourse by accused is proved/admitted; and (2) the woman testifies in court that she did not consent. Upon these two conditions, the court 'shall presume' absence of consent.",
+    "optionBreakdown": {
+      "A": "Correct; sexual intercourse proved + woman testifies lack of consent = mandatory presumption.",
+      "B": "Police confession is inadmissible.",
+      "C": "Forest location is irrelevant.",
+      "D": "Age of 60 not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 120 / IEA S. 114A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify the conditions precedent for the Section 114A presumption of lack of consent.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-029",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Can the presumption under Section 114A IEA / Section 120 BSA be REBUTTED by the accused?",
+    "options": [
+      "Yes, it is a rebuttable presumption of law ('shall presume'), which can be rebutted by evidence showing consent on preponderance of probabilities",
+      "No, it is conclusive proof under Section 4 and cannot be rebutted under any circumstances",
+      "No, once Section 114A is triggered, the accused cannot lead any defense evidence",
+      "Only by producing a video of the marriage ceremony"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 4 IEA / Section 2(1)(h) BSA, 'shall presume' mandates that the court shall regard the fact as proved 'unless and until it is disproved'. The accused is entitled to rebut the presumption by adducing evidence establishing consent.",
+    "optionBreakdown": {
+      "A": "Correct; 'shall presume' is rebuttable, not conclusive proof.",
+      "B": "It is not conclusive proof.",
+      "C": "Accused is fully entitled to lead rebuttal evidence.",
+      "D": "Marriage video not required."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 120 / IEA S. 114A",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Distinguish 'shall presume' under Section 114A from conclusive proof.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-09-030",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-09",
+    "topicId": "top-evi-09-03",
+    "question": "Under Illustration (d) to Section 114 IEA / Section 119 BSA, what does the Court presume regarding things once shown to be in a particular state?",
+    "options": [
+      "That a thing or state of things which has been shown to be in existence within a period shorter than that within which such things usually cease to exist, is STILL IN EXISTENCE (Continuity)",
+      "That every state of things changes completely every 24 hours",
+      "That movable property ceases to exist after sunset",
+      "That debts are extinguished automatically every year"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 114 Illustration (d) embodies the presumption of continuity: that a state of things shown to exist continues to exist within the period in which such things usually cease to exist (e.g., sanity, partnership, tenancy).",
+    "optionBreakdown": {
+      "A": "Correct; presumption of continuity of a state of things.",
+      "B": "No presumption of daily change.",
+      "C": "No sunset cessation.",
+      "D": "Debts are not extinguished yearly."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 119 Illus (d) / IEA S. 114 Illus (d)",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall presumption of continuity under Section 114 Illustration (d).",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-001",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-01",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 embodies the classic DOCTRINE OF ESTOPPEL (corresponding to Section 115 of the Indian Evidence Act)?",
+    "options": [
+      "Section 121 BSA",
+      "Section 115 BSA",
+      "Section 125 BSA",
+      "Section 118 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 121 BSA corresponds to Section 115 IEA, enacting: 'When one person has, by his declaration, act or omission, intentionally caused or permitted another person to believe a thing to be true and to act upon such belief, neither he nor his representative shall be allowed... to deny the truth of that thing.'",
+    "optionBreakdown": {
+      "A": "Correct; Section 121 BSA corresponds to Section 115 IEA.",
+      "B": "Section 115 BSA is another provision.",
+      "C": "Section 125 BSA is witness competency.",
+      "D": "Section 118 BSA is dowry death."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 121 / IEA S. 115",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 115 IEA to Section 121 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-002",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-01",
+    "question": "Is there any ESTOPPEL AGAINST A STATUTE or the Constitution in Indian law?",
+    "options": [
+      "No, it is a settled constitutional principle that there can be NO estoppel against a statute or constitutional provision",
+      "Yes, estoppel overrides all statutes and constitutional provisions",
+      "Yes, Parliament is permanently estopped by civil court decrees",
+      "Only against municipal building bylaws"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Settled law (Olga Tellis v. Bombay Municipal Corp 1985; Express Newspapers v. Union of India 1986) establishes that there can be no estoppel against a statute, constitutional right, or fundamental right.",
+    "optionBreakdown": {
+      "A": "Correct; no estoppel against a statute or constitutional mandate.",
+      "B": "Estoppel cannot override statute.",
+      "C": "Parliament is not estopped.",
+      "D": "Uniform rule across public law."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 121 / IEA S. 115",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand that there is no estoppel against a statute or fundamental rights.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-003",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-01",
+    "question": "Under Section 122 BSA (Section 116 IEA), can a TENANT of immovable property deny that the LANDLORD had title to the property at the commencement of the tenancy?",
+    "options": [
+      "No, no tenant shall, during the continuance of the tenancy, be permitted to deny that the landlord had, at the beginning of the tenancy, a title to such immovable property",
+      "Yes, a tenant can challenge landlord's title at any moment during the lease",
+      "Yes, a tenant can declare himself the owner after paying rent for 3 months",
+      "Only if the tenant obtains an order from the local panchayat"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 116 IEA / Section 122 BSA enacts tenant estoppel: no tenant shall, during the continuance of tenancy, be permitted to deny that the landlord had title at the beginning of tenancy. (Once a tenant, always a tenant until possession surrendered).",
+    "optionBreakdown": {
+      "A": "Correct; tenant cannot deny landlord's title at beginning of tenancy during continuance of tenancy.",
+      "B": "Cannot challenge title while retaining possession.",
+      "C": "Paying rent does not confer ownership.",
+      "D": "Panchayat cannot override Section 116."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 122 / IEA S. 116",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master tenant estoppel under Section 116 IEA / Section 122 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-004",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-01",
+    "question": "In which landmark Constitution Bench case did the Supreme Court authoritatively synthesize the DOCTRINE OF PROMISSORY ESTOPPEL against the Government?",
+    "options": [
+      "Motilal Padampat Sugar Mills v. State of U.P. (1979)",
+      "Pickard v. Sears (1837)",
+      "Sharad Birdhichand Sarda v. State of Maharashtra (1984)",
+      "K.M. Nanavati v. State of Maharashtra (1962)"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Motilal Padampat Sugar Mills (1979 2 SCC 409), Bhagwati J. firmly established that promissory estoppel applies against the Government where a party alters its position relying on a clear governmental representation/promise, unless overriding public interest dictates otherwise.",
+    "optionBreakdown": {
+      "A": "Correct; Motilal Padampat Sugar Mills established modern promissory estoppel against Government.",
+      "B": "Pickard v. Sears is the old English common law case.",
+      "C": "Sharad Birdhichand dealt with circumstantial evidence.",
+      "D": "Nanavati dealt with grave and sudden provocation."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 121 / IEA S. 115",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall Bhagwati J.'s promissory estoppel ruling in Motilal Padampat Sugar Mills.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-005",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-01",
+    "question": "Under Section 123 BSA (Section 117 IEA), can the ACCEPTOR of a bill of exchange deny that the DRAWER had authority to draw such bill or to endorse it?",
+    "options": [
+      "No, no acceptor of a bill of exchange shall be permitted to deny that the drawer had authority to draw or endorse",
+      "Yes, acceptor can deny drawer's authority after taking goods",
+      "Only if the bill was drawn by an overseas bank",
+      "Acceptor can deny authority if interest rates rise"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 117 IEA / Section 123 BSA bars the acceptor of a bill of exchange from denying that the drawer had authority to draw such bill or endorse it (though he may deny that the bill was in fact drawn by the person by whom it purports to be drawn).",
+    "optionBreakdown": {
+      "A": "Correct; acceptor cannot deny drawer's authority to draw or endorse.",
+      "B": "Cannot deny authority after acceptance.",
+      "C": "Applies to domestic and foreign bills.",
+      "D": "Interest rate rise is irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 123 / IEA S. 117",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall estoppel of acceptor of bill of exchange under Section 117 IEA / S. 123 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-006",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-02",
+    "question": "Who is a COMPETENT WITNESS under Section 124 BSA (Section 118 of the Indian Evidence Act)?",
+    "options": [
+      "All persons are competent to testify unless the Court considers that they are prevented from understanding the questions put to them, or from giving rational answers, by tender years, extreme old age, disease of body or mind",
+      "Only adult males with university degrees",
+      "Only persons who own taxable immovable property",
+      "Only police officers and judicial officers"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 124 BSA / Section 118 IEA enacts that ALL persons shall be competent to testify, unless the Court considers that they are unable to understand questions or give rational answers due to tender years, extreme old age, or disease.",
+    "optionBreakdown": {
+      "A": "Correct; all persons competent unless court finds inability to understand questions or give rational answers.",
+      "B": "No gender or degree requirement.",
+      "C": "Property ownership irrelevant.",
+      "D": "Not limited to officers."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 124 / IEA S. 118",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "State the general competency rule under Section 118 IEA / Section 124 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-007",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-02",
+    "question": "Can a CHILD WITNESS testify in an Indian court, and what must the court verify?",
+    "options": [
+      "Yes, a child of any age is competent if the court conducts a VOIR DIRE test and is satisfied that the child understands questions and knows the duty of speaking truth",
+      "No, children under 18 years are legally barred from testifying",
+      "Yes, but child testimony is automatic conclusive proof without testing",
+      "Only in civil property partition suits"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Under Section 118 IEA / Section 124 BSA, tender years does not disqualify a child if capable of understanding and answering rationally (Dattu Ramrao Sakhare v. State of Maharashtra 1997); courts conduct a preliminary voir dire inquiry to ascertain competence.",
+    "optionBreakdown": {
+      "A": "Correct; child is competent if voir dire shows understanding and duty to speak truth.",
+      "B": "No age ceiling/floor disqualification.",
+      "C": "Not conclusive proof; requires cautious scrutiny.",
+      "D": "Applies in criminal and civil cases."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 124 / IEA S. 118",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand voir dire examination and competency of child witnesses.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-008",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-02",
+    "question": "Under Section 125 BSA (Section 119 IEA), how may a WITNESS UNABLE TO SPEAK (dumb witness) give evidence in court?",
+    "options": [
+      "In any manner in which he can make it intelligible, as by writing or by signs; such writing must be written and signs made in open Court",
+      "Through an astrologer who interprets their aura",
+      "Dumb persons are disqualified from testifying",
+      "By sending an unsigned telegram from another city"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 125 BSA / Section 119 IEA allows a witness unable to speak to give evidence by writing or signs in open court; evidence so given shall be deemed to be ORAL EVIDENCE.",
+    "optionBreakdown": {
+      "A": "Correct; by writing or signs in open court, deemed to be oral evidence.",
+      "B": "Astrology is absurd.",
+      "C": "Not disqualified.",
+      "D": "Unsigned telegram is impermissible."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 125 / IEA S. 119",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall provisions for evidence of witness unable to speak under Section 119 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-009",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-02",
+    "question": "Under Section 128 BSA (Section 122 IEA), what protection is afforded to COMMUNICATIONS DURING MARRIAGE?",
+    "options": [
+      "No person who is or has been married shall be compelled to disclose any communication made to him during marriage by the spouse, nor permitted to disclose it without spouse's consent",
+      "Spousal communications must be published in the gazette annually",
+      "Any police officer can demand a transcript of all bedtime conversations",
+      "Spouses can be forced to testify against each other in any civil dispute"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 122 IEA / Section 128 BSA enacts spousal privilege: no person who is or has been married shall be compelled to disclose, nor permitted to disclose without the spouse's consent, any communication made during marriage (subject to suits between spouses or crimes committed by one against the other).",
+    "optionBreakdown": {
+      "A": "Correct; spousal communication privilege protects confidentiality during marriage.",
+      "B": "Gazette publication is absurd.",
+      "C": "Police cannot compel disclosure.",
+      "D": "Privilege applies unless suit is between spouses."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 128 / IEA S. 122",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master spousal communication privilege under Section 122 IEA / S. 128 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-010",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-02",
+    "question": "Under Section 132 BSA (Section 126 of the Indian Evidence Act), what is the statutory rule regarding PROFESSIONAL COMMUNICATIONS between an ADVOCATE and CLIENT?",
+    "options": [
+      "No advocate shall at any time be permitted, unless with client's express consent, to disclose any communication made to him or advice given in the course of professional employment",
+      "Advocates must hand over their client files to the police on demand",
+      "Advocate privilege ends as soon as the consultation fee is paid",
+      "Advocates are compelled to reveal client confessions to the media"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 126 IEA / Section 132 BSA protects legal professional privilege: no barrister, attorney, pleader or vakil shall be permitted to disclose any communication made to him in the course and for the purpose of his employment, except with client's express consent or if made in furtherance of an illegal purpose.",
+    "optionBreakdown": {
+      "A": "Correct; legal professional privilege protects client communications unless in furtherance of illegal purpose.",
+      "B": "Police cannot seize privileged communications.",
+      "C": "Privilege continues forever after employment.",
+      "D": "Media disclosure is impermissible."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 132 / IEA S. 126",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall legal professional privilege under Section 126 IEA / Section 132 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-011",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-03",
+    "question": "What is the statutory ORDER OF EXAMINATION of a witness under Section 144 BSA (Section 138 of the Indian Evidence Act)?",
+    "options": [
+      "First Examination-in-Chief, then (if adverse party desires) Cross-Examination, then (if calling party desires) Re-Examination",
+      "First Cross-Examination, then Re-Examination, then Examination-in-Chief",
+      "Cross-Examination only, without any Chief",
+      "Re-Examination followed by police interrogation"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 144 BSA / Section 138 IEA enacts the three-stage order: (1) Examination-in-chief by calling party; (2) Cross-examination by adverse party; (3) Re-examination by calling party.",
+    "optionBreakdown": {
+      "A": "Correct; Chief -> Cross -> Re-Examination.",
+      "B": "Incorrect order.",
+      "C": "Chief is the primary stage.",
+      "D": "Police interrogation is not part of court examination."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 144 / IEA S. 138",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall the statutory order of witness examination under Section 138 IEA / S. 144 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-012",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-03",
+    "question": "What is the statutory definition of a 'LEADING QUESTION' under Section 147 BSA (Section 141 IEA)?",
+    "options": [
+      "Any question suggesting the answer which the person putting it wishes or expects to receive",
+      "Any question asked in a loud aggressive voice",
+      "Any question involving mathematical calculations",
+      "Any question translated into English"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 147 BSA / Section 141 IEA defines: 'Any question suggesting the answer which the person putting it wishes or expects to receive is called a leading question.'",
+    "optionBreakdown": {
+      "A": "Correct; question suggesting the answer which the questioner wishes/expects to receive.",
+      "B": "Tone of voice is not the definition.",
+      "C": "Mathematics is irrelevant.",
+      "D": "Translation is irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 147 / IEA S. 141",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Define leading question under Section 141 IEA / Section 147 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-013",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-03",
+    "question": "When can LEADING QUESTIONS be asked WITHOUT the permission of the Court under Section 149 BSA (Section 143 IEA)?",
+    "options": [
+      "Leading questions may be asked in CROSS-EXAMINATION",
+      "Leading questions may be asked freely in Examination-in-Chief",
+      "Leading questions are freely allowed in Re-Examination",
+      "Leading questions can never be asked at any stage"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 149 BSA / Section 143 IEA provides: 'Leading questions may be asked in cross-examination.' In examination-in-chief or re-examination, they cannot be asked if objected to, without permission of the court (S. 142 IEA / S. 148 BSA).",
+    "optionBreakdown": {
+      "A": "Correct; leading questions may freely be asked in cross-examination.",
+      "B": "Barred in Chief if objected to.",
+      "C": "Barred in Re-Examination if objected to.",
+      "D": "They are standard in cross-examination."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 149 / IEA S. 143",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the rule that leading questions are permissible in cross-examination.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-014",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-03",
+    "question": "Under Section 148 BSA (Section 142 IEA), the Court SHALL permit leading questions in Examination-in-Chief as to matters which are:",
+    "options": [
+      "Introductory or undisputed, or which have, in its opinion, been already sufficiently proved",
+      "Highly controversial and disputed between the parties",
+      "Directly asserting the guilt of the accused",
+      "Confidential trade secrets"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 142 IEA / Section 148 BSA mandates: 'The Court shall permit leading questions as to matters which are introductory or undisputed, or which have, in its opinion, been already sufficiently proved.'",
+    "optionBreakdown": {
+      "A": "Correct; introductory, undisputed, or already sufficiently proved matters.",
+      "B": "Cannot lead on controversial disputed matters in chief.",
+      "C": "Cannot lead on guilt in chief.",
+      "D": "Trade secrets not covered."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 148 / IEA S. 142",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Identify matters where court must permit leading questions in chief.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-015",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-03",
+    "question": "What is the statutory SCOPE and PURPOSE of RE-EXAMINATION under Section 144 BSA (Section 138 IEA)?",
+    "options": [
+      "Directed to the explanation of matters referred to in cross-examination; if new matter is introduced by permission of Court, adverse party may further cross-examine upon that matter",
+      "To repeat the entire Examination-in-Chief verbatim",
+      "To attack the integrity of the judge",
+      "To introduce entirely new allegations without permission"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 138 IEA / Section 144 BSA establishes that re-examination is directed to explaining matters referred to in cross-examination; new matters cannot be introduced without permission of the Court, and if permitted, adverse party has the right to cross-examine on it.",
+    "optionBreakdown": {
+      "A": "Correct; limited to explaining matters raised in cross, or new matters with court leave.",
+      "B": "Cannot be a mere repetition of chief.",
+      "C": "Attacking judge is contempt.",
+      "D": "Cannot introduce new matter without leave."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 144 / IEA S. 138",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Understand the strict scope of re-examination under Section 138 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-016",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-04",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 deals with CROSS-EXAMINATION AS TO PREVIOUS STATEMENTS IN WRITING (corresponding to Section 145 of the Indian Evidence Act)?",
+    "options": [
+      "Section 151 BSA",
+      "Section 145 BSA",
+      "Section 155 BSA",
+      "Section 158 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 151 BSA corresponds to Section 145 IEA, allowing a witness to be cross-examined as to previous statements made by him in writing or reduced into writing, and relevant to matters in question, without such writing being shown to him.",
+    "optionBreakdown": {
+      "A": "Correct; Section 151 BSA corresponds to Section 145 IEA.",
+      "B": "Section 145 BSA is another provision.",
+      "C": "Section 155 BSA is impeaching credit.",
+      "D": "Section 158 BSA is refreshing memory."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 151 / IEA S. 145",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 145 IEA to Section 151 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-017",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-04",
+    "question": "Under Section 151 BSA / Section 145 IEA, if it is intended to CONTRADICT a witness by his previous writing, what mandatory procedure must be followed?",
+    "options": [
+      "His attention must, before the writing can be proved, be called to those parts of it which are to be used for the purpose of contradicting him",
+      "The writing must be burnt in front of the witness",
+      "The witness must be sent to jail immediately",
+      "The contradiction can be argued for the first time in final arguments without confronting the witness"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 145 IEA / Section 151 BSA mandates that if intended to contradict by writing, 'his attention must, before the writing can be proved, be called to those parts of it which are to be used for the purpose of contradicting him' (confrontation requirement).",
+    "optionBreakdown": {
+      "A": "Correct; attention must be drawn to contradictory parts before proving writing.",
+      "B": "Burning is absurd.",
+      "C": "Cannot jail witness.",
+      "D": "Cannot spring contradiction in arguments without prior confrontation."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 151 / IEA S. 145",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Master the mandatory confrontation requirement under Section 145 IEA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-018",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-04",
+    "question": "Which provision of the Bharatiya Sakshya Adhiniyam, 2023 deals with questions by a party to his OWN WITNESS ('Hostile Witness', corresponding to Section 154 IEA)?",
+    "options": [
+      "Section 157 BSA",
+      "Section 154 BSA",
+      "Section 160 BSA",
+      "Section 152 BSA"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 157 BSA corresponds to Section 154 IEA, empowering the Court in its discretion to permit the person who calls a witness to put any questions to him which might be put in cross-examination by the adverse party.",
+    "optionBreakdown": {
+      "A": "Correct; Section 157 BSA corresponds to Section 154 IEA.",
+      "B": "Section 154 BSA is another provision.",
+      "C": "Section 160 BSA is refreshing memory.",
+      "D": "Section 152 BSA is lawful questions in cross."
+    },
+    "difficulty": "Important",
+    "provision": "BSA S. 157 / IEA S. 154",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Map Section 154 IEA (hostile witness) to Section 157 BSA.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-019",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-04",
+    "question": "Does the evidence of a 'HOSTILE WITNESS' get completely washed off the record and rendered totally unusable in Indian law?",
+    "options": [
+      "No, settled law (Sat Paul v. Delhi Administration 1976; Rohtash Kumar v. State of Haryana 2013) holds that evidence of a hostile witness is not effaced; truthful portions can be accepted by the court",
+      "Yes, once declared hostile the entire deposition is struck off with red ink",
+      "Yes, a hostile witness is treated as non-existent",
+      "Only in civil suits hostile witness evidence is retained"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "In Sat Paul v. Delhi Administration (1976) and reaffirmed in Rohtash Kumar (2013), the Supreme Court settled that the evidence of a hostile witness cannot be rejected in toto; portions supporting either the prosecution or defense, if corroborated and credible, can be relied upon.",
+    "optionBreakdown": {
+      "A": "Correct; hostile witness evidence is not rejected in toto; truthful corroborated portions can be relied upon.",
+      "B": "Not struck off record.",
+      "C": "Witness is not non-existent.",
+      "D": "Applies in criminal and civil cases."
+    },
+    "difficulty": "Landmark",
+    "provision": "BSA S. 157 / IEA S. 154",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Analyze evidentiary value of hostile witness testimony under Sat Paul and Rohtash Kumar.",
+    "eligible": true,
+    "status": "active"
+  },
+  {
+    "id": "mcq-evi-10-020",
+    "subjectId": "law-evidence",
+    "chapterId": "ch-evi-10",
+    "topicId": "top-evi-10-04",
+    "question": "Under Section 162 BSA (Section 159 IEA), how may a witness REFRESH HIS MEMORY while testifying?",
+    "options": [
+      "By referring to any writing made by himself at the time of the transaction, or so soon afterwards that the transaction was fresh in his memory",
+      "By drinking an herbal memory tea on the witness stand",
+      "By asking the judge to whisper the facts to him",
+      "By reading a fiction novel written by his friend"
+    ],
+    "answer": 0,
+    "answerLetter": "A",
+    "explanation": "Section 159 IEA / Section 162 BSA allows a witness to refresh his memory by referring to any writing made by himself at the time of the transaction or soon afterwards, or made by any other person and read/known by the witness to be correct within that time.",
+    "optionBreakdown": {
+      "A": "Correct; by referring to contemporaneous writing made or checked by himself when fresh in memory.",
+      "B": "Tea is irrelevant.",
+      "C": "Judge whispering is improper.",
+      "D": "Fiction novel is irrelevant."
+    },
+    "difficulty": "Easy",
+    "provision": "BSA S. 162 / IEA S. 159",
+    "sourceUrl": "https://www.indiacode.nic.in",
+    "verifiedDate": "2026-11-22",
+    "applicableDate": "2026-11-22",
+    "learningObjective": "Recall provisions for refreshing memory under Section 159 IEA / S. 162 BSA.",
+    "eligible": true,
+    "status": "active"
+  }
+]

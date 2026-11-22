@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="900" height="360" fill="url(#bgGrad)" rx="12"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#dfbf80" letter-spacing="1">CHRONOLOGICAL EVOLUTION OF THE INDIAN CONSTITUTION</text>
+  <text x="450" y="70" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#a0b3c6">From Company Rule (1773) to Full Enactment and Commencement (1950)</text>
+  
+  <!-- Central Timeline Axis -->
+  <line x1="60" y1="180" x2="840" y2="180" stroke="#dfbf80" stroke-width="4" stroke-dasharray="8 4"/>
+  
+  <!-- Milestone 1: 1773 -->
+  <circle cx="100" cy="180" r="14" fill="#137d72" stroke="#dfbf80" stroke-width="3" filter="url(#shadow)"/>
+  <text x="100" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#fff">1</text>
+  <rect x="30" y="90" width="140" height="65" rx="6" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="100" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">Regulating Act 1773</text>
+  <text x="100" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Gov-Gen of Bengal</text>
+  <text x="100" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#137d72">SC at Calcutta 1774</text>
+  
+  <!-- Milestone 2: 1858 -->
+  <circle cx="260" cy="180" r="14" fill="#137d72" stroke="#dfbf80" stroke-width="3" filter="url(#shadow)"/>
+  <text x="260" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#fff">2</text>
+  <rect x="190" y="215" width="140" height="65" rx="6" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="260" y="237" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">GoI Act 1858</text>
+  <text x="260" y="255" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Crown Rule Begins</text>
+  <text x="260" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#137d72">Secretary of State</text>
+
+  <!-- Milestone 3: 1919 -->
+  <circle cx="420" cy="180" r="14" fill="#137d72" stroke="#dfbf80" stroke-width="3" filter="url(#shadow)"/>
+  <text x="420" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#fff">3</text>
+  <rect x="350" y="90" width="140" height="65" rx="6" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="420" y="112" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">GoI Act 1919</text>
+  <text x="420" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Provincial Dyarchy</text>
+  <text x="420" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#137d72">Bicameral Centre</text>
+
+  <!-- Milestone 4: 1935 -->
+  <circle cx="580" cy="180" r="14" fill="#b98a38" stroke="#dfbf80" stroke-width="3" filter="url(#shadow)"/>
+  <text x="580" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#fff">4</text>
+  <rect x="510" y="215" width="140" height="65" rx="6" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="580" y="237" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">GoI Act 1935</text>
+  <text x="580" y="255" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Constitutional Blueprint</text>
+  <text x="580" y="270" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#b98a38">Provincial Autonomy</text>
+
+  <!-- Milestone 5: 1946-50 -->
+  <circle cx="760" cy="180" r="16" fill="#137d72" stroke="#dfbf80" stroke-width="4" filter="url(#shadow)"/>
+  <text x="760" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#dfbf80">★</text>
+  <rect x="690" y="85" width="150" height="75" rx="6" fill="#dfbf80" filter="url(#shadow)"/>
+  <text x="765" y="107" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">1946–1950</text>
+  <text x="765" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">Constituent Assembly</text>
+  <text x="765" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#1b3857">Adopted: 26 Nov 1949</text>
+  <text x="765" y="153" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">Enacted: 26 Jan 1950</text>
+</svg>

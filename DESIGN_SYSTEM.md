@@ -239,3 +239,38 @@ Defined in [assets/games/css/case-simulation.css](file:///c:/Users/tauqe/Documen
    - Unified Smart Revision Centre: Filter tabs (`All Items`, `Bookmarked PYQs`, `Arena Errors & Misconceptions`) and "Mark Resolved" interactive action buttons.
    - Print Optimization (`@media print`): Hides all interactive navigations, buttons, headers, and displays clean, academic serif typography alongside formal educational disclaimers.
 
+---
+
+## 6. Subject-Wise Judicial Learning Academy UI Components (`assets/learning/css/academy.css`)
+
+The Subject-Wise Judicial Learning Academy provides a dedicated, dignified academic learning environment designed for deep, concept-first judicial study and targeted practice.
+
+1. **Academy Hub Dashboard (`learning-academy.html`):**
+   - Subject Grid: 30 subject cards categorized across Paper I (General Knowledge & Social Legislation) and Paper II (Law).
+   - Subject Card State: Distinguishes between active modules (`status: 'active'`) with full access and upcoming modules (`status: 'upcoming'`) with locked previews and syllabus outlines.
+   - Chapter Accordion Drawer: Expands to reveal chapters, topic lists, estimated study times, and practice MCQ counts.
+   - Subject Filter Pills: Filter by All Subjects, Paper I GK, Paper I Social Legislation, Paper II Law, Active Subjects, or Upcoming Subjects.
+
+2. **Chapter & Topic Study Room (`subject-study.html`):**
+   - Dual-Pane Layout: Responsive sidebar chapter/topic navigation drawer and main academic reading pane.
+   - Reading Mode Switcher: Seamless toggle between **Detailed Study Mode** (comprehensive jurisprudence, historical context, doctrine analysis) and **Quick Revision Mode** (bulleted essentials, core articles, memory points).
+   - Bare Act Statutory Callouts (`.bare-act-box`): Parchment-styled containers highlighting authentic constitutional and statutory text with article badges.
+   - Landmark Case Law Cards (`.landmark-case-card`): Dedicated precedent cards with citation, bench composition, material facts, and ratio decidendi.
+   - Academic Comparison Tables (`.comparison-table`): High-contrast structured matrices (e.g., Fundamental Rights vs DPSP, Art 32 vs Art 226, National Emergency vs President's Rule).
+   - Custom SVG Diagram Containers (`.diagram-container`): Inline educational vector schematics with captions and zoomable styling.
+   - Active Recall Flashcards (`.flip-card`, `.flip-card-inner`): 3D card-flip interaction with question/prompt on front and constitutional answer/rationale on back.
+   - Bidirectional Practice Action: Sticky "Practise This Topic" button leading directly to `topic-practice.html` with topic pre-selected.
+
+3. **Practice Test Engine (`topic-practice.html`):**
+   - 8 Practice Modes: Learn & Practise, Topic Test, Chapter Test, Subject Mock Test, PYQ Practice, Missed/Wrong Questions Queue, Bookmarks, and Advanced Challenge.
+   - Interactive Practice HUD: Mode badge, question index indicator, persistent timer, bookmark toggle, and visual progress bar.
+   - 4-Option Choice Buttons: A, B, C, D choices with immediate verification (in Learn mode) or test-ending submission (in Test modes).
+   - Option Rationale Breakdown Grid: Exhaustive explanation dissecting why the correct option is legally sound and why each incorrect option is false or inapplicable.
+   - Bare Act Reference & Learning Objective: Contextual tags citing exact articles and academic goals.
+   - "Review This Concept" Button: Direct back-link returning the learner to the exact chapter and topic in `subject-study.html`.
+
+4. **Subject Mastery Analytics (`subject-progress.html`):**
+   - 15-Chapter Mastery Matrix: Visual cards displaying completed topics, practice tests taken, overall accuracy %, and mastery tier badge.
+   - Performance KPIs: Total study hours, topics mastered, practice questions answered, and current question bank coverage.
+   - Actionable Remediation: Direct shortcuts to review missed questions and retake low-scoring chapter tests.
+

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f5ede0"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#142c46" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Decorative Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#ffffff">Six Statutory Forms of Mortgage under Section 58</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Simple, Conditional Sale, Usufructuary, English, Deposit of Title Deeds and Anomalous</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">UP PCS-J ACADEMIC BLUEPRINT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="220" height="150" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="1.5"/>
+    <text x="110" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">1. Simple Mortgage [s. 58(b)]</text>
+    <text x="15" y="55" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• No delivery of possession</text>
+    <text x="15" y="75" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Mortgagor binds self personally</text>
+    <text x="15" y="95" font-family="system-ui, sans-serif" font-size="10.5" fill="#137d72">• Remedy: Sale of mortgaged property</text>
+
+    <rect x="250" y="0" width="220" height="150" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="1.5"/>
+    <text x="360" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">2. Conditional Sale [s. 58(c)]</text>
+    <text x="265" y="55" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Ostensible sale on condition</text>
+    <text x="265" y="75" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Must be in SAME document</text>
+    <text x="265" y="95" font-family="system-ui, sans-serif" font-size="10.5" fill="#137d72">• Remedy: Foreclosure</text>
+
+    <rect x="500" y="0" width="220" height="150" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="1.5"/>
+    <text x="610" y="25" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">3. Usufructuary [s. 58(d)]</text>
+    <text x="515" y="55" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Possession delivered to mortgagee</text>
+    <text x="515" y="75" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Rents/profits pay interest/debt</text>
+    <text x="515" y="95" font-family="system-ui, sans-serif" font-size="10.5" fill="#137d72">• No personal liability, no foreclosure/sale</text>
+
+    <rect x="0" y="170" width="220" height="150" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="1.5"/>
+    <text x="110" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">4. English Mortgage [s. 58(e)]</text>
+    <text x="15" y="225" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Absolute transfer of property</text>
+    <text x="15" y="245" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Re-transfer on repayment on due date</text>
+    <text x="15" y="265" font-family="system-ui, sans-serif" font-size="10.5" fill="#137d72">• Personal covenant to repay</text>
+
+    <rect x="250" y="170" width="220" height="150" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="1.5"/>
+    <text x="360" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">5. Deposit of Title Deeds [s. 58(f)]</text>
+    <text x="265" y="225" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Equitable mortgage</text>
+    <text x="265" y="245" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Delivery of documents of title</text>
+    <text x="265" y="265" font-family="system-ui, sans-serif" font-size="10.5" fill="#137d72">• Specified towns only (Calcutta, etc.)</text>
+
+    <rect x="500" y="170" width="220" height="150" rx="8" fill="#ffffff" stroke="#142c46" stroke-width="1.5"/>
+    <text x="610" y="195" text-anchor="middle" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">6. Anomalous [s. 58(g)]</text>
+    <text x="515" y="225" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Not falling under types 1 to 5</text>
+    <text x="515" y="245" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5c6e">• Combination (e.g. Simple Usufructuary)</text>
+    <text x="515" y="265" font-family="system-ui, sans-serif" font-size="10.5" fill="#137d72">• Governed by contract terms &amp; custom</text>
+  </g>
+
+  </g>
+
+  <!-- Footer Watermark -->
+  <text x="400.0" y="488" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" fill="#8899aa">Judicial Learning Academy · Tanveer Ashraf Judicial Prep · Authoritative Subject Schematic</text>
+</svg>

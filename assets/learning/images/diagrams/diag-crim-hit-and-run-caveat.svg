@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <linearGradient id="crimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8c2432"/>
+      <stop offset="100%" stop-color="#5a1520"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#137d72"/>
+      <stop offset="100%" stop-color="#0d5c54"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#142c46" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="12" fill="#f8fafc" stroke="#dce3ea" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <rect width="800" height="60" rx="12" fill="url(#bgGrad)"/>
+  <rect y="48" width="800" height="12" fill="#142c46"/>
+  <rect y="58" width="800" height="3" fill="#dfbf80"/>
+
+  <!-- Header Title -->
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#ffffff">Causing Death by Rash/Negligent Act: Section 106 BNS</text>
+  <text x="24" y="50" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#dfbf80">Section 106(1) in force vs Section 106(2) hit-and-run stay notification</text>
+  <text x="776" y="36" text-anchor="end" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#a0c0dc">STATUTORY CAVEAT ALERT</text>
+
+  <!-- Body Content -->
+  <g transform="translate(0, 70)">
+    
+  <g transform="translate(50, 20)">
+    <!-- Header Banner -->
+    <rect x="0" y="0" width="700" height="50" rx="6" fill="#142c46"/>
+    <text x="350" y="26" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80">SECTION 106 BNS: CAUSING DEATH BY NEGLIGENCE &amp; HIT-AND-RUN CAVEAT</text>
+    <text x="350" y="42" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff">Essential Statutory Examination Alert for UP PCS-J 2026–27</text>
+
+    <!-- Sub-section 1 -->
+    <rect x="0" y="70" width="335" height="280" rx="8" fill="#ffffff" stroke="#137d72" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="0" y="70" width="335" height="40" rx="8" fill="#137d72"/>
+    <text x="167" y="95" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#ffffff">SECTION 106(1) BNS</text>
+    <rect x="20" y="125" width="295" height="30" rx="4" fill="#d1fae5"/>
+    <text x="167" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#065f46">STATUS: IN FORCE (1 JULY 2024)</text>
+    <text x="20" y="180" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Substantive Provisions:</text>
+    <text x="20" y="205" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Causing death by rash or negligent act</text>
+    <text x="20" y="225" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Not amounting to culpable homicide</text>
+    <text x="20" y="250" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Punishment:</text>
+    <text x="20" y="275" font-family="system-ui, sans-serif" font-size="11" fill="#137d72">• General: Up to 5 YEARS imprisonment</text>
+    <text x="20" y="295" font-family="system-ui, sans-serif" font-size="11" fill="#137d72">• Registered Doctor: Up to 2 YEARS</text>
+    <text x="20" y="325" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">Corresponds to historical Section 304A IPC.</text>
+
+    <!-- Sub-section 2 -->
+    <rect x="365" y="70" width="335" height="280" rx="8" fill="#ffffff" stroke="#8c2432" stroke-width="2" filter="url(#shadow)"/>
+    <rect x="365" y="70" width="335" height="40" rx="8" fill="#8c2432"/>
+    <text x="532" y="95" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#ffffff">SECTION 106(2) BNS</text>
+    <rect x="385" y="125" width="295" height="30" rx="4" fill="#fee2e2"/>
+    <text x="532" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#991b1b">STATUS: NOT IN FORCE / STAYED</text>
+    <text x="385" y="180" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Hit-and-Run Provision:</text>
+    <text x="385" y="205" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Rash/negligent driving causing death</text>
+    <text x="385" y="225" font-family="system-ui, sans-serif" font-size="11" fill="#334155">• Escapes without reporting to police</text>
+    <text x="385" y="250" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Proposed Punishment:</text>
+    <text x="385" y="275" font-family="system-ui, sans-serif" font-size="11" fill="#8c2432">• Imprisonment up to 10 YEARS and fine</text>
+    <rect x="385" y="295" width="295" height="45" rx="4" fill="#fef3c7"/>
+    <text x="532" y="312" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#92400e">MHA Notification S.O. 850(E):</text>
+    <text x="532" y="328" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#92400e">Expressly withheld pending transport talks.</text>
+  </g>
+
+  </g>
+</svg>

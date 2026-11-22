@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+  <defs><linearGradient id="wbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="900" height="360" fill="url(#wbg)" rx="12"/>
+  <text x="450" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#dfbf80">THE FIVE HIGH PREROGATIVE WRITS (ARTICLES 32 &amp; 226)</text>
+  
+  <!-- 1. Habeas Corpus -->
+  <rect x="25" y="70" width="160" height="260" rx="8" fill="#ffffff"/>
+  <rect x="25" y="70" width="160" height="32" rx="8" fill="#137d72"/>
+  <text x="105" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">HABEAS CORPUS</text>
+  <text x="105" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">"Have the Body"</text>
+  <text x="35" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Remedy against illegal or arbitrary detention</text>
+  <text x="35" y="185" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Lies against BOTH State and Private individuals</text>
+  <text x="35" y="230" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Locus Standi is relaxed (relatives/friends can file)</text>
+  <text x="35" y="275" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Sunil Batra case: protects prisoner rights inside jail</text>
+
+  <!-- 2. Mandamus -->
+  <rect x="195" y="70" width="160" height="260" rx="8" fill="#ffffff"/>
+  <rect x="195" y="70" width="160" height="32" rx="8" fill="#142c46"/>
+  <text x="275" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">MANDAMUS</text>
+  <text x="275" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">"We Command"</text>
+  <text x="205" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Compels performance of public / statutory duty</text>
+  <text x="205" y="185" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Requires legal right + corresponding public duty</text>
+  <text x="205" y="230" font-family="system-ui, sans-serif" font-size="9" fill="#a63b49">• Does NOT lie against President, Governor, or private body</text>
+  <text x="205" y="280" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Cannot enforce contract</text>
+
+  <!-- 3. Prohibition -->
+  <rect x="365" y="70" width="160" height="260" rx="8" fill="#ffffff"/>
+  <rect x="365" y="70" width="160" height="32" rx="8" fill="#137d72"/>
+  <text x="445" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">PROHIBITION</text>
+  <text x="445" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">"To Forbid"</text>
+  <text x="375" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Issued to prevent lower court/tribunal from usurping jurisdiction</text>
+  <text x="375" y="195" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Purely PREVENTIVE in nature</text>
+  <text x="375" y="230" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Issued while proceedings are PENDING</text>
+  <text x="375" y="275" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Lies only against judicial and quasi-judicial bodies</text>
+
+  <!-- 4. Certiorari -->
+  <rect x="535" y="70" width="160" height="260" rx="8" fill="#ffffff"/>
+  <rect x="535" y="70" width="160" height="32" rx="8" fill="#142c46"/>
+  <text x="615" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">CERTIORARI</text>
+  <text x="615" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">"To be Certified"</text>
+  <text x="545" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Quashes orders passed without jurisdiction, in excess of jurisdiction, or breach of natural justice</text>
+  <text x="545" y="200" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• Both PREVENTIVE and CURATIVE in nature</text>
+  <text x="545" y="240" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Issued AFTER order is passed</text>
+  <text x="545" y="280" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">• Extended to admin bodies</text>
+
+  <!-- 5. Quo Warranto -->
+  <rect x="705" y="70" width="170" height="260" rx="8" fill="#ffffff"/>
+  <rect x="705" y="70" width="170" height="32" rx="8" fill="#137d72"/>
+  <text x="790" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">QUO WARRANTO</text>
+  <text x="790" y="120" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">"By What Warrant?"</text>
+  <text x="715" y="145" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Inquires into legality of claim to a substantive PUBLIC OFFICE</text>
+  <text x="715" y="195" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Prevents usurpation of public office by non-qualified persons</text>
+  <text x="715" y="245" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Any citizen can move court (no personal grievance required)</text>
+</svg>

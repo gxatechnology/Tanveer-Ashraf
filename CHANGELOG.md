@@ -6,6 +6,75 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [3.1.5] — Phase 5 — 2026-11-22
+*Tag: V3.1 Phase 5 — Complete Social Legislation Learning Academy, Nine Special Acts, Thematic Study Centre & Statutory Explorer*
+
+### Added
+- **Complete Social Legislation Learning Academy (Paper I — General Knowledge · 9 Acts):**
+  - Activated all nine special welfare, non-discrimination, and protective enactments under official UP PCS-J syllabus (UPPSC Advt. A-6/E-1/2026):
+    1. Rights of Persons with Disabilities Act, 2016 (`soc-disabilities` - 3 Ch, 9 Top, 50 MCQs, 4 PYQs, 2 SVG Schematics)
+    2. Maintenance & Welfare of Parents and Senior Citizens Act, 2007 (`soc-parents` - 3 Ch, 9 Top, 50 MCQs, 1 PYQ, 2 SVG Schematics)
+    3. Dowry Prohibition Act, 1961 (`soc-dowry` - 3 Ch, 9 Top, 50 MCQs, 5 PYQs, 2 SVG Schematics)
+    4. Protection of Women from Domestic Violence Act, 2005 (`soc-domestic-violence` - 3 Ch, 9 Top, 50 MCQs, 2 PYQs, 2 SVG Schematics)
+    5. Sexual Harassment of Women at Workplace (POSH) Act, 2013 (`soc-posh` - 3 Ch, 9 Top, 50 MCQs, 1 PYQ, 2 SVG Schematics)
+    6. Indecent Representation of Women (Prohibition) Act, 1986 (`soc-indecent-rep` - 3 Ch, 9 Top, 45 MCQs, 3 PYQs, 2 SVG Schematics)
+    7. Pre-Conception & Pre-Natal Diagnostic Techniques Act, 1994 (`soc-pcpndt` - 3 Ch, 9 Top, 50 MCQs, 2 PYQs, 2 SVG Schematics)
+    8. Medical Termination of Pregnancy Act, 1971 as amended 2021 (`soc-mtp` - 3 Ch, 9 Top, 50 MCQs, 3 PYQs, 2 SVG Schematics)
+    9. Protection of Children from Sexual Offences Act, 2012 as amended 2019 (`soc-pocso` - 4 Ch, 12 Top, 60 MCQs, 2 PYQs, 2 SVG Schematics)
+  - Total active academy inventory expanded to **17 Subjects**, **127 Chapters**, **373 Topics**, **373 Authored Concepts**, **3,075 Practice MCQs**, **615 Mapped Authentic PYQs**, and **90 Academic SVG Schematics**.
+- **Social Legislation Study Centre (`learning-academy.html`):**
+  - Added dedicated showcase section organized into three candidate-approved thematic clusters: Group A (Equality, Inclusion & Welfare), Group B (Protection of Women), and Group C (Reproductive Health & Child Protection).
+  - Each card equipped with direct *Study Topics*, *Practise MCQs*, and *Detailed Analytics* action triggers.
+  - Added chapter selector pills for all 9 social Acts.
+- **Social Legislation Statutory Provisions Explorer (`assets/learning/data/social/social-sections-explorer.js`):**
+  - 98 curated high-yield statutory entries across all 9 Acts, featuring plain English rules, prerequisites, exceptions, penalties, India Code links, and tailored UP Exam Tips (bringing total statutory explorer entries to 181).
+- **18 Original Academic Vector SVG Schematics (`assets/learning/images/diagrams/`):**
+  - Two custom vector schematics per Act: RPwD rights & accessibility, Parents tribunal flow & maintenance comparison, Dowry offences & customary gifts, Domestic Violence remedies hierarchy & shared household, POSH complaint inquiry & IC vs LC, PCPNDT regulatory architecture & prohibited conduct, MTP gestational framework & consent matrix, IRWA prohibitions & enforcement powers, POCSO protection framework & Special Court trial sequence.
+- **Targeted Civil Procedure Code Refinement:**
+  - Added clear procedural stream distinctions to the 14-stage Civil Suit Journey (`civil-suit-journey.html`), tagging standard suit progression vs. parallel execution / interlocutory streams.
+  - Updated disclaimer in `cpc-sections-orders-rules.js` and `civil-suit-journey.html` clarifying their curated nature.
+- **Engines & Multi-Corpus Search Integration:**
+  - `LearningEngine` (`assets/learning/js/learning-engine.js`): Added social chapter, topic, concept, MCQ, and PYQ resolvers, `getSocialSectionsExplorer()`, and dynamic 17-subject stats aggregation.
+  - `ConceptRenderer` (`assets/learning/js/concept-renderer.js`): Implemented unified `resolveSubjectId()` supporting all 9 social prefixes and statutory blueprint titles.
+  - `LearningStorage` (`assets/learning/js/learning-storage.js`): Added progress tracking, mistake queue filtering, and bookmarking for all 9 social Acts.
+  - `legal-search.js` (`assets/js/legal-search.js`): Indexed social topics and MCQs in universal multi-corpus smart search.
+- **Automated Test Suites:**
+  - `scripts/validate_learning_academy.py` updated to 15 test groups and 58 test assertions covering all 17 active subjects, 127 chapters, 373 topics, 3,075 MCQs, 615 PYQs, 90 diagrams, and 98 social explorer entries (100% pass rate).
+  - `scripts/validate_production.py` verified with 21/21 passes.
+
+---
+
+## [3.1.4] — Phase 4 — 2026-11-22
+*Tag: V3.1 Phase 4 — Complete Civil Procedure Code Learning Academy, The Civil Suit Journey, and Section-Order-Rule Explorer*
+
+### Added
+- **Eighth Active Subject in Subject Registry (`assets/learning/data/subjects.js`):**
+  - Activated `law-cpc` (Code of Civil Procedure, 1908) with 20 Chapters, 57 Topics, 400 MCQs, 60 mapped PYQs, 12 Diagrams, and 32 estimated study hours.
+  - Total active production modules across the Academy reached 8 subjects, 99 chapters, 289 topics, 289 authored concepts, 2,620 practice MCQs, 592 mapped authentic PYQs, and 72 vector SVG diagrams.
+- **The Civil Suit Journey Simulator (`civil-suit-journey.html`):**
+  - Added 27th operational HTML page: "The Civil Suit Journey: From Plaint to Decree".
+  - 14 sequential procedural stages: Stage 1 (Pre-Litigation & Notice) through Stage 14 (Execution & Enforcement).
+  - Features Presiding Officer's Scrutiny Checklists, High-Yield Procedural Traps & Exceptions, Landmark Judicial Precedents, interactive Scenario Simulators, Knowledge Check mini-quizzes, and embedded master SVG flowchart (`diag-cpc-civil-suit-journey.svg`).
+- **CPC Section–Order–Rule Explorer (`assets/learning/data/cpc/cpc-sections-orders-rules.js`):**
+  - 83 curated, high-yield statutory provisions (48 Sections, 35 Rules) with plain-English summaries, essential conditions, statutory exceptions, cross-references, verified India Code links, and tailored UP Exam Tips.
+- **Comprehensive Civil Procedure Code Academic Data (`assets/learning/data/cpc/`):**
+  - 20 Chapters (`ch-cpc-01` to `ch-cpc-20`) in `cpc-chapters.js`.
+  - 57 Topics (`top-cpc-01-01` to `top-cpc-20-03`) in `cpc-topics.js`.
+  - 57 Authored Concept Notes in `cpc-concepts-part1.js`, `part2.js`, `part3.js`, merged into `cpc-concepts.js`.
+  - 400 Verified Practice MCQs in `cpc-mcqs.js` with comprehensive 4-option explanations (A, B, C, D), CPC section/order/rule citations, and learning objectives.
+  - 60 Authentic UP PCS-J CPC PYQs mapped across 2012–2023 in `cpc-pyq-mapping.js`.
+  - 12 Custom Vector SVG Schematics in `assets/learning/images/diagrams/`: `diag-cpc-civil-suit-journey.svg`, `diag-cpc-jurisdiction-s9.svg`, `diag-cpc-res-sub-judice-judicata.svg`, `diag-cpc-parties-suits.svg`, `diag-cpc-plaint-ws-setoff.svg`, `diag-cpc-return-vs-rejection.svg`, `diag-cpc-exparte-default-remedies.svg`, `diag-cpc-civil-trial-sequence.svg`, `diag-cpc-interim-relief-injunctions.svg`, `diag-cpc-execution-framework.svg`, `diag-cpc-appeals-hierarchy.svg`, `diag-cpc-reference-review-revision.svg`.
+- **System-Wide UI & Navigation Integration:**
+  - Added Civil Suit Journey banner and CPC module card to `learning-academy.html`.
+  - Added Civil Suit Journey callout and diagram rendering to `subject-study.html` and `concept-renderer.js`.
+  - Added CPC script tags, nav links, and switcher buttons to `topic-practice.html`, `subject-progress.html`, `search.html`, and `comparison-lab.html`.
+  - Indexed CPC Topics and MCQs in `assets/js/legal-search.js` for smart search.
+- **Automated Validation Suites Expansion:**
+  - `scripts/validate_production.py` updated to 27 operational HTML pages (21/21 passed).
+  - `scripts/validate_learning_academy.py` updated to 14 test groups and 53 test cases covering 8 subjects, 99 chapters, 289 topics, 2,620 MCQs, 592 PYQs, 72 diagrams, 83 SOR entries, and Civil Suit Journey (100% pass rate).
+
+---
+
 ## [3.0.0] — Phase 5 — 2026-11-22
 *Tag: V3.0 Phase 5 — Final Integration, Legal Content Audit, Advanced UI Polish, Performance Optimization & Production Readiness*
 

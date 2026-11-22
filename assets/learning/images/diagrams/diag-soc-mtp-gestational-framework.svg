@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_mtp1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow_mtp1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg_mtp1)"/>
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow_mtp1)"/>
+  <text x="400" y="46" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">MEDICAL TERMINATION OF PREGNANCY ACT (MTP ACT)</text>
+  <text x="400" y="64" fill="#dfbf80" font-family="sans-serif" font-size="11" text-anchor="middle">2021 Gestational Tier Paradigm • RMP Opinions • State Medical Board Certification</text>
+
+  <!-- Left: Gestational Tiers -->
+  <g transform="translate(40, 95)" filter="url(#shadow_mtp1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">STATUTORY GESTATIONAL TIERS</text>
+    
+    <rect x="20" y="55" width="300" height="70" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="75" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">TIER 1: UP TO 20 WEEKS (S. 3(2)(a)):</text>
+    <text x="30" y="95" fill="#4a5568" font-family="sans-serif" font-size="10">• Requires opinion of ONE (1) Registered Medical Practitioner.</text>
+    <text x="30" y="110" fill="#4a5568" font-family="sans-serif" font-size="10">• Grounds: Risk to life, grave injury to physical/mental health,</text>
+    <text x="35" y="122" fill="#4a5568" font-family="sans-serif" font-size="9.5">or contraceptive failure (married or unmarried woman).</text>
+
+    <rect x="20" y="135" width="300" height="95" rx="6" fill="#fff9ec" stroke="#dfbf80" stroke-width="1"/>
+    <text x="30" y="155" fill="#b98a38" font-family="sans-serif" font-size="11" font-weight="bold">TIER 2: 20 TO 24 WEEKS (S. 3(2)(b)):</text>
+    <text x="30" y="175" fill="#4a5568" font-family="sans-serif" font-size="10">• Requires opinion of TWO (2) Medical Practitioners.</text>
+    <text x="30" y="190" fill="#4a5568" font-family="sans-serif" font-size="10">• Applicable ONLY to prescribed vulnerable categories:</text>
+    <text x="35" y="205" fill="#4a5568" font-family="sans-serif" font-size="9.5">Survivors of rape/incest, minors, change of marital status</text>
+    <text x="35" y="218" fill="#4a5568" font-family="sans-serif" font-size="9.5">during pregnancy, women with disabilities, emergencies.</text>
+
+    <rect x="20" y="240" width="300" height="80" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="30" y="260" fill="#a63b49" font-family="sans-serif" font-size="11" font-weight="bold">TIER 3: BEYOND 24 WEEKS (S. 3(2B)):</text>
+    <text x="30" y="280" fill="#4a5568" font-family="sans-serif" font-size="10">• NO GESTATIONAL CEILING if substantial foetal abnormalities!</text>
+    <text x="30" y="295" fill="#4a5568" font-family="sans-serif" font-size="10">• Mandatory permission by STATE MEDICAL BOARD</text>
+    <text x="35" y="310" fill="#4a5568" font-family="sans-serif" font-size="9.5">(Gynaecologist, Paediatrician, Radiologist/Sonologist).</text>
+
+    <rect x="20" y="330" width="300" height="32" rx="4" fill="#edf7f4"/>
+    <text x="170" y="350" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: 20 Wks = 1 RMP; 24 Wks = 2 RMPs</text>
+  </g>
+
+  <!-- Right: Emergency & Landmark Law -->
+  <g transform="translate(420, 95)" filter="url(#shadow_mtp1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">EMERGENCY &amp; REPRODUCTIVE RIGHTS</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 5: Emergency Life-Saving Exception</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Where termination is immediately necessary to save the</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">LIFE OF THE PREGNANT WOMAN:</text>
+    <text x="30" y="117" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold">• Section 3 gestational limits DO NOT APPLY.</text>
+    <text x="30" y="132" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold">• Section 4 approved place requirement DOES NOT APPLY.</text>
+    <text x="30" y="147" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold">• Single RMP can perform termination at ANY place.</text>
+
+    <rect x="20" y="160" width="300" height="95" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="180" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">LANDMARK: X V. PRINCIPAL SECRETARY (2022):</text>
+    <text x="30" y="200" fill="#4a5568" font-family="sans-serif" font-size="10">• Supreme Court Bench led by CJI D.Y. Chandrachud.</text>
+    <text x="30" y="215" fill="#4a5568" font-family="sans-serif" font-size="10">• Held: Distinguishing between married and UNMARRIED</text>
+    <text x="35" y="230" fill="#4a5568" font-family="sans-serif" font-size="10">women violates Article 14. Unmarried women included</text>
+    <text x="35" y="245" fill="#4a5568" font-family="sans-serif" font-size="10">in 20-24 week window for contraceptive failure.</text>
+
+    <text x="20" y="275" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 4: Approved Places</text>
+    <text x="25" y="295" fill="#4a5568" font-family="sans-serif" font-size="11">Termination allowed only at government hospitals or places</text>
+    <text x="25" y="310" fill="#4a5568" font-family="sans-serif" font-size="11">approved by District Level Committee under CMO.</text>
+
+    <rect x="20" y="330" width="300" height="32" rx="4" fill="#fff9ec"/>
+    <text x="170" y="350" fill="#b98a38" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Landmark: X v. Principal Secy (Unmarried Equality)</text>
+  </g>
+</svg>

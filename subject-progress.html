@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142c46">
+  <meta name="description" content="Subject Analytics & Mastery Progress — UP PCS-J Judicial Services Preparation">
+  <title>Subject Progress | Judicial Prep</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/learning/css/academy.css">
+  <style>
+    .progress-hero-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .kpi-card {
+      background: #ffffff;
+      border: 1px solid #d4b67e;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(20, 44, 70, 0.05);
+    }
+    .kpi-icon {
+      font-size: 28px;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .kpi-num {
+      font-family: Georgia, serif;
+      font-size: 26px;
+      font-weight: 700;
+      color: #142c46;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .kpi-label {
+      font-size: 11.5px;
+      text-transform: uppercase;
+      color: #607387;
+      letter-spacing: 0.5px;
+    }
+    .mastery-matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #dcdfe4;
+    }
+    .mastery-matrix-table th {
+      background: #142c46;
+      color: #dfbf80;
+      padding: 12px 16px;
+      text-align: left;
+      font-family: Georgia, serif;
+      font-size: 13.5px;
+    }
+    .mastery-matrix-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #edf0f4;
+      font-size: 13.5px;
+      color: #1c2e40;
+    }
+    .mastery-matrix-table tr:hover {
+      background: #fbf8f2;
+    }
+  </style>
+</head>
+<body data-page="academy">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div><b>Judicial Prep</b><small>UP PCS-J · 2026–27</small></div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="learning-academy.html" data-view="academy" class="active"><span aria-hidden="true">🏛️</span>Subject Academy</a>
+        <a href="civil-suit-journey.html" data-view="journey"><span aria-hidden="true">⚖️</span>Civil Suit Journey</a>
+        <a href="comparison-lab.html" data-view="comparison"><span aria-hidden="true">⚖️</span>Comparison Lab</a>
+        <a href="brain-arena.html" data-view="arena"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results &amp; Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus &amp; Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div><small>Designed &amp; developed by</small><b>Tauqeer Ashraf</b></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div>
+          <div class="top-title" id="top-title-text">Subject Analytics &amp; Mastery Analytics</div>
+          <small id="top-subtitle-text">Tanveer Ashraf · Detailed Progress Breakdown: The Constitution of India</small>
+        </div>
+        <div class="top-right">
+          <small id="topStatus">Academic Analytics V3.1</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="progress-content">
+        <!-- Subject Switcher Bar -->
+        <div style="display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap;" id="progress-subject-pills">
+          <a href="subject-progress.html?subject=law-constitution" class="tab-filter-btn" id="pill-law-constitution">🏛️ Constitution</a>
+          <a href="subject-progress.html?subject=law-jurisprudence" class="tab-filter-btn" id="pill-law-jurisprudence">⚖️ Jurisprudence</a>
+          <a href="subject-progress.html?subject=law-contract" class="tab-filter-btn" id="pill-law-contract">📜 Contract Law</a>
+          <a href="subject-progress.html?subject=law-tpa" class="tab-filter-btn" id="pill-law-tpa">🏡 Property Law</a>
+          <a href="subject-progress.html?subject=law-criminal" class="tab-filter-btn" id="pill-law-criminal">⚔️ Criminal Law</a>
+          <a href="subject-progress.html?subject=law-crpc" class="tab-filter-btn" id="pill-law-crpc">⚖️ Criminal Procedure</a>
+          <a href="subject-progress.html?subject=law-evidence" class="tab-filter-btn" id="pill-law-evidence">🔍 Law of Evidence</a>
+          <a href="subject-progress.html?subject=law-cpc" class="tab-filter-btn" id="pill-law-cpc">🏛️ Civil Procedure</a>
+          <a href="subject-progress.html?subject=soc-disabilities" class="tab-filter-btn" id="pill-soc-disabilities">♿ RPwD Act</a>
+          <a href="subject-progress.html?subject=soc-parents" class="tab-filter-btn" id="pill-soc-parents">👴 Parents Act</a>
+          <a href="subject-progress.html?subject=soc-dowry" class="tab-filter-btn" id="pill-soc-dowry">💍 Dowry Act</a>
+          <a href="subject-progress.html?subject=soc-domestic-violence" class="tab-filter-btn" id="pill-soc-domestic-violence">🛡️ PWDVA</a>
+          <a href="subject-progress.html?subject=soc-posh" class="tab-filter-btn" id="pill-soc-posh">🏢 POSH Act</a>
+          <a href="subject-progress.html?subject=soc-pcpndt" class="tab-filter-btn" id="pill-soc-pcpndt">🧬 PCPNDT</a>
+          <a href="subject-progress.html?subject=soc-mtp" class="tab-filter-btn" id="pill-soc-mtp">🏥 MTP Act</a>
+          <a href="subject-progress.html?subject=soc-indecent-rep" class="tab-filter-btn" id="pill-soc-indecent-rep">📵 IRWA</a>
+          <a href="subject-progress.html?subject=soc-pocso" class="tab-filter-btn" id="pill-soc-pocso">👶 POCSO Act</a>
+        </div>
+
+        <!-- Hero Header -->
+        <div class="academy-hero-banner" style="padding: 28px 24px;">
+          <div class="academy-hero-badge">📊 Comprehensive Subject Analytics</div>
+          <h1 class="academy-hero-title" style="font-size: 24px;" id="hero-subject-title">The Constitution of India: Learning Analytics</h1>
+          <p class="academy-hero-tagline" style="margin-bottom: 0;" id="hero-subject-desc">
+            Real-time tracking of topic reading coverage, test accuracy, spaced repetition queues, and chapter mastery.
+          </p>
+        </div>
+
+        <!-- KPI Cards Grid -->
+        <div class="progress-hero-grid">
+          <div class="kpi-card">
+            <span class="kpi-icon">📖</span>
+            <span class="kpi-num" id="kpi-topics">0 / 45</span>
+            <span class="kpi-label">Topics Studied</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-icon">🎯</span>
+            <span class="kpi-num" id="kpi-accuracy">0%</span>
+            <span class="kpi-label">Overall Accuracy</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-icon">📝</span>
+            <span class="kpi-num" id="kpi-tests">0</span>
+            <span class="kpi-label">Tests Completed</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-icon">⚠️</span>
+            <span class="kpi-num text-crimson" id="kpi-mistakes">0</span>
+            <span class="kpi-label">Unresolved Errors</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-icon">★</span>
+            <span class="kpi-num" id="kpi-bookmarks" style="color: #b98a38;">0</span>
+            <span class="kpi-label">Bookmarked MCQs</span>
+          </div>
+        </div>
+
+        <!-- Quick Action Bar -->
+        <div style="background: #ffffff; border: 1px solid #d4b67e; border-radius: 8px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <h3 style="font-family: Georgia, serif; margin: 0 0 4px; color: #142c46; font-size: 16px;">Targeted Knowledge Remediation</h3>
+            <p style="margin: 0; color: #607387; font-size: 13px;">Reinforce retention by practicing only missed or saved questions.</p>
+          </div>
+          <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="topic-practice.html?subject=law-constitution&mode=mistakes" class="btn btn-outline btn-sm" id="btn-remed-mistakes">
+              ⚠️ Practice Mistake Queue
+            </a>
+            <a href="topic-practice.html?subject=law-constitution&mode=bookmarks" class="btn btn-gold btn-sm" id="btn-remed-bmk">
+              ★ Practice Bookmarks
+            </a>
+            <a href="topic-practice.html?subject=law-constitution&mode=subject_mock" class="btn btn-primary btn-sm" id="btn-remed-mock">
+              ⚡ Full Subject Mock
+            </a>
+          </div>
+        </div>
+
+        <!-- Chapter Mastery Breakdown Matrix -->
+        <div class="concept-section" style="margin-bottom: 28px;">
+          <h2 class="section-title"><span class="title-icon">🏛️</span> <span id="matrix-title-text">Syllabus Mastery Matrix</span></h2>
+          <div class="table-responsive">
+            <table class="mastery-matrix-table">
+              <thead>
+                <tr>
+                  <th>Ch #</th>
+                  <th>Chapter Title</th>
+                  <th>Statutory Scope / Articles</th>
+                  <th>Topics</th>
+                  <th>Topic Progress</th>
+                  <th>MCQ Bank</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="mastery-matrix-body">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Recent Test History Log -->
+        <div class="concept-section">
+          <h2 class="section-title"><span class="title-icon">⏱️</span> Recent Practice Test Attempts</h2>
+          <div id="test-history-mount">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        Judicial Prep · Designed for Tanveer Ashraf by Tauqeer Ashraf · 
+        <a href="about.html">Independent preparation portal</a>
+      </footer>
+    </main>
+  </div>
+
+  <noscript>Please enable JavaScript to view progress analytics.</noscript>
+
+  <!-- Data Modules -->
+  <script src="assets/learning/data/subjects.js"></script>
+
+  <!-- Constitution Data -->
+  <script src="assets/learning/data/constitution/constitution-chapters.js"></script>
+  <script src="assets/learning/data/constitution/constitution-topics.js"></script>
+  <script src="assets/learning/data/constitution/constitution-mcqs.js"></script>
+  <script src="assets/learning/data/constitution/constitution-pyq-mapping.js"></script>
+
+  <!-- Jurisprudence Data -->
+  <script src="assets/learning/data/jurisprudence/jurisprudence-chapters.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-topics.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-mcqs.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-pyq-mapping.js"></script>
+
+  <!-- Contract Law Data -->
+  <script src="assets/learning/data/contract/contract-chapters.js"></script>
+  <script src="assets/learning/data/contract/contract-topics.js"></script>
+  <script src="assets/learning/data/contract/contract-mcqs.js"></script>
+  <script src="assets/learning/data/contract/contract-pyq-mapping.js"></script>
+
+  <!-- Transfer of Property Act Data -->
+  <script src="assets/learning/data/tpa/tpa-chapters.js"></script>
+  <script src="assets/learning/data/tpa/tpa-topics.js"></script>
+  <script src="assets/learning/data/tpa/tpa-mcqs.js"></script>
+  <script src="assets/learning/data/tpa/tpa-pyq-mapping.js"></script>
+
+  <!-- Criminal Law Data -->
+  <script src="assets/learning/data/criminal/criminal-chapters.js"></script>
+  <script src="assets/learning/data/criminal/criminal-topics.js"></script>
+  <script src="assets/learning/data/criminal/criminal-mcqs.js"></script>
+  <script src="assets/learning/data/criminal/criminal-pyq-mapping.js"></script>
+
+  <!-- Criminal Procedure Data -->
+  <script src="assets/learning/data/crpc/crpc-chapters.js"></script>
+  <script src="assets/learning/data/crpc/crpc-topics.js"></script>
+  <script src="assets/learning/data/crpc/crpc-mcqs.js"></script>
+  <script src="assets/learning/data/crpc/crpc-pyq-mapping.js"></script>
+
+  <!-- Law of Evidence Data -->
+  <script src="assets/learning/data/evidence/evidence-chapters.js"></script>
+  <script src="assets/learning/data/evidence/evidence-topics.js"></script>
+  <script src="assets/learning/data/evidence/evidence-mcqs.js"></script>
+  <script src="assets/learning/data/evidence/evidence-pyq-mapping.js"></script>
+
+  <!-- Civil Procedure Code (CPC 1908) Data -->
+  <script src="assets/learning/data/cpc/cpc-chapters.js"></script>
+  <script src="assets/learning/data/cpc/cpc-topics.js"></script>
+  <script src="assets/learning/data/cpc/cpc-sections-orders-rules.js"></script>
+  <script src="assets/learning/data/cpc/cpc-mcqs.js"></script>
+  <script src="assets/learning/data/cpc/cpc-pyq-mapping.js"></script>
+  <!-- Social Legislation (Paper I — 9 Acts) Data -->
+  <script src="assets/learning/data/social/social-chapters.js"></script>
+  <script src="assets/learning/data/social/social-topics.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part1.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part2.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part3.js"></script>
+  <script src="assets/learning/data/social/social-mcqs.js"></script>
+  <script src="assets/learning/data/social/social-pyq-mapping.js"></script>
+
+
+  <!-- Statutory Comparison Dataset -->
+  <script src="assets/learning/data/comparison/criminal-statutory-comparisons.js"></script>
+  
+  <!-- Logic Engines -->
+  <script src="assets/learning/js/learning-storage.js"></script>
+  <script src="assets/learning/js/learning-engine.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const subjectId = urlParams.get('subject') || 'law-constitution';
+      const subject = LearningEngine.getSubjectById(subjectId) || { name: 'Constitution of India', icon: '🏛️', chaptersCount: 15, topicsCount: 45, code: 'LAW-CONST' };
+
+      // Update Pill Active state
+      const activePill = document.getElementById(`pill-${subjectId}`);
+      if (activePill) activePill.classList.add('active');
+
+      // Update Page Headers
+      document.title = `${subject.name} Analytics | Judicial Prep`;
+      const topTitle = document.getElementById('top-title-text');
+      const topSub = document.getElementById('top-subtitle-text');
+      const heroTitle = document.getElementById('hero-subject-title');
+      const heroDesc = document.getElementById('hero-subject-desc');
+      const matrixTitle = document.getElementById('matrix-title-text');
+
+      if (topTitle) topTitle.textContent = `Subject Analytics — ${subject.name}`;
+      if (topSub) topSub.textContent = `Tanveer Ashraf · Detailed Progress Breakdown: ${subject.name} (${subject.code || ''})`;
+      if (heroTitle) heroTitle.textContent = `${subject.name}: Learning & Mastery Analytics`;
+      if (heroDesc) heroDesc.textContent = `Real-time tracking of topic reading coverage, test accuracy, spaced repetition queues, and chapter mastery for ${subject.name}.`;
+      if (matrixTitle) matrixTitle.textContent = `${subject.chaptersCount || 0}-Chapter Syllabus Mastery Matrix`;
+
+      // Update Remediation Action Links
+      const btnMistakes = document.getElementById('btn-remed-mistakes');
+      const btnBmk = document.getElementById('btn-remed-bmk');
+      const btnMock = document.getElementById('btn-remed-mock');
+
+      if (btnMistakes) btnMistakes.href = `topic-practice.html?subject=${subjectId}&mode=mistakes`;
+      if (btnBmk) btnBmk.href = `topic-practice.html?subject=${subjectId}&mode=bookmarks`;
+      if (btnMock) btnMock.href = `topic-practice.html?subject=${subjectId}&mode=subject_mock`;
+
+      // Update KPIs
+      const progress = LearningStorage.getSubjectProgress(subjectId);
+      document.getElementById('kpi-topics').textContent = `${progress.completedTopics} / ${progress.totalTopics || subject.topicsCount || 0}`;
+      document.getElementById('kpi-accuracy').textContent = `${progress.accuracyPct}%`;
+      document.getElementById('kpi-tests').textContent = progress.testsTaken;
+      document.getElementById('kpi-mistakes').textContent = progress.unresolvedMistakes;
+      document.getElementById('kpi-bookmarks').textContent = progress.bookmarksCount;
+
+      // Render Subject Chapter Mastery Matrix
+      const matrixBody = document.getElementById('mastery-matrix-body');
+      const chapters = LearningEngine.getChaptersBySubject(subjectId);
+      const store = LearningStorage.exportData();
+      const completedTopics = store.completedTopics || {};
+
+      matrixBody.innerHTML = chapters.map(ch => {
+        const topics = LearningEngine.getTopicsByChapter(ch.id, subjectId);
+        const completedCount = topics.filter(t => completedTopics[t.id]).length;
+        const pct = topics.length > 0 ? Math.round((completedCount / topics.length) * 100) : 0;
+        const rangeText = ch.sectionsRange || ch.articlesRange || ch.scope || '';
+
+        return `
+          <tr>
+            <td><strong>${ch.number}</strong></td>
+            <td><strong><a href="subject-study.html?subject=${subjectId}&chapter=${ch.id}&topic=${topics[0]?.id || ''}" style="color: #142c46; text-decoration: none;">${ch.title}</a></strong></td>
+            <td><code style="font-size: 12px; color: #137d72;">${rangeText}</code></td>
+            <td>${topics.length}</td>
+            <td>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <div class="progress-bar-track" style="flex: 1; height: 6px;">
+                  <div class="progress-bar-fill" style="width: ${pct}%;"></div>
+                </div>
+                <span style="font-size: 11.5px; font-weight: 600; color: #137d72;">${pct}%</span>
+              </div>
+            </td>
+            <td>${ch.mcqsCount || 0} MCQs</td>
+            <td>
+              <a href="topic-practice.html?subject=${subjectId}&chapter=${ch.id}&mode=chapter_test" class="btn btn-outline btn-sm" style="padding: 3px 8px; font-size: 11px;">
+                📝 Test
+              </a>
+            </td>
+          </tr>
+        `;
+      }).join('');
+
+      // Render Recent Test History
+      const historyMount = document.getElementById('test-history-mount');
+      const history = LearningStorage.getTestHistory(10);
+
+      if (history.length === 0) {
+        historyMount.innerHTML = `
+          <p style="color: #607387; font-size: 14px; text-align: center; padding: 20px;">
+            No practice tests taken yet. Head to the <a href="topic-practice.html?subject=${subjectId}&mode=learn">Practice Test Engine</a> to take your first quiz!
+          </p>
+        `;
+      } else {
+        historyMount.innerHTML = `
+          <div class="review-list-stack">
+            ${history.map(item => `
+              <div class="review-item ${item.pct >= 70 ? 'review-correct' : 'review-wrong'}">
+                <div class="review-item-header">
+                  <span class="review-num" style="text-transform: uppercase;">${item.type.replace('_', ' ')}</span>
+                  <span class="review-outcome">${item.score} / ${item.total} (${item.pct}%)</span>
+                  <span class="review-prov">${new Date(item.date).toLocaleDateString()} ${new Date(item.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}</span>
+                </div>
+                <p style="margin: 0; font-size: 13px; color: #607387;">
+                  Time taken: ${Math.floor(item.timeSpent / 60)}m ${item.timeSpent % 60}s · Missed: ${item.mistakes ? item.mistakes.length : 0} questions
+                </p>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+    });
+  </script>
+</body>
+</html>

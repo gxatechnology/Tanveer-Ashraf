@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_dow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow_dow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg_dow1)"/>
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow_dow1)"/>
+  <text x="400" y="46" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">DOWRY PROHIBITION ACT, 1961: OFFENCES &amp; PENALTIES</text>
+  <text x="400" y="64" fill="#dfbf80" font-family="sans-serif" font-size="11" text-anchor="middle">Section 2 Dowry Definition • Mandatory Minimum Sentences • S. 6 Benefit of Wife</text>
+
+  <!-- Left: Section 3 & 4 Offences -->
+  <g transform="translate(40, 95)" filter="url(#shadow_dow1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">GIVING, TAKING &amp; DEMANDING</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 3: Giving or Taking Dowry</text>
+    <rect x="20" y="75" width="300" height="75" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="30" y="95" fill="#a63b49" font-family="sans-serif" font-size="11" font-weight="bold">MANDATORY PUNISHMENT (S. 3(1)):</text>
+    <text x="30" y="115" fill="#4a5568" font-family="sans-serif" font-size="10">• Imprisonment: Minimum FIVE (5) YEARS.</text>
+    <text x="30" y="132" fill="#4a5568" font-family="sans-serif" font-size="10">• Fine: Minimum Rs 15,000 OR amount of dowry (higher).</text>
+    <text x="30" y="145" fill="#4a5568" font-family="sans-serif" font-size="9">(Court may record reasons for lower imprisonment).</text>
+
+    <text x="20" y="175" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 4: Demanding Dowry</text>
+    <rect x="20" y="185" width="300" height="65" rx="6" fill="#fff9ec" stroke="#dfbf80" stroke-width="1"/>
+    <text x="30" y="205" fill="#b98a38" font-family="sans-serif" font-size="11" font-weight="bold">PUNISHMENT FOR DEMAND (S. 4):</text>
+    <text x="30" y="225" fill="#4a5568" font-family="sans-serif" font-size="10">• Imprisonment: Minimum 6 MONTHS up to 2 YEARS.</text>
+    <text x="30" y="240" fill="#4a5568" font-family="sans-serif" font-size="10">• Fine: Up to TEN THOUSAND (Rs 10,000) RUPEES.</text>
+
+    <text x="20" y="275" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 4A: Advertisement Ban</text>
+    <text x="25" y="295" fill="#4a5568" font-family="sans-serif" font-size="11">Printing, publishing or circulating offers of share in</text>
+    <text x="25" y="310" fill="#4a5568" font-family="sans-serif" font-size="11">property/money in consideration of marriage = 6 Mo to 5 Yrs.</text>
+
+    <rect x="20" y="335" width="300" height="28" rx="4" fill="#edf7f4"/>
+    <text x="170" y="353" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: Giving and Taking Dowry Equal Penalty (S. 3)</text>
+  </g>
+
+  <!-- Right: Agreements & Stridhan Trust -->
+  <g transform="translate(420, 95)" filter="url(#shadow_dow1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">AGREEMENT VOID &amp; TRUST (S. 5 &amp; 6)</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 5: Dowry Agreement Void</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Any agreement for the giving or taking of dowry shall be</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">VOID AB INITIO and completely unenforceable at law.</text>
+
+    <rect x="20" y="115" width="300" height="110" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="135" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">SECTION 6: DOWRY FOR BENEFIT OF WIFE:</text>
+    <text x="30" y="155" fill="#4a5568" font-family="sans-serif" font-size="10">• If received by any person other than wife, must transfer</text>
+    <text x="35" y="170" fill="#4a5568" font-family="sans-serif" font-size="10">to woman within THREE (3) MONTHS:</text>
+    <text x="40" y="185" fill="#4a5568" font-family="sans-serif" font-size="10">(a) From date of marriage (if received before marriage)</text>
+    <text x="40" y="200" fill="#4a5568" font-family="sans-serif" font-size="10">(b) From date of receipt (if received at/after marriage)</text>
+    <text x="40" y="215" fill="#4a5568" font-family="sans-serif" font-size="10">(c) From date she attains 18 years (if minor when married)</text>
+
+    <text x="20" y="245" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 6(2) Penalty for Failure to Transfer</text>
+    <text x="25" y="265" fill="#4a5568" font-family="sans-serif" font-size="11">Imprisonment minimum 6 MONTHS up to 2 YEARS,</text>
+    <text x="25" y="280" fill="#4a5568" font-family="sans-serif" font-size="11">or fine Rs 5,000 to Rs 10,000, or both.</text>
+
+    <text x="20" y="305" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 6(3): Deceased Woman's Heirs</text>
+    <text x="25" y="325" fill="#4a5568" font-family="sans-serif" font-size="11">If woman dies before receiving, property transfers to children,</text>
+    <text x="25" y="340" fill="#4a5568" font-family="sans-serif" font-size="11">or parents if she died within 7 years of marriage childless.</text>
+    <rect x="20" y="350" width="300" height="18" rx="4" fill="#fff5f5"/>
+    <text x="170" y="363" fill="#a63b49" font-family="sans-serif" font-size="9" font-weight="bold" text-anchor="middle">UP PCS-J Trap: Transfer Period is Exactly 3 Months</text>
+  </g>
+</svg>

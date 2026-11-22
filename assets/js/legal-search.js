@@ -34,6 +34,20 @@ function matchMyth(m, q) {
   return words(nq).every(w => text.includes(w));
 }
 
+function matchConstTopic(t, q) {
+  if (!q.trim()) return false;
+  const nq = norm(q);
+  const text = norm([t.title, t.subtitle, t.chapterId, t.id, ...(t.learningOutcomes || [])].join(' '));
+  return words(nq).every(w => text.includes(w));
+}
+
+function matchConstMCQ(m, q) {
+  if (!q.trim()) return false;
+  const nq = norm(q);
+  const text = norm([m.question, ...(m.options || []), m.explanation, m.provision, m.learningObjective].join(' '));
+  return words(nq).every(w => text.includes(w));
+}
+
 function renderSearch(root){
   root.innerHTML = `
     <div class="eyebrow">Unified Multi-Corpus Legal Search</div>
@@ -87,6 +101,84 @@ function drawSmart(){
   const p = Q.filter(x => matchPYQ(x, q));
   const vList = window.ARENA_VOCABULARY ? window.ARENA_VOCABULARY.filter(x => matchVocab(x, q)) : [];
   const mList = window.ARENA_MYTHS ? window.ARENA_MYTHS.filter(x => matchMyth(x, q)) : [];
+  const allAcademyTopics = [
+    ...(window.CONSTITUTION_TOPICS || []),
+    ...(window.JURISPRUDENCE_TOPICS || []),
+    ...(window.CONTRACT_TOPICS || []),
+    ...(window.TPA_TOPICS || []),
+    ...(window.CRIMINAL_TOPICS || []),
+    ...(window.CRPC_TOPICS || []),
+    ...(window.EVIDENCE_TOPICS || []),
+    ...(window.CPC_TOPICS || []),
+    ...(window.SOCIAL_TOPICS || [])
+  ];
+  const allAcademyMCQs = [
+    ...(window.CONSTITUTION_MCQS || []),
+    ...(window.JURISPRUDENCE_MCQS || []),
+    ...(window.CONTRACT_MCQS || []),
+    ...(window.TPA_MCQS || []),
+    ...(window.CRIMINAL_MCQS || []),
+    ...(window.CRPC_MCQS || []),
+    ...(window.EVIDENCE_MCQS || []),
+    ...(window.CPC_MCQS || []),
+    ...(window.SOCIAL_MCQS || [])
+  ];
+
+  const constTopics = allAcademyTopics.filter(x => matchConstTopic(x, q));
+  const constMCQs = allAcademyMCQs.filter(x => matchConstMCQ(x, q));
+
+  function getSubjectMeta(item) {
+    const id = item.id || item.topicId || '';
+    if (id.startsWith('top-jur-') || id.startsWith('mcq-jur-') || id.startsWith('ch-jur-')) {
+      return { id: 'law-jurisprudence', name: 'Jurisprudence' };
+    }
+    if (id.startsWith('top-cnt-') || id.startsWith('mcq-cnt-') || id.startsWith('ch-cnt-')) {
+      return { id: 'law-contract', name: 'Law of Contract' };
+    }
+    if (id.startsWith('top-tpa-') || id.startsWith('mcq-tpa-') || id.startsWith('ch-tpa-')) {
+      return { id: 'law-tpa', name: 'Transfer of Property' };
+    }
+    if (id.startsWith('top-crim-') || id.startsWith('mcq-crim-') || id.startsWith('ch-crim-')) {
+      return { id: 'law-criminal', name: 'Criminal Law' };
+    }
+    if (id.startsWith('top-crpc-') || id.startsWith('mcq-crpc-') || id.startsWith('ch-crpc-')) {
+      return { id: 'law-crpc', name: 'Criminal Procedure' };
+    }
+    if (id.startsWith('top-evi-') || id.startsWith('mcq-evi-') || id.startsWith('ch-evi-')) {
+      return { id: 'law-evidence', name: 'Law of Evidence' };
+    }
+    if (id.startsWith('top-cpc-') || id.startsWith('mcq-cpc-') || id.startsWith('ch-cpc-')) {
+      return { id: 'law-cpc', name: 'Code of Civil Procedure, 1908' };
+    }
+    if (id.startsWith('top-disab-') || id.startsWith('mcq-disab-') || id.startsWith('ch-soc-disab-')) {
+      return { id: 'soc-disabilities', name: 'Rights of Persons with Disabilities' };
+    }
+    if (id.startsWith('top-parent-') || id.startsWith('mcq-parent-') || id.startsWith('ch-soc-parent-')) {
+      return { id: 'soc-parents', name: 'Maintenance & Welfare of Parents' };
+    }
+    if (id.startsWith('top-dowry-') || id.startsWith('mcq-dowry-') || id.startsWith('ch-soc-dowry-')) {
+      return { id: 'soc-dowry', name: 'Dowry Prohibition Act' };
+    }
+    if (id.startsWith('top-dv-') || id.startsWith('mcq-dv-') || id.startsWith('ch-soc-dv-')) {
+      return { id: 'soc-domestic-violence', name: 'Protection of Women from Domestic Violence' };
+    }
+    if (id.startsWith('top-posh-') || id.startsWith('mcq-posh-') || id.startsWith('ch-soc-posh-')) {
+      return { id: 'soc-posh', name: 'POSH Act (Workplace Harassment)' };
+    }
+    if (id.startsWith('top-pcpndt-') || id.startsWith('mcq-pcpndt-') || id.startsWith('ch-soc-pcpndt-')) {
+      return { id: 'soc-pcpndt', name: 'PCPNDT Act' };
+    }
+    if (id.startsWith('top-mtp-') || id.startsWith('mcq-mtp-') || id.startsWith('ch-soc-mtp-')) {
+      return { id: 'soc-mtp', name: 'Medical Termination of Pregnancy' };
+    }
+    if (id.startsWith('top-irwa-') || id.startsWith('mcq-irwa-') || id.startsWith('ch-soc-irwa-')) {
+      return { id: 'soc-indecent-rep', name: 'Indecent Representation of Women' };
+    }
+    if (id.startsWith('top-pocso-') || id.startsWith('mcq-pocso-') || id.startsWith('ch-soc-pocso-')) {
+      return { id: 'soc-pocso', name: 'POCSO Act' };
+    }
+    return { id: 'law-constitution', name: 'Indian Constitution' };
+  }
 
   let html = '';
 
@@ -157,6 +249,47 @@ function drawSmart(){
           </div>
         `).join('')}
       </div>
+    `;
+  }
+
+  // 5. Judicial Learning Academy: Subject Topics & MCQs
+  if (constTopics.length > 0 || constMCQs.length > 0) {
+    html += `
+      <div class="row section" style="margin-top:24px;">
+        <h2>Judicial Learning Academy (${constTopics.length} Topics, ${constMCQs.length} MCQs)</h2>
+        <a href="learning-academy.html">Open Academy Hub →</a>
+      </div>
+      <div class="grid">
+        ${constTopics.slice(0, 4).map(t => {
+          const sub = getSubjectMeta(t);
+          return `
+          <div class="card" style="border-left:4px solid var(--teal, #137d72);">
+            <div class="row"><span class="badge" style="background:#edf7f4; color:#137d72;">${esc(sub.name)}</span><span class="caption">${esc(t.id)}</span></div>
+            <h3 style="margin:6px 0; color:#142c46;"><a href="subject-study.html?subject=${sub.id}&chapter=${esc(t.chapterId)}&topic=${esc(t.id)}" style="color:inherit; text-decoration:none;">${esc(t.title)}</a></h3>
+            <p style="font-size:0.9rem; margin:0 0 8px; color:#607387;">${esc(t.subtitle)}</p>
+            <div style="display:flex; gap:8px; margin-top:8px;">
+              <a href="subject-study.html?subject=${sub.id}&chapter=${esc(t.chapterId)}&topic=${esc(t.id)}" class="btn mini" style="background:#142c46; color:#dfbf80;">Read Topic</a>
+              <a href="topic-practice.html?subject=${sub.id}&topic=${esc(t.id)}&mode=learn" class="btn mini" style="background:#137d72; color:#fff;">Practise MCQs</a>
+            </div>
+          </div>
+        `;
+        }).join('')}
+      </div>
+      ${constMCQs.length > 0 ? `
+        <div style="margin-top:14px; display:flex; flex-direction:column; gap:10px;">
+          ${constMCQs.slice(0, 4).map(m => {
+            const sub = getSubjectMeta(m);
+            return `
+            <div class="card" style="border-left:4px solid #142c46; padding:14px 18px;">
+              <div class="row" style="margin-bottom:6px;"><span class="badge" style="background:#142c46; color:#dfbf80;">${esc(sub.name)} MCQ</span><span class="caption">${esc(m.provision)}</span></div>
+              <p style="font-size:0.95rem; font-weight:600; color:#142c46; margin:0 0 8px;">${esc(m.question)}</p>
+              <div class="caption">Correct Key: <strong>(${esc(m.answerLetter)})</strong> · ${esc(m.difficulty)} Difficulty</div>
+              <a href="topic-practice.html?subject=${sub.id}&topic=${esc(m.topicId)}&mode=learn" style="font-size:0.8rem; color:#137d72; display:inline-block; margin-top:6px;">Practise in Test Engine →</a>
+            </div>
+          `;
+          }).join('')}
+        </div>
+      ` : ''}
     `;
   }
 

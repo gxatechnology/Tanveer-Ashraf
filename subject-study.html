@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142c46">
+  <meta name="description" content="Subject Concept Study Room — UP PCS-J Judicial Services Preparation">
+  <title>Study Room | Judicial Prep</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/learning/css/academy.css">
+  <style>
+    .study-layout {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .study-layout {
+        grid-template-columns: 1fr;
+      }
+      .study-sidebar-nav {
+        display: none;
+      }
+      .study-sidebar-nav.is-mobile-open {
+        display: block;
+      }
+    }
+    .study-sidebar-nav {
+      background: #ffffff;
+      border: 1px solid #d4b67e;
+      border-radius: 10px;
+      padding: 18px 14px;
+      max-height: calc(100vh - 120px);
+      overflow-y: auto;
+      position: sticky;
+      top: 20px;
+      box-shadow: 0 4px 12px rgba(20, 44, 70, 0.05);
+    }
+    .sidebar-subject-title {
+      font-family: Georgia, serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: #142c46;
+      margin: 0 0 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .sidebar-subject-sub {
+      font-size: 11.5px;
+      color: #607387;
+      margin: 0 0 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #edf0f4;
+    }
+    .chapter-nav-group {
+      margin-bottom: 14px;
+    }
+    .chapter-nav-head {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: #142c46;
+      padding: 6px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f7f9fb;
+    }
+    .chapter-nav-head:hover {
+      background: #edf7f4;
+    }
+    .chapter-nav-head.is-active-chapter {
+      background: #142c46;
+      color: #dfbf80;
+    }
+    .topic-nav-sublist {
+      list-style: none;
+      padding: 6px 0 6px 10px;
+      margin: 0;
+    }
+    .topic-nav-link {
+      display: block;
+      padding: 5px 8px;
+      font-size: 12px;
+      color: #4a5c6e;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-bottom: 2px;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .topic-nav-link:hover {
+      background: #edf7f4;
+      color: #137d72;
+    }
+    .topic-nav-link.is-active-topic {
+      background: #137d72;
+      color: #ffffff;
+      font-weight: 600;
+    }
+    .topic-nav-link.is-read-topic::before {
+      content: "✓ ";
+      color: #137d72;
+      font-weight: bold;
+    }
+    .topic-nav-link.is-active-topic.is-read-topic::before {
+      color: #dfbf80;
+    }
+  </style>
+</head>
+<body data-page="academy">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div><b>Judicial Prep</b><small>UP PCS-J · 2026–27</small></div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="learning-academy.html" data-view="academy" class="active" aria-current="page"><span aria-hidden="true">🏛️</span>Subject Academy</a>
+        <a href="civil-suit-journey.html" data-view="journey"><span aria-hidden="true">⚖️</span>Civil Suit Journey</a>
+        <a href="comparison-lab.html" data-view="comparison"><span aria-hidden="true">⚖️</span>Comparison Lab</a>
+        <a href="brain-arena.html" data-view="arena"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results &amp; Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus &amp; Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div><small>Designed &amp; developed by</small><b>Tauqeer Ashraf</b></div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div>
+          <div class="top-title" id="top-subject-title">Study Room — The Constitution of India</div>
+          <small id="top-subject-sub">Tanveer Ashraf · Academic Concept Notes &amp; Statutory Analysis</small>
+        </div>
+        <div class="top-right">
+          <small id="topStatus">Academic Study Mode</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="study-content">
+        <div class="study-layout">
+          <!-- Sidebar Navigation: Chapters & Topics Index -->
+          <aside class="study-sidebar-nav" id="study-sidebar">
+            <h2 class="sidebar-subject-title" id="sidebar-subject-title">🏛️ Constitution of India</h2>
+            <p class="sidebar-subject-sub" id="sidebar-subject-sub">15 Chapters · 45 Structured Topics</p>
+            <div id="topics-nav-tree">
+              <!-- Rendered dynamically -->
+            </div>
+          </aside>
+
+          <!-- Main Concept Reading Area -->
+          <div class="study-main-pane" id="study-mount">
+            <!-- Rendered by ConceptRenderer -->
+            <p style="padding: 30px; text-align: center; color: #607387;">Loading study materials...</p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        Judicial Prep · Designed for Tanveer Ashraf by Tauqeer Ashraf · 
+        <a href="about.html">Independent preparation portal</a>
+      </footer>
+    </main>
+  </div>
+
+  <noscript>Please enable JavaScript to view study materials.</noscript>
+
+  <!-- Data Modules -->
+  <script src="assets/learning/data/subjects.js"></script>
+
+  <!-- Constitution Data -->
+  <script src="assets/learning/data/constitution/constitution-chapters.js"></script>
+  <script src="assets/learning/data/constitution/constitution-topics.js"></script>
+  <script src="assets/learning/data/constitution/constitution-concepts-part1.js"></script>
+  <script src="assets/learning/data/constitution/constitution-concepts-part2.js"></script>
+  <script src="assets/learning/data/constitution/constitution-concepts-part3.js"></script>
+  <script src="assets/learning/data/constitution/constitution-concepts.js"></script>
+  <script src="assets/learning/data/constitution/constitution-mcqs.js"></script>
+  <script src="assets/learning/data/constitution/constitution-pyq-mapping.js"></script>
+
+  <!-- Jurisprudence Data -->
+  <script src="assets/learning/data/jurisprudence/jurisprudence-chapters.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-topics.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-concepts-part1.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-concepts-part2.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-concepts-part3.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-concepts.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-mcqs.js"></script>
+  <script src="assets/learning/data/jurisprudence/jurisprudence-pyq-mapping.js"></script>
+
+  <!-- Contract Law Data -->
+  <script src="assets/learning/data/contract/contract-chapters.js"></script>
+  <script src="assets/learning/data/contract/contract-topics.js"></script>
+  <script src="assets/learning/data/contract/contract-concepts-part1.js"></script>
+  <script src="assets/learning/data/contract/contract-concepts-part2.js"></script>
+  <script src="assets/learning/data/contract/contract-concepts-part3.js"></script>
+  <script src="assets/learning/data/contract/contract-concepts.js"></script>
+  <script src="assets/learning/data/contract/contract-mcqs.js"></script>
+  <script src="assets/learning/data/contract/contract-pyq-mapping.js"></script>
+
+  <!-- Transfer of Property Act Data -->
+  <script src="assets/learning/data/tpa/tpa-chapters.js"></script>
+  <script src="assets/learning/data/tpa/tpa-topics.js"></script>
+  <script src="assets/learning/data/tpa/tpa-concepts-part1.js"></script>
+  <script src="assets/learning/data/tpa/tpa-concepts-part2.js"></script>
+  <script src="assets/learning/data/tpa/tpa-concepts-part3.js"></script>
+  <script src="assets/learning/data/tpa/tpa-concepts.js"></script>
+  <script src="assets/learning/data/tpa/tpa-mcqs.js"></script>
+  <script src="assets/learning/data/tpa/tpa-pyq-mapping.js"></script>
+
+  <!-- Criminal Law Data -->
+  <script src="assets/learning/data/criminal/criminal-chapters.js"></script>
+  <script src="assets/learning/data/criminal/criminal-topics.js"></script>
+  <script src="assets/learning/data/criminal/criminal-concepts-part1.js"></script>
+  <script src="assets/learning/data/criminal/criminal-concepts-part2.js"></script>
+  <script src="assets/learning/data/criminal/criminal-concepts-part3.js"></script>
+  <script src="assets/learning/data/criminal/criminal-concepts.js"></script>
+  <script src="assets/learning/data/criminal/criminal-mcqs.js"></script>
+  <script src="assets/learning/data/criminal/criminal-pyq-mapping.js"></script>
+
+  <!-- Criminal Procedure Data -->
+  <script src="assets/learning/data/crpc/crpc-chapters.js"></script>
+  <script src="assets/learning/data/crpc/crpc-topics.js"></script>
+  <script src="assets/learning/data/crpc/crpc-concepts-part1.js"></script>
+  <script src="assets/learning/data/crpc/crpc-concepts-part2.js"></script>
+  <script src="assets/learning/data/crpc/crpc-concepts-part3.js"></script>
+  <script src="assets/learning/data/crpc/crpc-concepts.js"></script>
+  <script src="assets/learning/data/crpc/crpc-mcqs.js"></script>
+  <script src="assets/learning/data/crpc/crpc-pyq-mapping.js"></script>
+
+  <!-- Law of Evidence Data -->
+  <script src="assets/learning/data/evidence/evidence-chapters.js"></script>
+  <script src="assets/learning/data/evidence/evidence-topics.js"></script>
+  <script src="assets/learning/data/evidence/evidence-concepts-part1.js"></script>
+  <script src="assets/learning/data/evidence/evidence-concepts-part2.js"></script>
+  <script src="assets/learning/data/evidence/evidence-concepts-part3.js"></script>
+  <script src="assets/learning/data/evidence/evidence-concepts.js"></script>
+  <script src="assets/learning/data/evidence/evidence-mcqs.js"></script>
+  <script src="assets/learning/data/evidence/evidence-pyq-mapping.js"></script>
+
+  <!-- Civil Procedure Code (CPC 1908) Data -->
+  <script src="assets/learning/data/cpc/cpc-chapters.js"></script>
+  <script src="assets/learning/data/cpc/cpc-topics.js"></script>
+  <script src="assets/learning/data/cpc/cpc-concepts-part1.js"></script>
+  <script src="assets/learning/data/cpc/cpc-concepts-part2.js"></script>
+  <script src="assets/learning/data/cpc/cpc-concepts-part3.js"></script>
+  <script src="assets/learning/data/cpc/cpc-concepts.js"></script>
+  <script src="assets/learning/data/cpc/cpc-sections-orders-rules.js"></script>
+  <script src="assets/learning/data/cpc/cpc-mcqs.js"></script>
+  <script src="assets/learning/data/cpc/cpc-pyq-mapping.js"></script>
+  <!-- Social Legislation (Paper I — 9 Acts) Data -->
+  <script src="assets/learning/data/social/social-chapters.js"></script>
+  <script src="assets/learning/data/social/social-topics.js"></script>
+  <script src="assets/learning/data/social/social-concepts-part1.js"></script>
+  <script src="assets/learning/data/social/social-concepts-part2.js"></script>
+  <script src="assets/learning/data/social/social-concepts-part3.js"></script>
+  <script src="assets/learning/data/social/social-concepts.js"></script>
+  <script src="assets/learning/data/social/social-sections-explorer.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part1.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part2.js"></script>
+  <script src="assets/learning/data/social/social-mcqs-part3.js"></script>
+  <script src="assets/learning/data/social/social-mcqs.js"></script>
+  <script src="assets/learning/data/social/social-pyq-mapping.js"></script>
+
+
+  <!-- Statutory Comparison Dataset -->
+  <script src="assets/learning/data/comparison/criminal-statutory-comparisons.js"></script>
+  
+  <!-- Logic Engines -->
+  <script src="assets/learning/js/learning-storage.js"></script>
+  <script src="assets/learning/js/learning-engine.js"></script>
+  <script src="assets/learning/js/concept-renderer.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      let subjectId = urlParams.get('subject') || 'law-constitution';
+      const subject = LearningEngine.getSubjectById(subjectId) || { name: 'Constitution of India', icon: '🏛️', chaptersCount: 15, topicsCount: 45 };
+
+      // Update Header & Sidebar UI with Subject Metadata
+      document.title = `${subject.name} | Study Room | Judicial Prep`;
+      const topTitle = document.getElementById('top-subject-title');
+      const topSub = document.getElementById('top-subject-sub');
+      const sidebarTitle = document.getElementById('sidebar-subject-title');
+      const sidebarSub = document.getElementById('sidebar-subject-sub');
+
+      if (topTitle) topTitle.textContent = `Study Room — ${subject.name}`;
+      if (topSub) topSub.textContent = `Tanveer Ashraf · Academic Concept Notes & Statutory Analysis (${subject.code || ''})`;
+      if (sidebarTitle) sidebarTitle.textContent = `${subject.icon || '📚'} ${subject.name}`;
+      if (sidebarSub) sidebarSub.textContent = `${subject.chaptersCount || 0} Chapters · ${subject.topicsCount || 0} Structured Topics`;
+
+      // Resolve initial chapterId and topicId
+      const subjectChapters = LearningEngine.getChaptersBySubject(subjectId);
+      let chapterId = urlParams.get('chapter');
+      if (!chapterId && subjectChapters.length > 0) {
+        chapterId = subjectChapters[0].id;
+      }
+
+      let topicId = urlParams.get('topic');
+      if (!topicId && chapterId) {
+        const chTopics = LearningEngine.getTopicsByChapter(chapterId, subjectId);
+        if (chTopics.length > 0) {
+          topicId = chTopics[0].id;
+        }
+      }
+
+      const mode = urlParams.get('mode') || 'detailed';
+      const mount = document.getElementById('study-mount');
+      const navTree = document.getElementById('topics-nav-tree');
+
+      // 1. Render Topics Sidebar Navigation Tree
+      function renderSidebarTree() {
+        const chapters = LearningEngine.getChaptersBySubject(subjectId);
+        const store = LearningStorage.exportData();
+        const completedTopics = store.completedTopics || {};
+
+        let html = '';
+        chapters.forEach(ch => {
+          const chTopics = LearningEngine.getTopicsByChapter(ch.id, subjectId);
+          const isActiveChapter = ch.id === chapterId;
+          const completedInCh = chTopics.filter(t => completedTopics[t.id]).length;
+
+          html += `
+            <div class="chapter-nav-group">
+              <div class="chapter-nav-head ${isActiveChapter ? 'is-active-chapter' : ''}" data-ch-id="${ch.id}">
+                <span>${ch.number}. ${ch.title}</span>
+                <small style="opacity: 0.8;">${completedInCh}/${chTopics.length}</small>
+              </div>
+              <ul class="topic-nav-sublist" style="${isActiveChapter ? 'display: block;' : 'display: none;'}">
+                ${chTopics.map(t => {
+                  const isActiveTopic = t.id === topicId;
+                  const isRead = !!completedTopics[t.id];
+                  return `
+                    <li>
+                      <a href="subject-study.html?subject=${subjectId}&chapter=${ch.id}&topic=${t.id}" 
+                         class="topic-nav-link ${isActiveTopic ? 'is-active-topic' : ''} ${isRead ? 'is-read-topic' : ''}" 
+                         title="${t.title}">
+                        ${t.title}
+                      </a>
+                    </li>
+                  `;
+                }).join('')}
+              </ul>
+            </div>
+          `;
+        });
+
+        navTree.innerHTML = html;
+
+        // Add accordion click to chapter headers
+        navTree.querySelectorAll('.chapter-nav-head').forEach(head => {
+          head.addEventListener('click', function () {
+            const list = this.nextElementSibling;
+            const isOpen = list.style.display === 'block';
+            list.style.display = isOpen ? 'none' : 'block';
+          });
+        });
+      }
+
+      renderSidebarTree();
+
+      // 2. Load the requested topic into ConceptRenderer
+      if (topicId) {
+        ConceptRenderer.init(mount, topicId, mode);
+      } else {
+        mount.innerHTML = `<p style="padding: 30px; text-align: center; color: #607387;">Select a topic from the sidebar index to begin studying.</p>`;
+      }
+    });
+  </script>
+</body>
+</html>

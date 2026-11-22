@@ -2,7 +2,7 @@
 
 ## 1. Project Identification & Overview
 - **Project Title:** Tanveer Ashraf — Judicial Prep 2026–27
-- **Baseline Version:** Version 3.0 — Phase 5 (Final Integration, Legal Content Audit, Advanced UI Polish, Performance Optimization & Production Readiness)
+- **Baseline Version:** Version 3.1 — Phase 5 (Complete Social Legislation Learning Academy, Nine Special Acts, Thematic Study Centre & Statutory Explorer)
 - **Primary Beneficiary:** Tanveer Ashraf (UP PCS-J Aspirant)
 - **Architect & Developer:** Tauqeer Ashraf
 - **Objective:** Private, highly structured digital study room, mock examination simulator, and cognitive legal gaming arena for the Uttar Pradesh Judicial Services Examination (UP PCS-J).
@@ -13,7 +13,7 @@
 
 ---
 
-## 2. Directory Structure & Complete 21-Page Inventory
+## 2. Directory Structure & Complete 27-Page Inventory
 ```
 Tanveer_Ashraf_Judicial/
 │
@@ -28,6 +28,10 @@ Tanveer_Ashraf_Judicial/
 ├── PROJECT_STATUS.md                     # Current audit metrics & verification status
 ├── CHANGELOG.md                          # Release history across all versions & phases
 ├── LEGAL_CONTENT_AUDIT.md                # Comprehensive preflight audit of legal citations
+├── SOCIAL_LEGISLATION_CONTENT_AUDIT.md   # Social Legislation 9-Act statutory & case law audit
+├── SOCIAL_LEGISLATION_ACT_INDEX.md       # Social Legislation 98-entry high-yield statutory index
+├── PHASE5_SOCIAL_LEGISLATION_QA.md       # Phase 5 QA test execution & verification report
+├── LEARNING_ACADEMY_REPORT.md            # Subject-wise Learning Academy master delivery report
 ├── GAME_MISSION_SCHEMA.md                # Campaign progression & mission binding schema
 │
 ├── index.html                            # 1. Master Personal Dashboard
@@ -41,16 +45,22 @@ Tanveer_Ashraf_Judicial/
 ├── myth-buster.html                      # 9. Game 7: Legal Myth Buster: The Chamber of Truth (V3.0 Phase 4)
 ├── judiciary-journey.html                # 10. Game 8: Road to Judiciary: The Learning Journey (V3.0 Phase 4)
 ├── achievements.html                     # 11. Judicial Hall of Achievements (38 Badges) (V3.0 Phase 4)
-├── library.html                          # 12. Previous Year Question Library
-├── bns.html                              # 13. Bharatiya Nyaya Sanhita (BNS) Section Library
-├── search.html                           # 14. Advanced Multi-Corpus Smart Legal Search (V3.0 Phase 5)
-├── tests.html                            # 15. Examination & Mock Test Simulator
-├── exam.html                             # 16. Active Full-Screen Examination Interface
-├── results.html                          # 17. Advanced Analytics, Examination History & Backup (V3.0 Phase 5)
-├── review.html                           # 18. Detailed Post-Examination Question Review
-├── revision.html                         # 19. Unified Smart Revision Centre (V3.0 Phase 5)
-├── syllabus.html                         # 20. UP PCS-J Official Syllabus & Bare Act Reader
-├── about.html                            # 21. Candidate & Developer Attribution Page
+├── learning-academy.html                 # 12. Subject Academy Hub (30 Subjects, 17 Active) (V3.1 Phase 1-5)
+├── subject-study.html                    # 13. Chapter & Topic Study Room (84 Topics in Social, 373 Total) (V3.1 Phase 1-5)
+├── topic-practice.html                   # 14. Practice Test Engine (8 Modes, 3,075 MCQs) (V3.1 Phase 1-5)
+├── subject-progress.html                 # 15. Subject Mastery Analytics & Mastery Matrix (V3.1 Phase 1-5)
+├── library.html                          # 16. Previous Year Question Library
+├── bns.html                              # 17. Bharatiya Nyaya Sanhita (BNS) Section Library
+├── search.html                           # 18. Advanced Multi-Corpus Smart Legal Search (V3.1 Phase 1-5)
+├── tests.html                            # 19. Examination & Mock Test Simulator
+├── exam.html                             # 20. Active Full-Screen Examination Interface
+├── results.html                          # 21. Advanced Analytics, Examination History & Backup
+├── review.html                           # 22. Detailed Post-Examination Question Review
+├── revision.html                         # 23. Unified Smart Revision Centre
+├── syllabus.html                         # 24. UP PCS-J Official Syllabus & Bare Act Reader
+├── about.html                            # 25. Candidate & Developer Attribution Page
+├── comparison-lab.html                   # 26. Statutory Comparison Lab (79 Criminal Transitions & S. 106(2) Stay Alert)
+├── civil-suit-journey.html               # 27. The Civil Suit Journey: From Plaint to Decree (14 Interactive Stages) (V3.1 Phase 4)
 │
 ├── assets/
 │   ├── css/
@@ -65,46 +75,35 @@ Tanveer_Ashraf_Judicial/
 │   │   ├── emblem.svg                    # Judicial scales & court emblem
 │   │   ├── tanveer.webp / tanveer-original.webp # Candidate portrait (Tanveer Ashraf)
 │   │   └── tauqeer.webp / tauqeer-original.webp # Developer portrait (Tauqeer Ashraf)
-│   └── games/
+│   ├── games/
+│   │   ├── css/                          # 7 specialized gaming stylesheets
+│   │   ├── data/                         # Cases, crossword grids, myths, vocabulary, chapters
+│   │   ├── js/                           # Gaming controllers, audio, deduction engines
+│   │   └── images/                       # Character SVGs, environments, card covers
+│   └── learning/
 │       ├── css/
-│       │   ├── arena.css                 # Brain Arena dashboard styling
-│       │   ├── games.css                 # Shared card, HUD, and audio styles
-│       │   ├── detective.css             # Investigation board styles
-│       │   ├── courtroom.css             # Courtroom simulation styles
-│       │   ├── puzzle-games.css          # Crossword and Scramble styling
-│       │   ├── myth-buster.css           # Chamber of Truth & Scales of Justice styles
-│       │   └── judiciary-journey.css     # Campaign map, missions & completion styles
+│       │   └── academy.css               # Comprehensive Subject Academy styles
 │       ├── data/
-│       │   ├── characters.js             # 12 mentor & character profiles
-│       │   ├── legal-game-content.js     # Memory match & section sprint cards
-│       │   ├── detective-cases.js        # 6 authored criminal investigations
-│       │   ├── courtroom-cases.js        # 6 authored judicial bench proceedings
-│       │   ├── legal-vocabulary.js       # 285 authenticated legal vocabulary terms
-│       │   ├── crossword-puzzles.js      # 30 mathematically verified crossword grids
-│       │   ├── legal-myths.js            # 330 verified statutory propositions
-│       │   ├── journey-chapters.js       # 9 campaign chapters
-│       │   └── journey-missions.js       # 36 connected campaign missions
+│       │   ├── subjects.js               # 30 UP PCS-J subject registry (Paper I & II, 17 active)
+│       │   ├── comparison/
+│       │   │   └── criminal-statutory-comparisons.js # 79 verified criminal law transitions
+│       │   ├── constitution/             # 15 Chapters, 45 Topics, 480 MCQs, 158 PYQs
+│       │   ├── jurisprudence/            # 11 Chapters, 30 Topics, 240 MCQs, 45 PYQs
+│       │   ├── contract/                 # 11 Chapters, 32 Topics, 260 MCQs, 82 PYQs
+│       │   ├── tpa/                      # 8 Chapters, 24 Topics, 240 MCQs, 47 PYQs
+│       │   ├── criminal/                 # 12 Chapters, 36 Topics, 360 MCQs, 78 PYQs
+│       │   ├── crpc/                     # 12 Chapters, 35 Topics, 360 MCQs, 49 PYQs
+│       │   ├── evidence/                 # 10 Chapters, 30 Topics, 280 MCQs, 73 PYQs
+│       │   ├── cpc/                      # 20 Chapters, 57 Topics, 400 MCQs, 60 PYQs, 83 SOR Entries
+│       │   └── social/                   # 28 Chapters, 84 Topics, 455 MCQs, 23 PYQs, 98 Sections Explorer Entries
 │       ├── js/
-│       │   ├── game-storage.js           # Persistent storage (`tanveer-arena-v1`)
-│       │   ├── game-audio.js             # Web Audio API sound synthesizers
-│       │   ├── achievements.js           # 38 judicial achievement honors
-│       │   ├── game-engine.js            # Core gamification controller
-│       │   ├── detective-engine.js       # Evidence board & deduction engine
-│       │   ├── courtroom-engine.js       # Bench proceedings & order builder
-│       │   ├── vocabulary-engine.js      # Word scramble & spaced repetition
-│       │   ├── crossword-engine.js       # Crossword grid solver & clue engine
-│       │   ├── myth-engine.js            # Myth evaluation & confidence scoring
-│       │   ├── myth-buster.js            # Myth Buster UI controller
-│       │   ├── mastery-engine.js         # Multi-discipline competence calculator
-│       │   ├── learning-plan.js          # Deterministic daily study plan generator
-│       │   ├── mission-engine.js         # Campaign mission executor & tracking
-│       │   ├── journey-engine.js         # Campaign map state manager
-│       │   └── judiciary-journey.js      # Road to Judiciary UI controller
+│       │   ├── learning-storage.js       # Dedicated storage controller (`tanveer-learning-v1`)
+│       │   ├── learning-engine.js        # Academy hub and chapter navigation
+│       │   ├── concept-renderer.js       # Detailed & Quick study mode, flashcards, SVGs
+│       │   └── practice-engine.js        # 8 practice modes, instant rationale, review link
 │       └── images/
-│           ├── cards/                    # 8 high-res SVG game cover artworks
-│           ├── characters/               # Illustrated character SVGs across games
-│           ├── environments/             # Cinematic environment backdrops
-│           └── screenshots/              # Comprehensive visual verification gallery
+│           ├── subjects/                 # Subject icon artwork
+│           └── diagrams/                 # 90 custom vector SVG schematics (18 Social added)
 ```
 
 ---
@@ -115,12 +114,8 @@ Tanveer_Ashraf_Judicial/
 2. **`tanveer-bns-bookmarks-v1`:**
    - Stores bookmarked BNS section numbers.
 3. **`tanveer-arena-v1`:**
-   - Stores:
-     - `xp`, `level`, `streak`
-     - `history` of game sessions
-     - `unlockedAchievements` (38 badges)
-     - `journey`: `completedMissions` (36 missions), `unlockedChapters` (9 chapters), `activeMissionId`
-     - `personalBests` across all 8 games
-     - `weakKnowledge` & `misconceptions` queue
-4. **Unified Backup (`v3.0.0-unified-backup`):**
-   - Single-file export/import bundling all three stores into a timestamped, validated JSON structure.
+   - Stores gaming XP, level, streak, session history, unlocked achievements (38 badges), journey progression, personal bests, and weak knowledge queue.
+4. **`tanveer-learning-v1`:**
+   - Stores Subject Academy topic read markers (`completedTopics`), bookmarked questions (`bookmarks`), missed/wrong question queue (`wrongQuestions`), practice test records (`practiceHistory`), and subject accuracy KPIs across all 17 active subjects.
+5. **Unified Backup (`v3.1.0-unified-backup`):**
+   - Single-file export/import bundling all four stores into a timestamped, validated JSON structure with full backward compatibility for older backup versions.

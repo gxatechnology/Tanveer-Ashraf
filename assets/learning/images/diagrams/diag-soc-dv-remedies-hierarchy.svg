@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_dv1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow_dv1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg_dv1)"/>
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow_dv1)"/>
+  <text x="400" y="46" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">DOMESTIC VIOLENCE ACT, 2005: REMEDIES MATRIX</text>
+  <text x="400" y="64" fill="#dfbf80" font-family="sans-serif" font-size="11" text-anchor="middle">Civil Law Relief Spectrum • Magistrate Powers • Section 31 Criminal Sanction</text>
+
+  <!-- Left: Civil Reliefs -->
+  <g transform="translate(40, 95)" filter="url(#shadow_dv1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">STATUTORY CIVIL RELIEFS</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 18: Protection Orders</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Restraining respondent from committing DV, entering</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">place of employment, communicating, disposing assets.</text>
+
+    <text x="20" y="125" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 19: Residence Orders</text>
+    <text x="25" y="145" fill="#4a5568" font-family="sans-serif" font-size="11">Restraining dispossession from shared household, directing</text>
+    <text x="25" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">respondent to remove himself, securing alternate housing.</text>
+
+    <text x="20" y="185" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 20: Monetary Reliefs</text>
+    <text x="25" y="205" fill="#4a5568" font-family="sans-serif" font-size="11">Medical expenses, loss of earnings, destruction of property,</text>
+    <text x="25" y="220" fill="#4a5568" font-family="sans-serif" font-size="11">and maintenance under or in addition to CrPC S. 125.</text>
+
+    <text x="20" y="245" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 21 &amp; 22: Custody &amp; Compensation</text>
+    <text x="25" y="265" fill="#4a5568" font-family="sans-serif" font-size="11">Temporary custody of children to aggrieved woman;</text>
+    <text x="25" y="280" fill="#4a5568" font-family="sans-serif" font-size="11">compensation for injuries, emotional distress &amp; trauma.</text>
+
+    <rect x="20" y="300" width="300" height="60" rx="4" fill="#edf7f4"/>
+    <text x="170" y="320" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">SECTION 23: EX PARTE &amp; INTERIM RELIEFS</text>
+    <text x="170" y="338" fill="#4a5568" font-family="sans-serif" font-size="9" text-anchor="middle">Magistrate may grant interim and ex-parte orders on affidavit</text>
+    <text x="170" y="350" fill="#4a5568" font-family="sans-serif" font-size="9" text-anchor="middle">without waiting for response if prima facie case established</text>
+  </g>
+
+  <!-- Right: Procedure & Section 31 Criminal Sanction -->
+  <g transform="translate(420, 95)" filter="url(#shadow_dv1)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">PROCEDURE &amp; PENALTIES</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 12: Application to Magistrate</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Presented to Judicial Magistrate First Class or MM;</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">Magistrate MUST consider Domestic Incident Report (DIR).</text>
+
+    <text x="20" y="125" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 12(5): 60-Day Disposal Mandate</text>
+    <text x="25" y="145" fill="#4a5568" font-family="sans-serif" font-size="11">Magistrate shall endeavor to dispose of every application</text>
+    <text x="25" y="160" fill="#4a5568" font-family="sans-serif" font-size="11">within SIXTY (60) DAYS from date of first hearing.</text>
+
+    <rect x="20" y="175" width="300" height="85" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="30" y="195" fill="#a63b49" font-family="sans-serif" font-size="11" font-weight="bold">SECTION 31: BREACH OF PROTECTION ORDER:</text>
+    <text x="30" y="215" fill="#4a5568" font-family="sans-serif" font-size="10">• Breach of protection/interim protection order is an offence.</text>
+    <text x="30" y="230" fill="#4a5568" font-family="sans-serif" font-size="10">• Imprisonment up to ONE (1) YEAR, or fine up to Rs 20,000.</text>
+    <text x="30" y="245" fill="#4a5568" font-family="sans-serif" font-size="10">• Section 32: Offence is COGNIZABLE and NON-BAILABLE.</text>
+
+    <text x="20" y="280" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 29: Appeal</text>
+    <text x="25" y="300" fill="#4a5568" font-family="sans-serif" font-size="11">Appeal lies to COURT OF SESSION within 30 DAYS</text>
+    <text x="25" y="315" fill="#4a5568" font-family="sans-serif" font-size="11">from the date order is served on aggrieved person/respondent.</text>
+
+    <rect x="20" y="335" width="300" height="28" rx="4" fill="#fff9ec"/>
+    <text x="170" y="353" fill="#b98a38" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: Appeal Lies to Sessions Court (30 Days)</text>
+  </g>
+</svg>

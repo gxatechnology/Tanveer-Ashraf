@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_par2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#1b3857"/>
+    </linearGradient>
+    <filter id="shadow_par2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="12" fill="url(#bg_par2)"/>
+  <rect x="30" y="20" width="740" height="55" rx="8" fill="#137d72" filter="url(#shadow_par2)"/>
+  <text x="400" y="46" fill="#ffffff" font-family="Georgia, serif" font-size="18" font-weight="bold" text-anchor="middle">SECTION 23: PROPERTY VOIDANCE &amp; S. 24 OFFENCES</text>
+  <text x="400" y="64" fill="#dfbf80" font-family="sans-serif" font-size="11" text-anchor="middle">Deemed Fraud Transfers • Sudesh Chhikara Doctrine • Abandonment Penalties</text>
+
+  <!-- Left: Section 23 Property Transfer -->
+  <g transform="translate(40, 95)" filter="url(#shadow_par2)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#142c46"/>
+    <text x="170" y="27" fill="#dfbf80" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">SECTION 23: PROPERTY TRANSFER VOID</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Statutory Deemed Fraud Provision</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Where senior citizen transfers property by gift or otherwise,</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">subject to condition of basic amenities &amp; physical needs.</text>
+
+    <rect x="20" y="115" width="300" height="100" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+    <text x="30" y="135" fill="#137d72" font-family="sans-serif" font-size="11" font-weight="bold">ESSENTIAL CONDITIONS FOR S. 23 VOIDANCE:</text>
+    <text x="30" y="155" fill="#4a5568" font-family="sans-serif" font-size="10">1. Transfer must be made after Act commencement (2007).</text>
+    <text x="30" y="172" fill="#4a5568" font-family="sans-serif" font-size="10">2. Transferee undertook to provide basic amenities/needs.</text>
+    <text x="30" y="189" fill="#4a5568" font-family="sans-serif" font-size="10">3. Transferee failed or refused to provide amenities.</text>
+    <text x="30" y="206" fill="#4a5568" font-family="sans-serif" font-size="10">-> Transfer deemed made by FRAUD, COERCION or UNDUE INFLUENCE.</text>
+
+    <text x="20" y="235" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Landmark: Sudesh Chhikara v. Ramti Devi (2022)</text>
+    <text x="25" y="255" fill="#4a5568" font-family="sans-serif" font-size="11">Supreme Court held: Condition to maintain MUST be stated</text>
+    <text x="25" y="270" fill="#4a5568" font-family="sans-serif" font-size="11">in the document or clearly discernible from circumstances.</text>
+
+    <text x="20" y="295" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Power of Maintenance Tribunal</text>
+    <text x="25" y="315" fill="#4a5568" font-family="sans-serif" font-size="11">Tribunal can declare transfer VOID at senior citizen's option.</text>
+    <rect x="20" y="335" width="300" height="28" rx="4" fill="#fff9ec"/>
+    <text x="170" y="353" fill="#b98a38" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Point: Transfer Void at Option of Senior Citizen</text>
+  </g>
+
+  <!-- Right: Section 24 Offences & Welfare -->
+  <g transform="translate(420, 95)" filter="url(#shadow_par2)">
+    <rect width="340" height="375" rx="8" fill="#fbf8f2"/>
+    <rect width="340" height="42" rx="8" fill="#137d72"/>
+    <text x="170" y="27" fill="#ffffff" font-family="Georgia, serif" font-size="13" font-weight="bold" text-anchor="middle">S. 24 OFFENCE &amp; STATE WELFARE</text>
+    
+    <text x="20" y="65" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 24: Abandonment of Senior Citizen</text>
+    <text x="25" y="85" fill="#4a5568" font-family="sans-serif" font-size="11">Whoever, having the care or protection of senior citizen,</text>
+    <text x="25" y="100" fill="#4a5568" font-family="sans-serif" font-size="11">leaves such senior citizen in any place with intention of</text>
+    <text x="25" y="115" fill="#4a5568" font-family="sans-serif" font-size="11">wholly abandoning them commits a cognizable offence.</text>
+
+    <rect x="20" y="130" width="300" height="80" rx="6" fill="#fff5f5" stroke="#a63b49" stroke-width="1"/>
+    <text x="30" y="150" fill="#a63b49" font-family="sans-serif" font-size="11" font-weight="bold">PUNISHMENT UNDER SECTION 24:</text>
+    <text x="30" y="170" fill="#4a5568" font-family="sans-serif" font-size="10">• Imprisonment up to THREE (3) MONTHS, or</text>
+    <text x="30" y="187" fill="#4a5568" font-family="sans-serif" font-size="10">• Fine up to FIVE THOUSAND (Rs 5,000) RUPEES, or BOTH.</text>
+    <text x="30" y="202" fill="#4a5568" font-family="sans-serif" font-size="10">• Section 25: Cognizable &amp; Bailable offence tried summarily.</text>
+
+    <text x="20" y="235" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 19: Old Age Homes</text>
+    <text x="25" y="255" fill="#4a5568" font-family="sans-serif" font-size="11">State Government may establish old age homes accessible</text>
+    <text x="25" y="270" fill="#4a5568" font-family="sans-serif" font-size="11">to at least 150 indigent senior citizens per district.</text>
+
+    <text x="20" y="295" fill="#142c46" font-family="sans-serif" font-size="12" font-weight="bold">• Section 20: Medical Support Mandates</text>
+    <text x="25" y="315" fill="#4a5568" font-family="sans-serif" font-size="11">Government hospitals to provide beds, separate queues,</text>
+    <text x="25" y="330" fill="#4a5568" font-family="sans-serif" font-size="11">and specialized geriatric treatment facilities.</text>
+    <rect x="20" y="342" width="300" height="24" rx="4" fill="#edf7f4"/>
+    <text x="170" y="358" fill="#137d72" font-family="sans-serif" font-size="10" font-weight="bold" text-anchor="middle">UP PCS-J Trap: Penalty S. 24 is 3 Months / Rs 5,000</text>
+  </g>
+</svg>
