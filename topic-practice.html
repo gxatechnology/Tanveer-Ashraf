@@ -10,6 +10,7 @@
   <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/site.css">
   <link rel="stylesheet" href="assets/learning/css/academy.css">
+  <link rel="stylesheet" href="assets/css/nav-drawer.css">
 </head>
 <body data-page="practice">
   <div class="app">
@@ -49,6 +50,11 @@
         <div class="top-right">
           <small id="topStatus">Interactive Practice Mode</small>
           <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+          <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="globalNavDrawer">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
         </div>
       </header>
 
@@ -137,6 +143,7 @@
   <script src="assets/learning/js/learning-storage.js"></script>
   <script src="assets/learning/js/learning-engine.js"></script>
   <script src="assets/learning/js/practice-engine.js"></script>
+  <script src="assets/js/nav-drawer.js"></script>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {

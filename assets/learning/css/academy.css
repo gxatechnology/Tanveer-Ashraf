@@ -461,12 +461,18 @@
   border: 1px solid #d4b67e;
   margin-bottom: 20px;
   box-shadow: 0 4px 12px rgba(20, 44, 70, 0.05);
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .study-breadcrumb {
   font-size: 12px;
   color: #607387;
   margin-bottom: 12px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.5;
 }
 
 .study-breadcrumb a {
@@ -485,6 +491,12 @@
   align-items: flex-start;
   gap: 20px;
   flex-wrap: wrap;
+  min-width: 0;
+}
+
+.study-title-row > div:first-child {
+  min-width: 0;
+  flex: 1 1 280px;
 }
 
 .study-tag-row {
@@ -492,6 +504,7 @@
   gap: 8px;
   align-items: center;
   margin-bottom: 8px;
+  flex-wrap: wrap;
 }
 
 .badge-topic-id {
@@ -518,18 +531,24 @@
   font-weight: 700;
   color: #142c46;
   margin: 0 0 6px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  min-width: 0;
 }
 
 .study-subtitle {
   font-size: 14px;
   color: #607387;
   margin: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .study-header-actions {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 /* Study Toolbar (Mode toggle & Font sizing) */
@@ -606,6 +625,9 @@
   font-size: 16.5px;
   line-height: 1.7;
   color: #1c2e40;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
 }
 
 .concept-section {
@@ -615,6 +637,15 @@
   border: 1px solid #dcdfe4;
   margin-bottom: 24px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+
+.comparison-card {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
 }
 
 .section-title {
@@ -732,7 +763,7 @@
 /* Landmark Case Laws Grid */
 .cases-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
   gap: 18px;
 }
 
@@ -801,11 +832,22 @@
 }
 
 /* Comparison Tables */
+.table-responsive {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
 .academic-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 14.5px;
-  margin: 12px 0 20px;
+  margin: 0;
 }
 
 .academic-table th {
@@ -816,12 +858,18 @@
   font-family: Georgia, serif;
   font-weight: 600;
   border: 1px solid #142c46;
+  white-space: normal !important;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .academic-table td {
   padding: 12px 14px;
   border: 1px solid #e0ded8;
   color: #1c2e40;
+  white-space: normal !important;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .academic-table tr:nth-child(even) {
@@ -841,6 +889,8 @@
   padding: 20px;
   text-align: center;
   margin-bottom: 20px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .diagram-title {
@@ -848,6 +898,7 @@
   font-size: 17px;
   color: #142c46;
   margin: 0 0 14px;
+  overflow-wrap: break-word;
 }
 
 .diagram-img-box {
@@ -855,6 +906,9 @@
   border-radius: 6px;
   padding: 12px;
   margin-bottom: 12px;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .responsive-diagram-svg {
@@ -862,18 +916,20 @@
   height: auto;
   border-radius: 4px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: inline-block;
 }
 
 .diagram-caption {
   font-size: 13px;
   color: #607387;
   margin: 0;
+  overflow-wrap: break-word;
 }
 
 /* Flashcards */
 .flashcards-deck {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 18px;
 }
 
@@ -1227,6 +1283,13 @@
   flex-shrink: 0;
 }
 
+.opt-text {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
 .option-choice-btn.is-correct {
   background: #edf7f4;
   border-color: #137d72;
@@ -1332,6 +1395,16 @@
   background: #ffffff;
   border-radius: 6px;
   border: 1px solid #e8e5dc;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.breakdown-text {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .breakdown-row.is-correct-row {

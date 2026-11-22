@@ -287,19 +287,19 @@
                 return `
                   <div class="comparison-card">
                     <h3 class="comp-title">${comp.title || 'Comparison Table'}</h3>
-                    <div class="table-responsive">
-                      <table class="academic-table">
+                    <div class="table-responsive" style="display:block;width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:12px 0 20px;border-radius:8px;box-sizing:border-box;">
+                      <table class="academic-table" style="width:100%;min-width:540px;border-collapse:collapse;">
                         <thead>
                           <tr>
-                            ${comp.headers.map(h => `<th>${h}</th>`).join('')}
+                            ${comp.headers.map(h => `<th style="white-space:normal!important;word-break:break-word;">${h}</th>`).join('')}
                           </tr>
                         </thead>
                         <tbody>
                           ${comp.rows.map(row => `
                             <tr>
                               ${Array.isArray(row)
-                                ? row.map((cell, idx) => `<td class="${idx === 0 ? 'diff-point' : ''}">${idx === 0 ? `<strong>${cell}</strong>` : cell}</td>`).join('')
-                                : `<td class="diff-point"><strong>${row.point || ''}</strong></td><td>${row.a || ''}</td><td>${row.b || ''}</td>`
+                                ? row.map((cell, idx) => `<td class="${idx === 0 ? 'diff-point' : ''}" style="white-space:normal!important;word-break:break-word;">${idx === 0 ? `<strong>${cell}</strong>` : cell}</td>`).join('')
+                                : `<td class="diff-point" style="white-space:normal!important;word-break:break-word;"><strong>${row.point || ''}</strong></td><td style="white-space:normal!important;word-break:break-word;">${row.a || ''}</td><td style="white-space:normal!important;word-break:break-word;">${row.b || ''}</td>`
                               }
                             </tr>
                           `).join('')}
@@ -312,21 +312,21 @@
               return `
                 <div class="comparison-card">
                   <h3 class="comp-title">${comp.title || 'Comparison Table'}</h3>
-                  <div class="table-responsive">
-                    <table class="academic-table">
+                  <div class="table-responsive" style="display:block;width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:12px 0 20px;border-radius:8px;box-sizing:border-box;">
+                    <table class="academic-table" style="width:100%;min-width:540px;border-collapse:collapse;">
                       <thead>
                         <tr>
-                          <th>Point of Distinction</th>
-                          <th>${comp.colA || 'Concept A'}</th>
-                          <th>${comp.colB || 'Concept B'}</th>
+                          <th style="white-space:normal!important;word-break:break-word;">Point of Distinction</th>
+                          <th style="white-space:normal!important;word-break:break-word;">${comp.colA || 'Concept A'}</th>
+                          <th style="white-space:normal!important;word-break:break-word;">${comp.colB || 'Concept B'}</th>
                         </tr>
                       </thead>
                       <tbody>
                         ${(comp.rows || []).map(r => `
                           <tr>
-                            <td class="diff-point"><strong>${r.point}</strong></td>
-                            <td>${r.a}</td>
-                            <td>${r.b}</td>
+                            <td class="diff-point" style="white-space:normal!important;word-break:break-word;"><strong>${r.point}</strong></td>
+                            <td style="white-space:normal!important;word-break:break-word;">${r.a}</td>
+                            <td style="white-space:normal!important;word-break:break-word;">${r.b}</td>
                           </tr>
                         `).join('')}
                       </tbody>

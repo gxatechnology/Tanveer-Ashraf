@@ -6,6 +6,39 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [3.1.7] — Master Responsive UI Correction & Right-Side Hamburger Drawer — 2026-11-23
+*Tag: V3.1.7 Master Responsive UI Correction, Top-Right Hamburger Menu, Right-Side Slide Drawer & Study Room Overflow Fix*
+
+### Added
+- **Universal Top-Right Three-Line Hamburger Button (`.menu-toggle-btn` / `#menuToggleBtn`):**
+  - Positioned consistently in the top-right corner of headers across all 27 operational HTML pages (`.top .top-right`, `.topbar .user-chip`, `.topbar`).
+  - Accessible >= 44x44px touch target, rounded interactive surface, midnight navy and antique gold styling (`#142c46`, `#dfbf80`).
+  - Animated three-line transition to close state (X) when open.
+  - Full ARIA compliance: `aria-label`, `aria-expanded`, `aria-controls="globalNavDrawer"`, visible focus indicators.
+- **Universal Right-Side Slide-Out Navigation Drawer (`assets/css/nav-drawer.css`, `assets/js/nav-drawer.js`):**
+  - Slides out smoothly from the right edge (`transform: translateX(100%)` to `transform: translateX(0)`) with a dark translucent backdrop (`.drawer-backdrop`).
+  - Multi-tab architecture:
+    - **Tab A (Website Menu):** Direct access to all 13 primary website destinations using verified V3.1.6 routes (Dashboard, Subject Academy, Civil Suit Journey, Comparison Lab, Brain Arena, PYQ Library, BNS Bare Act, Smart Search, Test Centre, Results & Progress, Revision, Syllabus, About).
+    - **Tab B (Chapters & Topics):** Contextual study navigation for all 17 active subjects with reading progress bar, expandable chapter accordions, active topic highlights, and read status checkmarks. Clicking a topic navigates and auto-closes the drawer.
+    - **Tab C (Study Tools):** Detailed Study vs. Quick Revision toggle, Font scaling (A-, A, A+), Mark as Read/Unread, Practise This Topic link, Related PYQs link, and Print note action.
+  - Complete keyboard and touch support: Escape key close, backdrop tap close, link click auto-close, focus containment / Tab trap, focus restoration on close, body background scrolling lock (`body.drawer-open`).
+- **Master Responsive Regression Test Suite (`scripts/validate_responsive_ui.py`):**
+  - Standalone 29-check test suite verifying drawer presence across all 27 HTML pages, right-side CSS positioning, 17-subject curriculum generation, route validity, ARIA attributes, and responsive overflow rules. Passed 29/29 (100%).
+
+### Fixed
+- **Study Room Desktop Horizontal Overflow (`subject-study.html?subject=law-criminal`):**
+  - Root cause resolved: `.study-layout` updated from `grid-template-columns: 280px 1fr` to `grid-template-columns: 280px minmax(0, 1fr)`.
+  - Added `min-width: 0; max-width: 100%;` on `.study-main-pane`, `.concept-content-area`, `.concept-section`, and `.comparison-card`.
+  - Added `.table-responsive` with `display: block; width: 100%; max-width: 100%; overflow-x: auto;` and `white-space: normal !important; word-break: break-word;` on table cells, eliminating the 356px document overflow without blanket `overflow-x: hidden` hacks (`scrollWidth === clientWidth`, difference: `0.00px`).
+- **Empty Subtitle Parentheses in Study Room Header (`subject-study.html`):**
+  - Corrected dynamic subtitle formatting in `subject-study.html`: displays `Tanveer Ashraf · Academic Concept Notes & Statutory Analysis` cleanly when `subject.code` is absent, completely eliminating empty `()`.
+- **Responsive Practice Engine (`topic-practice.html`, `assets/learning/css/academy.css`):**
+  - Added `flex: 1; min-width: 0; overflow-wrap: break-word; word-break: break-word;` on `.opt-text` and `.breakdown-text` so MCQ options and four-option breakdowns stack and wrap gracefully across mobile screens (320px–390px).
+- **Windows Python 3.14 Subprocess Encoding (`scripts/validate_navigation_routes.py`):**
+  - Added explicit `encoding='utf-8', errors='replace'` to subprocess calls to prevent ANSI code page decoding errors on Windows.
+
+---
+
 ## [3.1.6] — Production Hotfix — 2026-11-23
 *Tag: V3.1 Production Hotfix — Subject Academy Navigation 404 & Routing Integrity*
 

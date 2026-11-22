@@ -8,24 +8,48 @@
   <meta name="description" content="Subject Concept Study Room — UP PCS-J Judicial Services Preparation">
   <title>Study Room | Judicial Prep</title>
   <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/site.css">
-  <link rel="stylesheet" href="assets/learning/css/academy.css">
+  <link rel="stylesheet" href="assets/css/site.css?v=3.1.7">
+  <link rel="stylesheet" href="assets/learning/css/academy.css?v=3.1.7">
+  <link rel="stylesheet" href="assets/css/nav-drawer.css?v=3.1.7">
   <style>
     .study-layout {
       display: grid;
-      grid-template-columns: 280px 1fr;
+      grid-template-columns: 280px minmax(0, 1fr);
       gap: 24px;
       align-items: start;
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
     }
-    @media (max-width: 900px) {
+    .study-main-pane {
+      min-width: 0;
+      max-width: 100%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .concept-content-area,
+    .concept-section,
+    .comparison-card {
+      min-width: 0 !important;
+      max-width: 100% !important;
+      box-sizing: border-box;
+    }
+    .table-responsive {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow-x: auto !important;
+      -webkit-overflow-scrolling: touch;
+      margin: 12px 0 20px;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+    @media (max-width: 950px) {
       .study-layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
       }
       .study-sidebar-nav {
-        display: none;
-      }
-      .study-sidebar-nav.is-mobile-open {
-        display: block;
+        display: none !important;
       }
     }
     .study-sidebar-nav {
@@ -153,6 +177,11 @@
         <div class="top-right">
           <small id="topStatus">Academic Study Mode</small>
           <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+          <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="globalNavDrawer">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
         </div>
       </header>
 
@@ -289,6 +318,7 @@
   <script src="assets/learning/js/learning-storage.js"></script>
   <script src="assets/learning/js/learning-engine.js"></script>
   <script src="assets/learning/js/concept-renderer.js"></script>
+  <script src="assets/js/nav-drawer.js"></script>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -304,7 +334,10 @@
       const sidebarSub = document.getElementById('sidebar-subject-sub');
 
       if (topTitle) topTitle.textContent = `Study Room — ${subject.name}`;
-      if (topSub) topSub.textContent = `Tanveer Ashraf · Academic Concept Notes & Statutory Analysis (${subject.code || ''})`;
+      if (topSub) {
+        const codeSuffix = subject.code ? ` (${subject.code})` : '';
+        topSub.textContent = `Tanveer Ashraf · Academic Concept Notes & Statutory Analysis${codeSuffix}`;
+      }
       if (sidebarTitle) sidebarTitle.textContent = `${subject.icon || '📚'} ${subject.name}`;
       if (sidebarSub) sidebarSub.textContent = `${subject.chaptersCount || 0} Chapters · ${subject.topicsCount || 0} Structured Topics`;
 

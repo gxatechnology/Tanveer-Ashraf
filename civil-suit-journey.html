@@ -557,6 +557,7 @@
       color: #142c46;
     }
   </style>
+  <link rel="stylesheet" href="assets/css/nav-drawer.css">
 </head>
 <body data-page="journey">
   <div class="app">
@@ -604,6 +605,12 @@
           <span class="status-dot"></span>
           <span>14 Interactive Stages</span>
         </div>
+      
+        <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="globalNavDrawer">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
       </header>
 
       <div class="content">
@@ -1275,5 +1282,6 @@
 
     document.addEventListener('DOMContentLoaded', initJourney);
   </script>
+  <script src="assets/js/nav-drawer.js"></script>
 </body>
 </html>

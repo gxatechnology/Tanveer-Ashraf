@@ -128,7 +128,7 @@ def run_tests():
 
     process.stdout.write(JSON.stringify(results));
     """
-    res = subprocess.run(['node', '-e', node_test], capture_output=True, text=True)
+    res = subprocess.run(['node', '-e', node_test], capture_output=True, encoding='utf-8', errors='replace')
     check("Node evaluation of navigation guards succeeded", res.returncode == 0, res.stderr)
 
     if res.returncode == 0:
@@ -187,7 +187,7 @@ def run_tests():
     home();
     process.stdout.write(contentBox.innerHTML);
     """
-    res_home = subprocess.run(['node', '-e', node_home_test], capture_output=True, text=True)
+    res_home = subprocess.run(['node', '-e', node_home_test], capture_output=True, encoding='utf-8', errors='replace')
     check("home() renders cleanly with subjects.js in Node", res_home.returncode == 0, res_home.stderr)
     if res_home.returncode == 0:
         html_out = res_home.stdout

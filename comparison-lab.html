@@ -387,6 +387,7 @@
       margin: 0 0 8px;
     }
   </style>
+  <link rel="stylesheet" href="assets/css/nav-drawer.css">
 </head>
 <body data-page="comparison-lab">
   <div class="app">
@@ -426,6 +427,12 @@
         <div class="top-right">
           <small id="topStatus">79 Mapped Statutory Transitions · 1 July 2024</small>
           <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        
+          <button class="menu-toggle-btn" id="menuToggleBtn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="globalNavDrawer">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
         </div>
       </header>
 
@@ -701,5 +708,6 @@
       renderCards();
     })();
   </script>
+  <script src="assets/js/nav-drawer.js"></script>
 </body>
 </html>
