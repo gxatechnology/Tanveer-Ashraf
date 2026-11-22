@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgArjun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c46"/>
+      <stop offset="100%" stop-color="#0a1827"/>
+    </linearGradient>
+    <linearGradient id="skinArjun" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b6835a"/>
+      <stop offset="100%" stop-color="#9a6943"/>
+    </linearGradient>
+    <linearGradient id="coatArjun" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3652"/>
+      <stop offset="100%" stop-color="#0f2336"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Aura -->
+  <rect width="240" height="280" rx="14" fill="url(#bgArjun)"/>
+  <circle cx="120" cy="115" r="85" fill="#dfbf800f" stroke="#dfbf8033" stroke-width="1.5"/>
+
+  <!-- Body / Navy Investigative Coat -->
+  <path d="M40 280c0-60 25-90 80-90s80 30 80 90z" fill="url(#coatArjun)"/>
+  <!-- White shirt collar & tie -->
+  <polygon points="120,185 102,150 138,150" fill="#f4f5f8"/>
+  <polygon points="120,185 116,230 124,230" fill="#a63b49"/>
+  <!-- Coat Lapels -->
+  <path d="M85 190l25 60h20l-15-60z" fill="#13273b"/>
+  <path d="M155 190l-25 60h-20l15-60z" fill="#13273b"/>
+  <circle cx="85" cy="225" r="5" fill="#dfbf80"/>
+
+  <!-- Neck -->
+  <rect x="106" y="135" width="28" height="30" fill="url(#skinArjun)"/>
+
+  <!-- Head Base -->
+  <ellipse cx="120" cy="115" rx="42" ry="48" fill="url(#skinArjun)"/>
+
+  <!-- Hair (Short Black) -->
+  <path d="M78 110c0-38 18-54 42-54s42 16 42 54c-10-8-22-12-42-12s-32 4-42 12z" fill="#1c2024"/>
+  <path d="M78 100c-3 15-2 25-1 30 5-10 10-15 12-18z" fill="#1c2024"/>
+  <path d="M162 100c3 15 2 25 1 30-5-10-10-15-12-18z" fill="#1c2024"/>
+
+  <!-- Ears -->
+  <ellipse cx="76" cy="118" rx="7" ry="11" fill="url(#skinArjun)"/>
+  <ellipse cx="164" cy="118" rx="7" ry="11" fill="url(#skinArjun)"/>
+
+  <!-- Facial Features -->
+  <!-- Eyebrows (Determined, Focused) -->
+  <path d="M90 100c8-4 18-3 24 1" stroke="#1c2024" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M150 100c-8-4-18-3-24 1" stroke="#1c2024" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes (Observant) -->
+  <ellipse cx="102" cy="108" rx="6" ry="4" fill="#ffffff"/>
+  <circle cx="103" cy="108" r="3" fill="#1f1812"/>
+  <circle cx="104" cy="107" r="1" fill="#ffffff"/>
+  <ellipse cx="138" cy="108" rx="6" ry="4" fill="#ffffff"/>
+  <circle cx="137" cy="108" r="3" fill="#1f1812"/>
+  <circle cx="138" cy="107" r="1" fill="#ffffff"/>
+
+  <!-- Nose -->
+  <path d="M118 108v16l6 3" stroke="#7a4f2e" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Mouth -->
+  <path d="M110 137c6 2 14 2 20 0" stroke="#683f23" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Neatly Trimmed Beard & Mustache -->
+  <path d="M96 128c8-3 16-3 24 0" stroke="#1c2024" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M88 126c0 24 14 36 32 36s32-12 32-36c-8 6-18 8-32 8s-24-2-32-8z" fill="#1c2024" opacity="0.85"/>
+
+  <!-- Badge / Identification Tag -->
+  <rect x="25" y="240" width="190" height="28" rx="6" fill="#0f2336f0" stroke="#dfbf8066" stroke-width="1"/>
+  <text x="120" y="258" fill="#e7c88c" font-size="11" font-family="Georgia, serif" font-weight="bold" text-anchor="middle" letter-spacing="1">DET. ARJUN RATHORE</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2238"/>
+      <stop offset="100%" stop-color="#193856"/>
+    </linearGradient>
+    <linearGradient id="goldGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf3cd"/>
+      <stop offset="50%" stop-color="#dfbf80"/>
+      <stop offset="100%" stop-color="#9a7428"/>
+    </linearGradient>
+    <filter id="glow1" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="400" height="240" fill="url(#bgGrad1)"/>
+  <!-- Decorative grid lines -->
+  <g stroke="#ffffff08" stroke-width="1">
+    <line x1="40" y1="0" x2="40" y2="240"/>
+    <line x1="120" y1="0" x2="120" y2="240"/>
+    <line x1="200" y1="0" x2="200" y2="240"/>
+    <line x1="280" y1="0" x2="280" y2="240"/>
+    <line x1="360" y1="0" x2="360" y2="240"/>
+    <line x1="0" y1="60" x2="400" y2="60"/>
+    <line x1="0" y1="120" x2="400" y2="120"/>
+    <line x1="0" y1="180" x2="400" y2="180"/>
+  </g>
+  <!-- Two overlapping memory cards -->
+  <g transform="translate(110, 45)">
+    <!-- Card 1 (Tilted Left) -->
+    <g transform="rotate(-8 60 75)">
+      <rect x="0" y="0" width="110" height="150" rx="10" fill="#142c46" stroke="url(#goldGrad1)" stroke-width="2.5" filter="drop-shadow(0 8px 16px rgba(0,0,0,0.4))"/>
+      <rect x="8" y="8" width="94" height="134" rx="6" fill="#1b395a" stroke="#dfbf8044" stroke-width="1"/>
+      <!-- Scales emblem -->
+      <path d="M55 35v55M35 50h40M35 50l-12 25h24L35 50zm40 0l-12 25h24L75 50zM42 90h26" stroke="url(#goldGrad1)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="55" y="118" fill="#e7c88c" font-size="10" font-family="Georgia, serif" text-anchor="middle" letter-spacing="1">BNS § 103</text>
+    </g>
+    <!-- Card 2 (Tilted Right) -->
+    <g transform="translate(70, 0) rotate(8 60 75)">
+      <rect x="0" y="0" width="110" height="150" rx="10" fill="#102b44" stroke="url(#goldGrad1)" stroke-width="2.5" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.5))"/>
+      <rect x="8" y="8" width="94" height="134" rx="6" fill="#137d7222" stroke="#137d7288" stroke-width="1.5"/>
+      <!-- Brain / lightbulb cognitive spark -->
+      <circle cx="55" cy="55" r="22" fill="#137d7233" stroke="#e7c88c" stroke-width="2"/>
+      <path d="M47 55h16M55 47v16M49 49l12 12M61 49L49 61" stroke="#e7c88c" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="55" y="102" fill="#fff" font-size="9" font-family="sans-serif" font-weight="bold" text-anchor="middle">ACTIVE RECALL</text>
+      <text x="55" y="118" fill="#a9dcd6" font-size="8" font-family="sans-serif" text-anchor="middle">MATCH PAIRS</text>
+    </g>
+  </g>
+</svg>

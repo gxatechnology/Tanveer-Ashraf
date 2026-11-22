@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="courtWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1928"/>
+      <stop offset="100%" stop-color="#14283d"/>
+    </linearGradient>
+    <linearGradient id="benchWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#243d56"/>
+      <stop offset="100%" stop-color="#112233"/>
+    </linearGradient>
+    <linearGradient id="panelGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dfbf8033"/>
+      <stop offset="50%" stop-color="#dfbf8088"/>
+      <stop offset="100%" stop-color="#dfbf8033"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Wall -->
+  <rect width="800" height="450" fill="url(#courtWall)"/>
+
+  <!-- Classical Wood Paneling & Architectural Pilasters on Wall -->
+  <rect x="0" y="0" width="800" height="240" fill="#0d1f31"/>
+  <!-- Pilasters -->
+  <rect x="60" y="0" width="30" height="240" fill="#142c44" stroke="#dfbf8033" stroke-width="1"/>
+  <rect x="220" y="0" width="30" height="240" fill="#142c44" stroke="#dfbf8033" stroke-width="1"/>
+  <rect x="550" y="0" width="30" height="240" fill="#142c44" stroke="#dfbf8033" stroke-width="1"/>
+  <rect x="710" y="0" width="30" height="240" fill="#142c44" stroke="#dfbf8033" stroke-width="1"/>
+
+  <!-- Classical Arch behind Bench -->
+  <path d="M280 240V90a120 120 0 0 1 240 0v150z" fill="#0a1622" stroke="url(#panelGold)" stroke-width="3"/>
+  <!-- Judicial Scales of Justice in Arch Apex -->
+  <g transform="translate(400, 70) scale(0.65)" stroke="#dfbf80" stroke-width="3" fill="none">
+    <path d="M0 -30v70M-30 0h60M-30 0l-15 30h30L-30 0zm60 0l-15 30h30L30 0zM-15 45h30" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="400" y="145" fill="#e7c88c" font-size="11" font-family="Georgia, serif" text-anchor="middle" letter-spacing="3">FIAT JUSTITIA RUAT CAELUM</text>
+
+  <!-- Elevated Judicial Dais & Bench (Center) -->
+  <polygon points="220,180 580,180 610,290 190,290" fill="url(#benchWood)" stroke="#dfbf8066" stroke-width="2"/>
+  <rect x="250" y="195" width="300" height="80" rx="4" fill="#0f1e2c" stroke="#ffffff15" stroke-width="1"/>
+  <!-- Judge's High-Back Chair Silhouette -->
+  <rect x="360" y="110" width="80" height="90" rx="10" fill="#0c1620" stroke="#dfbf8044" stroke-width="2"/>
+  <!-- Gavel and Sound Block on Bench -->
+  <ellipse cx="400" cy="210" rx="16" ry="6" fill="#09131c" stroke="#dfbf80" stroke-width="1"/>
+  <rect x="390" y="200" width="20" height="7" rx="2" fill="#dfbf80"/>
+
+  <!-- Witness Box (Left) -->
+  <g transform="translate(70, 240)">
+    <polygon points="0,0 80,0 90,80 -10,80" fill="#172f47" stroke="#dfbf8044" stroke-width="1.5"/>
+    <rect x="10" y="10" width="60" height="20" fill="#0f2030"/>
+    <text x="40" y="24" fill="#cbd5e1" font-size="8" font-family="sans-serif" font-weight="bold" text-anchor="middle">WITNESS</text>
+  </g>
+
+  <!-- Counsel Bar / Lecterns (Foreground Left and Right) -->
+  <!-- Prosecution Lectern (Left) -->
+  <polygon points="120,330 280,330 300,450 90,450" fill="#14283c" stroke="#dfbf8044" stroke-width="2"/>
+  <rect x="140" y="340" width="120" height="40" rx="4" fill="#0c1b28" stroke="#ffffff11"/>
+  <text x="200" y="364" fill="#a9dcd6" font-size="11" font-family="Georgia, serif" font-weight="bold" text-anchor="middle">PROSECUTION / PLAINTIFF</text>
+
+  <!-- Defence Lectern (Right) -->
+  <polygon points="520,330 680,330 710,450 500,450" fill="#14283c" stroke="#dfbf8044" stroke-width="2"/>
+  <rect x="540" y="340" width="120" height="40" rx="4" fill="#0c1b28" stroke="#ffffff11"/>
+  <text x="600" y="364" fill="#e7c88c" font-size="11" font-family="Georgia, serif" font-weight="bold" text-anchor="middle">DEFENCE COUNSEL</text>
+</svg>

@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142b3f">
+  <meta name="description" content="Section Sprint — High-Speed Statutory Recall for BNS 2023">
+  <title>Section Sprint | Judicial Prep Arena</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/games/css/arena.css">
+  <link rel="stylesheet" href="assets/games/css/games.css">
+</head>
+<body data-page="arena">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div>
+          <b>Judicial Prep</b>
+          <small>UP PCS-J · 2026–27</small>
+        </div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="brain-arena.html" data-view="arena" class="active"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results & Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus & Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div>
+          <small>Designed & developed by</small>
+          <b>Tauqeer Ashraf</b>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div>
+          <div class="top-title">Section Sprint</div>
+          <small>Legal Brain Arena · Statutory Speed Reflexes</small>
+        </div>
+        <div class="top-right">
+          <small id="topStatus">Rapid Recall Simulator</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="content">
+        <div class="game-container">
+          <!-- Sprint Setup Panel -->
+          <div id="sprintSetupPanel" class="card section">
+            <div class="eyebrow" style="color:var(--teal)">Arena Game 02 · Rapid Reflex Recall</div>
+            <h1 style="font-family:Georgia,serif;font-size:30px;margin:8px 0 12px;color:var(--navy)">Section Sprint</h1>
+            <p class="muted" style="margin-bottom:20px">High-intensity statutory section recall under timed pressure. Rapidly identify BNS section headings and numbers, build unbroken answer streaks, and cement statutory recall for UP PCS-J.</p>
+
+            <div class="filter" style="margin-bottom:18px">
+              <div class="field" style="flex:2">
+                <label for="sprintModeSelect">Recall Mode</label>
+                <select id="sprintModeSelect">
+                  <option value="number_to_title" selected>Mode 1: Section Number → Section Title</option>
+                  <option value="title_to_number">Mode 2: Section Title → Section Number</option>
+                  <option value="mixed">Mode 3: Mixed Bidirectional Recall</option>
+                  <option value="chapter">Mode 4: Chapter-wise Focus Challenge</option>
+                  <option value="weak">Mode 5: Personalized Weak Section Practice</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="sprintTimeSelect">Time Challenge</label>
+                <select id="sprintTimeSelect">
+                  <option value="30">30 Seconds Blitz</option>
+                  <option value="60" selected>60 Seconds Standard Sprint</option>
+                  <option value="120">120 Seconds Endurance Sprint</option>
+                  <option value="untimed">Untimed Learning Mode (25 Questions)</option>
+                </select>
+              </div>
+
+              <div class="field" id="chapterSelectField" style="display:none">
+                <label for="sprintChapterSelect">Target BNS Chapter</label>
+                <select id="sprintChapterSelect">
+                  <option value="all">All 20 Chapters (1–358)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="notice" style="margin-bottom:22px">
+              <b>Speed Tip:</b> Use keyboard keys <b>A, B, C, D</b> (or <b>1, 2, 3, 4</b>) for split-second responses. Press <b>Spacebar</b> to skip a question.
+            </div>
+
+            <div class="actions">
+              <button type="button" class="btn primary" id="startSprintBtn">Launch Section Sprint ↗</button>
+              <a href="brain-arena.html" class="btn ghost">Return to Brain Arena</a>
+            </div>
+          </div>
+
+          <!-- Active Sprint Interface -->
+          <div id="sprintGameInterface" style="display:none">
+            <!-- Sprint HUD -->
+            <div class="game-hud">
+              <div class="game-hud-left">
+                <a href="brain-arena.html" class="btn mini" title="Back to Arena">← Arena</a>
+                <!-- Circular Stopwatch Timer -->
+                <div class="sprint-timer-widget">
+                  <svg viewBox="0 0 100 100">
+                    <circle class="sprint-timer-ring-bg" cx="50" cy="50" r="45" stroke-width="7" fill="none"/>
+                    <circle class="sprint-timer-ring" id="sprintTimerRing" cx="50" cy="50" r="45" stroke-width="7" fill="none" stroke-dasharray="282.7" stroke-dashoffset="0"/>
+                  </svg>
+                  <span class="sprint-timer-text" id="sprintTimer">60s</span>
+                </div>
+              </div>
+
+              <div class="game-hud-stats">
+                <div class="hud-stat-item">
+                  <small>Points</small>
+                  <strong class="gold" id="sprintScore">0</strong>
+                </div>
+                <div class="hud-stat-item">
+                  <small>Streak</small>
+                  <strong class="streak" id="sprintStreak">0 <small style="color:#dfbf80">(1x)</small></strong>
+                </div>
+                <div class="hud-stat-item">
+                  <small>Accuracy</small>
+                  <strong id="sprintAccuracy">100%</strong>
+                </div>
+              </div>
+
+              <div class="game-hud-actions">
+                <button type="button" class="btn mini" id="sprintPauseBtn">⏸ Pause</button>
+                <button type="button" class="btn mini" id="sprintRestartBtn">↺ Restart</button>
+                <button type="button" class="btn mini" id="sprintSoundBtn" title="Toggle audio">🔊</button>
+              </div>
+            </div>
+
+            <!-- Dynamic Question & Pre-Game Area -->
+            <div class="sprint-board-wrap">
+              <div id="sprintQuestionArea"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        Judicial Prep · Legal Brain Arena · Designed for Tanveer Ashraf by Tauqeer Ashraf · 
+        <a href="about.html">Independent preparation portal</a>
+      </footer>
+    </main>
+  </div>
+
+  <noscript>Please enable JavaScript to play Section Sprint.</noscript>
+
+  <!-- Script Imports -->
+  <script src="assets/data/bns.js"></script>
+  <script src="assets/games/data/legal-game-content.js"></script>
+  <script src="assets/games/js/game-storage.js"></script>
+  <script src="assets/games/js/game-audio.js"></script>
+  <script src="assets/games/js/achievements.js"></script>
+  <script src="assets/games/js/game-engine.js"></script>
+  <script src="assets/games/js/section-sprint.js"></script>
+
+  <script>
+    (function() {
+      'use strict';
+
+      const setupPanel = document.getElementById('sprintSetupPanel');
+      const gameInterface = document.getElementById('sprintGameInterface');
+      const startBtn = document.getElementById('startSprintBtn');
+      const modeSelect = document.getElementById('sprintModeSelect');
+      const timeSelect = document.getElementById('sprintTimeSelect');
+      const chapterSelect = document.getElementById('sprintChapterSelect');
+      const chapterField = document.getElementById('chapterSelectField');
+
+      // Populate chapters in select
+      if (window.BNS_CHAPTERS && chapterSelect) {
+        window.BNS_CHAPTERS.forEach(ch => {
+          const opt = document.createElement('option');
+          opt.value = ch.id;
+          opt.textContent = `Ch ${ch.id}: ${ch.title} (§ ${ch.first}–${ch.last})`;
+          chapterSelect.appendChild(opt);
+        });
+      }
+
+      // Show chapter select when 'chapter' mode is active
+      modeSelect.onchange = () => {
+        chapterField.style.display = modeSelect.value === 'chapter' ? 'block' : 'none';
+      };
+
+      // Handle URL params
+      const params = new URLSearchParams(location.search);
+      if (params.has('mode')) modeSelect.value = params.get('mode');
+      if (params.has('time')) timeSelect.value = params.get('time');
+      if (params.has('chapter')) {
+        chapterSelect.value = params.get('chapter');
+        modeSelect.value = 'chapter';
+      }
+      modeSelect.onchange();
+
+      function launchSprint() {
+        const mode = modeSelect.value;
+        const timeLimit = timeSelect.value;
+        const chapterId = mode === 'chapter' ? chapterSelect.value : 'all';
+
+        setupPanel.style.display = 'none';
+        gameInterface.style.display = 'block';
+
+        window.SectionSprint.start(mode, timeLimit, chapterId);
+      }
+
+      startBtn.onclick = launchSprint;
+
+      // HUD Button Bindings
+      document.getElementById('sprintPauseBtn').onclick = () => window.SectionSprint.togglePause();
+      document.getElementById('sprintRestartBtn').onclick = () => {
+        if (confirm('Restart Section Sprint? Current score and streak will be reset.')) {
+          launchSprint();
+        }
+      };
+
+      const soundBtn = document.getElementById('sprintSoundBtn');
+      function updateSoundBtn() {
+        soundBtn.textContent = window.GameAudio.isMuted() ? '🔇' : '🔊';
+      }
+      soundBtn.onclick = () => {
+        window.GameAudio.toggleMute();
+        updateSoundBtn();
+      };
+      updateSoundBtn();
+
+      // Auto-start if requested
+      if (params.has('autostart')) {
+        launchSprint();
+      }
+    })();
+  </script>
+</body>
+</html>

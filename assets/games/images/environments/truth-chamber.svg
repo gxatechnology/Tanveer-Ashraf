@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallTruth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#091829"/>
+      <stop offset="50%" stop-color="#102847"/>
+      <stop offset="100%" stop-color="#142c46"/>
+    </linearGradient>
+    <linearGradient id="pillarStone" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e2c3a"/>
+      <stop offset="35%" stop-color="#3d4d5e"/>
+      <stop offset="70%" stop-color="#2a3847"/>
+      <stop offset="100%" stop-color="#16222e"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff0cc"/>
+      <stop offset="50%" stop-color="#dfbf80"/>
+      <stop offset="100%" stop-color="#9d7426"/>
+    </linearGradient>
+    <radialGradient id="centerAura" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#dfbf804d"/>
+      <stop offset="40%" stop-color="#137d7222"/>
+      <stop offset="100%" stop-color="#09182900"/>
+    </radialGradient>
+    <linearGradient id="marbleFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14202c"/>
+      <stop offset="40%" stop-color="#1b2a3a"/>
+      <stop offset="100%" stop-color="#0a121a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Chamber Vault & Walls -->
+  <rect width="800" height="450" fill="url(#wallTruth)"/>
+  <rect width="800" height="450" fill="url(#centerAura)"/>
+
+  <!-- Classical Arched Vault Ribs in Background -->
+  <g opacity="0.35" stroke="#dfbf80" stroke-width="1.5" fill="none">
+    <path d="M100 350V160c0-90 130-140 300-140s300 50 300 140v190"/>
+    <path d="M180 350V180c0-70 100-110 220-110s220 40 220 110v170"/>
+    <path d="M260 350V200c0-50 60-80 140-80s140 30 140 80v150"/>
+  </g>
+
+  <!-- Left Classical Fluted Pillars -->
+  <g>
+    <!-- Outer Left Pillar -->
+    <rect x="50" y="50" width="45" height="300" fill="url(#pillarStone)"/>
+    <rect x="42" y="38" width="61" height="15" rx="3" fill="#3d4d5e"/>
+    <rect x="45" y="340" width="55" height="18" rx="2" fill="#2a3847"/>
+    <line x1="62" y1="53" x2="62" y2="340" stroke="#16222e" stroke-width="2"/>
+    <line x1="73" y1="53" x2="73" y2="340" stroke="#16222e" stroke-width="2"/>
+    <line x1="84" y1="53" x2="84" y2="340" stroke="#4a5c70" stroke-width="1.5"/>
+
+    <!-- Inner Left Pillar -->
+    <rect x="140" y="70" width="40" height="280" fill="url(#pillarStone)"/>
+    <rect x="133" y="58" width="54" height="14" rx="3" fill="#3d4d5e"/>
+    <rect x="135" y="340" width="50" height="18" rx="2" fill="#2a3847"/>
+  </g>
+
+  <!-- Right Classical Fluted Pillars -->
+  <g>
+    <!-- Inner Right Pillar -->
+    <rect x="620" y="70" width="40" height="280" fill="url(#pillarStone)"/>
+    <rect x="613" y="58" width="54" height="14" rx="3" fill="#3d4d5e"/>
+    <rect x="615" y="340" width="50" height="18" rx="2" fill="#2a3847"/>
+
+    <!-- Outer Right Pillar -->
+    <rect x="705" y="50" width="45" height="300" fill="url(#pillarStone)"/>
+    <rect x="697" y="38" width="61" height="15" rx="3" fill="#3d4d5e"/>
+    <rect x="700" y="340" width="55" height="18" rx="2" fill="#2a3847"/>
+    <line x1="717" y1="53" x2="717" y2="340" stroke="#4a5c70" stroke-width="1.5"/>
+    <line x1="728" y1="53" x2="728" y2="340" stroke="#16222e" stroke-width="2"/>
+    <line x1="739" y1="53" x2="739" y2="340" stroke="#16222e" stroke-width="2"/>
+  </g>
+
+  <!-- Polished Marble Floor with Reflection Grid -->
+  <polygon points="0,350 800,350 800,450 0,450" fill="url(#marbleFloor)"/>
+  <line x1="0" y1="350" x2="800" y2="350" stroke="#dfbf80" stroke-width="2"/>
+  <g stroke="#dfbf8022" stroke-width="1">
+    <line x1="100" y1="350" x2="0" y2="450"/>
+    <line x1="250" y1="350" x2="160" y2="450"/>
+    <line x1="400" y1="350" x2="400" y2="450"/>
+    <line x1="550" y1="350" x2="640" y2="450"/>
+    <line x1="700" y1="350" x2="800" y2="450"/>
+    <line x1="0" y1="390" x2="800" y2="390"/>
+    <line x1="0" y1="425" x2="800" y2="425"/>
+  </g>
+
+  <!-- Illuminated Center Plinth of Truth -->
+  <polygon points="320,350 480,350 510,380 290,380" fill="#233547" stroke="#dfbf80" stroke-width="1.5"/>
+  <rect x="330" y="325" width="140" height="26" fill="#1b2a3a" stroke="#dfbf8088" stroke-width="1"/>
+  <text x="400" y="342" font-family="Georgia, serif" font-size="11" fill="#dfbf80" text-anchor="middle" letter-spacing="2">VERITAS VINCIT</text>
+
+  <!-- Large Central Golden Scales of Justice -->
+  <g id="centralScales" transform="translate(400, 190)">
+    <!-- Aura of Truth -->
+    <circle cx="0" cy="0" r="115" fill="#dfbf8015" filter="blur(8px)"/>
+    <circle cx="0" cy="0" r="75" fill="#dfbf801f"/>
+
+    <!-- Scale Pillar & Mast -->
+    <rect x="-4" y="-95" width="8" height="145" fill="url(#goldGlow)" rx="3"/>
+    <!-- Mast Finial (Flame of Justice) -->
+    <polygon points="0,-115 -10,-92 10,-92" fill="url(#goldGlow)"/>
+    <circle cx="0" cy="-94" r="7" fill="url(#goldGlow)"/>
+
+    <!-- Central Fulcrum Pivot Ring -->
+    <circle cx="0" cy="-45" r="10" fill="#24140b" stroke="url(#goldGlow)" stroke-width="3"/>
+    <circle cx="0" cy="-45" r="4" fill="url(#goldGlow)"/>
+
+    <!-- Horizontal Balance Beam -->
+    <path d="M-95 -45 Q0 -48 95 -45" stroke="url(#goldGlow)" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <circle cx="-95" cy="-45" r="5" fill="url(#goldGlow)"/>
+    <circle cx="95" cy="-45" r="5" fill="url(#goldGlow)"/>
+
+    <!-- Left Pan (Truth / Lex) -->
+    <g>
+      <line x1="-95" y1="-45" x2="-120" y2="15" stroke="url(#goldGlow)" stroke-width="1.2"/>
+      <line x1="-95" y1="-45" x2="-70" y2="15" stroke="url(#goldGlow)" stroke-width="1.2"/>
+      <path d="M-130 15 Q-95 38 -60 15 Z" fill="url(#goldGlow)" stroke="#74582a" stroke-width="1.5"/>
+      <!-- Soft Emerald glow of Truth on Left Pan -->
+      <circle cx="-95" cy="18" r="8" fill="#137d7266"/>
+      <circle cx="-95" cy="18" r="3" fill="#2fe0c8"/>
+    </g>
+
+    <!-- Right Pan (Misconception / Fallacy) -->
+    <g>
+      <line x1="95" y1="-45" x2="70" y2="15" stroke="url(#goldGlow)" stroke-width="1.2"/>
+      <line x1="95" y1="-45" x2="120" y2="15" stroke="url(#goldGlow)" stroke-width="1.2"/>
+      <path d="M60 15 Q95 38 130 15 Z" fill="url(#goldGlow)" stroke="#74582a" stroke-width="1.5"/>
+      <!-- Subtle Amber/Crimson glow of Myth on Right Pan -->
+      <circle cx="95" cy="18" r="8" fill="#a63b4966"/>
+      <circle cx="95" cy="18" r="3" fill="#f87171"/>
+    </g>
+
+    <!-- Pedestal Base of the Scale -->
+    <path d="M-30 48 Q0 40 30 48 L42 60 H-42 Z" fill="url(#goldGlow)" stroke="#74582a" stroke-width="1.5"/>
+  </g>
+
+  <!-- Atmospheric Light Rays descending from above -->
+  <polygon points="320,0 480,0 560,350 240,350" fill="#dfbf800a"/>
+  <polygon points="370,0 430,0 470,350 330,350" fill="#dfbf800f"/>
+</svg>

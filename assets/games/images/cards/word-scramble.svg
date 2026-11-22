@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1d30"/>
+      <stop offset="100%" stop-color="#14314c"/>
+    </linearGradient>
+    <linearGradient id="goldGrad6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4d3"/>
+      <stop offset="100%" stop-color="#af822e"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#bgGrad6)"/>
+  <!-- Floating Scramble Letter Tiles -->
+  <g transform="translate(60, 45)">
+    <!-- Tile 1 'M' -->
+    <g transform="translate(20, 20) rotate(-15 22 22)">
+      <rect width="44" height="44" rx="8" fill="#1b3857" stroke="url(#goldGrad6)" stroke-width="2" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.4))"/>
+      <text x="22" y="30" fill="#fff" font-size="22" font-family="Georgia, serif" font-weight="bold" text-anchor="middle">M</text>
+      <text x="36" y="38" fill="#e7c88c" font-size="8" font-family="sans-serif">3</text>
+    </g>
+    <!-- Tile 2 'E' -->
+    <g transform="translate(90, 10) rotate(10 22 22)">
+      <rect width="44" height="44" rx="8" fill="#137d7233" stroke="#137d72" stroke-width="2" filter="drop-shadow(0 6px 12px rgba(0,0,0,0.5))"/>
+      <text x="22" y="30" fill="#e0edf4" font-size="22" font-family="Georgia, serif" font-weight="bold" text-anchor="middle">E</text>
+      <text x="36" y="38" fill="#a9dcd6" font-size="8" font-family="sans-serif">1</text>
+    </g>
+    <!-- Tile 3 'N' -->
+    <g transform="translate(160, 25) rotate(-6 22 22)">
+      <rect width="44" height="44" rx="8" fill="#1b3857" stroke="url(#goldGrad6)" stroke-width="2" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.4))"/>
+      <text x="22" y="30" fill="#fff" font-size="22" font-family="Georgia, serif" font-weight="bold" text-anchor="middle">N</text>
+      <text x="36" y="38" fill="#e7c88c" font-size="8" font-family="sans-serif">2</text>
+    </g>
+    <!-- Tile 4 'S' -->
+    <g transform="translate(230, 15) rotate(14 22 22)">
+      <rect width="44" height="44" rx="8" fill="#1b3857" stroke="url(#goldGrad6)" stroke-width="2" filter="drop-shadow(0 6px 12px rgba(0,0,0,0.5))"/>
+      <text x="22" y="30" fill="#fff" font-size="22" font-family="Georgia, serif" font-weight="bold" text-anchor="middle">S</text>
+      <text x="36" y="38" fill="#e7c88c" font-size="8" font-family="sans-serif">1</text>
+    </g>
+    <!-- Combined Maxim Label below -->
+    <rect x="50" y="105" width="180" height="34" rx="17" fill="#102538" stroke="#dfbf8066" stroke-width="1.5"/>
+    <text x="140" y="127" fill="#e7c88c" font-size="13" font-family="Georgia, serif" text-anchor="middle" letter-spacing="2">MENS REA</text>
+  </g>
+</svg>

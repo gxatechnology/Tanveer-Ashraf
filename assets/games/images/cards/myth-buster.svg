@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b1d28"/>
+      <stop offset="100%" stop-color="#241a22"/>
+    </linearGradient>
+    <linearGradient id="swordBlade" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#dce3ea"/>
+      <stop offset="100%" stop-color="#809bb3"/>
+    </linearGradient>
+    <linearGradient id="goldHilt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffecba"/>
+      <stop offset="100%" stop-color="#a47a27"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#bgGrad7)"/>
+  <!-- Shield with dispute / myth cross -->
+  <g transform="translate(140, 35)">
+    <!-- Broken Myth Shield -->
+    <path d="M60 10l50 20v55c0 45-50 70-50 70s-50-25-50-70V30l50-20z" fill="#1b2432" stroke="#a63b49" stroke-width="2.5"/>
+    <path d="M30 45l60 60M90 45L30 105" stroke="#a63b4966" stroke-width="4" stroke-linecap="round"/>
+    <!-- Golden Sword of Judicial Truth -->
+    <g transform="translate(60, 20) rotate(25)">
+      <!-- Blade -->
+      <polygon points="0,-35 4,75 0,85 -4,75" fill="url(#swordBlade)"/>
+      <line x1="0" y1="-30" x2="0" y2="75" stroke="#ffffff" stroke-width="1"/>
+      <!-- Crossguard -->
+      <rect x="-18" y="75" width="36" height="7" rx="3" fill="url(#goldHilt)"/>
+      <!-- Grip -->
+      <rect x="-3" y="82" width="6" height="24" rx="2" fill="#2d1d0c"/>
+      <!-- Pommel -->
+      <circle cx="0" cy="110" r="6" fill="url(#goldHilt)"/>
+    </g>
+  </g>
+</svg>

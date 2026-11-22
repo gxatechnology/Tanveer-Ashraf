@@ -1,0 +1,750 @@
+/**
+ * Tanveer Ashraf Judicial Prep - Game 8: Road to Judiciary Styles
+ * Interactive Campaign Map, Chapter Deck, Mission Drawer & Appointment Decree
+ * Version 3.0 Phase 4
+ * Author: Tauqeer Ashraf
+ */
+
+/* =========================================================================
+   1. JOURNEY CONTAINER & HERO
+   ========================================================================= */
+.journey-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1c2e40;
+}
+
+.journey-hero {
+  background: linear-gradient(135deg, #142c46 0%, #1b3857 50%, #137d72 100%);
+  border-radius: 16px;
+  padding: 2.2rem 1.75rem;
+  color: #ffffff;
+  border: 1px solid rgba(231, 200, 140, 0.35);
+  box-shadow: 0 10px 30px rgba(20, 44, 70, 0.25);
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.journey-hero::after {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  width: 220px;
+  height: 220px;
+  background: radial-gradient(circle, rgba(231, 200, 140, 0.2) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.journey-hero-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.journey-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(231, 200, 140, 0.15);
+  border: 1px solid #e7c88c;
+  color: #e7c88c;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 0.85rem;
+  border-radius: 20px;
+}
+
+.journey-title {
+  font-family: 'Georgia', serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0.25rem 0 0.5rem;
+  color: #ffffff;
+}
+
+.journey-tagline {
+  color: #e7c88c;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 0 0 1.25rem;
+  font-family: 'Georgia', serif;
+}
+
+/* Rank & Readiness Chip */
+.readiness-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(231, 200, 140, 0.4);
+  border-radius: 12px;
+  padding: 0.75rem 1.25rem;
+}
+
+.readiness-badge-icon {
+  font-size: 2rem;
+}
+
+.readiness-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.readiness-rank {
+  font-family: 'Georgia', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.readiness-index {
+  font-size: 0.85rem;
+  color: #e7c88c;
+}
+
+/* =========================================================================
+   2. INTERACTIVE CAMPAIGN MAP VIEWPORT
+   ========================================================================= */
+.journey-map-card {
+  background: #ffffff;
+  border: 1px solid #cdb17d;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(20, 44, 70, 0.08);
+  margin-bottom: 2rem;
+}
+
+.map-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.map-card-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #142c46;
+  margin: 0;
+}
+
+.journey-map-viewport {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  background: #142c46 url('../images/environments/journey-map.svg') no-repeat center center;
+  background-size: cover;
+  border-radius: 12px;
+  border: 2px solid #dfbf80;
+  overflow: hidden;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Interactive Map Nodes */
+.map-node {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform: translate(-50%, -50%);
+  border: 2px solid #ffffff;
+  z-index: 10;
+}
+
+.map-node:hover {
+  transform: translate(-50%, -50%) scale(1.2);
+  z-index: 20;
+}
+
+.map-node.unlocked {
+  background: #137d72;
+  box-shadow: 0 0 15px rgba(19, 125, 114, 0.7);
+}
+
+.map-node.completed {
+  background: #b98a38;
+  border-color: #e7c88c;
+  box-shadow: 0 0 20px rgba(231, 200, 140, 0.9);
+}
+
+.map-node.locked {
+  background: #4a5568;
+  border-color: #718096;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Map Node Tooltip */
+.map-tooltip {
+  position: absolute;
+  bottom: 52px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(20, 44, 70, 0.95);
+  color: #ffffff;
+  border: 1px solid #e7c88c;
+  border-radius: 8px;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.map-node:hover .map-tooltip {
+  opacity: 1;
+}
+
+/* =========================================================================
+   3. CHAPTERS GRID DECK
+   ========================================================================= */
+.chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.chapter-card {
+  background: #ffffff;
+  border: 1.5px solid #e1e7ed;
+  border-radius: 14px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.chapter-card.unlocked:hover {
+  border-color: #cdb17d;
+  box-shadow: 0 8px 24px rgba(20, 44, 70, 0.08);
+  transform: translateY(-2px);
+}
+
+.chapter-card.completed {
+  border-color: #137d72;
+  background: #fcfdfd;
+}
+
+.chapter-card.locked {
+  opacity: 0.65;
+  background: #f9fafb;
+}
+
+.chapter-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.chapter-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b98a38;
+  letter-spacing: 0.05em;
+}
+
+.chapter-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #142c46;
+  margin: 0.25rem 0 0.4rem;
+}
+
+.chapter-discipline {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #137d72;
+  margin-bottom: 0.5rem;
+}
+
+.chapter-lore {
+  font-size: 0.88rem;
+  color: #607387;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Chapter Mentor Chip */
+.chapter-mentor {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  background: #f4f3ef;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.chapter-mentor-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1.5px solid #cdb17d;
+  object-fit: cover;
+  background: #fff;
+}
+
+.chapter-mentor-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #142c46;
+}
+
+.chapter-mentor-role {
+  font-size: 0.72rem;
+  color: #607387;
+}
+
+/* Progress bar inside card */
+.chapter-progress-track {
+  background: #e1e7ed;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 0.85rem;
+}
+
+.chapter-progress-bar {
+  background: linear-gradient(90deg, #137d72, #e7c88c);
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.chapter-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.btn-open-missions {
+  background: #142c46;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-open-missions:hover {
+  background: #1b3857;
+}
+
+.chapter-card.locked .btn-open-missions {
+  background: #a0aec0;
+  cursor: not-allowed;
+}
+
+/* =========================================================================
+   4. MISSIONS MODAL & DRAWER
+   ========================================================================= */
+.missions-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.missions-modal {
+  background: #ffffff;
+  border: 2px solid #cdb17d;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 750px;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 2rem 1.75rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.missions-modal-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #607387;
+}
+
+.modal-chapter-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #142c46;
+  margin: 0 0 0.25rem;
+}
+
+.missions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.mission-item-card {
+  border: 1px solid #e1e7ed;
+  border-radius: 10px;
+  padding: 1.15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.2s;
+}
+
+.mission-item-card.completed {
+  background: #edf7f4;
+  border-color: #137d72;
+}
+
+.mission-item-card.locked {
+  opacity: 0.6;
+  background: #f8fafc;
+}
+
+.mission-item-info {
+  flex: 1;
+}
+
+.mission-item-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #142c46;
+  margin: 0 0 0.25rem;
+}
+
+.mission-item-desc {
+  font-size: 0.85rem;
+  color: #607387;
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+
+.mission-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.btn-launch-mission {
+  background: #137d72;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.btn-launch-mission:hover {
+  background: #16314c;
+}
+
+/* =========================================================================
+   5. MULTI-DISCIPLINE COMPETENCE & MASTERY SECTION
+   ========================================================================= */
+.mastery-card {
+  background: #ffffff;
+  border: 1px solid #e1e7ed;
+  border-radius: 16px;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.mastery-header {
+  margin-bottom: 1.5rem;
+}
+
+.mastery-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #142c46;
+  margin: 0 0 0.25rem;
+}
+
+.mastery-bars-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem 2rem;
+}
+
+.mastery-bar-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.mastery-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #142c46;
+  margin-bottom: 0.35rem;
+}
+
+.mastery-bar-track {
+  background: #e1e7ed;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.mastery-bar-fill {
+  background: linear-gradient(90deg, #137d72, #e7c88c);
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+
+/* =========================================================================
+   6. DAILY LEARNING PLAN WIDGET
+   ========================================================================= */
+.plan-card {
+  background: #fbfbfd;
+  border: 1.5px solid #d4b67e;
+  border-radius: 16px;
+  padding: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.plan-title {
+  font-family: 'Georgia', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #142c46;
+  margin: 0;
+}
+
+.plan-budgets-deck {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-plan-budget {
+  background: #ffffff;
+  border: 1px solid #cdb17d;
+  border-radius: 20px;
+  padding: 0.35rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #142c46;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-plan-budget.active {
+  background: #142c46;
+  color: #e7c88c;
+  border-color: #142c46;
+}
+
+.plan-tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.plan-task-row {
+  background: #ffffff;
+  border: 1px solid #e1e7ed;
+  border-radius: 10px;
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.plan-task-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.plan-task-icon {
+  font-size: 1.4rem;
+}
+
+.plan-task-name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #142c46;
+}
+
+.plan-task-obj {
+  font-size: 0.82rem;
+  color: #607387;
+  margin-top: 0.15rem;
+}
+
+.plan-task-action {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.plan-task-time {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #b98a38;
+}
+
+/* =========================================================================
+   7. JUDICIAL APPOINTMENT DECREE MODAL (PARCHMENT)
+   ========================================================================= */
+.decree-modal {
+  background: #fbf9f4 url('data:image/svg+xml;utf8,<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><g fill="%23dfbf80" fill-opacity="0.06"><circle cx="20" cy="20" r="1.5"/></g></svg>');
+  border: 3px double #b98a38;
+  border-radius: 16px;
+  padding: 3rem 2.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+.decree-emblem {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.25rem;
+}
+
+.decree-heading {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #142c46;
+  letter-spacing: 0.05em;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.decree-sub {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  color: #b98a38;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.decree-body {
+  font-family: 'Georgia', serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #1c2e40;
+  text-align: justify;
+  margin-bottom: 2rem;
+  border-top: 1px solid rgba(185, 138, 56, 0.3);
+  border-bottom: 1px solid rgba(185, 138, 56, 0.3);
+  padding: 1.5rem 0;
+}
+
+.decree-signature-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+.decree-sig {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.decree-sig-name {
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #142c46;
+  border-top: 1px solid #142c46;
+  padding-top: 0.4rem;
+  margin-top: 2rem;
+}
+
+.decree-sig-title {
+  font-size: 0.75rem;
+  color: #607387;
+}
+
+/* =========================================================================
+   8. RESPONSIVE QUERIES
+   ========================================================================= */
+@media (max-width: 768px) {
+  .journey-title {
+    font-size: 1.8rem;
+  }
+  .mastery-bars-grid {
+    grid-template-columns: 1fr;
+  }
+  .journey-map-viewport {
+    height: 380px;
+  }
+  .decree-modal {
+    padding: 2rem 1.25rem;
+  }
+  .decree-heading {
+    font-size: 1.5rem;
+  }
+}

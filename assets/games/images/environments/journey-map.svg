@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091829"/>
+      <stop offset="50%" stop-color="#10253d"/>
+      <stop offset="100%" stop-color="#142c46"/>
+    </linearGradient>
+    <linearGradient id="roadGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dfbf80"/>
+      <stop offset="50%" stop-color="#f5e1b5"/>
+      <stop offset="100%" stop-color="#b98a38"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#dfbf8066"/>
+      <stop offset="100%" stop-color="#dfbf8000"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Map Territory Canvas -->
+  <rect width="900" height="520" fill="url(#mapBg)"/>
+
+  <!-- Subtle Topographic & Coordinate Contours -->
+  <g opacity="0.15" stroke="#dfbf80" stroke-width="1" fill="none">
+    <ellipse cx="450" cy="260" rx="420" ry="240"/>
+    <ellipse cx="450" cy="260" rx="330" ry="190"/>
+    <ellipse cx="450" cy="260" rx="220" ry="130"/>
+    <ellipse cx="450" cy="260" rx="110" ry="65"/>
+    <line x1="450" y1="20" x2="450" y2="500" stroke-dasharray="6,6"/>
+    <line x1="30" y1="260" x2="870" y2="260" stroke-dasharray="6,6"/>
+  </g>
+
+  <!-- Winding Golden Judicial Highway connecting 9 locations -->
+  <!-- Ch1(120,440) -> Ch2(260,390) -> Ch3(150,280) -> Ch4(330,280) -> Ch5(480,330) -> Ch6(400,180) -> Ch7(590,210) -> Ch8(750,220) -> Ch9(660,80) -->
+  <path d="M120 440 C170 430, 210 410, 260 390
+           C310 370, 110 320, 150 280
+           C190 240, 270 290, 330 280
+           C400 270, 420 340, 480 330
+           C540 320, 360 210, 400 180
+           C440 150, 530 230, 590 210
+           C650 190, 700 240, 750 220
+           C800 200, 720 120, 660 80"
+        stroke="#24190e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  
+  <path d="M120 440 C170 430, 210 410, 260 390
+           C310 370, 110 320, 150 280
+           C190 240, 270 290, 330 280
+           C400 270, 420 340, 480 330
+           C540 320, 360 210, 400 180
+           C440 150, 530 230, 590 210
+           C650 190, 700 240, 750 220
+           C800 200, 720 120, 660 80"
+        stroke="url(#roadGold)" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Milestone Center Dash Marker -->
+  <path d="M120 440 C170 430, 210 410, 260 390
+           C310 370, 110 320, 150 280
+           C190 240, 270 290, 330 280
+           C400 270, 420 340, 480 330
+           C540 320, 360 210, 400 180
+           C440 150, 530 230, 590 210
+           C650 190, 700 240, 750 220
+           C800 200, 720 120, 660 80"
+        stroke="#142c46" stroke-width="2" stroke-dasharray="8,8" fill="none"/>
+
+  <!-- 9 CHAPTER LOCATION HUBS -->
+
+  <!-- CHAPTER 1: THE LAW ACADEMY (120, 440) -->
+  <g id="locChapter1" transform="translate(120, 440)">
+    <circle cx="0" cy="0" r="32" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="22" fill="#142c46" stroke="#dfbf80" stroke-width="2.5"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80" text-anchor="middle">I</text>
+    <rect x="-60" y="-45" width="120" height="20" rx="4" fill="#091420dd" stroke="#dfbf8088" stroke-width="1"/>
+    <text x="0" y="-31" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">1. Law Academy</text>
+  </g>
+
+  <!-- CHAPTER 2: CONSTITUTIONAL CITADEL (260, 390) -->
+  <g id="locChapter2" transform="translate(260, 390)">
+    <circle cx="0" cy="0" r="32" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="22" fill="#142c46" stroke="#dfbf80" stroke-width="2.5"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80" text-anchor="middle">II</text>
+    <rect x="-65" y="-45" width="130" height="20" rx="4" fill="#091420dd" stroke="#dfbf8088" stroke-width="1"/>
+    <text x="0" y="-31" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">2. Constitutional Citadel</text>
+  </g>
+
+  <!-- CHAPTER 3: CRIMINAL LAW FORTRESS (150, 280) -->
+  <g id="locChapter3" transform="translate(150, 280)">
+    <circle cx="0" cy="0" r="32" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="22" fill="#142c46" stroke="#dfbf80" stroke-width="2.5"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80" text-anchor="middle">III</text>
+    <rect x="-65" y="-45" width="130" height="20" rx="4" fill="#091420dd" stroke="#dfbf8088" stroke-width="1"/>
+    <text x="0" y="-31" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">3. Criminal Fortress</text>
+  </g>
+
+  <!-- CHAPTER 4: THE EVIDENCE VAULT (330, 280) -->
+  <g id="locChapter4" transform="translate(330, 280)">
+    <circle cx="0" cy="0" r="32" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="22" fill="#142c46" stroke="#dfbf80" stroke-width="2.5"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80" text-anchor="middle">IV</text>
+    <rect x="-60" y="-45" width="120" height="20" rx="4" fill="#091420dd" stroke="#dfbf8088" stroke-width="1"/>
+    <text x="0" y="-31" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">4. Evidence Vault</text>
+  </g>
+
+  <!-- CHAPTER 5: THE CIVIL JUSTICE DISTRICT (480, 330) -->
+  <g id="locChapter5" transform="translate(480, 330)">
+    <circle cx="0" cy="0" r="32" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="22" fill="#142c46" stroke="#dfbf80" stroke-width="2.5"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80" text-anchor="middle">V</text>
+    <rect x="-65" y="-45" width="130" height="20" rx="4" fill="#091420dd" stroke="#dfbf8088" stroke-width="1"/>
+    <text x="0" y="-31" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">5. Civil Justice District</text>
+  </g>
+
+  <!-- CHAPTER 6: THE INVESTIGATION BUREAU (400, 180) -->
+  <g id="locChapter6" transform="translate(400, 180)">
+    <circle cx="0" cy="0" r="32" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="22" fill="#142c46" stroke="#dfbf80" stroke-width="2.5"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80" text-anchor="middle">VI</text>
+    <rect x="-70" y="-45" width="140" height="20" rx="4" fill="#091420dd" stroke="#dfbf8088" stroke-width="1"/>
+    <text x="0" y="-31" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">6. Investigation Bureau</text>
+  </g>
+
+  <!-- CHAPTER 7: THE JUDICIAL COURTROOM (590, 210) -->
+  <g id="locChapter7" transform="translate(590, 210)">
+    <circle cx="0" cy="0" r="32" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="22" fill="#142c46" stroke="#dfbf80" stroke-width="2.5"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80" text-anchor="middle">VII</text>
+    <rect x="-65" y="-45" width="130" height="20" rx="4" fill="#091420dd" stroke="#dfbf8088" stroke-width="1"/>
+    <text x="0" y="-31" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">7. Judicial Courtroom</text>
+  </g>
+
+  <!-- CHAPTER 8: THE GRAND EXAMINATION HALL (750, 220) -->
+  <g id="locChapter8" transform="translate(750, 220)">
+    <circle cx="0" cy="0" r="32" fill="url(#nodeGlow)"/>
+    <circle cx="0" cy="0" r="22" fill="#142c46" stroke="#dfbf80" stroke-width="2.5"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#dfbf80" text-anchor="middle">VIII</text>
+    <rect x="-70" y="-45" width="140" height="20" rx="4" fill="#091420dd" stroke="#dfbf8088" stroke-width="1"/>
+    <text x="0" y="-31" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">8. Grand Exam Hall</text>
+  </g>
+
+  <!-- CHAPTER 9: THE SEAT OF JUSTICE (660, 80) -->
+  <g id="locChapter9" transform="translate(660, 80)">
+    <!-- Grand Pinnacle Aura -->
+    <circle cx="0" cy="0" r="48" fill="#dfbf8033"/>
+    <circle cx="0" cy="0" r="28" fill="#137d72" stroke="#dfbf80" stroke-width="3"/>
+    <text x="0" y="8" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">IX</text>
+    <!-- Gavel / Bench Pinnacle Crest -->
+    <polygon points="0,-36 -7,-24 7,-24" fill="#dfbf80"/>
+    <rect x="-70" y="-55" width="140" height="22" rx="4" fill="#137d72" stroke="#dfbf80" stroke-width="1.2"/>
+    <text x="0" y="-40" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">9. The Seat of Justice</text>
+  </g>
+
+  <!-- Compass Rose in Upper Left -->
+  <g transform="translate(70, 70)" opacity="0.4">
+    <circle cx="0" cy="0" r="36" fill="none" stroke="#dfbf80" stroke-width="1"/>
+    <polygon points="0,-30 6,-6 0,-12 -6,-6" fill="#dfbf80"/>
+    <polygon points="0,30 6,6 0,12 -6,6" fill="#dfbf80"/>
+    <polygon points="-30,0 -6,6 -12,0 -6,-6" fill="#dfbf80"/>
+    <polygon points="30,0 6,6 12,0 6,-6" fill="#dfbf80"/>
+    <text x="0" y="-34" font-family="Georgia, serif" font-size="10" fill="#dfbf80" text-anchor="middle">N</text>
+  </g>
+</svg>

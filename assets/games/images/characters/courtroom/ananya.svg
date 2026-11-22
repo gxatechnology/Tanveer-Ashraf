@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgAnanya" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#192a38"/>
+      <stop offset="100%" stop-color="#0a151d"/>
+    </linearGradient>
+    <linearGradient id="skinAnanya" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#be895f"/>
+      <stop offset="100%" stop-color="#9f6d45"/>
+    </linearGradient>
+    <linearGradient id="coatAnanya" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#181c20"/>
+      <stop offset="100%" stop-color="#0c0e10"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="280" rx="14" fill="url(#bgAnanya)"/>
+  <circle cx="120" cy="115" r="85" fill="#dfbf800f" stroke="#dfbf8022" stroke-width="1.5"/>
+
+  <!-- Body / Black Advocate Robe & Coat -->
+  <path d="M42 280c0-56 25-86 78-86s78 30 78 86z" fill="url(#coatAnanya)"/>
+  <!-- White Advocate Bands -->
+  <rect x="113" y="152" width="6" height="32" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+  <rect x="121" y="152" width="6" height="32" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.5"/>
+  <polygon points="120,154 105,144 135,144" fill="#ffffff"/>
+  <!-- Coat Lapels -->
+  <path d="M88 192l20 54h18l-12-54z" fill="#242a30"/>
+  <path d="M152 192l-20 54h-18l12-54z" fill="#242a30"/>
+
+  <!-- Neck -->
+  <rect x="108" y="132" width="24" height="26" fill="url(#skinAnanya)"/>
+
+  <!-- Head Base -->
+  <ellipse cx="120" cy="112" rx="38" ry="44" fill="url(#skinAnanya)"/>
+
+  <!-- Hair (Neatly Tied Back Indian Advocate) -->
+  <path d="M82 108c0-36 16-52 38-52s38 16 38 52c-8-8-20-10-38-10s-30 2-38 10z" fill="#181a1d"/>
+  <circle cx="120" cy="58" r="13" fill="#181a1d"/>
+  <path d="M80 94c-2 16 2 24 6 28 0-10 4-18 8-22z" fill="#181a1d"/>
+  <path d="M160 94c2 16-2 24-6 28 0-10-4-18-8-22z" fill="#181a1d"/>
+
+  <!-- Ears & Gold Studs -->
+  <ellipse cx="80" cy="116" rx="6" ry="10" fill="url(#skinAnanya)"/>
+  <ellipse cx="160" cy="116" rx="6" ry="10" fill="url(#skinAnanya)"/>
+  <circle cx="80" cy="120" r="2.5" fill="#dfbf80"/>
+  <circle cx="160" cy="120" r="2.5" fill="#dfbf80"/>
+
+  <!-- Eyebrows (Sharp, Assertive) -->
+  <path d="M93 97c6-3 15-2 19 1" stroke="#181a1d" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M147 97c-6-3-15-2-19 1" stroke="#181a1d" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyes (Direct, Formidable) -->
+  <ellipse cx="103" cy="106" rx="6" ry="4" fill="#ffffff"/>
+  <circle cx="103" cy="106" r="3" fill="#1e1814"/>
+  <circle cx="104" cy="105" r="1" fill="#ffffff"/>
+  <ellipse cx="137" cy="106" rx="6" ry="4" fill="#ffffff"/>
+  <circle cx="137" cy="106" r="3" fill="#1e1814"/>
+  <circle cx="138" cy="105" r="1" fill="#ffffff"/>
+
+  <!-- Nose & Firm Mouth -->
+  <path d="M120 106v14l4 2" stroke="#825430" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  <path d="M112 133c5 1 11 1 16 0" stroke="#714220" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Badge Label -->
+  <rect x="25" y="240" width="190" height="28" rx="6" fill="#0d1822f0" stroke="#dfbf8055" stroke-width="1"/>
+  <text x="120" y="258" fill="#e7c88c" font-size="11" font-family="Georgia, serif" font-weight="bold" text-anchor="middle" letter-spacing="1">ADV. ANANYA RAO</text>
+</svg>

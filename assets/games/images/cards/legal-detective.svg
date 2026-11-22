@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1a2b"/>
+      <stop offset="100%" stop-color="#182c40"/>
+    </linearGradient>
+    <linearGradient id="goldGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faecc0"/>
+      <stop offset="100%" stop-color="#ba8c36"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#bgGrad3)"/>
+  <!-- Crime dossier / evidence file folder -->
+  <g transform="translate(130, 45)">
+    <rect x="0" y="0" width="140" height="150" rx="8" fill="#1b2e42" stroke="#ffffff22" stroke-width="2"/>
+    <path d="M0 24h60l14 16h66v110H0z" fill="#203a54"/>
+    <!-- Red Confidential Stamp -->
+    <rect x="25" y="65" width="90" height="26" rx="4" fill="none" stroke="#a63b49" stroke-width="2" transform="rotate(-12 70 78)"/>
+    <text x="70" y="82" fill="#de9fa4" font-size="11" font-family="sans-serif" font-weight="900" text-anchor="middle" letter-spacing="2" transform="rotate(-12 70 78)">EVIDENCE</text>
+    <!-- Magnifying glass overlay -->
+    <g transform="translate(90, 80)">
+      <circle cx="20" cy="20" r="28" fill="#142c4688" stroke="url(#goldGrad3)" stroke-width="4"/>
+      <path d="M40 40l25 25" stroke="url(#goldGrad3)" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="20" cy="20" r="18" fill="none" stroke="#e7c88c44" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

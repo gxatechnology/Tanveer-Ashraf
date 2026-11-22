@@ -1,0 +1,12 @@
+# Vercel Deployment Ignore Rules
+# Exclude raw test generators, build scripts, and development assets from production bundle
+
+scripts/
+assets/games/images/screenshots/
+*.py
+*.log
+__pycache__/
+
+# Development and preflight audit reports
+LEGAL_CONTENT_AUDIT.md
+PHASE4_QA_REPORT.md

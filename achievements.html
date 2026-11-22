@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142c46">
+  <meta name="description" content="Judicial Hall of Achievements — 38 Statutory Honors and Milestone Badges for UP PCS-J">
+  <title>Judicial Hall of Achievements | Judicial Prep Arena</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/games/css/arena.css">
+  <link rel="stylesheet" href="assets/games/css/games.css">
+  <style>
+    .ach-hero {
+      background: linear-gradient(135deg, #142c46 0%, #1b3857 50%, #16314c 100%);
+      border-radius: 16px;
+      padding: 2.2rem 1.75rem;
+      color: #ffffff;
+      border: 1px solid rgba(231, 200, 140, 0.35);
+      box-shadow: 0 10px 30px rgba(20, 44, 70, 0.25);
+      margin-bottom: 2rem;
+      position: relative;
+    }
+    .ach-title {
+      font-family: 'Georgia', serif;
+      font-size: 2.2rem;
+      font-weight: 700;
+      margin: 0.25rem 0 0.5rem;
+      color: #ffffff;
+    }
+    .ach-tagline {
+      color: #e7c88c;
+      font-size: 1.05rem;
+      font-style: italic;
+      margin: 0 0 1.25rem;
+      font-family: 'Georgia', serif;
+    }
+    .ach-tabs {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+    .btn-ach-tab {
+      background: #ffffff;
+      border: 1px solid #cdb17d;
+      border-radius: 20px;
+      padding: 0.4rem 1rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #142c46;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-ach-tab.active {
+      background: #142c46;
+      color: #e7c88c;
+      border-color: #142c46;
+    }
+    .ach-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+    .ach-badge-card {
+      background: #ffffff;
+      border: 1.5px solid #e1e7ed;
+      border-radius: 14px;
+      padding: 1.5rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: all 0.25s ease;
+      position: relative;
+    }
+    .ach-badge-card.unlocked {
+      border-color: #137d72;
+      background: #fcfdfd;
+      box-shadow: 0 6px 18px rgba(19, 125, 114, 0.08);
+    }
+    .ach-badge-card.locked {
+      opacity: 0.6;
+      background: #f9fafb;
+    }
+    .badge-icon-aura {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      background: #f4f3ef;
+      border: 2px solid #cdb17d;
+      transition: all 0.3s ease;
+    }
+    .ach-badge-card.unlocked .badge-icon-aura {
+      background: #edf7f4;
+      border-color: #137d72;
+      box-shadow: 0 0 16px rgba(19, 125, 114, 0.4);
+    }
+    .badge-name {
+      font-family: 'Georgia', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #142c46;
+      margin: 0 0 0.35rem;
+    }
+    .badge-desc {
+      font-size: 0.85rem;
+      color: #607387;
+      line-height: 1.45;
+      margin: 0 0 1rem;
+    }
+    .badge-xp-pill {
+      margin-top: auto;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.25rem 0.65rem;
+      border-radius: 12px;
+      background: #f4f3ef;
+      color: #b98a38;
+      border: 1px solid #dfbf80;
+    }
+    .ach-badge-card.unlocked .badge-xp-pill {
+      background: #137d72;
+      color: #ffffff;
+      border-color: #137d72;
+    }
+  </style>
+</head>
+<body data-page="arena">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div>
+          <b>Judicial Prep</b>
+          <small>UP PCS-J · 2026–27</small>
+        </div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="brain-arena.html" data-view="arena" class="active"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results & Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus & Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div>
+          <b>Tauqeer Ashraf</b>
+          <small>Platform Developer</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="top-brand">
+          <img src="assets/images/emblem.svg" alt="Emblem" style="width:24px;height:24px;">
+          <span>Judicial Prep</span>
+        </div>
+        <div class="user-chip">
+          <small id="topStatus">Hall of Achievements</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="content">
+        <div style="max-width:1100px; margin:0 auto; padding:1.5rem 1rem 3.5rem;">
+          <!-- Hero Section -->
+          <header class="ach-hero">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
+              <span style="background:rgba(231,200,140,0.15); border:1px solid #e7c88c; color:#e7c88c; font-size:0.8rem; font-weight:700; padding:0.35rem 0.85rem; border-radius:20px;">
+                Judicial Honors • 38 Badges
+              </span>
+              <a href="brain-arena.html" style="color:#e7c88c; text-decoration:none; font-size:0.9rem; font-weight:600;">← Brain Arena</a>
+            </div>
+            <h1 class="ach-title">Judicial Hall of Achievements</h1>
+            <p class="ach-tagline">Track your demonstrated milestones across statutory recall, courtroom proceedings, puzzle games, and campaign missions.</p>
+
+            <div style="display:flex; gap:1.5rem; align-items:center; flex-wrap:wrap; margin-top:1rem;" id="achStatsOverview">
+              <!-- Rendered dynamically -->
+            </div>
+          </header>
+
+          <!-- Category Filter Tabs -->
+          <div class="ach-tabs" id="achTabs">
+            <button type="button" class="btn-ach-tab active" data-tab="all">All Honors (38)</button>
+            <button type="button" class="btn-ach-tab" data-tab="foundational">Foundational & Sprint</button>
+            <button type="button" class="btn-ach-tab" data-tab="simulation">Detective & Courtroom</button>
+            <button type="button" class="btn-ach-tab" data-tab="puzzle">Crossword & Cipher</button>
+            <button type="button" class="btn-ach-tab" data-tab="myth">Myth Buster (8)</button>
+            <button type="button" class="btn-ach-tab" data-tab="journey">Road to Judiciary (8)</button>
+          </div>
+
+          <!-- Achievements Grid -->
+          <div class="ach-grid" id="achGrid">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Shared & Gaming Engine Dependencies -->
+  <script src="assets/games/js/game-storage.js"></script>
+  <script src="assets/games/js/game-audio.js"></script>
+  <script src="assets/games/js/achievements.js"></script>
+
+  <script>
+    (function() {
+      'use strict';
+
+      const state = window.GameStorage ? window.GameStorage.getArenaState() : { xp: 0, level: 1, unlockedAchievements: [] };
+      const allAchievements = window.Achievements ? window.Achievements.getAll() : [];
+      const unlockedIds = new Set(state.unlockedAchievements || []);
+
+      // Groupings for filter tabs
+      const categoryMap = {
+        foundational: ['first_trial', 'photographic_counsel', 'speedy_advocate', 'streak_10', 'jurisprudence_master', 'daily_discipline', 'statutory_command', 'bench_aspirant'],
+        simulation: ['first_investigation', 'evidence_expert', 'deduction_master', 'first_order', 'judicial_scholar', 'procedural_master'],
+        puzzle: ['first_crossword', 'lexicon_explorer', 'crossword_master', 'latin_maxims_scholar', 'first_code_breaker', 'vocabulary_virtuoso', 'manuscript_unlocked', 'legal_language_master'],
+        myth: ['first_truth', 'myth_slayer', 'statutory_purist', 'error_hunter', 'statutory_drafter', 'transition_virtuoso', 'conviction_titan', 'grand_trial_champion'],
+        journey: ['campaign_commenced', 'citadel_ascended', 'fortress_commander', 'vault_warden', 'civil_magistrate', 'bureau_inquisitor', 'bench_confirmed', 'judicial_elevation']
+      };
+
+      let currentTab = 'all';
+
+      function renderOverview() {
+        const statsEl = document.getElementById('achStatsOverview');
+        if (!statsEl) return;
+        const total = allAchievements.length;
+        const unlockedCount = allAchievements.filter(a => unlockedIds.has(a.id)).length;
+        const percent = Math.round((unlockedCount / total) * 100);
+
+        statsEl.innerHTML = `
+          <div style="background:rgba(0,0,0,0.25); border:1px solid rgba(231,200,140,0.3); border-radius:10px; padding:0.6rem 1rem;">
+            <div style="font-size:0.75rem; color:#e7c88c; text-transform:uppercase;">Honors Unlocked</div>
+            <div style="font-size:1.5rem; font-weight:700; color:#fff;">${unlockedCount} / ${total} (${percent}%)</div>
+          </div>
+          <div style="background:rgba(0,0,0,0.25); border:1px solid rgba(231,200,140,0.3); border-radius:10px; padding:0.6rem 1rem;">
+            <div style="font-size:0.75rem; color:#e7c88c; text-transform:uppercase;">Candidate Level</div>
+            <div style="font-size:1.5rem; font-weight:700; color:#fff;">Level ${state.level} • ${state.xp} XP</div>
+          </div>
+        `;
+      }
+
+      function renderGrid() {
+        const gridEl = document.getElementById('achGrid');
+        if (!gridEl) return;
+
+        let filtered = allAchievements;
+        if (currentTab !== 'all' && categoryMap[currentTab]) {
+          const catSet = new Set(categoryMap[currentTab]);
+          filtered = allAchievements.filter(a => catSet.has(a.id));
+        }
+
+        gridEl.innerHTML = filtered.map(ach => {
+          const isUnlocked = unlockedIds.has(ach.id);
+          return `
+            <div class="ach-badge-card ${isUnlocked ? 'unlocked' : 'locked'}">
+              <div class="badge-icon-aura">
+                <span>${ach.icon}</span>
+              </div>
+              <h3 class="badge-name">${ach.title}</h3>
+              <p class="badge-desc">${ach.description}</p>
+              <span class="badge-xp-pill">
+                ${isUnlocked ? '✓ Unlocked' : '🔒 Locked'} • +${ach.xpReward} XP
+              </span>
+            </div>
+          `;
+        }).join('');
+      }
+
+      function bindTabs() {
+        const tabs = document.querySelectorAll('.btn-ach-tab');
+        tabs.forEach(tab => {
+          tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            currentTab = tab.getAttribute('data-tab');
+            renderGrid();
+          });
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', () => {
+        renderOverview();
+        renderGrid();
+        bindTabs();
+      });
+    })();
+  </script>
+</body>
+</html>

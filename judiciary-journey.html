@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142c46">
+  <meta name="description" content="Road to Judiciary: The Rise of a Judge — 9-Chapter Judicial Campaign Simulation for UP PCS-J">
+  <title>Road to Judiciary: The Rise of a Judge | Judicial Prep Arena</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/games/css/arena.css">
+  <link rel="stylesheet" href="assets/games/css/games.css">
+  <link rel="stylesheet" href="assets/games/css/judiciary-journey.css">
+</head>
+<body data-page="arena">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div>
+          <b>Judicial Prep</b>
+          <small>UP PCS-J · 2026–27</small>
+        </div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="brain-arena.html" data-view="arena" class="active"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results & Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus & Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div>
+          <b>Tauqeer Ashraf</b>
+          <small>Platform Developer</small>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="top-brand">
+          <img src="assets/images/emblem.svg" alt="Emblem" style="width:24px;height:24px;">
+          <span>Judicial Prep</span>
+        </div>
+        <div class="user-chip">
+          <small id="topStatus">Road to Judiciary</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="content">
+        <div id="journeyApp">
+          <!-- Populated dynamically by judiciary-journey.js -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Shared & Gaming Engine Dependencies -->
+  <script src="assets/games/js/game-storage.js"></script>
+  <script src="assets/games/js/game-audio.js?v=4.1"></script>
+  <script src="assets/games/js/achievements.js"></script>
+  <script src="assets/games/js/game-engine.js"></script>
+  
+  <!-- Characters & Campaign Data -->
+  <script src="assets/games/data/characters.js"></script>
+  <script src="assets/games/data/journey-chapters.js"></script>
+  <script src="assets/games/data/journey-missions.js"></script>
+
+  <!-- Journey Engines & UI Controller -->
+  <script src="assets/games/js/mastery-engine.js"></script>
+  <script src="assets/games/js/learning-plan.js"></script>
+  <script src="assets/games/js/mission-engine.js"></script>
+  <script src="assets/games/js/journey-engine.js"></script>
+  <script src="assets/games/js/judiciary-journey.js"></script>
+</body>
+</html>

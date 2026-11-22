@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#102334"/>
+      <stop offset="100%" stop-color="#142c46"/>
+    </linearGradient>
+    <linearGradient id="goldGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1cc"/>
+      <stop offset="100%" stop-color="#cda34c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#bgGrad5)"/>
+  <!-- Crossword Parchment Grid -->
+  <g transform="translate(100, 35)">
+    <!-- Parchment backdrop -->
+    <rect x="0" y="0" width="200" height="170" rx="8" fill="#18324a" stroke="#ffffff1a" stroke-width="1.5"/>
+    <!-- Grid Cells -->
+    <g transform="translate(25, 20)">
+      <!-- Row 1 -->
+      <rect x="30" y="0" width="30" height="30" fill="#204060" stroke="#dfbf80" stroke-width="1.5"/>
+      <text x="45" y="21" fill="#fff" font-size="14" font-family="sans-serif" font-weight="bold" text-anchor="middle">L</text>
+      <rect x="60" y="0" width="30" height="30" fill="#204060" stroke="#dfbf80" stroke-width="1.5"/>
+      <text x="75" y="21" fill="#fff" font-size="14" font-family="sans-serif" font-weight="bold" text-anchor="middle">A</text>
+      <rect x="90" y="0" width="30" height="30" fill="#204060" stroke="#dfbf80" stroke-width="1.5"/>
+      <text x="105" y="21" fill="#fff" font-size="14" font-family="sans-serif" font-weight="bold" text-anchor="middle">W</text>
+      <!-- Row 2 -->
+      <rect x="30" y="30" width="30" height="30" fill="#137d7244" stroke="#7cbca6" stroke-width="1.5"/>
+      <text x="45" y="51" fill="#e0edf4" font-size="14" font-family="sans-serif" font-weight="bold" text-anchor="middle">E</text>
+      <!-- Row 3 -->
+      <rect x="0" y="60" width="30" height="30" fill="#204060" stroke="#dfbf80" stroke-width="1.5"/>
+      <text x="15" y="81" fill="#fff" font-size="14" font-family="sans-serif" font-weight="bold" text-anchor="middle">J</text>
+      <rect x="30" y="60" width="30" height="30" fill="#dfbf8022" stroke="#dfbf80" stroke-width="2"/>
+      <text x="45" y="81" fill="#e7c88c" font-size="14" font-family="sans-serif" font-weight="bold" text-anchor="middle">X</text>
+      <rect x="60" y="60" width="30" height="30" fill="#204060" stroke="#dfbf80" stroke-width="1.5"/>
+      <text x="75" y="81" fill="#fff" font-size="14" font-family="sans-serif" font-weight="bold" text-anchor="middle">U</text>
+      <rect x="90" y="60" width="30" height="30" fill="#204060" stroke="#dfbf80" stroke-width="1.5"/>
+      <text x="105" y="81" fill="#fff" font-size="14" font-family="sans-serif" font-weight="bold" text-anchor="middle">S</text>
+    </g>
+    <!-- Elegant Feather Quill -->
+    <path d="M150 140c10-40 30-70 50-95-5 25-10 60-35 85l-15 10z" fill="url(#goldGrad5)"/>
+    <path d="M150 140l-8 12 14-4z" fill="#9a7428"/>
+  </g>
+</svg>

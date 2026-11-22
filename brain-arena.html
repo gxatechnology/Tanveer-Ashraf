@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142b3f">
+  <meta name="description" content="Legal Brain Arena — Cognitive judicial training and recall games for UP PCS-J">
+  <title>Legal Brain Arena | Judicial Prep</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/games/css/arena.css">
+  <link rel="stylesheet" href="assets/games/css/games.css">
+</head>
+<body data-page="arena">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div>
+          <b>Judicial Prep</b>
+          <small>UP PCS-J · 2026–27</small>
+        </div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="brain-arena.html" data-view="arena" class="active" aria-current="page"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results & Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus & Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div>
+          <small>Designed & developed by</small>
+          <b>Tauqeer Ashraf</b>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div>
+          <div class="top-title">Legal Brain Arena</div>
+          <small>Tanveer Ashraf · Uttar Pradesh Judicial Services</small>
+        </div>
+        <div class="top-right">
+          <small id="topStatus">Cognitive Training & Active Recall</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="content">
+        <!-- Rendered dynamically by arena dashboard script -->
+        <p class="muted">Loading Legal Brain Arena…</p>
+      </div>
+
+      <footer class="site-footer">
+        Judicial Prep · Legal Brain Arena · Designed for Tanveer Ashraf by Tauqeer Ashraf · 
+        <a href="about.html">Independent preparation portal</a>
+      </footer>
+    </main>
+  </div>
+
+  <noscript>Please enable JavaScript to use the Legal Brain Arena.</noscript>
+
+  <!-- Core Data & Storage Scripts -->
+  <script src="assets/data/questions.js"></script>
+  <script src="assets/data/bns.js"></script>
+  <script src="assets/games/data/legal-game-content.js"></script>
+  <script src="assets/games/js/game-storage.js"></script>
+  <script src="assets/games/js/game-audio.js"></script>
+  <script src="assets/games/js/achievements.js"></script>
+  <script src="assets/games/js/game-engine.js"></script>
+
+  <!-- Arena Dashboard Controller -->
+  <script>
+    (function() {
+      'use strict';
+
+      function renderArenaDashboard() {
+        const state = window.GameStorage.getArenaState();
+        const levelInfo = window.GameStorage.getLevelInfo(state.xp);
+        const achievements = window.AchievementsEngine.getAll();
+        const isSoundOn = !window.GameAudio.isMuted();
+
+        const totalAttempts = state.totalAttempts;
+        const totalCorrect = state.totalCorrect;
+        const overallAcc = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
+
+        const contentEl = document.getElementById('content');
+        if (!contentEl) return;
+
+        contentEl.innerHTML = `
+          <!-- Hero Section -->
+          <section class="arena-hero">
+            <div class="arena-hero-top">
+              <div>
+                <div class="arena-hero-brand">⚡ Cognitive Legal Arena · V3.0</div>
+                <h1>Train Your Mind. <span>Master the Law.</span></h1>
+                <p class="arena-hero-tagline">Active recall, memory enhancement and rapid statutory response for UP PCS-J.</p>
+              </div>
+              <div class="arena-hero-controls">
+                <button type="button" class="arena-icon-btn ${isSoundOn ? 'active' : ''}" id="arenaSoundToggle" aria-label="Toggle game sound">
+                  <span id="soundIcon">${isSoundOn ? '🔊 Sound: ON' : '🔇 Sound: OFF (Muted)'}</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Level & XP Progression Strip -->
+            <div class="arena-level-strip">
+              <div class="level-badge-large" title="Level ${levelInfo.currentLevel}">
+                ${levelInfo.badge}
+              </div>
+              <div class="level-info">
+                <strong>Level ${levelInfo.currentLevel} — ${levelInfo.title}</strong>
+                <small>${levelInfo.isMaxLevel ? 'Highest judicial rank attained!' : `${levelInfo.neededForNext} XP needed for next rank`}</small>
+                <div class="level-progress-bar">
+                  <div class="level-progress-fill" style="width: ${levelInfo.percent}%"></div>
+                </div>
+              </div>
+              <div class="level-xp-stat">
+                <b>${state.xp.toLocaleString()}</b>
+                <small>Total Learning XP</small>
+              </div>
+            </div>
+          </section>
+
+          <!-- Core Metrics Ribbon -->
+          <div class="arena-stats-grid">
+            <div class="arena-stat-card">
+              <div class="arena-stat-header">
+                <span>Daily Streak</span>
+                <span>🔥</span>
+              </div>
+              <div class="arena-stat-num">${state.streak.current} <small style="font-size:16px;color:#875711">Days</small></div>
+              <div class="arena-stat-sub">Best: ${state.streak.best} consecutive days</div>
+            </div>
+
+            <div class="arena-stat-card">
+              <div class="arena-stat-header">
+                <span>Games Completed</span>
+                <span>🎯</span>
+              </div>
+              <div class="arena-stat-num">${state.gamesPlayed}</div>
+              <div class="arena-stat-sub">${state.gamesWon} victories recorded</div>
+            </div>
+
+            <div class="arena-stat-card">
+              <div class="arena-stat-header">
+                <span>Overall Accuracy</span>
+                <span>⚖</span>
+              </div>
+              <div class="arena-stat-num">${totalAttempts > 0 ? overallAcc + '%' : '—'}</div>
+              <div class="arena-stat-sub">${state.totalCorrect} / ${state.totalAttempts} correct answers</div>
+            </div>
+
+            <div class="arena-stat-card">
+              <div class="arena-stat-header">
+                <span>Weak Queue</span>
+                <span>📌</span>
+              </div>
+              <div class="arena-stat-num">${state.weakQueue.length}</div>
+              <div class="arena-stat-sub">Items queued for targeted revision</div>
+            </div>
+          </div>
+
+          <!-- Daily Challenge -->
+          <div class="daily-challenge-box">
+            <div class="daily-challenge-left">
+              <div class="daily-challenge-icon">⭐</div>
+              <div class="daily-challenge-text">
+                <div class="eyebrow" style="color:#dfbf80">Daily Cognitive Challenge</div>
+                <h3>${state.dailyChallenge.title}</h3>
+                <p>${state.dailyChallenge.description} · <strong>+${state.dailyChallenge.rewardXP} Bonus XP</strong></p>
+              </div>
+            </div>
+            <div>
+              ${state.dailyChallenge.completed 
+                ? '<span class="badge" style="background:#e9f6f1;color:#137d72;padding:8px 14px;font-size:13px">✓ Completed Today</span>'
+                : '<a href="section-sprint.html?mode=number_to_title&time=60" class="btn gold">Accept Challenge ↗</a>'
+              }
+            </div>
+          </div>
+
+          <!-- 8 Game Cards Section -->
+          <div class="arena-games-section-title">
+            <h2>Judicial Training Arenas</h2>
+            <span class="caption gold" style="font-weight:700;">Phase 4: All 8 Games Live & Playable</span>
+          </div>
+
+          <div class="arena-games-grid">
+            <!-- 1. Legal Memory Match (LIVE) -->
+            <article class="game-card">
+              <div class="game-card-media">
+                <img src="assets/games/images/cards/memory-match.svg" alt="Legal Memory Match artwork">
+                <span class="game-status-badge live">● PLAYABLE</span>
+              </div>
+              <div class="game-card-body">
+                <h3>Legal Memory Match</h3>
+                <p class="game-card-desc">Active recall pairing game for BNS sections, constitutional articles, Latin maxims, and landmark judicial rulings.</p>
+                <div class="game-card-meta">
+                  <span>Visual & Cognitive Memory</span>
+                  <div class="game-difficulty">
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot"></span>
+                    <span class="diff-dot"></span>
+                    <small>Adaptable</small>
+                  </div>
+                </div>
+                <div class="game-card-action">
+                  <a href="memory-match.html" class="btn primary">Start Memory Trial ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 2. Section Sprint (LIVE) -->
+            <article class="game-card">
+              <div class="game-card-media">
+                <img src="assets/games/images/cards/section-sprint.svg" alt="Section Sprint artwork">
+                <span class="game-status-badge live">● PLAYABLE</span>
+              </div>
+              <div class="game-card-body">
+                <h3>Section Sprint</h3>
+                <p class="game-card-desc">Rapid statutory recall under pressure. Test your instant retrieval speed across all 358 sections of the Bharatiya Nyaya Sanhita.</p>
+                <div class="game-card-meta">
+                  <span>Speed & Reflex Recall</span>
+                  <div class="game-difficulty">
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot"></span>
+                    <small>High Speed</small>
+                  </div>
+                </div>
+                <div class="game-card-action">
+                  <a href="section-sprint.html" class="btn primary">Launch Section Sprint ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 3. Legal Detective (LIVE IN PHASE 2) -->
+            <article class="game-card">
+              <div class="game-card-media">
+                <img src="assets/games/images/cards/legal-detective.svg" alt="Legal Detective artwork">
+                <span class="game-status-badge live">● PLAYABLE</span>
+              </div>
+              <div class="game-card-body">
+                <h3>Legal Detective</h3>
+                <p class="game-card-desc">Examine circumstantial dossiers, spot statutory violations, and deduce the exact offences committed under Indian criminal law.</p>
+                <div class="game-card-meta">
+                  <span>Factual Analysis & Deduction</span>
+                  <div class="game-difficulty">
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot"></span>
+                    <small>Analytical</small>
+                  </div>
+                </div>
+                <div class="game-card-action">
+                  <a href="legal-detective.html" class="btn primary">Enter Bureau ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 4. Be the Judge (LIVE IN PHASE 2) -->
+            <article class="game-card">
+              <div class="game-card-media">
+                <img src="assets/games/images/cards/be-the-judge.svg" alt="Be the Judge artwork">
+                <span class="game-status-badge live">● PLAYABLE</span>
+              </div>
+              <div class="game-card-body">
+                <h3>Be the Judge</h3>
+                <p class="game-card-desc">Preside over contested judicial proceedings, weigh precedent and evidence, and deliver legally sound interlocutory orders.</p>
+                <div class="game-card-meta">
+                  <span>Judicial Decision-Making</span>
+                  <div class="game-difficulty">
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <small>High Judicial</small>
+                  </div>
+                </div>
+                <div class="game-card-action">
+                  <a href="courtroom.html" class="btn primary">Take the Bench ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 5. Legal Crossword (LIVE IN PHASE 3) -->
+            <article class="game-card">
+              <div class="game-card-media">
+                <img src="assets/games/images/cards/legal-crossword.svg" alt="Legal Crossword artwork">
+                <span class="game-status-badge live">● PLAYABLE</span>
+              </div>
+              <div class="game-card-body">
+                <h3>Legal Crossword</h3>
+                <p class="game-card-desc">Solve interlocking procedural and substantive crossword puzzles based on the UP PCS-J examination syllabus.</p>
+                <div class="game-card-meta">
+                  <span>Vocabulary & Concepts</span>
+                  <div class="game-difficulty">
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot"></span>
+                    <span class="diff-dot"></span>
+                    <small>Cognitive Grid</small>
+                  </div>
+                </div>
+                <div class="game-card-action">
+                  <a href="crossword.html" class="btn primary">Enter Chamber ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 6. Legal Word Scramble (LIVE IN PHASE 3) -->
+            <article class="game-card">
+              <div class="game-card-media">
+                <img src="assets/games/images/cards/word-scramble.svg" alt="Legal Word Scramble artwork">
+                <span class="game-status-badge live">● PLAYABLE</span>
+              </div>
+              <div class="game-card-body">
+                <h3>Legal Word Scramble</h3>
+                <p class="game-card-desc">Unscramble Latin maxims, statutory keywords, and reconstruct ancient judicial manuscripts using tactile metallic tiles.</p>
+                <div class="game-card-meta">
+                  <span>Terminology & Maxims</span>
+                  <div class="game-difficulty">
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot fill"></span>
+                    <span class="diff-dot"></span>
+                    <small>Cryptographic</small>
+                  </div>
+                </div>
+                <div class="game-card-action">
+                  <a href="word-scramble.html" class="btn primary">Crack Cipher ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 7. Legal Myth Buster (PLAYABLE) -->
+            <article class="game-card">
+              <div class="game-card-media">
+                <img src="assets/games/images/cards/myth-buster.svg" alt="Legal Myth Buster artwork">
+                <span class="game-status-badge live">● PLAYABLE</span>
+              </div>
+              <div class="game-card-body">
+                <h3>Legal Myth Buster</h3>
+                <p class="game-card-desc">Question everything. Discover the law. Evaluate 330 verified statutory propositions across 8 playable modes with animated scales of truth.</p>
+                <div class="game-card-meta">
+                  <span>Chamber of Truth</span>
+                  <span class="caption gold">8 Playable Modes</span>
+                </div>
+                <div class="game-card-action">
+                  <a href="myth-buster.html" class="btn primary">Enter Chamber ↗</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 8. Road to Judiciary (PLAYABLE) -->
+            <article class="game-card">
+              <div class="game-card-media">
+                <img src="assets/games/images/cards/road-to-judiciary.svg" alt="Road to Judiciary artwork">
+                <span class="game-status-badge live">● PLAYABLE</span>
+              </div>
+              <div class="game-card-body">
+                <h3>Road to Judiciary</h3>
+                <p class="game-card-desc">Every challenge brings you closer to the bench. 9 progressive campaign chapters, 36 connected missions, daily study plan, and judicial appointment decree.</p>
+                <div class="game-card-meta">
+                  <span>Judicial Campaign</span>
+                  <span class="caption gold">9 Chapters • 36 Missions</span>
+                </div>
+                <div class="game-card-action">
+                  <a href="judiciary-journey.html" class="btn primary">Ascend to Bench ↗</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Dual Section: Subject Mastery & Achievements -->
+          <div class="arena-dual-grid">
+            <!-- Subject Mastery Panel -->
+            <div class="card">
+              <h3>Subject Mastery Distribution</h3>
+              <p class="muted caption">Real-time accuracy across judicial disciplines in the Arena.</p>
+              
+              <div class="mastery-row">
+                <span>Bharatiya Nyaya Sanhita, 2023</span>
+                <span>${getMasteryPercent(state.subjectMastery.bns)}</span>
+              </div>
+              <div class="mastery-bar">
+                <div class="mastery-bar-fill" style="width:${getMasteryPercent(state.subjectMastery.bns)}"></div>
+              </div>
+
+              <div class="mastery-row">
+                <span>Constitutional Law & Writs</span>
+                <span>${getMasteryPercent(state.subjectMastery.constitution)}</span>
+              </div>
+              <div class="mastery-bar">
+                <div class="mastery-bar-fill" style="width:${getMasteryPercent(state.subjectMastery.constitution)}"></div>
+              </div>
+
+              <div class="mastery-row">
+                <span>Legal Maxims & Jurisprudence</span>
+                <span>${getMasteryPercent(state.subjectMastery.terms)}</span>
+              </div>
+              <div class="mastery-bar">
+                <div class="mastery-bar-fill" style="width:${getMasteryPercent(state.subjectMastery.terms)}"></div>
+              </div>
+
+              <div class="mastery-row">
+                <span>Landmark Precedents & Rulings</span>
+                <span>${getMasteryPercent(state.subjectMastery.cases)}</span>
+              </div>
+              <div class="mastery-bar">
+                <div class="mastery-bar-fill" style="width:${getMasteryPercent(state.subjectMastery.cases)}"></div>
+              </div>
+            </div>
+
+            <!-- Judicial Honors & Badges -->
+            <div class="card">
+              <h3>Judicial Honors & Milestones</h3>
+              <p class="muted caption">${state.achievements.length} of ${achievements.length} judicial honors unlocked.</p>
+
+              <div class="achievements-grid">
+                ${achievements.map(ach => {
+                  const isUnlocked = state.achievements.includes(ach.id);
+                  return `
+                    <div class="achievement-item ${isUnlocked ? 'unlocked' : ''}" title="${window.GameEngine.esc(ach.description)}">
+                      <div class="achievement-icon">${ach.icon}</div>
+                      <div class="achievement-text">
+                        <strong>${window.GameEngine.esc(ach.title)}</strong>
+                        <small>${isUnlocked ? 'Unlocked (+ ' + ach.xpReward + ' XP)' : 'Locked'}</small>
+                      </div>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            </div>
+          </div>
+
+          <!-- Recent Arena Sessions -->
+          <div class="card section">
+            <h3>Recent Arena Trials</h3>
+            ${state.history.length > 0 ? `
+              <div class="tablewrap" style="margin-top:12px">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Game</th>
+                      <th>Mode</th>
+                      <th>Date</th>
+                      <th>Score</th>
+                      <th>Accuracy</th>
+                      <th>XP</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${state.history.slice(0, 8).map(h => `
+                      <tr>
+                        <td><b>${h.game === 'memory-match' ? 'Legal Memory Match' : h.game === 'section-sprint' ? 'Section Sprint' : h.game === 'legal-detective' ? 'Legal Detective' : h.game === 'courtroom' ? 'Be the Judge' : h.game === 'crossword' ? 'Legal Crossword' : h.game === 'scramble' ? 'Word Scramble' : h.game}</b></td>
+                        <td>${formatMode(h.mode || h.difficulty || 'standard')}</td>
+                        <td>${new Date(h.date).toLocaleDateString()}</td>
+                        <td>${h.score}</td>
+                        <td>${h.accuracy}%</td>
+                        <td><span class="badge" style="background:#fef0c7;color:#9e7529">+${h.xpEarned}</span></td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              </div>
+            ` : '<p class="muted" style="margin-top:12px">No arena sessions completed yet. Choose a game above to start your cognitive training.</p>'}
+          </div>
+
+          <!-- Arena Local Storage & Reset Section -->
+          <div class="card section">
+            <h3>Arena Data & Local Progress</h3>
+            <p class="muted">Arena statistics and achievements are stored in this browser under <code>tanveer-arena-v1</code>.</p>
+            <div class="actions" style="margin-top:14px">
+              <button type="button" class="btn mini primary" id="arenaExportBtn">Export Arena Data</button>
+              <button type="button" class="btn mini danger" id="arenaResetBtn">Reset Arena Progress</button>
+            </div>
+          </div>
+        `;
+
+        // Bind Sound Toggle
+        const soundBtn = document.getElementById('arenaSoundToggle');
+        if (soundBtn) {
+          soundBtn.onclick = () => {
+            const nowEnabled = window.GameAudio.toggleMute();
+            soundBtn.classList.toggle('active', nowEnabled);
+            document.getElementById('soundIcon').textContent = nowEnabled ? '🔊 Sound: ON' : '🔇 Sound: OFF (Muted)';
+          };
+        }
+
+        // Bind Export & Reset
+        const expBtn = document.getElementById('arenaExportBtn');
+        if (expBtn) {
+          expBtn.onclick = () => {
+            const dataStr = window.GameStorage.exportData();
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'tanveer-arena-progress.json';
+            a.click();
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
+          };
+        }
+
+        const resetBtn = document.getElementById('arenaResetBtn');
+        if (resetBtn) {
+          resetBtn.onclick = () => {
+            if (confirm('Are you sure you want to reset all Legal Brain Arena XP, levels, and achievements? Your PYQ study history will NOT be affected.')) {
+              window.GameStorage.resetData();
+              renderArenaDashboard();
+            }
+          };
+        }
+      }
+
+      function getMasteryPercent(m) {
+        if (!m || m.attempted === 0) return '0%';
+        return Math.round((m.correct / m.attempted) * 100) + '%';
+      }
+
+      function formatMode(m) {
+        if (!m) return 'Standard';
+        return m.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+      }
+
+      // Initialize Dashboard
+      document.addEventListener('DOMContentLoaded', renderArenaDashboard);
+    })();
+  </script>
+</body>
+</html>

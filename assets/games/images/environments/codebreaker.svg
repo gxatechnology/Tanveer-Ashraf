@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="labBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#081422"/>
+      <stop offset="50%" stop-color="#102847"/>
+      <stop offset="100%" stop-color="#06101c"/>
+    </linearGradient>
+    <radialGradient id="cipherGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#2fe0c833"/>
+      <stop offset="50%" stop-color="#dfbf801a"/>
+      <stop offset="100%" stop-color="#10284700"/>
+    </radialGradient>
+    <linearGradient id="metalTile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dfbf80"/>
+      <stop offset="50%" stop-color="#b88d3b"/>
+      <stop offset="100%" stop-color="#805d1b"/>
+    </linearGradient>
+    <linearGradient id="benchLab" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#182e44"/>
+      <stop offset="20%" stop-color="#243f5a"/>
+      <stop offset="100%" stop-color="#0e1b29"/>
+    </linearGradient>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#176d63"/>
+      <stop offset="50%" stop-color="#2fe0c8"/>
+      <stop offset="100%" stop-color="#dfbf80"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Sapphire Background -->
+  <rect width="800" height="450" fill="url(#labBg)"/>
+
+  <!-- Geometric Decagonal Cryptographic Grid in Background -->
+  <g opacity="0.25" stroke="#dfbf80" stroke-width="1" fill="none">
+    <circle cx="400" cy="190" r="160"/>
+    <circle cx="400" cy="190" r="120"/>
+    <circle cx="400" cy="190" r="80"/>
+    <circle cx="400" cy="190" r="40"/>
+    <!-- Radial rays -->
+    <line x1="400" y1="30" x2="400" y2="350"/>
+    <line x1="240" y1="190" x2="560" y2="190"/>
+    <line x1="287" y1="77" x2="513" y2="303"/>
+    <line x1="287" y1="303" x2="513" y2="77"/>
+  </g>
+
+  <!-- Central Ambient Energy / Cipher Glow -->
+  <circle cx="400" cy="190" r="220" fill="url(#cipherGlow)"/>
+
+  <!-- Ancient Brass Cipher Disk Mechanism in Center Background -->
+  <g transform="translate(400, 185)" opacity="0.85">
+    <!-- Outer Gear Ring -->
+    <circle r="140" fill="#0d1f30" stroke="#dfbf80" stroke-width="3"/>
+    <!-- Outer Ring Letters / Maxims -->
+    <g fill="#dfbf80" font-family="Georgia, serif" font-size="10" font-weight="bold" text-anchor="middle">
+      <text y="-124">LEX</text>
+      <text x="88" y="-88">JUS</text>
+      <text x="124" y="4">ACTUS</text>
+      <text x="88" y="96">MENS</text>
+      <text y="132">BONA</text>
+      <text x="-88" y="96">FIDES</text>
+      <text x="-124" y="4">RATIO</text>
+      <text x="-88" y="-88">DECIDENDI</text>
+    </g>
+    <!-- Middle Combination Dial Ring -->
+    <circle r="95" fill="#142c46" stroke="#2fe0c8" stroke-width="2"/>
+    <g fill="#2fe0c8" font-family="monospace" font-size="9" text-anchor="middle">
+      <text y="-82">§ 303</text>
+      <text x="60" y="-55">ART 21</text>
+      <text x="80" y="4">SEC 11</text>
+      <text x="55" y="65">ORDER 39</text>
+      <text y="88">§ 358</text>
+      <text x="-55" y="65">SEC 63</text>
+      <text x="-80" y="4">ART 32</text>
+      <text x="-60" y="-55">ART 226</text>
+    </g>
+    <!-- Inner Core & Glowing Dial Indicator -->
+    <circle r="50" fill="#0b1724" stroke="#dfbf80" stroke-width="2.5"/>
+    <circle r="16" fill="url(#neonGlow)"/>
+    <!-- Pointer Arrow -->
+    <polygon points="0,-45 -8,-25 8,-25" fill="#dfbf80"/>
+  </g>
+
+  <!-- Left & Right Glass Manuscript Preservation Cylinders -->
+  <!-- Left Cylinder -->
+  <g transform="translate(70, 70)">
+    <rect x="0" y="0" width="80" height="230" rx="40" fill="#142c4633" stroke="#2fe0c844" stroke-width="2"/>
+    <ellipse cx="40" cy="20" rx="30" ry="10" fill="#2fe0c822" stroke="#2fe0c8" stroke-width="1.5"/>
+    <ellipse cx="40" cy="215" rx="30" ry="10" fill="#2fe0c822" stroke="#2fe0c8" stroke-width="1.5"/>
+    <!-- Floating Illuminated Legal Scroll Inside Cylinder -->
+    <rect x="25" y="50" width="30" height="130" rx="3" fill="#fff8ee" stroke="#dfbf80" stroke-width="1"/>
+    <line x1="30" y1="70" x2="50" y2="70" stroke="#875333" stroke-width="1.5"/>
+    <line x1="30" y1="85" x2="50" y2="85" stroke="#875333" stroke-width="1.5"/>
+    <line x1="30" y1="100" x2="50" y2="100" stroke="#875333" stroke-width="1.5"/>
+    <line x1="30" y1="115" x2="50" y2="115" stroke="#875333" stroke-width="1.5"/>
+    <line x1="30" y1="130" x2="50" y2="130" stroke="#875333" stroke-width="1.5"/>
+    <line x1="30" y1="145" x2="50" y2="145" stroke="#875333" stroke-width="1.5"/>
+    <!-- Neon Base Ring -->
+    <ellipse cx="40" cy="225" rx="20" ry="5" fill="#2fe0c8"/>
+  </g>
+
+  <!-- Right Cylinder -->
+  <g transform="translate(650, 70)">
+    <rect x="0" y="0" width="80" height="230" rx="40" fill="#142c4633" stroke="#dfbf8044" stroke-width="2"/>
+    <ellipse cx="40" cy="20" rx="30" ry="10" fill="#dfbf8022" stroke="#dfbf80" stroke-width="1.5"/>
+    <ellipse cx="40" cy="215" rx="30" ry="10" fill="#dfbf8022" stroke="#dfbf80" stroke-width="1.5"/>
+    <!-- Floating Ancient Codex Inside Cylinder -->
+    <rect x="22" y="55" width="36" height="120" rx="3" fill="#fdfcf8" stroke="#176d63" stroke-width="1.5"/>
+    <line x1="28" y1="75" x2="52" y2="75" stroke="#176d63" stroke-width="1.5"/>
+    <line x1="28" y1="90" x2="52" y2="90" stroke="#176d63" stroke-width="1.5"/>
+    <line x1="28" y1="105" x2="52" y2="105" stroke="#176d63" stroke-width="1.5"/>
+    <line x1="28" y1="120" x2="52" y2="120" stroke="#176d63" stroke-width="1.5"/>
+    <line x1="28" y1="135" x2="52" y2="135" stroke="#176d63" stroke-width="1.5"/>
+    <!-- Gold Base Ring -->
+    <ellipse cx="40" cy="225" rx="20" ry="5" fill="#dfbf80"/>
+  </g>
+
+  <!-- Sophisticated Decoding Console Bench in Foreground -->
+  <polygon points="60,450 740,450 680,310 120,310" fill="url(#benchLab)"/>
+  <rect x="116" y="306" width="568" height="10" fill="#102538" stroke="#2fe0c866" stroke-width="1.5"/>
+
+  <!-- Interactive Metallic Letter Tile Rack on Bench -->
+  <g transform="translate(190, 335)">
+    <!-- Rack Base Frame -->
+    <rect x="0" y="0" width="420" height="75" rx="6" fill="#0c1825" stroke="#dfbf8088" stroke-width="2"/>
+    <rect x="10" y="10" width="400" height="55" rx="4" fill="#081018"/>
+    
+    <!-- Gold Metallic Letter Tiles Placed in Slots -->
+    <!-- Tile 1 -->
+    <g transform="translate(25, 14)">
+      <rect width="40" height="46" rx="4" fill="url(#metalTile)" stroke="#fdf2d0" stroke-width="1.5" filter="drop-shadow(0 3px 5px rgba(0,0,0,0.5))"/>
+      <text x="20" y="31" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1c2024" text-anchor="middle">J</text>
+    </g>
+    <!-- Tile 2 -->
+    <g transform="translate(75, 14)">
+      <rect width="40" height="46" rx="4" fill="url(#metalTile)" stroke="#fdf2d0" stroke-width="1.5" filter="drop-shadow(0 3px 5px rgba(0,0,0,0.5))"/>
+      <text x="20" y="31" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1c2024" text-anchor="middle">U</text>
+    </g>
+    <!-- Tile 3 -->
+    <g transform="translate(125, 14)">
+      <rect width="40" height="46" rx="4" fill="url(#metalTile)" stroke="#fdf2d0" stroke-width="1.5" filter="drop-shadow(0 3px 5px rgba(0,0,0,0.5))"/>
+      <text x="20" y="31" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1c2024" text-anchor="middle">R</text>
+    </g>
+    <!-- Tile 4 -->
+    <g transform="translate(175, 14)">
+      <rect width="40" height="46" rx="4" fill="url(#metalTile)" stroke="#fdf2d0" stroke-width="1.5" filter="drop-shadow(0 3px 5px rgba(0,0,0,0.5))"/>
+      <text x="20" y="31" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1c2024" text-anchor="middle">I</text>
+    </g>
+    <!-- Tile 5 -->
+    <g transform="translate(225, 14)">
+      <rect width="40" height="46" rx="4" fill="url(#metalTile)" stroke="#fdf2d0" stroke-width="1.5" filter="drop-shadow(0 3px 5px rgba(0,0,0,0.5))"/>
+      <text x="20" y="31" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1c2024" text-anchor="middle">S</text>
+    </g>
+    <!-- Tile 6 -->
+    <g transform="translate(275, 14)">
+      <rect width="40" height="46" rx="4" fill="url(#metalTile)" stroke="#fdf2d0" stroke-width="1.5" filter="drop-shadow(0 3px 5px rgba(0,0,0,0.5))"/>
+      <text x="20" y="31" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1c2024" text-anchor="middle">D</text>
+    </g>
+    <!-- Tile 7 -->
+    <g transform="translate(325, 14)">
+      <rect width="40" height="46" rx="4" fill="url(#metalTile)" stroke="#fdf2d0" stroke-width="1.5" filter="drop-shadow(0 3px 5px rgba(0,0,0,0.5))"/>
+      <text x="20" y="31" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1c2024" text-anchor="middle">I</text>
+    </g>
+    <!-- Tile 8 (Active glowing tile slot) -->
+    <g transform="translate(370, 14)">
+      <rect width="32" height="46" rx="4" fill="#176d6333" stroke="#2fe0c8" stroke-width="1.5" stroke-dasharray="3,3"/>
+      <text x="16" y="30" font-family="Georgia, serif" font-size="16" fill="#2fe0c8" text-anchor="middle">?</text>
+    </g>
+  </g>
+
+  <!-- Laboratory Combination Lock Progression Dial (Top Center) -->
+  <g transform="translate(260, 15)">
+    <rect width="280" height="30" rx="6" fill="#0c1825ee" stroke="#2fe0c8" stroke-width="1.5"/>
+    <text x="140" y="20" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80" text-anchor="middle" letter-spacing="2">THE CODE BREAKER LAB</text>
+  </g>
+</svg>

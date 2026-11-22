@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142b3f">
+  <meta name="description" content="Legal Memory Match — Cognitive Judicial Card Pairing">
+  <title>Legal Memory Match | Judicial Prep Arena</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/games/css/arena.css">
+  <link rel="stylesheet" href="assets/games/css/games.css">
+</head>
+<body data-page="arena">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div>
+          <b>Judicial Prep</b>
+          <small>UP PCS-J · 2026–27</small>
+        </div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="brain-arena.html" data-view="arena" class="active"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results & Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus & Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div>
+          <small>Designed & developed by</small>
+          <b>Tauqeer Ashraf</b>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div>
+          <div class="top-title">Legal Memory Match</div>
+          <small>Legal Brain Arena · Active Recall Training</small>
+        </div>
+        <div class="top-right">
+          <small id="topStatus">Cognitive Judicial Pairs</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="content">
+        <div class="game-container">
+          <!-- Setup Panel -->
+          <div id="memorySetupPanel" class="card section">
+            <div class="eyebrow" style="color:var(--teal)">Arena Game 01 · Visual & Conceptual Recall</div>
+            <h1 style="font-family:Georgia,serif;font-size:30px;margin:8px 0 12px;color:var(--navy)">Legal Memory Match</h1>
+            <p class="muted" style="margin-bottom:20px">Flip cards, match corresponding legal provisions, maxims, and landmark cases, and strengthen your photographic memory for preliminary judicial examination.</p>
+
+            <div class="filter" style="margin-bottom:18px">
+              <div class="field" style="flex:2">
+                <label for="matchModeSelect">Discipline / Game Mode</label>
+                <select id="matchModeSelect">
+                  <option value="bns" selected>Mode A: BNS Sections & Statutory Headings (358 Sections)</option>
+                  <option value="terms">Mode B: Legal Terms, Maxims & Definitions</option>
+                  <option value="constitution">Mode C: Constitutional Articles & Core Subjects</option>
+                  <option value="cases">Mode D: Landmark Judicial Precedents & Principles</option>
+                  <option value="mixed">Mode E: Mixed Judicial Knowledge Challenge</option>
+                </select>
+              </div>
+
+              <div class="field">
+                <label for="matchDiffSelect">Difficulty / Pair Count</label>
+                <select id="matchDiffSelect">
+                  <option value="beginner">Beginner (4 Pairs / 8 Cards)</option>
+                  <option value="easy">Easy (6 Pairs / 12 Cards)</option>
+                  <option value="intermediate" selected>Intermediate (8 Pairs / 16 Cards)</option>
+                  <option value="advanced">Advanced (12 Pairs / 24 Cards)</option>
+                  <option value="expert">Expert (18 Pairs / 36 Cards)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="toolbar" style="margin-bottom:24px">
+              <label class="check">
+                <input type="checkbox" id="matchPreviewCheck">
+                <span>Enable 3-Second Initial Preview Mode</span>
+              </label>
+            </div>
+
+            <div class="actions">
+              <button type="button" class="btn primary" id="startMemoryBtn">Start Memory Trial ↗</button>
+              <a href="brain-arena.html" class="btn ghost">Return to Brain Arena</a>
+            </div>
+          </div>
+
+          <!-- Active Game Interface -->
+          <div id="memoryGameInterface" style="display:none">
+            <!-- Game HUD -->
+            <div class="game-hud">
+              <div class="game-hud-left">
+                <a href="brain-arena.html" class="btn mini" title="Back to Arena">← Arena</a>
+                <h2 class="game-hud-title" id="hudModeTitle">Legal Memory Match</h2>
+              </div>
+
+              <div class="game-hud-stats">
+                <div class="hud-stat-item">
+                  <small>Time</small>
+                  <strong id="hudTimer">0:00</strong>
+                </div>
+                <div class="hud-stat-item">
+                  <small>Moves</small>
+                  <strong id="hudMoves">0</strong>
+                </div>
+                <div class="hud-stat-item">
+                  <small>Matched</small>
+                  <strong class="gold" id="hudMatches">0 / 8</strong>
+                </div>
+                <div class="hud-stat-item">
+                  <small>Accuracy</small>
+                  <strong class="streak" id="hudAccuracy">100%</strong>
+                </div>
+              </div>
+
+              <div class="game-hud-actions">
+                <button type="button" class="btn mini gold" id="hudHintBtn" title="Reveal 1 pair for 1.2s (-35 pts)">💡 Hint</button>
+                <button type="button" class="btn mini" id="hudPauseBtn">⏸ Pause</button>
+                <button type="button" class="btn mini" id="hudRestartBtn">↺ Restart</button>
+                <button type="button" class="btn mini" id="hudSoundBtn" title="Toggle audio">🔊</button>
+              </div>
+            </div>
+
+            <!-- Card Board -->
+            <div id="memoryBoard" class="memory-board"></div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        Judicial Prep · Legal Brain Arena · Designed for Tanveer Ashraf by Tauqeer Ashraf · 
+        <a href="about.html">Independent preparation portal</a>
+      </footer>
+    </main>
+  </div>
+
+  <noscript>Please enable JavaScript to play Legal Memory Match.</noscript>
+
+  <!-- Script Imports -->
+  <script src="assets/data/bns.js"></script>
+  <script src="assets/games/data/legal-game-content.js"></script>
+  <script src="assets/games/js/game-storage.js"></script>
+  <script src="assets/games/js/game-audio.js"></script>
+  <script src="assets/games/js/achievements.js"></script>
+  <script src="assets/games/js/game-engine.js"></script>
+  <script src="assets/games/js/memory-match.js"></script>
+
+  <script>
+    (function() {
+      'use strict';
+
+      const setupPanel = document.getElementById('memorySetupPanel');
+      const gameInterface = document.getElementById('memoryGameInterface');
+      const startBtn = document.getElementById('startMemoryBtn');
+
+      // Check URL query parameters (e.g. ?mode=terms&diff=easy)
+      const params = new URLSearchParams(location.search);
+      if (params.has('mode')) {
+        const modeEl = document.getElementById('matchModeSelect');
+        if (modeEl) modeEl.value = params.get('mode');
+      }
+      if (params.has('diff')) {
+        const diffEl = document.getElementById('matchDiffSelect');
+        if (diffEl) diffEl.value = params.get('diff');
+      }
+
+      function launchMatch() {
+        const mode = document.getElementById('matchModeSelect').value;
+        const diff = document.getElementById('matchDiffSelect').value;
+        const preview = document.getElementById('matchPreviewCheck').checked;
+
+        setupPanel.style.display = 'none';
+        gameInterface.style.display = 'block';
+
+        const modeNames = {
+          bns: 'BNS 2023 Sections',
+          terms: 'Legal Terms & Maxims',
+          constitution: 'Constitutional Articles',
+          cases: 'Landmark Precedents',
+          mixed: 'Mixed Legal Knowledge'
+        };
+        const titleEl = document.getElementById('hudModeTitle');
+        if (titleEl) titleEl.textContent = `Memory Match: ${modeNames[mode] || 'Judicial Recall'}`;
+
+        window.MemoryMatch.init(mode, diff, preview);
+      }
+
+      startBtn.onclick = launchMatch;
+
+      // HUD Action Bindings
+      document.getElementById('hudHintBtn').onclick = () => window.MemoryMatch.hint();
+      document.getElementById('hudPauseBtn').onclick = () => window.MemoryMatch.togglePause();
+      document.getElementById('hudRestartBtn').onclick = () => {
+        if (confirm('Restart this Memory Match session? Current moves will be reset.')) {
+          launchMatch();
+        }
+      };
+      
+      const soundBtn = document.getElementById('hudSoundBtn');
+      function updateSoundBtn() {
+        soundBtn.textContent = window.GameAudio.isMuted() ? '🔇' : '🔊';
+      }
+      soundBtn.onclick = () => {
+        window.GameAudio.toggleMute();
+        updateSoundBtn();
+      };
+      updateSoundBtn();
+
+      // Auto-launch if URL has autostart parameter
+      if (params.has('autostart')) {
+        launchMatch();
+      }
+    })();
+  </script>
+</body>
+</html>

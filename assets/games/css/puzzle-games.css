@@ -1,0 +1,663 @@
+/**
+ * LEGAL BRAIN ARENA — PUZZLE GAMES STYLESHEET (V3.0 Phase 3)
+ * The Lexicon Chamber (Legal Crossword) & The Code Breaker (Word Scramble)
+ * Strictly vanilla modern CSS3 conforming to the judicial preparation design language.
+ */
+
+/* ==========================================================================
+   1. SHARED PUZZLE HERO & ENVIRONMENT PANELS
+   ========================================================================== */
+.puzzle-env-hero {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  border: 1px solid rgba(223, 191, 128, 0.35);
+  box-shadow: 0 8px 32px rgba(20, 44, 70, 0.12);
+  min-height: 200px;
+  background-color: var(--navy, #142c46);
+}
+
+.puzzle-env-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
+.puzzle-hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 28px 32px;
+  color: #ffffff;
+}
+
+.puzzle-hero-content h1,
+.puzzle-hero-content h2 {
+  font-family: Georgia, serif;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+}
+
+.puzzle-tagline {
+  color: var(--gold, #dfbf80);
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.puzzle-stats-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.puzzle-stat-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(16, 40, 71, 0.75);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(223, 191, 128, 0.4);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #f3f5f8;
+}
+
+.puzzle-stat-pill strong {
+  color: var(--gold, #dfbf80);
+  font-family: Georgia, serif;
+}
+
+/* ==========================================================================
+   2. THE LEXICON CHAMBER — LEGAL CROSSWORD
+   ========================================================================== */
+.lexicon-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 960px) {
+  .lexicon-container {
+    grid-template-columns: minmax(360px, 1.25fr) minmax(320px, 1fr);
+  }
+}
+
+/* Active Clue Ribbon above board */
+.crossword-active-clue-bar {
+  background: #ffffff;
+  border: 2px solid var(--gold, #dfbf80);
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 14px rgba(20, 44, 70, 0.06);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.clue-badge {
+  background: var(--navy, #142c46);
+  color: var(--gold, #dfbf80);
+  font-family: Georgia, serif;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.clue-text-main {
+  font-size: 0.95rem;
+  color: var(--ink, #1c2e40);
+  flex: 1;
+}
+
+.clue-text-main em {
+  color: var(--muted, #607387);
+  font-size: 0.85rem;
+}
+
+/* Crossword Board Wrapper */
+.crossword-board-panel {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 2px solid rgba(223, 191, 128, 0.5);
+  box-shadow: 0 8px 24px rgba(20, 44, 70, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crossword-grid-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 8px;
+}
+
+.crossword-grid {
+  display: grid;
+  gap: 2px;
+  background: var(--line, #dce3ea);
+  border: 3px solid var(--navy, #142c46);
+  border-radius: 4px;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.crossword-cell {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+@media (max-width: 480px) {
+  .crossword-cell {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.crossword-cell.blocked {
+  background: #142c46;
+  cursor: default;
+}
+
+.crossword-cell .cell-num {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #7a2a35;
+  line-height: 1;
+  pointer-events: none;
+  font-family: Georgia, serif;
+}
+
+.crossword-cell .cell-char {
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1c2e40;
+  text-transform: uppercase;
+  pointer-events: none;
+  margin-top: 4px;
+}
+
+@media (max-width: 480px) {
+  .crossword-cell .cell-char {
+    font-size: 1.05rem;
+  }
+}
+
+/* Cell States */
+.crossword-cell.active-word {
+  background: #fdf7e7;
+}
+
+.crossword-cell.active-cell {
+  background: #dfbf80;
+  box-shadow: inset 0 0 0 2px #7a2a35;
+}
+
+.crossword-cell.active-cell .cell-char {
+  color: #142c46;
+}
+
+.crossword-cell.is-error {
+  background: #ffebee;
+  animation: shake 0.3s ease;
+}
+
+.crossword-cell.is-error .cell-char {
+  color: #a63b49;
+}
+
+.crossword-cell.is-correct {
+  background: #edf7f4;
+}
+
+.crossword-cell.is-correct .cell-char {
+  color: #137d72;
+}
+
+.crossword-cell.is-revealed {
+  background: #eef6ff;
+}
+
+.crossword-cell.is-revealed .cell-char {
+  color: #1e3a5f;
+  font-style: italic;
+}
+
+/* Clue Panels */
+.crossword-clues-container {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid var(--line, #dce3ea);
+  box-shadow: 0 4px 16px rgba(20, 44, 70, 0.05);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.clues-header-tabs {
+  display: flex;
+  background: #142c46;
+  border-bottom: 2px solid var(--gold, #dfbf80);
+}
+
+.clue-tab-btn {
+  flex: 1;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  color: #cbd5e1;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clue-tab-btn.active {
+  background: rgba(223, 191, 128, 0.15);
+  color: #dfbf80;
+  border-bottom: 3px solid #dfbf80;
+}
+
+.clues-scroll-pane {
+  padding: 16px;
+  max-height: 480px;
+  overflow-y: auto;
+}
+
+.clue-item-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border: 1px solid transparent;
+}
+
+.clue-item-row:hover {
+  background: #f3f5f8;
+}
+
+.clue-item-row.active {
+  background: #fff8ee;
+  border-color: #dfbf80;
+  box-shadow: 0 2px 8px rgba(223, 191, 128, 0.2);
+}
+
+.clue-item-row.solved {
+  opacity: 0.65;
+  text-decoration: line-through;
+}
+
+.clue-item-row .clue-num-tag {
+  background: #eef2f6;
+  color: #142c46;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 0.85rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.clue-item-row.active .clue-num-tag {
+  background: #142c46;
+  color: #dfbf80;
+}
+
+.clue-item-row .clue-desc {
+  font-size: 0.9rem;
+  color: #1c2e40;
+  line-height: 1.4;
+}
+
+/* On-Screen Mobile Keyboard */
+.crossword-keyboard {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 18px;
+  width: 100%;
+  max-width: 480px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.key-btn {
+  background: #f4f5f8;
+  border: 1px solid #dce3ea;
+  border-radius: 6px;
+  padding: 10px 0;
+  flex: 1;
+  max-width: 42px;
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #1c2e40;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background 0.1s, transform 0.08s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.key-btn:active {
+  background: #dfbf80;
+  transform: translateY(2px);
+}
+
+.key-btn.action-key {
+  max-width: 65px;
+  font-size: 0.8rem;
+  background: #e2e8f0;
+}
+
+/* Compact Educational Feedback Toast */
+.crossword-educational-dock {
+  background: #ffffff;
+  border: 1px solid #dce3ea;
+  border-left: 4px solid #137d72;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-top: 16px;
+  box-shadow: 0 4px 12px rgba(20, 44, 70, 0.06);
+}
+
+.educational-dock-title {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: #137d72;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+/* ==========================================================================
+   3. THE CODE BREAKER — LEGAL WORD SCRAMBLE
+   ========================================================================== */
+.codebreaker-arena {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Combination Lock Progress HUD */
+.combination-lock-hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f2336;
+  border: 2px solid rgba(47, 224, 200, 0.4);
+  border-radius: 12px;
+  padding: 14px 24px;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.lock-dial-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lock-dial {
+  background: #081422;
+  border: 2px solid #dfbf80;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #dfbf80;
+  letter-spacing: 2px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.combo-badge {
+  background: rgba(47, 224, 200, 0.15);
+  color: #2fe0c8;
+  border: 1px solid #2fe0c8;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+/* Decoding Workspace Card */
+.decoding-workspace-card {
+  background: #ffffff;
+  border: 2px solid rgba(223, 191, 128, 0.5);
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(20, 44, 70, 0.08);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.clue-banner {
+  text-align: center;
+  max-width: 640px;
+}
+
+.clue-banner .clue-category {
+  font-size: 0.85rem;
+  color: #137d72;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.clue-banner .clue-prompt {
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+  color: #142c46;
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+/* Target Answer Slots Rack */
+.answer-slots-rack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  min-height: 60px;
+  padding: 12px 18px;
+  background: #f4f6f9;
+  border: 2px dashed #cbd5e1;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 680px;
+}
+
+.answer-slot {
+  width: 48px;
+  height: 56px;
+  border: 2px dashed #94a3b8;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.answer-slot.space-slot {
+  width: 20px;
+  border: none;
+  background: transparent;
+  cursor: default;
+}
+
+.answer-slot.filled {
+  border: 2px solid #dfbf80;
+  box-shadow: 0 4px 10px rgba(223, 191, 128, 0.3);
+}
+
+/* Tactile Gold Metallic Letter Tiles */
+.letter-tile {
+  width: 44px;
+  height: 52px;
+  background: linear-gradient(135deg, #fff2d1 0%, #dfbf80 65%, #a8792c 100%);
+  border: 1px solid #ffffff;
+  border-bottom: 3px solid #7c581a;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #142c46;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.letter-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(223, 191, 128, 0.4);
+}
+
+.letter-tile:active {
+  transform: translateY(1px);
+  border-bottom-width: 1px;
+}
+
+.letter-tile.in-slot {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.letter-tile.disabled {
+  opacity: 0.35;
+  pointer-events: none;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Scrambled Tile Tray */
+.scrambled-tile-tray {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px;
+  background: #142c46;
+  border: 2px solid rgba(223, 191, 128, 0.35);
+  border-radius: 12px;
+  max-width: 680px;
+  width: 100%;
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Action Controls Bar */
+.scramble-actions-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+/* Mystery Manuscript Mode */
+.manuscript-container {
+  background: #fffdf7;
+  border: 3px double #dfbf80;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  margin-top: 20px;
+}
+
+.manuscript-header {
+  border-bottom: 2px solid #dfbf80;
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.manuscript-header h3 {
+  font-family: Georgia, serif;
+  color: #7a2a35;
+  margin: 0;
+}
+
+.manuscript-body {
+  font-family: Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #1c2e40;
+}
+
+.manuscript-token-blank {
+  display: inline-block;
+  min-width: 80px;
+  padding: 2px 8px;
+  border-bottom: 2px solid #a63b49;
+  background: rgba(166, 59, 73, 0.08);
+  font-weight: bold;
+  color: #a63b49;
+  text-align: center;
+}
+
+.manuscript-token-solved {
+  display: inline-block;
+  padding: 2px 8px;
+  background: rgba(19, 125, 114, 0.12);
+  border-bottom: 2px solid #137d72;
+  color: #137d72;
+  font-weight: bold;
+}
+
+/* Animations */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 4px #2fe0c8; }
+  50% { box-shadow: 0 0 16px #2fe0c8; }
+  100% { box-shadow: 0 0 4px #2fe0c8; }
+}
+
+.pulse-glow {
+  animation: pulseGlow 1.8s infinite;
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#142b3f">
+  <meta name="description" content="Legal Detective: The Case Files — Criminal Investigation and Statutory Deduction">
+  <title>Legal Detective: The Case Files | Judicial Prep Arena</title>
+  <link rel="icon" href="assets/images/emblem.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="stylesheet" href="assets/games/css/arena.css">
+  <link rel="stylesheet" href="assets/games/css/games.css">
+  <link rel="stylesheet" href="assets/games/css/case-simulation.css">
+</head>
+<body data-page="arena">
+  <div class="app">
+    <aside class="side">
+      <a class="brand" href="index.html">
+        <img src="assets/images/emblem.svg" alt="Judicial Prep emblem">
+        <div>
+          <b>Judicial Prep</b>
+          <small>UP PCS-J · 2026–27</small>
+        </div>
+      </a>
+      <div class="sidebar-label">Study workspace</div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" data-view="home"><span aria-hidden="true">⌂</span>Dashboard</a>
+        <a href="brain-arena.html" data-view="arena" class="active"><span aria-hidden="true">⚡</span>Brain Arena</a>
+        <a href="library.html" data-view="notes"><span aria-hidden="true">▤</span>PYQ Library</a>
+        <a href="bns.html" data-view="bns"><span aria-hidden="true">§</span>BNS Bare Act</a>
+        <a href="search.html" data-view="search"><span aria-hidden="true">⌕</span>Smart Search</a>
+        <a href="tests.html" data-view="practice"><span aria-hidden="true">◎</span>Test Centre</a>
+        <a href="results.html" data-view="history"><span aria-hidden="true">▥</span>Results & Progress</a>
+        <a href="revision.html" data-view="saved"><span aria-hidden="true">☆</span>Revision</a>
+        <a href="syllabus.html" data-view="syllabus"><span aria-hidden="true">⚖</span>Syllabus & Notes</a>
+        <a href="about.html" data-view="about"><span aria-hidden="true">◇</span>About</a>
+      </nav>
+      <div class="profile">
+        <img src="assets/images/tauqeer-original.webp" alt="Tauqeer Ashraf portrait">
+        <div>
+          <small>Designed & developed by</small>
+          <b>Tauqeer Ashraf</b>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div>
+          <div class="top-title">Legal Detective: The Case Files</div>
+          <small>Every Clue Matters. Every Section Counts.</small>
+        </div>
+        <div class="top-right">
+          <small id="topStatus">Criminal Investigation Bureau</small>
+          <img class="top-avatar" src="assets/images/tanveer-original.webp" alt="Tanveer Ashraf portrait">
+        </div>
+      </header>
+
+      <div class="content" id="content">
+        <div class="sim-container" id="detectiveMainMount">
+          <!-- Populated dynamically by legal-detective.js -->
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Shared Data & Scripts -->
+  <script src="assets/data/bns.js"></script>
+
+  <!-- Gaming Engine & Simulation Dependencies -->
+  <script src="assets/games/js/game-storage.js"></script>
+  <script src="assets/games/js/game-audio.js"></script>
+  <script src="assets/games/js/achievements.js"></script>
+  <script src="assets/games/js/game-engine.js"></script>
+  <script src="assets/games/data/characters.js"></script>
+  <script src="assets/games/data/detective-cases.js"></script>
+  <script src="assets/games/js/character-engine.js"></script>
+  <script src="assets/games/js/dialogue-engine.js"></script>
+  <script src="assets/games/js/evidence-board.js"></script>
+  <script src="assets/games/js/case-engine.js"></script>
+  <script src="assets/games/js/legal-detective.js"></script>
+</body>
+</html>

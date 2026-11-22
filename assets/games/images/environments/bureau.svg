@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1928"/>
+      <stop offset="100%" stop-color="#142c46"/>
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#193854"/>
+      <stop offset="100%" stop-color="#0e2133"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#dfbf8033"/>
+      <stop offset="100%" stop-color="#dfbf8000"/>
+    </radialGradient>
+  </defs>
+  <!-- Background Wall -->
+  <rect width="800" height="450" fill="url(#wallGrad)"/>
+  <!-- Ambient overhead cone lighting -->
+  <polygon points="400,0 120,450 680,450" fill="url(#lampGlow)"/>
+
+  <!-- Large Interactive Corkboard / Evidence Board on Wall -->
+  <rect x="140" y="30" width="520" height="250" rx="8" fill="#1b2838" stroke="#dfbf8066" stroke-width="4"/>
+  <rect x="148" y="38" width="504" height="234" rx="4" fill="#102030" stroke="#ffffff11" stroke-width="1"/>
+  <!-- Corkboard grid pattern -->
+  <g stroke="#ffffff0a" stroke-width="1">
+    <line x1="220" y1="38" x2="220" y2="272"/>
+    <line x1="320" y1="38" x2="320" y2="272"/>
+    <line x1="420" y1="38" x2="420" y2="272"/>
+    <line x1="520" y1="38" x2="520" y2="272"/>
+    <line x1="148" y1="100" x2="652" y2="100"/>
+    <line x1="148" y1="170" x2="652" y2="170"/>
+  </g>
+  <!-- Board header plate -->
+  <rect x="310" y="44" width="180" height="22" rx="4" fill="#0b1722" stroke="#dfbf8044" stroke-width="1"/>
+  <text x="400" y="59" fill="#e7c88c" font-size="10" font-family="Georgia, serif" font-weight="bold" text-anchor="middle" letter-spacing="2">INCIDENT EVIDENCE BOARD</text>
+
+  <!-- Pinned Evidence Clues & Red Linking Threads -->
+  <!-- Clue 1 -->
+  <rect x="180" y="90" width="75" height="55" rx="3" fill="#f4f5f8" stroke="#cbd5e1" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.4))"/>
+  <circle cx="217" cy="88" r="4" fill="#a63b49"/>
+  <!-- Clue 2 -->
+  <rect x="360" y="140" width="80" height="60" rx="3" fill="#fff8ee" stroke="#dfbf80" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.4))"/>
+  <circle cx="400" cy="138" r="4" fill="#a63b49"/>
+  <!-- Clue 3 -->
+  <rect x="540" y="95" width="75" height="55" rx="3" fill="#f4f5f8" stroke="#cbd5e1" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.4))"/>
+  <circle cx="577" cy="93" r="4" fill="#a63b49"/>
+  <!-- Red Threads -->
+  <line x1="217" y1="88" x2="400" y2="138" stroke="#a63b49" stroke-width="2"/>
+  <line x1="400" y1="138" x2="577" y2="93" stroke="#a63b49" stroke-width="2"/>
+
+  <!-- Foreground Investigation Desk Surface -->
+  <polygon points="0,320 800,320 800,450 0,450" fill="url(#deskGrad)" stroke="#dfbf8044" stroke-width="2"/>
+  <!-- Desk rim highlight -->
+  <line x1="0" y1="320" x2="800" y2="320" stroke="#dfbf8088" stroke-width="1.5"/>
+
+  <!-- Items on desk -->
+  <!-- Case Dossier Folder (Left) -->
+  <g transform="translate(60, 340) rotate(-6)">
+    <rect width="160" height="90" rx="6" fill="#1e3a54" stroke="#dfbf8088" stroke-width="2"/>
+    <rect x="10" y="10" width="140" height="70" fill="#fffdfa"/>
+    <rect x="20" y="22" width="70" height="6" fill="#a63b49"/>
+    <line x1="20" y1="38" x2="130" y2="38" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="20" y1="48" x2="110" y2="48" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="20" y1="58" x2="120" y2="58" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+
+  <!-- Magnifying Glass (Right) -->
+  <g transform="translate(620, 345) rotate(24)">
+    <circle cx="35" cy="35" r="32" fill="#ffffff15" stroke="#dfbf80" stroke-width="4"/>
+    <rect x="32" y="67" width="8" height="42" rx="3" fill="#8b5e2a" stroke="#dfbf80" stroke-width="1.5"/>
+  </g>
+</svg>
