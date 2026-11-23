@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">e-Courts Digital Judicial Workflow &amp; Case Lifecycle</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">e-Courts Mission Mode Project (Phases I, II, III) · e-Committee Supreme Court of India</text>
+
+  <!-- Step 1: e-Filing -->
+  <rect x="50" y="110" width="150" height="105" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <circle cx="125" cy="110" r="14" fill="#137d72"/>
+  <text x="125" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">1</text>
+  <text x="125" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">e-Filing 3.0</text>
+  <text x="125" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">24x7 Digital Filing</text>
+  <text x="125" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">e-Payment of Court Fees</text>
+  <text x="125" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">Digital Signatures / e-Sign</text>
+
+  <!-- Arrow -->
+  <path d="M 200 160 L 230 160" stroke="#137d72" stroke-width="2"/>
+
+  <!-- Step 2: Scrutiny & CIS -->
+  <rect x="230" y="110" width="150" height="105" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <circle cx="305" cy="110" r="14" fill="#137d72"/>
+  <text x="305" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">2</text>
+  <text x="305" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">Scrutiny &amp; CNR</text>
+  <text x="305" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">16-Digit CNR Number</text>
+  <text x="305" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">Case Info System (CIS)</text>
+  <text x="305" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">Auto Defect Scrutiny</text>
+
+  <!-- Arrow -->
+  <path d="M 380 160 L 410 160" stroke="#137d72" stroke-width="2"/>
+
+  <!-- Step 3: NSTEP Summons -->
+  <rect x="410" y="110" width="150" height="105" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <circle cx="485" cy="110" r="14" fill="#dfbf80"/>
+  <text x="485" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">3</text>
+  <text x="485" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">NSTEP Service</text>
+  <text x="485" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">Summons Tracking App</text>
+  <text x="485" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">GPS-Tagged Delivery</text>
+  <text x="485" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#b98a38">Instant Return Status</text>
+
+  <!-- Arrow -->
+  <path d="M 560 160 L 590 160" stroke="#137d72" stroke-width="2"/>
+
+  <!-- Step 4: Virtual Court & VC -->
+  <rect x="590" y="110" width="160" height="105" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <circle cx="670" cy="110" r="14" fill="#dfbf80"/>
+  <text x="670" y="115" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">4</text>
+  <text x="670" y="145" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">Virtual Hearing</text>
+  <text x="670" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">Video Conferencing</text>
+  <text x="670" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">Live Streaming Rules</text>
+  <text x="670" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#b98a38">Hybrid Court System</text>
+
+  <!-- National Judicial Data Grid (NJDG) Master Bar -->
+  <rect x="50" y="245" width="700" height="90" rx="6" fill="#142c46"/>
+  <text x="400" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#dfbf80">National Judicial Data Grid (NJDG)</text>
+  <text x="400" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff">National database of orders, judgments, and case statuses across all High Courts &amp; District Courts</text>
+  <text x="400" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#dfbf80">Public Access · Delay Management · Interoperable Criminal Justice System (ICJS Integration)</text>
+
+  <!-- Step 5: Interoperable Criminal Justice System (ICJS) Pillars -->
+  <rect x="50" y="355" width="700" height="95" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="400" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">ICJS Interconnected Pillars (Ministry of Home Affairs &amp; Supreme Court)</text>
+  
+  <text x="120" y="405" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#137d72">Police (CCTNS)</text>
+  <text x="120" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">FIRs &amp; Chargesheets</text>
+
+  <text x="260" y="405" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#137d72">e-Courts (CIS)</text>
+  <text x="260" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">Case Docket &amp; Orders</text>
+
+  <text x="400" y="405" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#137d72">e-Prisons</text>
+  <text x="400" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">Inmate Data &amp; Remand</text>
+
+  <text x="540" y="405" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#137d72">e-Forensics</text>
+  <text x="540" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">FSL Chemical Reports</text>
+
+  <text x="680" y="405" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#137d72">e-Prosecution</text>
+  <text x="680" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">Public Prosecutors</text>
+</svg>

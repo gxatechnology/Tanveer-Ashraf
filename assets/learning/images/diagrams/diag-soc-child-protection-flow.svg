@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">Child Protection &amp; Institutional Welfare Ecosystem</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">Bifurcated Institutional Pathways under the Juvenile Justice (Care &amp; Protection) Act, 2015</text>
+
+  <!-- Entry Point: Child in Distress / Need / Conflict -->
+  <rect x="280" y="105" width="240" height="50" rx="6" fill="#142c46"/>
+  <text x="400" y="127" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#dfbf80">Child Identification / Production</text>
+  <text x="400" y="143" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#ffffff">Special Juvenile Police Unit (SJPU) / Childline 1098</text>
+
+  <!-- Bifurcation Lines -->
+  <path d="M 400 155 L 400 185 M 220 185 L 580 185 M 220 185 L 220 205 M 580 185 L 580 205" stroke="#142c46" stroke-width="2"/>
+
+  <!-- Left Stream: Child in Need of Care & Protection (CNCP) -->
+  <rect x="70" y="205" width="300" height="60" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="220" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#137d72">Child in Need of Care &amp; Protection (CNCP)</text>
+  <text x="220" y="246" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#142c46">Abandoned, Orphaned, Trafficked, Abused</text>
+
+  <path d="M 220 265 L 220 285" stroke="#137d72" stroke-width="2"/>
+
+  <rect x="70" y="285" width="300" height="85" rx="6" fill="#ffffff" stroke="#137d72" stroke-width="1"/>
+  <text x="220" y="308" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">Child Welfare Committee (CWC)</text>
+  <text x="220" y="326" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Quasi-Judicial Bench: Chairperson + 4 Members</text>
+  <text x="220" y="344" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Orders: Children's Home, Foster Care, Sponsorship</text>
+  <text x="220" y="359" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#137d72">Declaration of Legally Free for Adoption (CARA)</text>
+
+  <!-- Right Stream: Child in Conflict with Law (CCL) -->
+  <rect x="430" y="205" width="300" height="60" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="580" y="228" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#b98a38">Child in Conflict with Law (CCL)</text>
+  <text x="580" y="246" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#142c46">Alleged to have committed an offence under law</text>
+
+  <path d="M 580 265 L 580 285" stroke="#dfbf80" stroke-width="2"/>
+
+  <rect x="430" y="285" width="300" height="85" rx="6" fill="#ffffff" stroke="#dfbf80" stroke-width="1"/>
+  <text x="580" y="308" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">Juvenile Justice Board (JJB)</text>
+  <text x="580" y="326" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Bench: Principal Magistrate (JMFC/CJM) + 2 Social Workers</text>
+  <text x="580" y="344" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Bail Rule: Section 12 (Mandatory bail unless exception)</text>
+  <text x="580" y="359" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#b98a38">Preliminary Assessment (16-18 yrs, Heinous: S. 15)</text>
+
+  <!-- Shared Footer: Special Juvenile Protection -->
+  <rect x="70" y="390" width="660" height="50" rx="4" fill="#142c46"/>
+  <text x="400" y="413" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#dfbf80">POCSO Act Intersect: Child-Friendly Evidence (Sec 33) · In-Camera Trial · Non-Disclosure of Identity (Sec 74 JJ / Sec 23 POCSO)</text>
+  <text x="400" y="429" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#ffffff">No death penalty or life imprisonment without possibility of release for juveniles (Section 21 JJ Act)</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">Vulnerable Sections Social Welfare Architecture</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">Constitutional Guarantees (Articles 15, 38, 39A, 41, 46) &amp; Specialized Statutory Mechanisms</text>
+
+  <!-- 4 Core Quadrants -->
+  <!-- Quad 1: Women & Gender Justice -->
+  <rect x="50" y="105" width="335" height="150" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="217" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#137d72">Women &amp; Gender Justice</text>
+  <text x="70" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Domestic Violence Act 2005 (Protective Orders)</text>
+  <text x="70" y="175" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• POSH Act 2013 (Internal Committees / LCC)</text>
+  <text x="70" y="195" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Dowry Prohibition Act 1961 &amp; MTP Act 1971</text>
+  <text x="70" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Mission Shakti (UP) &amp; One Stop Centres (Sakhi)</text>
+  <text x="70" y="235" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#137d72">Art. 15(3) Special Provisions · Nirbhaya Fund</text>
+
+  <!-- Quad 2: Child Rights & Protection -->
+  <rect x="415" y="105" width="335" height="150" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="582" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#b98a38">Child Protection &amp; Welfare</text>
+  <text x="435" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• POCSO Act 2012 (Special Courts &amp; Child Friendly)</text>
+  <text x="435" y="175" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Juvenile Justice (JJ) Act 2015 (CWC &amp; JJB)</text>
+  <text x="435" y="195" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Right to Education (RTE) Act 2009 (Art. 21A)</text>
+  <text x="435" y="215" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Child Labour Prohibition &amp; Regulation Act 1986</text>
+  <text x="435" y="235" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#b98a38">Art. 24 &amp; 39(f) Protection · CARA Adoption</text>
+
+  <!-- Quad 3: Persons with Disabilities -->
+  <rect x="50" y="275" width="335" height="150" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="217" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#b98a38">Persons with Disabilities (PwD)</text>
+  <text x="70" y="325" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• RPwD Act 2016 (21 Specified Disabilities)</text>
+  <text x="70" y="345" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• 4% Employment Reservation (Section 34)</text>
+  <text x="70" y="365" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Accessible India Campaign (Sugamya Bharat)</text>
+  <text x="70" y="385" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Special Courts &amp; State Disability Commissioner</text>
+  <text x="70" y="405" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#b98a38">UN Convention on Rights of PwD (UNCRPD)</text>
+
+  <!-- Quad 4: Senior Citizens & Marginalized -->
+  <rect x="415" y="275" width="335" height="150" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="582" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#137d72">Senior Citizens &amp; Social Justice</text>
+  <text x="435" y="325" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Maintenance &amp; Welfare of Parents Act 2007</text>
+  <text x="435" y="345" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Maintenance Tribunals &amp; Property Revocation (S. 23)</text>
+  <text x="435" y="365" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• SC/ST Prevention of Atrocities Act 1989</text>
+  <text x="435" y="385" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Legal Services Authorities Act 1987 (NALSA/SLSA)</text>
+  <text x="435" y="405" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#137d72">Art. 39A Free Legal Aid · Art. 41 Old Age Assistance</text>
+
+  <!-- Central Badge -->
+  <circle cx="400" cy="245" r="28" fill="#142c46" stroke="#ffffff" stroke-width="2"/>
+  <text x="400" y="242" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#dfbf80">WELFARE</text>
+  <text x="400" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#ffffff">STATE</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">Uttar Pradesh Administrative &amp; Judicial Governance Architecture</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">18 Administrative Divisions · 75 Districts · 3-Tier Panchayati Raj · Allahabad High Court</text>
+
+  <!-- Executive Apex -->
+  <rect x="260" y="105" width="280" height="60" rx="6" fill="#142c46"/>
+  <text x="400" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#dfbf80">Governor &amp; Council of Ministers (UP)</text>
+  <text x="400" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff">Chief Minister &amp; Chief Secretary (Secretariat, Lucknow)</text>
+
+  <!-- Line connecting to 3 Pillars -->
+  <path d="M 400 165 L 400 195 M 150 195 L 650 195 M 150 195 L 150 215 M 400 195 L 400 215 M 650 195 L 650 215" stroke="#142c46" stroke-width="2"/>
+
+  <!-- Pillar 1: Divisional & District Admin -->
+  <rect x="50" y="215" width="200" height="150" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="150" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#137d72">Divisional &amp; District</text>
+  <text x="150" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">18 Divisional Commissioners</text>
+  <text x="150" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#4a5568">75 District Magistrates (DM)</text>
+  <text x="150" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#607387">Tehsils (Sub-Divisional Magistrate)</text>
+  <text x="150" y="325" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#607387">Revenue Courts &amp; Police Admin</text>
+  <text x="150" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#137d72">UP Revenue Code, 2006</text>
+
+  <!-- Pillar 2: Judicial Hierarchy -->
+  <rect x="300" y="215" width="200" height="150" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="400" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#b98a38">Judicial Administration</text>
+  <text x="400" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">Allahabad High Court (Prayagraj)</text>
+  <text x="400" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#4a5568">Lucknow Bench (Est. 1948)</text>
+  <text x="400" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#607387">District &amp; Sessions Courts</text>
+  <text x="400" y="325" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#607387">Civil Judges (Sr / Jr Division)</text>
+  <text x="400" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#b98a38">UP Judicial Service (PCS-J)</text>
+
+  <!-- Pillar 3: Local Self-Government -->
+  <rect x="550" y="215" width="200" height="150" rx="6" fill="#f0f4f8" stroke="#142c46" stroke-width="1.5"/>
+  <text x="650" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#142c46">Panchayati Raj &amp; Urban</text>
+  <text x="650" y="265" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">Zila Panchayats (75)</text>
+  <text x="650" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#4a5568">Kshettra Panchayats (826 Blocks)</text>
+  <text x="650" y="305" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#607387">Gram Panchayats (58,000+)</text>
+  <text x="650" y="325" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#607387">Nagar Nigams (17) &amp; Palikas</text>
+  <text x="650" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">73rd &amp; 74th Amendments</text>
+
+  <!-- Footer Banner -->
+  <rect x="50" y="390" width="700" height="50" rx="4" fill="#edf7f4" stroke="#137d72"/>
+  <text x="400" y="420" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#137d72">Public Service Delivery: UP Janhit Guarantee Act, 2011 · IGRS Portal (Jansunwai) · e-District Citizen Services</text>
+</svg>

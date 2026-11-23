@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">UNCLOS 1982 Maritime Zones &amp; Coastal State Jurisdiction</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">United Nations Convention on the Law of the Sea (Montego Bay) · Territorial Waters to High Seas</text>
+
+  <!-- Coast / Land Area -->
+  <rect x="50" y="110" width="100" height="220" fill="#dfbf80" rx="4"/>
+  <text x="100" y="190" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#142c46">COAST /</text>
+  <text x="100" y="210" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#142c46">LAND</text>
+  <text x="100" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">Internal Waters</text>
+
+  <!-- Baseline -->
+  <line x1="150" y1="100" x2="150" y2="340" stroke="#142c46" stroke-width="3" stroke-dasharray="4,2"/>
+  <text x="150" y="360" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">BASELINE</text>
+
+  <!-- Zone 1: Territorial Sea (12 nm) -->
+  <rect x="150" y="110" width="110" height="220" fill="#edf7f4" stroke="#137d72" stroke-width="1"/>
+  <text x="205" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">Territorial Sea</text>
+  <text x="205" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">12 nm</text>
+  <text x="205" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#4a5568">Full Sovereignty</text>
+  <text x="205" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#4a5568">Airspace, Seabed</text>
+  <text x="205" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">Right of</text>
+  <text x="205" y="240" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">Innocent Passage</text>
+
+  <!-- Zone 2: Contiguous Zone (24 nm) -->
+  <rect x="260" y="110" width="110" height="220" fill="#f0fdf4" stroke="#137d72" stroke-width="1"/>
+  <text x="315" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">Contiguous</text>
+  <text x="315" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">24 nm</text>
+  <text x="315" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#4a5568">Customs, Fiscal</text>
+  <text x="315" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#4a5568">Immigration &amp;</text>
+  <text x="315" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#4a5568">Sanitary Laws</text>
+  <text x="315" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">Enforcement</text>
+
+  <!-- Zone 3: Exclusive Economic Zone (200 nm) -->
+  <rect x="370" y="110" width="220" height="220" fill="#e0f2fe" stroke="#0284c7" stroke-width="1"/>
+  <text x="480" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" font-weight="bold" fill="#0284c7">Exclusive Economic Zone (EEZ)</text>
+  <text x="480" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#142c46">Up to 200 Nautical Miles (nm)</text>
+  <text x="480" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">Sovereign rights over natural living &amp; non-living resources</text>
+  <text x="480" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">Fisheries, Oil, Gas &amp; Artificial Islands (Art. 56)</text>
+  <text x="480" y="225" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">Freedom of Navigation &amp; Overflight for all States (Art. 58)</text>
+
+  <!-- Zone 4: High Seas -->
+  <rect x="590" y="110" width="160" height="220" fill="#f8fafc" stroke="#142c46" stroke-width="1.5"/>
+  <text x="670" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">High Seas</text>
+  <text x="670" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Beyond EEZ</text>
+  <text x="670" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">Res Communis</text>
+  <text x="670" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">Freedom of Seas</text>
+  <text x="670" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">Universal Jurisdiction</text>
+  <text x="670" y="235" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#607387">over Piracy (Art. 105)</text>
+
+  <!-- Continental Shelf Floor -->
+  <rect x="50" y="375" width="700" height="75" rx="6" fill="#142c46"/>
+  <text x="400" y="402" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#dfbf80">The Continental Shelf (Seabed &amp; Subsoil: 200 nm to max 350 nm - Art. 76)</text>
+  <text x="400" y="422" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#ffffff">The Area beyond national continental shelf is the "Common Heritage of Mankind" governed by International Seabed Authority (ISA, Kingston)</text>
+  <text x="400" y="438" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#dfbf80">1 Nautical Mile (nm) = Exactly 1.852 Kilometers</text>
+</svg>

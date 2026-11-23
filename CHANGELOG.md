@@ -6,6 +6,41 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [3.1.9] — Complete 30-Subject Judicial Learning Academy (Phase 7) — 2026-11-23
+*Tag: V3.1.9 Final Eight-Subject Expansion: Complete 30-of-30 Active Academic Modules & Date-Wise Current Affairs Desk*
+
+### Added
+- **Final Eight Academic Modules (Phase 7 Expansion):**
+  - **Current National Issues (`gk-current`):** 10 Chapters, 25 Topics, 25 Concepts, 120 MCQs, 90 PYQs, 2 Diagrams. Covers constitutional rulings, new criminal codes transition, Union Budget, 16th Finance Commission, and UP State governance.
+  - **Issues of Social Relevance (`gk-social`):** 10 Chapters, 25 Topics, 25 Concepts, 110 MCQs, 44 PYQs, 2 Diagrams. Covers constitutional welfare, affirmative action (*Davinder Singh*), gender justice, child protection (JJ Act), senior citizens, and disability rights.
+  - **International Affairs & Institutions (`gk-international`):** 12 Chapters, 30 Topics, 30 Concepts, 140 MCQs, 61 PYQs, 2 Diagrams. Covers UN Charter organs, specialized agencies, Bretton Woods, G20/BRICS/SCO/Quad, and environmental treaties.
+  - **General Science (`gk-science`):** 12 Chapters, 32 Topics, 32 Concepts, 150 MCQs, 88 PYQs, 3 Diagrams. Covers applied physics (optics, electricity, gravity), chemistry (acids, bases, alloys), biology (cell structure, physiology), and public health/nutrition.
+  - **Technology & IT (`gk-tech`):** 10 Chapters, 26 Topics, 26 Concepts, 120 MCQs, 8 PYQs, 3 Diagrams. Covers e-Courts Phase III, AI in judiciary, Digital Public Infrastructure, cybersecurity (CERT-In), IT Act 2000, and DPDP Act 2023.
+  - **Communications (`gk-comm`):** 8 Chapters, 22 Topics, 22 Concepts, 90 MCQs, 4 PYQs, 2 Diagrams. Covers mobile evolution (1G to 5G), optical fibre (BharatNet), satellite communications, spectrum allocation, and Telecommunications Act 2023.
+  - **Space Science (`gk-space`):** 10 Chapters, 26 Topics, 26 Concepts, 110 MCQs, 27 PYQs, 2 Diagrams. Covers orbits, launch vehicles (SLV-3 to LVM3), Chandrayaan (1–4), Gaganyaan, Aditya-L1, NavIC, and Outer Space Treaty 1967.
+  - **International Organisations & Law (`law-international` — Paper II):** 14 Chapters, 36 Topics, 36 Concepts, 150 MCQs, 88 PYQs, 3 Diagrams. Covers public international law sources (Art. 38(1) ICJ Statute), UN Charter law, peaceful dispute settlement, ICJ/ICC jurisdiction, VCLT 1969, and UNCLOS 1982.
+- **Dedicated Date-Wise Current Affairs Desk (`current-desk-ui.js` & `current-desk.js`):**
+  - Integrated interactive desk covering July 2024 through January 2025 across 7 monthly archives.
+  - 12 verified date-wise entries with official sources, legal relevance notes, and exam takeaway traps.
+  - Real-time debounced keyword search and category filtering.
+  - Direct 1-click launcher in `learning-academy.html` and interactive mode in `subject-study.html?subject=gk-current&desk=true`.
+- **19 Original Academic Vector SVG Diagrams (124 Total on Disk):**
+  - Comprehensive vector schematics attached to concept notes across all 8 new subjects.
+- **Master Platform Milestone:**
+  - All 30 curriculum subjects active (0 upcoming).
+  - 278 Chapters, 757 Topics, 757 Authored Concepts, 4,765 Practice MCQs, 1,253 Mapped Authentic PYQs, 124 Diagrams, 214 validated JS files.
+
+### Changed
+- `assets/learning/data/subjects.js`: All 30 subjects updated to `status: 'active'`, `badge: 'Active Mastery Module'`.
+- `assets/learning/js/learning-engine.js`: Reconciled all overview statistics and module getters for all 30 subjects.
+- `assets/js/legal-search.js`: Universal Smart Search index expanded to include topics and MCQs across all 30 subjects.
+- `assets/js/app.js`: Dashboard overview metrics updated to 30 active modules, 278 chapters, 757 topics, 4,765 MCQs, and 1,253 PYQs with comma formatting.
+- `learning-academy.html`: Showcases expanded to include 9 Law modules and 12 General Knowledge cards; all filter tabs updated.
+- `subject-study.html`: Integrated Date-Wise Current Affairs Desk launcher and view switcher.
+- `topic-practice.html`, `subject-progress.html`, `search.html`: Updated script tags for all 8 expansion subjects.
+
+---
+
 ## [3.1.8] — Complete General Knowledge Learning Academy (Phase 6) — 2026-11-23
 *Tag: V3.1.8 Complete General Knowledge Learning Academy: History, Culture, Geography, Polity & Economy Modules*
 

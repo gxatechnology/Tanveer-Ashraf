@@ -34,11 +34,13 @@ loadScript('assets/data/questions.js');
 loadScript('assets/data/bns.js');
 loadScript('assets/learning/data/subjects.js');
 
-// Load curriculum files for all 22 active subjects
+// Load curriculum files for all 30 active subjects
 const curriculumDirs = [
   'constitution', 'jurisprudence', 'contract', 'tpa',
   'criminal', 'crpc', 'evidence', 'cpc', 'social',
-  'history', 'culture', 'geography', 'polity', 'economy'
+  'history', 'culture', 'geography', 'polity', 'economy',
+  'current', 'social-issues', 'international', 'science',
+  'tech', 'comm', 'space', 'international-law'
 ];
 
 curriculumDirs.forEach(dir => {
@@ -56,14 +58,16 @@ loadScript('assets/learning/js/learning-storage.js');
 loadScript('assets/learning/js/learning-engine.js');
 
 const LearningEngine = sandbox.window.LearningEngine;
-console.log('Testing Curriculum & Drawer Navigation for all 22 Active Subjects...');
+console.log('Testing Curriculum & Drawer Navigation for all 30 Active Subjects...');
 
 const activeSubjectIds = [
   'law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa',
-  'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc',
+  'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc', 'law-international',
   'soc-disabilities', 'soc-parents', 'soc-dowry', 'soc-domestic-violence',
   'soc-posh', 'soc-pcpndt', 'soc-mtp', 'soc-indecent-rep', 'soc-pocso',
-  'gk-history', 'gk-culture', 'gk-geography', 'gk-polity', 'gk-economy'
+  'gk-history', 'gk-culture', 'gk-geography', 'gk-polity', 'gk-economy',
+  'gk-current', 'gk-social', 'gk-international', 'gk-science',
+  'gk-tech', 'gk-comm', 'gk-space'
 ];
 
 let totalPass = 0;
@@ -99,5 +103,5 @@ activeSubjectIds.forEach(subId => {
   }
 });
 
-console.log(`\nCurriculum Drawer Verification: ${totalPass} PASSED, ${totalFail} FAILED`);
+console.log(`\nCurriculum Drawer Verification: ${totalPass} PASSED, ${totalFail} FAILED (30/30)`);
 if (totalFail > 0) process.exit(1);

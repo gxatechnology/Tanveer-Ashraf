@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">Cell Biology &amp; Human Organ Systems Architecture</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">From Cellular Organelles to Integrated Human Physiological Homeostasis</text>
+
+  <!-- Left: Animal vs Plant Cell Organelles -->
+  <rect x="50" y="105" width="335" height="280" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="217" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#137d72">Cell Organelles &amp; Functions</text>
+  
+  <text x="70" y="155" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Nucleus (Robert Brown 1831):</text>
+  <text x="80" y="170" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Contains DNA/Chromosomes; control centre of cell</text>
+  
+  <text x="70" y="195" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Mitochondria (Altmann / Benda):</text>
+  <text x="80" y="210" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Powerhouse; ATP synthesis via cellular respiration</text>
+  
+  <text x="70" y="235" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Ribosomes &amp; Endoplasmic Reticulum:</text>
+  <text x="80" y="250" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Protein synthesis (Rough ER) &amp; Lipid synthesis (Smooth ER)</text>
+  
+  <text x="70" y="275" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Lysosomes (Christian de Duve):</text>
+  <text x="80" y="290" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Suicidal bags; hydrolytic enzymes for intracellular digestion</text>
+  
+  <text x="70" y="315" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Plant Specific Structures:</text>
+  <text x="80" y="330" font-family="system-ui, sans-serif" font-size="10.5" fill="#137d72">Cell Wall (Cellulose), Chloroplasts (Chlorophyll), Large Vacuole</text>
+  <text x="80" y="350" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#607387">Prokaryotes (Bacteria, no membrane-bound nucleus) vs Eukaryotes</text>
+
+  <!-- Right: Major Human Organ Systems -->
+  <rect x="415" y="105" width="335" height="280" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="582" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#b98a38">Human Physiological Systems</text>
+
+  <text x="435" y="155" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Circulatory System:</text>
+  <text x="445" y="170" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">4-Chambered heart; William Harvey (1628); RBC/WBC/Platelets</text>
+
+  <text x="435" y="195" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Digestive System:</text>
+  <text x="445" y="210" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Mouth (ptyalin) &rarr; Stomach (pepsin, HCl) &rarr; Small Intestine (absorption)</text>
+
+  <text x="435" y="235" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Nervous System:</text>
+  <text x="445" y="250" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Central (Brain &amp; Spinal Cord) + Peripheral; Neurons &amp; Synapse</text>
+
+  <text x="435" y="275" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Endocrine Glands &amp; Hormones:</text>
+  <text x="445" y="290" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Pituitary (Master gland), Thyroid (Thyroxine), Pancreas (Insulin)</text>
+
+  <text x="435" y="315" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">• Excretory System:</text>
+  <text x="445" y="330" font-family="system-ui, sans-serif" font-size="10.5" fill="#b98a38">Kidneys (Nephron functional unit); filtration of urea</text>
+  <text x="445" y="350" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#607387">Immune Response: Innate vs Adaptive; Antibodies &amp; Antigens</text>
+
+  <!-- Footer -->
+  <rect x="50" y="405" width="700" height="45" rx="4" fill="#142c46"/>
+  <text x="400" y="432" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11.5" fill="#dfbf80">High-Yield UP PCS-J Rule: Vitamins &amp; Deficiencies (Vit A: Night Blindness; Vit C: Scurvy; Vit D: Rickets; Vit B12: Pernicious Anaemia)</text>
+</svg>

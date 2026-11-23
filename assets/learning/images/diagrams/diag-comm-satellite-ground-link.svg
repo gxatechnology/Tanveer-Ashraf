@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">Satellite Communication Link: Uplink, Transponder &amp; Downlink</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">Geostationary Orbit (35,786 km) · Frequency Bands: C, Ku, Ka Bands · Transponder Conversion</text>
+
+  <!-- Satellite in Space -->
+  <rect x="330" y="105" width="140" height="70" rx="6" fill="#142c46"/>
+  <text x="400" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#dfbf80">GEO Satellite</text>
+  <text x="400" y="148" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">GSAT / INSAT Series</text>
+  <text x="400" y="162" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#edf7f4">35,786 km above Equator</text>
+
+  <!-- Transponder Box inside or next to Satellite -->
+  <rect x="500" y="105" width="190" height="70" rx="4" fill="#fdf8f0" stroke="#dfbf80"/>
+  <text x="595" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#142c46">Satellite Transponder</text>
+  <text x="595" y="142" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">Receives weak Uplink frequency</text>
+  <text x="595" y="156" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">Amplifies &amp; shifts to Downlink freq</text>
+
+  <!-- Ground Station 1: Earth Uplink Station -->
+  <rect x="60" y="300" width="220" height="110" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="170" y="325" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#137d72">Earth Uplink Station</text>
+  <text x="170" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#142c46">Master Control Facility (MCF, Hassan)</text>
+  <text x="170" y="362" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">High Power Amplifier (HPA)</text>
+  <text x="170" y="378" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#607387">Large Parabolic Dish Antenna</text>
+  <text x="170" y="395" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">Uplink Frequency (e.g. 6 GHz / 14 GHz)</text>
+
+  <!-- Ground Station 2: Downlink Receivers (DTH, VSAT, Mobile) -->
+  <rect x="520" y="300" width="220" height="110" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="630" y="325" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#b98a38">User Downlink Terminals</text>
+  <text x="630" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#142c46">Direct-To-Home (DTH) Dishes</text>
+  <text x="630" y="362" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">VSAT for Bank ATMs &amp; Stock Markets</text>
+  <text x="630" y="378" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" fill="#607387">Disaster Warning Receivers (CAP)</text>
+  <text x="630" y="395" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#b98a38">Downlink Frequency (e.g. 4 GHz / 11 GHz)</text>
+
+  <!-- Transmission Ray Lines -->
+  <!-- Uplink Ray -->
+  <line x1="170" y1="300" x2="350" y2="175" stroke="#137d72" stroke-width="3" stroke-dasharray="6,4"/>
+  <text x="235" y="230" transform="rotate(-34 235 230)" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">Uplink Beam (Higher Freq) &uarr;</text>
+
+  <!-- Downlink Ray -->
+  <line x1="450" y1="175" x2="630" y2="300" stroke="#dfbf80" stroke-width="3" stroke-dasharray="6,4"/>
+  <text x="560" y="230" transform="rotate(34 560 230)" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#b98a38">&darr; Downlink Footprint (Lower Freq)</text>
+
+  <!-- Footer -->
+  <rect x="50" y="425" width="700" height="35" rx="4" fill="#142c46"/>
+  <text x="400" y="447" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dfbf80">Principle: Uplink frequency is always higher than Downlink frequency to prevent self-interference at the satellite transponder.</text>
+</svg>

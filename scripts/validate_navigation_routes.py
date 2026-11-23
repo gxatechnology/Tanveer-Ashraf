@@ -157,11 +157,11 @@ def run_tests():
 
     # 8. Check Dashboard baseline metrics calculation & fallback
     check("Dashboard in app.js references getAcademyStats", "getAcademyStats" in app_js)
-    check("Dashboard in app.js fallback defines activeSubjects: 22", "activeSubjects: 22" in app_js)
-    check("Dashboard in app.js fallback defines chapters: 192", "chapters: 192" in app_js)
-    check("Dashboard in app.js fallback defines topics: 535", "topics: 535" in app_js)
-    check("Dashboard in app.js fallback defines mcqs: 3775", "mcqs: 3775" in app_js)
-    check("Dashboard in app.js fallback defines pyqs: 843", "pyqs: 843" in app_js)
+    check("Dashboard in app.js fallback defines activeSubjects: 30", "activeSubjects: 30" in app_js)
+    check("Dashboard in app.js fallback defines chapters: 278", "chapters: 278" in app_js)
+    check("Dashboard in app.js fallback defines topics: 757", "topics: 757" in app_js)
+    check("Dashboard in app.js fallback defines mcqs: 4765", "mcqs: 4765" in app_js)
+    check("Dashboard in app.js fallback defines pyqs: 1253", "pyqs: 1253" in app_js)
 
     # 9. Test runtime home() HTML output with subjects.js
     node_home_test = """
@@ -191,11 +191,11 @@ def run_tests():
     check("home() renders cleanly with subjects.js in Node", res_home.returncode == 0, res_home.stderr)
     if res_home.returncode == 0:
         html_out = res_home.stdout
-        check("home() renders '22 Active Production Modules'", "22 Active Production Modules" in html_out)
-        check("home() renders '192 Chapters'", "192 Chapters" in html_out)
-        check("home() renders '535 Topics'", "535 Topics" in html_out)
-        check("home() renders '3,775 Practice MCQs'", "3,775 Practice MCQs" in html_out)
-        check("home() renders '843 Mapped Historical PYQs'", "843 Mapped Historical PYQs" in html_out)
+        check("home() renders '30 Active Production Modules'", "30 Active Production Modules" in html_out)
+        check("home() renders '278 Chapters'", "278 Chapters" in html_out)
+        check("home() renders '757 Topics'", "757 Topics" in html_out)
+        check("home() renders '4,765 Practice MCQs'", "4,765 Practice MCQs" in html_out)
+        check("home() renders '1,253 Mapped Historical PYQs'", "1,253 Mapped Historical PYQs" in html_out)
 
     print("=" * 70)
     print(f"NAVIGATION REGRESSION SUMMARY: {passes} PASSED, {failures} FAILED")

@@ -36,6 +36,14 @@
       if (tid.startsWith('top-geo-')) return 'gk-geography';
       if (tid.startsWith('top-pol-')) return 'gk-polity';
       if (tid.startsWith('top-econ-')) return 'gk-economy';
+      if (tid.startsWith('top-curr-')) return 'gk-current';
+      if (tid.startsWith('top-sociss-')) return 'gk-social';
+      if (tid.startsWith('top-intl-')) return 'gk-international';
+      if (tid.startsWith('top-sci-')) return 'gk-science';
+      if (tid.startsWith('top-tech-')) return 'gk-tech';
+      if (tid.startsWith('top-comm-')) return 'gk-comm';
+      if (tid.startsWith('top-space-')) return 'gk-space';
+      if (tid.startsWith('top-ilaw-')) return 'law-international';
       return 'law-constitution';
     },
 
@@ -173,10 +181,19 @@
       let html = '';
 
       // 1. Overview Section
-      const hasOverview = concept.overview || concept.introduction || concept.detailedExplanation || concept.fullNotes;
+      const hasOverview = concept.overview || concept.introduction || concept.detailedExplanation || concept.fullNotes || concept.substantiveNote;
       if (hasOverview) {
         const introText = concept.introduction || (typeof concept.overview === 'string' ? concept.overview : (concept.overview && concept.overview.concept ? concept.overview.concept : ''));
         const detailedText = concept.detailedExplanation || concept.fullNotes || '';
+        const subNote = concept.substantiveNote || '';
+
+        // Format multi-paragraph substantive note if present
+        let formattedSubNote = '';
+        if (subNote) {
+          const paragraphs = subNote.split('\n\n').map(p => p.trim()).filter(Boolean);
+          formattedSubNote = paragraphs.map(p => `<p style="font-size: 15.5px; line-height: 1.7; margin-bottom: 14px; color: #1c2e40;">${p.replace(/\n/g, '<br/>')}</p>`).join('');
+        }
+
         html += `
           <section class="concept-section" id="sec-overview">
             <h2 class="section-title"><span class="title-icon">🏛️</span> 1. ${subjectId === 'law-constitution' ? 'Constitutional' : (subjectId === 'law-cpc' ? 'Procedural' : (subjectId && subjectId.startsWith('soc-') ? 'Statutory' : 'Academic'))} Overview &amp; Blueprint</h2>
@@ -188,22 +205,27 @@
                 <a href="civil-suit-journey.html" class="btn-micro" style="background: #dfbf80; color: #142c46; font-weight: bold; text-decoration: none; padding: 4px 10px; border-radius: 6px;">Open Journey Simulator →</a>
               </div>
             ` : ''}
-            <div class="callout callout-info">
-              ${concept.learningObjective ? `<p><strong>🎯 Learning Objective:</strong> ${concept.learningObjective}</p>` : ''}
-              ${introText ? `<p><strong>Core Concept:</strong> ${introText}</p>` : ''}
-              ${concept.overview && typeof concept.overview === 'object' && concept.overview.background ? `<p><strong>Historical Context:</strong> ${concept.overview.background}</p>` : ''}
-              ${concept.overview && typeof concept.overview === 'object' && concept.overview.scope ? `<p><strong>Jurisprudential Scope:</strong> ${concept.overview.scope}</p>` : ''}
-              ${detailedText ? `<div class="detailed-prose">${detailedText}</div>` : ''}
+            <div class="callout callout-info" style="padding: 18px 20px; background: #f3f5f8; border-radius: 8px; border-left: 4px solid #137d72;">
+              ${concept.learningObjective ? `<p style="font-size: 15px; margin-bottom: 12px;"><strong>🎯 Learning Objective:</strong> ${concept.learningObjective}</p>` : ''}
+              ${introText ? `<p style="font-size: 15px; margin-bottom: 12px;"><strong>Core Concept:</strong> ${introText}</p>` : ''}
+              ${concept.overview && typeof concept.overview === 'object' && concept.overview.background ? `<p style="font-size: 15px; margin-bottom: 12px;"><strong>Historical Context:</strong> ${concept.overview.background}</p>` : ''}
+              ${concept.overview && typeof concept.overview === 'object' && concept.overview.scope ? `<p style="font-size: 15px; margin-bottom: 12px;"><strong>Jurisprudential Scope:</strong> ${concept.overview.scope}</p>` : ''}
+              ${detailedText ? `<div class="detailed-prose" style="font-size: 15px; line-height: 1.7; margin-bottom: 14px;">${detailedText}</div>` : ''}
+              ${formattedSubNote ? `<div class="substantive-prose" style="margin-top: 12px;">${formattedSubNote}</div>` : ''}
             </div>
           </section>
         `;
       }
 
       // 2. Statutory Provisions (Bare Act Breakdown)
-      const provList = concept.provisions || concept.keyProvisions || concept.bareActCallouts || [];
+      const rawProvisions = concept.provisions || concept.keyProvisions || concept.bareActCallouts || concept.statutoryProvisions || [];
+      const provList = Array.isArray(rawProvisions) ? rawProvisions : [];
       if (provList.length) {
         const isCriminalSubject = ['law-criminal', 'law-crpc', 'law-evidence'].includes(subjectId) ||
-          provList.some(p => (p.article || p.provision || p.section || '').includes('BNS') || (p.article || p.provision || p.section || '').includes('IPC') || (p.article || p.provision || p.section || '').includes('BNSS') || (p.article || p.provision || p.section || '').includes('CrPC') || (p.article || p.provision || p.section || '').includes('BSA') || (p.article || p.provision || p.section || '').includes('IEA'));
+          provList.some(p => {
+            const str = typeof p === 'string' ? p : (p.article || p.provision || p.section || '');
+            return str.includes('BNS') || str.includes('IPC') || str.includes('BNSS') || str.includes('CrPC') || str.includes('BSA') || str.includes('IEA');
+          });
 
         const has106Caveat = (concept.topicId === 'top-crim-06-03' || JSON.stringify(concept).includes('106(2)'));
 
@@ -228,6 +250,22 @@
 
             <div class="provisions-stack">
               ${provList.map((p, idx) => {
+                if (typeof p === 'string') {
+                  const colonIdx = p.indexOf(':');
+                  const headerTitle = colonIdx !== -1 ? p.slice(0, colonIdx).trim() : `Statutory Authority ${idx + 1}`;
+                  const bodyText = colonIdx !== -1 ? p.slice(colonIdx + 1).trim() : p;
+                  return `
+                    <div class="provision-card provision-track-neutral" data-track-type="neutral" style="margin-bottom: 14px; padding: 16px 18px; border-left: 4px solid #137d72; background: #fff; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); border: 1px solid #e1e6eb; border-left: 4px solid #137d72;">
+                      <div class="provision-header" style="margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+                        <span class="badge badge-article" style="background: #142c46; color: #dfbf80; font-size: 12px; padding: 3px 8px; border-radius: 4px; font-weight: 600;">${headerTitle}</span>
+                      </div>
+                      <div class="provision-analysis">
+                        <p style="font-size: 15px; line-height: 1.6; margin: 0; color: #1c2e40;">${bodyText}</p>
+                      </div>
+                    </div>
+                  `;
+                }
+
                 const art = p.article || p.provision || p.section || '';
                 const isHist = art.includes('IPC') || art.includes('CrPC') || art.includes('IEA');
                 const isCurr = art.includes('BNS') || art.includes('BNSS') || art.includes('BSA');
@@ -248,19 +286,40 @@
                     ${p.exceptions ? `<div class="provision-caveat"><strong>⚠️ Statutory Exceptions &amp; Caveats:</strong> ${p.exceptions}</div>` : ''}
                   </div>
                 </div>
-              `}).join('')}
+              `;
+              }).join('')}
             </div>
           </section>
         `;
       }
 
       // 3. Landmark Case Laws
-      if (concept.landmarkCases && concept.landmarkCases.length) {
+      const rawCases = concept.landmarkCases || concept.keyPrecedents || [];
+      const caseList = Array.isArray(rawCases) ? rawCases : [];
+      if (caseList.length) {
         html += `
           <section class="concept-section" id="sec-cases">
-            <h2 class="section-title"><span class="title-icon">📜</span> 3. Landmark Judicial Precedents &amp; Ratio Decidendi</h2>
+            <h2 class="section-title"><span class="title-icon">📜</span> 3. Landmark Judicial Precedents &amp; Authorities</h2>
             <div class="cases-grid">
-              ${concept.landmarkCases.map(c => `
+              ${caseList.map((c, idx) => {
+                if (typeof c === 'string') {
+                  const colonIdx = c.indexOf(':');
+                  const caseTitle = colonIdx !== -1 ? c.slice(0, colonIdx).trim() : `Precedent ${idx + 1}`;
+                  const caseBody = colonIdx !== -1 ? c.slice(colonIdx + 1).trim() : c;
+                  return `
+                    <div class="case-card" style="background: #fff; padding: 14px 16px; border-radius: 8px; border: 1px solid #e1e6eb; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                      <div class="case-header" style="margin-bottom: 8px;">
+                        <h3 class="case-name" style="margin: 0; font-size: 15px; color: #142c46;">${caseTitle}</h3>
+                        <span class="case-citation" style="font-size: 12px; color: #607387;">Judicial Ratio</span>
+                      </div>
+                      <div class="case-body">
+                        <p class="case-ratio" style="font-size: 14px; line-height: 1.6; margin: 0; color: #2c3e50;"><strong>Principle / Held:</strong> ${caseBody}</p>
+                      </div>
+                    </div>
+                  `;
+                }
+
+                return `
                 <div class="case-card">
                   <div class="case-header">
                     <h3 class="case-name">${c.caseName || c.case || c.title || ''}</h3>
@@ -276,7 +335,8 @@
                     ${c.precedentValue || c.impact ? `<p class="case-impact"><strong>Exam Significance:</strong> ${c.precedentValue || c.impact}</p>` : ''}
                   </div>
                 </div>
-              `).join('')}
+              `;
+              }).join('')}
             </div>
           </section>
         `;
@@ -323,12 +383,12 @@
                       <thead>
                         <tr>
                           <th style="white-space:normal!important;word-break:break-word;">Point of Distinction</th>
-                          <th style="white-space:normal!important;word-break:break-word;">${comp.colA || 'Concept A'}</th>
-                          <th style="white-space:normal!important;word-break:break-word;">${comp.colB || 'Concept B'}</th>
+                          <th style="white-space:normal!important;word-break:break-word;">${comp.subjectA || 'Regime A'}</th>
+                          <th style="white-space:normal!important;word-break:break-word;">${comp.subjectB || 'Regime B'}</th>
                         </tr>
                       </thead>
                       <tbody>
-                        ${(comp.rows || []).map(r => `
+                        ${(comp.distinctions || []).map(r => `
                           <tr>
                             <td class="diff-point" style="white-space:normal!important;word-break:break-word;"><strong>${r.point}</strong></td>
                             <td style="white-space:normal!important;word-break:break-word;">${r.a}</td>
@@ -363,9 +423,9 @@
             `).join('') : ''}
             ${diagId ? `
               <div class="diagram-viewer-card">
-                <h3 class="diagram-title">${topic.title} Schematic</h3>
+                <h3 class="diagram-title">${(topic && topic.title) || (concept && concept.title) || 'Topic'} Schematic</h3>
                 <div class="diagram-img-box">
-                  <img src="assets/learning/images/diagrams/${diagId.endsWith('.svg') ? diagId : `${diagId}.svg`}" alt="${topic.title}" loading="lazy" class="responsive-diagram-svg" />
+                  <img src="assets/learning/images/diagrams/${diagId.endsWith('.svg') ? diagId : `${diagId}.svg`}" alt="${(topic && topic.title) || (concept && concept.title) || 'Topic'}" loading="lazy" class="responsive-diagram-svg" />
                 </div>
                 ${concept.diagramExplanation ? `<p class="diagram-caption">📌 ${concept.diagramExplanation}</p>` : ''}
               </div>
@@ -377,17 +437,36 @@
       // 6. Interactive Flashcards
       let flashcardsList = concept.flashcards || concept.activeRecall || [];
       if ((!flashcardsList || !flashcardsList.length) && provList.length) {
-        flashcardsList = provList.slice(0, 3).map((p, idx) => ({
-          front: `What is the key statutory mandate under ${p.section || p.article || p.provision || `Provision ${idx + 1}`}?`,
-          back: p.breakdown || p.explanation || p.description || p.text || 'Statutory requirement under the Act.',
-          article: p.section || p.article || p.provision || ''
-        }));
-      } else if ((!flashcardsList || !flashcardsList.length) && concept.landmarkCases && concept.landmarkCases.length) {
-        flashcardsList = concept.landmarkCases.slice(0, 3).map((c, idx) => ({
-          front: `What was held in ${c.caseName || c.case || c.title || `Case ${idx + 1}`}?`,
-          back: c.ratio || c.summary || 'Landmark precedent ruling.',
-          article: c.citation || (c.year ? `Year ${c.year}` : '')
-        }));
+        flashcardsList = provList.slice(0, 3).map((p, idx) => {
+          if (typeof p === 'string') {
+            return {
+              front: `What is the key statutory mandate under Authority #${idx + 1}?`,
+              back: p,
+              article: `Statutory Authority #${idx + 1}`
+            };
+          }
+          return {
+            front: `What is the key statutory mandate under ${p.section || p.article || p.provision || `Provision ${idx + 1}`}?`,
+            back: p.breakdown || p.explanation || p.description || p.text || 'Statutory requirement under the Act.',
+            article: p.section || p.article || p.provision || ''
+          };
+        });
+      } else if ((!flashcardsList || !flashcardsList.length) && caseList.length) {
+        flashcardsList = caseList.slice(0, 3).map((c, idx) => {
+          if (typeof c === 'string') {
+            const colonIdx = c.indexOf(':');
+            return {
+              front: `What was held regarding: ${colonIdx !== -1 ? c.slice(0, colonIdx) : `Authority #${idx + 1}`}?`,
+              back: colonIdx !== -1 ? c.slice(colonIdx + 1).trim() : c,
+              article: 'Landmark Precedent'
+            };
+          }
+          return {
+            front: `What was held in ${c.caseName || c.case || c.title || `Case ${idx + 1}`}?`,
+            back: c.ratio || c.summary || 'Landmark precedent ruling.',
+            article: c.citation || (c.year ? `Year ${c.year}` : '')
+          };
+        });
       }
 
       if (flashcardsList.length) {
@@ -416,14 +495,37 @@
         `;
       }
 
-      // 7. Exam Traps & Common Errors
-      const trapsList = concept.examTraps || concept.prelimTraps || concept.misconceptions || concept.examTips || [];
+      // 7. Exam Traps & Common Errors (Defensively handles array of objects, array of strings, or raw strings)
+      let trapsList = [];
+      if (Array.isArray(concept.examTraps)) trapsList = concept.examTraps;
+      else if (Array.isArray(concept.prelimTraps)) trapsList = concept.prelimTraps;
+      else if (Array.isArray(concept.misconceptions)) trapsList = concept.misconceptions;
+      else if (Array.isArray(concept.commonTraps)) trapsList = concept.commonTraps;
+      else if (Array.isArray(concept.examTakeaways)) trapsList = concept.examTakeaways;
+      else if (Array.isArray(concept.examTips)) trapsList = concept.examTips;
+      else if (typeof concept.commonTraps === 'string' && concept.commonTraps.trim()) {
+        trapsList = [{ trap: 'Common Examiner Trap', correct: concept.commonTraps }];
+      } else if (typeof concept.examTips === 'string' && concept.examTips.trim()) {
+        trapsList = [{ trap: 'UP PCS-J Focus Tip', correct: concept.examTips }];
+      }
+
       if (trapsList.length) {
         html += `
           <section class="concept-section" id="sec-traps">
             <h2 class="section-title"><span class="title-icon">⚠️</span> 7. Preliminary Exam Traps &amp; Examiner Pitfalls</h2>
             <div class="traps-container">
-              ${trapsList.map(trap => `
+              ${trapsList.map(trap => {
+                if (typeof trap === 'string') {
+                  return `
+                    <div class="trap-card">
+                      <div class="trap-trap-row">
+                        <span class="trap-badge">⚡ EXAM TAKEAWAY</span>
+                        <p class="trap-text" style="color: #1c2e40;">${trap}</p>
+                      </div>
+                    </div>
+                  `;
+                }
+                return `
                 <div class="trap-card">
                   <div class="trap-trap-row">
                     <span class="trap-badge">❌ COMMON CONFUSION</span>
@@ -435,7 +537,8 @@
                   </div>
                   ${trap.authority ? `<p class="trap-auth"><strong>Authority:</strong> ${trap.authority}</p>` : ''}
                 </div>
-              `).join('')}
+              `;
+              }).join('')}
             </div>
           </section>
         `;
@@ -454,7 +557,7 @@
       let html = `
         <div class="quick-revision-wrapper">
           <div class="callout callout-gold">
-            <h2 style="font-family: Georgia, serif; font-size: 18px; margin: 0 0 6px; color: #142c46;">⚡ Quick Revision Capsule: ${topic.title}</h2>
+            <h2 style="font-family: Georgia, serif; font-size: 18px; margin: 0 0 6px; color: #142c46;">⚡ Quick Revision Capsule: ${(topic && topic.title) || (concept && concept.title) || 'Topic'}</h2>
             <p style="margin: 0; font-size: 13px; color: #607387;">High-yield statutory provisions, critical case law ratios, and non-negotiable memory points for UP PCS-J rapid review.</p>
           </div>
 

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">The United Nations System: Principal Organs &amp; Architecture</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">Established by UN Charter (26 June 1945, San Francisco) · 193 Member States</text>
+
+  <!-- UN Charter Apex -->
+  <rect x="280" y="95" width="240" height="45" rx="6" fill="#142c46"/>
+  <text x="400" y="122" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#dfbf80">UN Charter (Art. 7)</text>
+
+  <!-- 6 Principal Organs Grid -->
+  <!-- 1. General Assembly -->
+  <rect x="50" y="160" width="215" height="110" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="157" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#137d72">General Assembly (GA)</text>
+  <text x="157" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#142c46">All 193 Members (1 Vote Each)</text>
+  <text x="157" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">Deliberative &amp; Budgetary Head</text>
+  <text x="157" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Resolutions Non-Binding</text>
+  <text x="157" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">UNGA Sessions: September</text>
+
+  <!-- 2. Security Council -->
+  <rect x="292" y="160" width="215" height="110" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="400" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#b98a38">Security Council (UNSC)</text>
+  <text x="400" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#142c46">15 Members (5 Perm + 10 Elected)</text>
+  <text x="400" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">P5 Veto: US, UK, FR, RU, CN</text>
+  <text x="400" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Binding Decisions (Chapter VII)</text>
+  <text x="400" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#b98a38">Primary Peace &amp; Security</text>
+
+  <!-- 3. ICJ -->
+  <rect x="535" y="160" width="215" height="110" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="642" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#137d72">Intl Court of Justice (ICJ)</text>
+  <text x="642" y="205" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#142c46">The Hague, Netherlands</text>
+  <text x="642" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">15 Judges (9-Year Terms)</text>
+  <text x="642" y="238" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Contentious &amp; Advisory</text>
+  <text x="642" y="254" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">Only Principal Organ outside NY</text>
+
+  <!-- 4. ECOSOC -->
+  <rect x="50" y="290" width="215" height="110" rx="6" fill="#f8fafc" stroke="#607387" stroke-width="1.5"/>
+  <text x="157" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">Economic &amp; Social (ECOSOC)</text>
+  <text x="157" y="335" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">54 Member States (3-Year Terms)</text>
+  <text x="157" y="352" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Coordinates 15 Specialized Agencies</text>
+  <text x="157" y="368" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Sustainable Dev Goals (SDGs)</text>
+  <text x="157" y="384" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">High-Level Political Forum</text>
+
+  <!-- 5. Secretariat -->
+  <rect x="292" y="290" width="215" height="110" rx="6" fill="#f8fafc" stroke="#607387" stroke-width="1.5"/>
+  <text x="400" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">The Secretariat</text>
+  <text x="400" y="335" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Headed by Secretary-General</text>
+  <text x="400" y="352" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Appointed by GA on UNSC Rec.</text>
+  <text x="400" y="368" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">5-Year Renewable Term</text>
+  <text x="400" y="384" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">Chief Administrative Officer</text>
+
+  <!-- 6. Trusteeship Council -->
+  <rect x="535" y="290" width="215" height="110" rx="6" fill="#f8fafc" stroke="#607387" stroke-width="1.5"/>
+  <text x="642" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#142c46">Trusteeship Council</text>
+  <text x="642" y="335" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Supervised 11 Trust Territories</text>
+  <text x="642" y="352" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Suspended Operations (1994)</text>
+  <text x="642" y="368" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Following Independence of Palau</text>
+  <text x="642" y="384" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#607387">Meets only as Occasion Requires</text>
+
+  <!-- Specialized Agencies Bottom Bar -->
+  <rect x="50" y="415" width="700" height="35" rx="4" fill="#142c46"/>
+  <text x="400" y="437" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dfbf80">Specialized Agencies: WHO (Geneva) · UNESCO (Paris) · ILO (Geneva) · FAO (Rome) · IMF &amp; World Bank (Washington DC) · WIPO (Geneva)</text>
+</svg>

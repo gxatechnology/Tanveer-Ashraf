@@ -356,6 +356,79 @@
   <script src="assets/learning/data/economy/economy-mcqs.js"></script>
   <script src="assets/learning/data/economy/economy-pyq-mapping.js"></script>
 
+  <!-- CURRENT NATIONAL ISSUES -->
+  <script src="assets/learning/data/current/current-chapters.js"></script>
+  <script src="assets/learning/data/current/current-topics.js"></script>
+  <script src="assets/learning/data/current/current-concepts-part1.js"></script>
+  <script src="assets/learning/data/current/current-concepts-part2.js"></script>
+  <script src="assets/learning/data/current/current-concepts.js"></script>
+  <script src="assets/learning/data/current/current-desk.js"></script>
+  <script src="assets/learning/data/current/current-mcqs.js"></script>
+  <script src="assets/learning/data/current/current-pyq-mapping.js"></script>
+
+  <!-- ISSUES OF SOCIAL RELEVANCE -->
+  <script src="assets/learning/data/social-issues/social-issues-chapters.js"></script>
+  <script src="assets/learning/data/social-issues/social-issues-topics.js"></script>
+  <script src="assets/learning/data/social-issues/social-issues-concepts-part1.js"></script>
+  <script src="assets/learning/data/social-issues/social-issues-concepts-part2.js"></script>
+  <script src="assets/learning/data/social-issues/social-issues-concepts.js"></script>
+  <script src="assets/learning/data/social-issues/social-issues-mcqs.js"></script>
+  <script src="assets/learning/data/social-issues/social-issues-pyq-mapping.js"></script>
+
+  <!-- INTERNATIONAL AFFAIRS & INSTITUTIONS -->
+  <script src="assets/learning/data/international/international-chapters.js"></script>
+  <script src="assets/learning/data/international/international-topics.js"></script>
+  <script src="assets/learning/data/international/international-concepts-part1.js"></script>
+  <script src="assets/learning/data/international/international-concepts-part2.js"></script>
+  <script src="assets/learning/data/international/international-concepts.js"></script>
+  <script src="assets/learning/data/international/international-mcqs.js"></script>
+  <script src="assets/learning/data/international/international-pyq-mapping.js"></script>
+
+  <!-- GENERAL SCIENCE -->
+  <script src="assets/learning/data/science/science-chapters.js"></script>
+  <script src="assets/learning/data/science/science-topics.js"></script>
+  <script src="assets/learning/data/science/science-concepts-part1.js"></script>
+  <script src="assets/learning/data/science/science-concepts-part2.js"></script>
+  <script src="assets/learning/data/science/science-concepts.js"></script>
+  <script src="assets/learning/data/science/science-mcqs.js"></script>
+  <script src="assets/learning/data/science/science-pyq-mapping.js"></script>
+
+  <!-- TECHNOLOGY -->
+  <script src="assets/learning/data/tech/tech-chapters.js"></script>
+  <script src="assets/learning/data/tech/tech-topics.js"></script>
+  <script src="assets/learning/data/tech/tech-concepts-part1.js"></script>
+  <script src="assets/learning/data/tech/tech-concepts-part2.js"></script>
+  <script src="assets/learning/data/tech/tech-concepts.js"></script>
+  <script src="assets/learning/data/tech/tech-mcqs.js"></script>
+  <script src="assets/learning/data/tech/tech-pyq-mapping.js"></script>
+
+  <!-- COMMUNICATIONS -->
+  <script src="assets/learning/data/comm/comm-chapters.js"></script>
+  <script src="assets/learning/data/comm/comm-topics.js"></script>
+  <script src="assets/learning/data/comm/comm-concepts-part1.js"></script>
+  <script src="assets/learning/data/comm/comm-concepts-part2.js"></script>
+  <script src="assets/learning/data/comm/comm-concepts.js"></script>
+  <script src="assets/learning/data/comm/comm-mcqs.js"></script>
+  <script src="assets/learning/data/comm/comm-pyq-mapping.js"></script>
+
+  <!-- SPACE SCIENCE -->
+  <script src="assets/learning/data/space/space-chapters.js"></script>
+  <script src="assets/learning/data/space/space-topics.js"></script>
+  <script src="assets/learning/data/space/space-concepts-part1.js"></script>
+  <script src="assets/learning/data/space/space-concepts-part2.js"></script>
+  <script src="assets/learning/data/space/space-concepts.js"></script>
+  <script src="assets/learning/data/space/space-mcqs.js"></script>
+  <script src="assets/learning/data/space/space-pyq-mapping.js"></script>
+
+  <!-- INTERNATIONAL ORGANISATIONS & CURRENT INTERNATIONAL AFFAIRS (LAW PAPER II) -->
+  <script src="assets/learning/data/international-law/international-law-chapters.js"></script>
+  <script src="assets/learning/data/international-law/international-law-topics.js"></script>
+  <script src="assets/learning/data/international-law/international-law-concepts-part1.js"></script>
+  <script src="assets/learning/data/international-law/international-law-concepts-part2.js"></script>
+  <script src="assets/learning/data/international-law/international-law-concepts.js"></script>
+  <script src="assets/learning/data/international-law/international-law-mcqs.js"></script>
+  <script src="assets/learning/data/international-law/international-law-pyq-mapping.js"></script>
+
 
   <!-- Statutory Comparison Dataset -->
   <script src="assets/learning/data/comparison/criminal-statutory-comparisons.js"></script>
@@ -364,6 +437,7 @@
   <script src="assets/learning/js/learning-storage.js"></script>
   <script src="assets/learning/js/learning-engine.js"></script>
   <script src="assets/learning/js/concept-renderer.js"></script>
+  <script src="assets/learning/js/current-desk-ui.js"></script>
   <script src="assets/js/nav-drawer.js"></script>
 
   <script>
@@ -403,8 +477,31 @@
       }
 
       const mode = urlParams.get('mode') || 'detailed';
+      const isDeskRequested = urlParams.get('desk') === 'true' || urlParams.get('mode') === 'desk';
       const mount = document.getElementById('study-mount');
       const navTree = document.getElementById('topics-nav-tree');
+
+      // Special Date-Wise Current Affairs Desk banner in sidebar if gk-current
+      if (subjectId === 'gk-current') {
+        const deskBanner = document.createElement('div');
+        deskBanner.style.cssText = 'padding: 10px 14px 14px; margin-bottom: 14px; background: #edf7f4; border: 1.5px solid #137d72; border-radius: 8px; text-align: center;';
+        deskBanner.innerHTML = `
+          <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #137d72; letter-spacing: 0.5px; margin-bottom: 6px;">
+            📅 High-Yield Coverage
+          </div>
+          <button id="btn-open-desk" class="btn btn-primary btn-sm" style="width: 100%; font-size: 12px; font-weight: 600; cursor: pointer; padding: 7px 10px;">
+            📰 Open Date-Wise Desk
+          </button>
+        `;
+        navTree.parentElement.insertBefore(deskBanner, navTree);
+
+        deskBanner.querySelector('#btn-open-desk').addEventListener('click', () => {
+          if (window.CurrentAffairsDesk) {
+            window.CurrentAffairsDesk.init(mount);
+            window.history.pushState({}, '', 'subject-study.html?subject=gk-current&desk=true');
+          }
+        });
+      }
 
       // 1. Render Topics Sidebar Navigation Tree
       function renderSidebarTree() {
@@ -457,8 +554,10 @@
 
       renderSidebarTree();
 
-      // 2. Load the requested topic into ConceptRenderer
-      if (topicId) {
+      // 2. Load Date-Wise Desk if requested, else load requested topic
+      if (isDeskRequested && subjectId === 'gk-current' && window.CurrentAffairsDesk) {
+        window.CurrentAffairsDesk.init(mount);
+      } else if (topicId) {
         ConceptRenderer.init(mount, topicId, mode);
       } else {
         mount.innerHTML = `<p style="padding: 30px; text-align: center; color: #607387;">Select a topic from the sidebar index to begin studying.</p>`;

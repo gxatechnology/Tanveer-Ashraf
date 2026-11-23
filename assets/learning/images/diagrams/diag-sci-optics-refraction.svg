@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">Geometrical Optics: Reflection, Refraction &amp; Human Vision</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">Snell's Law · Total Internal Reflection (TIR) · Lenses &amp; Eye Defect Corrections</text>
+
+  <!-- Refraction Diagram Panel -->
+  <rect x="50" y="105" width="335" height="175" rx="6" fill="#f0fdf4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="217" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#137d72">Refraction &amp; Snell's Law</text>
+  
+  <!-- Interface line -->
+  <line x1="80" y1="200" x2="350" y2="200" stroke="#142c46" stroke-width="2"/>
+  <text x="90" y="190" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Rarer Medium (Air, n₁)</text>
+  <text x="90" y="220" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Denser Medium (Glass/Water, n₂)</text>
+
+  <!-- Normal line -->
+  <line x1="215" y1="145" x2="215" y2="255" stroke="#a0aec0" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <text x="220" y="155" font-family="system-ui, sans-serif" font-size="9" fill="#a0aec0">Normal</text>
+
+  <!-- Incident ray -->
+  <line x1="140" y1="150" x2="215" y2="200" stroke="#e53e3e" stroke-width="2.5"/>
+  <!-- Refracted ray -->
+  <line x1="215" y1="200" x2="265" y2="260" stroke="#e53e3e" stroke-width="2.5"/>
+  <text x="217" y="275" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#142c46">Bends Towards Normal (v decreases)</text>
+
+  <!-- TIR Panel -->
+  <rect x="415" y="105" width="335" height="175" rx="6" fill="#fefce8" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="582" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#b98a38">Total Internal Reflection (TIR)</text>
+  <text x="435" y="155" font-family="system-ui, sans-serif" font-size="11" fill="#142c46">• Conditions for TIR:</text>
+  <text x="450" y="172" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">1. Light travels Denser &rarr; Rarer medium</text>
+  <text x="450" y="190" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">2. Angle of Incidence (i) &gt; Critical Angle (c)</text>
+  <text x="435" y="215" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#b98a38">• Everyday Applications in India:</text>
+  <text x="450" y="232" font-family="system-ui, sans-serif" font-size="10.5" fill="#142c46">Optical Fibres (Telecommunications)</text>
+  <text x="450" y="250" font-family="system-ui, sans-serif" font-size="10.5" fill="#142c46">Sparkling of Diamond · Mirage in Deserts · Endoscopy</text>
+
+  <!-- Eye Defects & Lenses Correction Table -->
+  <rect x="50" y="295" width="700" height="150" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="50" y="295" width="700" height="30" fill="#142c46" rx="6"/>
+  <text x="140" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Defect of Vision</text>
+  <text x="320" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Physiological Cause</text>
+  <text x="500" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Image Formation</text>
+  <text x="660" y="315" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Corrective Lens</text>
+
+  <text x="140" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Myopia (Near-sighted)</text>
+  <text x="320" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Elongated eyeball / excess curvature</text>
+  <text x="500" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#e53e3e">In Front of Retina</text>
+  <text x="660" y="345" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">Concave Lens (-ve power)</text>
+
+  <text x="140" y="380" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Hypermetropia (Far-sighted)</text>
+  <text x="320" y="380" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Eyeball too short / focal length too long</text>
+  <text x="500" y="380" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#e53e3e">Behind Retina</text>
+  <text x="660" y="380" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#137d72">Convex Lens (+ve power)</text>
+
+  <text x="140" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#142c46">Presbyopia (Old Age)</text>
+  <text x="320" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Weakening ciliary muscles / lens elasticity</text>
+  <text x="500" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Loss of accommodating power</text>
+  <text x="660" y="415" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#b98a38">Bifocal Lens</text>
+
+  <text x="140" y="435" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Astigmatism: Cylindrical Lens</text>
+  <text x="660" y="435" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#607387">Power of Lens (Diopter, D = 1/f)</text>
+</svg>

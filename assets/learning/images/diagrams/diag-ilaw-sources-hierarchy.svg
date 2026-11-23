@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">Sources of Public International Law (Article 38(1) ICJ Statute)</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">Statute of the International Court of Justice · Primary Sources vs Subsidiary Means</text>
+
+  <!-- 4 Stepped Levels -->
+  <!-- 1. Treaties / Conventions (Art 38(1)(a)) -->
+  <rect x="50" y="105" width="700" height="65" rx="6" fill="#142c46"/>
+  <text x="70" y="130" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#dfbf80">Article 38(1)(a): International Conventions &amp; Treaties (Primary)</text>
+  <text x="70" y="152" font-family="system-ui, sans-serif" font-size="10.5" fill="#ffffff">Expressly recognized rules by contesting states · Bilateral &amp; Multilateral · Pacta Sunt Servanda (Art. 26 VCLT 1969) · Jus Cogens (Art. 53 VCLT)</text>
+
+  <!-- 2. International Custom (Art 38(1)(b)) -->
+  <rect x="50" y="180" width="700" height="65" rx="6" fill="#137d72"/>
+  <text x="70" y="205" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#ffffff">Article 38(1)(b): International Custom (Primary)</text>
+  <text x="70" y="227" font-family="system-ui, sans-serif" font-size="10.5" fill="#edf7f4">Evidence of a general practice accepted as law · Two Essential Elements: (1) State Practice (Diuturnitas) + (2) Opinio Juris Sive Necessitatis (North Sea Continental Shelf Case)</text>
+
+  <!-- 3. General Principles of Law (Art 38(1)(c)) -->
+  <rect x="50" y="255" width="700" height="65" rx="6" fill="#dfbf80"/>
+  <text x="70" y="280" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#142c46">Article 38(1)(c): General Principles of Law Recognized by Civilized Nations (Primary)</text>
+  <text x="70" y="302" font-family="system-ui, sans-serif" font-size="10.5" fill="#142c46">Fundamental legal maxims: Res Judicata, Estoppel, Good Faith (Bona Fides), Subrogation, Reparation for Breach (Chorzow Factory Case 1928)</text>
+
+  <!-- 4. Judicial Decisions & Teachings (Art 38(1)(d)) -->
+  <rect x="50" y="330" width="700" height="65" rx="6" fill="#f8fafc" stroke="#142c46" stroke-width="1.5"/>
+  <text x="70" y="355" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#142c46">Article 38(1)(d): Judicial Decisions &amp; Scholarly Teachings (Subsidiary Means)</text>
+  <text x="70" y="377" font-family="system-ui, sans-serif" font-size="10.5" fill="#4a5568">Judgments of ICJ (subject to Art. 59: No formal stare decisis) · Municipal High Court decisions · Teachings of highly qualified publicists (Grotius, Oppenheim)</text>
+
+  <!-- Special Power Footer: Ex Aequo Et Bono -->
+  <rect x="50" y="405" width="700" height="45" rx="4" fill="#edf7f4" stroke="#137d72"/>
+  <text x="400" y="432" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#137d72">Article 38(2) Special Prerogative: The Court may decide a case <em>ex aequo et bono</em> (justice and fairness outside strict law) <strong>ONLY IF</strong> the parties agree thereto.</text>
+</svg>

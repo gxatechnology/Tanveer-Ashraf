@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <rect width="800" height="480" fill="#f8fafc" rx="8"/>
+  <rect x="20" y="20" width="760" height="440" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" rx="6"/>
+  <text x="400" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#142c46">Classification of Earth Orbits &amp; Satellite Trajectories</text>
+  <text x="400" y="78" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#607387">Low Earth Orbit (LEO) · Medium Earth Orbit (MEO) · Geostationary Orbit (GEO) · Polar / SSO</text>
+
+  <!-- 4 Orbit Cards -->
+  <rect x="50" y="105" width="165" height="240" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+  <text x="132" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#137d72">Low Earth Orbit (LEO)</text>
+  <text x="65" y="155" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#142c46">Altitude: 160 – 2,000 km</text>
+  <text x="65" y="175" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">Orbital Period: 90 – 120 mins</text>
+  <text x="65" y="195" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">High resolution observation</text>
+  <text x="65" y="215" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#137d72">Missions &amp; Applications:</text>
+  <text x="65" y="235" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Earth Observation (Cartosat)</text>
+  <text x="65" y="250" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Space Stations (ISS, Tiangong)</text>
+  <text x="65" y="265" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Gaganyaan Crew Module</text>
+  <text x="65" y="280" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Starlink / OneWeb</text>
+  <text x="65" y="315" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">Primary Launcher: PSLV / SSLV</text>
+
+  <rect x="225" y="105" width="165" height="240" rx="6" fill="#f8fafc" stroke="#607387" stroke-width="1.5"/>
+  <text x="307" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#142c46">Medium Earth (MEO)</text>
+  <text x="240" y="155" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#142c46">Altitude: 2,000 – 35,786 km</text>
+  <text x="240" y="175" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">Orbital Period: 2 – 24 hours</text>
+  <text x="240" y="195" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">Constellation coverage</text>
+  <text x="240" y="215" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#142c46">Missions &amp; Applications:</text>
+  <text x="240" y="235" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Global GPS (USA, 20,200 km)</text>
+  <text x="240" y="250" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• GLONASS (Russia)</text>
+  <text x="240" y="265" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Galileo (Europe)</text>
+  <text x="240" y="280" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• BeiDou MEO segment</text>
+  <text x="240" y="315" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">Primary: Navigation Constellations</text>
+
+  <rect x="400" y="105" width="170" height="240" rx="6" fill="#fdf8f0" stroke="#dfbf80" stroke-width="1.5"/>
+  <text x="485" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#b98a38">Geostationary (GEO)</text>
+  <text x="415" y="155" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#142c46">Altitude: Exactly 35,786 km</text>
+  <text x="415" y="175" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">Orbital Period: 23h 56m 4s</text>
+  <text x="415" y="195" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">Stationary over Equator (0° inc)</text>
+  <text x="415" y="215" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#b98a38">Missions &amp; Applications:</text>
+  <text x="415" y="235" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Telecommunications (INSAT)</text>
+  <text x="415" y="250" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• DTH Broadcasting &amp; Weather</text>
+  <text x="415" y="265" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• NavIC Geostationary segment</text>
+  <text x="415" y="280" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• 3 Satellites cover full globe</text>
+  <text x="415" y="315" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">Primary Launcher: GSLV / LVM3</text>
+
+  <rect x="580" y="105" width="170" height="240" rx="6" fill="#f8fafc" stroke="#142c46" stroke-width="1.5"/>
+  <text x="665" y="130" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#142c46">Sun-Synchronous (SSO)</text>
+  <text x="595" y="155" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#142c46">Altitude: 600 – 800 km</text>
+  <text x="595" y="175" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">Inclination: ~98° (Retrograde)</text>
+  <text x="595" y="195" font-family="system-ui, sans-serif" font-size="10" fill="#4a5568">Constant solar illumination angle</text>
+  <text x="595" y="215" font-family="system-ui, sans-serif" font-size="10.5" font-weight="bold" fill="#142c46">Missions &amp; Applications:</text>
+  <text x="595" y="235" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• IRS Remote Sensing series</text>
+  <text x="595" y="250" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Resourcesat &amp; Oceansat</text>
+  <text x="595" y="265" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Crop assessment &amp; Forestry</text>
+  <text x="595" y="280" font-family="system-ui, sans-serif" font-size="9.5" fill="#4a5568">• Environmental monitoring</text>
+  <text x="595" y="315" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">Primary Launcher: PSLV (ISRO Workhorse)</text>
+
+  <!-- Lagrange Points Note -->
+  <rect x="50" y="360" width="700" height="90" rx="6" fill="#142c46"/>
+  <text x="400" y="385" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12.5" font-weight="bold" fill="#dfbf80">Special Deep Space Trajectory: Sun-Earth Lagrange Point 1 (L1)</text>
+  <text x="400" y="405" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10.5" fill="#ffffff">Located 1.5 million km from Earth towards Sun where gravitational pull of Sun and Earth equals centripetal force required</text>
+  <text x="400" y="425" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#dfbf80">Aditya-L1 Mission (2023–24): Halo Orbit around L1 enables continuous uninterrupted view of Sun without eclipses</text>
+</svg>

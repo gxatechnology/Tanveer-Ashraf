@@ -55,9 +55,9 @@ active_parts = res_active.stdout.strip().split(' ', 1)
 n_active = int(active_parts[0]) if len(active_parts) > 1 else 0
 active_ids = active_parts[1] if len(active_parts) > 1 else ""
 
-test("Twenty-two subjects are active in Registry (8 Law + 9 Social Legislation + 5 General Knowledge)", n_active == 22, f"Got {n_active}")
-expected_active_ids = "gk-culture,gk-economy,gk-geography,gk-history,gk-polity,law-constitution,law-contract,law-cpc,law-criminal,law-crpc,law-evidence,law-jurisprudence,law-tpa,soc-disabilities,soc-domestic-violence,soc-dowry,soc-indecent-rep,soc-mtp,soc-parents,soc-pcpndt,soc-pocso,soc-posh"
-test("All expected 22 subject IDs match exactly in Registry", active_ids == expected_active_ids, f"Got {active_ids}")
+test("Thirty subjects are active in Registry (9 Law + 9 Social Legislation + 12 General Knowledge)", n_active == 30, f"Got {n_active}")
+expected_active_ids = "gk-comm,gk-culture,gk-current,gk-economy,gk-geography,gk-history,gk-international,gk-polity,gk-science,gk-social,gk-space,gk-tech,law-constitution,law-contract,law-cpc,law-criminal,law-crpc,law-evidence,law-international,law-jurisprudence,law-tpa,soc-disabilities,soc-domestic-violence,soc-dowry,soc-indecent-rep,soc-mtp,soc-parents,soc-pcpndt,soc-pocso,soc-posh"
+test("All expected 30 subject IDs match exactly in Registry", active_ids == expected_active_ids, f"Got {active_ids}")
 
 # 2. Chapters Validation Across 17 Subjects
 print("\n--- TEST GROUP 2: CHAPTERS VALIDATION (127 CHAPTERS TOTAL) ---")
@@ -388,11 +388,33 @@ expected_diagrams = [
     "diag-pol-law-making-process.svg",
     "diag-pol-union-executive.svg",
     "diag-econ-monetary-policy-transmission.svg",
-    "diag-econ-national-income-flow.svg"
+    "diag-econ-national-income-flow.svg",
+    # 19 Phase 7 Diagrams (18 GK + 1 International Law)
+    "diag-curr-national-policy-cycle.svg",
+    "diag-curr-up-governance-framework.svg",
+    "diag-soc-vulnerable-welfare-framework.svg",
+    "diag-soc-child-protection-flow.svg",
+    "diag-intl-un-system-organs.svg",
+    "diag-intl-global-groupings-matrix.svg",
+    "diag-sci-cell-structure-systems.svg",
+    "diag-sci-optics-refraction.svg",
+    "diag-sci-electricity-circuits.svg",
+    "diag-tech-ai-ml-hierarchy.svg",
+    "diag-tech-ecourts-workflow.svg",
+    "diag-tech-cybersecurity-layers.svg",
+    "diag-comm-cellular-5g-architecture.svg",
+    "diag-comm-satellite-ground-link.svg",
+    "diag-space-orbits-types.svg",
+    "diag-space-launch-vehicles.svg",
+    "diag-ilaw-sources-hierarchy.svg",
+    "diag-ilaw-maritime-zones-unclos.svg",
+    "diag-ilaw-icj-vs-icc.svg"
 ]
 diag_dir = "assets/learning/images/diagrams"
 missing_diags = [d for d in expected_diagrams if not os.path.exists(os.path.join(diag_dir, d))]
-test(f"All 105 Academic SVG diagrams exist on disk (12 Const + 60 Law + 18 Social + 15 GK)", len(missing_diags) == 0 and len(expected_diagrams) == 105, f"Missing: {missing_diags}, Total expected: {len(expected_diagrams)}")
+test(f"All 124 Academic SVG diagrams exist on disk (12 Const + 60 Law + 18 Social + 15 GK + 19 Phase 7)", len(missing_diags) == 0 and len(expected_diagrams) == 124, f"Missing: {missing_diags}, Total expected: {len(expected_diagrams)}")
+physical_svgs = [f for f in os.listdir(diag_dir) if f.endswith('.svg')]
+test("Physical SVG files on disk in diagrams directory equals exactly 124", len(physical_svgs) == 124, f"Got {len(physical_svgs)}")
 
 # 8. Statutory Comparisons Dataset (79 Mapped Comparisons)
 print("\n--- TEST GROUP 8: STATUTORY COMPARISONS (79 MAPPED COMPARISONS) ---")
@@ -616,11 +638,245 @@ test("Grand Total Authored Concepts across all 22 subjects equals exactly 535", 
 test("Grand Total Practice MCQs across all 22 subjects equals exactly 3,775", grand_mcqs == 3775, f"Got {grand_mcqs}")
 test("Grand Total Mapped Authentic PYQs across all 22 subjects equals exactly 843", grand_pyqs == 843, f"Got {grand_pyqs}")
 
+# 17. Final Eight-Subject Expansion (Phase 7 & Complete 30-Subject Grand Totals)
+print("\n--- TEST GROUP 17: FINAL EIGHT-SUBJECT EXPANSION (PHASE 7 & GRAND TOTALS) ---")
+script_p7 = """
+const currCh = require('./assets/learning/data/current/current-chapters.js').chapters;
+const currTop = require('./assets/learning/data/current/current-topics.js').topics;
+const currCon = require('./assets/learning/data/current/current-concepts.js').concepts;
+const currMcq = require('./assets/learning/data/current/current-mcqs.js').mcqs;
+const currPyq = require('./assets/learning/data/current/current-pyq-mapping.js').pyqs;
+
+const socICh = require('./assets/learning/data/social-issues/social-issues-chapters.js').chapters;
+const socITop = require('./assets/learning/data/social-issues/social-issues-topics.js').topics;
+const socICon = require('./assets/learning/data/social-issues/social-issues-concepts.js').concepts;
+const socIMcq = require('./assets/learning/data/social-issues/social-issues-mcqs.js').mcqs;
+const socIPyq = require('./assets/learning/data/social-issues/social-issues-pyq-mapping.js').pyqs;
+
+const intlCh = require('./assets/learning/data/international/international-chapters.js').chapters;
+const intlTop = require('./assets/learning/data/international/international-topics.js').topics;
+const intlCon = require('./assets/learning/data/international/international-concepts.js').concepts;
+const intlMcq = require('./assets/learning/data/international/international-mcqs.js').mcqs;
+const intlPyq = require('./assets/learning/data/international/international-pyq-mapping.js').pyqs;
+
+const sciCh = require('./assets/learning/data/science/science-chapters.js').chapters;
+const sciTop = require('./assets/learning/data/science/science-topics.js').topics;
+const sciCon = require('./assets/learning/data/science/science-concepts.js').concepts;
+const sciMcq = require('./assets/learning/data/science/science-mcqs.js').mcqs;
+const sciPyq = require('./assets/learning/data/science/science-pyq-mapping.js').pyqs;
+
+const techCh = require('./assets/learning/data/tech/tech-chapters.js').chapters;
+const techTop = require('./assets/learning/data/tech/tech-topics.js').topics;
+const techCon = require('./assets/learning/data/tech/tech-concepts.js').concepts;
+const techMcq = require('./assets/learning/data/tech/tech-mcqs.js').mcqs;
+const techPyq = require('./assets/learning/data/tech/tech-pyq-mapping.js').pyqs;
+
+const commCh = require('./assets/learning/data/comm/comm-chapters.js').chapters;
+const commTop = require('./assets/learning/data/comm/comm-topics.js').topics;
+const commCon = require('./assets/learning/data/comm/comm-concepts.js').concepts;
+const commMcq = require('./assets/learning/data/comm/comm-mcqs.js').mcqs;
+const commPyq = require('./assets/learning/data/comm/comm-pyq-mapping.js').pyqs;
+
+const spaceCh = require('./assets/learning/data/space/space-chapters.js').chapters;
+const spaceTop = require('./assets/learning/data/space/space-topics.js').topics;
+const spaceCon = require('./assets/learning/data/space/space-concepts.js').concepts;
+const spaceMcq = require('./assets/learning/data/space/space-mcqs.js').mcqs;
+const spacePyq = require('./assets/learning/data/space/space-pyq-mapping.js').pyqs;
+
+const ilawCh = require('./assets/learning/data/international-law/international-law-chapters.js').chapters;
+const ilawTop = require('./assets/learning/data/international-law/international-law-topics.js').topics;
+const ilawCon = require('./assets/learning/data/international-law/international-law-concepts.js').concepts;
+const ilawMcq = require('./assets/learning/data/international-law/international-law-mcqs.js').mcqs;
+const ilawPyq = require('./assets/learning/data/international-law/international-law-pyq-mapping.js').pyqs;
+
+const desk = require('./assets/learning/data/current/current-desk.js');
+
+console.log(
+  currCh.length, currTop.length, Object.keys(currCon).length, currMcq.length, currPyq.length,
+  socICh.length, socITop.length, Object.keys(socICon).length, socIMcq.length, socIPyq.length,
+  intlCh.length, intlTop.length, Object.keys(intlCon).length, intlMcq.length, intlPyq.length,
+  sciCh.length, sciTop.length, Object.keys(sciCon).length, sciMcq.length, sciPyq.length,
+  techCh.length, techTop.length, Object.keys(techCon).length, techMcq.length, techPyq.length,
+  commCh.length, commTop.length, Object.keys(commCon).length, commMcq.length, commPyq.length,
+  spaceCh.length, spaceTop.length, Object.keys(spaceCon).length, spaceMcq.length, spacePyq.length,
+  ilawCh.length, ilawTop.length, Object.keys(ilawCon).length, ilawMcq.length, ilawPyq.length,
+  desk.CURRENT_AFFAIRS_DESK.length, desk.CURRENT_MONTHLY_ARCHIVE.length
+);
+"""
+res_p7 = subprocess.run(['node', '-e', script_p7], capture_output=True, text=True)
+if res_p7.returncode != 0:
+    print("Phase 7 eval error:", res_p7.stderr)
+    p7_vals = [0]*42
+else:
+    p7_vals = list(map(int, res_p7.stdout.strip().split()))
+
+cu_ch, cu_top, cu_con, cu_mcq, cu_pyq = p7_vals[0:5]
+si_ch, si_top, si_con, si_mcq, si_pyq = p7_vals[5:10]
+ia_ch, ia_top, ia_con, ia_mcq, ia_pyq = p7_vals[10:15]
+sc_ch, sc_top, sc_con, sc_mcq, sc_pyq = p7_vals[15:20]
+te_ch, te_top, te_con, te_mcq, te_pyq = p7_vals[20:25]
+cm_ch, cm_top, cm_con, cm_mcq, cm_pyq = p7_vals[25:30]
+sp_ch, sp_top, sp_con, sp_mcq, sp_pyq = p7_vals[30:35]
+il_ch, il_top, il_con, il_mcq, il_pyq = p7_vals[35:40]
+desk_items, desk_months = p7_vals[40:42]
+
+test("Current National Issues: 10 Ch, 25 Top, 25 Concepts, 120 MCQs, 90 PYQs",
+     cu_ch == 10 and cu_top == 25 and cu_con == 25 and cu_mcq == 120 and cu_pyq == 90,
+     f"Got {cu_ch} ch, {cu_top} top, {cu_con} con, {cu_mcq} mcq, {cu_pyq} pyq")
+
+test("Issues of Social Relevance: 10 Ch, 25 Top, 25 Concepts, 110 MCQs, 44 PYQs",
+     si_ch == 10 and si_top == 25 and si_con == 25 and si_mcq == 110 and si_pyq == 44,
+     f"Got {si_ch} ch, {si_top} top, {si_con} con, {si_mcq} mcq, {si_pyq} pyq")
+
+test("International Affairs & Institutions: 12 Ch, 30 Top, 30 Concepts, 140 MCQs, 61 PYQs",
+     ia_ch == 12 and ia_top == 30 and ia_con == 30 and ia_mcq == 140 and ia_pyq == 61,
+     f"Got {ia_ch} ch, {ia_top} top, {ia_con} con, {ia_mcq} mcq, {ia_pyq} pyq")
+
+test("General Science: 12 Ch, 32 Top, 32 Concepts, 150 MCQs, 88 PYQs",
+     sc_ch == 12 and sc_top == 32 and sc_con == 32 and sc_mcq == 150 and sc_pyq == 88,
+     f"Got {sc_ch} ch, {sc_top} top, {sc_con} con, {sc_mcq} mcq, {sc_pyq} pyq")
+
+test("Technology & IT: 10 Ch, 26 Top, 26 Concepts, 120 MCQs, 8 PYQs",
+     te_ch == 10 and te_top == 26 and te_con == 26 and te_mcq == 120 and te_pyq == 8,
+     f"Got {te_ch} ch, {te_top} top, {te_con} con, {te_mcq} mcq, {te_pyq} pyq")
+
+test("Communications: 8 Ch, 22 Top, 22 Concepts, 90 MCQs, 4 PYQs",
+     cm_ch == 8 and cm_top == 22 and cm_con == 22 and cm_mcq == 90 and cm_pyq == 4,
+     f"Got {cm_ch} ch, {cm_top} top, {cm_con} con, {cm_mcq} mcq, {cm_pyq} pyq")
+
+test("Space Science: 10 Ch, 26 Top, 26 Concepts, 110 MCQs, 27 PYQs",
+     sp_ch == 10 and sp_top == 26 and sp_con == 26 and sp_mcq == 110 and sp_pyq == 27,
+     f"Got {sp_ch} ch, {sp_top} top, {sp_con} con, {sp_mcq} mcq, {sp_pyq} pyq")
+
+test("International Organisations & Law (Paper II): 14 Ch, 36 Top, 36 Concepts, 150 MCQs, 88 PYQs",
+     il_ch == 14 and il_top == 36 and il_con == 36 and il_mcq == 150 and il_pyq == 88,
+     f"Got {il_ch} ch, {il_top} top, {il_con} con, {il_mcq} mcq, {il_pyq} pyq")
+
+test("Date-Wise Current Affairs Desk has 32 source-verified entries across 28 monthly archives",
+     desk_items == 32 and desk_months == 28,
+     f"Got {desk_items} entries, {desk_months} months")
+
+# Deep Current Affairs Desk Schema Validation
+script_desk_deep = """
+const desk = require('./assets/learning/data/current/current-desk.js');
+const entries = desk.CURRENT_AFFAIRS_DESK;
+const archives = desk.CURRENT_MONTHLY_ARCHIVE;
+
+const uniqueIds = new Set(entries.map(e => e.id)).size;
+const badEntries = entries.filter(e => {
+  const hasId = typeof e.id === 'string' && e.id.length > 0;
+  const hasDate = /^\\d{4}-\\d{2}-\\d{2}$/.test(e.eventDate);
+  const hasMonth = /^\\d{4}-\\d{2}$/.test(e.monthKey);
+  const hasHeadline = typeof e.headline === 'string' && e.headline.length > 0;
+  const hasCategory = typeof e.category === 'string' && e.category.length > 0;
+  const hasUrl = typeof e.sourceUrl === 'string' && e.sourceUrl.startsWith('http');
+  const hasPubDate = /^\\d{4}-\\d{2}-\\d{2}$/.test(e.sourcePubDate);
+  const hasVerifiedAt = typeof e.verifiedAt === 'string' && e.verifiedAt.length > 0;
+  const hasSummary = typeof e.summary === 'string' && e.summary.length > 0;
+  const hasSignificance = typeof (e.significance || e.explanation) === 'string';
+  const hasTraps = Array.isArray(e.examTraps || e.examTakeaways) && (e.examTraps || e.examTakeaways).length > 0;
+  const hasTopic = typeof e.practiceTopicId === 'string' && e.practiceTopicId.startsWith('top-');
+  const hasStatus = e.reviewStatus === 'verified' || e.reviewStatus === 'pending_official_gazette';
+
+  return !(hasId && hasDate && hasMonth && hasHeadline && hasCategory && hasUrl && hasPubDate && hasVerifiedAt && hasSummary && hasSignificance && hasTraps && hasTopic && hasStatus);
+});
+
+console.log(entries.length, uniqueIds, badEntries.length, archives.length);
+"""
+res_desk_deep = subprocess.run(['node', '-e', script_desk_deep], capture_output=True, text=True)
+if res_desk_deep.returncode == 0:
+    d_len, d_uniq, d_bad, a_len = map(int, res_desk_deep.stdout.strip().split())
+    test("All 32 Current Affairs entries have 100% unique IDs", d_uniq == 32, f"Got {d_uniq}")
+    test("100% of Current Affairs entries meet full schema (ISO dates, URLs, significance, traps, topics, reviewStatus)", d_bad == 0, f"{d_bad} malformed entries")
+    test("Current Affairs Monthly Archives has 28 structured monthly periods", a_len == 28, f"Got {a_len}")
+else:
+    test("Current Affairs Desk deep schema validation", False, res_desk_deep.stderr)
+
+
+p7_ch_tot = cu_ch + si_ch + ia_ch + sc_ch + te_ch + cm_ch + sp_ch + il_ch
+p7_top_tot = cu_top + si_top + ia_top + sc_top + te_top + cm_top + sp_top + il_top
+p7_con_tot = cu_con + si_con + ia_con + sc_con + te_con + cm_con + sp_con + il_con
+p7_mcq_tot = cu_mcq + si_mcq + ia_mcq + sc_mcq + te_mcq + cm_mcq + sp_mcq + il_mcq
+p7_pyq_tot = cu_pyq + si_pyq + ia_pyq + sc_pyq + te_pyq + cm_pyq + sp_pyq + il_pyq
+
+test("Total Phase 7 Expansion: 86 Chapters, 222 Topics, 222 Concepts, 990 MCQs, 410 PYQs",
+     p7_ch_tot == 86 and p7_top_tot == 222 and p7_con_tot == 222 and p7_mcq_tot == 990 and p7_pyq_tot == 410,
+     f"Got {p7_ch_tot} ch, {p7_top_tot} top, {p7_con_tot} con, {p7_mcq_tot} mcq, {p7_pyq_tot} pyq")
+
+master_grand_chapters = grand_chapters + p7_ch_tot
+master_grand_topics = grand_topics + p7_top_tot
+master_grand_concepts = grand_concepts + p7_con_tot
+master_grand_mcqs = grand_mcqs + p7_mcq_tot
+master_grand_pyqs = grand_pyqs + p7_pyq_tot
+
+test("Master Grand Total Academy Chapters across all 30 subjects equals exactly 278", master_grand_chapters == 278, f"Got {master_grand_chapters}")
+test("Master Grand Total Academy Topics across all 30 subjects equals exactly 757", master_grand_topics == 757, f"Got {master_grand_topics}")
+test("Master Grand Total Authored Concepts across all 30 subjects equals exactly 757", master_grand_concepts == 757, f"Got {master_grand_concepts}")
+test("Master Grand Total Practice MCQs across all 30 subjects equals exactly 4,765", master_grand_mcqs == 4765, f"Got {master_grand_mcqs}")
+test("Master Grand Total Mapped Authentic PYQs across all 30 subjects equals exactly 1,253", master_grand_pyqs == 1253, f"Got {master_grand_pyqs}")
+
+# Deep PYQ Canonical ID Cross-Verification
+script_pyq_deep = """
+const fs = require('fs');
+const path = require('path');
+const c = fs.readFileSync('assets/data/questions.js', 'utf8');
+const vm = require('vm');
+const s = { window: {}, console: console };
+vm.createContext(s);
+vm.runInContext(c, s);
+const canonIds = new Set(s.window.PCSJ_QUESTIONS.map(q => q.id));
+
+const glob = [];
+function findPyq(d) {
+  fs.readdirSync(d).forEach(f => {
+    const full = path.join(d, f);
+    if (fs.statSync(full).isDirectory()) findPyq(full);
+    else if (f.endsWith('-pyq-mapping.js')) glob.push(full);
+  });
+}
+findPyq('assets/learning/data');
+
+let totalMapped = 0;
+let missingIds = 0;
+const uniqueMapped = new Set();
+
+glob.forEach(f => {
+  const code = fs.readFileSync(f, 'utf8');
+  const box = { window: {}, console: console };
+  vm.createContext(box);
+  vm.runInContext(code, box);
+  for (const k in box.window) {
+    if (k.endsWith('_PYQ_MAPPING') || k.endsWith('_PYQ_MAPPINGS')) {
+      const arr = box.window[k];
+      if (Array.isArray(arr)) {
+        arr.forEach(item => {
+          totalMapped++;
+          const qid = item.questionId || item.originalQuestionId || item.id || item.qid;
+          uniqueMapped.add(qid);
+          if (!canonIds.has(qid)) missingIds++;
+        });
+      }
+    }
+  }
+});
+
+console.log(totalMapped, uniqueMapped.size, missingIds);
+"""
+res_pyq_deep = subprocess.run(['node', '-e', script_pyq_deep], capture_output=True, text=True)
+if res_pyq_deep.returncode == 0:
+    t_map, u_map, m_ids = map(int, res_pyq_deep.stdout.strip().split())
+    test("Canonical Question Bank Cross-Check: Total mapped associations equals 1,253", t_map == 1253, f"Got {t_map}")
+    test("Canonical Question Bank Cross-Check: Exactly 0 invalid/non-existent question IDs", m_ids == 0, f"Got {m_ids} invalid IDs")
+    test("Canonical Question Bank Cross-Check: Exactly 1,083 unique canonical questions mapped", u_map == 1083, f"Got {u_map}")
+else:
+    test("Canonical Question Bank Cross-Check", False, res_pyq_deep.stderr)
+
+
 # Final Result
 print("\n================================================================================")
 if len(errors) == 0:
     print("ALL TESTS PASSED! (100% SUCCESS RATE)")
-    print("V3.1 Phase 6 Complete General Knowledge Learning Academy is 100% verified!")
+    print("V3.1 Phase 7 Complete 30-Subject Judicial Learning Academy is 100% verified!")
     print("================================================================================")
     sys.exit(0)
 else:

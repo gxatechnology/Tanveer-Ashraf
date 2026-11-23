@@ -105,11 +105,11 @@ function home(){
       };
     }
     return {
-      activeSubjects: 22,
-      chapters: 192,
-      topics: 535,
-      mcqs: 3775,
-      pyqs: 843
+      activeSubjects: 30,
+      chapters: 278,
+      topics: 757,
+      mcqs: 4765,
+      pyqs: 1253
     };
   };
   const academyStats = getAcademyStats();
@@ -148,7 +148,7 @@ function home(){
         <div>
           <span class="badge" style="background: #142c46; color: #dfbf80; margin-bottom: 6px; display: inline-block;">NEW · ACADEMY V3.1 (PHASE 5 BASELINE)</span>
           <h2 style="font-family: Georgia, serif; font-size: 20px; color: #142c46; margin: 0 0 6px;">Subject-wise Judicial Learning Academy</h2>
-          <p style="margin: 0; color: #4a5c6e; font-size: 13.5px; max-width: 660px;">Comprehensive syllabus preparation across Paper I (General Knowledge / Social Legislation) and Paper II (Law). <strong>${academyStats.activeSubjects} Active Production Modules</strong> (${academyStats.chapters} Chapters, ${academyStats.topics} Topics, ${fmt(academyStats.mcqs)} Practice MCQs, ${academyStats.pyqs} Mapped Historical PYQs).</p>
+          <p style="margin: 0; color: #4a5c6e; font-size: 13.5px; max-width: 660px;">Comprehensive syllabus preparation across Paper I (General Knowledge / Social Legislation) and Paper II (Law). <strong>${academyStats.activeSubjects} Active Production Modules</strong> (${academyStats.chapters} Chapters, ${academyStats.topics} Topics, ${fmt(academyStats.mcqs)} Practice MCQs, ${fmt(academyStats.pyqs)} Mapped Historical PYQs).</p>
         </div>
         <div style="display: flex; gap: 10px; flex-wrap: wrap;">
           <a href="learning-academy.html" class="btn primary" style="text-decoration: none;">🏛️ Explore Academy</a>

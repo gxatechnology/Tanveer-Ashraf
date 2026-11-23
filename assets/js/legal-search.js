@@ -115,7 +115,15 @@ function drawSmart(){
     ...(window.CULTURE_TOPICS || []),
     ...(window.GEOGRAPHY_TOPICS || []),
     ...(window.POLITY_TOPICS || []),
-    ...(window.ECONOMY_TOPICS || [])
+    ...(window.ECONOMY_TOPICS || []),
+    ...(window.CURRENT_TOPICS || []),
+    ...(window.SOCIAL_ISSUES_TOPICS || []),
+    ...(window.INTERNATIONAL_TOPICS || []),
+    ...(window.SCIENCE_TOPICS || []),
+    ...(window.TECH_TOPICS || []),
+    ...(window.COMM_TOPICS || []),
+    ...(window.SPACE_TOPICS || []),
+    ...(window.INTERNATIONAL_LAW_TOPICS || [])
   ];
   const allAcademyMCQs = [
     ...(window.CONSTITUTION_MCQS || []),
@@ -131,7 +139,15 @@ function drawSmart(){
     ...(window.CULTURE_MCQS || []),
     ...(window.GEOGRAPHY_MCQS || []),
     ...(window.POLITY_MCQS || []),
-    ...(window.ECONOMY_MCQS || [])
+    ...(window.ECONOMY_MCQS || []),
+    ...(window.CURRENT_MCQS || []),
+    ...(window.SOCIAL_ISSUES_MCQS || []),
+    ...(window.INTERNATIONAL_MCQS || []),
+    ...(window.SCIENCE_MCQS || []),
+    ...(window.TECH_MCQS || []),
+    ...(window.COMM_MCQS || []),
+    ...(window.SPACE_MCQS || []),
+    ...(window.INTERNATIONAL_LAW_MCQS || [])
   ];
 
   const constTopics = allAcademyTopics.filter(x => matchConstTopic(x, q));
@@ -201,6 +217,30 @@ function drawSmart(){
     }
     if (id.startsWith('top-econ-') || id.startsWith('mcq-econ-') || id.startsWith('ch-econ-')) {
       return { id: 'gk-economy', name: 'Indian Economy' };
+    }
+    if (id.startsWith('top-curr-') || id.startsWith('mcq-curr-') || id.startsWith('ch-curr-')) {
+      return { id: 'gk-current', name: 'Current National Issues' };
+    }
+    if (id.startsWith('top-sociss-') || id.startsWith('mcq-sociss-') || id.startsWith('ch-sociss-')) {
+      return { id: 'gk-social', name: 'Issues of Social Relevance' };
+    }
+    if (id.startsWith('top-intl-') || id.startsWith('mcq-intl-') || id.startsWith('ch-intl-')) {
+      return { id: 'gk-international', name: 'International Affairs & Institutions' };
+    }
+    if (id.startsWith('top-sci-') || id.startsWith('mcq-sci-') || id.startsWith('ch-sci-')) {
+      return { id: 'gk-science', name: 'General Science' };
+    }
+    if (id.startsWith('top-tech-') || id.startsWith('mcq-tech-') || id.startsWith('ch-tech-')) {
+      return { id: 'gk-tech', name: 'Technology' };
+    }
+    if (id.startsWith('top-comm-') || id.startsWith('mcq-comm-') || id.startsWith('ch-comm-')) {
+      return { id: 'gk-comm', name: 'Communications' };
+    }
+    if (id.startsWith('top-space-') || id.startsWith('mcq-space-') || id.startsWith('ch-space-')) {
+      return { id: 'gk-space', name: 'Space Science' };
+    }
+    if (id.startsWith('top-ilaw-') || id.startsWith('mcq-ilaw-') || id.startsWith('ch-ilaw-')) {
+      return { id: 'law-international', name: 'International Organisations & Law' };
     }
     return { id: 'law-constitution', name: 'Indian Constitution' };
   }

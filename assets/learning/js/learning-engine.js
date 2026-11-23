@@ -67,6 +67,14 @@
       if (subjectId === 'gk-geography') return global.GEOGRAPHY_CHAPTERS || [];
       if (subjectId === 'gk-polity') return global.POLITY_CHAPTERS || [];
       if (subjectId === 'gk-economy') return global.ECONOMY_CHAPTERS || [];
+      if (subjectId === 'gk-current') return global.CURRENT_CHAPTERS || [];
+      if (subjectId === 'gk-social') return global.SOCIAL_ISSUES_CHAPTERS || [];
+      if (subjectId === 'gk-international') return global.INTERNATIONAL_CHAPTERS || [];
+      if (subjectId === 'gk-science') return global.SCIENCE_CHAPTERS || [];
+      if (subjectId === 'gk-tech') return global.TECH_CHAPTERS || [];
+      if (subjectId === 'gk-comm') return global.COMM_CHAPTERS || [];
+      if (subjectId === 'gk-space') return global.SPACE_CHAPTERS || [];
+      if (subjectId === 'law-international') return global.INTERNATIONAL_LAW_CHAPTERS || [];
       if (subjectId && subjectId.startsWith('soc-')) {
         if (Array.isArray(global.SOCIAL_CHAPTERS)) {
           return global.SOCIAL_CHAPTERS.filter(c => c.subjectId === subjectId);
@@ -126,9 +134,62 @@
       if (chapterId.startsWith('ch-econ-')) {
         return LearningEngine.getChaptersBySubject('gk-economy').find(c => c.id === chapterId) || null;
       }
+      if (chapterId.startsWith('ch-curr-')) {
+        return LearningEngine.getChaptersBySubject('gk-current').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-sociss-')) {
+        return LearningEngine.getChaptersBySubject('gk-social').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-intl-')) {
+        return LearningEngine.getChaptersBySubject('gk-international').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-sci-')) {
+        return LearningEngine.getChaptersBySubject('gk-science').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-tech-')) {
+        return LearningEngine.getChaptersBySubject('gk-tech').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-comm-')) {
+        return LearningEngine.getChaptersBySubject('gk-comm').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-space-')) {
+        return LearningEngine.getChaptersBySubject('gk-space').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-ilaw-')) {
+        return LearningEngine.getChaptersBySubject('law-international').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-curr-')) {
+        return LearningEngine.getChaptersBySubject('gk-current').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-sociss-')) {
+        return LearningEngine.getChaptersBySubject('gk-social').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-intl-')) {
+        return LearningEngine.getChaptersBySubject('gk-international').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-sci-')) {
+        return LearningEngine.getChaptersBySubject('gk-science').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-tech-')) {
+        return LearningEngine.getChaptersBySubject('gk-tech').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-comm-')) {
+        return LearningEngine.getChaptersBySubject('gk-comm').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-space-')) {
+        return LearningEngine.getChaptersBySubject('gk-space').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-ilaw-')) {
+        return LearningEngine.getChaptersBySubject('law-international').find(c => c.id === chapterId) || null;
+      }
 
       // Check all active subjects
-      const activeIds = ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc', 'gk-history', 'gk-culture', 'gk-geography', 'gk-polity', 'gk-economy'];
+      const activeIds = [
+        'law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc',
+        'gk-history', 'gk-culture', 'gk-geography', 'gk-polity', 'gk-economy',
+        'gk-current', 'gk-social', 'gk-international', 'gk-science', 'gk-tech', 'gk-comm', 'gk-space', 'law-international',
+        'soc-disabilities', 'soc-parents', 'soc-dowry', 'soc-domestic-violence', 'soc-posh', 'soc-pcpndt', 'soc-mtp', 'soc-indecent-rep', 'soc-pocso'
+      ];
       for (const sid of activeIds) {
         const found = LearningEngine.getChaptersBySubject(sid).find(c => c.id === chapterId);
         if (found) return found;
@@ -150,6 +211,14 @@
       if (subjectId === 'gk-geography') return global.GEOGRAPHY_TOPICS || [];
       if (subjectId === 'gk-polity') return global.POLITY_TOPICS || [];
       if (subjectId === 'gk-economy') return global.ECONOMY_TOPICS || [];
+      if (subjectId === 'gk-current') return global.CURRENT_TOPICS || [];
+      if (subjectId === 'gk-social') return global.SOCIAL_ISSUES_TOPICS || [];
+      if (subjectId === 'gk-international') return global.INTERNATIONAL_TOPICS || [];
+      if (subjectId === 'gk-science') return global.SCIENCE_TOPICS || [];
+      if (subjectId === 'gk-tech') return global.TECH_TOPICS || [];
+      if (subjectId === 'gk-comm') return global.COMM_TOPICS || [];
+      if (subjectId === 'gk-space') return global.SPACE_TOPICS || [];
+      if (subjectId === 'law-international') return global.INTERNATIONAL_LAW_TOPICS || [];
       if (subjectId && subjectId.startsWith('soc-')) return (global.SOCIAL_TOPICS || []).filter(t => t.subjectId === subjectId);
       return [];
     },
@@ -201,6 +270,30 @@
       }
       if (chapterId.startsWith('ch-econ-')) {
         return (global.ECONOMY_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-curr-')) {
+        return (global.CURRENT_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-sociss-')) {
+        return (global.SOCIAL_ISSUES_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-intl-')) {
+        return (global.INTERNATIONAL_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-sci-')) {
+        return (global.SCIENCE_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-tech-')) {
+        return (global.TECH_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-comm-')) {
+        return (global.COMM_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-space-')) {
+        return (global.SPACE_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-ilaw-')) {
+        return (global.INTERNATIONAL_LAW_TOPICS || []).filter(t => t.chapterId === chapterId);
       }
 
       const constTopics = (global.CONSTITUTION_TOPICS || []).filter(t => t.chapterId === chapterId);
@@ -264,6 +357,30 @@
       if (topicId.startsWith('top-econ-')) {
         return (global.ECONOMY_TOPICS || []).find(t => t.id === topicId) || null;
       }
+      if (topicId.startsWith('top-curr-')) {
+        return (global.CURRENT_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-sociss-')) {
+        return (global.SOCIAL_ISSUES_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-intl-')) {
+        return (global.INTERNATIONAL_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-sci-')) {
+        return (global.SCIENCE_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-tech-')) {
+        return (global.TECH_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-comm-')) {
+        return (global.COMM_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-space-')) {
+        return (global.SPACE_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-ilaw-')) {
+        return (global.INTERNATIONAL_LAW_TOPICS || []).find(t => t.id === topicId) || null;
+      }
 
       for (const sid of ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc']) {
         const found = LearningEngine.getTopicsBySubject(sid).find(t => t.id === topicId);
@@ -316,6 +433,30 @@
       if (topicId.startsWith('top-econ-')) {
         return (global.ECONOMY_CONCEPTS || {})[topicId] || null;
       }
+      if (topicId.startsWith('top-curr-')) {
+        return (global.CURRENT_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-sociss-')) {
+        return (global.SOCIAL_ISSUES_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-intl-')) {
+        return (global.INTERNATIONAL_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-sci-')) {
+        return (global.SCIENCE_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-tech-')) {
+        return (global.TECH_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-comm-')) {
+        return (global.COMM_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-space-')) {
+        return (global.SPACE_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-ilaw-')) {
+        return (global.INTERNATIONAL_LAW_CONCEPTS || {})[topicId] || null;
+      }
 
       const pools = [
         global.CONSTITUTION_CONCEPTS,
@@ -331,7 +472,15 @@
         global.CULTURE_CONCEPTS,
         global.GEOGRAPHY_CONCEPTS,
         global.POLITY_CONCEPTS,
-        global.ECONOMY_CONCEPTS
+        global.ECONOMY_CONCEPTS,
+        global.CURRENT_CONCEPTS,
+        global.SOCIAL_ISSUES_CONCEPTS,
+        global.INTERNATIONAL_CONCEPTS,
+        global.SCIENCE_CONCEPTS,
+        global.TECH_CONCEPTS,
+        global.COMM_CONCEPTS,
+        global.SPACE_CONCEPTS,
+        global.INTERNATIONAL_LAW_CONCEPTS
       ];
       for (const pool of pools) {
         if (pool && pool[topicId]) return pool[topicId];
@@ -353,6 +502,14 @@
       if (subjectId === 'gk-geography') return global.GEOGRAPHY_MCQS || [];
       if (subjectId === 'gk-polity') return global.POLITY_MCQS || [];
       if (subjectId === 'gk-economy') return global.ECONOMY_MCQS || [];
+      if (subjectId === 'gk-current') return global.CURRENT_MCQS || [];
+      if (subjectId === 'gk-social') return global.SOCIAL_ISSUES_MCQS || [];
+      if (subjectId === 'gk-international') return global.INTERNATIONAL_MCQS || [];
+      if (subjectId === 'gk-science') return global.SCIENCE_MCQS || [];
+      if (subjectId === 'gk-tech') return global.TECH_MCQS || [];
+      if (subjectId === 'gk-comm') return global.COMM_MCQS || [];
+      if (subjectId === 'gk-space') return global.SPACE_MCQS || [];
+      if (subjectId === 'law-international') return global.INTERNATIONAL_LAW_MCQS || [];
       if (subjectId && subjectId.startsWith('soc-')) return (global.SOCIAL_MCQS || []).filter(m => m.subjectId === subjectId);
       return [];
     },
@@ -382,6 +539,14 @@
       if (topicId.startsWith('top-geo-')) return (global.GEOGRAPHY_MCQS || []).filter(m => m.topicId === topicId);
       if (topicId.startsWith('top-pol-')) return (global.POLITY_MCQS || []).filter(m => m.topicId === topicId);
       if (topicId.startsWith('top-econ-')) return (global.ECONOMY_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-curr-')) return (global.CURRENT_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-sociss-')) return (global.SOCIAL_ISSUES_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-intl-')) return (global.INTERNATIONAL_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-sci-')) return (global.SCIENCE_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-tech-')) return (global.TECH_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-comm-')) return (global.COMM_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-space-')) return (global.SPACE_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-ilaw-')) return (global.INTERNATIONAL_LAW_MCQS || []).filter(m => m.topicId === topicId);
 
       for (const sid of ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc']) {
         const list = LearningEngine.getMCQsBySubject(sid).filter(m => m.topicId === topicId);
@@ -408,6 +573,14 @@
       if (chapterId.startsWith('ch-geo-')) return (global.GEOGRAPHY_MCQS || []).filter(m => m.chapterId === chapterId);
       if (chapterId.startsWith('ch-pol-')) return (global.POLITY_MCQS || []).filter(m => m.chapterId === chapterId);
       if (chapterId.startsWith('ch-econ-')) return (global.ECONOMY_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-curr-')) return (global.CURRENT_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-sociss-')) return (global.SOCIAL_ISSUES_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-intl-')) return (global.INTERNATIONAL_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-sci-')) return (global.SCIENCE_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-tech-')) return (global.TECH_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-comm-')) return (global.COMM_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-space-')) return (global.SPACE_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-ilaw-')) return (global.INTERNATIONAL_LAW_MCQS || []).filter(m => m.chapterId === chapterId);
 
       const constList = (global.CONSTITUTION_MCQS || []).filter(m => m.chapterId === chapterId);
       if (constList.length > 0) return constList;
@@ -433,6 +606,14 @@
       if (subjectId === 'gk-geography') return global.GEOGRAPHY_PYQ_MAPPING || global.GEOGRAPHY_PYQS || [];
       if (subjectId === 'gk-polity') return global.POLITY_PYQ_MAPPING || global.POLITY_PYQS || [];
       if (subjectId === 'gk-economy') return global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || [];
+      if (subjectId === 'gk-current') return global.CURRENT_PYQ_MAPPING || [];
+      if (subjectId === 'gk-social') return global.SOCIAL_ISSUES_PYQ_MAPPING || [];
+      if (subjectId === 'gk-international') return global.INTERNATIONAL_PYQ_MAPPING || [];
+      if (subjectId === 'gk-science') return global.SCIENCE_PYQ_MAPPING || [];
+      if (subjectId === 'gk-tech') return global.TECH_PYQ_MAPPING || [];
+      if (subjectId === 'gk-comm') return global.COMM_PYQ_MAPPING || [];
+      if (subjectId === 'gk-space') return global.SPACE_PYQ_MAPPING || [];
+      if (subjectId === 'law-international') return global.INTERNATIONAL_LAW_PYQ_MAPPING || [];
       if (subjectId && subjectId.startsWith('soc-')) return (global.SOCIAL_PYQ_MAPPING || []).filter(p => p.subjectId === subjectId);
       return [];
     },
@@ -462,6 +643,14 @@
       if (topicId.startsWith('top-geo-')) return (global.GEOGRAPHY_PYQ_MAPPING || global.GEOGRAPHY_PYQS || []).filter(p => p.topicId === topicId);
       if (topicId.startsWith('top-pol-')) return (global.POLITY_PYQ_MAPPING || global.POLITY_PYQS || []).filter(p => p.topicId === topicId);
       if (topicId.startsWith('top-econ-')) return (global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-curr-')) return (global.CURRENT_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-sociss-')) return (global.SOCIAL_ISSUES_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-intl-')) return (global.INTERNATIONAL_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-sci-')) return (global.SCIENCE_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-tech-')) return (global.TECH_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-comm-')) return (global.COMM_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-space-')) return (global.SPACE_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-ilaw-')) return (global.INTERNATIONAL_LAW_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
 
       for (const sid of ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc']) {
         const list = LearningEngine.getPYQsBySubject(sid).filter(p => p.topicId === topicId);
@@ -488,6 +677,14 @@
       if (chapterId.startsWith('ch-geo-')) return (global.GEOGRAPHY_PYQ_MAPPING || global.GEOGRAPHY_PYQS || []).filter(p => p.chapterId === chapterId);
       if (chapterId.startsWith('ch-pol-')) return (global.POLITY_PYQ_MAPPING || global.POLITY_PYQS || []).filter(p => p.chapterId === chapterId);
       if (chapterId.startsWith('ch-econ-')) return (global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-curr-')) return (global.CURRENT_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-sociss-')) return (global.SOCIAL_ISSUES_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-intl-')) return (global.INTERNATIONAL_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-sci-')) return (global.SCIENCE_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-tech-')) return (global.TECH_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-comm-')) return (global.COMM_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-space-')) return (global.SPACE_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-ilaw-')) return (global.INTERNATIONAL_LAW_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
 
       const constList = (global.CONSTITUTION_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
       if (constList.length > 0) return constList;
@@ -569,7 +766,15 @@
                               (global.CULTURE_PYQ_MAPPING || global.CULTURE_PYQS || []).length +
                               (global.GEOGRAPHY_PYQ_MAPPING || global.GEOGRAPHY_PYQS || []).length +
                               (global.POLITY_PYQ_MAPPING || global.POLITY_PYQS || []).length +
-                              (global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || []).length;
+                              (global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || []).length +
+                              (global.CURRENT_PYQ_MAPPING || []).length +
+                              (global.SOCIAL_ISSUES_PYQ_MAPPING || []).length +
+                              (global.INTERNATIONAL_PYQ_MAPPING || []).length +
+                              (global.SCIENCE_PYQ_MAPPING || []).length +
+                              (global.TECH_PYQ_MAPPING || []).length +
+                              (global.COMM_PYQ_MAPPING || []).length +
+                              (global.SPACE_PYQ_MAPPING || []).length +
+                              (global.INTERNATIONAL_LAW_PYQ_MAPPING || []).length;
 
       const overallPercentage = totalActiveTopics > 0 ? Math.round((totalCompletedTopics / totalActiveTopics) * 100) : 0;
 
