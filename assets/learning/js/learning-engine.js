@@ -62,6 +62,11 @@
         if (global.CPC_CHAPTERS && Array.isArray(global.CPC_CHAPTERS.chapters)) return global.CPC_CHAPTERS.chapters;
         return [];
       }
+      if (subjectId === 'gk-history') return global.HISTORY_CHAPTERS || [];
+      if (subjectId === 'gk-culture') return global.CULTURE_CHAPTERS || [];
+      if (subjectId === 'gk-geography') return global.GEOGRAPHY_CHAPTERS || [];
+      if (subjectId === 'gk-polity') return global.POLITY_CHAPTERS || [];
+      if (subjectId === 'gk-economy') return global.ECONOMY_CHAPTERS || [];
       if (subjectId && subjectId.startsWith('soc-')) {
         if (Array.isArray(global.SOCIAL_CHAPTERS)) {
           return global.SOCIAL_CHAPTERS.filter(c => c.subjectId === subjectId);
@@ -106,9 +111,24 @@
       if (chapterId.startsWith('ch-soc-')) {
         return (global.SOCIAL_CHAPTERS || []).find(c => c.id === chapterId) || null;
       }
+      if (chapterId.startsWith('ch-hist-')) {
+        return LearningEngine.getChaptersBySubject('gk-history').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-cult-')) {
+        return LearningEngine.getChaptersBySubject('gk-culture').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-geo-')) {
+        return LearningEngine.getChaptersBySubject('gk-geography').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-pol-')) {
+        return LearningEngine.getChaptersBySubject('gk-polity').find(c => c.id === chapterId) || null;
+      }
+      if (chapterId.startsWith('ch-econ-')) {
+        return LearningEngine.getChaptersBySubject('gk-economy').find(c => c.id === chapterId) || null;
+      }
 
       // Check all active subjects
-      const activeIds = ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc'];
+      const activeIds = ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc', 'gk-history', 'gk-culture', 'gk-geography', 'gk-polity', 'gk-economy'];
       for (const sid of activeIds) {
         const found = LearningEngine.getChaptersBySubject(sid).find(c => c.id === chapterId);
         if (found) return found;
@@ -125,6 +145,11 @@
       if (subjectId === 'law-crpc') return global.CRPC_TOPICS || [];
       if (subjectId === 'law-evidence') return global.EVIDENCE_TOPICS || [];
       if (subjectId === 'law-cpc') return global.CPC_TOPICS || [];
+      if (subjectId === 'gk-history') return global.HISTORY_TOPICS || [];
+      if (subjectId === 'gk-culture') return global.CULTURE_TOPICS || [];
+      if (subjectId === 'gk-geography') return global.GEOGRAPHY_TOPICS || [];
+      if (subjectId === 'gk-polity') return global.POLITY_TOPICS || [];
+      if (subjectId === 'gk-economy') return global.ECONOMY_TOPICS || [];
       if (subjectId && subjectId.startsWith('soc-')) return (global.SOCIAL_TOPICS || []).filter(t => t.subjectId === subjectId);
       return [];
     },
@@ -161,6 +186,21 @@
       }
       if (chapterId.startsWith('ch-soc-')) {
         return (global.SOCIAL_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-hist-')) {
+        return (global.HISTORY_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-cult-')) {
+        return (global.CULTURE_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-geo-')) {
+        return (global.GEOGRAPHY_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-pol-')) {
+        return (global.POLITY_TOPICS || []).filter(t => t.chapterId === chapterId);
+      }
+      if (chapterId.startsWith('ch-econ-')) {
+        return (global.ECONOMY_TOPICS || []).filter(t => t.chapterId === chapterId);
       }
 
       const constTopics = (global.CONSTITUTION_TOPICS || []).filter(t => t.chapterId === chapterId);
@@ -209,6 +249,21 @@
           topicId.startsWith('top-pocso-')) {
         return (global.SOCIAL_TOPICS || []).find(t => t.id === topicId) || null;
       }
+      if (topicId.startsWith('top-hist-')) {
+        return (global.HISTORY_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-cult-')) {
+        return (global.CULTURE_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-geo-')) {
+        return (global.GEOGRAPHY_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-pol-')) {
+        return (global.POLITY_TOPICS || []).find(t => t.id === topicId) || null;
+      }
+      if (topicId.startsWith('top-econ-')) {
+        return (global.ECONOMY_TOPICS || []).find(t => t.id === topicId) || null;
+      }
 
       for (const sid of ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc']) {
         const found = LearningEngine.getTopicsBySubject(sid).find(t => t.id === topicId);
@@ -246,6 +301,21 @@
       if (global.SOCIAL_CONCEPTS && global.SOCIAL_CONCEPTS[topicId]) {
         return global.SOCIAL_CONCEPTS[topicId];
       }
+      if (topicId.startsWith('top-hist-')) {
+        return (global.HISTORY_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-cult-')) {
+        return (global.CULTURE_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-geo-')) {
+        return (global.GEOGRAPHY_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-pol-')) {
+        return (global.POLITY_CONCEPTS || {})[topicId] || null;
+      }
+      if (topicId.startsWith('top-econ-')) {
+        return (global.ECONOMY_CONCEPTS || {})[topicId] || null;
+      }
 
       const pools = [
         global.CONSTITUTION_CONCEPTS,
@@ -256,7 +326,12 @@
         global.CRPC_CONCEPTS,
         global.EVIDENCE_CONCEPTS,
         global.CPC_CONCEPTS,
-        global.SOCIAL_CONCEPTS
+        global.SOCIAL_CONCEPTS,
+        global.HISTORY_CONCEPTS,
+        global.CULTURE_CONCEPTS,
+        global.GEOGRAPHY_CONCEPTS,
+        global.POLITY_CONCEPTS,
+        global.ECONOMY_CONCEPTS
       ];
       for (const pool of pools) {
         if (pool && pool[topicId]) return pool[topicId];
@@ -273,6 +348,11 @@
       if (subjectId === 'law-crpc') return global.CRPC_MCQS || [];
       if (subjectId === 'law-evidence') return global.EVIDENCE_MCQS || [];
       if (subjectId === 'law-cpc') return global.CPC_MCQS || [];
+      if (subjectId === 'gk-history') return global.HISTORY_MCQS || [];
+      if (subjectId === 'gk-culture') return global.CULTURE_MCQS || [];
+      if (subjectId === 'gk-geography') return global.GEOGRAPHY_MCQS || [];
+      if (subjectId === 'gk-polity') return global.POLITY_MCQS || [];
+      if (subjectId === 'gk-economy') return global.ECONOMY_MCQS || [];
       if (subjectId && subjectId.startsWith('soc-')) return (global.SOCIAL_MCQS || []).filter(m => m.subjectId === subjectId);
       return [];
     },
@@ -297,6 +377,11 @@
           topicId.startsWith('top-pocso-')) {
         return (global.SOCIAL_MCQS || []).filter(m => m.topicId === topicId);
       }
+      if (topicId.startsWith('top-hist-')) return (global.HISTORY_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-cult-')) return (global.CULTURE_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-geo-')) return (global.GEOGRAPHY_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-pol-')) return (global.POLITY_MCQS || []).filter(m => m.topicId === topicId);
+      if (topicId.startsWith('top-econ-')) return (global.ECONOMY_MCQS || []).filter(m => m.topicId === topicId);
 
       for (const sid of ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc']) {
         const list = LearningEngine.getMCQsBySubject(sid).filter(m => m.topicId === topicId);
@@ -318,6 +403,11 @@
       if (chapterId.startsWith('ch-evi-')) return (global.EVIDENCE_MCQS || []).filter(m => m.chapterId === chapterId);
       if (chapterId.startsWith('ch-cpc-')) return (global.CPC_MCQS || []).filter(m => m.chapterId === chapterId);
       if (chapterId.startsWith('ch-soc-')) return (global.SOCIAL_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-hist-')) return (global.HISTORY_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-cult-')) return (global.CULTURE_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-geo-')) return (global.GEOGRAPHY_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-pol-')) return (global.POLITY_MCQS || []).filter(m => m.chapterId === chapterId);
+      if (chapterId.startsWith('ch-econ-')) return (global.ECONOMY_MCQS || []).filter(m => m.chapterId === chapterId);
 
       const constList = (global.CONSTITUTION_MCQS || []).filter(m => m.chapterId === chapterId);
       if (constList.length > 0) return constList;
@@ -338,6 +428,11 @@
       if (subjectId === 'law-crpc') return global.CRPC_PYQ_MAPPING || [];
       if (subjectId === 'law-evidence') return global.EVIDENCE_PYQ_MAPPING || [];
       if (subjectId === 'law-cpc') return global.CPC_PYQ_MAPPING || [];
+      if (subjectId === 'gk-history') return global.HISTORY_PYQ_MAPPING || [];
+      if (subjectId === 'gk-culture') return global.CULTURE_PYQ_MAPPING || global.CULTURE_PYQS || [];
+      if (subjectId === 'gk-geography') return global.GEOGRAPHY_PYQ_MAPPING || global.GEOGRAPHY_PYQS || [];
+      if (subjectId === 'gk-polity') return global.POLITY_PYQ_MAPPING || global.POLITY_PYQS || [];
+      if (subjectId === 'gk-economy') return global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || [];
       if (subjectId && subjectId.startsWith('soc-')) return (global.SOCIAL_PYQ_MAPPING || []).filter(p => p.subjectId === subjectId);
       return [];
     },
@@ -362,6 +457,11 @@
           topicId.startsWith('top-pocso-')) {
         return (global.SOCIAL_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
       }
+      if (topicId.startsWith('top-hist-')) return (global.HISTORY_PYQ_MAPPING || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-cult-')) return (global.CULTURE_PYQ_MAPPING || global.CULTURE_PYQS || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-geo-')) return (global.GEOGRAPHY_PYQ_MAPPING || global.GEOGRAPHY_PYQS || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-pol-')) return (global.POLITY_PYQ_MAPPING || global.POLITY_PYQS || []).filter(p => p.topicId === topicId);
+      if (topicId.startsWith('top-econ-')) return (global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || []).filter(p => p.topicId === topicId);
 
       for (const sid of ['law-constitution', 'law-jurisprudence', 'law-contract', 'law-tpa', 'law-criminal', 'law-crpc', 'law-evidence', 'law-cpc']) {
         const list = LearningEngine.getPYQsBySubject(sid).filter(p => p.topicId === topicId);
@@ -383,6 +483,11 @@
       if (chapterId.startsWith('ch-evi-')) return (global.EVIDENCE_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
       if (chapterId.startsWith('ch-cpc-')) return (global.CPC_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
       if (chapterId.startsWith('ch-soc-')) return (global.SOCIAL_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-hist-')) return (global.HISTORY_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-cult-')) return (global.CULTURE_PYQ_MAPPING || global.CULTURE_PYQS || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-geo-')) return (global.GEOGRAPHY_PYQ_MAPPING || global.GEOGRAPHY_PYQS || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-pol-')) return (global.POLITY_PYQ_MAPPING || global.POLITY_PYQS || []).filter(p => p.chapterId === chapterId);
+      if (chapterId.startsWith('ch-econ-')) return (global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || []).filter(p => p.chapterId === chapterId);
 
       const constList = (global.CONSTITUTION_PYQ_MAPPING || []).filter(p => p.chapterId === chapterId);
       if (constList.length > 0) return constList;
@@ -459,7 +564,12 @@
                               (global.CRPC_PYQ_MAPPING || []).length +
                               (global.EVIDENCE_PYQ_MAPPING || []).length +
                               (global.CPC_PYQ_MAPPING || []).length +
-                              (global.SOCIAL_PYQ_MAPPING || []).length;
+                              (global.SOCIAL_PYQ_MAPPING || []).length +
+                              (global.HISTORY_PYQ_MAPPING || []).length +
+                              (global.CULTURE_PYQ_MAPPING || global.CULTURE_PYQS || []).length +
+                              (global.GEOGRAPHY_PYQ_MAPPING || global.GEOGRAPHY_PYQS || []).length +
+                              (global.POLITY_PYQ_MAPPING || global.POLITY_PYQS || []).length +
+                              (global.ECONOMY_PYQ_MAPPING || global.ECONOMY_PYQS || []).length;
 
       const overallPercentage = totalActiveTopics > 0 ? Math.round((totalCompletedTopics / totalActiveTopics) * 100) : 0;
 
@@ -574,6 +684,17 @@
       };
     },
 
+    getStats: function () {
+      const stats = LearningEngine.getAcademyOverviewStats();
+      return {
+        activeSubjects: stats.activeSubjectsCount,
+        chapters: stats.totalActiveChapters,
+        topics: stats.totalActiveTopics,
+        mcqs: stats.totalActiveMCQs,
+        pyqs: stats.totalActivePYQs
+      };
+    },
+
     getCPCSectionsOrdersRules: function (query, type) {
       const all = global.CPC_SECTIONS_ORDERS_RULES || [];
       return all.filter(item => {
@@ -615,6 +736,8 @@
         filtered = filtered.filter(s => s.paper.includes('Paper II') || s.paper === 'LAW');
       } else if (filter === 'active') {
         filtered = filtered.filter(s => s.status === 'active');
+      } else if (filter === 'gk') {
+        filtered = filtered.filter(s => (s.id && s.id.startsWith('gk-') && s.status === 'active'));
       } else if (filter === 'social') {
         filtered = filtered.filter(s => s.category === 'social_legislation' || (s.id && s.id.startsWith('soc-')) || s.paper.includes('Social Legislation'));
       }
@@ -622,7 +745,7 @@
       // Filter by search query
       if (searchQuery && searchQuery.trim()) {
         const q = searchQuery.toLowerCase().trim();
-        filtered = filtered.filter(s => 
+        filtered = filtered.filter(s =>
           s.name.toLowerCase().includes(q) ||
           s.code.toLowerCase().includes(q) ||
           s.description.toLowerCase().includes(q)
@@ -665,7 +788,7 @@
               </h3>
               ${(subject.curriculumRef || subject.code) ? `<p class="subject-code">${subject.curriculumRef || subject.code}</p>` : ''}
               <p class="subject-desc">${subject.description}</p>
-              
+
               <div class="subject-meta-grid">
                 <div class="meta-item">
                   <span class="meta-label">Chapters</span>

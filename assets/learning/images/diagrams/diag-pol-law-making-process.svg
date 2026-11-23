@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%" height="100%">
+  <defs><linearGradient id="lmpbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="370" fill="url(#lmpbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">PARLIAMENTARY LEGISLATIVE PROCESS: ORDINARY VS MONEY BILLS</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Step-by-Step Procedure from Introduction to Presidential Assent (Articles 107 to 111)</text>
+
+  <g transform="translate(30, 75)">
+    <!-- Stage 1 -->
+    <rect x="0" y="0" width="195" height="135" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="195" height="26" rx="8" fill="#142c46"/>
+    <text x="97" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">1. THREE READINGS</text>
+    <text x="10" y="44" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#142c46">1st Reading:</text>
+    <text x="15" y="58" font-family="system-ui, sans-serif" font-size="8" fill="#607387">Introduction &amp; Gazette publication</text>
+    <text x="10" y="74" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">2nd Reading (Scrutiny):</text>
+    <text x="15" y="88" font-family="system-ui, sans-serif" font-size="8" fill="#607387">General discussion, Select Committee,</text>
+    <text x="15" y="100" font-family="system-ui, sans-serif" font-size="8" fill="#607387">clause-by-clause vote &amp; amendments</text>
+    <text x="10" y="116" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#142c46">3rd Reading:</text>
+    <text x="15" y="128" font-family="system-ui, sans-serif" font-size="8" fill="#607387">Acceptance or rejection of bill as whole</text>
+
+    <!-- Arrow 1 -->
+    <line x1="200" y1="67" x2="225" y2="67" stroke="#dfbf80" stroke-width="3"/>
+    <polygon points="225,67 218,62 218,72" fill="#dfbf80"/>
+
+    <!-- Stage 2 -->
+    <rect x="230" y="0" width="195" height="135" rx="8" fill="#ffffff"/>
+    <rect x="230" y="0" width="195" height="26" rx="8" fill="#137d72"/>
+    <text x="327" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff">2. TRANSMISSION</text>
+    <text x="240" y="44" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Sent to Second House</text>
+    <text x="240" y="60" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Four alternatives:</text>
+    <text x="245" y="76" font-family="system-ui, sans-serif" font-size="8" fill="#137d72">1. Passes without amendment</text>
+    <text x="245" y="90" font-family="system-ui, sans-serif" font-size="8" fill="#607387">2. Passes with amendments</text>
+    <text x="245" y="104" font-family="system-ui, sans-serif" font-size="8" fill="#a63b49">3. Rejects the bill entirely</text>
+    <text x="245" y="118" font-family="system-ui, sans-serif" font-size="8" fill="#607387">4. Takes no action for 6 months</text>
+    <text x="240" y="130" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#a63b49">(Deadlock triggers Joint Sitting)</text>
+
+    <!-- Arrow 2 -->
+    <line x1="430" y1="67" x2="455" y2="67" stroke="#dfbf80" stroke-width="3"/>
+    <polygon points="455,67 448,62 448,72" fill="#dfbf80"/>
+
+    <!-- Stage 3: Deadlock -->
+    <rect x="460" y="0" width="195" height="135" rx="8" fill="#ffffff"/>
+    <rect x="460" y="0" width="195" height="26" rx="8" fill="#142c46"/>
+    <text x="557" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">3. JOINT SITTING (ART. 108)</text>
+    <text x="470" y="44" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Summoned by PRESIDENT</text>
+    <text x="470" y="60" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">• Presided over by SPEAKER (Art. 118)</text>
+    <text x="475" y="74" font-family="system-ui, sans-serif" font-size="8" fill="#607387">Deputy Speaker, then RS Dy Chairman</text>
+    <text x="475" y="88" font-family="system-ui, sans-serif" font-size="8" fill="#a63b49">RS Chairman NEVER presides!</text>
+    <text x="470" y="106" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Passed by SIMPLE MAJORITY</text>
+    <text x="470" y="124" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">• NOT available for Money Bills</text>
+    <text x="470" y="134" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#a63b49">  or Constitutional Amendment Bills</text>
+
+    <!-- Arrow 3 -->
+    <line x1="660" y1="67" x2="685" y2="67" stroke="#dfbf80" stroke-width="3"/>
+    <polygon points="685,67 678,62 678,72" fill="#dfbf80"/>
+
+    <!-- Stage 4: Assent -->
+    <rect x="690" y="0" width="170" height="135" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="690" y="0" width="170" height="26" rx="8" fill="#137d72"/>
+    <text x="775" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff">4. ASSENT (ART. 111)</text>
+    <text x="700" y="44" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#142c46">President's 3 Options:</text>
+    <text x="700" y="62" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">1. Gives Assent (Becomes Act)</text>
+    <text x="700" y="80" font-family="system-ui, sans-serif" font-size="8.5" fill="#a63b49">2. Withholds Assent</text>
+    <text x="705" y="94" font-family="system-ui, sans-serif" font-size="8" fill="#607387">(Absolute Veto — bill ends)</text>
+    <text x="700" y="112" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">3. Returns for Reconsideration</text>
+    <text x="705" y="126" font-family="system-ui, sans-serif" font-size="8" fill="#607387">(Suspensive Veto; if re-passed,</text>
+    <text x="705" y="134" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#137d72">President MUST give assent)</text>
+  </g>
+
+  <!-- Money Bill Matrix Below -->
+  <g transform="translate(30, 230)">
+    <rect x="0" y="0" width="860" height="120" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="20" y="24" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">SPECIAL CONSTITUTIONAL PROCEDURE FOR MONEY BILLS (ARTICLES 109 &amp; 110):</text>
+    <text x="20" y="46" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">• Introduced ONLY in Lok Sabha (never Rajya Sabha), and ONLY on prior recommendation of the PRESIDENT.</text>
+    <text x="20" y="64" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">• Speaker's Certificate: Speaker of Lok Sabha endorses the bill as a Money Bill; decision is final (Art. 110(3)).</text>
+    <text x="20" y="82" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">• Rajya Sabha Powers: CANNOT reject or amend; may only recommend; MUST return within 14 DAYS (else deemed passed).</text>
+    <text x="20" y="100" font-family="system-ui, sans-serif" font-size="9.5" fill="#dfbf80">• Presidential Assent: President may give or withhold assent, but CANNOT return a Money Bill for reconsideration.</text>
+  </g>
+</svg>

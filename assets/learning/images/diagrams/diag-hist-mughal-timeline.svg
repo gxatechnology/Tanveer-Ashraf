@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" height="100%">
+  <defs><linearGradient id="mbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="380" fill="url(#mbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">THE GREAT MUGHALS &amp; ADMINISTRATIVE INSTITUTIONS (1526–1707)</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Emperors, Mansabdari System, Zabti Revenue System &amp; Architecture</text>
+
+  <!-- 6 Emperors Cards -->
+  <g transform="translate(15, 75)">
+    <!-- Babur -->
+    <rect x="0" y="0" width="140" height="185" rx="6" fill="#ffffff"/>
+    <rect x="0" y="0" width="140" height="24" rx="6" fill="#142c46"/>
+    <text x="70" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" font-weight="bold" fill="#dfbf80">BABUR (1526–30)</text>
+    <text x="8" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• 1526: 1st Panipat (Lodi)</text>
+    <text x="8" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• 1527: Khanwa (Rana Sanga)</text>
+    <text x="8" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• 1528: Chanderi (Medini Rai)</text>
+    <text x="8" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• 1529: Ghagra (Afghans)</text>
+    <text x="8" y="112" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Tuzuk-i-Baburi in Turki</text>
+    <text x="8" y="130" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">• Aram Bagh at Agra (UP)</text>
+    <text x="8" y="152" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#b98a38">Title: Padshah, Ghazi</text>
+
+    <!-- Humayun -->
+    <rect x="150" y="0" width="140" height="185" rx="6" fill="#ffffff"/>
+    <rect x="150" y="0" width="140" height="24" rx="6" fill="#137d72"/>
+    <text x="220" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" font-weight="bold" fill="#fff">HUMAYUN (1530–56)</text>
+    <text x="158" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Defeated by Sher Shah:</text>
+    <text x="158" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#a63b49">  - Chausa (1539)</text>
+    <text x="158" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#a63b49">  - Kannauj / Bilgram (1540)</text>
+    <text x="158" y="96" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Sur Interregnum (1540–55)</text>
+    <text x="158" y="112" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">• 1555: Regained Delhi</text>
+    <text x="158" y="130" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Dinpanah library fall</text>
+    <text x="158" y="152" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#142c46">Humayun-nama by sister</text>
+    <text x="158" y="166" font-family="system-ui, sans-serif" font-size="8" fill="#137d72">Gulbadan Begum</text>
+
+    <!-- Akbar -->
+    <rect x="300" y="0" width="155" height="185" rx="6" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="300" y="0" width="155" height="24" rx="6" fill="#137d72"/>
+    <text x="377" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" font-weight="bold" fill="#fff">AKBAR (1556–1605)</text>
+    <text x="308" y="42" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#142c46">• 1556: 2nd Panipat (Hemu)</text>
+    <text x="308" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Abolished Jizya (1564)</text>
+    <text x="308" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">• Ibadat Khana (1575, Fatehpur)</text>
+    <text x="308" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">• Mahzar / Infallibility (1579)</text>
+    <text x="308" y="106" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Din-i-Ilahi / Tauhid (1582)</text>
+    <text x="308" y="122" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#b98a38">• Mansabdari (Zat &amp; Sawar)</text>
+    <text x="308" y="138" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Todar Mal Zabti / Dahsala</text>
+    <text x="308" y="154" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Navratnas; Buland Darwaza</text>
+    <text x="308" y="170" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#a63b49">Fatehpur Sikri in Agra, UP</text>
+
+    <!-- Jahangir -->
+    <rect x="465" y="0" width="140" height="185" rx="6" fill="#ffffff"/>
+    <rect x="465" y="0" width="140" height="24" rx="6" fill="#142c46"/>
+    <text x="535" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" font-weight="bold" fill="#dfbf80">JAHANGIR (1605–27)</text>
+    <text x="473" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Chain of Justice (Zanjir)</text>
+    <text x="473" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#a63b49">• Guru Arjan Dev execution</text>
+    <text x="473" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Nur Jahan Junta</text>
+    <text x="473" y="92" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">• Golden Age of Painting</text>
+    <text x="473" y="108" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Ustad Mansur (flora/fauna)</text>
+    <text x="473" y="126" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Captain Hawkins (1608)</text>
+    <text x="473" y="142" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Sir Thomas Roe (1615)</text>
+    <text x="473" y="162" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#b98a38">Tuzuk-i-Jahangiri</text>
+
+    <!-- Shah Jahan -->
+    <rect x="615" y="0" width="140" height="185" rx="6" fill="#ffffff"/>
+    <rect x="615" y="0" width="140" height="24" rx="6" fill="#137d72"/>
+    <text x="685" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" font-weight="bold" fill="#fff">SHAH JAHAN (1628–58)</text>
+    <text x="623" y="42" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">• Golden Age Architecture</text>
+    <text x="623" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Taj Mahal (Agra, UP)</text>
+    <text x="623" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Moti Masjid (Agra Fort)</text>
+    <text x="623" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Red Fort (Delhi, Lal Qila)</text>
+    <text x="623" y="106" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Jama Masjid (Delhi)</text>
+    <text x="623" y="124" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Peacock Throne (Takht-i-Taus)</text>
+    <text x="623" y="142" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Bernier &amp; Tavernier visits</text>
+    <text x="623" y="162" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#a63b49">War of Succession (1657–58)</text>
+
+    <!-- Aurangzeb -->
+    <rect x="765" y="0" width="140" height="185" rx="6" fill="#ffffff"/>
+    <rect x="765" y="0" width="140" height="24" rx="6" fill="#142c46"/>
+    <text x="835" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="10.5" font-weight="bold" fill="#dfbf80">AURANGZEB (1658–1707)</text>
+    <text x="773" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Alamgir (World Conqueror)</text>
+    <text x="773" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#a63b49">• Re-imposed Jizya (1679)</text>
+    <text x="773" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Banned music at court</text>
+    <text x="773" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Muhtasibs (Moral censors)</text>
+    <text x="773" y="106" font-family="system-ui, sans-serif" font-size="8.5" fill="#a63b49">• Executed Guru Tegh Bahadur</text>
+    <text x="773" y="122" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Fatawa-i-Alamgiri legal code</text>
+    <text x="773" y="138" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• 25-yr Deccan Ulcer</text>
+    <text x="773" y="154" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Biwi ka Maqbara (Aurangabad)</text>
+    <text x="773" y="170" font-family="system-ui, sans-serif" font-size="8" font-weight="bold" fill="#a63b49">Highest number of Mansabdars</text>
+  </g>
+
+  <!-- Bottom Admin System -->
+  <g transform="translate(15, 275)">
+    <rect x="0" y="0" width="890" height="85" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="20" y="24" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">CORE MUGHAL ADMINISTRATIVE INSTITUTIONS (UP PCS-J MUST-KNOW):</text>
+    <text x="20" y="46" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">1. MANSABDARI: Dual ranks — Zat (personal status &amp; salary) and Sawar (number of cavalrymen required to maintain). Dagh &amp; Chehra strictly enforced.</text>
+    <text x="20" y="64" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">2. ZABTI / DAHSALA: Introduced by Raja Todar Mal in 1580; average produce and prices evaluated over last 10 years; State demand was 1/3rd in cash.</text>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" height="100%">
+  <defs><linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="380" fill="url(#ibg)" rx="12"/>
+  <text x="460" y="36" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">MAJOR INDUS VALLEY CIVILIZATION SITES &amp; DISCOVERIES</text>
+  <text x="460" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Key Archaeological Excavations &amp; Distinctive Diagnostic Artifacts</text>
+
+  <g transform="translate(30, 80)">
+    <!-- Site 1: Harappa -->
+    <rect x="0" y="0" width="200" height="130" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="200" height="26" rx="8" fill="#142c46"/>
+    <text x="100" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">HARAPPA (Ravi, Punjab)</text>
+    <text x="10" y="44" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Excavator: Daya Ram Sahni (1921)</text>
+    <text x="10" y="60" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• 6 Granaries in a row</text>
+    <text x="10" y="76" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Virgin Goddess seal, R-37 Cemetery</text>
+    <text x="10" y="92" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">• Red sandstone torso</text>
+    <text x="10" y="112" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#b98a38">Key: First discovered site (1921)</text>
+
+    <!-- Site 2: Mohenjo-daro -->
+    <rect x="220" y="0" width="200" height="130" rx="8" fill="#ffffff"/>
+    <rect x="220" y="0" width="200" height="26" rx="8" fill="#137d72"/>
+    <text x="320" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">MOHENJO-DARO (Indus)</text>
+    <text x="230" y="44" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Excavator: R.D. Banerji (1922)</text>
+    <text x="230" y="60" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Great Bath, Great Granary</text>
+    <text x="230" y="76" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Bronze Dancing Girl (Lost-wax)</text>
+    <text x="230" y="92" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">• Steatite Bearded Priest</text>
+    <text x="230" y="112" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Key: Pashupati Seal (Proto-Shiva)</text>
+
+    <!-- Site 3: Lothal -->
+    <rect x="440" y="0" width="200" height="130" rx="8" fill="#ffffff"/>
+    <rect x="440" y="0" width="200" height="26" rx="8" fill="#142c46"/>
+    <text x="540" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">LOTHAL (Bhogava, Gujarat)</text>
+    <text x="450" y="44" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Excavator: S.R. Rao (1954)</text>
+    <text x="450" y="60" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• World's earliest tidal Dockyard</text>
+    <text x="450" y="76" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Rice husk evidence, Double burial</text>
+    <text x="450" y="92" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">• Fire altars &amp; Persian Gulf seal</text>
+    <text x="450" y="112" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#b98a38">Key: Port town of Harappan trade</text>
+
+    <!-- Site 4: Kalibangan & Alamgirpur -->
+    <rect x="660" y="0" width="200" height="130" rx="8" fill="#ffffff"/>
+    <rect x="660" y="0" width="200" height="26" rx="8" fill="#137d72"/>
+    <text x="760" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">KALIBANGAN &amp; ALAMGIRPUR</text>
+    <text x="670" y="44" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Kalibangan (Rajasthan): Ploughed field</text>
+    <text x="670" y="60" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Fire altars, black bangles</text>
+    <text x="670" y="78" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Alamgirpur (Hindon, Meerut, UP):</text>
+    <text x="670" y="94" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Easternmost frontier of IVC</text>
+    <text x="670" y="112" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">UP Exam: Alamgirpur in Meerut district</text>
+  </g>
+
+  <!-- Dholavira & Rakhigarhi Row -->
+  <g transform="translate(30, 230)">
+    <rect x="0" y="0" width="420" height="110" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <text x="15" y="24" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">DHOLAVIRA (Rann of Kutch, Gujarat) — UNESCO World Heritage Site</text>
+    <text x="15" y="46" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">• Unique 3-tier city division (Citadel, Middle Town, Lower Town) instead of 2-tier.</text>
+    <text x="15" y="64" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">• World-renowned sophisticated water reservoirs &amp; water-harvesting hydraulic engineering.</text>
+    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="9.5" fill="#137d72">• Large 10-character Harappan signboard inscription discovery.</text>
+  </g>
+  <g transform="translate(470, 230)">
+    <rect x="0" y="0" width="420" height="110" rx="8" fill="#ffffff" stroke="#dfbf80" stroke-width="1.5"/>
+    <text x="15" y="24" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#142c46">RAKHIGARHI &amp; REGIONAL ARCHAEOLOGY</text>
+    <text x="15" y="46" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">• Rakhigarhi (Haryana): Largest Harappan settlement in the Indian subcontinent (over 350 ha).</text>
+    <text x="15" y="64" font-family="system-ui, sans-serif" font-size="9.5" fill="#1c2e40">• Chanhudaro (Sindh): Bead-making factory, inkpot, ONLY IVC city without a citadel.</text>
+    <text x="15" y="82" font-family="system-ui, sans-serif" font-size="9.5" fill="#a63b49">• Mandi &amp; Hulas (Saharanpur, UP): Late Harappan sites in Western Uttar Pradesh.</text>
+  </g>
+</svg>

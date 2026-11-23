@@ -128,16 +128,18 @@ All eight games and supporting subsystems are 100% playable client-side with per
 
 ---
 
-## 10. Subject-Wise Judicial Learning Academy (V3.1 Phase 5 Baseline)
+## 10. Subject-Wise Judicial Learning Academy (V3.1 Phase 6 Baseline)
 Structured subject-by-subject curriculum for the UP PCS-J Preliminary Examination:
-1. **Subject Registry (assets/learning/data/subjects.js):** 30 subjects defined across Paper I (12 GK + 9 Social Legislation) and Paper II (9 Law + sub-modules). Seventeen subjects are active production modules:
+1. **Subject Registry (assets/learning/data/subjects.js):** 30 subjects defined across Paper I (12 GK + 9 Social Legislation) and Paper II (9 Law + sub-modules). Twenty-two subjects are active production modules:
    - 8 Paper II Law Modules: law-constitution, law-jurisprudence, law-contract, law-tpa, law-criminal, law-crpc, law-evidence, law-cpc.
    - 9 Paper I Social Legislation Acts: soc-disabilities, soc-parents, soc-dowry, soc-domestic-violence, soc-posh, soc-pcpndt, soc-mtp, soc-indecent-rep, soc-pocso.
-   - 13 subjects remain structured upcoming modules.
-2. **Active Academic Modules Across 17 Subjects:**
+   - 5 Paper I General Knowledge Modules: gk-history, gk-culture, gk-geography, gk-polity, gk-economy.
+   - 8 subjects remain structured upcoming modules.
+2. **Active Academic Modules Across 22 Subjects:**
    - **8 Law Paper II Subjects:** 99 Chapters, 289 Topics, 2,620 MCQs, 592 PYQs, 72 SVG Schematics.
    - **9 Social Legislation Paper I Acts:** 28 Chapters, 84 Topics, 455 MCQs, 23 PYQs, 18 SVG Schematics.
-   - **Combined Academy Totals:** 127 Chapters, 373 Topics, 373 Authored Concept Notes, 3,075 Verified Practice MCQs, 615 Mapped Authentic Historical PYQs, 90 Custom Vector SVG Schematics.
+   - **5 General Knowledge Paper I Modules:** 65 Chapters, 162 Topics, 700 MCQs, 228 PYQs, 15 SVG Schematics.
+   - **Combined Academy Totals:** 192 Chapters, 535 Topics, 535 Authored Concept Notes, 3,775 Verified Practice MCQs, 843 Mapped Authentic Historical PYQs, 105 Custom Vector SVG Schematics.
 3. **Statutory Comparison Lab (comparison-lab.html):**
    - 79 verified comparative transitions (30 BNS vs IPC, 21 BNSS vs CrPC, 28 BSA vs IEA), live debounced search, category filtering, KPI summaries, and Section 106(2) BNS hit-and-run non-commencement notice (MHA Notification S.O. 850(E)).
 4. **The Civil Suit Journey Simulator (civil-suit-journey.html):**
@@ -145,15 +147,16 @@ Structured subject-by-subject curriculum for the UP PCS-J Preliminary Examinatio
 5. **Two High-Yield Statutory Explorers (181 Entries Total):**
    - **CPC Section-Order-Rule Explorer (`cpc-sections-orders-rules.js`):** 83 high-yield statutory entries (48 Sections, 35 Rules).
    - **Social Legislation Sections Explorer (`social-sections-explorer.js`):** 98 high-yield statutory entries across all 9 Acts with conditions, exceptions, penalties, India Code links, and tailored UP Exam Tips.
-6. **Social Legislation Study Centre (learning-academy.html):**
-   - Dedicated showcase section organized into three thematic clusters: Group A (Equality, Inclusion & Welfare), Group B (Protection of Women), and Group C (Reproductive Health & Child Protection).
+6. **Social Legislation & General Knowledge Study Centres (learning-academy.html):**
+   - Social Legislation: Dedicated showcase organized into three thematic clusters: Group A (Equality, Inclusion & Welfare), Group B (Protection of Women), and Group C (Reproductive Health & Child Protection).
+   - General Knowledge: Dedicated showcase covering Indian History, Indian Culture, Indian Geography, Indian Polity, and Indian Economy with filter tabs, active counts, and direct study access.
 7. **Interactive Study Room (subject-study.html):**
-   - Detailed Study Mode & Quick Revision Mode with bare act callouts, landmark case judgments, active recall flashcards with 3D flip interaction, paired-law switcher, and 90 custom SVG diagrams.
+   - Detailed Study Mode & Quick Revision Mode with bare act callouts, landmark case judgments, active recall flashcards with 3D flip interaction, paired-law switcher, and 105 custom SVG diagrams.
 8. **Comprehensive Practice MCQ Bank (topic-practice.html):**
-   - 3,075 verified questions with comprehensive 4-option explanations (A, B, C, D), statutory provisions, and learning objectives across 8 practice modes.
+   - 3,775 verified questions with comprehensive 4-option explanations (A, B, C, D), statutory/historical provisions, and learning objectives across 8 practice modes.
 9. **Historical PYQ Mapping Overlays:**
-   - 615 authentic UP PCS-J questions mapped directly across all 17 active subjects without modifying questions.js.
+   - 843 authentic UP PCS-J questions mapped directly across all 22 active subjects without modifying questions.js.
 10. **Subject Mastery Analytics (subject-progress.html):**
-    - Real-time tracking of topic reading coverage, test accuracy, spaced repetition queues, and chapter mastery matrix across all 17 active subjects.
+    - Real-time tracking of topic reading coverage, test accuracy, spaced repetition queues, and chapter mastery matrix across all 22 active subjects.
 11. **6 Dedicated Academy, Comparison & Simulation Pages:**
     - learning-academy.html, subject-study.html, topic-practice.html, subject-progress.html, comparison-lab.html, civil-suit-journey.html (Total 27 operational HTML pages).

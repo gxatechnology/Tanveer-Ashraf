@@ -78,7 +78,7 @@ def run_tests():
     with open('assets/js/nav-drawer.js', 'r', encoding='utf-8') as f:
         nd_js = f.read()
     check("nav-drawer.js defines DRAWER_ROUTES", "DRAWER_ROUTES" in nd_js)
-    
+
     # Parse routes from nav-drawer.js
     routes_in_drawer = re.findall(r'href:\s*["\']([^"\']+)["\']', nd_js)
     missing_drawer_targets = [r for r in routes_in_drawer if not os.path.exists(r)]
@@ -93,9 +93,9 @@ def run_tests():
     check("nav-drawer.js restores focus on close", "lastFocusedElement.focus()" in nd_js)
     check("nav-drawer.js manages ARIA attributes (aria-expanded, aria-hidden)", "aria-expanded" in nd_js and "aria-hidden" in nd_js)
 
-    # 9. Test Curriculum & Drawer Navigation for all 17 Active Subjects in Node
+    # 9. Test Curriculum & Drawer Navigation for all 22 Active Subjects in Node
     res_curr = subprocess.run(['node', 'scripts/test_subject_curriculum_drawer.js'], capture_output=True, encoding='utf-8', errors='replace')
-    check("Node evaluation of all 17 subject curricula in drawer succeeded", res_curr.returncode == 0, res_curr.stderr)
+    check("Node evaluation of all 22 subject curricula in drawer succeeded", res_curr.returncode == 0, res_curr.stderr)
 
     # 10. Check subject-study.html layout and empty parentheses fix
     with open('subject-study.html', 'r', encoding='utf-8') as f:
@@ -103,7 +103,7 @@ def run_tests():
     check("subject-study.html uses minmax(0, 1fr) for .study-layout", "grid-template-columns: 280px minmax(0, 1fr)" in study_html)
     check("subject-study.html defines min-width: 0 on .study-main-pane", "min-width: 0" in study_html)
     check("subject-study.html defines overflow-x: auto on .table-responsive", "overflow-x: auto" in study_html)
-    
+
     # Check that empty parentheses are not hardcoded or unhandled
     has_empty_parens_bug = 'Analysis (${subject.code || \'\'})' in study_html
     check("subject-study.html omits empty parentheses when subject.code is absent", not has_empty_parens_bug)

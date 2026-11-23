@@ -110,7 +110,12 @@ function drawSmart(){
     ...(window.CRPC_TOPICS || []),
     ...(window.EVIDENCE_TOPICS || []),
     ...(window.CPC_TOPICS || []),
-    ...(window.SOCIAL_TOPICS || [])
+    ...(window.SOCIAL_TOPICS || []),
+    ...(window.HISTORY_TOPICS || []),
+    ...(window.CULTURE_TOPICS || []),
+    ...(window.GEOGRAPHY_TOPICS || []),
+    ...(window.POLITY_TOPICS || []),
+    ...(window.ECONOMY_TOPICS || [])
   ];
   const allAcademyMCQs = [
     ...(window.CONSTITUTION_MCQS || []),
@@ -121,7 +126,12 @@ function drawSmart(){
     ...(window.CRPC_MCQS || []),
     ...(window.EVIDENCE_MCQS || []),
     ...(window.CPC_MCQS || []),
-    ...(window.SOCIAL_MCQS || [])
+    ...(window.SOCIAL_MCQS || []),
+    ...(window.HISTORY_MCQS || []),
+    ...(window.CULTURE_MCQS || []),
+    ...(window.GEOGRAPHY_MCQS || []),
+    ...(window.POLITY_MCQS || []),
+    ...(window.ECONOMY_MCQS || [])
   ];
 
   const constTopics = allAcademyTopics.filter(x => matchConstTopic(x, q));
@@ -176,6 +186,21 @@ function drawSmart(){
     }
     if (id.startsWith('top-pocso-') || id.startsWith('mcq-pocso-') || id.startsWith('ch-soc-pocso-')) {
       return { id: 'soc-pocso', name: 'POCSO Act' };
+    }
+    if (id.startsWith('top-hist-') || id.startsWith('mcq-hist-') || id.startsWith('ch-hist-')) {
+      return { id: 'gk-history', name: 'History of India' };
+    }
+    if (id.startsWith('top-cult-') || id.startsWith('mcq-cult-') || id.startsWith('ch-cult-')) {
+      return { id: 'gk-culture', name: 'Indian Culture' };
+    }
+    if (id.startsWith('top-geo-') || id.startsWith('mcq-geo-') || id.startsWith('ch-geo-')) {
+      return { id: 'gk-geography', name: 'Indian Geography' };
+    }
+    if (id.startsWith('top-pol-') || id.startsWith('mcq-pol-') || id.startsWith('ch-pol-')) {
+      return { id: 'gk-polity', name: 'Indian Polity' };
+    }
+    if (id.startsWith('top-econ-') || id.startsWith('mcq-econ-') || id.startsWith('ch-econ-')) {
+      return { id: 'gk-economy', name: 'Indian Economy' };
     }
     return { id: 'law-constitution', name: 'Indian Constitution' };
   }

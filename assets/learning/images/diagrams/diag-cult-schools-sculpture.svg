@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%" height="100%">
+  <defs><linearGradient id="scbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="370" fill="url(#scbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">ANCIENT INDIAN SCULPTURE SCHOOLS: POST-MAURYAN TO KUSHANA</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Gandhara (Greco-Roman), Mathura (Indigenous, UP) &amp; Amaravati (Satavahana)</text>
+
+  <g transform="translate(30, 75)">
+    <!-- Gandhara -->
+    <rect x="0" y="0" width="270" height="210" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="270" height="28" rx="8" fill="#142c46"/>
+    <text x="135" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">GANDHARA SCHOOL</text>
+    <text x="15" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">• Region: NW Frontier (Peshawar, Taxila)</text>
+    <text x="15" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Patron: Kushana rulers (Kanishka)</text>
+    <text x="15" y="84" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• Material: Blue-grey schist stone &amp; stucco</text>
+    <text x="15" y="102" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Influence: Strong Greco-Roman (Hellenistic)</text>
+    <text x="15" y="120" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Buddha Features: Wavy hair in topknot (Ushnisha),</text>
+    <text x="15" y="136" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">  heavy pleated Roman toga drapery, sharp nose,</text>
+    <text x="15" y="152" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">  half-closed eyes in meditation, moustache</text>
+    <text x="15" y="172" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Religion: Exclusively Mahayana Buddhism</text>
+    <text x="15" y="192" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Statues resemble Apollo / Greek deities</text>
+
+    <!-- Mathura -->
+    <rect x="295" y="0" width="270" height="210" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="2"/>
+    <rect x="295" y="0" width="270" height="28" rx="8" fill="#137d72"/>
+    <text x="430" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">MATHURA SCHOOL (Uttar Pradesh)</text>
+    <text x="310" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">• Region: Mathura, UP on Yamuna bank</text>
+    <text x="310" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Patron: Kushanas &amp; later Guptas</text>
+    <text x="310" y="84" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Material: Spotted red sandstone</text>
+    <text x="310" y="102" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Influence: Purely indigenous Indian style</text>
+    <text x="310" y="120" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Buddha Features: Smiling energetic face, shaven</text>
+    <text x="310" y="136" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">  head or spiral curls, transparent clinging robe</text>
+    <text x="310" y="152" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">  (Sanghati), right shoulder bare, muscular body</text>
+    <text x="310" y="172" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• Religion: All 3 traditions (Buddhist, Hindu, Jain)</text>
+    <text x="310" y="192" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#142c46">UP Exam: Headless Kanishka statue in coat</text>
+
+    <!-- Amaravati -->
+    <rect x="590" y="0" width="270" height="210" rx="8" fill="#ffffff"/>
+    <rect x="590" y="0" width="270" height="28" rx="8" fill="#142c46"/>
+    <text x="725" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">AMARAVATI SCHOOL</text>
+    <text x="605" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">• Region: Krishna-Godavari valley (AP)</text>
+    <text x="605" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Patron: Satavahanas &amp; Ikshvakus</text>
+    <text x="605" y="84" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#b98a38">• Material: White marble-like limestone</text>
+    <text x="605" y="102" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Influence: Indigenous dynamic narrative style</text>
+    <text x="605" y="120" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Feature: Masterful narrative relief panels</text>
+    <text x="605" y="136" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">  depicting Jataka tales with complex crowded scenes</text>
+    <text x="605" y="152" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">  and deep sense of movement, joy, and vitality</text>
+    <text x="605" y="172" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Religion: Predominantly Buddhist stupa railings</text>
+    <text x="605" y="192" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Focus on human figures &amp; emotions</text>
+  </g>
+
+  <!-- Bottom Comparison -->
+  <g transform="translate(30, 300)">
+    <rect x="0" y="0" width="860" height="55" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="15" y="22" font-family="Georgia, serif" font-size="11.5" font-weight="bold" fill="#dfbf80">SARNATH SCHOOL (GUPTA GOLDEN AGE, UP):</text>
+    <text x="15" y="42" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">Cream Chunar sandstone; completely transparent drapery; sublime spiritual introspection; halo intricately carved with floral arabesques (e.g. Dharmachakra Pravartana Buddha at Sarnath).</text>
+  </g>
+</svg>

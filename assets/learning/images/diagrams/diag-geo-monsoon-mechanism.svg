@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%" height="100%">
+  <defs><linearGradient id="mmbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="370" fill="url(#mmbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">INDIAN MONSOON MECHANISM &amp; RAINFALL DISTRIBUTION</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Thermal Concept, Dynamic ITCZ Shift, Jet Streams &amp; El Niño Southern Oscillation (ENSO)</text>
+
+  <g transform="translate(25, 75)">
+    <!-- South-West Monsoon -->
+    <rect x="0" y="0" width="425" height="210" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="425" height="28" rx="8" fill="#137d72"/>
+    <text x="212" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">SOUTH-WEST MONSOON (JUNE – SEPTEMBER)</text>
+    <text x="15" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">• Core Driving Factors:</text>
+    <text x="20" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">1. Differential heating of land &amp; sea creates intense Low Pressure over NW India</text>
+    <text x="20" y="82" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">2. Northward shift of Inter-Tropical Convergence Zone (ITCZ) over Ganga plain</text>
+    <text x="20" y="98" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">3. High pressure over Mascarene Basin in southern Indian Ocean</text>
+    <text x="20" y="114" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">4. Tibetan Plateau intense summer heating acts as a thermal engine</text>
+    <text x="20" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">5. Tropical Easterly Jet (TEJ) establishes over peninsular India</text>
+    <text x="15" y="152" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">• Two Active Branches:</text>
+    <text x="20" y="168" font-family="system-ui, sans-serif" font-size="9" fill="#607387">(a) Arabian Sea Branch: Hits Western Ghats (orographic burst), Gujarat, Rajasthan</text>
+    <text x="20" y="184" font-family="system-ui, sans-serif" font-size="9" fill="#607387">(b) Bay of Bengal Branch: Hits Mawsynram (Cherrapunji), deflected west into UP</text>
+    <text x="15" y="202" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">Delivers ~75% of India's annual precipitation</text>
+
+    <!-- Retreating & NE Monsoon -->
+    <rect x="445" y="0" width="425" height="210" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="445" y="0" width="425" height="28" rx="8" fill="#142c46"/>
+    <text x="657" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">RETREATING &amp; NORTH-EAST MONSOON (OCT – FEB)</text>
+    <text x="460" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">• Transition &amp; Retreat (Oct – Nov):</text>
+    <text x="465" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• ITCZ shifts southward; High Pressure forms over North India</text>
+    <text x="465" y="82" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Clear skies, high temperature &amp; humidity: "October Heat"</text>
+    <text x="465" y="98" font-family="system-ui, sans-serif" font-size="9" fill="#a63b49">• Severe tropical cyclones strike Odisha, Andhra &amp; Tamil Nadu coasts</text>
+    <text x="460" y="122" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">• North-East Monsoon (Dec – Jan):</text>
+    <text x="465" y="140" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Blows from land to sea (offshore winds) across most of India</text>
+    <text x="465" y="156" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Picks up moisture over Bay of Bengal and causes heavy rainfall</text>
+    <text x="470" y="172" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">  in Coromandel Coast (Tamil Nadu &amp; Coastal Andhra)</text>
+    <text x="460" y="192" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">• Western Disturbances (Winter):</text>
+    <text x="465" y="206" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Mediterranean cyclonic storms bring vital rain for Rabi crops (Wheat) in Punjab, Haryana, UP</text>
+  </g>
+
+  <!-- Bottom ENSO -->
+  <g transform="translate(25, 300)">
+    <rect x="0" y="0" width="870" height="55" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="15" y="22" font-family="Georgia, serif" font-size="11.5" font-weight="bold" fill="#dfbf80">GLOBAL TELECONNECTIONS (HIGH-YIELD EXAM CONCEPTS):</text>
+    <text x="15" y="42" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">El Niño (warming of central/eastern Pacific) correlates with deficient Indian monsoon &amp; drought • La Niña correlates with robust above-normal monsoon • Positive Indian Ocean Dipole (IOD) enhances rainfall.</text>
+  </g>
+</svg>

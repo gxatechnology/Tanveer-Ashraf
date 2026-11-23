@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%" height="100%">
+  <defs><linearGradient id="uebg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="370" fill="url(#uebg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">UNION EXECUTIVE CONSTITUTIONAL ARCHITECTURE (ARTICLES 52 TO 78)</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Constitutional Head vs Real Executive · Powers, Election &amp; Accountability</text>
+
+  <g transform="translate(20, 75)">
+    <!-- President -->
+    <rect x="0" y="0" width="275" height="210" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="275" height="28" rx="8" fill="#142c46"/>
+    <text x="137" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">PRESIDENT (Articles 52–62)</text>
+    <text x="12" y="48" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• De jure Head of State; First Citizen</text>
+    <text x="12" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Electoral College (Art. 54):</text>
+    <text x="16" y="80" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Elected MPs of Lok Sabha &amp; Rajya Sabha +</text>
+    <text x="16" y="94" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Elected MLAs of all States + Delhi &amp; Puducherry</text>
+    <text x="12" y="112" font-family="system-ui, sans-serif" font-size="9" fill="#a63b49">• Nominated members DO NOT vote in election</text>
+    <text x="12" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Impeachment (Art. 61): "Violation of Constitution"</text>
+    <text x="16" y="144" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">2/3rd majority of TOTAL membership in both Houses</text>
+    <text x="12" y="162" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Ordinance Power: Article 123</text>
+    <text x="12" y="180" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Pardoning Power: Article 72</text>
+    <text x="12" y="198" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Supreme Commander of Armed Forces (Art. 53(2))</text>
+
+    <!-- Vice President & PM -->
+    <rect x="295" y="0" width="285" height="210" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="295" y="0" width="285" height="28" rx="8" fill="#137d72"/>
+    <text x="437" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">VICE-PRESIDENT &amp; PRIME MINISTER</text>
+    <text x="307" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">VICE-PRESIDENT (Articles 63–71):</text>
+    <text x="312" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Ex-officio Chairman of Rajya Sabha (Art. 64)</text>
+    <text x="312" y="82" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Electoral College (Art. 66): ALL MPs (Elected + Nominated)</text>
+    <text x="312" y="98" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• State MLAs DO NOT vote for Vice-President</text>
+    <text x="307" y="122" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">PRIME MINISTER (Articles 74, 75, 78):</text>
+    <text x="312" y="140" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• De facto Real Executive Head; Leader of the House</text>
+    <text x="312" y="156" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Appointed by President; advises appointments</text>
+    <text x="312" y="172" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Art. 78: Duty to communicate decisions to President</text>
+    <text x="312" y="190" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Chairman: NITI Aayog, Inter-State Council,</text>
+    <text x="312" y="204" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">  National Development Council, NDMA</text>
+
+    <!-- Council of Ministers & AG -->
+    <rect x="600" y="0" width="295" height="210" rx="8" fill="#ffffff"/>
+    <rect x="600" y="0" width="295" height="28" rx="8" fill="#142c46"/>
+    <text x="747" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">COUNCIL OF MINISTERS &amp; AG</text>
+    <text x="612" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">COUNCIL OF MINISTERS (Art. 74–75):</text>
+    <text x="616" y="66" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Art. 74(1): Aid and advise the President</text>
+    <text x="620" y="80" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">(Advice binding post 42nd &amp; 44th Amendments)</text>
+    <text x="616" y="98" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• Art. 75(3): COLLECTIVELY RESPONSIBLE TO</text>
+    <text x="620" y="112" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">  LOK SABHA ONLY (House of the People)</text>
+    <text x="616" y="130" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Art. 75(2): Ministers hold office during pleasure of President</text>
+    <text x="616" y="146" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">• 91st Amendment 2003: Max size ≤ 15% of Lok Sabha</text>
+    <text x="612" y="170" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">ATTORNEY GENERAL FOR INDIA (Art. 76):</text>
+    <text x="616" y="188" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Highest Law Officer of India; qualified to be SC Judge</text>
+    <text x="616" y="204" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Right of audience in all courts; speech in Parliament (no vote)</text>
+  </g>
+
+  <!-- Bottom Insight -->
+  <g transform="translate(20, 300)">
+    <rect x="0" y="0" width="875" height="55" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="15" y="22" font-family="Georgia, serif" font-size="11.5" font-weight="bold" fill="#dfbf80">SHAMSHER SINGH V. STATE OF PUNJAB (1974 SC):</text>
+    <text x="15" y="42" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">The 7-judge Constitution Bench settled that the President and Governors are constitutional heads and must exercise executive powers strictly on the aid and advice of Ministers, save in exceptional discretionary situations.</text>
+  </g>
+</svg>

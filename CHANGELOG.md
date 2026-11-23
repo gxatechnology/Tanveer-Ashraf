@@ -6,6 +6,59 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [3.1.8] — Complete General Knowledge Learning Academy (Phase 6) — 2026-11-23
+*Tag: V3.1.8 Complete General Knowledge Learning Academy: History, Culture, Geography, Polity & Economy Modules*
+
+### Added
+- **5 Comprehensive General Knowledge Modules (Paper I: General Knowledge):**
+  - **History of India (`gk-history`):** 15 Chapters, 38 Topics, 160 Practice MCQs, 52 Authentic Mapped PYQs, 3 Academic SVG Diagrams. Covers ancient civilizations (IVC, Vedic period, Mahajanapadas, Mauryan, Gupta, Post-Gupta), medieval dynasties (Delhi Sultanate, Vijayanagara, Mughal Empire, Maratha confederacy), and modern freedom struggle (1857 Revolt, Socio-Religious reforms, INC, Gandhian mass movements, revolutionary activities, constitutional milestones 1909–1947).
+  - **Indian Culture (`gk-culture`):** 12 Chapters, 28 Topics, 120 Practice MCQs, 30 Authentic Mapped PYQs, 3 Academic SVG Diagrams. Covers architecture (Nagara, Dravida, Vesara styles, rock-cut caves), visual arts (Mural & Miniature paintings), performing arts (8 Sangeet Natak Akademi classical dances, Hindustani & Carnatic music), literary heritage (Vedic corpus, Epics, Sangam literature), philosophical schools (6 orthodox Shad-Darshanas, heterodox Buddhism/Jainism), Bhakti-Sufi movements, fairs, festivals, calendar systems, and UNESCO tangible/intangible cultural heritage sites.
+  - **Indian Geography (`gk-geography`):** 12 Chapters, 32 Topics, 140 Practice MCQs, 48 Authentic Mapped PYQs, 3 Academic SVG Diagrams. Covers physiographic divisions (Himalayas, Northern Plains, Peninsular Plateau, Coastal Plains, Islands), comprehensive drainage systems (Himalayan rivers, Peninsular east/west-flowing rivers), climate & monsoon mechanics (ITCZ, El Nino/La Nina, rainfall distribution), Indian soils (ICAR classification), natural vegetation & wildlife conservation (National Parks, Biosphere Reserves, Ramsar wetlands), agricultural crops & cropping seasons, mineral & energy resources, transport infrastructure, and demographic indicators (Census 2011).
+  - **Indian Polity (`gk-polity`):** 12 Chapters, 30 Topics, 140 Practice MCQs, 60 Authentic Mapped PYQs, 3 Academic SVG Diagrams. Focuses on governance & institutional mechanisms complementing Constitutional Law: historical evolutionary Acts (1773–1947), Union Executive (President, VP, PM, Council of Ministers), Parliament (procedures, bills, committees, parliamentary privileges), State Executive & Legislature, Judiciary hierarchy (SC, HC, Subordinate Courts, Judicial Review & PIL), Panchayati Raj & Municipalities (73rd & 74th Amendments), Center-State Relations (inter-state disputes, Sarkaria/Punchhi commissions), Constitutional & Non-Constitutional Bodies (Election Commission, UPSC, CAG, Attorney General, Finance Commission, NITI Aayog, NHRC, CIC, CVC, Lokpal), and Electoral Reforms & Representation of the People Act, 1950 & 1951.
+  - **Indian Economy (`gk-economy`):** 14 Chapters, 34 Topics, 140 Practice MCQs, 38 Authentic Mapped PYQs, 3 Academic SVG Diagrams. Covers national income accounting (GDP, GNP, NNP, GVA at basic vs market prices), economic growth vs development indicators (HDI, GII, MPI), inflation mechanics (CPI vs WPI, headline vs core), monetary policy framework (RBI, MPC, repo/reverse repo, CRR, SLR), fiscal policy & Union Budget (Revenue vs Capital accounts, fiscal/revenue/primary deficits), banking sector reforms (NPA resolution, IBC 2016, PCA framework), agriculture & food security (MSP, CACP, PDS, PM-KISAN), industrial policy & disinvestment, external sector (BoP, current vs capital account convertibility, FDI/FPI, FEMA), taxation system (GST Council, direct tax reforms), Five-Year Plans & NITI Aayog, and poverty estimation committees (Lakdawala, Tendulkar, Rangarajan).
+- **15 New High-Yield Academic Vector SVG Schematics (`assets/learning/images/diagrams/`):**
+  - `diag-hist-01.svg`: Chronology of Ancient India: IVC to Vedic Period.
+  - `diag-hist-02.svg`: Mauryan & Gupta Administrative Structures.
+  - `diag-hist-03.svg`: Freedom Movement Milestone Timeline (1857–1947).
+  - `diag-cult-01.svg`: Indian Temple Architectural Orders: Nagara, Dravida & Vesara.
+  - `diag-cult-02.svg`: Classical Dance Traditions of India & Rasa Theory.
+  - `diag-cult-03.svg`: Bhakti & Sufi Synthesis & Syncretic Philosophical Traditions.
+  - `diag-geo-01.svg`: Physiographic Divisions & Tectonic Relief of India.
+  - `diag-geo-02.svg`: Major River Basins of India: Himalayan vs. Peninsular Drainage.
+  - `diag-geo-03.svg`: Indian Monsoon Mechanism, Annual Rainfall & Soil Classifications.
+  - `diag-pol-01.svg`: Constitutional Development Under British Rule (1773–1947).
+  - `diag-pol-02.svg`: The Tripartite Constitutional Structure: Preamble, FR & DPSP.
+  - `diag-pol-03.svg`: Federal Governance Architecture & Center-State Relations.
+  - `diag-econ-01.svg`: National Income Flow & Macroeconomic Aggregates (GDP/GNP/GVA).
+  - `diag-econ-02.svg`: Monetary & Fiscal Policy Transmission Mechanisms.
+  - `diag-econ-03.svg`: Evolution of Economic Planning: Five-Year Plans to NITI Aayog.
+- **Combined Academy Grand Totals (Phase 6 Milestone):**
+  - **Active Production Modules:** 22 Subjects (8 Law + 9 Social Legislation + 5 General Knowledge).
+  - **Study Chapters:** Exactly 192 Chapters (99 Law + 28 Social + 65 GK).
+  - **Concept Topics:** Exactly 535 Topics (289 Law + 84 Social + 162 GK).
+  - **Authored Concept Notes:** Exactly 535 Notes with blueprints, historical/economic context, landmark facts, flashcards, and exam traps.
+  - **Verified Practice MCQs:** Exactly 3,775 MCQs with comprehensive 4-option explanations (A, B, C, D) and learning objectives.
+  - **Authentic Mapped PYQs:** Exactly 843 UP PCS-J previous year questions (592 Law + 23 Social + 228 GK).
+  - **Academic SVG Diagrams:** Exactly 105 custom vector diagrams (72 Law + 18 Social + 15 GK).
+- **General Knowledge Study Centre Showcase (`learning-academy.html`):**
+  - Interactive GK cards showcase grid with direct study links, topic counts, MCQ counts, and authentic PYQ counts.
+  - Added "General Knowledge (5 Active)" filter tab and active count updates.
+- **Universal Right-Side Drawer Integration (`nav-drawer.js`):**
+  - Tab B (Chapters & Topics) dynamically renders all 65 GK chapters and 162 GK topics across all 5 GK subjects.
+- **Multi-Corpus Smart Search (`legal-search.js`):**
+  - Updated search indices to include all 162 GK topics and 700 GK MCQs, mapped to their respective subjects.
+
+### Changed
+- `assets/learning/data/subjects.js`: Upgraded all 5 GK subjects (`gk-history`, `gk-culture`, `gk-geography`, `gk-polity`, `gk-economy`) to `status: 'active'`, `badge: 'Active Mastery Module'` with exact curriculum counts.
+- `assets/learning/js/learning-engine.js`: Updated dispatch functions (`getChaptersBySubject`, `getTopicsBySubject`, `getConceptByTopicId`, `getMCQsBySubject`, `getPYQsBySubject`, `getStats`, `renderSubjectCards`) to fully wire all 5 GK subjects and the new `gk` filter.
+- `assets/learning/js/concept-renderer.js`: Extended `resolveSubjectId` to recognize topic prefixes `top-hist-`, `top-cult-`, `top-geo-`, `top-pol-`, `top-econ-`.
+- `assets/js/app.js`: Updated `getAcademyStats` fallback baseline to reflect Phase 6 metrics (22 active subjects, 192 chapters, 535 topics, 3,775 MCQs, 843 PYQs).
+- `scripts/validate_learning_academy.py`: Updated to validate Phase 6 metrics and added Test Group 16 verifying all 5 GK modules.
+- `scripts/validate_navigation_routes.py`: Updated baseline assertions to Phase 6 numbers (22 active modules, 192 chapters, 535 topics, 3,775 MCQs, 843 PYQs).
+- `scripts/test_subject_curriculum_drawer.js`: Updated to verify curriculum drawer generation across all 22 active subjects.
+
+---
+
 ## [3.1.7] — Master Responsive UI Correction & Right-Side Hamburger Drawer — 2026-11-23
 *Tag: V3.1.7 Master Responsive UI Correction, Top-Right Hamburger Menu, Right-Side Slide Drawer & Study Room Overflow Fix*
 

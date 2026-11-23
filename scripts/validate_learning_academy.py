@@ -55,9 +55,9 @@ active_parts = res_active.stdout.strip().split(' ', 1)
 n_active = int(active_parts[0]) if len(active_parts) > 1 else 0
 active_ids = active_parts[1] if len(active_parts) > 1 else ""
 
-test("Seventeen subjects are active in Registry (8 Law + 9 Social Legislation)", n_active == 17, f"Got {n_active}")
-expected_active_ids = "law-constitution,law-contract,law-cpc,law-criminal,law-crpc,law-evidence,law-jurisprudence,law-tpa,soc-disabilities,soc-domestic-violence,soc-dowry,soc-indecent-rep,soc-mtp,soc-parents,soc-pcpndt,soc-pocso,soc-posh"
-test("All expected 17 subject IDs match exactly in Registry", active_ids == expected_active_ids, f"Got {active_ids}")
+test("Twenty-two subjects are active in Registry (8 Law + 9 Social Legislation + 5 General Knowledge)", n_active == 22, f"Got {n_active}")
+expected_active_ids = "gk-culture,gk-economy,gk-geography,gk-history,gk-polity,law-constitution,law-contract,law-cpc,law-criminal,law-crpc,law-evidence,law-jurisprudence,law-tpa,soc-disabilities,soc-domestic-violence,soc-dowry,soc-indecent-rep,soc-mtp,soc-parents,soc-pcpndt,soc-pocso,soc-posh"
+test("All expected 22 subject IDs match exactly in Registry", active_ids == expected_active_ids, f"Got {active_ids}")
 
 # 2. Chapters Validation Across 17 Subjects
 print("\n--- TEST GROUP 2: CHAPTERS VALIDATION (127 CHAPTERS TOTAL) ---")
@@ -372,11 +372,27 @@ expected_diagrams = [
     "diag-soc-irwa-prohibitions-exceptions.svg",
     "diag-soc-irwa-enforcement-powers.svg",
     "diag-soc-pocso-protection-framework.svg",
-    "diag-soc-pocso-special-court-trial.svg"
+    "diag-soc-pocso-special-court-trial.svg",
+    # 15 General Knowledge Diagrams (Phase 6)
+    "diag-hist-ancient-timeline.svg",
+    "diag-hist-delhi-sultanate.svg",
+    "diag-hist-indus-sites.svg",
+    "diag-hist-mughal-timeline.svg",
+    "diag-hist-national-movement.svg",
+    "diag-cult-classical-dances.svg",
+    "diag-cult-schools-sculpture.svg",
+    "diag-cult-temple-architecture.svg",
+    "diag-geo-drainage-systems.svg",
+    "diag-geo-monsoon-mechanism.svg",
+    "diag-geo-physiographic-divisions.svg",
+    "diag-pol-law-making-process.svg",
+    "diag-pol-union-executive.svg",
+    "diag-econ-monetary-policy-transmission.svg",
+    "diag-econ-national-income-flow.svg"
 ]
 diag_dir = "assets/learning/images/diagrams"
 missing_diags = [d for d in expected_diagrams if not os.path.exists(os.path.join(diag_dir, d))]
-test("All 90 Academic SVG diagrams exist on disk (12 Const + 60 Law + 18 Social)", len(missing_diags) == 0, f"Missing: {missing_diags}")
+test(f"All 105 Academic SVG diagrams exist on disk (12 Const + 60 Law + 18 Social + 15 GK)", len(missing_diags) == 0 and len(expected_diagrams) == 105, f"Missing: {missing_diags}, Total expected: {len(expected_diagrams)}")
 
 # 8. Statutory Comparisons Dataset (79 Mapped Comparisons)
 print("\n--- TEST GROUP 8: STATUTORY COMPARISONS (79 MAPPED COMPARISONS) ---")
@@ -441,7 +457,7 @@ test("100% of HTML pages (all 27) contain Subject Academy in navigation", len(mi
 # 11. Universal Smart Search Integration
 print("\n--- TEST GROUP 11: SMART SEARCH INTEGRATION ---")
 search_js = open("assets/js/legal-search.js", encoding="utf-8").read()
-test("Smart search indexes all active subject topics and MCQs including SOCIAL_TOPICS and SOCIAL_MCQS", 
+test("Smart search indexes all active subject topics and MCQs including SOCIAL_TOPICS and SOCIAL_MCQS",
      "CPC_TOPICS" in search_js and "SOCIAL_TOPICS" in search_js and "SOCIAL_MCQS" in search_js)
 test("Smart search displays 5th corpus for Judicial Learning Academy", "Judicial Learning Academy" in search_js)
 
@@ -504,11 +520,107 @@ test("All 98 entries have globally unique IDs", soc_uniq == 98, f"Got {soc_uniq}
 test("Entries span all 9 Social Legislation Acts", soc_acts == 9, f"Got {soc_acts}")
 test("100% of entries (98/98) have authored UP Exam & Practical Relevance (examTips)", soc_up == 98, f"Got {soc_up}")
 
+# 16. General Knowledge Learning Academy (5 Active Subjects & Phase 6 Grand Totals)
+print("\n--- TEST GROUP 16: GENERAL KNOWLEDGE LEARNING ACADEMY (5 ACTIVE SUBJECTS & GRAND TOTALS) ---")
+script_gk = """
+const hCh = require('./assets/learning/data/history/history-chapters.js').chapters;
+const hTop = require('./assets/learning/data/history/history-topics.js').topics;
+const hCon = require('./assets/learning/data/history/history-concepts.js').concepts;
+const hMcq = require('./assets/learning/data/history/history-mcqs.js').mcqs;
+const hPyq = require('./assets/learning/data/history/history-pyq-mapping.js').pyqs;
+
+const cCh = require('./assets/learning/data/culture/culture-chapters.js').chapters;
+const cTop = require('./assets/learning/data/culture/culture-topics.js').topics;
+const cCon = require('./assets/learning/data/culture/culture-concepts.js').concepts;
+const cMcq = require('./assets/learning/data/culture/culture-mcqs.js').mcqs;
+const cPyq = require('./assets/learning/data/culture/culture-pyq-mapping.js').pyqs;
+
+const gCh = require('./assets/learning/data/geography/geography-chapters.js').chapters;
+const gTop = require('./assets/learning/data/geography/geography-topics.js').topics;
+const gCon = require('./assets/learning/data/geography/geography-concepts.js').concepts;
+const gMcq = require('./assets/learning/data/geography/geography-mcqs.js').mcqs;
+const gPyq = require('./assets/learning/data/geography/geography-pyq-mapping.js').pyqs;
+
+const pCh = require('./assets/learning/data/polity/polity-chapters.js').chapters;
+const pTop = require('./assets/learning/data/polity/polity-topics.js').topics;
+const pCon = require('./assets/learning/data/polity/polity-concepts.js').concepts;
+const pMcq = require('./assets/learning/data/polity/polity-mcqs.js').mcqs;
+const pPyq = require('./assets/learning/data/polity/polity-pyq-mapping.js').pyqs;
+
+const eCh = require('./assets/learning/data/economy/economy-chapters.js').chapters;
+const eTop = require('./assets/learning/data/economy/economy-topics.js').topics;
+const eCon = require('./assets/learning/data/economy/economy-concepts.js').concepts;
+const eMcq = require('./assets/learning/data/economy/economy-mcqs.js').mcqs;
+const ePyq = require('./assets/learning/data/economy/economy-pyq-mapping.js').pyqs;
+
+console.log(
+  hCh.length, hTop.length, Object.keys(hCon).length, hMcq.length, hPyq.length,
+  cCh.length, cTop.length, Object.keys(cCon).length, cMcq.length, cPyq.length,
+  gCh.length, gTop.length, Object.keys(gCon).length, gMcq.length, gPyq.length,
+  pCh.length, pTop.length, Object.keys(pCon).length, pMcq.length, pPyq.length,
+  eCh.length, eTop.length, Object.keys(eCon).length, eMcq.length, ePyq.length
+);
+"""
+res_gk = subprocess.run(['node', '-e', script_gk], capture_output=True, text=True)
+if res_gk.returncode != 0:
+    print("GK eval error:", res_gk.stderr)
+    gk_vals = [0]*25
+else:
+    gk_vals = list(map(int, res_gk.stdout.strip().split()))
+
+h_ch, h_top, h_con, h_mcq, h_pyq = gk_vals[0:5]
+c_ch, c_top, c_con, c_mcq, c_pyq = gk_vals[5:10]
+g_ch, g_top, g_con, g_mcq, g_pyq = gk_vals[10:15]
+p_ch, p_top, p_con, p_mcq, p_pyq = gk_vals[15:20]
+e_ch, e_top, e_con, e_mcq, e_pyq = gk_vals[20:25]
+
+test("History of India: 15 Ch, 38 Top, 38 Concepts, 160 MCQs, 52 PYQs",
+     h_ch == 15 and h_top == 38 and h_con == 38 and h_mcq == 160 and h_pyq == 52,
+     f"Got {h_ch} ch, {h_top} top, {h_con} con, {h_mcq} mcq, {h_pyq} pyq")
+
+test("Indian Culture: 12 Ch, 28 Top, 28 Concepts, 120 MCQs, 30 PYQs",
+     c_ch == 12 and c_top == 28 and c_con == 28 and c_mcq == 120 and c_pyq == 30,
+     f"Got {c_ch} ch, {c_top} top, {c_con} con, {c_mcq} mcq, {c_pyq} pyq")
+
+test("Indian Geography: 12 Ch, 32 Top, 32 Concepts, 140 MCQs, 48 PYQs",
+     g_ch == 12 and g_top == 32 and g_con == 32 and g_mcq == 140 and g_pyq == 48,
+     f"Got {g_ch} ch, {g_top} top, {g_con} con, {g_mcq} mcq, {g_pyq} pyq")
+
+test("Indian Polity: 12 Ch, 30 Top, 30 Concepts, 140 MCQs, 60 PYQs",
+     p_ch == 12 and p_top == 30 and p_con == 30 and p_mcq == 140 and p_pyq == 60,
+     f"Got {p_ch} ch, {p_top} top, {p_con} con, {p_mcq} mcq, {p_pyq} pyq")
+
+test("Indian Economy: 14 Ch, 34 Top, 34 Concepts, 140 MCQs, 38 PYQs",
+     e_ch == 14 and e_top == 34 and e_con == 34 and e_mcq == 140 and e_pyq == 38,
+     f"Got {e_ch} ch, {e_top} top, {e_con} con, {e_mcq} mcq, {e_pyq} pyq")
+
+gk_ch_tot = h_ch + c_ch + g_ch + p_ch + e_ch
+gk_top_tot = h_top + c_top + g_top + p_top + e_top
+gk_con_tot = h_con + c_con + g_con + p_con + e_con
+gk_mcq_tot = h_mcq + c_mcq + g_mcq + p_mcq + e_mcq
+gk_pyq_tot = h_pyq + c_pyq + g_pyq + p_pyq + e_pyq
+
+test("Total GK modules: 65 Chapters, 162 Topics, 162 Concepts, 700 MCQs, 228 PYQs",
+     gk_ch_tot == 65 and gk_top_tot == 162 and gk_con_tot == 162 and gk_mcq_tot == 700 and gk_pyq_tot == 228,
+     f"Got {gk_ch_tot} ch, {gk_top_tot} top, {gk_con_tot} con, {gk_mcq_tot} mcq, {gk_pyq_tot} pyq")
+
+grand_chapters = total_chapters + gk_ch_tot
+grand_topics = total_topics + gk_top_tot
+grand_concepts = total_concepts + gk_con_tot
+grand_mcqs = mcq_total + gk_mcq_tot
+grand_pyqs = 615 + gk_pyq_tot
+
+test("Grand Total Academy Chapters across all 22 subjects equals exactly 192", grand_chapters == 192, f"Got {grand_chapters}")
+test("Grand Total Academy Topics across all 22 subjects equals exactly 535", grand_topics == 535, f"Got {grand_topics}")
+test("Grand Total Authored Concepts across all 22 subjects equals exactly 535", grand_concepts == 535, f"Got {grand_concepts}")
+test("Grand Total Practice MCQs across all 22 subjects equals exactly 3,775", grand_mcqs == 3775, f"Got {grand_mcqs}")
+test("Grand Total Mapped Authentic PYQs across all 22 subjects equals exactly 843", grand_pyqs == 843, f"Got {grand_pyqs}")
+
 # Final Result
 print("\n================================================================================")
 if len(errors) == 0:
     print("ALL TESTS PASSED! (100% SUCCESS RATE)")
-    print("V3.1 Phase 5 Complete Social Legislation Learning Academy is 100% verified!")
+    print("V3.1 Phase 6 Complete General Knowledge Learning Academy is 100% verified!")
     print("================================================================================")
     sys.exit(0)
 else:

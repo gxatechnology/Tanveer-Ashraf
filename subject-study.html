@@ -205,7 +205,7 @@
       </div>
 
       <footer class="site-footer">
-        Judicial Prep · Designed for Tanveer Ashraf by Tauqeer Ashraf · 
+        Judicial Prep · Designed for Tanveer Ashraf by Tauqeer Ashraf ·
         <a href="about.html">Independent preparation portal</a>
       </footer>
     </main>
@@ -310,10 +310,56 @@
   <script src="assets/learning/data/social/social-mcqs.js"></script>
   <script src="assets/learning/data/social/social-pyq-mapping.js"></script>
 
+  <!-- HISTORY OF INDIA -->
+  <script src="assets/learning/data/history/history-chapters.js"></script>
+  <script src="assets/learning/data/history/history-topics.js"></script>
+  <script src="assets/learning/data/history/history-concepts-part1.js"></script>
+  <script src="assets/learning/data/history/history-concepts-part2.js"></script>
+  <script src="assets/learning/data/history/history-concepts-part3.js"></script>
+  <script src="assets/learning/data/history/history-concepts.js"></script>
+  <script src="assets/learning/data/history/history-mcqs.js"></script>
+  <script src="assets/learning/data/history/history-pyq-mapping.js"></script>
+
+  <!-- INDIAN CULTURE -->
+  <script src="assets/learning/data/culture/culture-chapters.js"></script>
+  <script src="assets/learning/data/culture/culture-topics.js"></script>
+  <script src="assets/learning/data/culture/culture-concepts-part1.js"></script>
+  <script src="assets/learning/data/culture/culture-concepts-part2.js"></script>
+  <script src="assets/learning/data/culture/culture-concepts.js"></script>
+  <script src="assets/learning/data/culture/culture-mcqs.js"></script>
+  <script src="assets/learning/data/culture/culture-pyq-mapping.js"></script>
+
+  <!-- INDIAN GEOGRAPHY -->
+  <script src="assets/learning/data/geography/geography-chapters.js"></script>
+  <script src="assets/learning/data/geography/geography-topics.js"></script>
+  <script src="assets/learning/data/geography/geography-concepts-part1.js"></script>
+  <script src="assets/learning/data/geography/geography-concepts-part2.js"></script>
+  <script src="assets/learning/data/geography/geography-concepts.js"></script>
+  <script src="assets/learning/data/geography/geography-mcqs.js"></script>
+  <script src="assets/learning/data/geography/geography-pyq-mapping.js"></script>
+
+  <!-- INDIAN POLITY -->
+  <script src="assets/learning/data/polity/polity-chapters.js"></script>
+  <script src="assets/learning/data/polity/polity-topics.js"></script>
+  <script src="assets/learning/data/polity/polity-concepts-part1.js"></script>
+  <script src="assets/learning/data/polity/polity-concepts-part2.js"></script>
+  <script src="assets/learning/data/polity/polity-concepts.js"></script>
+  <script src="assets/learning/data/polity/polity-mcqs.js"></script>
+  <script src="assets/learning/data/polity/polity-pyq-mapping.js"></script>
+
+  <!-- INDIAN ECONOMY -->
+  <script src="assets/learning/data/economy/economy-chapters.js"></script>
+  <script src="assets/learning/data/economy/economy-topics.js"></script>
+  <script src="assets/learning/data/economy/economy-concepts-part1.js"></script>
+  <script src="assets/learning/data/economy/economy-concepts-part2.js"></script>
+  <script src="assets/learning/data/economy/economy-concepts.js"></script>
+  <script src="assets/learning/data/economy/economy-mcqs.js"></script>
+  <script src="assets/learning/data/economy/economy-pyq-mapping.js"></script>
+
 
   <!-- Statutory Comparison Dataset -->
   <script src="assets/learning/data/comparison/criminal-statutory-comparisons.js"></script>
-  
+
   <!-- Logic Engines -->
   <script src="assets/learning/js/learning-storage.js"></script>
   <script src="assets/learning/js/learning-engine.js"></script>
@@ -375,7 +421,7 @@
           html += `
             <div class="chapter-nav-group">
               <div class="chapter-nav-head ${isActiveChapter ? 'is-active-chapter' : ''}" data-ch-id="${ch.id}">
-                <span>${ch.number}. ${ch.title}</span>
+                <span>${ch.number || ch.order || ''}. ${ch.title}</span>
                 <small style="opacity: 0.8;">${completedInCh}/${chTopics.length}</small>
               </div>
               <ul class="topic-nav-sublist" style="${isActiveChapter ? 'display: block;' : 'display: none;'}">
@@ -384,8 +430,8 @@
                   const isRead = !!completedTopics[t.id];
                   return `
                     <li>
-                      <a href="subject-study.html?subject=${subjectId}&chapter=${ch.id}&topic=${t.id}" 
-                         class="topic-nav-link ${isActiveTopic ? 'is-active-topic' : ''} ${isRead ? 'is-read-topic' : ''}" 
+                      <a href="subject-study.html?subject=${subjectId}&chapter=${ch.id}&topic=${t.id}"
+                         class="topic-nav-link ${isActiveTopic ? 'is-active-topic' : ''} ${isRead ? 'is-read-topic' : ''}"
                          title="${t.title}">
                         ${t.title}
                       </a>

@@ -89,7 +89,7 @@ function home(){
     `;
   }
 
-  // Compute Academy stats dynamically from Registry or Phase 5 verified baseline
+  // Compute Academy stats dynamically from Registry or Phase 6 verified baseline
   const getAcademyStats = () => {
     if (window.LearningEngine && typeof window.LearningEngine.getStats === 'function') {
       return window.LearningEngine.getStats();
@@ -105,11 +105,11 @@ function home(){
       };
     }
     return {
-      activeSubjects: 17,
-      chapters: 127,
-      topics: 373,
-      mcqs: 3075,
-      pyqs: 615
+      activeSubjects: 22,
+      chapters: 192,
+      topics: 535,
+      mcqs: 3775,
+      pyqs: 843
     };
   };
   const academyStats = getAcademyStats();

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%" height="100%">
+  <defs><linearGradient id="mpbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="370" fill="url(#mpbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">RESERVE BANK OF INDIA: MONETARY POLICY TOOLS &amp; TRANSMISSION</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Quantitative &amp; Qualitative Instruments, Key Policy Rates &amp; Inflation Control (Flexible Target 4% ± 2%)</text>
+
+  <g transform="translate(30, 75)">
+    <!-- Quantitative Tools -->
+    <rect x="0" y="0" width="415" height="210" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="415" height="28" rx="8" fill="#142c46"/>
+    <text x="207" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">QUANTITATIVE / GENERAL INSTRUMENTS</text>
+    <text x="15" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">1. Liquidity Adjustment Facility (LAF):</text>
+    <text x="20" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• REPO RATE: Rate at which RBI lends short-term money to commercial banks against government securities (Policy Rate).</text>
+    <text x="20" y="82" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• STANDING DEPOSIT FACILITY (SDF): Introduced 2022; tool to absorb excess liquidity without collateral requirement.</text>
+    <text x="20" y="98" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• MARGINAL STANDING FACILITY (MSF): Penal overnight borrowing rate for banks dipping into SLR quota.</text>
+    <text x="15" y="120" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">2. Reserve Requirements:</text>
+    <text x="20" y="138" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• CASH RESERVE RATIO (CRR): Percentage of Net Demand &amp; Time Liabilities (NDTL) banks MUST park in CASH with RBI (no interest earned).</text>
+    <text x="20" y="154" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• STATUTORY LIQUIDITY RATIO (SLR): Percentage of NDTL banks MUST maintain in liquid assets (Gold, G-Secs, Cash) with THEMSELVES.</text>
+    <text x="15" y="176" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">3. Open Market Operations (OMO):</text>
+    <text x="20" y="194" font-family="system-ui, sans-serif" font-size="9" fill="#607387">RBI buys/sells G-Secs directly: Selling G-Secs absorbs cash (deflationary); Buying G-Secs injects liquidity (expansionary).</text>
+
+    <!-- Qualitative Tools -->
+    <rect x="445" y="0" width="415" height="210" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="445" y="0" width="415" height="28" rx="8" fill="#137d72"/>
+    <text x="652" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">QUALITATIVE / SELECTIVE INSTRUMENTS</text>
+    <text x="460" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">1. Margin Requirements (LTV Ratio):</text>
+    <text x="465" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Proportion of loan value borrower must fund from own equity.</text>
+    <text x="465" y="82" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Raising margin reduces credit flow to speculative sectors.</text>
+    <text x="460" y="104" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">2. Moral Suasion:</text>
+    <text x="465" y="122" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Informal directives, persuasion and periodic conferences</text>
+    <text x="465" y="138" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">  by RBI Governor to adhere to credit guidelines.</text>
+    <text x="460" y="160" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">3. Credit Rationing &amp; Priority Sector Lending (PSL):</text>
+    <text x="465" y="178" font-family="system-ui, sans-serif" font-size="9" fill="#1c2e40">• Mandatory target: 40% of Adjusted Net Bank Credit (ANBC)</text>
+    <text x="465" y="194" font-family="system-ui, sans-serif" font-size="9" fill="#137d72">  must go to Agriculture, MSMEs, Education, Housing, Weaker Sections.</text>
+  </g>
+
+  <!-- Bottom MPC Rule -->
+  <g transform="translate(30, 300)">
+    <rect x="0" y="0" width="860" height="55" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="15" y="22" font-family="Georgia, serif" font-size="11.5" font-weight="bold" fill="#dfbf80">MONETARY POLICY COMMITTEE (MPC) — STATUTORY SETUP (RBI ACT S. 45ZB):</text>
+    <text x="15" y="42" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">6 Members: 3 from RBI (Governor as Ex-officio Chair with casting vote) + 3 external experts appointed by Central Govt. Target: CPI Inflation 4% with tolerance band of ± 2% (2% to 6%).</text>
+  </g>
+</svg>

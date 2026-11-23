@@ -31,6 +31,11 @@
       if (tid.startsWith('top-crpc-')) return 'law-crpc';
       if (tid.startsWith('top-evi-')) return 'law-evidence';
       if (tid.startsWith('top-cpc-')) return 'law-cpc';
+      if (tid.startsWith('top-hist-')) return 'gk-history';
+      if (tid.startsWith('top-cult-')) return 'gk-culture';
+      if (tid.startsWith('top-geo-')) return 'gk-geography';
+      if (tid.startsWith('top-pol-')) return 'gk-polity';
+      if (tid.startsWith('top-econ-')) return 'gk-economy';
       return 'law-constitution';
     },
 
@@ -168,8 +173,10 @@
       let html = '';
 
       // 1. Overview Section
-      const hasOverview = concept.overview || concept.introduction || concept.detailedExplanation;
+      const hasOverview = concept.overview || concept.introduction || concept.detailedExplanation || concept.fullNotes;
       if (hasOverview) {
+        const introText = concept.introduction || (typeof concept.overview === 'string' ? concept.overview : (concept.overview && concept.overview.concept ? concept.overview.concept : ''));
+        const detailedText = concept.detailedExplanation || concept.fullNotes || '';
         html += `
           <section class="concept-section" id="sec-overview">
             <h2 class="section-title"><span class="title-icon">🏛️</span> 1. ${subjectId === 'law-constitution' ? 'Constitutional' : (subjectId === 'law-cpc' ? 'Procedural' : (subjectId && subjectId.startsWith('soc-') ? 'Statutory' : 'Academic'))} Overview &amp; Blueprint</h2>
@@ -183,18 +190,17 @@
             ` : ''}
             <div class="callout callout-info">
               ${concept.learningObjective ? `<p><strong>🎯 Learning Objective:</strong> ${concept.learningObjective}</p>` : ''}
-              ${concept.introduction ? `<p><strong>Core Concept:</strong> ${concept.introduction}</p>` : ''}
-              ${concept.overview && concept.overview.concept ? `<p><strong>Core Concept:</strong> ${concept.overview.concept}</p>` : ''}
-              ${concept.overview && concept.overview.background ? `<p><strong>Historical Context:</strong> ${concept.overview.background}</p>` : ''}
-              ${concept.overview && concept.overview.scope ? `<p><strong>Jurisprudential Scope:</strong> ${concept.overview.scope}</p>` : ''}
-              ${concept.detailedExplanation ? `<div class="detailed-prose">${concept.detailedExplanation}</div>` : ''}
+              ${introText ? `<p><strong>Core Concept:</strong> ${introText}</p>` : ''}
+              ${concept.overview && typeof concept.overview === 'object' && concept.overview.background ? `<p><strong>Historical Context:</strong> ${concept.overview.background}</p>` : ''}
+              ${concept.overview && typeof concept.overview === 'object' && concept.overview.scope ? `<p><strong>Jurisprudential Scope:</strong> ${concept.overview.scope}</p>` : ''}
+              ${detailedText ? `<div class="detailed-prose">${detailedText}</div>` : ''}
             </div>
           </section>
         `;
       }
 
       // 2. Statutory Provisions (Bare Act Breakdown)
-      const provList = concept.provisions || concept.keyProvisions || [];
+      const provList = concept.provisions || concept.keyProvisions || concept.bareActCallouts || [];
       if (provList.length) {
         const isCriminalSubject = ['law-criminal', 'law-crpc', 'law-evidence'].includes(subjectId) ||
           provList.some(p => (p.article || p.provision || p.section || '').includes('BNS') || (p.article || p.provision || p.section || '').includes('IPC') || (p.article || p.provision || p.section || '').includes('BNSS') || (p.article || p.provision || p.section || '').includes('CrPC') || (p.article || p.provision || p.section || '').includes('BSA') || (p.article || p.provision || p.section || '').includes('IEA'));
@@ -277,7 +283,7 @@
       }
 
       // 4. Comparison Tables / Statutory Distinctions
-      const comparisonList = concept.comparisons || concept.comparisonTables || [];
+      const comparisonList = concept.comparisons || concept.comparisonTables || (concept.tableData ? [concept.tableData] : []);
       if (comparisonList.length) {
         html += `
           <section class="concept-section" id="sec-comparisons">
@@ -340,7 +346,8 @@
       }
 
       // 5. Diagrams / Visual Charts
-      const hasDiagrams = (concept.diagrams && concept.diagrams.length) || concept.diagramId;
+      const diagId = concept.diagramId || concept.diagram || '';
+      const hasDiagrams = (concept.diagrams && concept.diagrams.length) || diagId;
       if (hasDiagrams) {
         html += `
           <section class="concept-section" id="sec-diagrams">
@@ -354,11 +361,11 @@
                 ${diag.caption ? `<p class="diagram-caption">📌 ${diag.caption}</p>` : ''}
               </div>
             `).join('') : ''}
-            ${concept.diagramId ? `
+            ${diagId ? `
               <div class="diagram-viewer-card">
                 <h3 class="diagram-title">${topic.title} Schematic</h3>
                 <div class="diagram-img-box">
-                  <img src="assets/learning/images/diagrams/${concept.diagramId.endsWith('.svg') ? concept.diagramId : `${concept.diagramId}.svg`}" alt="${topic.title}" loading="lazy" class="responsive-diagram-svg" />
+                  <img src="assets/learning/images/diagrams/${diagId.endsWith('.svg') ? diagId : `${diagId}.svg`}" alt="${topic.title}" loading="lazy" class="responsive-diagram-svg" />
                 </div>
                 ${concept.diagramExplanation ? `<p class="diagram-caption">📌 ${concept.diagramExplanation}</p>` : ''}
               </div>
@@ -368,7 +375,7 @@
       }
 
       // 6. Interactive Flashcards
-      let flashcardsList = concept.flashcards || [];
+      let flashcardsList = concept.flashcards || concept.activeRecall || [];
       if ((!flashcardsList || !flashcardsList.length) && provList.length) {
         flashcardsList = provList.slice(0, 3).map((p, idx) => ({
           front: `What is the key statutory mandate under ${p.section || p.article || p.provision || `Provision ${idx + 1}`}?`,
@@ -442,7 +449,7 @@
     // ------------------------------------------------------------------------
     buildQuickRevisionHtml: function (concept, topic) {
       const q = concept.quickRevision || {};
-      const quickPoints = q.keyPoints || concept.quickRevisionPoints || [];
+      const quickPoints = q.keyPoints || concept.quickRevisionPoints || (Array.isArray(concept.quickRevision) ? concept.quickRevision : (concept.keyTakeaways || []));
 
       let html = `
         <div class="quick-revision-wrapper">
@@ -473,11 +480,11 @@
                 `).join('')}
               </div>
             </div>
-          ` : ((concept.provisions || concept.keyProvisions) && (concept.provisions || concept.keyProvisions).length ? `
+          ` : ((concept.provisions || concept.keyProvisions || concept.bareActCallouts) && (concept.provisions || concept.keyProvisions || concept.bareActCallouts).length ? `
             <div class="quick-card">
               <h3 class="quick-card-title">⚖️ Crucial Statutory Provisions</h3>
               <div class="quick-articles-grid">
-                ${(concept.provisions || concept.keyProvisions).map(p => `
+                ${(concept.provisions || concept.keyProvisions || concept.bareActCallouts).map(p => `
                   <div class="quick-art-pill">
                     <strong>${p.article || p.provision || p.section || 'Provision'}:</strong> ${p.title || p.heading ? `${p.title || p.heading} — ` : ''}${p.description || p.breakdown || p.text || ''}
                   </div>
@@ -591,7 +598,7 @@
             const concept = global.LearningEngine.getConceptByTopicId(topicId);
             const topic = global.LearningEngine.getTopicById(topicId);
             if (bodyEl && concept && topic) {
-              bodyEl.innerHTML = (newMode === 'quick') ? 
+              bodyEl.innerHTML = (newMode === 'quick') ?
                 ConceptRenderer.buildQuickRevisionHtml(concept, topic) :
                 ConceptRenderer.buildDetailedHtml(concept, topic);
               ConceptRenderer.bindFlashcards(containerEl);

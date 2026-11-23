@@ -19,12 +19,13 @@
       description: 'Ancient, Medieval and Modern Indian history, freedom movement, national renaissance, and historical constitutional milestones.',
       icon: '🏛️',
       illustration: 'assets/learning/images/subjects/history.svg',
-      status: 'upcoming',
-      chaptersCount: 0,
-      topicsCount: 0,
-      mcqsCount: 0,
-      pyqsCount: 62,
-      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I'
+      status: 'active',
+      chaptersCount: 15,
+      topicsCount: 38,
+      mcqsCount: 160,
+      pyqsCount: 52,
+      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I',
+      badge: 'Active Mastery Module'
     },
     {
       id: 'gk-culture',
@@ -35,12 +36,13 @@
       description: 'Indian art, architecture, classical literature, philosophical traditions, performing arts, religious movements, and cultural heritage.',
       icon: '🎨',
       illustration: 'assets/learning/images/subjects/culture.svg',
-      status: 'upcoming',
-      chaptersCount: 0,
-      topicsCount: 0,
-      mcqsCount: 0,
-      pyqsCount: 28,
-      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I'
+      status: 'active',
+      chaptersCount: 12,
+      topicsCount: 28,
+      mcqsCount: 120,
+      pyqsCount: 30,
+      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I',
+      badge: 'Active Mastery Module'
     },
     {
       id: 'gk-geography',
@@ -51,12 +53,13 @@
       description: 'Physical geography of India, river systems, climate, mineral and forest resources, agriculture, demography, and economic geography.',
       icon: '🗺️',
       illustration: 'assets/learning/images/subjects/geography.svg',
-      status: 'upcoming',
-      chaptersCount: 0,
-      topicsCount: 0,
-      mcqsCount: 0,
-      pyqsCount: 35,
-      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I'
+      status: 'active',
+      chaptersCount: 12,
+      topicsCount: 32,
+      mcqsCount: 140,
+      pyqsCount: 48,
+      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I',
+      badge: 'Active Mastery Module'
     },
     {
       id: 'gk-polity',
@@ -67,12 +70,13 @@
       description: 'Political system, Panchayati Raj, public policy, rights issues, governance institutions, and administrative structure of Uttar Pradesh and the Union.',
       icon: '🏛️',
       illustration: 'assets/learning/images/subjects/polity.svg',
-      status: 'upcoming',
-      chaptersCount: 0,
-      topicsCount: 0,
-      mcqsCount: 0,
-      pyqsCount: 72,
-      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I'
+      status: 'active',
+      chaptersCount: 12,
+      topicsCount: 30,
+      mcqsCount: 140,
+      pyqsCount: 60,
+      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I',
+      badge: 'Active Mastery Module'
     },
     {
       id: 'gk-current',
@@ -115,12 +119,13 @@
       description: 'Economic planning, fiscal and monetary policies, banking, taxation, union budget, inflation, foreign trade, and rural development.',
       icon: '📈',
       illustration: 'assets/learning/images/subjects/economy.svg',
-      status: 'upcoming',
-      chaptersCount: 0,
-      topicsCount: 0,
-      mcqsCount: 0,
-      pyqsCount: 57,
-      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I'
+      status: 'active',
+      chaptersCount: 14,
+      topicsCount: 34,
+      mcqsCount: 140,
+      pyqsCount: 38,
+      curriculumRef: 'UP PCS-J Syllabus 2026-27 Paper I',
+      badge: 'Active Mastery Module'
     },
     {
       id: 'gk-international',

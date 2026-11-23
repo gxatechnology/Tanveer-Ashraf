@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" height="100%">
+  <defs><linearGradient id="pgbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="380" fill="url(#pgbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">PHYSIOGRAPHIC DIVISIONS OF INDIA</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Six Major Relief Divisions · Geological Structure &amp; Geomorphology</text>
+
+  <g transform="translate(25, 75)">
+    <!-- 1. The Himalayas -->
+    <rect x="0" y="0" width="275" height="120" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="275" height="24" rx="8" fill="#142c46"/>
+    <text x="137" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">1. THE HIMALAYAN MOUNTAINS</text>
+    <text x="10" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Young fold mountains (Tertiary origin)</text>
+    <text x="10" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Himadri (Greater), Himachal (Lesser), Shiwaliks (Outer)</text>
+    <text x="10" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Length: ~2,400 km; Width: 150–400 km</text>
+    <text x="10" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">• Highest peak in India: Kanchenjunga (8,586 m)</text>
+    <text x="10" y="108" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">Source of perennial river systems</text>
+
+    <!-- 2. Northern Plains -->
+    <rect x="295" y="0" width="295" height="120" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="295" y="0" width="295" height="24" rx="8" fill="#137d72"/>
+    <text x="442" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff">2. NORTHERN FERTILE PLAINS (INCL. UP)</text>
+    <text x="305" y="42" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#142c46">• Alluvial deposition of Indus, Ganga &amp; Brahmaputra</text>
+    <text x="305" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• 4 Geomorphic Zones: Bhabar (pebbles), Terai (marshy),</text>
+    <text x="305" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">  Bhangar (older alluvium with Kankar), Khadar (new alluvium)</text>
+    <text x="305" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">• Granary of India; densest population</text>
+    <text x="305" y="108" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#142c46">UP lies in Upper &amp; Middle Ganga Plain</text>
+
+    <!-- 3. Peninsular Plateau -->
+    <rect x="610" y="0" width="260" height="120" rx="8" fill="#ffffff"/>
+    <rect x="610" y="0" width="260" height="24" rx="8" fill="#142c46"/>
+    <text x="740" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">3. PENINSULAR PLATEAU</text>
+    <text x="620" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Oldest &amp; most stable landmass (Gondwanaland)</text>
+    <text x="620" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Central Highlands (Malwa, Bundelkhand)</text>
+    <text x="620" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Deccan Plateau: Basaltic Black soil (Deccan Trap)</text>
+    <text x="620" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">• Rich mineral storehouse of India (Chota Nagpur)</text>
+    <text x="620" y="108" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">Bundelkhand &amp; Baghelkhand in S. UP</text>
+
+    <!-- Row 2 -->
+    <!-- 4. Indian Desert -->
+    <rect x="0" y="135" width="275" height="120" rx="8" fill="#ffffff"/>
+    <rect x="0" y="135" width="275" height="24" rx="8" fill="#142c46"/>
+    <text x="137" y="151" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">4. THE GREAT INDIAN DESERT (THAR)</text>
+    <text x="10" y="177" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• West of Aravalli Range; arid topography</text>
+    <text x="10" y="193" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Annual rainfall &lt; 150 mm; xerophytic vegetation</text>
+    <text x="10" y="209" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Crescent sand dunes: Barchans</text>
+    <text x="10" y="225" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">• Only prominent river: Luni (inland drainage)</text>
+    <text x="10" y="243" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#b98a38">Indira Gandhi Canal irrigation lifeline</text>
+
+    <!-- 5. Coastal Plains -->
+    <rect x="295" y="135" width="295" height="120" rx="8" fill="#ffffff"/>
+    <rect x="295" y="135" width="295" height="24" rx="8" fill="#137d72"/>
+    <text x="442" y="151" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff">5. COASTAL PLAINS (WEST &amp; EAST)</text>
+    <text x="305" y="177" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Western Coastal Plain: Narrow, submergent coast;</text>
+    <text x="305" y="193" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">  Konkan, Kannad, Malabar (Kayals/Lagoons, Estuaries)</text>
+    <text x="305" y="209" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Eastern Coastal Plain: Broad, emergent coast;</text>
+    <text x="305" y="225" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">  Northern Circars, Coromandel (Mahanadi, Godavari deltas)</text>
+    <text x="305" y="243" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Chilika (Odisha): Largest brackish lagoon</text>
+
+    <!-- 6. The Islands -->
+    <rect x="610" y="135" width="260" height="120" rx="8" fill="#ffffff"/>
+    <rect x="610" y="135" width="260" height="24" rx="8" fill="#142c46"/>
+    <text x="740" y="151" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">6. THE ISLANDS (A&amp;N &amp; LAKSHADWEEP)</text>
+    <text x="620" y="177" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Andaman &amp; Nicobar (Bay of Bengal): Volcanic origin;</text>
+    <text x="620" y="193" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">  Barren Island (active volcano); 10° Channel separates A &amp; N</text>
+    <text x="620" y="209" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Lakshadweep (Arabian Sea): Coral atoll origin;</text>
+    <text x="620" y="225" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">  9° Channel separates Minicoy; 8° Channel from Maldives</text>
+    <text x="620" y="243" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">Indira Point: 6°45' N (Southernmost point)</text>
+  </g>
+
+  <!-- Bottom Coordinates -->
+  <g transform="translate(25, 335)">
+    <text x="435" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dfbf80">Standard Meridian of India: 82°30' E passing through Mirzapur / Prayagraj (Uttar Pradesh) · IST is UTC +05:30.</text>
+  </g>
+</svg>

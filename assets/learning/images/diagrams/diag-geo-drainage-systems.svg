@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%" height="100%">
+  <defs><linearGradient id="dsgbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="370" fill="url(#dsgbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">INDIAN DRAINAGE SYSTEMS: HIMALAYAN VS PENINSULAR</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Comparative Hydrography, Major Basins, Flow Directions &amp; Tributaries</text>
+
+  <g transform="translate(25, 75)">
+    <!-- Himalayan Rivers -->
+    <rect x="0" y="0" width="425" height="210" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="425" height="28" rx="8" fill="#142c46"/>
+    <text x="212" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">HIMALAYAN DRAINAGE SYSTEM</text>
+    <text x="15" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">• Perennial Nature: Fed by both rainfall &amp; melting snow</text>
+    <text x="15" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Antecedent Drainage: Pre-date Himalayas; cut deep gorges</text>
+    <text x="15" y="84" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Course: Long youthful courses, meanders, oxbow lakes, floodplains</text>
+    <text x="15" y="104" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">Three Master Basins:</text>
+    <text x="15" y="122" font-family="system-ui, sans-serif" font-size="9" fill="#607387">1. INDUS (2,880 km): Origin near Mansarovar (Bokhar Chu);</text>
+    <text x="20" y="138" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">  Jhelum, Chenab, Ravi, Beas, Satluj (Panjnad)</text>
+    <text x="15" y="156" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">2. GANGA (2,525 km): Origin Gangotri (Bhagirathi + Alaknanda at Devprayag);</text>
+    <text x="20" y="172" font-family="system-ui, sans-serif" font-size="8.5" fill="#137d72">  Left: Ramganga, Gomti, Ghaghara, Gandak, Kosi. Right: Yamuna, Son.</text>
+    <text x="15" y="190" font-family="system-ui, sans-serif" font-size="9" fill="#607387">3. BRAHMAPUTRA (2,900 km): Tsangpo in Tibet; Dihang in Arunachal;</text>
+    <text x="20" y="204" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">  Majuli island; Subansiri, Kameng, Manas, Teesta</text>
+
+    <!-- Peninsular Rivers -->
+    <rect x="445" y="0" width="425" height="210" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="445" y="0" width="425" height="28" rx="8" fill="#137d72"/>
+    <text x="657" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">PENINSULAR DRAINAGE SYSTEM</text>
+    <text x="460" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">• Non-Perennial / Ephemeral: Dependent exclusively on monsoon rainfall</text>
+    <text x="460" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Consequent / Superimposed: Mature, graded profiles, shallow valleys</text>
+    <text x="460" y="84" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Western Ghats act as the principal water divide</text>
+    <text x="460" y="104" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">East-Flowing (Bay of Bengal — Form Deltas):</text>
+    <text x="465" y="122" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• GODAVARI (1,465 km, Dakshin Ganga): Trimbak, Nasik; Penganga, Wainganga</text>
+    <text x="465" y="138" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• KRISHNA (1,400 km): Mahabaleshwar; Koyna, Tungabhadra, Bhima</text>
+    <text x="465" y="154" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• KAVERI (800 km): Brahmagiri; Shivanasamudra falls; Hemavati, Kabini</text>
+    <text x="465" y="170" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• MAHANADI (851 km): Sihawa (Chhattisgarh); Hirakud dam</text>
+    <text x="460" y="190" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#a63b49">West-Flowing (Arabian Sea — Form Estuaries, Rift Valleys):</text>
+    <text x="465" y="206" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• NARMADA (1,312 km, Amarkantak) &amp; TAPI (724 km, Betul, Multai)</text>
+  </g>
+
+  <!-- Bottom UP Drainage -->
+  <g transform="translate(25, 300)">
+    <rect x="0" y="0" width="870" height="55" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="15" y="22" font-family="Georgia, serif" font-size="11.5" font-weight="bold" fill="#dfbf80">UTTAR PRADESH RIVER NETWORKS &amp; CONFLUENCES:</text>
+    <text x="15" y="42" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">Prayagraj Sangam (Ganga, Yamuna, mythical Saraswati) • Gomti (origin Fulhar Jheel, Pilibhit, UP) flows through Lucknow, Sultanpur, Jaunpur • Yamuna enters UP at Saharanpur, exits into Ganga at Prayagraj.</text>
+  </g>
+</svg>

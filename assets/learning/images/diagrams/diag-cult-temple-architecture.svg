@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 370" width="100%" height="100%">
+  <defs><linearGradient id="tabg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="370" fill="url(#tabg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">INDIAN TEMPLE ARCHITECTURE: THREE MAIN STYLES</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Nagara (North), Dravida (South) &amp; Vesara / Hybrid (Deccan)</text>
+
+  <g transform="translate(30, 75)">
+    <!-- Nagara -->
+    <rect x="0" y="0" width="270" height="210" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="270" height="28" rx="8" fill="#142c46"/>
+    <text x="135" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">NAGARA STYLE (North India)</text>
+    <text x="15" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">• Region: Himalayas to Vindhyas</text>
+    <text x="15" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Plinth: Built on high raised platform (Jagati)</text>
+    <text x="15" y="84" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Tower: Curvilinear Shikhara (Latina/Rekha-Prasada)</text>
+    <text x="15" y="102" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Crowning: Amalaka (ribbed stone) + Kalasha</text>
+    <text x="15" y="120" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Boundary walls &amp; Gopurams: Absent</text>
+    <text x="15" y="138" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Garbhagriha under tallest Shikhara</text>
+    <text x="15" y="156" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• Sub-styles: Odisha, Khajuraho, Solanki</text>
+    <text x="15" y="174" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• UP Example: Dashavatara Temple, Deogarh (Lalitpur)</text>
+    <text x="15" y="192" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Panchayatana layout (5 shrines)</text>
+
+    <!-- Dravida -->
+    <rect x="295" y="0" width="270" height="210" rx="8" fill="#ffffff"/>
+    <rect x="295" y="0" width="270" height="28" rx="8" fill="#137d72"/>
+    <text x="430" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#fff">DRAVIDA STYLE (South India)</text>
+    <text x="310" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#142c46">• Region: Krishna river to Kanyakumari</text>
+    <text x="310" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Tower: Stepped pyramidal Vimana</text>
+    <text x="310" y="84" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Crowning: Octagonal / spherical Shikhara (dome)</text>
+    <text x="310" y="102" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• Gopuram: Monumental entrance gateway</text>
+    <text x="310" y="120" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• High enclosing compound boundary walls</text>
+    <text x="310" y="138" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Water reservoir / Temple tank (Kalyani) mandatory</text>
+    <text x="310" y="156" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Dvarapalas (fierce doorkeepers) at entrance</text>
+    <text x="310" y="174" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Dynasties: Pallava, Chola, Pandya, Vijayanagara</text>
+    <text x="310" y="192" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Brihadisvara Temple, Thanjavur (Rajaraja I)</text>
+
+    <!-- Vesara -->
+    <rect x="590" y="0" width="270" height="210" rx="8" fill="#ffffff"/>
+    <rect x="590" y="0" width="270" height="28" rx="8" fill="#142c46"/>
+    <text x="725" y="19" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">VESARA / HYBRID (Deccan)</text>
+    <text x="605" y="48" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#137d72">• Region: Vindhyas to Krishna (Karnataka)</text>
+    <text x="605" y="66" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Hybrid amalgamation of Nagara + Dravida</text>
+    <text x="605" y="84" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Plan: Often Stellate (star-shaped ground plan)</text>
+    <text x="605" y="102" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Low plinth with extensive chlorite schist carving</text>
+    <text x="605" y="120" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Reduced height Vimana with Nagara ornamentation</text>
+    <text x="605" y="138" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">• Dynasties: Chalukyas of Badami, Rashtrakutas,</text>
+    <text x="605" y="154" font-family="system-ui, sans-serif" font-size="9" fill="#142c46">  and Hoysalas of Belur &amp; Halebidu</text>
+    <text x="605" y="174" font-family="system-ui, sans-serif" font-size="9" fill="#607387">• Kailasa Temple, Ellora (Rashtrakuta Krishna I)</text>
+    <text x="605" y="192" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">Hoysala temples: UNESCO Heritage 2023</text>
+  </g>
+
+  <!-- Bottom Common Parts -->
+  <g transform="translate(30, 300)">
+    <rect x="0" y="0" width="860" height="55" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="15" y="22" font-family="Georgia, serif" font-size="11.5" font-weight="bold" fill="#dfbf80">FIVE UNIVERSAL STRUCTURAL ELEMENTS:</text>
+    <text x="15" y="42" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">1. Garbhagriha (Sanctum) • 2. Mandapa (Pillared Hall) • 3. Shikhara/Vimana (Spire) • 4. Antarala (Vestibule) • 5. Pradakshina Patha (Circumambulation)</text>
+  </g>
+</svg>

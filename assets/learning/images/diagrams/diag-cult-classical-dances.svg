@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" height="100%">
+  <defs><linearGradient id="cdbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="380" fill="url(#cdbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">THE EIGHT CLASSICAL DANCE FORMS OF INDIA</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Recognized by Sangeet Natak Akademi · Based on Bharata Muni's Natya Shastra</text>
+
+  <!-- 8 Cards Grid (4 columns, 2 rows) -->
+  <g transform="translate(20, 75)">
+    <!-- 1. Kathak (UP) -->
+    <rect x="0" y="0" width="205" height="120" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="2"/>
+    <rect x="0" y="0" width="205" height="24" rx="8" fill="#137d72"/>
+    <text x="102" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff">KATHAK (Uttar Pradesh)</text>
+    <text x="10" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Storytellers ('Katha kahe so Kathak')</text>
+    <text x="10" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Tatkar (footwork), Chakkars (spins)</text>
+    <text x="10" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Gharanas: Lucknow, Banaras, Jaipur</text>
+    <text x="10" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Nawab Wajid Ali Shah patron</text>
+    <text x="10" y="108" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">Birju Maharaj, Shambhu Maharaj</text>
+
+    <!-- 2. Bharatanatyam (TN) -->
+    <rect x="225" y="0" width="205" height="120" rx="8" fill="#ffffff"/>
+    <rect x="225" y="0" width="205" height="24" rx="8" fill="#142c46"/>
+    <text x="327" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">BHARATANATYAM (Tamil Nadu)</text>
+    <text x="235" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Oldest classical dance (Sadir / Dasi Attam)</text>
+    <text x="235" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Aramandi (half-sitting), Ekaharya</text>
+    <text x="235" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Repertoire: Alarippu to Thillana</text>
+    <text x="235" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Revival: Rukmini Devi Arundale</text>
+    <text x="235" y="108" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Tanjore Quartette codified format</text>
+
+    <!-- 3. Kathakali (Kerala) -->
+    <rect x="450" y="0" width="205" height="120" rx="8" fill="#ffffff"/>
+    <rect x="450" y="0" width="205" height="24" rx="8" fill="#142c46"/>
+    <text x="552" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">KATHAKALI (Kerala)</text>
+    <text x="460" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Dance-drama with elaborate makeup</text>
+    <text x="460" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Vesha: Paccha (noble), Kathi (villain)</text>
+    <text x="460" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Eye &amp; facial muscle manipulation</text>
+    <text x="460" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Songs in Manipravalam language</text>
+    <text x="460" y="108" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Revival: Vallathol Narayana Menon</text>
+
+    <!-- 4. Kuchipudi (AP) -->
+    <rect x="675" y="0" width="205" height="120" rx="8" fill="#ffffff"/>
+    <rect x="675" y="0" width="205" height="24" rx="8" fill="#142c46"/>
+    <text x="777" y="16" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">KUCHIPUDI (Andhra Pradesh)</text>
+    <text x="685" y="42" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Named after Kuchelapuram village</text>
+    <text x="685" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Siddhendra Yogi institutionalized</text>
+    <text x="685" y="74" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Tarangam (dancing on brass plate edge)</text>
+    <text x="685" y="90" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Water pot on head (Kumbha)</text>
+    <text x="685" y="108" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Both solo and dance-drama</text>
+
+    <!-- Row 2 -->
+    <!-- 5. Odissi (Odisha) -->
+    <rect x="0" y="135" width="205" height="120" rx="8" fill="#ffffff"/>
+    <rect x="0" y="135" width="205" height="24" rx="8" fill="#142c46"/>
+    <text x="102" y="151" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">ODISSI (Odisha)</text>
+    <text x="10" y="177" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Mahari (temple dancers) &amp; Gotipua</text>
+    <text x="10" y="193" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Tribhanga posture (three-bend curve)</text>
+    <text x="10" y="209" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Chowk (square geometric stance)</text>
+    <text x="10" y="225" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Themes from Jayadeva's Gita Govinda</text>
+    <text x="10" y="243" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Guru Kelucharan Mohapatra</text>
+
+    <!-- 6. Manipuri (Manipur) -->
+    <rect x="225" y="135" width="205" height="120" rx="8" fill="#ffffff"/>
+    <rect x="225" y="135" width="205" height="24" rx="8" fill="#142c46"/>
+    <text x="327" y="151" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">MANIPURI (Manipur)</text>
+    <text x="235" y="177" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Raasleela &amp; Sankirtana</text>
+    <text x="235" y="193" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Kumil (cylindrical stiff skirt)</text>
+    <text x="235" y="209" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Gentle, undulating, circular movements</text>
+    <text x="235" y="225" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Pung Cholom (drum dancing)</text>
+    <text x="235" y="243" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Revived by Rabindranath Tagore</text>
+
+    <!-- 7. Mohiniyattam (Kerala) -->
+    <rect x="450" y="135" width="205" height="120" rx="8" fill="#ffffff"/>
+    <rect x="450" y="135" width="205" height="24" rx="8" fill="#142c46"/>
+    <text x="552" y="151" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">MOHINIYATTAM (Kerala)</text>
+    <text x="460" y="177" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• 'Dance of the Enchantress' (Mohini)</text>
+    <text x="460" y="193" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Solo female performance</text>
+    <text x="460" y="209" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Lasya (delicate grace) emphasis</text>
+    <text x="460" y="225" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Kasavu costume (white/gold-bordered)</text>
+    <text x="460" y="243" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">Patron: Swathi Thirunal Rama Varma</text>
+
+    <!-- 8. Sattriya (Assam) -->
+    <rect x="675" y="135" width="205" height="120" rx="8" fill="#ffffff"/>
+    <rect x="675" y="135" width="205" height="24" rx="8" fill="#137d72"/>
+    <text x="777" y="151" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff">SATTRIYA (Assam)</text>
+    <text x="685" y="177" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Founded by Mahapurusha Sankaradeva</text>
+    <text x="685" y="193" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• 15th-century Vaishnavite monasteries (Satras)</text>
+    <text x="685" y="209" font-family="system-ui, sans-serif" font-size="8.5" fill="#142c46">• Ankiya Nat &amp; Borgeet musical base</text>
+    <text x="685" y="225" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">• Khol (drum) and Bor-tal (cymbals)</text>
+    <text x="685" y="243" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">Recognized in year 2000 (8th classical)</text>
+  </g>
+
+  <!-- Bottom Insight -->
+  <g transform="translate(20, 335)">
+    <text x="440" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#dfbf80">UP PCS-J Note: Ministry of Culture recognizes Chhau as 9th classical dance; Sangeet Natak Akademi officially recognizes 8 classical dances.</text>
+  </g>
+</svg>

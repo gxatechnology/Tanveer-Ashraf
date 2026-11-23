@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 390" width="100%" height="100%">
+  <defs><linearGradient id="nmbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142c46"/><stop offset="100%" stop-color="#1b3857"/></linearGradient></defs>
+  <rect width="920" height="390" fill="url(#nmbg)" rx="12"/>
+  <text x="460" y="34" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#dfbf80">INDIAN NATIONAL FREEDOM MOVEMENT: 1857 TO 1947</text>
+  <text x="460" y="54" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">Major Mass Movements, Revolutionary Struggles &amp; Constitutional Milestones</text>
+
+  <!-- 4 Phases Grid -->
+  <g transform="translate(25, 75)">
+    <!-- Phase 1: 1857 to Moderates -->
+    <rect x="0" y="0" width="205" height="210" rx="8" fill="#ffffff"/>
+    <rect x="0" y="0" width="205" height="26" rx="8" fill="#142c46"/>
+    <text x="102" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">1. EARLY PHASE (1857–1905)</text>
+    <text x="10" y="44" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• Revolt of 1857 (Meerut, UP):</text>
+    <text x="15" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Nana Saheb (Kanpur), Begum Hazrat Mahal (Lucknow), Rani Lakshmibai (Jhansi)</text>
+    <text x="10" y="86" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• 1885: INC Founded (Bombay)</text>
+    <text x="15" y="100" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">A.O. Hume, W.C. Bonnerjee (Pres)</text>
+    <text x="10" y="120" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• Moderate Era (1885–1905):</text>
+    <text x="15" y="134" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Dadabhai Naoroji (Drain of Wealth), Gokhale, Pherozeshah Mehta</text>
+    <text x="15" y="152" font-family="system-ui, sans-serif" font-size="8.5" fill="#1c2e40">Method: Prayer, Petition, Protest</text>
+    <text x="10" y="180" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#137d72">UP Focus: 1888 Allahabad INC</text>
+    <text x="15" y="196" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">George Yule (1st British President)</text>
+
+    <!-- Phase 2: Extremists & Home Rule -->
+    <rect x="220" y="0" width="205" height="210" rx="8" fill="#ffffff"/>
+    <rect x="220" y="0" width="205" height="26" rx="8" fill="#137d72"/>
+    <text x="322" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff">2. EXTREMIST ERA (1905–19)</text>
+    <text x="230" y="44" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• 1905: Partition of Bengal</text>
+    <text x="235" y="58" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Curzon; Swadeshi Movement; Boycott</text>
+    <text x="230" y="80" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• 1906: Muslim League (Dhaka)</text>
+    <text x="230" y="98" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• 1907: Surat Split (INC)</text>
+    <text x="235" y="112" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Lal-Bal-Pal vs Moderates</text>
+    <text x="230" y="132" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• 1916: Lucknow Pact (UP)</text>
+    <text x="235" y="146" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">INC &amp; League unity; Ambica Majumdar</text>
+    <text x="230" y="168" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• 1916: Home Rule League</text>
+    <text x="235" y="182" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Tilak (Poona) &amp; Annie Besant</text>
+    <text x="235" y="198" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#a63b49">1919: Jallianwala Bagh Massacre</text>
+
+    <!-- Phase 3: Gandhian Mass Movements -->
+    <rect x="440" y="0" width="215" height="210" rx="8" fill="#edf7f4" stroke="#137d72" stroke-width="1.5"/>
+    <rect x="440" y="0" width="215" height="26" rx="8" fill="#142c46"/>
+    <text x="547" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#dfbf80">3. GANDHIAN ERA (1919–39)</text>
+    <text x="450" y="44" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• Champaran (1917), Kheda (1918)</text>
+    <text x="450" y="62" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• 1920–22: Non-Cooperation (NCM)</text>
+    <text x="455" y="76" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Boycott of titles, schools, courts</text>
+    <text x="450" y="94" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#a63b49">• 1922: Chauri Chaura incident (UP)</text>
+    <text x="455" y="108" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Gorakhpur; Gandhi calls off NCM</text>
+    <text x="450" y="126" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• 1925: Kakori Train Action (UP)</text>
+    <text x="455" y="140" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">HRA: Bismil, Ashfaqullah, Roshan Singh</text>
+    <text x="450" y="158" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• 1930: Civil Disobedience (CDM)</text>
+    <text x="455" y="172" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Dandi Salt March (12 Mar – 6 Apr 1930)</text>
+    <text x="450" y="190" font-family="system-ui, sans-serif" font-size="8.5" font-weight="bold" fill="#142c46">1931 Gandhi-Irwin; 1932 Poona Pact</text>
+
+    <!-- Phase 4: Final Push to Independence -->
+    <rect x="670" y="0" width="200" height="210" rx="8" fill="#ffffff"/>
+    <rect x="670" y="0" width="200" height="26" rx="8" fill="#137d72"/>
+    <text x="770" y="18" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-weight="bold" fill="#fff">4. FREEDOM &amp; PARTITION (1940–47)</text>
+    <text x="680" y="44" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• 1940: August Offer &amp; Lahore Res</text>
+    <text x="680" y="62" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• 1942: Cripps Mission fails</text>
+    <text x="680" y="82" font-family="system-ui, sans-serif" font-size="9.5" font-weight="bold" fill="#a63b49">• Aug 1942: QUIT INDIA MOVEMENT</text>
+    <text x="685" y="98" font-family="system-ui, sans-serif" font-size="8.5" fill="#a63b49">"Do or Die"; Ballia Parallel Govt (UP)</text>
+    <text x="685" y="112" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Chittu Pandey in Ballia</text>
+    <text x="680" y="132" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• 1943: INA / Netaji Subhas Bose</text>
+    <text x="680" y="152" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#142c46">• 1946: Cabinet Mission Plan</text>
+    <text x="685" y="166" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Constituent Assembly setup</text>
+    <text x="680" y="186" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#137d72">• 15 Aug 1947: Independence</text>
+    <text x="685" y="200" font-family="system-ui, sans-serif" font-size="8.5" fill="#607387">Indian Independence Act 1947</text>
+  </g>
+
+  <!-- Summary Footer -->
+  <g transform="translate(25, 300)">
+    <rect x="0" y="0" width="845" height="70" rx="8" fill="#102847" stroke="#dfbf80" stroke-width="1"/>
+    <text x="20" y="24" font-family="Georgia, serif" font-size="12" font-weight="bold" fill="#dfbf80">UTTAR PRADESH FREEDOM STRUGGLE EPICENTRES:</text>
+    <text x="20" y="44" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">Meerut (1857 Outbreak) • Jhansi &amp; Kanpur (1857 Battles) • Allahabad (Anand Bhavan, 1923 Swaraj Party, Azad martyrdom at Alfred Park 1931)</text>
+    <text x="20" y="60" font-family="system-ui, sans-serif" font-size="9.5" fill="#ffffff">Lucknow (1916 Pact, 1936 All India Kisan Sabha) • Gorakhpur (Chauri Chaura 1922) • Ballia (Parallel Govt 1942 Chittu Pandey)</text>
+  </g>
+</svg>
